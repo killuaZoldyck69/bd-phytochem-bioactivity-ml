@@ -1,0 +1,13 @@
+source_page,category,term_or_control,definition_or_type,note
+plants.php (sidebar),search_control,input#searchdisease,text input (AJAX),Dynamic text input backed by AJAX (script.js -> ajax.php); no static <select> or <option> elements exist.
+dictionary.php,page_status,dictionary.php,HTTP 404 Not Found,Page is missing on mpbd.cu.ac.bd server
+pharmacology.php?pageno=1,pharmacology_glossary,Abdomen,The part of the trunk that lies  between the thorax and the pelvis.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Abortifacient,An agent that promotes abortion.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Abortion,The giving birth to an embryo or  fetus prior to the stage of viability (usually during first three months).,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Abscess,A circumscribed collection of pus.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Acidity,The state of being acid referring to  the gastric problems.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Acne,A disease marked by pimples. A pimple.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Adenitis,Inflammation of a gland.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Agglutination,A process of union in wound healing.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Ague,"Malarial fever marked by chill,  fever and sweating.","Pharmacology glossary entry (1 of 47 pages, 47 pages total)"
+pharmacology.php?pageno=1,pharmacology_glossary,Albuminuria,The presence of protein (Albumin) in urine.,"Pharmacology glossary entry (1 of 47 pages, 47 pages total)"

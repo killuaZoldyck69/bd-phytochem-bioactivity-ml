@@ -3,7 +3,7 @@
 **Audit Date**: 2026-09-24  
 **Project**: Phytochemical Data Pipeline for Bangladeshi Medicinal Plants  
 **Repository Root**: `F:\bmppd-thesis`  
-**Current Pipeline Milestone**: **Stage 6H Completed** (Full 916-Plant BMPPD Bulk Scraping & Failure Resolution Complete)
+**Current Pipeline Milestone**: **Stage 8A Completed** (MPBD Plant Detail-Page Scraping & Traditional-Use Data Extraction)
 
 ---
 
@@ -16,7 +16,7 @@ The pipeline adheres to strict research reproducibility standards:
 2. **Dataset immutability**: The master MPBD plant index (916 records) is cryptographically frozen via SHA-256 (`0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`).
 3. **Deterministic query resolution**: Syntactic decomposition of botanical author authority strings allows MPBD botanical binomials to query BMPPD successfully without scientific ambiguity or parent-binomial fallback leakage.
 4. **Zero-loss provenance tracking**: Every compound record in the consolidated dataset traces deterministically from `plant_index → source_query → bmpdd_query_name → source_page_url`.
-5. **Zero-failure operational state**: Following Stage 6H's initial pass and automated retry pass, all 916 MPBD plants have been queried against BMPPD with **0 fetch failures, 0 parse failures, and 0 failed plants remaining**.
+5. **Zero-failure operational state**: All 916 MPBD plants have been queried against BMPPD and all 916 detail pages have been retrieved from MPBD with **0 fetch failures, 0 parse failures, and 0 failed plants remaining**.
 
 ---
 
@@ -30,6 +30,7 @@ F:\bmppd-thesis\
 │
 ├── scrapers/
 │   ├── mpbd_scraper.py
+│   ├── mpbd_detail_scraper.py
 │   ├── mpbd_normalizer.py
 │   ├── mpbd_name_structure_analyzer.py
 │   ├── sitemap_parser.py
@@ -46,10 +47,14 @@ F:\bmppd-thesis\
 │       │   ├── index.csv
 │       │   ├── backfill_notes.csv
 │       │   └── *.html (93 files)
+│       ├── mpbd_details/
+│       │   ├── index.csv
+│       │   └── *.html (917 production cache files: 916 detail pages + pharmacology)
 │       └── bmppd/
 │           ├── index.csv
 │           ├── robots.txt
 │           └── *.html (916 production files + pilot files)
+
 │
 └── data/
     ├── raw/
@@ -61,6 +66,10 @@ F:\bmppd-thesis\
     │   │       ├── mpbd_plant_index_pages1_5.csv
     │   │       ├── mpbd_plant_index_pages1_20.csv
     │   │       └── mpbd_plant_index_pages21_21.csv
+    │   ├── mpbd_details/
+    │   │   ├── mpbd_detail_url_map.csv
+    │   │   ├── mpbd_disease_vocabulary.csv
+    │   │   └── mpbd_plant_details_raw.csv
     │   └── bmppd/
     │       ├── bmppd_compounds_raw.csv
     │       ├── bmppd_failed_plants.csv
@@ -68,21 +77,25 @@ F:\bmppd-thesis\
     │       └── bmppd_pilot_qc.csv
     │
     ├── processed/
-    │   └── mpbd/
-    │       ├── mpbd_plant_index_normalized.csv
-    │       ├── mpbd_botanical_reconciliation.csv
-    │       ├── mpbd_family_normalization.csv
-    │       ├── mpbd_reconciliation_manifest.json
-    │       ├── mpbd_bmppd_query_map.csv
-    │       └── bmppd_query_overrides.csv
+    │   ├── mpbd/
+    │   │   ├── mpbd_plant_index_normalized.csv
+    │   │   ├── mpbd_botanical_reconciliation.csv
+    │   │   ├── mpbd_family_normalization.csv
+    │   │   ├── mpbd_reconciliation_manifest.json
+    │   │   ├── mpbd_bmppd_query_map.csv
+    │   │   └── bmppd_query_overrides.csv
+    │   └── mpbd_details/
+    │       └── mpbd_disease_terms_long.csv
     │
     ├── attrition/
     │   ├── mpbd_attrition.csv
+    │   ├── mpbd_detail_attrition.csv
     │   └── bmppd_attrition.csv
     │
     └── quality/
         ├── mpbd_quality_report.md
         ├── mpbd_reconciliation_report.md
+        ├── mpbd_detail_scrape_report.md
         ├── mpbd_query_candidate_analysis.csv
         ├── mpbd_query_candidate_analysis.md
         ├── mpbd_infraspecific_review.csv
@@ -287,15 +300,40 @@ F:\bmppd-thesis\
   - `data/attrition/chembl_matching_attrition.csv`
   - `data/quality/label_feasibility_report.md`
 
+### 5.4 Scraper & Pipeline Script: Stage 8A Traditional-Use Data Extraction (`scrapers/mpbd_detail_scraper.py`)
+- **Objective**: Retrieve and systematically extract traditional medicinal uses, disease indications, vernacular nomenclature, and botanical details from the detail pages (`details.php?id=N`) of all 916 MPBD medicinal plants.
+- **Cache Architecture**: Dedicated SHA-256 hashed HTML disk cache at `scrapers/cache/mpbd_details/` (917 production HTML files, tracking via `index.csv` ledger).
+- **Execution & Politeness**:
+  - `robots.txt` compliance: HTTP 404 (RFC 9309 compliant, unrestricted public access).
+  - Rate limiting: 1.0s–1.5s randomized delays between live HTTP requests.
+  - Frozen master MPBD SHA-256 integrity check verified at start and finish: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`.
+- **Key Findings & Results**:
+  - **Zero Fetch / Parse Failures**: 916 / 916 plants (100.0%) successfully retrieved and parsed.
+  - **Site ID Alignment**: Detail site IDs span `4` to `925` (6 gaps: 92, 93, 199, 355, 582, 828, corresponding to 5 list-page duplicate entries + 1 omitted database ID). Zero duplicate site IDs in master alignment.
+  - **Field Completeness**: 100.0% of all 916 plants (and 100.0% of the 222 compound plants) possess populated `disease_raw` and `uses_raw` fields.
+  - **Botanical Consistency**: 0 botanical name mismatches (`name_mismatch`) and 0 family mismatches (`family_mismatch`).
+  - **Upstream Data Anomalies Documented**:
+    - Greek letter encoding loss confirmed upstream: literal `0x3F` (`?`) bytes in server HTTP responses (e.g. `?-cymene`).
+    - Upstream MySQL `VARCHAR(255)` database schema truncation in `Chemical Constituents` (e.g. terminating at 255 chars).
+    - `dictionary.php` returned HTTP 404; `pharmacology.php` contains a 47-page paginated glossary.
+  - **Disease Term Extraction**: 6,512 total term instances extracted into long format (`term_raw`, `term_light`), yielding 1,526 distinct light terms.
+- **Outputs**:
+  - `data/raw/mpbd_details/mpbd_detail_url_map.csv` (916 rows)
+  - `data/raw/mpbd_details/mpbd_disease_vocabulary.csv` (12 rows)
+  - `data/raw/mpbd_details/mpbd_plant_details_raw.csv` (916 rows)
+  - `data/processed/mpbd_details/mpbd_disease_terms_long.csv` (6,512 rows)
+  - `data/attrition/mpbd_detail_attrition.csv` (936 rows)
+  - `data/quality/mpbd_detail_scrape_report.md` (comprehensive audit report)
+
 ---
 
 ## 6. Next Stages in the Thesis Pipeline
 
-Following completion of Stage 7A, data acquisition and chemical curation are complete. The project is prepared for downstream machine learning modeling and botanical network integration:
+Following completion of Stage 8A, traditional-use data acquisition is complete across all 916 Bangladeshi medicinal plants. The project is prepared for disease taxonomy mapping, cross-database integration, and downstream modeling:
 
 | Stage | Focus | Planned Objectives |
 | :--- | :--- | :--- |
-| **Stage 7B / 8** | **Taxonomic Harmonization & Cross-Database Join** | Integrate POWO (Plants of the World Online) or GBIF to reconcile the 26 MPBD duplicate/synonym groups; join normalized MPBD botanical metadata with normalized BMPPD phytochemical profiles. |
+| **Stage 8B** | **Disease Taxonomy Harmonization & Ontology Mapping** | Define standard therapeutic categories (e.g., analgesia, anti-inflammatory, antimicrobial, metabolic) and map the 1,526 distinct disease terms with user validation. |
 | **Stage 9** | **Molecular Representation & Feature Engineering** | Compute Morgan / ECFP fingerprints, RDKit 2D physicochemical descriptors, and graph neural representations for the 7,317 unique molecules. |
-| **Stage 10** | **Machine Learning Bioactivity Modeling** | Train and evaluate benchmark classifiers (Random Forest, XGBoost, GNNs) on feasible target tasks identified in Stage 7A (Global strict bioactivity and high-confidence enzyme targets). |
+| **Stage 10** | **Machine Learning Bioactivity Modeling & Ethnobotanical Validation** | Train and evaluate benchmark classifiers (Random Forest, XGBoost, GNNs) on feasible target tasks identified in Stage 7A, and correlate predicted bioactivities with traditional medicinal indications. |
 

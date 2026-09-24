@@ -1,0 +1,6513 @@
+plant_index,term_raw,term_light
+1,Stomach pain,stomach pain
+1,carminative,carminative
+1,stimulantion,stimulantion
+1,antiseptic,antiseptic
+1,astringent,astringent
+1,boils,boils
+1,cold,cold
+1,fever,fever
+1,lice infestation,lice infestation
+2,Anal fissure,anal fissure
+2,constipation,constipation
+2,diarrhoea,diarrhoea
+2,dysmenorrhoea,dysmenorrhoea
+2,fever,fever
+2,flatulence,flatulence
+2,heat stroke,heat stroke
+2,hepatomegaly,hepatomegaly
+3,Constipation,constipation
+3,carminative,carminative
+3,ear diseases.,ear diseases
+4,Asthma,asthma
+4,cirorhosis,cirorhosis
+4,duodenal ulcer,duodenal ulcer
+4,eclampsia,eclampsia
+4,gastric tumor,gastric tumor
+4,gynaecological disease,gynaecological disease
+4,piles,piles
+4,stomach,stomach
+5,Skin diseases,skin diseases
+5,diarrhoea,diarrhoea
+5,lactopenia,lactopenia
+5,polymenorrhoea,polymenorrhoea
+5,rash,rash
+5,stomachache,stomachache
+5,toothache.,toothache
+6,Diarrhoea,diarrhoea
+6,dysentery,dysentery
+6,menorrhagia,menorrhagia
+6,bronchitis,bronchitis
+6,dry cough,dry cough
+6,sexual weakness,sexual weakness
+6,urinary trouble,urinary trouble
+6,diabetes,diabetes
+7,Inflammation and thickening of the vocal cords,inflammation and thickening of the vocal cords
+7,cooling,cooling
+7,laxative,laxative
+7,allay thirst,allay thirst
+7,fevers,fevers
+7,burning sensations,burning sensations
+7,vermifuge,vermifuge
+7,purgative,purgative
+7,anthelmintic,anthelmintic
+7,astringent.,astringent
+8,Insomnia,insomnia
+8,sexual weakness.,sexual weakness
+9,Diuretic,diuretic
+9,anasarca and dropsy,anasarca and dropsy
+10,Diuretic,diuretic
+10,anasarca and dropsy,anasarca and dropsy
+11,Urinary problems,urinary problems
+11,aphrodisiac,aphrodisiac
+11,purgative,purgative
+11,maturant,maturant
+11,inflammations,inflammations
+11,boils,boils
+11,phlegmons,phlegmons
+11,whitlow,whitlow
+11,soothing,soothing
+11,urticaria.,urticaria
+12,Impotence,impotence
+12,digestive,digestive
+12,carminative,carminative
+12,diuretic,diuretic
+12,purgative,purgative
+12,leucoderma,leucoderma
+12,enlarged spleen,enlarged spleen
+12,urinary burning,urinary burning
+12,vesicular calculi,vesicular calculi
+12,ophthalmia,ophthalmia
+12,dandruff,dandruff
+12,inflammation,inflammation
+12,boils to hasten suppuration,boils to hasten suppuration
+12,whooping cough,whooping cough
+12,ashma,ashma
+12,gonorrhoea.,gonorrhoea
+13,Gastric,gastric
+13,pneumonia,pneumonia
+13,in bites of poisonous animal,in bites of poisonous animal
+13,jaundice,jaundice
+13,urinary trouble,urinary trouble
+13,abortion,abortion
+13,Asthma,asthma
+13,Asthma,asthma
+13,bronchites,bronchites
+13,carbuncle,carbuncle
+13,constipation,constipation
+13,cough,cough
+13,diabetes,diabetes
+13,epistaxis,epistaxis
+13,gastric tumor,gastric tumor
+13,gout,gout
+13,gynecological disease,gynecological disease
+13,hook worm infestation,hook worm infestation
+13,hysteria,hysteria
+13,illhealth,illhealth
+14,Hepatitis,hepatitis
+14,piles,piles
+14,rheumatism,rheumatism
+14,leprosy,leprosy
+14,scabies,scabies
+14,dysentery,dysentery
+14,tumours,tumours
+14,abortion,abortion
+14,body pain,body pain
+14,cirorhosis,cirorhosis
+14,contraception,contraception
+14,diarrhoea,diarrhoea
+14,duodenal ulcer,duodenal ulcer
+14,dysentery,dysentery
+14,embrayopathy,embrayopathy
+14,flatulence,flatulence
+14,gastric tumor,gastric tumor
+14,gastric ulcer,gastric ulcer
+14,gynecological disease,gynecological disease
+14,hepatomegaly,hepatomegaly
+14,hyper aci,hyper aci
+15,Diarrhoea,diarrhoea
+15,convulsion,convulsion
+16,Fever,fever
+16,gastric tumor,gastric tumor
+16,stomachache,stomachache
+16,strangury,strangury
+16,astringrent,astringrent
+16,stomachic,stomachic
+16,cough,cough
+16,bleeding piles,bleeding piles
+16,burning feet,burning feet
+16,dysentery,dysentery
+16,itch,itch
+16,rheumatism,rheumatism
+16,sudorific.,sudorific
+17,Eczema,eczema
+17,skin diseases,skin diseases
+17,demulcent,demulcent
+17,astringent,astringent
+17,bowels,bowels
+17,flatulence,flatulence
+17,chronic dysentery,chronic dysentery
+17,intestinal worms,intestinal worms
+17,dysentery,dysentery
+17,diarrhoea,diarrhoea
+17,biliousness,biliousness
+17,cough,cough
+17,asthma,asthma
+17,diabetes,diabetes
+17,stomach affections,stomach affections
+17,expectorant,expectorant
+17,anti-galactagogue,anti-galactagogue
+17,griping,griping
+17,scabies.,scabies
+18,Chronic dysentery,chronic dysentery
+18,gonorrhoea,gonorrhoea
+18,urinary discharges,urinary discharges
+18,strangury,strangury
+18,diarrhoea,diarrhoea
+18,spesrmatorrhoea,spesrmatorrhoea
+18,cancer,cancer
+19,Irregular menstruation,irregular menstruation
+20,Headache,headache
+20,constipation.,constipation
+21,Colic,colic
+21,diabetes,diabetes
+21,oedema,oedema
+21,haemorrhages,haemorrhages
+21,phthisis,phthisis
+21,facial euruption,facial euruption
+21,antidote,antidote
+21,insanity,insanity
+21,epilepsy,epilepsy
+21,nervous diseases,nervous diseases
+21,strangury,strangury
+21,urinary calculi,urinary calculi
+21,tapeworms,tapeworms
+21,heart diseases,heart diseases
+21,tuberculesis,tuberculesis
+21,tympanitis,tympanitis
+21,colic pain,colic pain
+21,bruises.,bruises
+22,Hydrogogue,hydrogogue
+22,cathartic,cathartic
+22,purgative,purgative
+22,ascities,ascities
+22,jaundice,jaundice
+22,uterine problems,uterine problems
+22,amenorrhoea,amenorrhoea
+22,uterine problems,uterine problems
+22,amenorrhoea,amenorrhoea
+22,abdominal problems,abdominal problems
+22,rheumatism,rheumatism
+22,cough,cough
+22,asthma,asthma
+22,breast inflammation,breast inflammation
+22,hair tonic,hair tonic
+22,snakebite,snakebite
+22,dysentery,dysentery
+22,diarrhoea,diarrhoea
+22,epilepsy.,epilepsy
+23,Aphrodisiac,aphrodisiac
+23,anthelmintic,anthelmintic
+23,fever,fever
+23,consumption,consumption
+23,asthma,asthma
+23,bronchitis,bronchitis
+23,hiccup,hiccup
+23,piles,piles
+23,alexiteric,alexiteric
+23,stomachic,stomachic
+23,laxative,laxative
+23,biliousness,biliousness
+23,leprosy,leprosy
+23,tumours,tumours
+23,urinary discharges,urinary discharges
+23,excessive salivation,excessive salivation
+23,heart troubles,heart troubles
+23,urinary calculi,urinary calculi
+23,jaundice,jaundice
+23,ulcers,ulcers
+23,bowel complaints,bowel complaints
+24,Dysurea,dysurea
+25,Skin diseases,skin diseases
+25,cold,cold
+25,cough,cough
+25,fever.,fever
+26,Hyper acidity,hyper acidity
+26,Tetanus.,tetanus
+27,Paralysis,paralysis
+27,intermittent fever,intermittent fever
+27,epilepsy,epilepsy
+27,hysteria,hysteria
+27,rhuematism,rhuematism
+27,articular pains,articular pains
+27,affection of theliver and speen,affection of theliver and speen
+27,stimulant,stimulant
+27,stomach upset,stomach upset
+27,colic,colic
+27,flatulence,flatulence
+27,gout,gout
+27,hyper tension,hyper tension
+27,impotence,impotence
+27,jaundice,jaundice
+27,lumbago,lumbago
+27,neuralgia,neuralgia
+27,oedema,oedema
+27,sleenomegaly,sleenomegaly
+27,strangury,strangury
+27,vo,vo
+28,Ulcers,ulcers
+28,dysentery,dysentery
+28,blood purification,blood purification
+28,abscesses,abscesses
+28,abdominal pain,abdominal pain
+28,astringent,astringent
+28,oleagenous; biliousness,oleagenous; biliousness
+28,stone in urinary tract,stone in urinary tract
+28,acrid,acrid
+28,bitter,bitter
+28,cures blisters in mouth,cures blisters in mouth
+28,wounds,wounds
+28,ulcers,ulcers
+28,diarrhoea,diarrhoea
+28,aphthae,aphthae
+28,sore throat,sore throat
+28,coughs,coughs
+28,dyspnoea,dyspnoea
+28,hiccup,hiccup
+28,intermittent,intermittent
+29,Bronchitis,bronchitis
+29,asthma,asthma
+29,whooping cough.,whooping cough
+30,Sexual tonic,sexual tonic
+30,leucorrhoea.,leucorrhoea
+31,Local pain,local pain
+31,astringent,astringent
+31,bowels,bowels
+31,cough,cough
+31,bronchitis,bronchitis
+31,diarrhoea,diarrhoea
+31,dysentery,dysentery
+31,biliousness,biliousness
+31,burning sensat,burning sensat
+32,Mumps,mumps
+33,Wounds,wounds
+33,fistula,fistula
+33,dysentery,dysentery
+33,piles,piles
+33,Jaundice,jaundice
+33,boils,boils
+33,bronchitis,bronchitis
+33,gastric tumor,gastric tumor
+33,gonorrhoea,gonorrhoea
+33,gout,gout
+33,hys,hys
+34,Fever,fever
+34,paralysis,paralysis
+34,headache,headache
+34,stomach pain,stomach pain
+34,itch,itch
+34,blood dysentery,blood dysentery
+34,diarrhoea,diarrhoea
+34,hyper acidity,hyper acidity
+34,irregular,irregular
+35,Diabetes,diabetes
+35,manstrual trouble,manstrual trouble
+35,menopause,menopause
+35,vertigo,vertigo
+35,dysentery,dysentery
+35,bronchitis,bronchitis
+35,asthma,asthma
+35,consumption,consumption
+35,ascites,ascites
+36,Abdominal pain,abdominal pain
+36,asthma,asthma
+36,bronchitis,bronchitis
+36,cough,cough
+36,gastric ulcers,gastric ulcers
+36,Jaundice,jaundice
+36,anaemia,anaemia
+36,ill health,ill health
+36,lumps in t,lumps in t
+37,Weakness,weakness
+37,nervine tonic,nervine tonic
+37,skin disease,skin disease
+37,rheumatism,rheumatism
+37,purgative,purgative
+37,emmenagogue,emmenagogue
+37,fever,fever
+37,cholera,cholera
+37,diuretic,diuretic
+38,Abortion,abortion
+38,jaundice,jaundice
+38,marasmus.,marasmus
+39,Alexiteric,alexiteric
+39,anthelmintic,anthelmintic
+39,diuretic,diuretic
+39,galactagogue,galactagogue
+39,eye diseases,eye diseases
+39,ringworm,ringworm
+39,skin diseases.,skin diseases
+40,Astringent,astringent
+40,tonic,tonic
+40,diarrhoea,diarrhoea
+40,dysentery,dysentery
+40,paludism,paludism
+40,antipyretic,antipyretic
+40,anthelmintic,anthelmintic
+40,alexiteric,alexiteric
+40,itching,itching
+40,l,l
+41,Galactagogue,galactagogue
+41,stimulant,stimulant
+41,emmenagogue,emmenagogue
+41,astringent,astringent
+41,diarrhoea,diarrhoea
+41,enlargement of the spleen,enlargement of the spleen
+41,itches,itches
+41,skin,skin
+42,Suppurative,suppurative
+42,aperient,aperient
+42,diuretic,diuretic
+42,emmenagogue,emmenagogue
+42,dropsy,dropsy
+42,chronic cough,chronic cough
+42,spleen enlargement,spleen enlargement
+42,liver enlar,liver enlar
+43,Astringent,astringent
+43,stimulant,stimulant
+43,febrifuge,febrifuge
+43,purgative,purgative
+43,aphthae of mouth,aphthae of mouth
+43,abdominal pain,abdominal pain
+43,anaemia,anaemia
+43,antenata car,antenata car
+44,Cough,cough
+44,colds,colds
+44,sore throats.,sore throats
+45,Appetizer,appetizer
+45,stomach upset,stomach upset
+45,dyspepsia,dyspepsia
+45,refrigerant,refrigerant
+45,stomachic,stomachic
+45,diuretic,diuretic
+45,stimulant,stimulant
+45,expectorant,expectorant
+45,carmina,carmina
+46,Stimulant,stimulant
+46,stomachic,stomachic
+46,carminative,carminative
+46,antispasmodic,antispasmodic
+46,diuretic,diuretic
+46,hiccup,hiccup
+46,bilious vomiting,bilious vomiting
+46,flatulence,flatulence
+46,co,co
+47,Colic,colic
+47,fever,fever
+47,snake bite,snake bite
+47,flatulence.,flatulence
+48,Aphrodisiac,aphrodisiac
+48,eczema,eczema
+48,ringworm,ringworm
+48,skin diseases,skin diseases
+48,cancer,cancer
+48,prickly heat,prickly heat
+48,dandruff,dandruff
+48,inflammatory skin dise,inflammatory skin dise
+49,Dandruff,dandruff
+49,tonic,tonic
+49,laxative,laxative
+49,emollient,emollient
+49,demulcent,demulcent
+49,diuretic,diuretic
+49,nourishing,nourishing
+49,galactagogue,galactagogue
+49,emmenagogue,emmenagogue
+49,ap,ap
+50,Diarrhoea,diarrhoea
+50,cholera,cholera
+50,fever,fever
+50,cardiac diseases.,cardiac diseases
+51,Ear diseases.,ear diseases
+52,Constipation,constipation
+52,Skin Diseases.,skin diseases
+53,Brain and hair tonic,brain and hair tonic
+53,Female disease,female disease
+53,rheumatic fever,rheumatic fever
+53,boils,boils
+53,jaundice,jaundice
+53,burning wound,burning wound
+53,foot mud sore,foot mud sore
+54,Astringent,astringent
+54,digestive,digestive
+54,tonic,tonic
+54,jaundice,jaundice
+54,Tubers are astringent,tubers are astringent
+54,digestive,digestive
+54,tonic,tonic
+54,stimulant,stimulant
+54,stomachi,stomachi
+55,Jaundice,jaundice
+55,lipoma,lipoma
+55,stomachache,stomachache
+55,tuberculosis,tuberculosis
+55,vaginocele,vaginocele
+55,diuretic,diuretic
+55,tonic,tonic
+55,demulcent,demulcent
+55,cooling,cooling
+55,aperie,aperie
+56,Fever,fever
+56,delivery weakness.,delivery weakness
+57,Anal fissure,anal fissure
+57,anorexia,anorexia
+57,asthma,asthma
+57,constipation,constipation
+57,diarrhoea,diarrhoea
+57,duodenal ulcer,duodenal ulcer
+57,dysmenorrhoea,dysmenorrhoea
+57,fever,fever
+57,flatu,flatu
+58,Weakness,weakness
+58,sexual tonic,sexual tonic
+58,headache.,headache
+59,Abortion,abortion
+59,anaemia,anaemia
+59,chicken pox,chicken pox
+59,diabetes,diabetes
+59,jaundice,jaundice
+59,leismoniasis,leismoniasis
+59,marasmus,marasmus
+59,navel-string infection,navel-string infection
+60,Boils,boils
+60,piles,piles
+60,gout,gout
+60,paralysis.,paralysis
+61,Anthelmintic,anthelmintic
+61,purgative,purgative
+61,ulcers,ulcers
+61,wounds,wounds
+61,tumor,tumor
+61,bronchitis,bronchitis
+61,cholera,cholera
+61,lipoma,lipoma
+61,lumbago,lumbago
+61,paralysis,paralysis
+61,par,par
+62,Asthma,asthma
+62,constipation,constipation
+62,dehydration,dehydration
+62,febric convulsion,febric convulsion
+62,gonorrhoea,gonorrhoea
+62,hysteria,hysteria
+62,jaundice,jaundice
+62,meningitis,meningitis
+62,me,me
+63,Anorexia,anorexia
+63,Hyper tension,hyper tension
+64,Expectorant,expectorant
+64,emetic,emetic
+64,excessive salivation,excessive salivation
+64,epilepsy,epilepsy
+64,chlorosis,chlorosis
+64,insecticidal,insecticidal
+64,dental caries,dental caries
+64,fever,fever
+65,Fever,fever
+65,hemiepilepsy,hemiepilepsy
+65,astringent,astringent
+65,leprosy,leprosy
+65,skin diseases,skin diseases
+65,inflammations,inflammations
+65,ulcers,ulcers
+65,back pain,back pain
+65,bowls,bowls
+65,to,to
+66,Anthelmintic,anthelmintic
+66,piles,piles
+66,skin diseases.,skin diseases
+67,Carminative,carminative
+67,tonic,tonic
+67,aphrodisiac,aphrodisiac
+67,stimulant,stimulant
+67,piles,piles
+67,anthelmintic,anthelmintic
+67,rheumatism,rheumatism
+67,sprains,sprains
+67,leucoderma,leucoderma
+67,le,le
+68,Cough,cough
+68,scurvy,scurvy
+68,antiseptic,antiseptic
+68,antirheumatic,antirheumatic
+68,antibacterial,antibacterial
+68,antioxidant,antioxidant
+68,appetizer,appetizer
+68,stomachic,stomachic
+68,nausea,nausea
+69,Cough,cough
+69,appetizer,appetizer
+69,fever and bronchitis,fever and bronchitis
+69,rheumatism,rheumatism
+69,stomachache.,stomachache
+70,Tuberculosis,tuberculosis
+70,pneumonia,pneumonia
+71,: Tonic,tonic
+71,stomachic,stomachic
+71,dysentery,dysentery
+71,bruises,bruises
+71,eruptions,eruptions
+71,vomiting,vomiting
+71,febrifuge,febrifuge
+71,stimulants,stimulants
+71,purgative,purgative
+71,kidne,kidne
+72,Sexual tonic,sexual tonic
+73,Carminative,carminative
+73,fever,fever
+73,pain,pain
+74,Cirorhosis,cirorhosis
+74,constipation,constipation
+74,diarrhoea,diarrhoea
+74,flatulence,flatulence
+74,gastric tumor,gastric tumor
+74,gynecological disease,gynecological disease
+74,hiccup,hiccup
+74,worm,worm
+75,Cirorhosis,cirorhosis
+75,Flatulence,flatulence
+75,gout,gout
+75,hyper acidity,hyper acidity
+75,rheumatism.,rheumatism
+76,Anthelmintic,anthelmintic
+76,antigout,antigout
+76,antimicrobial,antimicrobial
+76,cardiotonic,cardiotonic
+76,carminative,carminative
+76,condiment,condiment
+76,digestive,digestive
+76,emmenagogue,emmenagogue
+77,Constipation,constipation
+77,diarrhoea,diarrhoea
+77,duodenal ulcer,duodenal ulcer
+77,fever,fever
+77,flatulence,flatulence
+77,gastric tumor,gastric tumor
+77,hiccup,hiccup
+77,hook worm infesta,hook worm infesta
+78,Abdominal pain,abdominal pain
+78,ameobic dysentery,ameobic dysentery
+78,anaemia,anaemia
+78,blood dysentery,blood dysentery
+78,diarrhoea,diarrhoea
+78,eclampsia,eclampsia
+78,fever,fever
+78,gastric tu,gastric tu
+79,Abdominal pain,abdominal pain
+79,anaemia,anaemia
+79,asthma,asthma
+79,body pain,body pain
+79,bone fracture,bone fracture
+79,bronchitis,bronchitis
+79,chest pain,chest pain
+79,colic,colic
+79,constipati,constipati
+80,Diarrhoea,diarrhoea
+80,dysentery,dysentery
+80,blood dysentery,blood dysentery
+81,Diabetes,diabetes
+82,Urinary problems,urinary problems
+82,tonic.,tonic
+83,Asthma,asthma
+83,scabies,scabies
+83,antihelmintic,antihelmintic
+83,sedative and lice infestation,sedative and lice infestation
+83,rheumatism.,rheumatism
+84,Digestive,digestive
+84,mild aperient,mild aperient
+84,promoter of gastric secretion,promoter of gastric secretion
+84,blood purifier,blood purifier
+84,intestinal antiseptic; usef,intestinal antiseptic; usef
+85,Carminative,carminative
+85,expectorant,expectorant
+85,vomiting and asthma.,vomiting and asthma
+86,Purgative,purgative
+87,Bitter tonic,bitter tonic
+87,galactogogue,galactogogue
+87,piles,piles
+87,abdominal pain,abdominal pain
+87,fever,fever
+87,leprosy,leprosy
+87,ulcer,ulcer
+87,gonorrhoea,gonorrhoea
+87,cough,cough
+87,blood d,blood d
+88,Stomachic,stomachic
+89,Expectorant,expectorant
+89,emetic,emetic
+89,excessive salivation,excessive salivation
+89,epilepsy,epilepsy
+89,chlorosis,chlorosis
+89,insecticidal,insecticidal
+89,dental caries,dental caries
+89,fever,fever
+90,Fever,fever
+90,hemiepilepsy,hemiepilepsy
+90,astringent,astringent
+90,leprosy,leprosy
+90,skin diseases,skin diseases
+90,inflammations,inflammations
+90,ulcers,ulcers
+90,back pain,back pain
+90,bowls,bowls
+90,to,to
+91,Fruits are cooling,fruits are cooling
+91,stomachic,stomachic
+91,astringent and aphrodisiac,astringent and aphrodisiac
+91,used in chronic dysentery,used in chronic dysentery
+91,gonorrhoea,gonorrhoea
+91,urinary discharges,urinary discharges
+91,strangury and diarrhoea.,strangury and diarrhoea
+92,leucoderma,leucoderma
+92,fevers,fevers
+92,gonorrhoea,gonorrhoea
+92,hoarseness,hoarseness
+92,dysentery.,dysentery
+93,amenorrhoea and dysmenorrhoea,amenorrhoea and dysmenorrhoea
+93,irregular menses and pain,irregular menses and pain
+94,Diarrhoea,diarrhoea
+94,dysentery,dysentery
+94,paralysis,paralysis
+94,cough,cough
+94,rheumatism,rheumatism
+94,skin diseases.,skin diseases
+95,fevers,fevers
+95,chest infections,chest infections
+95,gonorrhoea and urethritis,gonorrhoea and urethritis
+95,leucoderma,leucoderma
+96,leucorrhoea,leucorrhoea
+96,piles,piles
+96,erysipelas,erysipelas
+96,diarrhoea,diarrhoea
+96,spongy gums,spongy gums
+96,tonsil.,tonsil
+97,itching,itching
+97,bronchitis,bronchitis
+97,leucoderma,leucoderma
+97,ulcers,ulcers
+97,inflammations and erysipelas,inflammations and erysipelas
+97,gonorrhoea.,gonorrhoea
+98,bowels,bowels
+98,cough,cough
+98,bronchitis,bronchitis
+98,diarrhoea,diarrhoea
+98,dysentery,dysentery
+98,biliousness,biliousness
+98,burning sensation,burning sensation
+98,piles and leucoderma.,piles and leucoderma
+99,stomach complaints,stomach complaints
+99,indigestion,indigestion
+99,bronchitis,bronchitis
+99,asthma,asthma
+100,Diarrhoea,diarrhoea
+100,constipation,constipation
+100,prurigo,prurigo
+100,abscesses,abscesses
+100,eczema and bubos.,eczema and bubos
+101,bronchitis,bronchitis
+101,pneumonia,pneumonia
+101,asthma and pulmonary tuberculosis,asthma and pulmonary tuberculosis
+102,rheumatism,rheumatism
+102,sciatica,sciatica
+102,neuralgia,neuralgia
+102,uterine diseases.,uterine diseases
+103,cough and asthma,cough and asthma
+103,rheumatism and neuralgia,rheumatism and neuralgia
+103,dyspepsia.,dyspepsia
+104,coughs,coughs
+104,pneumonia,pneumonia
+104,rheumatism,rheumatism
+104,piles,piles
+104,boils,boils
+104,skin eruptions,skin eruptions
+104,kidney stone and colic,kidney stone and colic
+105,asthma and bronchitis,asthma and bronchitis
+105,toothache,toothache
+105,kidney troubles,kidney troubles
+105,leucoderma.,leucoderma
+106,ulcers,ulcers
+106,small-pox,small-pox
+107,urinary disorder and diabetes,urinary disorder and diabetes
+108,boils,boils
+108,cholera,cholera
+108,general paralysis and inflammation,general paralysis and inflammation
+109,cough,cough
+109,asthma,asthma
+109,ague and phthisis,ague and phthisis
+109,malarial fever and diphtheria.,malarial fever and diphtheria
+110,bronchial disorders,bronchial disorders
+110,respiratory diseases,respiratory diseases
+110,irregular menstruation.,irregular menstruation
+111,cough,cough
+111,fever and chest affection,fever and chest affection
+111,diabetes,diabetes
+111,skin diseases.,skin diseases
+112,dysentery,dysentery
+112,ulcers,ulcers
+112,erysipelas,erysipelas
+112,burning sensation and epileptic fits,burning sensation and epileptic fits
+113,dysentery,dysentery
+113,skin diseases.,skin diseases
+114,chronic diarrhoea and dysentery,chronic diarrhoea and dysentery
+114,ophthalmia and inflammations,ophthalmia and inflammations
+114,hypochondriasis,hypochondriasis
+114,melancholia and palpitation of heart.,melancholia and palpitation of heart
+115,bronchitis,bronchitis
+115,leprosy,leprosy
+115,skin diseases,skin diseases
+115,ulcers,ulcers
+115,inflammations,inflammations
+115,biliousness.,biliousness
+116,Boils,boils
+116,skin diseases,skin diseases
+116,jaundice,jaundice
+116,headache,headache
+116,dysentery.,dysentery
+117,Fever,fever
+117,piles,piles
+117,rheumatism,rheumatism
+117,spermatorrhoea.,spermatorrhoea
+118,scabies,scabies
+118,skin diseases,skin diseases
+119,cures leucoderma,cures leucoderma
+119,itching,itching
+119,skin diseases,skin diseases
+119,piles,piles
+119,excessive perspiration,excessive perspiration
+119,inflammation,inflammation
+119,erysipelas.,erysipelas
+120,ulcers,ulcers
+120,coughs,coughs
+121,Ulcer,ulcer
+121,toothache.,toothache
+122,Ascites,ascites
+122,cancer.,cancer
+123,cough,cough
+123,catarrh,catarrh
+123,asthma,asthma
+123,rheumatism,rheumatism
+123,scabies,scabies
+123,earache,earache
+123,tumours,tumours
+123,bleeding piles,bleeding piles
+123,epistaxis,epistaxis
+123,ophthalmia,ophthalmia
+124,fevers,fevers
+124,coughs,coughs
+124,bronchitis,bronchitis
+124,rheumatism,rheumatism
+124,inflammation,inflammation
+124,leucoderma,leucoderma
+124,piles,piles
+124,indigestion,indigestion
+124,heart disease,heart disease
+125,menorrhagia.,menorrhagia
+126,stomachache.,stomachache
+127,boils,boils
+127,rheumatism,rheumatism
+127,purgative,purgative
+127,delirium,delirium
+127,fever,fever
+127,ulcers,ulcers
+127,wounds,wounds
+127,diarrhea,diarrhea
+127,nausea,nausea
+127,vomiting,vomiting
+127,scabies,scabies
+127,digest,digest
+128,cough,cough
+128,asthma,asthma
+128,worms,worms
+128,leprosy,leprosy
+128,skin diseases,skin diseases
+128,gastric pain.,gastric pain
+129,Dyspepsia,dyspepsia
+129,coughs,coughs
+129,bronchitis,bronchitis
+129,asthma,asthma
+129,rheumatism,rheumatism
+129,lumbago,lumbago
+129,fever associated with cold and malaise,fever associated with cold and malaise
+129,constipation,constipation
+129,dysentery,dysentery
+129,vomiting,vomiting
+129,headache,headache
+129,earache,earache
+129,sprain joints,sprain joints
+129,in sore throats and voice loss.,in sore throats and voice loss
+130,Diarrhoea,diarrhoea
+130,colic,colic
+130,cough,cough
+130,headache,headache
+130,amenorrhoea,amenorrhoea
+130,pain.,pain
+131,salep,salep
+132,Biliousness,biliousness
+132,piles,piles
+132,pain,pain
+132,angina,angina
+132,paludism.,paludism
+133,Urinary diseases,urinary diseases
+133,dyspepsia,dyspepsia
+133,diarrhoea,diarrhoea
+133,rheumatism,rheumatism
+133,cholera,cholera
+133,asthma,asthma
+133,bronchitis,bronchitis
+133,heart troubles,heart troubles
+133,piles and toothache,piles and toothache
+133,cholera,cholera
+133,inflammatory dermatosis,inflammatory dermatosis
+133,eczema.,eczema
+134,Stimulation,stimulation
+135,Inflammation,inflammation
+135,asthma,asthma
+135,cough,cough
+135,bronchitis.,bronchitis
+136,Dysentery,dysentery
+136,diarrhoea,diarrhoea
+136,swellings of the breast,swellings of the breast
+136,elephantiasis,elephantiasis
+137,Dysentery,dysentery
+137,diarrhoea,diarrhoea
+137,swellings of the breast,swellings of the breast
+137,elephantiasis,elephantiasis
+138,Diarrhoea,diarrhoea
+138,dysentery,dysentery
+138,biliousness,biliousness
+138,dysuria and boils.,dysuria and boils
+139,Bronchitis,bronchitis
+139,asthma,asthma
+139,pain of  muscle,pain of muscle
+139,paralysis,paralysis
+139,inflammations,inflammations
+139,leprosy,leprosy
+139,boils,boils
+139,eruptions,eruptions
+139,stomachache,stomachache
+139,dysentery,dysentery
+139,rheumatism,rheumatism
+139,dysentery,dysentery
+139,fevers,fevers
+139,diarrhorea,diarrhorea
+139,biliousness.,biliousness
+140,urinary and renal complaints,urinary and renal complaints
+140,gleet,gleet
+140,leucorrhoea,leucorrhoea
+140,menorrhagia,menorrhagia
+140,hydrophobia,hydrophobia
+140,in cancer,in cancer
+140,strumous diseases,strumous diseases
+141,Toothache,toothache
+141,fever,fever
+141,haemorrhage,haemorrhage
+141,dysentery,dysentery
+141,menstrual and renal complaints.,menstrual and renal complaints
+142,in dysentery,in dysentery
+142,diarrhoea,diarrhoea
+142,menorrhagia,menorrhagia
+142,leucorrhoea,leucorrhoea
+142,ulcers,ulcers
+142,wounds,wounds
+142,toothache,toothache
+142,haemorrhoides,haemorrhoides
+142,bilious sickness,bilious sickness
+142,tumour.,tumour
+143,Rheumatism,rheumatism
+143,nervous tension,nervous tension
+143,loss of memory,loss of memory
+143,psoriasis,psoriasis
+143,bronchitis,bronchitis
+143,asthma,asthma
+143,hiccup,hiccup
+143,scabies,scabies
+143,marasmus of children,marasmus of children
+143,headaches,headaches
+143,convulsions,convulsions
+143,sleeplessness,sleeplessness
+143,seminal weakness and mouth sores.,seminal weakness and mouth sores
+144,Depression,depression
+145,Cough,cough
+145,cephalalgia diseases,cephalalgia diseases
+145,skin diseases,skin diseases
+145,alopecia,alopecia
+145,uterine haemorrhage,uterine haemorrhage
+145,menorrhagia,menorrhagia
+145,dysentery,dysentery
+145,rheumatic fever,rheumatic fever
+145,headache,headache
+145,vomiting.,vomiting
+146,Inflammations,inflammations
+146,bowels,bowels
+146,piles,piles
+146,tumours,tumours
+146,leucoderma,leucoderma
+146,asthma,asthma
+146,urinary  discharges,urinary discharges
+146,colds,colds
+146,eye diseases,eye diseases
+146,sneezing boils,sneezing boils
+146,abscesses.,abscesses
+147,Filaria,filaria
+148,Rheumatic pains,rheumatic pains
+148,inflammation,inflammation
+148,sprains,sprains
+148,intermittent fever,intermittent fever
+148,cancer,cancer
+148,hydrocele,hydrocele
+148,stomachache,stomachache
+148,vomiting.,vomiting
+149,Jaundice,jaundice
+150,Jaundice,jaundice
+150,menstrual bleeding,menstrual bleeding
+150,diabetes and malaria.,diabetes and malaria
+151,tonic,tonic
+151,vermifuge,vermifuge
+151,antiparasitic,antiparasitic
+151,alterative,alterative
+151,anodyne,anodyne
+151,headache,headache
+151,rheumatism,rheumatism
+151,ulcers,ulcers
+151,febrile,febrile
+151,catarrhal,catarrhal
+151,pains,pains
+151,asthma,asthma
+151,diuretic,diuretic
+151,nervine,nervine
+151,cephalic,cephalic
+151,emmenagogue,emmenagogue
+151,cooling,cooling
+151,astringent .,astringent
+152,neuralgia.,neuralgia
+153,laxative,laxative
+153,appetizer,appetizer
+153,galactagogue,galactagogue
+153,tonic,tonic
+153,aphrodisiac,aphrodisiac
+153,diuretic,diuretic
+153,antibilious,antibilious
+153,jaundice.,jaundice
+154,laxative,laxative
+154,antipyretic,antipyretic
+154,tonic,tonic
+154,bowels,bowels
+154,biliousness,biliousness
+154,eye troubles,eye troubles
+154,headache,headache
+154,nose complaints,nose complaints
+154,throat inflammations,throat inflammations
+154,bronchitis,bronchitis
+154,kidney and fever.,kidney and fever
+155,laxative,laxative
+155,aphrodisiac,aphrodisiac
+155,tonic,tonic
+155,appetizer,appetizer
+155,diuretic,diuretic
+155,galactagogue,galactagogue
+155,styptic,styptic
+155,piles,piles
+155,asthma,asthma
+155,leucoderma,leucoderma
+155,scabies,scabies
+155,gonorrhoea,gonorrhoea
+155,pains,pains
+155,epistaxis,epistaxis
+155,paralysis,paralysis
+155,rheumatism,rheumatism
+155,liver and cough.,liver and cough
+156,Tonic,tonic
+156,refrigerant,refrigerant
+156,stomachic,stomachic
+156,astringent,astringent
+156,stimulant,stimulant
+156,diuretic,diuretic
+156,antispasmodic,antispasmodic
+156,emmenagogue,emmenagogue
+156,fevers,fevers
+156,inflammations,inflammations
+156,stomach,stomach
+156,cholera and  headache.,cholera and headache
+157,Tonic,tonic
+157,stomachic,stomachic
+157,astringent,astringent
+157,diaphoretic,diaphoretic
+157,piles,piles
+157,malaria,malaria
+157,amoebiasis,amoebiasis
+157,eczema,eczema
+157,ringworm,ringworm
+157,elephantiasis,elephantiasis
+157,guineaworms,guineaworms
+157,diarrhoea,diarrhoea
+157,dropsy,dropsy
+157,cough,cough
+157,stomachache,stomachache
+157,colic,colic
+157,conjunctivitis,conjunctivitis
+157,fever and rheumatism.,fever and rheumatism
+158,Alexiteric,alexiteric
+158,antipyretic,antipyretic
+158,useful in dyspepsia,useful in dyspepsia
+158,bronchitis,bronchitis
+158,inflammations,inflammations
+158,piles,piles
+158,hiccup,hiccup
+158,rheumatism and  febrifuge.,rheumatism and febrifuge
+159,Refrigerant,refrigerant
+159,demulcent,demulcent
+159,leucorrhoea  and stomachic.,leucorrhoea and stomachic
+160,diarrhoea,diarrhoea
+161,diuretic,diuretic
+161,cardiac,cardiac
+161,cough,cough
+161,chronic bronchitis,chronic bronchitis
+161,asthma,asthma
+161,and cancer .,and cancer
+162,lumbago,lumbago
+162,rheumatism,rheumatism
+162,windy colic,windy colic
+162,dry coughs,dry coughs
+162,aphthae and sore-throat.,aphthae and sore-throat
+163,Lumbago,lumbago
+163,inflammation  of  the  intestine  and  the  bladder,inflammation of the intestine and the bladder
+163,colic,colic
+163,bronchitis.,bronchitis
+164,heart trouble,heart trouble
+164,fractured bone,fractured bone
+164,cough,cough
+164,chills,chills
+164,fevers and  gonorrhoea.,fevers and gonorrhoea
+165,abortifacient,abortifacient
+165,laxative,laxative
+165,aphrodisiac,aphrodisiac
+165,fever,fever
+165,asthma,asthma
+165,dysentery,dysentery
+165,rheumatism,rheumatism
+165,bleeding piles,bleeding piles
+165,catarrh  and  diarrhoea.,catarrh and diarrhoea
+166,hypnotic,hypnotic
+166,tumours,tumours
+166,bowels,bowels
+166,ulcer  and piles,ulcer and piles
+167,cooling,cooling
+167,aphrodisiac,aphrodisiac
+167,strangury,strangury
+167,splenic enlargement,splenic enlargement
+167,burning sensation,burning sensation
+167,leprosy,leprosy
+167,diuretic,diuretic
+167,dysentery,dysentery
+167,gonorrhea,gonorrhea
+167,ulcers and measles.,ulcers and measles
+168,cough,cough
+168,asthma,asthma
+168,bronchitis,bronchitis
+168,stimulant,stimulant
+168,cathartic,cathartic
+168,emetic,emetic
+168,stomachic,stomachic
+168,diarrhoea,diarrhoea
+168,rheumatism,rheumatism
+168,pains,pains
+168,dysentery  and diaphoretic properties.,dysentery and diaphoretic properties
+169,demulcent,demulcent
+169,astringent,astringent
+169,diarrhea,diarrhea
+169,dysentery,dysentery
+169,gonorrhoea,gonorrhoea
+169,tonic,tonic
+169,diuretic and cooling.,diuretic and cooling
+170,dropsy,dropsy
+170,chronic cough,chronic cough
+170,hypertension,hypertension
+170,diabetes,diabetes
+170,sexual problems,sexual problems
+170,rheumatism,rheumatism
+170,bronchitis,bronchitis
+170,tumour,tumour
+170,dysentery.,dysentery
+171,bronchial catarrh,bronchial catarrh
+171,dysentery,dysentery
+171,diarrhoea and  restoration of hairs.,diarrhoea and restoration of hairs
+172,Catarrh,catarrh
+172,dysentery,dysentery
+172,diarrhoea,diarrhoea
+172,bronchitis.,bronchitis
+173,Boils,boils
+173,bilious disorders,bilious disorders
+173,skin diseases,skin diseases
+173,fever,fever
+174,Asthma,asthma
+174,earache,earache
+174,ozoena,ozoena
+174,inflammations,inflammations
+174,epilepsy and rheumatism,epilepsy and rheumatism
+174,hemicrania,hemicrania
+174,ophthalmia and leprosy.,ophthalmia and leprosy
+175,Burning urination,burning urination
+175,gonorrhoea,gonorrhoea
+175,gleet,gleet
+175,stones of bladder,stones of bladder
+175,lumbago,lumbago
+175,postpartum haemorrhage,postpartum haemorrhage
+175,dysentery,dysentery
+175,micturation,micturation
+175,urinary disorders,urinary disorders
+175,impotence,impotence
+175,cough,cough
+175,spermatorrhoea,spermatorrhoea
+175,scabies,scabies
+175,anemia,anemia
+175,ophthalmia.,ophthalmia
+176,asthma,asthma
+176,amenorrhoea,amenorrhoea
+176,rheumatism,rheumatism
+176,oedema,oedema
+176,dropsy,dropsy
+176,ascites.,ascites
+177,Bile,bile
+177,phlegm,phlegm
+177,rheumatism,rheumatism
+177,gout,gout
+177,flatulence,flatulence
+177,swellings.,swellings
+178,Dropsy,dropsy
+179,Diarrhoea,diarrhoea
+179,epilepsy,epilepsy
+179,muscular pains,muscular pains
+179,fever  with  vomoting,fever with vomoting
+180,Diarrhoea,diarrhoea
+180,bilious  affections,bilious affections
+180,weakness,weakness
+180,leucorrhoea.,leucorrhoea
+181,Itching,itching
+181,bronchitis,bronchitis
+181,fever,fever
+181,jaundice.,jaundice
+182,Gonorrhoea.,gonorrhoea
+183,astringent,astringent
+183,expectorant,expectorant
+183,tonic,tonic
+183,antiperiodic,antiperiodic
+183,fevers,fevers
+183,rheumatism,rheumatism
+183,menstrual disorders and dysentery.,menstrual disorders and dysentery
+184,tonic,tonic
+184,stimulant,stimulant
+184,astringent,astringent
+184,anti-diarrhoetic,anti-diarrhoetic
+184,antiperiodic,antiperiodic
+184,febrifuge,febrifuge
+184,owels and rheumatism.,owels and rheumatism
+185,tonic,tonic
+185,febrifuge,febrifuge
+185,fever,fever
+185,intermittent fever,intermittent fever
+185,malarial fever,malarial fever
+185,chronic rheumatism and  debility.,chronic rheumatism and debility
+186,stomachic,stomachic
+186,febrifuge,febrifuge
+186,tonic,tonic
+186,expectorant,expectorant
+186,stimulates,stimulates
+186,pimples,pimples
+186,gonorrhoea,gonorrhoea
+186,cough,cough
+186,fever,fever
+186,skin affections,skin affections
+186,cardiac problems,cardiac problems
+186,rheumatism,rheumatism
+186,haemoptysis,haemoptysis
+186,colic,colic
+186,jaundice,jaundice
+186,burning sensation and dropsy.,burning sensation and dropsy
+187,snake-bites.,snake-bites
+188,eye diseases,eye diseases
+188,urinary bladder and elephantiasis.,urinary bladder and elephantiasis
+189,cardiac tonic,cardiac tonic
+189,cardiac stimulant,cardiac stimulant
+189,cathartic,cathartic
+189,febrifuge,febrifuge
+189,emetic,emetic
+189,fevers,fevers
+189,purgative and abortifacient.,purgative and abortifacient
+190,scabies,scabies
+190,psoriasis,psoriasis
+190,ringworm,ringworm
+190,eczema,eczema
+190,peduncles,peduncles
+190,sprains,sprains
+190,bruises,bruises
+190,cutaneous diseases,cutaneous diseases
+190,dysentery,dysentery
+190,gonorrhea,gonorrhea
+190,cholera and haemorrhoides.,cholera and haemorrhoides
+191,diuretic and cardiotonic.,diuretic and cardiotonic
+192,stomachic,stomachic
+192,tonic,tonic
+192,carminative,carminative
+192,expectorant,expectorant
+192,antidysenteric,antidysenteric
+192,asthma,asthma
+192,sore throat,sore throat
+192,heart,heart
+192,piles,piles
+192,leucoderma,leucoderma
+192,constipation,constipation
+192,painful menstruation and indigestion,painful menstruation and indigestion
+192,ulcers,ulcers
+192,wounds,wounds
+192,fever,fever
+192,urinary diseases,urinary diseases
+192,rheumatism,rheumatism
+192,flatulence,flatulence
+192,hiccup,hiccup
+192,colic,colic
+192,astringent,astringent
+192,aper,aper
+193,Aphrodisiac,aphrodisiac
+193,bowels,bowels
+193,bronchitis,bronchitis
+193,vesicating,vesicating
+193,astringent,astringent
+193,diuretic,diuretic
+193,cardiotonic,cardiotonic
+193,leprosy,leprosy
+193,scabies,scabies
+193,colic and headache.,colic and headache
+194,Hepatitis,hepatitis
+194,bronchitis,bronchitis
+194,asthma,asthma
+194,dyspepsia,dyspepsia
+194,piles,piles
+194,diarrhoea,diarrhoea
+194,coughs,coughs
+194,hoarseness of voice,hoarseness of voice
+194,eye diseases,eye diseases
+194,scorpion-sting,scorpion-sting
+194,dysenteric-diarrhoea,dysenteric-diarrhoea
+194,dropsy,dropsy
+194,piles,piles
+194,leprosy,leprosy
+194,rheumatism.,rheumatism
+195,anaemia,anaemia
+195,excessive perspiration,excessive perspiration
+195,dysentery,dysentery
+195,asthma,asthma
+195,hypertension,hypertension
+195,wounds,wounds
+195,skin eruptions,skin eruptions
+195,menstrual problems,menstrual problems
+195,pains and leucorrhoea,pains and leucorrhoea
+196,bronchitis,bronchitis
+196,bilious attacks,bilious attacks
+196,boils,boils
+196,pimples,pimples
+196,bleeding piles,bleeding piles
+196,cough,cough
+196,liver disorders,liver disorders
+196,scabies,scabies
+196,itch,itch
+196,eczema and other skin diseases,eczema and other skin diseases
+197,piles,piles
+197,leucoderma,leucoderma
+197,dysentery,dysentery
+197,eczema,eczema
+197,ringworm,ringworm
+197,bronchitis.,bronchitis
+198,Dysentery,dysentery
+198,diarrhoea,diarrhoea
+198,ulcers.,ulcers
+200,Fever,fever
+200,dyspepsia,dyspepsia
+200,gastritis,gastritis
+200,diarrhoea,diarrhoea
+200,inflammatory swellings,inflammatory swellings
+200,sprains,sprains
+200,tumours and ringworms.,tumours and ringworms
+201,Rheumatism,rheumatism
+201,cold,cold
+201,bronchitis,bronchitis
+201,kidney troubles,kidney troubles
+201,muscular pains,muscular pains
+201,piles,piles
+201,ulcers,ulcers
+201,bleeding piles.,bleeding piles
+202,Haemorrhagic diathesis,haemorrhagic diathesis
+202,skin diseases,skin diseases
+202,leprosy.,leprosy
+203,Paralysis,paralysis
+203,strangury,strangury
+203,toothache,toothache
+204,Dysentery,dysentery
+204,bronchitis,bronchitis
+204,ulcers,ulcers
+204,rheumatism.,rheumatism
+205,Asthma,asthma
+205,fatigue,fatigue
+205,dysentery,dysentery
+206,Blood dysentery.,blood dysentery
+207,Bowels,bowels
+207,bronchitis,bronchitis
+207,asthma,asthma
+207,dysentery,dysentery
+207,Jaundice,jaundice
+208,Bowels,bowels
+208,dysentery,dysentery
+208,bowel complaints,bowel complaints
+208,inflammations,inflammations
+208,vaginal discharges,vaginal discharges
+208,leprosy,leprosy
+208,abortion and miscarriages,abortion and miscarriages
+209,sore and stomach troubles,sore and stomach troubles
+210,Fevers,fevers
+210,epilepsy,epilepsy
+210,dysentery,dysentery
+210,dyspepsia,dyspepsia
+211,Fever,fever
+212,strangury,strangury
+213,Dysuria,dysuria
+213,dysentery,dysentery
+213,epistaxis,epistaxis
+213,piles,piles
+213,diarrhoea,diarrhoea
+213,fever,fever
+213,inflammatory swellings and boils.,inflammatory swellings and boils
+214,Asthma,asthma
+214,cough,cough
+214,rheumatism,rheumatism
+214,chronic dyspepsia,chronic dyspepsia
+216,Rheumatism,rheumatism
+216,impotency,impotency
+216,seminal weakness,seminal weakness
+217,Itch,itch
+217,skin  diseases,skin diseases
+218,Fever,fever
+218,diarrhoea,diarrhoea
+218,urinary  diseases,urinary diseases
+218,dyspepsia,dyspepsia
+218,urethritis,urethritis
+218,gastritis,gastritis
+218,vertigo,vertigo
+218,dysentery,dysentery
+218,asthma,asthma
+218,hydrocele,hydrocele
+219,stomach  pain,stomach pain
+220,intestinal worms,intestinal worms
+220,venereal diseases,venereal diseases
+220,ulcers,ulcers
+220,dropsy,dropsy
+220,stomach ailments,stomach ailments
+220,purulent  ulcers,purulent ulcers
+220,fevers,fevers
+220,rheumatism,rheumatism
+220,diarrhoea,diarrhoea
+220,dysentery,dysentery
+221,Dysentery,dysentery
+221,diarrhoea,diarrhoea
+221,vomiting,vomiting
+221,muscular  rheumatism,muscular rheumatism
+221,gonorrhorea,gonorrhorea
+221,menstruation bilious,menstruation bilious
+221,dyspepsia,dyspepsia
+221,bowels,bowels
+221,burning .,burning
+222,fevers,fevers
+222,scalding urine,scalding urine
+222,joint pain,joint pain
+222,inflammations of the lungs,inflammations of the lungs
+222,bowels,bowels
+222,urinary calculi,urinary calculi
+222,jaundice.,jaundice
+223,Toothache,toothache
+223,paralysis  of  the  tongue,paralysis of the tongue
+223,dysentery,dysentery
+223,rheumatism . scabies .,rheumatism . scabies
+224,insanity,insanity
+224,tubercular glands,tubercular glands
+224,indigestion,indigestion
+224,bronchitis,bronchitis
+224,piles,piles
+224,strangury,strangury
+224,hemicrania,hemicrania
+224,jaundice,jaundice
+224,scalding  of  urine  and  gleet,scalding of urine and gleet
+224,cough,cough
+224,chest  pains,chest pains
+224,bowel .,bowel
+225,Sprains,sprains
+225,swellings,swellings
+225,haemorrhage,haemorrhage
+225,cough,cough
+225,astringent and antiseptic.,astringent and antiseptic
+226,Soporific,soporific
+226,diuretic,diuretic
+226,fever,fever
+226,jaundice,jaundice
+226,cough,cough
+226,bronchitis,bronchitis
+226,asthma,asthma
+226,stomach pain and pertussis.,stomach pain and pertussis
+227,Diuretic,diuretic
+227,expectorant,expectorant
+227,cough,cough
+227,asthma,asthma
+227,pain,pain
+227,fever,fever
+227,sore throat,sore throat
+227,rheumatism,rheumatism
+227,carminativel,carminativel
+227,gonorrhea,gonorrhea
+227,cardioactive and antipyretic acivities.,cardioactive and antipyretic acivities
+228,Digestive,digestive
+228,carminative,carminative
+228,bowels,bowels
+228,cardiac tonic,cardiac tonic
+228,expectorant,expectorant
+228,aphrodisiac,aphrodisiac
+228,asthma,asthma
+228,dry cough,dry cough
+228,catarrh,catarrh
+228,colic,colic
+228,flatulence,flatulence
+228,worms,worms
+228,dysuria,dysuria
+228,toothache,toothache
+228,fever,fever
+228,nasal ulcers,nasal ulcers
+228,stop vomiting,stop vomiting
+228,thelmintic,thelmintic
+228,laxative,laxative
+228,digestive,digestive
+228,pruritus,pruritus
+228,leucoderma,leucoderma
+228,sores,sores
+228,intoxicati,intoxicati
+229,Sedative,sedative
+229,diuretic,diuretic
+229,digestive,digestive
+229,cough,cough
+229,haemostatic,haemostatic
+229,spleen,spleen
+229,thread-worms,thread-worms
+229,poulticing cracks,poulticing cracks
+229,antibacterial and antifungal.,antibacterial and antifungal
+230,Diuretic,diuretic
+230,expectorant,expectorant
+230,cough,cough
+230,asthma,asthma
+230,pain,pain
+230,fever,fever
+230,sore throat,sore throat
+230,rheumatism,rheumatism
+230,carminativel,carminativel
+230,gonorrhea,gonorrhea
+230,cardioactive and antipyretic acivities.,cardioactive and antipyretic acivities
+231,Alterative,alterative
+231,sedative,sedative
+231,diaphoretic,diaphoretic
+231,diuretic,diuretic
+231,hydragogue,hydragogue
+231,chronic enlargement,chronic enlargement
+231,piles,piles
+231,dysentery,dysentery
+231,skin diseases,skin diseases
+231,remedy,remedy
+231,tonic,tonic
+231,diuretic,diuretic
+231,aphrodisiac,aphrodisiac
+231,anasarca,anasarca
+231,heart diseases,heart diseases
+231,hiccup,hiccup
+231,asthma,asthma
+231,fever,fever
+231,diarrhea,diarrhea
+231,bronchitis,bronchitis
+231,ringworm,ringworm
+231,giddiness,giddiness
+231,gonorrhoea,gonorrhoea
+231,thi,thi
+232,Laxative,laxative
+232,analgesic,analgesic
+232,maturant,maturant
+232,cardiotonic,cardiotonic
+232,aphrodisiac,aphrodisiac
+232,appetite,appetite
+232,inflammation,inflammation
+232,stimulant,stimulant
+232,fever.,fever
+233,Inflammation,inflammation
+233,burning sensation,burning sensation
+233,pain,pain
+233,coughs and skin sores.,coughs and skin sores
+234,Venereal diseases,venereal diseases
+234,skin troubles,skin troubles
+234,sores,sores
+234,swelling,swelling
+234,abscesses,abscesses
+234,rheumatism,rheumatism
+234,pains,pains
+234,bloodless dysentery,bloodless dysentery
+234,weakness,weakness
+234,turmeric,turmeric
+234,ulcer and gonorrhea.,ulcer and gonorrhea
+235,Venereal diseases,venereal diseases
+235,rheumatism,rheumatism
+235,blood dysentery,blood dysentery
+235,urinary complaints.,urinary complaints
+236,Sores,sores
+236,venereal complaints and syphilis.,venereal complaints and syphilis
+237,Emollient,emollient
+237,tuberculosis,tuberculosis
+237,rheumatism,rheumatism
+237,demulcents,demulcents
+237,emollient,emollient
+237,febrifuge,febrifuge
+237,diuretic,diuretic
+237,piles,piles
+237,calculous troubles,calculous troubles
+237,rheumatism,rheumatism
+237,leucorrhoea and dysentery.,leucorrhoea and dysentery
+238,Cooling,cooling
+238,astringent,astringent
+238,stomachic,stomachic
+238,tonic,tonic
+238,cardiac tonic,cardiac tonic
+238,febrifuge,febrifuge
+238,demulcent,demulcent
+238,diuretic,diuretic
+238,nervous and urinary diseases,nervous and urinary diseases
+238,bleeding plies,bleeding plies
+238,strangury,strangury
+238,haematuria,haematuria
+238,gonorrhoea,gonorrhoea
+238,cystitis,cystitis
+238,leucorrhoea,leucorrhoea
+238,chronic dysentery,chronic dysentery
+238,asthma,asthma
+238,fever,fever
+238,micturition,micturition
+238,discharges,discharges
+238,absc,absc
+239,Cooling,cooling
+239,astringent,astringent
+239,tonic,tonic
+239,fever,fever
+239,urinary complaints,urinary complaints
+239,arthritis,arthritis
+239,leucorrhoea,leucorrhoea
+239,gonorrhea,gonorrhea
+239,micturition And diarrhoea.,micturition and diarrhoea
+240,Astringent,astringent
+240,tonic,tonic
+240,stomachic,stomachic
+240,diaphoretic,diaphoretic
+240,antipyretic,antipyretic
+240,cooling,cooling
+240,nervous,nervous
+240,urinary diseases,urinary diseases
+240,disorders of blood,disorders of blood
+240,bile,bile
+240,diuretic,diuretic
+240,rheumatic,rheumatic
+240,gonorrhoea,gonorrhoea
+240,dysentery,dysentery
+240,fever,fever
+240,chronic bowel complaints Warmed,chronic bowel complaints warmed
+240,abscess,abscess
+240,dysentery and diarrhea.,dysentery and diarrhea
+241,Astringent,astringent
+241,aphrodisiac,aphrodisiac
+241,stimulant,stimulant
+241,aphrodisiac,aphrodisiac
+241,dysentery,dysentery
+241,fumigations,fumigations
+241,plasters,plasters
+241,gonorrhea,gonorrhea
+241,lumbago,lumbago
+241,pains,pains
+241,skin diseases,skin diseases
+241,scabies,scabies
+241,wounds and diarrhoea.,wounds and diarrhoea
+242,Acrid,acrid
+242,fattening,fattening
+242,diuretic,diuretic
+242,astringent,astringent
+242,aphrodisiac,aphrodisiac
+242,gravid uterus,gravid uterus
+242,burning sensations,burning sensations
+242,healing fractures,healing fractures
+242,pains and  rheumatism,pains and rheumatism
+243,Carminative,carminative
+243,roundworms,roundworms
+243,stimulant,stimulant
+243,carminative and stomachic.,carminative and stomachic
+244,Stimulant,stimulant
+244,emmenagoguem,emmenagoguem
+244,astringent,astringent
+244,diarrhoea and,diarrhoea and
+244,itches,itches
+244,skin diseases,skin diseases
+244,anthelmintic,anthelmintic
+244,diabetes,diabetes
+244,colic,colic
+244,and catarrh.,and catarrh
+245,Astringent,astringent
+245,tonic,tonic
+245,diarrhoea,diarrhoea
+245,dysentery,dysentery
+245,paludism,paludism
+245,antipyretic,antipyretic
+245,anthelmintic,anthelmintic
+245,alexiteric,alexiteric
+245,cures itching,cures itching
+245,leprosy,leprosy
+245,night blindness,night blindness
+245,gout,gout
+245,biliousness,biliousness
+245,cooling,cooling
+245,emollient,emollient
+245,laxative,laxative
+245,appetite,appetite
+245,ozoena,ozoena
+245,bronchitis,bronchitis
+245,gout,gout
+245,biliousness,biliousness
+245,nasal catarrh,nasal catarrh
+245,headac,headac
+246,Alexiteric,alexiteric
+246,anthelmintic,anthelmintic
+246,diuretic,diuretic
+246,galactagogue,galactagogue
+246,eye diseases,eye diseases
+246,ringworm and skin diseases.,ringworm and skin diseases
+247,Tonic,tonic
+247,laxative,laxative
+247,emollient,emollient
+247,demulcent,demulcent
+247,diuretic,diuretic
+247,nourishing,nourishing
+247,galactagogue,galactagogue
+247,emmenagogue,emmenagogue
+247,aphrodisiac,aphrodisiac
+247,piles,piles
+247,enorrhoea,enorrhoea
+247,dysmenorrhoea,dysmenorrhoea
+247,demulcent,demulcent
+247,respiratory disease,respiratory disease
+247,diuretic in,diuretic in
+247,emollient and laxative.,emollient and laxative
+248,Carminative,carminative
+248,tonic,tonic
+248,aphrodisiac,aphrodisiac
+248,stimulant,stimulant
+248,piles,piles
+248,escharotics,escharotics
+248,antiseptic,antiseptic
+248,anthelmintic,anthelmintic
+248,rheumatism,rheumatism
+248,sprains,sprains
+248,leucoderma,leucoderma
+248,leprosy,leprosy
+248,psoriasis,psoriasis
+248,asthma,asthma
+248,gonorrhoea,gonorrhoea
+248,scrofulous,scrofulous
+248,diarrhoea and menstruation.,diarrhoea and menstruation
+249,Diabetes,diabetes
+249,fever,fever
+249,ague,ague
+249,cough,cough
+249,bronchitis,bronchitis
+249,toothache,toothache
+249,diuretic,diuretic
+249,gravel,gravel
+249,kidney complaints. diarrhoea,kidney complaints. diarrhoea
+249,dysentery,dysentery
+249,glycosuria,glycosuria
+249,hyperglycaemia,hyperglycaemia
+249,anaemia,anaemia
+249,albuminuria,albuminuria
+249,ketonuria,ketonuria
+249,retinitis,retinitis
+249,diphtheria,diphtheria
+249,ulcer,ulcer
+249,jaundice and  menorrhagia.,jaundice and menorrhagia
+250,Stimulant,stimulant
+250,diaphoretic,diaphoretic
+250,aphrodisiac,aphrodisiac
+250,carminative,carminative
+250,anthelmintic,anthelmintic
+250,antidiarrhoel,antidiarrhoel
+250,asthma,asthma
+250,hypoglycaemic,hypoglycaemic
+250,antiprotozoal and rheumatism.,antiprotozoal and rheumatism
+251,Purgative,purgative
+252,Astringent,astringent
+252,laxative,laxative
+252,tonic,tonic
+252,alexiteric,alexiteric
+252,cooling,cooling
+252,diuretic,diuretic
+252,diarrhoea,diarrhoea
+252,biliousness,biliousness
+252,fevers and gonorrhea.,fevers and gonorrhea
+253,Astringent,astringent
+253,cures leprosy,cures leprosy
+253,skin diseases,skin diseases
+253,inflammations,inflammations
+253,ulcers,ulcers
+253,pains,pains
+253,astringent,astringent
+253,tonic,tonic
+253,appetite,appetite
+253,biliousness,biliousness
+253,tonic,tonic
+253,stomachic,stomachic
+253,anthelmintic,anthelmintic
+253,purgative,purgative
+253,cholera,cholera
+253,skin diseases,skin diseases
+253,ulcers,ulcers
+253,scalp,scalp
+253,rheumatism and malaria.,rheumatism and malaria
+254,Diarrhoea and dysentery.,diarrhoea and dysentery
+256,Boils and blisters.,boils and blisters
+257,Astringent,astringent
+257,uterine sedative,uterine sedative
+257,menorrhagia,menorrhagia
+257,uterus,uterus
+257,haemorrhoids,haemorrhoids
+257,dysentery,dysentery
+257,biliousness,biliousness
+257,dyspepsia,dyspepsia
+257,dysentery,dysentery
+257,colic,colic
+257,piles,piles
+257,ulcers,ulcers
+257,pimples,pimples
+257,stomachache,stomachache
+257,tonic and diarrhoea.,tonic and diarrhoea
+258,Expectorant,expectorant
+258,emetic,emetic
+258,excessive salivation,excessive salivation
+258,epilepsy,epilepsy
+258,chlorosis,chlorosis
+258,insecticidal,insecticidal
+258,dental caries,dental caries
+258,fever,fever
+258,cutaneous diseases.,cutaneous diseases
+259,Coughs,coughs
+259,viscid phlegm,viscid phlegm
+259,purgative,purgative
+259,tonic,tonic
+259,expectorant,expectorant
+259,febrifuge,febrifuge
+259,cardiacal,cardiacal
+259,gonorrhoea,gonorrhoea
+259,heart diseases,heart diseases
+259,itch,itch
+259,leprosy,leprosy
+259,fever,fever
+259,rheumatism,rheumatism
+259,glandular enlargements and pain.,glandular enlargements and pain
+260,Depurative,depurative
+260,diuretic and purgative.,diuretic and purgative
+261,Diuretic,diuretic
+261,astringent,astringent
+261,anthelmintic,anthelmintic
+261,toothache,toothache
+261,gonorrhoea,gonorrhoea
+261,menorrhagia,menorrhagia
+261,diarrhoea,diarrhoea
+261,haemorrhoides,haemorrhoides
+261,leucorrhoea and weakness.,leucorrhoea and weakness
+262,Febrifuge.,febrifuge
+263,Skin diseases,skin diseases
+263,boils,boils
+263,abscess and  ulcers.,abscess and ulcers
+264,Refrigerant,refrigerant
+264,laxative,laxative
+264,bile,bile
+264,skin disease,skin disease
+264,phthisis,phthisis
+264,calculi,calculi
+264,blood disease,blood disease
+264,biliousness,biliousness
+264,haemorrhagic diathesis,haemorrhagic diathesis
+264,galactagogue and diuretic.,galactagogue and diuretic
+265,Diuretic,diuretic
+265,tonic,tonic
+265,demulcent,demulcent
+265,cooling,cooling
+265,aperients,aperients
+265,laxative,laxative
+265,jaundice,jaundice
+265,fatigue,fatigue
+265,thirst and intestinal troubles,thirst and intestinal troubles
+265,ulcers,ulcers
+265,demulcent,demulcent
+265,stimulant,stimulant
+265,diuretic and jaundice.,diuretic and jaundice
+266,Refrigerant,refrigerant
+266,aphrodisiac.  dysentery,aphrodisiac. dysentery
+266,strangury,strangury
+266,boils,boils
+266,eye diseases.,eye diseases
+266,demulcent and diuretic.,demulcent and diuretic
+267,Pain and fever,pain and fever
+268,Tonic,tonic
+268,analgesic,analgesic
+268,laxative,laxative
+268,stomachic,stomachic
+268,tumours,tumours
+268,constipation,constipation
+268,hiccup,hiccup
+268,flatulence,flatulence
+268,asthma,asthma
+268,bronchitis,bronchitis
+268,piles,piles
+268,astringent,astringent
+268,cooling,cooling
+268,aperient,aperient
+268,diuretic,diuretic
+268,toothache,toothache
+268,jaundice,jaundice
+268,hepatic,hepatic
+268,constipation,constipation
+268,indigestion and dysentery.,indigestion and dysentery
+269,Refrigerant,refrigerant
+269,burns,burns
+269,aphrodisiac,aphrodisiac
+269,pain,pain
+269,anti-inflammatory and analgesic activity .,anti-inflammatory and analgesic activity
+270,Gonorrhoea,gonorrhoea
+270,syphilis,syphilis
+270,renal affections and abortion,renal affections and abortion
+271,Skin inflammation,skin inflammation
+271,menstrual bleeding,menstrual bleeding
+271,sores and healing.,sores and healing
+272,:  Purgative,purgative
+272,rheumatic pains,rheumatic pains
+272,joint pain,joint pain
+272,paralysis,paralysis
+272,constipation,constipation
+272,galactagogue,galactagogue
+272,headache,headache
+272,inflammations,inflammations
+272,jaundice,jaundice
+272,dysentery and cancer.,dysentery and cancer
+273,coughs,coughs
+274,Astringent,astringent
+274,haemorrhage,haemorrhage
+274,haematuria,haematuria
+274,angina and diabetes.,angina and diabetes
+275,Aphrodisiac,aphrodisiac
+275,eczema,eczema
+275,ringworm,ringworm
+275,cancer,cancer
+275,prickly heat,prickly heat
+275,dandruff,dandruff
+275,inflammatory skin diseases and anti-hypertensive.,inflammatory skin diseases and anti-hypertensive
+276,Paralysis.,paralysis
+277,similar disease of Rauvolfia serpentina,similar disease of rauvolfia serpentina
+278,Sedative,sedative
+278,tonic,tonic
+278,febrifuge,febrifuge
+278,high blood pressure,high blood pressure
+278,insomnia,insomnia
+278,madness,madness
+278,hypochondria,hypochondria
+278,anxiety,anxiety
+278,excitement,excitement
+278,schizophrenia,schizophrenia
+278,insanity,insanity
+278,epilepsy,epilepsy
+278,diarrhoea,diarrhoea
+278,dysentery,dysentery
+278,cholera,cholera
+278,colic,colic
+278,fever.,fever
+278,fever and piles.,fever and piles
+279,Tonic,tonic
+279,stomachic,stomachic
+279,sciatica,sciatica
+279,rheumatism,rheumatism
+279,dysuria,dysuria
+279,asthma,asthma
+279,pneumonia and neuralgic pains,pneumonia and neuralgic pains
+280,Fever.,fever
+281,Fever and paludism.,fever and paludism
+282,Anthelmintic,anthelmintic
+282,flatulence,flatulence
+282,boils,boils
+282,ulcers and worms.,ulcers and worms
+283,Tonic,tonic
+283,diarrhoea,diarrhoea
+283,chronic dysentery,chronic dysentery
+283,purgative,purgative
+283,anthelmintic,anthelmintic
+283,stomachache,stomachache
+283,dyspepsia,dyspepsia
+283,cardiac tonic,cardiac tonic
+283,piles,piles
+283,astringent and tapeworm.,astringent and tapeworm
+284,Cooling,cooling
+284,aphrodisiac,aphrodisiac
+284,tonic,tonic
+284,galactagogue,galactagogue
+284,diuretic,diuretic
+284,alterative,alterative
+284,leprosy and fevers.,leprosy and fevers
+285,Narcotic.,narcotic
+286,Tonic,tonic
+286,laxative,laxative
+286,anthelmintic,anthelmintic
+286,leucorrhoea,leucorrhoea
+286,gastralgia,gastralgia
+286,blood troubles,blood troubles
+286,ulcers,ulcers
+286,tumours,tumours
+286,leprosy andf inflammations.,leprosy andf inflammations
+287,Stringent,stringent
+287,diarrhea,diarrhea
+287,dysentery,dysentery
+287,bronchitis,bronchitis
+287,eye sores,eye sores
+287,tonic,tonic
+287,cooling,cooling
+287,laxative,laxative
+287,colic,colic
+287,astringent,astringent
+287,wounds,wounds
+287,ulcers,ulcers
+287,toothache and cholera.,toothache and cholera
+288,Rheumatism,rheumatism
+288,neuralgia,neuralgia
+288,fevers,fevers
+288,colic,colic
+288,flatulence,flatulence
+288,gonorrhoea,gonorrhoea
+288,convulsion,convulsion
+288,laxative,laxative
+288,stomachic,stomachic
+288,piles,piles
+288,constipation,constipation
+288,bronchitis,bronchitis
+288,urticaria,urticaria
+288,carminative,carminative
+288,alterative,alterative
+288,dyspepsia and worms.,dyspepsia and worms
+289,Diuretic,diuretic
+289,dropsy,dropsy
+289,urinary problems,urinary problems
+289,jaundice and tonic.,jaundice and tonic
+290,Anthelmintic,anthelmintic
+290,vulnerary,vulnerary
+290,ulcers,ulcers
+290,syphilis,syphilis
+290,gonorrhea,gonorrhea
+290,galactagogue,galactagogue
+290,sores,sores
+290,boils,boils
+290,stomachache.,stomachache
+291,Abscess,abscess
+291,convulsions,convulsions
+291,epilepsy,epilepsy
+291,asthma,asthma
+291,hysteria.,hysteria
+292,Refrigerant,refrigerant
+292,alterative,alterative
+292,vulnerary,vulnerary
+292,antiscorbutic,antiscorbutic
+292,aperient,aperient
+292,diuretic,diuretic
+292,scurvy,scurvy
+292,liver diseases,liver diseases
+292,spleen,spleen
+292,kidney,kidney
+292,bladder,bladder
+292,cardio-vascular diseases,cardio-vascular diseases
+292,dysuria,dysuria
+292,hematuria,hematuria
+292,gonorrhoea,gonorrhoea
+292,dysentery,dysentery
+292,sore nipples,sore nipples
+292,ulcers,ulcers
+292,gastric,gastric
+292,piles,piles
+292,erysipelas a,erysipelas a
+292,antihemorrhagi,antihemorrhagi
+293,Pneumonia and bowel.,pneumonia and bowel
+294,Asthma,asthma
+294,chronic bronchitis,chronic bronchitis
+294,catarrhal affections,catarrhal affections
+294,fever and dizziness.,fever and dizziness
+295,Fever,fever
+295,antifungal and antibacterial.,antifungal and antibacterial
+296,Diuretic,diuretic
+296,emetic,emetic
+296,gonorrhea,gonorrhea
+296,red pimples and buboes.,red pimples and buboes
+297,Tonic,tonic
+297,colic,colic
+297,fever and haemorrhoids.,fever and haemorrhoids
+298,Colic,colic
+298,fever and uterine haemorrhage.,fever and uterine haemorrhage
+299,Purgative,purgative
+299,stimulant,stimulant
+299,emmenagogue,emmenagogue
+299,febrifuge,febrifuge
+299,gonorrhoea,gonorrhoea
+299,blenorrhagia,blenorrhagia
+299,diarrhoea,diarrhoea
+299,piles,piles
+299,rubefacient,rubefacient
+299,purgative,purgative
+299,rheumatism,rheumatism
+299,itch,itch
+299,toothache and swelling.,toothache and swelling
+300,Rubefacient,rubefacient
+300,vesicant,vesicant
+300,ecbolic,ecbolic
+300,sudorific,sudorific
+300,astringent,astringent
+300,diuretic expectorant,diuretic expectorant
+300,stomachic,stomachic
+300,abortifacient,abortifacient
+300,piles,piles
+300,bronchitis,bronchitis
+300,dyspepsia,dyspepsia
+300,rheumatism,rheumatism
+300,anasarca,anasarca
+300,leprosy,leprosy
+300,ringworm,ringworm
+300,scabies,scabies
+300,skin diseases,skin diseases
+300,sudorific,sudorific
+300,antipyretic,antipyretic
+300,scabies,scabies
+300,ulcers,ulcers
+300,jaundice a,jaundice a
+301,Abortifacient,abortifacient
+301,hepatitis,hepatitis
+301,dyspepsia,dyspepsia
+301,flatulence,flatulence
+301,piles,piles
+301,leucoderma,leucoderma
+301,leprosy,leprosy
+301,anasarca,anasarca
+301,rheumatism,rheumatism
+301,paralytic affections,paralytic affections
+301,enlarged glands,enlarged glands
+301,ophthalmia,ophthalmia
+301,scabies,scabies
+301,pills,pills
+301,jaundice and dysentery.,jaundice and dysentery
+302,Febrifuge,febrifuge
+302,edema and arthritis.,edema and arthritis
+303,Pain,pain
+304,Refrigerant,refrigerant
+304,appetizer,appetizer
+304,fattening,fattening
+304,laxative,laxative
+304,bile,bile
+304,phlegm,phlegm
+304,skin disease,skin disease
+304,emollient,emollient
+304,resolvent and cataplasm.,resolvent and cataplasm
+305,Cooling,cooling
+305,demulcent,demulcent
+305,dysuria,dysuria
+305,boils,boils
+305,skin diseases,skin diseases
+305,eye and ear diseases,eye and ear diseases
+305,antiseptic,antiseptic
+305,antitubercular,antitubercular
+305,antidysenteric,antidysenteric
+305,anthelmintic,anthelmintic
+305,eczema,eczema
+305,leprosy,leprosy
+305,piles,piles
+305,ulcers,ulcers
+305,syphilis,syphilis
+305,cough,cough
+305,asthma and diuretic.,asthma and diuretic
+306,Pain,pain
+306,stimulant,stimulant
+306,carminative,carminative
+306,anthelmintic,anthelmintic
+306,cough,cough
+306,cold,cold
+306,asthma,asthma
+306,bronchitis,bronchitis
+306,fever,fever
+306,piles,piles
+306,hemorrhoidal affections and alexiteric.,hemorrhoidal affections and alexiteric
+307,Carminative,carminative
+307,antiperiodic,antiperiodic
+307,rubefacient,rubefacient
+307,stimulant,stimulant
+307,aphrodisiac,aphrodisiac
+307,cough,cough
+307,cold,cold
+307,cholera,cholera
+307,fevers,fevers
+307,dyspepsia,dyspepsia
+307,constipation,constipation
+307,piles,piles
+307,colic,colic
+307,gastric,gastric
+307,ascites,ascites
+307,anaemia,anaemia
+307,worms,worms
+307,asthma,asthma
+307,sore throats,sore throats
+307,toothache and skin diseases.,toothache and skin diseases
+308,Carminative,carminative
+308,stimulant,stimulant
+308,diuretic,diuretic
+308,digestive,digestive
+308,expectorant,expectorant
+308,tonic,tonic
+308,dyspepsia,dyspepsia
+308,coughs,coughs
+308,colds,colds
+308,malaise,malaise
+308,fever,fever
+308,pain,pain
+308,stomachic,stomachic
+308,carminative,carminative
+308,anthelmintic,anthelmintic
+308,bronchitis,bronchitis
+308,headache,headache
+308,sleeplessness,sleeplessness
+308,bronchitis and cough.,bronchitis and cough
+309,Carminative,carminative
+309,stomachic,stomachic
+309,tonic,tonic
+309,laxative,laxative
+309,stimulant,stimulant
+309,astringent,astringent
+309,antiseptic,antiseptic
+309,indigestion,indigestion
+309,colic,colic
+309,diarrhoea,diarrhoea
+309,pulmonary catarrh,pulmonary catarrh
+309,laryngitis,laryngitis
+309,headache and cough.,headache and cough
+310,Febrifuge.,febrifuge
+311,Earache,earache
+311,tonic,tonic
+311,diuretic,diuretic
+311,purgative,purgative
+311,gonorrhoea and leukemia.,gonorrhoea and leukemia
+312,Itch,itch
+312,abscess,abscess
+312,gonorrhoea,gonorrhoea
+312,measles,measles
+312,eye diseases and mammary abscesses.,eye diseases and mammary abscesses
+313,Diuretic,diuretic
+313,sudorific,sudorific
+313,depurative,depurative
+313,emmenagogue,emmenagogue
+313,dropsy,dropsy
+313,gonorrhoea,gonorrhoea
+313,genito-urinary diseases,genito-urinary diseases
+313,cystitis,cystitis
+313,dysentery,dysentery
+313,tonic,tonic
+313,astringent,astringent
+313,febrifuge,febrifuge
+313,bronchitis,bronchitis
+313,leprosy,leprosy
+313,anaemia,anaemia
+313,urinary discharges,urinary discharges
+313,anuria,anuria
+313,biliousness,biliousness
+313,asthma and hiccup.,asthma and hiccup
+314,Diuretic,diuretic
+314,cooling,cooling
+314,diarrhoea,diarrhoea
+314,spongy,spongy
+314,bleeding gums,bleeding gums
+314,inflammations,inflammations
+314,alterative,alterative
+314,attenuant and Malaria.,attenuant and malaria
+315,Diaphoretic,diaphoretic
+315,strangury,strangury
+315,carminative,carminative
+315,laxative,laxative
+315,tonic,tonic
+315,diuretic,diuretic
+315,astringent,astringent
+315,bronchitis,bronchitis
+315,earache,earache
+315,griping,griping
+315,ophthalmia,ophthalmia
+315,ascites and headache.,ascites and headache
+316,Diuretic,diuretic
+316,refrigerant,refrigerant
+316,carminative,carminative
+316,astringent,astringent
+316,tonic,tonic
+316,stomachic,stomachic
+316,laxative,laxative
+316,antacid,antacid
+316,vomiting,vomiting
+316,heart,heart
+316,liver,liver
+316,piles,piles
+316,stops nasal haemorrhage,stops nasal haemorrhage
+316,cough,cough
+316,cold,cold
+316,tonic,tonic
+316,diarrhoea,diarrhoea
+316,dysentery,dysentery
+316,anaemia,anaemia
+316,jaundice,jaundice
+316,dyspepsia,dyspepsia
+316,insomnia,insomnia
+316,gall pain,gall pain
+316,leucorrhoea and,leucorrhoea and
+317,Astrigent,astrigent
+317,deobstruent,deobstruent
+317,stomachic,stomachic
+317,diuretic,diuretic
+317,febrifuge,febrifuge
+317,antiseptic,antiseptic
+317,jaundice,jaundice
+317,leucorrhoea,leucorrhoea
+317,dyspepsia,dyspepsia
+317,colic,colic
+317,diarrhoea,diarrhoea
+317,dysentery,dysentery
+317,dropsy,dropsy
+317,gonorrhoea,gonorrhoea
+317,diabetes,diabetes
+317,scabies,scabies
+317,ringworms.,ringworms
+317,pain,pain
+317,fevers,fevers
+317,tonic,tonic
+317,sores and ulcers.,sores and ulcers
+318,Astringent,astringent
+318,appetizer,appetizer
+318,tonic,tonic
+318,bronchitis,bronchitis
+318,biliousness,biliousness
+318,urinary concretions,urinary concretions
+318,piles,piles
+318,t,t
+318,vomiting and constipation.,vomiting and constipation
+319,Diuretic,diuretic
+319,stomachic,stomachic
+319,febrifuge,febrifuge
+319,astringent,astringent
+319,ulcers,ulcers
+319,wounds,wounds
+319,asthma,asthma
+319,bronchitis,bronchitis
+319,bowels,bowels
+319,pain and piles.,pain and piles
+320,Cooling,cooling
+320,aphrodisiac,aphrodisiac
+320,biliousness,biliousness
+320,urinary troubles,urinary troubles
+320,vaginal and uterine complaints,vaginal and uterine complaints
+320,erysipelas,erysipelas
+320,heart diseases and diaphoretic.,heart diseases and diaphoretic
+321,Cooling,cooling
+321,laxative,laxative
+321,gonorrhoea,gonorrhoea
+321,gleet,gleet
+321,nervous debility.,nervous debility
+321,diarrhoea,diarrhoea
+321,tonic,tonic
+321,pain,pain
+321,cough,cough
+321,fever,fever
+321,and threadworms.,and threadworms
+322,Fevers,fevers
+322,cough,cough
+322,bronchitis and asthma.,bronchitis and asthma
+323,Tonic,tonic
+323,vulnerary,vulnerary
+323,and wounds.,and wounds
+324,Stimulant,stimulant
+324,diuretic,diuretic
+324,emmenagogue,emmenagogue
+324,menses,menses
+324,amenorrhoea,amenorrhoea
+324,wounds,wounds
+324,headache,headache
+324,intestinal worms,intestinal worms
+324,skin diseases,skin diseases
+324,pain,pain
+324,toothache,toothache
+324,gastric ulcer,gastric ulcer
+324,dysentery,dysentery
+324,dysmenorrhoea,dysmenorrhoea
+324,hemorrhage,hemorrhage
+324,pain,pain
+324,stimulant and tonic.,stimulant and tonic
+325,Fever and colic pain.,fever and colic pain
+326,Tonic,tonic
+326,purgative,purgative
+326,emetic,emetic
+326,pains of colic,pains of colic
+326,cooling,cooling
+326,ulcers.,ulcers
+327,Snake-bites.,snake-bites
+328,Anthelmintic,anthelmintic
+328,laxative,laxative
+328,antipyretic,antipyretic
+328,expectorant,expectorant
+328,emetic,emetic
+328,cough,cough
+328,diarrhoea,diarrhoea
+328,asthmatic,asthmatic
+328,anthelmintic.,anthelmintic
+329,Refrigerant,refrigerant
+329,frequent use,frequent use
+329,eczema,eczema
+329,headache,headache
+329,fever,fever
+329,abdominal pains,abdominal pains
+329,boils and sores.,boils and sores
+330,Menstruation,menstruation
+330,emetic,emetic
+330,irritant and leucoderma patches.,irritant and leucoderma patches
+331,aperient,aperient
+331,tonic,tonic
+331,visceral obstructions,visceral obstructions
+331,dropsy,dropsy
+331,pain and haemorrhoidal piles.,pain and haemorrhoidal piles
+332,Skin diseases,skin diseases
+332,sore,sore
+332,hysteria,hysteria
+332,headache,headache
+332,biliousness,biliousness
+332,asthma and emetic.,asthma and emetic
+333,Insanity.,insanity
+334,Alexiteric,alexiteric
+334,tonic,tonic
+334,aphrodisiac,aphrodisiac
+334,leprosy,leprosy
+334,small-pox,small-pox
+334,syphilis,syphilis
+334,scabies,scabies
+334,leucoderma,leucoderma
+334,diabetes,diabetes
+334,headache,headache
+334,rheumatism,rheumatism
+334,diuretic,diuretic
+334,depurative and tonic.,depurative and tonic
+335,Boils.,boils
+336,Tonic,tonic
+336,diuretic,diuretic
+336,emmenagogue,emmenagogue
+336,aphrodisiac,aphrodisiac
+336,epistaxis,epistaxis
+336,rheumatic affections,rheumatic affections
+336,styptic,styptic
+336,vulnerary,vulnerary
+336,astringent,astringent
+336,diarrhoea and dysentery,diarrhoea and dysentery
+336,herpes,herpes
+336,loose motion,loose motion
+336,piles,piles
+336,inflammation and liver.,inflammation and liver
+337,Diuretic,diuretic
+337,aphrodisiac,aphrodisiac
+337,anthelmintic,anthelmintic
+337,leucoderma,leucoderma
+337,bronchitis,bronchitis
+337,ulcers,ulcers
+337,tonic,tonic
+337,gonorrhoea,gonorrhoea
+337,muscle pain,muscle pain
+337,cough,cough
+337,leucoderma and jaundice.,leucoderma and jaundice
+338,Cooling,cooling
+338,antiseptic,antiseptic
+338,astringent,astringent
+338,appetiser,appetiser
+338,antiscorbutic,antiscorbutic
+338,fevers,fevers
+338,biliousness,biliousness
+338,scurvy,scurvy
+338,piles,piles
+338,anaemia,anaemia
+338,tympanites and dysentery.,tympanites and dysentery
+339,Tonic,tonic
+339,fattening,fattening
+339,diuretic,diuretic
+339,peptic,peptic
+339,carminative,carminative
+339,diarrohea and dysentery.,diarrohea and dysentery
+340,Kidney,kidney
+340,bladder,bladder
+340,nephrocirrhosis,nephrocirrhosis
+340,phosphaturia,phosphaturia
+340,rheumatism,rheumatism
+340,gout,gout
+340,piles and wounds.,piles and wounds
+341,Expectorant,expectorant
+341,carminative,carminative
+341,stomachic,stomachic
+341,emollient,emollient
+341,leucoderma,leucoderma
+341,purgative,purgative
+341,diaphoretic,diaphoretic
+341,rheumatism,rheumatism
+341,astringent,astringent
+341,tonic,tonic
+341,stomachic,stomachic
+341,aphrodisiac,aphrodisiac
+341,anodyne,anodyne
+341,sudorific and vulnerary,sudorific and vulnerary
+341,diarrhoea,diarrhoea
+341,dysentery,dysentery
+341,fevers,fevers
+341,bronchitis,bronchitis
+341,intestinal worms and dropsy.,intestinal worms and dropsy
+342,Diarrhoea and boil.,diarrhoea and boil
+343,Digestive,digestive
+343,carminative,carminative
+343,diuretic,diuretic
+343,purgative,purgative
+343,bronchitis,bronchitis
+343,leucoderma,leucoderma
+343,enlarged spleen,enlarged spleen
+343,urinary burning,urinary burning
+343,vesicular calculi,vesicular calculi
+343,ophthalmia,ophthalmia
+343,inflammation,inflammation
+343,cough,cough
+343,ashma and gonorrhoea.,ashma and gonorrhoea
+344,Dysentery.,dysentery
+345,Purgative,purgative
+345,anthelmintic,anthelmintic
+345,alexiteric,alexiteric
+345,antipyretic,antipyretic
+345,ascites,ascites
+345,leucoderma,leucoderma
+345,constipation,constipation
+345,piles,piles
+345,bronchitis and pain.,bronchitis and pain
+346,Demulcent,demulcent
+346,expectorant,expectorant
+346,antipyretic,antipyretic
+346,coughs,coughs
+346,colds,colds
+346,catarrh,catarrh
+346,bronchitis,bronchitis
+346,gastric disorder,gastric disorder
+346,earache,earache
+346,ringworm,ringworm
+346,leprosy,leprosy
+346,itches,itches
+346,antifungal and antibacterial.,antifungal and antibacterial
+347,Stimulant,stimulant
+347,styptic,styptic
+347,demulcent,demulcent
+347,diuretic,diuretic
+347,carminative,carminative
+347,anti-emetic,anti-emetic
+347,digestive,digestive
+347,cough,cough
+347,rheumatism,rheumatism
+347,paralysis,paralysis
+347,gonorrhoea,gonorrhoea
+347,headache,headache
+347,neuralgia,neuralgia
+347,scanty urination,scanty urination
+347,fever,fever
+347,influenza,influenza
+347,dysmenorrhoea,dysmenorrhoea
+347,jaundice.,jaundice
+348,Bronchitis,bronchitis
+348,ringworm,ringworm
+348,cataract,cataract
+348,diarrhoea,diarrhoea
+348,dysentery,dysentery
+348,nephritis,nephritis
+348,neuralgia,neuralgia
+348,expectorant and aphrodisiac.,expectorant and aphrodisiac
+349,Carminative,carminative
+349,diaphoretic,diaphoretic
+349,stimulant,stimulant
+349,cold,cold
+349,coughs,coughs
+349,catarrh,catarrh
+349,bronchitis,bronchitis
+349,dysentery,dysentery
+349,toothache,toothache
+349,migraine,migraine
+349,fever,fever
+349,skin diseases,skin diseases
+349,indigestion and diarrhea.,indigestion and diarrhea
+350,Digestive,digestive
+350,tonic and asthma.,tonic and asthma
+351,Fever,fever
+351,jaundice,jaundice
+351,ulcers,ulcers
+351,skin disease and anthelmintic.,skin disease and anthelmintic
+352,Cooling,cooling
+352,alterative,alterative
+352,dispels biliousness,dispels biliousness
+352,erysipelas,erysipelas
+352,narcotic,narcotic
+352,anti-aphrodisiac,anti-aphrodisiac
+352,stomachic,stomachic
+352,restorative,restorative
+352,emollient and diuretic,emollient and diuretic
+352,blenorrhagia.,blenorrhagia
+353,Demulcent,demulcent
+353,diuretic,diuretic
+353,piles,piles
+353,dysentery,dysentery
+353,dyspepsia,dyspepsia
+353,astringent,astringent
+353,cardiotonic,cardiotonic
+353,refrigerant,refrigerant
+353,cough,cough
+353,bile,bile
+353,vomiting,vomiting
+353,giddiness,giddiness
+353,astringent,astringent
+353,piles and menorrhagia.,piles and menorrhagia
+354,Antibilious,antibilious
+354,cholagogue,cholagogue
+354,diaphoretic,diaphoretic
+354,diuretic,diuretic
+354,expectorant,expectorant
+354,fever,fever
+354,rheumatism,rheumatism
+354,sciatica,sciatica
+354,expectorant,expectorant
+354,bronchitis,bronchitis
+354,stomachic,stomachic
+354,carminative,carminative
+354,bowels,bowels
+354,tonic,tonic
+354,piles,piles
+354,skin diseases and dysentery.,skin diseases and dysentery
+355,Ulcer,ulcer
+356,Stimulant,stimulant
+356,diuretic,diuretic
+356,carminative,carminative
+356,anthelmintic,anthelmintic
+356,stomachic,stomachic
+356,emmenagogue,emmenagogue
+356,galactagogue,galactagogue
+356,hypocholesterolaemic,hypocholesterolaemic
+356,cough,cough
+356,jaundice,jaundice
+356,piles and fever.,piles and fever
+357,Sedative,sedative
+357,narcotic,narcotic
+357,emetic,emetic
+357,antispasmodic,antispasmodic
+357,rheumatic,rheumatic
+357,skin diseases,skin diseases
+357,scorpion-sting,scorpion-sting
+357,ulcers and tumours.,ulcers and tumours
+358,Sedative,sedative
+358,narcotic,narcotic
+358,emetic,emetic
+358,antispasmodic,antispasmodic
+358,rheumatic,rheumatic
+358,skin diseases,skin diseases
+358,scorpion-sting,scorpion-sting
+358,ulcers and tumours.,ulcers and tumours
+359,Inflammations,inflammations
+359,pains,pains
+359,lumbago,lumbago
+359,headache,headache
+359,scabies,scabies
+359,diuretic,diuretic
+359,tonic,tonic
+359,resolvent,resolvent
+359,attenuant,attenuant
+359,cancers,cancers
+359,ulcers,ulcers
+359,skin diseases and leprosy.,skin diseases and leprosy
+360,Diuretic,diuretic
+360,cough,cough
+360,biliousness,biliousness
+360,throat troubles,throat troubles
+360,spermatorrhoea,spermatorrhoea
+360,dysentery,dysentery
+360,dyspepsia,dyspepsia
+360,piles,piles
+360,strangury,strangury
+360,piles,piles
+360,leprosy,leprosy
+360,tonic,tonic
+360,diarrhoea,diarrhoea
+360,cholera,cholera
+360,fever,fever
+360,liver diseases,liver diseases
+360,aphrodisiac,aphrodisiac
+360,astringent and ulcers.,astringent and ulcers
+361,Astringent,astringent
+361,tonic,tonic
+361,styptic,styptic
+361,gingivitis,gingivitis
+361,diarrhoea,diarrhoea
+361,tuberculosis,tuberculosis
+361,liver disorders,liver disorders
+361,bowel,bowel
+361,fever. In Cambodia,fever. in cambodia
+361,depurant and tonic.,depurant and tonic
+362,Diuretic,diuretic
+362,stimulant,stimulant
+362,antiscorbutic,antiscorbutic
+362,asthma,asthma
+362,chronic catarrh and pyorrhea.,chronic catarrh and pyorrhea
+363,Astringent,astringent
+363,tonic,tonic
+363,carminative,carminative
+363,antiseptic,antiseptic
+363,stimulant,stimulant
+363,fever,fever
+363,catarrh,catarrh
+363,cough,cough
+363,asthma,asthma
+363,headache and cholera.,headache and cholera
+364,Boils,boils
+364,jaundice and  headache.,jaundice and headache
+365,Pectoral,pectoral
+365,diuretic,diuretic
+365,asthma,asthma
+365,fevers,fevers
+365,dropsy,dropsy
+365,ulcers and jaundice.,ulcers and jaundice
+366,Scabies,scabies
+366,eye diseases,eye diseases
+366,antiscorbutic,antiscorbutic
+366,colic,colic
+366,enorrhagia,enorrhagia
+366,diabetes,diabetes
+366,strangury,strangury
+366,urinary discharges,urinary discharges
+366,hysteria,hysteria
+366,epilepsy,epilepsy
+366,dysentery,dysentery
+366,diarrhea,diarrhea
+366,dyspepsia,dyspepsia
+367,Diarrhoea.,diarrhoea
+368,Stimulant,stimulant
+368,astringent,astringent
+368,diarrhea and dysentery.,diarrhea and dysentery
+369,Tonic,tonic
+369,stomachic,stomachic
+369,dysentery,dysentery
+369,bruises,bruises
+369,eruptions,eruptions
+369,stimulants and pain.,stimulants and pain
+370,"""okwaha”-a swelling in the groin",okwaha”-a swelling in the groin
+371,Purgative,purgative
+371,emmenagogue,emmenagogue
+371,fever,fever
+371,cholera,cholera
+371,diuretic,diuretic
+371,ulcers,ulcers
+371,anthelmintic and aphrodisiac.,anthelmintic and aphrodisiac
+372,Tonic,tonic
+372,cardiotonic,cardiotonic
+372,astringent,astringent
+372,bowels,bowels
+372,cough,cough
+372,asthma and sedative.,asthma and sedative
+373,Cooling,cooling
+373,laxative,laxative
+373,allay thirst,allay thirst
+373,fever,fever
+373,vermifuge,vermifuge
+373,purgative,purgative
+373,anthelmintic and astringent.,anthelmintic and astringent
+374,Antiscorbutic,antiscorbutic
+374,stimulant,stimulant
+374,carminative,carminative
+374,stomachic,stomachic
+374,diuretic,diuretic
+374,laxative,laxative
+374,expectorant,expectorant
+374,fevers,fevers
+374,bronchitis,bronchitis
+374,piles,piles
+374,epilepsy,epilepsy
+374,hysteria,hysteria
+374,chronic rheumatism,chronic rheumatism
+374,astringent,astringent
+374,abortifacient,abortifacient
+374,anthelmintic,anthelmintic
+374,inflammation,inflammation
+374,heart,heart
+374,pain,pain
+374,anthelmintic and gastric.,anthelmintic and gastric
+375,Tonic,tonic
+375,wounds,wounds
+375,ulcers,ulcers
+375,healing,healing
+375,pain,pain
+375,fever,fever
+375,headache,headache
+375,emollient,emollient
+375,sedative,sedative
+375,cooling,cooling
+375,stomachic,stomachic
+375,diarrhea,diarrhea
+375,spongy gums,spongy gums
+375,dysentery,dysentery
+375,asthma and laxative.,asthma and laxative
+376,Urinary diseases,urinary diseases
+376,jaundice,jaundice
+376,insect bites and fever.,insect bites and fever
+377,Toothache,toothache
+377,coughs and asthma.,coughs and asthma
+378,Alterative,alterative
+378,tonic,tonic
+378,cooling,cooling
+378,boils and scurf.,boils and scurf
+379,Aphrodisiac,aphrodisiac
+379,anthelmintic,anthelmintic
+379,cure fever,cure fever
+379,consumption,consumption
+379,asthma,asthma
+379,bronchitis,bronchitis
+379,hiccup,hiccup
+379,piles,piles
+379,alexiteric,alexiteric
+379,stomachic,stomachic
+379,laxative,laxative
+379,biliousness,biliousness
+379,asthma,asthma
+379,leprosy,leprosy
+379,bronchitis,bronchitis
+379,fever,fever
+379,tumours,tumours
+379,urinary discharges,urinary discharges
+379,excessive salivation,excessive salivation
+379,and heart troubles.,and heart troubles
+380,Astringent,astringent
+380,bowels,bowels
+380,laxative,laxative
+380,tumours,tumours
+380,malignant ulcers,malignant ulcers
+380,obstructions,obstructions
+380,liver,liver
+380,gall bladder stone,gall bladder stone
+380,lumbago,lumbago
+380,ulceration,ulceration
+380,fracture of bones and rheumatism,fracture of bones and rheumatism
+381,Diabetes mellitus,diabetes mellitus
+381,tonic,tonic
+381,stomachic,stomachic
+381,febrifuge,febrifuge
+381,carminative,carminative
+381,anthelmintic,anthelmintic
+381,cooling,cooling
+381,rheumatism,rheumatism
+381,gout,gout
+381,piles,piles
+381,leprosy,leprosy
+381,liver,liver
+381,spleen,spleen
+381,purgative,purgative
+381,loose,loose
+381,anthelmintic,anthelmintic
+381,jaundice,jaundice
+381,astringent,astringent
+381,haemorrhoids,haemorrhoids
+381,peptic ulcer,peptic ulcer
+381,colic and fever.,colic and fever
+382,Stomachic,stomachic
+382,emmenagogue,emmenagogue
+382,aperients,aperients
+382,antiseptic,antiseptic
+382,sore legs,sore legs
+382,menstrual discharge and earache.,menstrual discharge and earache
+383,Hemorrhage and liquor.,hemorrhage and liquor
+384,Fever,fever
+384,colic and muscular pains.,colic and muscular pains
+385,Aphrodisiac,aphrodisiac
+385,purgative,purgative
+385,maturant,maturant
+385,lessen inflammations,lessen inflammations
+385,boils,boils
+385,phlegmons,phlegmons
+385,whitlow. and urticaria.,whitlow. and urticaria
+386,Expectorant,expectorant
+386,cures biliousness,cures biliousness
+386,liver complaints,liver complaints
+386,nose,nose
+386,headache,headache
+386,asthma,asthma
+386,astringent,astringent
+386,dysentery. Constipation,dysentery. constipation
+386,astringent,astringent
+386,tonic properties,tonic properties
+386,fevers,fevers
+386,bleeding gums,bleeding gums
+386,loose teeth,loose teeth
+386,aphrodisiac,aphrodisiac
+386,diuretic and gonorrhea.,diuretic and gonorrhea
+387,Diuretic,diuretic
+387,astringent,astringent
+387,antispasmodic,antispasmodic
+387,sore gums,sore gums
+387,vesical calculi,vesical calculi
+387,cooling,cooling
+387,vulnerary,vulnerary
+387,emetic,emetic
+387,cures leprosy,cures leprosy
+387,dysentery,dysentery
+387,inflammations,inflammations
+387,burning sensation,burning sensation
+387,asthma and jaundice.,asthma and jaundice
+388,Dysentery,dysentery
+388,gastric,gastric
+388,ulcers,ulcers
+388,haemorrhages,haemorrhages
+388,wounds and dyspepsia.,wounds and dyspepsia
+389,Colic,colic
+389,expectorant,expectorant
+389,diuretic,diuretic
+389,cough,cough
+389,rheumatism,rheumatism
+389,antispasmodic,antispasmodic
+389,tonic,tonic
+389,stomachic,stomachic
+389,carminative,carminative
+389,diuretic,diuretic
+389,cooling,cooling
+389,dyspepsia,dyspepsia
+389,nausea,nausea
+389,fever,fever
+389,renal diseases and in gonorrhea.,renal diseases and in gonorrhea
+390,Refrigerant,refrigerant
+390,cholagogue,cholagogue
+390,phlegm,phlegm
+390,bile,bile
+390,hepatic congestion,hepatic congestion
+390,bone fracture anddiphtheria.,bone fracture anddiphtheria
+391,Astringrent,astringrent
+391,stomachic,stomachic
+391,cough,cough
+391,expectoration,expectoration
+391,piles,piles
+391,dysentery and rheumatism.,dysentery and rheumatism
+392,Strangury,strangury
+392,urethral discharges,urethral discharges
+392,cooling,cooling
+392,diuretic,diuretic
+392,inflammation and stomachache.,inflammation and stomachache
+393,Refrigerant,refrigerant
+393,stomachic,stomachic
+393,diuretic,diuretic
+393,stimulant,stimulant
+393,expectorant,expectorant
+393,carminative,carminative
+393,diaphoretic,diaphoretic
+393,jaundice,jaundice
+393,vomiting,vomiting
+393,fevers,fevers
+393,indigestion and cephalalgia.,indigestion and cephalalgia
+394,Cooling,cooling
+394,astringent,astringent
+394,leucorrhoea,leucorrhoea
+394,gonorrhea,gonorrhea
+394,bruises and menstrual discharges.,bruises and menstrual discharges
+395,Spermatorrhoea,spermatorrhoea
+395,restorative purgative and mastitis.,restorative purgative and mastitis
+396,Sore and dysentery.,sore and dysentery
+397,Astringent,astringent
+397,narcotic and bowel.,narcotic and bowel
+398,Expectorant,expectorant
+398,emetic,emetic
+398,styptic,styptic
+398,enlarged spleen,enlarged spleen
+398,heart complaints,heart complaints
+398,strengthen teeth,strengthen teeth
+398,allay inflammation,allay inflammation
+398,scabies,scabies
+398,skin disease,skin disease
+398,malaria,malaria
+398,anthelmintic,anthelmintic
+398,diuretic,diuretic
+398,emmenagogue,emmenagogue
+398,rheumatism,rheumatism
+398,fever,fever
+398,pain,pain
+398,brain tonic,brain tonic
+398,laxative,laxative
+398,maturant,maturant
+398,earache,earache
+398,piles,piles
+398,spleen,spleen
+399,Diarrhoea,diarrhoea
+399,dysentery,dysentery
+399,leucorrhoea,leucorrhoea
+399,diarrhea,diarrhea
+399,catrrhal pharyngitis,catrrhal pharyngitis
+399,aphthae,aphthae
+399,scabies and ulcers.,scabies and ulcers
+400,Alexiteric,alexiteric
+400,inflammations,inflammations
+400,epilepsy and sore throat.,epilepsy and sore throat
+401,stomachache and intestinal disorder.,stomachache and intestinal disorder
+402,Acrid,acrid
+402,rubefacient,rubefacient
+402,vulnerary,vulnerary
+402,burning  and urinary problems.,burning and urinary problems
+403,Febrifuge,febrifuge
+403,astringent,astringent
+403,tonic,tonic
+403,diarrhea,diarrhea
+403,paludism and  diuretic.,paludism and diuretic
+404,Astringent,astringent
+404,tonic,tonic
+404,fevers,fevers
+404,demulcent,demulcent
+404,emollient,emollient
+404,cooling,cooling
+404,tonic,tonic
+404,aphrodisiac,aphrodisiac
+404,heart disease and leprosy.,heart disease and leprosy
+405,Jaundice.,jaundice
+406,Dog bite.,dog bite
+407,Fever,fever
+407,toothache,toothache
+407,diarrhea,diarrhea
+407,bowels,bowels
+407,dysentery,dysentery
+407,urinary discharges,urinary discharges
+407,ophthalmia,ophthalmia
+407,eruption,eruption
+407,astringent,astringent
+407,tonic,tonic
+407,antiscorbutic,antiscorbutic
+407,dysentery,dysentery
+407,asthma,asthma
+407,anthelmintic,anthelmintic
+407,piles,piles
+407,menorrhagia,menorrhagia
+407,antisyphilitic and scabies.,antisyphilitic and scabies
+408,Bleeding through nose and mouth.,bleeding through nose and mouth
+409,Purgative,purgative
+409,anthelmintic,anthelmintic
+409,styptic,styptic
+409,ringworms,ringworms
+409,bronchitis,bronchitis
+409,stone in the bladder,stone in the bladder
+409,scabies,scabies
+409,skin diseases,skin diseases
+409,ulcers,ulcers
+409,wounds and  rheumatism.,wounds and rheumatism
+410,Boils,boils
+410,anthelmintic and syphilis.,anthelmintic and syphilis
+411,Diarrhoea.,diarrhoea
+412,Cooling,cooling
+412,tonic,tonic
+412,demulcent,demulcent
+412,carminative,carminative
+412,coughs,coughs
+412,colds,colds
+412,bronchitis,bronchitis
+412,piles,piles
+412,emollient,emollient
+412,emetic,emetic
+412,laxative,laxative
+412,skin diseases,skin diseases
+412,rheumatism,rheumatism
+412,headache,headache
+412,heals wounds and ulcers.,heals wounds and ulcers
+413,Tumours,tumours
+413,skin disease,skin disease
+413,anal fissures,anal fissures
+413,dysuria,dysuria
+413,sores,sores
+413,burns,burns
+413,bowels,bowels
+413,antipyretic,antipyretic
+413,anthelmintic,anthelmintic
+413,diuretic,diuretic
+413,tonic,tonic
+413,asthma,asthma
+413,bronchitis,bronchitis
+413,hiccup,hiccup
+413,ozoena,ozoena
+413,strangury,strangury
+413,piles,piles
+413,leucoderma,leucoderma
+413,leucorrhoea,leucorrhoea
+413,menstrual derangements,menstrual derangements
+413,kidney and gall bladder.,kidney and gall bladder
+414,Jaundice.,jaundice
+415,Constipation,constipation
+415,mucous stool and colic.,mucous stool and colic
+416,Dysentery,dysentery
+416,skin diseases.,skin diseases
+417,Diuretic and cathartic,diuretic and cathartic
+417,haematuria and mennorrhagia.,haematuria and mennorrhagia
+418,Antibacterial,antibacterial
+418,menorrhagia,menorrhagia
+418,rheumatism,rheumatism
+418,sprains,sprains
+418,scabies,scabies
+418,ulcers,ulcers
+418,eczema,eczema
+418,carbuncles and pain.,carbuncles and pain
+420,Gastric,gastric
+420,antiseptic,antiseptic
+420,canker of the mouth,canker of the mouth
+420,dyspepsia,dyspepsia
+420,bile and kidney disease.,bile and kidney disease
+421,Cooling,cooling
+421,aphrodisiac,aphrodisiac
+421,allay thirst,allay thirst
+421,cures consumption,cures consumption
+421,biliousness,biliousness
+421,burning and fever.,burning and fever
+422,Expectorant,expectorant
+422,tonic,tonic
+422,laxative,laxative
+422,diuretic,diuretic
+422,cures biliousness,cures biliousness
+422,spleen diseases,spleen diseases
+422,leprosy,leprosy
+422,piles,piles
+422,fever,fever
+422,bronchitis,bronchitis
+422,cool,cool
+422,costive,costive
+422,demulcent,demulcent
+422,skin disorders,skin disorders
+422,haemorrhoids,haemorrhoids
+422,emetic and cathartic.,emetic and cathartic
+423,Splenitis,splenitis
+423,haemorrhoides,haemorrhoides
+423,ringworms,ringworms
+423,leprosy,leprosy
+423,demulcent,demulcent
+423,diuretic and nutritive,diuretic and nutritive
+423,purgative,purgative
+423,emetic and anthelmintic properties.,emetic and anthelmintic properties
+424,Dysentery,dysentery
+424,ulcers and skin diseases.,ulcers and skin diseases
+425,Astringent,astringent
+425,stomachic,stomachic
+425,stimulant,stimulant
+425,diarrhea,diarrhea
+425,dysentery and pain.,dysentery and pain
+426,Diarrhoea.,diarrhoea
+427,Demulcent,demulcent
+427,diarrhea,diarrhea
+427,dysentery,dysentery
+427,rheumatism,rheumatism
+427,antispasmodic,antispasmodic
+427,emollient,emollient
+427,colic,colic
+427,impotence,impotence
+427,Diarrhoea and dysentery.,diarrhoea and dysentery
+428,Tonic,tonic
+428,anodyne,anodyne
+428,neuralgic disorders and orchitis.,neuralgic disorders and orchitis
+429,Tonic,tonic
+429,diuretic,diuretic
+429,aphrodisiac,aphrodisiac
+429,demulcent,demulcent
+429,ulcers,ulcers
+429,leprosy,leprosy
+429,cough,cough
+429,kidney troubles,kidney troubles
+429,gouty,gouty
+429,rheumatic swellings,rheumatic swellings
+429,colds,colds
+429,gonorrhea and pain.,gonorrhea and pain
+430,Bronchitis and skin disease.,bronchitis and skin disease
+431,Antiseptic,antiseptic
+431,elephantiasis,elephantiasis
+431,fevers and  dysentery.,fevers and dysentery
+432,Headache,headache
+432,colds,colds
+432,scabies,scabies
+432,skin diseases and ulcers.,skin diseases and ulcers
+433,Vermifuge,vermifuge
+433,febrifuge,febrifuge
+433,headaches,headaches
+433,cough,cough
+433,scabies,scabies
+433,cold,cold
+433,sores and wounds.,sores and wounds
+434,Stimulant,stimulant
+434,diaphoretic,diaphoretic
+434,scabies,scabies
+434,eczema,eczema
+434,aperient,aperient
+434,diaphoretic,diaphoretic
+434,emmenagogue,emmenagogue
+434,insecticide,insecticide
+434,expectorant,expectorant
+434,administered,administered
+434,cough and colds.,cough and colds
+435,Insecticide,insecticide
+435,rheumatism,rheumatism
+435,psoriasis and skin disease.,psoriasis and skin disease
+436,Tonic,tonic
+436,alterative,alterative
+436,vulnerary,vulnerary
+436,febrifuge,febrifuge
+436,constructive and aphrodisiac.,constructive and aphrodisiac
+437,Diuretic,diuretic
+437,tonic,tonic
+437,laxative,laxative
+437,astringent,astringent
+437,bowels,bowels
+437,ulcers,ulcers
+437,styptic and astringent.,styptic and astringent
+438,Aastringent,aastringent
+438,alexipharmic and guineaworm.,alexipharmic and guineaworm
+439,Bubo and boils.,bubo and boils
+440,Guineaworm and wounds.,guineaworm and wounds
+441,Astringent,astringent
+441,anthelmintic,anthelmintic
+441,vulnerary,vulnerary
+441,antipyretic,antipyretic
+441,alexiteric,alexiteric
+441,bronchitis,bronchitis
+441,skin disease,skin disease
+441,dyspepsia,dyspepsia
+441,fever,fever
+441,leprosy,leprosy
+441,itching and ulcers.,itching and ulcers
+442,Emmenagogue,emmenagogue
+442,jaundice,jaundice
+442,spleen,spleen
+442,calculous affections,calculous affections
+442,skin diseases,skin diseases
+442,leprosy,leprosy
+442,burns,burns
+442,scalds,scalds
+442,emetic,emetic
+442,expectorant,expectorant
+442,diuretic,diuretic
+442,vulnerary,vulnerary
+442,jaundice,jaundice
+442,headache,headache
+442,eczema,eczema
+442,leprosy,leprosy
+442,dandruff,dandruff
+442,bruises,bruises
+442,sprains,sprains
+442,spermatorrhoea,spermatorrhoea
+442,astringent,astringent
+442,refrigerant,refrigerant
+442,vulnerary,vulnerary
+442,sop,sop
+443,Lactagogue,lactagogue
+443,tonic,tonic
+443,diuretic,diuretic
+443,aperient,aperient
+443,rheumatic and soporific.,rheumatic and soporific
+444,Lactagogue.,lactagogue
+445,Colic and rheumatism.,colic and rheumatism
+446,Scabies and fever.,scabies and fever
+447,Vulnerary,vulnerary
+447,diaphoretic,diaphoretic
+447,carminative,carminative
+447,antispasmodic,antispasmodic
+447,tetanus,tetanus
+447,rheumatism,rheumatism
+447,malaria,malaria
+447,viscera and measles.,viscera and measles
+448,Astringent,astringent
+448,stomachic,stomachic
+448,impetigenous eruptions,impetigenous eruptions
+448,ulcers,ulcers
+448,sprains,sprains
+448,heart diseases,heart diseases
+448,dysentery,dysentery
+448,mouth sores,mouth sores
+448,toothache and pains.,toothache and pains
+449,Hypoglycaemic,hypoglycaemic
+449,narcotic,narcotic
+449,purgative,purgative
+449,astringent,astringent
+449,stimulant and febrifuge.,stimulant and febrifuge
+450,Hydragogue,hydragogue
+450,purgative,purgative
+450,stimulant,stimulant
+450,febrifuge,febrifuge
+450,astringent and gargle.,astringent and gargle
+451,Laxative,laxative
+451,cooling,cooling
+451,emetic,emetic
+451,purgative,purgative
+451,diuretic,diuretic
+451,antibilious,antibilious
+451,pain,pain
+451,cough.piles,cough.piles
+451,cholera,cholera
+451,nutritive,nutritive
+451,diuretic.,diuretic
+451,cooling,cooling
+451,headache and jaundice.,headache and jaundice
+452,Laxative,laxative
+452,diuretic,diuretic
+452,galactagogue,galactagogue
+452,febrifuge,febrifuge
+452,stomachic,stomachic
+452,tonic,tonic
+452,antispasmodic,antispasmodic
+452,aphrodisiac,aphrodisiac
+452,inflammations,inflammations
+452,emmenagogue,emmenagogue
+452,alexipharmac,alexipharmac
+452,colicand and ringworms.,colicand and ringworms
+453,Diuretic,diuretic
+453,antilithic,antilithic
+453,insecticidal,insecticidal
+453,wounds,wounds
+453,boils,boils
+453,bronchial affections,bronchial affections
+453,kidney stones,kidney stones
+453,blood dysentery,blood dysentery
+453,gout,gout
+453,jaundice and cough.,jaundice and cough
+454,Wounds,wounds
+454,stomachic,stomachic
+454,aphrodisiac,aphrodisiac
+454,gastric,gastric
+454,mumps and scabies.,mumps and scabies
+455,Goiter,goiter
+455,dysentery,dysentery
+455,insect bite and diarrhea.,insect bite and diarrhea
+456,Stimulant,stimulant
+456,expectorant,expectorant
+456,diuretic,diuretic
+456,carminative,carminative
+456,coughs,coughs
+456,asthma,asthma
+456,swellings,swellings
+456,rheumatism and fevers.,rheumatism and fevers
+457,Diuretic,diuretic
+457,stomachic,stomachic
+457,expectorant,expectorant
+457,anthelmintic,anthelmintic
+457,diaphoretic,diaphoretic
+457,aperient,aperient
+457,indigestion,indigestion
+457,biliousness,biliousness
+457,fever,fever
+457,vomiting,vomiting
+457,and ophthalmia.,and ophthalmia
+458,Febrifuge,febrifuge
+458,emetic,emetic
+458,rheumatic,rheumatic
+458,pain,pain
+458,eczema,eczema
+458,cephalalgia,cephalalgia
+458,hemiplegia,hemiplegia
+458,paralysis,paralysis
+458,diaphoretic,diaphoretic
+458,leucorrhoea,leucorrhoea
+458,dysentery and jaundice.,dysentery and jaundice
+459,Emmenagogue,emmenagogue
+459,purgative,purgative
+459,boils,boils
+459,carbuncles,carbuncles
+459,eczema itches,eczema itches
+459,dysentery,dysentery
+459,purgative,purgative
+459,emetic,emetic
+459,skin diseases,skin diseases
+459,rheumatism and paralytic affections,rheumatism and paralytic affections
+460,Purgative,purgative
+460,rheumatism,rheumatism
+460,herpes,herpes
+460,pruritus,pruritus
+460,ulcers,ulcers
+460,scabies,scabies
+460,eczema,eczema
+460,ringworm,ringworm
+460,toothache,toothache
+460,fever,fever
+460,antidiarrhoeal,antidiarrhoeal
+460,cough,cough
+460,emetic and purgative.,emetic and purgative
+461,Ringworm and eye diseases.,ringworm and eye diseases
+462,Insanity,insanity
+462,emmenagogue,emmenagogue
+462,ulcers,ulcers
+462,indolent,indolent
+462,brest tumour and menstrual disorders.,brest tumour and menstrual disorders
+463,Ringworm and herpes.,ringworm and herpes
+464,Diarrhoea and dysentery.,diarrhoea and dysentery
+465,Fevers,fevers
+466,stomachic,stomachic
+466,hiccup,hiccup
+466,fever,fever
+466,gonorrhoea,gonorrhoea
+466,diarrhoea and dysentery,diarrhoea and dysentery
+466,leucorrhoea,leucorrhoea
+466,dysmenorrhoea,dysmenorrhoea
+466,haemoptysis and catarrhal bronchitis.,haemoptysis and catarrhal bronchitis
+467,Anaemia and whooping cough.,anaemia and whooping cough
+468,Bodyache.,bodyache
+469,Cooling,cooling
+469,purgative,purgative
+469,cancer,cancer
+469,pain,pain
+469,piles and carbuncles.,piles and carbuncles
+470,Purgative,purgative
+470,bolis,bolis
+470,carbuncles and dog-bites.,carbuncles and dog-bites
+471,Cooling,cooling
+471,stomachic,stomachic
+471,laxative,laxative
+471,bowels,bowels
+471,blenorrhagia,blenorrhagia
+471,piles,piles
+471,diarrhea,diarrhea
+471,rheumatism,rheumatism
+471,whitlow and colic.,whitlow and colic
+472,Toasted and aphthous affection.,toasted and aphthous affection
+473,Cooling,cooling
+473,alterative,alterative
+473,tonic,tonic
+473,aphrodisiac,aphrodisiac
+473,ulcers,ulcers
+473,deobstruent,deobstruent
+473,diuretic and arsenic.,diuretic and arsenic
+474,Sexual disabilities.,sexual disabilities
+475,Antidiabetic,antidiabetic
+475,fever,fever
+475,skin diseases,skin diseases
+475,aphrodisiac,aphrodisiac
+475,laxative,laxative
+475,strangury and diarrhea.,strangury and diarrhea
+476,Anthelmintic,anthelmintic
+476,carminative,carminative
+476,leucoderma,leucoderma
+476,leprosy,leprosy
+476,fever,fever
+476,jaundice,jaundice
+476,biliousness,biliousness
+476,bronchitis,bronchitis
+476,liver disease,liver disease
+476,cooling,cooling
+476,ringworm and diarrhea.,ringworm and diarrhea
+477,Purgative,purgative
+477,filariasis,filariasis
+477,constipation,constipation
+477,boils and wounds.,boils and wounds
+478,Bronchitis,bronchitis
+478,asthma,asthma
+478,lumbago,lumbago
+478,spleen,spleen
+478,piles,piles
+478,leucoderma,leucoderma
+478,epilepsy,epilepsy
+478,nervous disorders,nervous disorders
+478,hydrophobia,hydrophobia
+478,laxative,laxative
+478,expectorant,expectorant
+478,alexipharmic,alexipharmic
+478,anthelmintic,anthelmintic
+478,heart diseases,heart diseases
+478,insanity,insanity
+478,fever,fever
+478,leucoderma,leucoderma
+478,enlarged spleen,enlarged spleen
+478,hepatitis and cephalalgia.,hepatitis and cephalalgia
+479,Diuretic,diuretic
+479,tonic,tonic
+479,astringent,astringent
+479,antivirus and fever.,antivirus and fever
+480,Emetic,emetic
+480,cathartic,cathartic
+480,diuretic,diuretic
+480,pains,pains
+480,cooling,cooling
+480,tonic,tonic
+480,lumbago,lumbago
+480,inter-costal neuralgia,inter-costal neuralgia
+480,burns and scalds.,burns and scalds
+481,Sarsaparilla,sarsaparilla
+481,cooling,cooling
+481,demulcent,demulcent
+481,alterative,alterative
+481,tonic,tonic
+481,diaphoretic,diaphoretic
+481,diuretic,diuretic
+481,fever,fever
+481,dyspepsia,dyspepsia
+481,skin troubles,skin troubles
+481,diabetes,diabetes
+481,scabies and pain.,scabies and pain
+482,Stimulant,stimulant
+482,carminative,carminative
+482,sudorific,sudorific
+482,lactagogue,lactagogue
+482,catarrhal,catarrhal
+482,uterus,uterus
+482,cutaneous,cutaneous
+482,cancer,cancer
+482,tumour,tumour
+482,antispasmodic,antispasmodic
+482,antirheumatic,antirheumatic
+482,colic,colic
+482,stomachaches,stomachaches
+482,fever and piles.,fever and piles
+483,Astrigent,astrigent
+483,alterative,alterative
+483,styptic,styptic
+483,vulnerary,vulnerary
+483,asthma and dysentery.,asthma and dysentery
+484,Astringent,astringent
+484,febrifuge,febrifuge
+484,antiperiodic,antiperiodic
+484,appetite,appetite
+484,tumours,tumours
+484,herpes,herpes
+484,fever and  jaundice.,fever and jaundice
+485,Cooling,cooling
+485,astringent and biliousness.,astringent and biliousness
+486,Tonic,tonic
+486,aphrodisiac,aphrodisiac
+486,hypnotic,hypnotic
+486,diarrhoea,diarrhoea
+486,dysentery,dysentery
+486,thirst,thirst
+486,urinary calculi,urinary calculi
+486,urinary discharges,urinary discharges
+486,inflammations,inflammations
+486,biliousness,biliousness
+486,anaemia,anaemia
+486,constipation,constipation
+486,anuria,anuria
+486,cough,cough
+486,gleet,gleet
+486,lumbago,lumbago
+486,pains,pains
+486,cooling,cooling
+486,sedative,sedative
+486,uterus,uterus
+486,constipating,constipating
+486,gonorrhea,gonorrhea
+486,spermatorrhoea,spermatorrhoea
+486,c,c
+487,Cleaning,cleaning
+487,healing,healing
+487,antiseptic,antiseptic
+487,poultice,poultice
+487,ulcers and pain.,ulcers and pain
+488,Leprosy,leprosy
+488,cancer and febrifuge.,cancer and febrifuge
+489,Tonic,tonic
+489,demulcent,demulcent
+489,diuretic,diuretic
+489,strangury,strangury
+489,pain,pain
+489,dysentery,dysentery
+489,vomiting,vomiting
+489,asthma and cough.,asthma and cough
+490,Jundice,jundice
+490,pain,pain
+490,And diarrhoea.,and diarrhoea
+491,Wounds and sores.,wounds and sores
+492,Aromatic,aromatic
+492,stimulant and influenza.,stimulant and influenza
+493,Stomachic,stomachic
+493,astringent,astringent
+493,febrifuge,febrifuge
+493,anthelmintic,anthelmintic
+493,dysentery,dysentery
+493,diarrhoea,diarrhoea
+493,fevers,fevers
+493,piles,piles
+493,leprosy,leprosy
+493,skin diseases,skin diseases
+493,bronchitis,bronchitis
+493,lumbago,lumbago
+493,boils,boils
+493,ulcers,ulcers
+493,anthelmintic,anthelmintic
+493,biliousness,biliousness
+493,diarrhoea,diarrhoea
+493,leucoderma,leucoderma
+493,carminative,carminative
+493,astringent,astringent
+493,tonic and febrifuge.,tonic and febrifuge
+494,Rheumatism,rheumatism
+494,asthma and scabies.,asthma and scabies
+495,Laxative,laxative
+495,resolvent,resolvent
+495,ulcers,ulcers
+495,wounds,wounds
+495,skin disorders,skin disorders
+495,laxative and hypoglycaemic .,laxative and hypoglycaemic
+496,Intestinal penile irritation,intestinal penile irritation
+496,sores,sores
+496,urethritis,urethritis
+496,gonorrhoea and inflammations.,gonorrhoea and inflammations
+497,Emollient,emollient
+497,diuretic,diuretic
+497,sedative and refrigerant,sedative and refrigerant
+497,laxative,laxative
+497,antiscorbutic,antiscorbutic
+497,dysentery and diarrhoea.,dysentery and diarrhoea
+498,Cooling,cooling
+498,astringent,astringent
+498,piles,piles
+498,refrigerant,refrigerant
+498,emollient,emollient
+498,demulcent,demulcent
+498,aphrodisiac,aphrodisiac
+498,emmenagogue,emmenagogue
+498,dysentery,dysentery
+498,piles and menorrhagia,piles and menorrhagia
+499,Stimulant and emollient.,stimulant and emollient
+500,Stomachic,stomachic
+500,appetizer,appetizer
+500,fattening,fattening
+500,aphrodisiac,aphrodisiac
+500,pains,pains
+500,bruises,bruises
+500,cures earache,cures earache
+500,purgative,purgative
+500,dysentery,dysentery
+500,cough and biliousness.,cough and biliousness
+501,Diarrhoea.,diarrhoea
+502,Ulcer,ulcer
+503,Sarsaparilla,sarsaparilla
+503,alterative,alterative
+503,tonic,tonic
+503,purgative,purgative
+503,demulcent,demulcent
+503,diaphoretic,diaphoretic
+503,diuretic,diuretic
+503,antipyretic,antipyretic
+503,aphrodisiac,aphrodisiac
+503,antidiarrhoeal,antidiarrhoeal
+503,blood purifier,blood purifier
+503,appetite,appetite
+503,syphilis,syphilis
+503,leucoderma,leucoderma
+503,itching,itching
+503,rheumatism,rheumatism
+503,gravel,gravel
+503,urinary diseases,urinary diseases
+503,leucorrhoea,leucorrhoea
+503,fever,fever
+503,asthma,asthma
+503,bronchitis,bronchitis
+504,Uciatica,uciatica
+504,tonic,tonic
+504,cough,cough
+504,dysentery,dysentery
+504,catarrh,catarrh
+504,phthisis,phthisis
+504,hemorrhage,hemorrhage
+504,impotency and jaundice.,impotency and jaundice
+505,Astringent,astringent
+505,emollient,emollient
+505,vulnerary,vulnerary
+505,diuretic,diuretic
+505,ulcers,ulcers
+505,sores,sores
+505,wounds,wounds
+505,gum boils,gum boils
+505,skin disease,skin disease
+505,rheumatism,rheumatism
+505,ringworm,ringworm
+505,eye disease,eye disease
+505,fevers,fevers
+505,urticaria,urticaria
+505,aphrodisiac,aphrodisiac
+505,coughs,coughs
+505,fevers,fevers
+505,stomachic and emmenagogue.,stomachic and emmenagogue
+506,Eczema,eczema
+506,skin diseases,skin diseases
+506,demulcent,demulcent
+506,astringent,astringent
+506,bowels,bowels
+506,flatulence,flatulence
+506,dysentery,dysentery
+506,worms,worms
+506,dysentery,dysentery
+506,diarrhoea,diarrhoea
+506,biliousness,biliousness
+506,cough,cough
+506,asthma,asthma
+506,diabetes,diabetes
+506,stomach,stomach
+506,expectorant,expectorant
+506,demulcent,demulcent
+506,astringent,astringent
+506,antigalactagogue,antigalactagogue
+506,griping and scabies.,griping and scabies
+507,Emetic,emetic
+507,lumber pain,lumber pain
+507,malaria,malaria
+507,tonic,tonic
+507,emmenagogue,emmenagogue
+507,anthelmintic,anthelmintic
+507,antiperiodic,antiperiodic
+507,cures anaemia,cures anaemia
+507,skin diseases,skin diseases
+507,itching,itching
+507,ulcers,ulcers
+507,leprosy,leprosy
+507,fever with regor,fever with regor
+507,asthma,asthma
+507,bronchitis,bronchitis
+507,cough and colds.,cough and colds
+508,Boils,boils
+508,stomach pain and diuretic.,stomach pain and diuretic
+509,Biliousness,biliousness
+509,fever,fever
+509,gonorrhea and cancer.,gonorrhea and cancer
+510,Febrifuge,febrifuge
+510,stomachic,stomachic
+510,anthelmintic,anthelmintic
+510,jaundice,jaundice
+510,liver complaints,liver complaints
+510,fever,fever
+510,gastric,gastric
+510,nervous and pain.,nervous and pain
+511,Fever and  anthelmintic.,fever and anthelmintic
+512,menstrual cycle,menstrual cycle
+513,Anthemintic,anthemintic
+513,bronchitis,bronchitis
+513,ulcers,ulcers
+513,skin diseases,skin diseases
+513,tumours,tumours
+513,inflammations,inflammations
+513,leprosy,leprosy
+513,diabetes,diabetes
+513,gonorrhoea,gonorrhoea
+513,fever,fever
+513,piles,piles
+513,skin diseases and rheumatism.,skin diseases and rheumatism
+514,Body-ache and limb.,body-ache and limb
+515,Astringent,astringent
+515,cooling,cooling
+515,stomachic,stomachic
+515,aphrodisiac,aphrodisiac
+515,diarrhea,diarrhea
+515,fevers,fevers
+515,tonic,tonic
+515,aphrodisiac,aphrodisiac
+515,allays thirst,allays thirst
+515,burning sensation,burning sensation
+515,inflammations,inflammations
+515,fevers,fevers
+515,strangury,strangury
+515,gleet and gonorrhea.,gleet and gonorrhea
+516,Cough,cough
+516,emollient,emollient
+516,enema and  leprosy.,enema and leprosy
+517,Indigestion,indigestion
+517,eczema,eczema
+517,itch,itch
+517,small-pox,small-pox
+517,fever,fever
+517,dysentery,dysentery
+517,turmeric and jaundice.,turmeric and jaundice
+518,Antipyretic,antipyretic
+518,stomachic,stomachic
+518,antispasmodic,antispasmodic
+518,deobstruent,deobstruent
+518,menses,menses
+518,hysteria,hysteria
+518,cough,cough
+518,diuretic,diuretic
+518,anthelmintic,anthelmintic
+518,emmenagogue,emmenagogue
+518,galactagogue,galactagogue
+518,astringent,astringent
+518,stimulant,stimulant
+518,paralysis,paralysis
+518,rheumatism,rheumatism
+518,piles and pain.,piles and pain
+519,Abortifacient,abortifacient
+519,demulcent,demulcent
+519,laxative,laxative
+519,expectorant,expectorant
+519,aphrodisiac,aphrodisiac
+519,emmenagogue,emmenagogue
+519,galactagogue,galactagogue
+519,dysmenorrhoea,dysmenorrhoea
+519,menstruation,menstruation
+519,stimulates,stimulates
+519,menstruation and menstrual.,menstruation and menstrual
+520,Oliguria,oliguria
+520,hypertension,hypertension
+520,cough and diabetes.,cough and diabetes
+521,Antiperiodic.,antiperiodic
+522,Astringent,astringent
+522,vulnerary and gout.,vulnerary and gout
+523,Cough,cough
+523,rheumatism,rheumatism
+523,anaemia,anaemia
+523,jaundice,jaundice
+523,ascaris,ascaris
+523,eczema,eczema
+523,skin affections and fever.,skin affections and fever
+524,Gonorrhoea,gonorrhoea
+524,cough,cough
+524,astringent,astringent
+524,leprosy,leprosy
+524,diuretic,diuretic
+524,tonic,tonic
+524,aphrodisiac,aphrodisiac
+524,alterative,alterative
+524,astringent,astringent
+524,bowels,bowels
+524,anaemia,anaemia
+524,leprosy,leprosy
+524,ulcer,ulcer
+524,consumption,consumption
+524,strangury and vaginal discharges.,strangury and vaginal discharges
+525,Tonic,tonic
+525,stomachic,stomachic
+525,anthelmintic,anthelmintic
+525,gastrointestinal,gastrointestinal
+525,vomiting,vomiting
+525,neuralgia,neuralgia
+525,pains,pains
+525,abortifacient,abortifacient
+525,colic,colic
+525,chronic ulcers and piles.,chronic ulcers and piles
+526,Depressant,depressant
+526,antivirus,antivirus
+526,hypotensive and hypoglycaemic.,hypotensive and hypoglycaemic
+527,Stomachic,stomachic
+527,aperients,aperients
+527,antiseptic,antiseptic
+527,skin diseases depressant and diuretic.,skin diseases depressant and diuretic
+528,Astringent,astringent
+528,asthma,asthma
+528,diarrhoea and pulmonary affections.,diarrhoea and pulmonary affections
+529,Stimulant,stimulant
+529,astringent,astringent
+529,constipation,constipation
+529,vomiting,vomiting
+529,pains,pains
+529,bronchitis and destroy maggots wounds.,bronchitis and destroy maggots wounds
+530,Antispasmodic,antispasmodic
+530,antiperiodic,antiperiodic
+530,cathartic and anthemintic,cathartic and anthemintic
+530,dyspepsia,dyspepsia
+530,nervous disorders and hysteria.,nervous disorders and hysteria
+531,Rheumatic pain and bronchitis.,rheumatic pain and bronchitis
+532,Cathartic and anthelminitic.,cathartic and anthelminitic
+533,Anthelmintic,anthelmintic
+533,cardiotonic,cardiotonic
+533,tonic,tonic
+533,alexipharmic and biliousness.,alexipharmic and biliousness
+534,Astringent,astringent
+534,headache,headache
+534,dysentery,dysentery
+534,cathartic,cathartic
+534,nausea and vomiting.,nausea and vomiting
+535,Carminative,carminative
+535,diuretic,diuretic
+535,laxative,laxative
+535,appetizer,appetizer
+535,stomachic,stomachic
+535,anthelmintic,anthelmintic
+535,fever,fever
+535,thirst,thirst
+535,dysentery and flatulence,dysentery and flatulence
+535,kidney,kidney
+535,amenorrhoea,amenorrhoea
+535,cough and asthma.,cough and asthma
+536,Sore eyes and fractured bones.,sore eyes and fractured bones
+537,Epilepsy,epilepsy
+537,hysteria,hysteria
+537,fever,fever
+537,vermifuge,vermifuge
+537,menstruation and rheumatic fever.,menstruation and rheumatic fever
+538,Asthma and menstrual irregularities.,asthma and menstrual irregularities
+539,Stomachic,stomachic
+539,digestive,digestive
+539,allay thirst,allay thirst
+539,biliousness,biliousness
+539,fevers,fevers
+539,nausea,nausea
+539,diaphoretic,diaphoretic
+539,astringent,astringent
+539,stomachic,stomachic
+539,diarrhoea,diarrhoea
+539,piles,piles
+539,bleeding gums,bleeding gums
+539,toothache and stomatitis.,toothache and stomatitis
+540,Appetizing,appetizing
+540,digestive,digestive
+540,stomachic,stomachic
+540,diuretic,diuretic
+540,jaundice,jaundice
+540,enlarged spleen.,enlarged spleen
+540,astringent,astringent
+540,diuretic,diuretic
+540,eczema and cholera.,eczema and cholera
+541,Sores,sores
+541,cholera and jaundice.,cholera and jaundice
+542,Leprosy,leprosy
+542,bladder complaints and visceral obstructions.,bladder complaints and visceral obstructions
+543,Digestive,digestive
+543,laxative,laxative
+543,aphrodisiac,aphrodisiac
+543,vomiting,vomiting
+543,asthma,asthma
+543,cooling,cooling
+543,alexipharmac,alexipharmac
+543,thirst,thirst
+543,biliousness,biliousness
+543,alterative,alterative
+543,laxative,laxative
+543,refrigerant,refrigerant
+543,urinary discharges,urinary discharges
+543,purgative,purgative
+543,skin diseases,skin diseases
+543,astringent,astringent
+543,scabies,scabies
+543,ulcers,ulcers
+543,gonorrhea,gonorrhea
+543,gout,gout
+543,aphrodisiac,aphrodisiac
+543,stomatitis,stomatitis
+543,lumbag,lumbag
+544,Astringent,astringent
+544,stomachic,stomachic
+544,carminative,carminative
+544,menorrhagia,menorrhagia
+544,haemoptysis,haemoptysis
+544,bronchitis,bronchitis
+544,dry cough,dry cough
+544,kidney disease,kidney disease
+544,spleen,spleen
+544,bowels,bowels
+544,tonic,tonic
+544,styptic,styptic
+544,allays thirst,allays thirst
+544,leucorrhoea,leucorrhoea
+544,acrid,acrid
+544,cooling,cooling
+544,biliousness,biliousness
+544,fatigue,fatigue
+544,urinary discharges,urinary discharges
+544,thirst,thirst
+544,leprosy,leprosy
+544,menorrhagia,menorrhagia
+544,pain,pain
+545,Cooling,cooling
+545,bowels and antidysenteric,bowels and antidysenteric
+545,ulcers,ulcers
+545,biliousness,biliousness
+545,psoriasis,psoriasis
+545,anaemia,anaemia
+545,piles,piles
+545,jaundice,jaundice
+545,haemorrhage,haemorrhage
+545,purgative,purgative
+545,emetic,emetic
+545,lactagogue and tonic.,lactagogue and tonic
+546,Ulcers.,ulcers
+547,Aphrodisiac,aphrodisiac
+547,tonic,tonic
+547,vulnerary,vulnerary
+547,maturant,maturant
+547,toothache,toothache
+547,dysentery,dysentery
+547,diarrhoea,diarrhoea
+547,piles,piles
+547,diabetes,diabetes
+547,pains,pains
+547,lumbago,lumbago
+547,biliousness,biliousness
+547,styptic and aphrodisiac.,styptic and aphrodisiac
+548,Refrigerant,refrigerant
+548,stomachic,stomachic
+548,stimulant,stimulant
+548,astringent,astringent
+548,aphrodisiac,aphrodisiac
+548,diuretic,diuretic
+548,cardiotonic,cardiotonic
+548,tonic,tonic
+548,cough,cough
+548,hiccup,hiccup
+548,dysentery,dysentery
+548,asthma,asthma
+548,consumption,consumption
+548,tumours,tumours
+548,ophthalmia,ophthalmia
+548,leucorrhoea,leucorrhoea
+548,stomatitis,stomatitis
+548,astringent,astringent
+548,diarrhea and heart diseases.,diarrhea and heart diseases
+549,Purgative,purgative
+549,emetic,emetic
+549,insanity and hydrophobia.,insanity and hydrophobia
+550,Acrid,acrid
+550,ulcers,ulcers
+550,leprous sores,leprous sores
+550,aphrodisiac,aphrodisiac
+550,purgative,purgative
+550,emetic,emetic
+550,rheumatism,rheumatism
+550,leprosy,leprosy
+550,paralysis,paralysis
+550,and ulcers.,and ulcers
+551,Tonic,tonic
+551,astringent,astringent
+551,deobstruent,deobstruent
+551,aphrodisiac,aphrodisiac
+551,dysmenorrhoea and rheumatism.,dysmenorrhoea and rheumatism
+552,Stomachic and diarrhea.,stomachic and diarrhea
+553,Purgative,purgative
+553,carminative,carminative
+553,gonorrhoea,gonorrhoea
+553,cough,cough
+553,asthma,asthma
+553,dropsy,dropsy
+553,leprosy,leprosy
+553,enlarged spleen,enlarged spleen
+553,dyspepsia,dyspepsia
+553,jaundice,jaundice
+553,colic,colic
+553,tumours,tumours
+553,stone in the bladder,stone in the bladder
+553,vesicant,vesicant
+553,rubefacient,rubefacient
+553,warts,warts
+553,rheumatism,rheumatism
+553,neuralgia,neuralgia
+553,toothache,toothache
+553,purgative,purgative
+553,irritant and emetic.,irritant and emetic
+554,Vulnerary,vulnerary
+554,galactagogue,galactagogue
+554,ophthalmia,ophthalmia
+554,ardor,ardor
+554,sores,sores
+554,atrophy,atrophy
+554,dysentery,dysentery
+554,pain,pain
+554,asthma,asthma
+554,ringworm,ringworm
+554,diarrhea,diarrhea
+554,dysentery,dysentery
+554,dysentery,dysentery
+554,astringent,astringent
+554,stimulant,stimulant
+554,anthelmintic,anthelmintic
+554,laxative and amenorrhoea.,laxative and amenorrhoea
+555,Astringent,astringent
+555,haemostatic,haemostatic
+555,abscesses,abscesses
+555,inflamed glands,inflamed glands
+555,ulcers,ulcers
+555,oedemas,oedemas
+555,phlegmons,phlegmons
+555,worms,worms
+555,bowel,bowel
+555,cough,cough
+555,tonic,tonic
+555,narcotic,narcotic
+555,antiasthmatic,antiasthmatic
+555,febrifuge,febrifuge
+555,dysentery,dysentery
+555,diarrhea,diarrhea
+555,colic,colic
+555,amoebiasis,amoebiasis
+555,asthma and bronchial.,asthma and bronchial
+556,Purgative,purgative
+556,rheumatism,rheumatism
+556,toothache,toothache
+556,nervine diseases,nervine diseases
+556,dropsy,dropsy
+556,whitlow,whitlow
+556,deafness,deafness
+556,amaurosis,amaurosis
+556,warts and dysentery .,warts and dysentery
+557,Stimulant,stimulant
+557,tonic,tonic
+557,laxative,laxative
+557,emetic,emetic
+557,diaphoretic,diaphoretic
+557,antiseptic,antiseptic
+557,haemostatic,haemostatic
+557,haemorrhage and ulcers.,haemorrhage and ulcers
+558,Bronchitis,bronchitis
+558,infusions,infusions
+558,decoctions,decoctions
+558,colds,colds
+558,influenza,influenza
+558,fever,fever
+558,dysentery,dysentery
+558,cough and diabetes.,cough and diabetes
+559,Aphrodisiac,aphrodisiac
+559,astringent,astringent
+559,tonic,tonic
+559,stomachic,stomachic
+559,appetizer,appetizer
+559,alterative,alterative
+559,stomatitis,stomatitis
+559,cough and paralytic affection.,cough and paralytic affection
+560,Sore throat.,sore throat
+561,Stomachic,stomachic
+561,anthelmintic,anthelmintic
+561,laxative,laxative
+561,diuretic,diuretic
+561,gatactagogue,gatactagogue
+561,emmenagogue,emmenagogue
+561,venereal buboes,venereal buboes
+561,pain,pain
+561,inflammations,inflammations
+561,earache,earache
+561,toothache,toothache
+561,astringent,astringent
+561,febrifuge anti-bilious,febrifuge anti-bilious
+561,anthelmintic,anthelmintic
+561,dysentery and ophthalmia.,dysentery and ophthalmia
+562,Cooling,cooling
+562,gonorrhoea and bone fracture.,gonorrhoea and bone fracture
+563,Emetic,emetic
+563,febrifuge,febrifuge
+563,alexiteric,alexiteric
+563,narcotic,narcotic
+563,antiperiodic,antiperiodic
+563,anthelmintic,anthelmintic
+563,pains,pains
+563,purgative,purgative
+563,febrifuge,febrifuge
+563,astringent,astringent
+563,pain and diarrhoea.,pain and diarrhoea
+564,Pain,pain
+564,fever,fever
+564,dysentery,dysentery
+564,skin eruptions,skin eruptions
+564,heart troubles,heart troubles
+564,burning,burning
+564,itching,itching
+564,vomiting,vomiting
+564,asthma,asthma
+564,intestinal worms,intestinal worms
+564,ulcers,ulcers
+564,piles,piles
+564,urine complaints,urine complaints
+564,itch,itch
+564,sores,sores
+564,sinuses,sinuses
+564,stomachic,stomachic
+564,diuretic,diuretic
+564,emmenagogue,emmenagogue
+564,antipyretic,antipyretic
+564,tonic,tonic
+564,expectorant,expectorant
+564,alexiteric,alexiteric
+564,inflammati,inflammati
+565,blood purifier,blood purifier
+565,diuretic,diuretic
+565,used,used
+565,diuretic,diuretic
+565,blood purifier,blood purifier
+565,boils,boils
+565,buboes,buboes
+565,jaundice,jaundice
+565,sores,sores
+565,wounds,wounds
+565,syphilis,syphilis
+565,ulcers and dysentery.,ulcers and dysentery
+566,Ascites,ascites
+566,dropsy and anasarca,dropsy and anasarca
+566,fever,fever
+566,inflammation,inflammation
+566,leucoderma,leucoderma
+566,bronchitis,bronchitis
+566,biliousness and scene disease.,biliousness and scene disease
+567,Bowel,bowel
+567,cooling,cooling
+567,sore throat and diarrhoea.,sore throat and diarrhoea
+568,Worms,worms
+568,influenza,influenza
+568,cough,cough
+568,diarrhea and jaundice.,diarrhea and jaundice
+569,Pain,pain
+570,Convulsion and liver complaints.,convulsion and liver complaints
+571,Griping,griping
+571,inflammations,inflammations
+571,bronchitis,bronchitis
+571,pills,pills
+571,menorrhagia,menorrhagia
+571,fever,fever
+571,piles,piles
+571,ulcers,ulcers
+571,eczema,eczema
+571,dysuria,dysuria
+571,diarrhoea and dysentery,diarrhoea and dysentery
+571,rheumatism and dysentery.,rheumatism and dysentery
+573,Rheumatism,rheumatism
+573,dysentery and diarrhoea.,dysentery and diarrhoea
+575,Gout,gout
+575,dysuria,dysuria
+575,jaundice,jaundice
+575,menorrhagia,menorrhagia
+575,rheumatism and tumours.,rheumatism and tumours
+576,Pain.,pain
+577,Hysteria,hysteria
+577,diarrhoea,diarrhoea
+578,Biliousness,biliousness
+578,thirst,thirst
+578,burning sensations,burning sensations
+578,erysipelas,erysipelas
+578,elephantiasis,elephantiasis
+578,cold,cold
+578,fever and rheumatism.,fever and rheumatism
+579,Phthisis,phthisis
+579,fever,fever
+579,dyspepsia,dyspepsia
+579,skin diseases,skin diseases
+579,cough,cough
+579,poulticing swellings,poulticing swellings
+579,bowels,bowels
+579,typhoid,typhoid
+579,jaundice,jaundice
+579,dysentery.,dysentery
+580,Rubefacient.,rubefacient
+581,Rheumatism,rheumatism
+581,burns,burns
+581,scalds and sudorific.,scalds and sudorific
+582,Ulcers,ulcers
+582,ringworms,ringworms
+582,gonorrhoea,gonorrhoea
+582,gleet and rheumatism.,gleet and rheumatism
+583,Gonorrhoea.,gonorrhoea
+584,Rheumatism and gonorrhoea.,rheumatism and gonorrhoea
+585,Diarrhoea,diarrhoea
+586,Boils,boils
+586,pain,pain
+586,fever,fever
+586,dysuria,dysuria
+586,gravel,gravel
+586,neuralgia,neuralgia
+586,pleurisy,pleurisy
+586,pneumonia,pneumonia
+586,menorrhagia,menorrhagia
+586,flooding and diarrhea.,flooding and diarrhea
+587,Wounds,wounds
+587,ulcers,ulcers
+587,diarrhoea,diarrhoea
+587,sore throat,sore throat
+587,diarrhoea,diarrhoea
+587,dysentery,dysentery
+587,coughs,coughs
+587,dyspnoea and fever.,dyspnoea and fever
+588,Swelling,swelling
+588,rheumatism,rheumatism
+588,dropsy,dropsy
+588,anasarca and pain.,anasarca and pain
+589,Whitlow,whitlow
+589,sores and boils.,sores and boils
+590,Jaundice.,jaundice
+591,Bowels,bowels
+591,syphilis,syphilis
+591,piles,piles
+591,dysentery,dysentery
+591,diarrhoea,diarrhoea
+591,ulcers,ulcers
+591,bronchitis,bronchitis
+591,asthma,asthma
+591,dyspepsia,dyspepsia
+591,urinary discharges and leucoderma and vasicatories.,urinary discharges and leucoderma and vasicatories
+592,Heart disease,heart disease
+592,jaundice and mumps.,jaundice and mumps
+593,Constipation,constipation
+593,leprosy,leprosy
+593,piles,piles
+593,fever,fever
+593,gonorrhea,gonorrhea
+593,rash and itch.,rash and itch
+594,Fever,fever
+594,dried arils,dried arils
+594,tonic and stimulant.,tonic and stimulant
+595,Tuberculosis,tuberculosis
+595,fistula,fistula
+595,sores,sores
+595,carbuncle,carbuncle
+595,neuralgia,neuralgia
+595,pleurisy,pleurisy
+595,pneumonia,pneumonia
+595,diarrhea and dysentery.,diarrhea and dysentery
+596,Diarrhoea,diarrhoea
+596,dysentery,dysentery
+596,fever and cough.,fever and cough
+598,Eye diseases,eye diseases
+598,sores,sores
+598,whitlow,whitlow
+598,spleen complaints,spleen complaints
+598,stomach trouble,stomach trouble
+598,colic,colic
+598,diarrhoea,diarrhoea
+598,menorrhagia,menorrhagia
+598,pain,pain
+598,diarrhoea,diarrhoea
+598,dysentery convulsion,dysentery convulsion
+598,wounds and abscesses.,wounds and abscesses
+599,Deobstruent,deobstruent
+599,emmenagogue,emmenagogue
+599,stomachic and aperient.,stomachic and aperient
+600,Haemorrhage,haemorrhage
+600,diarrhoea,diarrhoea
+600,poisoning,poisoning
+600,eye diseases and biliousness.,eye diseases and biliousness
+601,Coughs.,coughs
+602,Bowel,bowel
+602,typhoid,typhoid
+602,fever,fever
+602,piles,piles
+602,asthma,asthma
+602,bronchitis,bronchitis
+602,dysentery,dysentery
+602,diarrhoea,diarrhoea
+602,biliousness and cough.,biliousness and cough
+603,Rheumatism and dysmenorrhoea.,rheumatism and dysmenorrhoea
+604,Pain and sore throat.,pain and sore throat
+605,Ulcers,ulcers
+605,worms,worms
+605,pains,pains
+605,whitlow,whitlow
+605,bronchitis,bronchitis
+605,cough,cough
+605,leprous sores,leprous sores
+605,skin diseases,skin diseases
+605,rheumatism,rheumatism
+605,scabies,scabies
+605,herpes,herpes
+605,leucoderma,leucoderma
+605,cutaneous diseases,cutaneous diseases
+605,piles and fever.,piles and fever
+607,Wounds,wounds
+607,consumption,consumption
+607,asthma and mania.,asthma and mania
+608,Cooling,cooling
+608,tonic and astringent.,tonic and astringent
+609,Bowels,bowels
+609,piles,piles
+609,burning sensation,burning sensation
+609,biliousness,biliousness
+609,tumours,tumours
+609,asthma,asthma
+609,hiccup,hiccup
+609,bronchitis,bronchitis
+609,urinary complaints,urinary complaints
+609,leprosy,leprosy
+609,tumour,tumour
+609,jaundice,jaundice
+609,inflammation,inflammation
+609,tonic,tonic
+609,aphrodisiac,aphrodisiac
+609,dropsy,dropsy
+609,diarrhoea,diarrhoea
+609,menstrual diseases,menstrual diseases
+609,kindney disease and jaundice.,kindney disease and jaundice
+610,Earache,earache
+610,asthma,asthma
+610,piles,piles
+610,insanity,insanity
+610,fever,fever
+610,diarrhea and skin diseases.,diarrhea and skin diseases
+611,Aphthae,aphthae
+611,sore throat,sore throat
+611,gonorrhea and gastritis.,gonorrhea and gastritis
+612,Gonorrhoea and aphthae,gonorrhoea and aphthae
+614,Astringent,astringent
+614,haemostatic,haemostatic
+614,haemorrhages,haemorrhages
+614,epistaxis,epistaxis
+614,menorrhagia,menorrhagia
+614,piles,piles
+614,gonorrhea,gonorrhea
+614,dysentery,dysentery
+614,alterative,alterative
+614,anthelmintic,anthelmintic
+614,leprosy,leprosy
+614,boils,boils
+614,eruptions,eruptions
+614,scabies,scabies
+614,scalding urine,scalding urine
+614,syphilis,syphilis
+614,and to allay vomiting.,and to allay vomiting
+615,Tonic,tonic
+615,stomachic,stomachic
+615,stimulant,stimulant
+615,dyspepsia,dyspepsia
+615,diarrhoea,diarrhoea
+615,leprosy,leprosy
+615,obesity and worms.,obesity and worms
+616,Rheumatism and dyspepsia.,rheumatism and dyspepsia
+617,Pain and  ulcer.,pain and ulcer
+618,Carminative,carminative
+618,emmenagogue,emmenagogue
+618,appetizer cooling,appetizer cooling
+618,cordial,cordial
+618,stomachic,stomachic
+618,astringent,astringent
+618,desicant,desicant
+618,galactagogue,galactagogue
+618,diaphoretic,diaphoretic
+618,diuretic,diuretic
+618,biliousness,biliousness
+618,fever,fever
+618,dysentery,dysentery
+618,diarrhoea,diarrhoea
+618,thirst,thirst
+618,burning sensation,burning sensation
+618,fatigue,fatigue
+618,urinary discharges,urinary discharges
+618,menorrhagia,menorrhagia
+618,stuttering,stuttering
+618,oedema,oedema
+619,Astringent,astringent
+619,digestive,digestive
+619,tonic,tonic
+619,stimulant,stimulant
+619,stomachic,stomachic
+619,diuretic,diuretic
+619,carminative,carminative
+619,diaphoretic,diaphoretic
+619,emmenagogue,emmenagogue
+619,vermifuge,vermifuge
+619,fever,fever
+619,diarrhoea,diarrhoea
+619,dyspepsia,dyspepsia
+619,dysentery,dysentery
+619,vomiting,vomiting
+619,cholera,cholera
+619,wounds and sores.,wounds and sores
+620,Tonic,tonic
+620,stimulant,stimulant
+620,stomachic and astringent.,stomachic and astringent
+621,Tonic,tonic
+621,stimulant and acnes.,stimulant and acnes
+622,Purgative,purgative
+622,scabies,scabies
+622,leprosy and cutaneous diseases.,leprosy and cutaneous diseases
+623,Piles,piles
+623,leucorrhoea,leucorrhoea
+623,toothache,toothache
+623,eczema,eczema
+623,stomatitis,stomatitis
+623,epistaxis,epistaxis
+623,bruises,bruises
+623,hiccup,hiccup
+623,demulcent,demulcent
+623,astringent,astringent
+623,diuretic,diuretic
+623,dropsy,dropsy
+623,hysteria,hysteria
+623,epilepsy,epilepsy
+623,insanity,insanity
+623,chronic diarrhoea,chronic diarrhoea
+623,dysentery ND ophthalmia.,dysentery nd ophthalmia
+624,Carminative,carminative
+624,antiseptic,antiseptic
+624,stomachic,stomachic
+624,laxative,laxative
+624,appetizer,appetizer
+624,anthelmintic,anthelmintic
+624,bronchitis,bronchitis
+624,leprosy,leprosy
+624,cholera,cholera
+624,flatulence,flatulence
+624,bowel,bowel
+624,rheumatism,rheumatism
+624,neuralgia,neuralgia
+624,sprains,sprains
+624,fever,fever
+624,cold,cold
+624,headache,headache
+624,sore gums and elephantiasis.,sore gums and elephantiasis
+626,Alterative,alterative
+626,astringent,astringent
+626,expectorant,expectorant
+626,carminative,carminative
+626,tonic,tonic
+626,purgative,purgative
+626,diuretic,diuretic
+626,anthelmintic,anthelmintic
+626,jaundice,jaundice
+626,flatulence,flatulence
+626,fever,fever
+626,cough,cough
+626,depurative,depurative
+626,sedative,sedative
+626,emmenagogue,emmenagogue
+626,diuretic,diuretic
+626,carminative,carminative
+626,tonic,tonic
+626,diaphoretic,diaphoretic
+626,demulcent,demulcent
+626,fever,fever
+626,griping,griping
+626,hiccup,hiccup
+626,stomachaches,stomachaches
+627,Pain.,pain
+628,Stimulant,stimulant
+628,carminative,carminative
+628,stomachic,stomachic
+628,expectorant,expectorant
+628,demulcent,demulcent
+628,diuretic,diuretic
+628,rubefacient,rubefacient
+628,cooling,cooling
+628,purgatives,purgatives
+628,bruises,bruises
+628,sprains,sprains
+628,diarrhoea,diarrhoea
+628,cough,cough
+628,fever,fever
+628,bronchitis,bronchitis
+628,leucorrhoeal and gonorrhea.,leucorrhoeal and gonorrhea
+629,Laxative,laxative
+629,carminative,carminative
+629,diuretic,diuretic
+629,stimulant,stimulant
+629,vulnerary,vulnerary
+629,tonic,tonic
+629,alexiteric,alexiteric
+629,emollient,emollient
+629,scabies,scabies
+629,itches,itches
+629,boils,boils
+629,abscess,abscess
+629,eczema,eczema
+629,leucoderma,leucoderma
+629,eye diseases,eye diseases
+629,pains,pains
+629,bruises and sprains,bruises and sprains
+629,cough,cough
+629,cold,cold
+629,fever,fever
+629,inflammations,inflammations
+629,ozoena,ozoena
+629,biliousness,biliousness
+629,dyspepsia,dyspepsia
+629,jaundice,jaundice
+630,Diarrhoea,diarrhoea
+630,dysentery,dysentery
+630,pain,pain
+630,fever and tonsil.,fever and tonsil
+631,Tonic,tonic
+631,carminative,carminative
+631,appetizer,appetizer
+631,anthelmintic,anthelmintic
+631,bruises,bruises
+631,sprains and small-pox.,sprains and small-pox
+632,Cooling,cooling
+632,oleagenous,oleagenous
+632,tonic,tonic
+632,aphrodisiac,aphrodisiac
+632,biliousness,biliousness
+632,leprosy,leprosy
+632,dyspepsia,dyspepsia
+632,bronchitis,bronchitis
+632,asthma,asthma
+632,fever,fever
+632,thirst,thirst
+632,jaundice,jaundice
+632,stones in the kidney and bladder.,stones in the kidney and bladder
+633,Cooling,cooling
+633,appetizer,appetizer
+633,stomachic,stomachic
+633,carminative,carminative
+633,antipyretic,antipyretic
+633,aphrodisiac,aphrodisiac
+633,laxative,laxative
+633,biliousness,biliousness
+633,bronchitis,bronchitis
+633,asthma,asthma
+633,hiccup,hiccup
+633,skin diseases,skin diseases
+633,diuretic,diuretic
+633,maturant,maturant
+633,emollient,emollient
+633,expectorant,expectorant
+633,astringent,astringent
+633,diarrhoea,diarrhoea
+633,gleet,gleet
+633,lumbago and stomatitis.,lumbago and stomatitis
+634,Tuberous roots are bitter,tuberous roots are bitter
+634,aromatic,aromatic
+634,tonic,tonic
+634,alterative,alterative
+634,appetizer,appetizer
+634,demulcent,demulcent
+634,diuretic,diuretic
+634,and restorative,and restorative
+634,useful in bronchitis,useful in bronchitis
+634,ophthalmia,ophthalmia
+634,indigestion,indigestion
+634,lumbago,lumbago
+634,dyspnoea,dyspnoea
+634,gonorrhoea,gonorrhoea
+634,gleet,gleet
+634,dysuria,dysuria
+634,menorrhagia,menorrhagia
+634,leucorrhoea,leucorrhoea
+634,piles,piles
+634,asthma,asthma
+634,jaundice,jaundice
+634,diarr,diarr
+635,Stomachic,stomachic
+635,carminative,carminative
+635,digestive,digestive
+635,tonic,tonic
+635,uterine stimulant,uterine stimulant
+635,antipyretic,antipyretic
+635,stimulant,stimulant
+635,cooling,cooling
+635,astringent,astringent
+635,bowels,bowels
+635,diarrhea,diarrhea
+635,dysentery,dysentery
+635,sore throat,sore throat
+635,gonorrhoea,gonorrhoea
+635,relieves hiccup,relieves hiccup
+635,inflammations.,inflammations
+636,Laxative,laxative
+636,tonic,tonic
+636,aphrodisiac,aphrodisiac
+636,diuretic,diuretic
+636,stomachic,stomachic
+636,anthelmintic,anthelmintic
+636,leucoderma,leucoderma
+636,leprosy,leprosy
+636,psoriasis,psoriasis
+636,skin disease and diarrhoea.,skin disease and diarrhoea
+637,Diuretic,diuretic
+637,tonic,tonic
+637,sedative,sedative
+637,emollient,emollient
+637,refrigerant,refrigerant
+637,allays thirst,allays thirst
+637,inflammations,inflammations
+637,boils,boils
+637,migraine and neuralgia,migraine and neuralgia
+637,anthelmintic,anthelmintic
+637,diuretic,diuretic
+637,tonic and tapeworm.,tonic and tapeworm
+638,Demulcent,demulcent
+638,Cooling,cooling
+638,cooling,cooling
+638,tonic,tonic
+638,diuretic and anthelmintic.,diuretic and anthelmintic
+639,Diuretic,diuretic
+639,eczema,eczema
+639,cooling,cooling
+639,fattening,fattening
+639,tonic,tonic
+639,laxative,laxative
+639,aphrodisiac,aphrodisiac
+639,diuretic,diuretic
+639,biliousness,biliousness
+639,insanity,insanity
+639,ascites,ascites
+639,allays fatigue,allays fatigue
+639,lachrymatory,lachrymatory
+639,diuretic,diuretic
+639,cooling,cooling
+639,tonic,tonic
+639,nutritive,nutritive
+639,ophthalmia,ophthalmia
+639,liver disease,liver disease
+639,kidney disease,kidney disease
+639,bronchitis and fever.,bronchitis and fever
+640,Sores,sores
+640,ascites,ascites
+640,dropsy,dropsy
+640,cholera,cholera
+640,dysentery,dysentery
+640,tonic,tonic
+640,rheumatism and pain.,rheumatism and pain
+641,Vomiting,vomiting
+641,cough,cough
+641,fever,fever
+641,tonic and antiperiodic.,tonic and antiperiodic
+642,Purgative,purgative
+642,hydragogue,hydragogue
+642,cathartic,cathartic
+642,vesicant,vesicant
+642,inflammation,inflammation
+642,pustular eruption,pustular eruption
+642,asthma and diaphoretic.,asthma and diaphoretic
+643,Alterative,alterative
+643,purgative,purgative
+643,cholagogue,cholagogue
+643,fever,fever
+643,sprains,sprains
+643,bruises,bruises
+643,rheumatic,rheumatic
+643,hepatitis,hepatitis
+643,diarrhea,diarrhea
+643,dysentery,dysentery
+643,purgative,purgative
+643,spleen trouble,spleen trouble
+643,madness,madness
+643,epilepsy,epilepsy
+643,convulsion,convulsion
+643,scabies,scabies
+643,venereal sores,venereal sores
+643,syphilis,syphilis
+643,ulcers,ulcers
+643,hydrocele,hydrocele
+643,cholera,cholera
+643,neuralgia and pneumonia.,neuralgia and pneumonia
+644,Sprains,sprains
+644,liver diseases and malaria.,liver diseases and malaria
+645,Cough,cough
+645,eczema and ringworm.,eczema and ringworm
+646,Expectorant,expectorant
+646,emetic,emetic
+646,biliousness,biliousness
+646,dyspepsia,dyspepsia
+646,fever,fever
+646,throat,throat
+646,mouth disease,mouth disease
+646,scabie,scabie
+646,impetigo and scene disease.,impetigo and scene disease
+647,Scabies and impetigo.,scabies and impetigo
+648,Scabies and impetigo.,scabies and impetigo
+649,diarrhoea.,diarrhoea
+650,Stomachache and indigestion.,stomachache and indigestion
+651,Refrigerant,refrigerant
+651,demulcent,demulcent
+651,emetic,emetic
+651,purgative,purgative
+651,emmenagogue,emmenagogue
+651,abortifacient,abortifacient
+651,fever,fever
+651,skin disease and colic.,skin disease and colic
+652,Pain,pain
+652,convulsions,convulsions
+652,wounds,wounds
+652,venereal sores,venereal sores
+652,syphilis,syphilis
+652,carbuncle,carbuncle
+652,haematuria,haematuria
+652,cholera,cholera
+652,dysentery and spider-lick.,dysentery and spider-lick
+653,Purgative,purgative
+654,Boils and abscesses.,boils and abscesses
+656,Emollient,emollient
+656,emetic,emetic
+656,nausant and diaphoretic,nausant and diaphoretic
+657,Emetic,emetic
+657,diaphoretic,diaphoretic
+657,purgative,purgative
+657,impecacuanha,impecacuanha
+657,expectorant,expectorant
+657,earache,earache
+657,tonic,tonic
+657,laxative,laxative
+657,carminative,carminative
+657,antipyretic,antipyretic
+657,anthelmintic,anthelmintic
+657,expectorant,expectorant
+657,biliousness,biliousness
+657,strangury,strangury
+657,bronchitis,bronchitis
+657,lumbago,lumbago
+657,anuria,anuria
+657,urinary discharge,urinary discharge
+657,rheumatism,rheumatism
+657,purgative,purgative
+657,diuretic,diuretic
+657,emmenagogue,emmenagogue
+658,Stomachic,stomachic
+658,tonic,tonic
+658,rubefacient,rubefacient
+658,febrifuge,febrifuge
+658,rheumatism,rheumatism
+658,astringent,astringent
+658,cholagogue,cholagogue
+658,laxative,laxative
+658,lithontriptic,lithontriptic
+658,anthelmintic,anthelmintic
+658,expectorant,expectorant
+658,demulcent,demulcent
+658,stomachic,stomachic
+658,laxative,laxative
+658,fever,fever
+658,vomiting,vomiting
+658,kidney and bladder stones.,kidney and bladder stones
+659,Headache,headache
+659,stomachic and stomach disorders.,stomachic and stomach disorders
+660,Astringent,astringent
+660,stimulant,stimulant
+660,aphrodisiac,aphrodisiac
+660,fever,fever
+660,cough,cough
+660,dyspepsia,dyspepsia
+660,worm,worm
+660,skin disease,skin disease
+660,menstrual disorder,menstrual disorder
+660,urinary inflammations,urinary inflammations
+660,dysentery,dysentery
+660,earache and skin diseases.,earache and skin diseases
+661,Stimulant,stimulant
+661,carminative,carminative
+661,digestive,digestive
+661,stomachic,stomachic
+661,diuretic,diuretic
+661,antipyretic,antipyretic
+661,laxative,laxative
+661,anthelmintic,anthelmintic
+661,refrigerant,refrigerant
+661,tonic,tonic
+661,aphrodisiac,aphrodisiac
+661,improves appetite,improves appetite
+661,anti-inflammatory,anti-inflammatory
+661,antirheumatic,antirheumatic
+661,antiscorbutic,antiscorbutic
+661,hypnotic and analgesic,hypnotic and analgesic
+661,hiccup,hiccup
+661,suppuration,suppuration
+661,piles,piles
+661,inflammat,inflammat
+662,Cough,cough
+662,cold and chest diseases.,cold and chest diseases
+663,Alterative,alterative
+663,alexiteric,alexiteric
+663,demulcent,demulcent
+663,tonic,tonic
+663,diuretic,diuretic
+663,bowel,bowel
+663,fever,fever
+663,dysentery,dysentery
+663,pain,pain
+663,ascites,ascites
+663,piles,piles
+663,demulcent,demulcent
+663,tonic,tonic
+663,diuretic,diuretic
+663,febrifuge,febrifuge
+663,gonorrhoea,gonorrhoea
+663,cystitis,cystitis
+663,dysuria,dysuria
+663,purgative and cardiac.,purgative and cardiac
+664,Tonic,tonic
+664,anthelmintic,anthelmintic
+664,bowels,bowels
+664,restorative,restorative
+664,ulcers,ulcers
+664,tumour,tumour
+664,ascites,ascites
+664,piles,piles
+664,dysentery,dysentery
+664,cooling,cooling
+664,laxative,laxative
+664,stimulant,stimulant
+664,tonic,tonic
+664,aphrodisiac,aphrodisiac
+664,alexipharmac,alexipharmac
+664,cures tumour,cures tumour
+664,pain,pain
+664,stomach troubles,stomach troubles
+664,scabies and skin diseases.,scabies and skin diseases
+665,Demulcent,demulcent
+665,stomachic,stomachic
+665,tonic,tonic
+665,laxative,laxative
+665,carminative,carminative
+665,refrigerant,refrigerant
+665,diuretic,diuretic
+665,dysentery,dysentery
+665,atonic dyspepsia,atonic dyspepsia
+665,liver disorders,liver disorders
+665,fever,fever
+665,cystitis,cystitis
+665,gonorrhoea,gonorrhoea
+665,dysuria,dysuria
+665,worms,worms
+665,hepatic,hepatic
+665,colic,colic
+665,gastric catarrh,gastric catarrh
+665,diarrhea,diarrhea
+665,purgative,purgative
+665,acute and chronic cardiac insuffici,acute and chronic cardiac insuffici
+666,Laxative,laxative
+666,stomachic,stomachic
+666,aphrodisiac,aphrodisiac
+666,alterative,alterative
+666,tonic,tonic
+666,anthelmintic,anthelmintic
+666,maturant,maturant
+666,resolvent,resolvent
+666,expectorant,expectorant
+666,carminative,carminative
+666,rheumatism,rheumatism
+666,lung complaints,lung complaints
+666,asthma,asthma
+666,dyspepsia,dyspepsia
+666,piles,piles
+666,skin diseases,skin diseases
+666,ascites,ascites
+666,nervous diseases,nervous diseases
+666,urinary concretions,urinary concretions
+666,leucoderma,leucoderma
+666,tumours,tumours
+666,sc,sc
+667,Sore,sore
+668,Refrigerant,refrigerant
+668,laxative,laxative
+668,strangury,strangury
+668,costiveness,costiveness
+668,vertigo,vertigo
+668,fevers,fevers
+668,bilious affections and  dysentery.,bilious affections and dysentery
+669,Emetic,emetic
+669,laxative,laxative
+669,sores,sores
+669,swellings,swellings
+669,itches,itches
+669,boils,boils
+669,leucorrhoea,leucorrhoea
+669,cold,cold
+669,ulcer and gonorrhoea.,ulcer and gonorrhoea
+670,Demulcent,demulcent
+670,refrigerant,refrigerant
+670,laxative,laxative
+670,emollient,emollient
+670,leprosy,leprosy
+670,suppurativa,suppurativa
+670,sores and snake-bite.,sores and snake-bite
+671,Styptic,styptic
+671,stimulant,stimulant
+671,rubefacient,rubefacient
+671,tumours,tumours
+671,ulcerated polyp,ulcerated polyp
+671,cancer,cancer
+671,laxative,laxative
+671,piles and portal system and alopecia.,piles and portal system and alopecia
+672,Cataract.,cataract
+673,Antispasmodic,antispasmodic
+673,antilithic,antilithic
+673,cathartic,cathartic
+673,carminative,carminative
+673,stimulant,stimulant
+673,stomachic,stomachic
+673,urinary diseases,urinary diseases
+673,vaginal discharges,vaginal discharges
+673,strangury,strangury
+673,calculus,calculus
+673,gonorrhoea,gonorrhoea
+673,piles,piles
+673,dyspepsia,dyspepsia
+673,colic,colic
+673,pain,pain
+673,asthma,asthma
+673,chronic cough,chronic cough
+673,chronic bronchitis,chronic bronchitis
+673,epilepsy and convulsions.,epilepsy and convulsions
+674,Diuretic,diuretic
+674,laxative,laxative
+674,tumour,tumour
+674,cancers,cancers
+674,fever,fever
+674,small-pox,small-pox
+674,dysentery,dysentery
+674,anthrax,anthrax
+674,strangury,strangury
+674,tonic and diuretic.,tonic and diuretic
+675,Refrigerant,refrigerant
+675,nutrient,nutrient
+675,aperient,aperient
+675,diuretic,diuretic
+675,oleagenous,oleagenous
+675,aphrodisiac,aphrodisiac
+675,laxative,laxative
+675,anthelmintic,anthelmintic
+675,bronchitis,bronchitis
+675,refrigerant,refrigerant
+675,demulcent,demulcent
+675,diarrhea,diarrhea
+675,dysentery,dysentery
+675,fever,fever
+675,urinary disorders,urinary disorders
+675,stomachic,stomachic
+675,anthelmintic,anthelmintic
+675,pain,pain
+675,piles,piles
+675,scabies,scabies
+675,nourishing,nourishing
+675,cooling,cooling
+675,diuretic,diuretic
+675,ca,ca
+676,Cooling,cooling
+676,soothing,soothing
+676,prurigo,prurigo
+676,eczema,eczema
+676,impetigo,impetigo
+676,gonorrhea,gonorrhea
+676,alterative,alterative
+676,laxative,laxative
+676,demulcent,demulcent
+676,rheumatism,rheumatism
+676,diseases,diseases
+676,dyspepsia and stomachache.,dyspepsia and stomachache
+677,Diabetes,diabetes
+677,anorexia,anorexia
+677,epilepsy,epilepsy
+677,asthma,asthma
+677,fever,fever
+677,dropsy,dropsy
+677,catarrh,catarrh
+677,gonorrhea,gonorrhea
+677,skin disease and  hypertension.,skin disease and hypertension
+678,Cooling,cooling
+678,laxative,laxative
+678,diuretic,diuretic
+678,alexiteric,alexiteric
+678,anthelmintic,anthelmintic
+678,tonic,tonic
+678,ulcers,ulcers
+678,tuberculous glands,tuberculous glands
+678,elephantiasis,elephantiasis
+678,headache,headache
+678,leucoderma,leucoderma
+678,burning sensation,burning sensation
+678,pains,pains
+678,biliousness,biliousness
+678,inflammations and ulcers,inflammations and ulcers
+678,aphrodisiac,aphrodisiac
+678,dysentery,dysentery
+678,bronchitis,bronchitis
+678,asthma,asthma
+678,consumption,consumption
+678,ascite,ascite
+679,Fever,fever
+680,Tonic,tonic
+680,antipyretic,antipyretic
+680,anthelmintic,anthelmintic
+680,asthma,asthma
+680,tumours,tumours
+680,skin diseases,skin diseases
+680,antiperiodic,antiperiodic
+680,laxative,laxative
+680,cholagogue,cholagogue
+680,cough,cough
+680,jaundice,jaundice
+680,scabies and pain.,scabies and pain
+681,Fever,fever
+681,quinine,quinine
+681,chiretta,chiretta
+681,scrofulous,scrofulous
+681,venereal,venereal
+681,mania,mania
+681,itches,itches
+681,laxative and rheumatic affections,laxative and rheumatic affections
+682,Fever,fever
+682,atrophy,atrophy
+682,consumption,consumption
+682,cough,cough
+682,bronchitis,bronchitis
+682,blindness,blindness
+682,vermifuge,vermifuge
+682,tonic,tonic
+682,herpetic eruption and pemphigus,herpetic eruption and pemphigus
+682,rheumatism,rheumatism
+682,asthma,asthma
+682,cough,cough
+682,scrofulous and asthma.,scrofulous and asthma
+683,Cooling,cooling
+683,stomachic,stomachic
+683,laxative,laxative
+683,diuretic,diuretic
+683,anthelmintic,anthelmintic
+683,skin diseases,skin diseases
+683,itching,itching
+683,ulcers,ulcers
+683,leprosy,leprosy
+683,fever,fever
+683,vesicant,vesicant
+683,pus,pus
+683,fever,fever
+683,paratyphoid,paratyphoid
+683,dysentery,dysentery
+683,bronchitis,bronchitis
+683,gonorrhea,gonorrhea
+683,sudorific,sudorific
+683,earache,earache
+683,diarrhea,diarrhea
+683,carminative,carminative
+683,anthelmintic,anthelmintic
+683,antiseptic,antiseptic
+683,rubefacient,rubefacient
+683,va,va
+684,Antiscorbutic,antiscorbutic
+684,diaphoretic,diaphoretic
+684,stomachic,stomachic
+684,mild febrifuge,mild febrifuge
+684,ascites,ascites
+684,tumours,tumours
+684,ulcers,ulcers
+684,pain,pain
+684,earache,earache
+684,spleen enlargement,spleen enlargement
+684,fever,fever
+684,rubefacient,rubefacient
+684,vesicant,vesicant
+684,rheumatism,rheumatism
+684,neuralgia,neuralgia
+684,headache,headache
+684,stiff neck,stiff neck
+684,otalgia,otalgia
+684,earache,earache
+684,headache,headache
+684,anthelmintic,anthelmintic
+684,rubefacient and cough.,rubefacient and cough
+685,Dysentery.,dysentery
+686,Diuretic,diuretic
+686,digestive,digestive
+686,tonic,tonic
+686,astringent,astringent
+686,colic,colic
+686,pain and fever.,pain and fever
+687,Nutritive,nutritive
+687,cardiotonic,cardiotonic
+687,refrigerant,refrigerant
+687,influenza,influenza
+687,cough,cough
+687,catarrh,catarrh
+687,asthma,asthma
+687,anthelmintic,anthelmintic
+687,vomiting,vomiting
+687,griping of abdomen,griping of abdomen
+687,diarrhoea epilepsy,diarrhoea epilepsy
+687,chorea and cough.,chorea and cough
+688,Skin disease,skin disease
+688,nausea,nausea
+688,stomachic,stomachic
+688,antiscorbutic,antiscorbutic
+688,refrigerant,refrigerant
+688,antiseptic,antiseptic
+688,anthelmintic,anthelmintic
+688,biliousness,biliousness
+688,sore throat,sore throat
+688,eye complaints,eye complaints
+688,relieves vomiting,relieves vomiting
+688,indigestion,indigestion
+688,fever and filariasis.,fever and filariasis
+689,Cooling,cooling
+689,laxative,laxative
+689,expectorant,expectorant
+689,diuretic,diuretic
+689,stomachic,stomachic
+689,refreshing,refreshing
+689,hepatic congestion,hepatic congestion
+689,cooling,cooling
+689,demulcent,demulcent
+689,diuretic,diuretic
+689,vermifuge,vermifuge
+689,nutritive and aphrodisiac.,nutritive and aphrodisiac
+690,Sloughing,sloughing
+690,foetid ulcerations and boils.,foetid ulcerations and boils
+691,Boils.,boils
+692,Laxative,laxative
+692,stomachic,stomachic
+692,tonic,tonic
+692,analgesic,analgesic
+692,piles,piles
+692,tumours,tumours
+692,otorrhoea,otorrhoea
+692,epistaxis,epistaxis
+692,scurvy,scurvy
+692,asthma,asthma
+692,stomachic and dyspepsia.,stomachic and dyspepsia
+693,Jaundice.,jaundice
+694,Hysteria and dysentery.,hysteria and dysentery
+695,Spermatorrhoea.,spermatorrhoea
+696,Astringent,astringent
+696,piles,piles
+696,nose bleeding,nose bleeding
+696,lactation,lactation
+696,diarrhoea,diarrhoea
+696,rheumatic pains,rheumatic pains
+696,ulcers,ulcers
+696,elephantiasis,elephantiasis
+696,colic,colic
+696,fever and tapeworm.,fever and tapeworm
+697,Cooling,cooling
+697,laxative,laxative
+697,diuretic,diuretic
+697,piles,piles
+697,inflammations,inflammations
+697,rheumatism,rheumatism
+697,leprosy,leprosy
+697,anasarca,anasarca
+697,jaundice,jaundice
+697,aphthae,aphthae
+697,astringent,astringent
+697,diarrhoea and stomachache.,diarrhoea and stomachache
+698,Cooling,cooling
+698,purgative,purgative
+698,alterative,alterative
+698,fattening,fattening
+698,tonic,tonic
+698,aphrodisiac,aphrodisiac
+698,anthelmintic,anthelmintic
+698,emmenagogue,emmenagogue
+698,alexiteric,alexiteric
+698,carminative,carminative
+698,burns,burns
+698,sprains,sprains
+698,jaundice,jaundice
+698,asthma,asthma
+698,leucorrhoea,leucorrhoea
+698,piles,piles
+698,rectal fissures,rectal fissures
+698,menstrual suppressions,menstrual suppressions
+698,sexual ejaculation,sexual ejaculation
+698,inflammation and chronic ulce,inflammation and chronic ulce
+699,Stomachic,stomachic
+699,stimulant,stimulant
+699,aphrodisiac,aphrodisiac
+699,tonic,tonic
+699,diuretic,diuretic
+699,expectorant,expectorant
+699,carminative,carminative
+699,headache,headache
+699,lumbago,lumbago
+699,rheumatic pains,rheumatic pains
+699,sore throat,sore throat
+699,sour eructations,sour eructations
+699,stuttering,stuttering
+699,pain,pain
+699,diabetes,diabetes
+699,bronchitis and dyspepsia.,bronchitis and dyspepsia
+700,Gastric pain,gastric pain
+700,aphrodisiac,aphrodisiac
+700,diarrhoea and dysentery.,diarrhoea and dysentery
+701,sores.,sores
+702,Aphrodisiac,aphrodisiac
+702,tonic,tonic
+702,diuretic,diuretic
+702,expectorant,expectorant
+702,carminative,carminative
+702,stomachic,stomachic
+702,headache,headache
+702,lumbago,lumbago
+702,rheumatism,rheumatism
+702,sore throat,sore throat
+702,bronchitis and dyspepsia.,bronchitis and dyspepsia
+703,Astringent,astringent
+703,tonic,tonic
+703,anthemintic,anthemintic
+703,laxative,laxative
+703,febrifuge,febrifuge
+703,alterative,alterative
+703,antiperiodic,antiperiodic
+703,chronic diarrhoea,chronic diarrhoea
+703,dysentery,dysentery
+703,fever,fever
+703,skin diseases,skin diseases
+703,malaria,malaria
+703,ulcers and cancer.,ulcers and cancer
+704,Galactagogue,galactagogue
+704,cholagogue,cholagogue
+704,febrifuge,febrifuge
+704,blood vomiting,blood vomiting
+704,night blindness,night blindness
+704,malaria,malaria
+704,post natal complaints,post natal complaints
+704,prolapsus ani,prolapsus ani
+704,fistulas ani,fistulas ani
+704,diarrhoea,diarrhoea
+704,dysentery,dysentery
+704,puerperal fever and ulcer.,puerperal fever and ulcer
+705,Diuretic,diuretic
+705,expectorant,expectorant
+705,cough,cough
+705,asthma,asthma
+705,pain,pain
+705,fever,fever
+705,sore throat,sore throat
+705,rheumatism,rheumatism
+705,carminativel,carminativel
+705,gonorrhea,gonorrhea
+705,cardioactive and antipyretic acivities.,cardioactive and antipyretic acivities
+706,Diarrhoea and dysentery.,diarrhoea and dysentery
+707,Ascites and tympanites.,ascites and tympanites
+708,appetizer,appetizer
+708,laxative and stomachic.,laxative and stomachic
+709,Stomachic,stomachic
+709,hypnotic,hypnotic
+709,appetizer,appetizer
+709,tonic,tonic
+709,astringent,astringent
+709,indigestion,indigestion
+709,vomiting and biliousness,vomiting and biliousness
+710,Asthma.,asthma
+711,Inflammation.,inflammation
+712,Stomachic,stomachic
+712,tonic,tonic
+712,constipating,constipating
+712,piles,piles
+712,enlarged spleen,enlarged spleen
+712,tumours,tumours
+712,asthma,asthma
+712,bronchitis,bronchitis
+712,vomiting,vomiting
+712,abdominal pain,abdominal pain
+712,elephantiasis and rheumatism.,elephantiasis and rheumatism
+713,Swellings,swellings
+713,pains,pains
+713,Jaundice ande boils.,jaundice ande boils
+714,Muscular pain,muscular pain
+714,sores,sores
+714,pneumonia,pneumonia
+714,bone fracture and chronic dysentery.,bone fracture and chronic dysentery
+715,Alterative,alterative
+715,astringent,astringent
+715,diarrhea,diarrhea
+715,dysentery,dysentery
+715,purgative,purgative
+715,leprosy,leprosy
+715,ringworm,ringworm
+715,corns,corns
+715,ulcers,ulcers
+715,diarrhoea,diarrhoea
+715,indigestion,indigestion
+715,stomachache and diuretic.,stomachache and diuretic
+716,Diuretic,diuretic
+716,diaphoretic,diaphoretic
+716,expectorant,expectorant
+716,cures gout,cures gout
+716,cerebral affections,cerebral affections
+716,hydrophobia,hydrophobia
+716,pain,pain
+716,leprosy,leprosy
+716,dropsy,dropsy
+716,epilepsy,epilepsy
+716,mania and eyesight,mania and eyesight
+717,Expectorant,expectorant
+717,rheumatism,rheumatism
+717,imflammation and skin.,imflammation and skin
+718,influenza,influenza
+718,anthelmintic,anthelmintic
+719,Febrifuge,febrifuge
+719,hypoglycemic,hypoglycemic
+719,stomachic,stomachic
+719,tonic,tonic
+719,alterative,alterative
+719,anthelmintic,anthelmintic
+719,cholagogue,cholagogue
+719,dysentery,dysentery
+719,dyspepsia,dyspepsia
+719,diarrhea,diarrhea
+719,colic,colic
+719,cholera,cholera
+719,griping,griping
+719,irregular,irregular
+719,appetite,appetite
+719,malaria,malaria
+719,fever,fever
+719,headache and vertigo.,headache and vertigo
+720,Carminative,carminative
+720,astringent,astringent
+720,tonic,tonic
+720,animal dysentery,animal dysentery
+720,sores,sores
+720,ulcers,ulcers
+720,fever and whooping cough.,fever and whooping cough
+721,Astringent,astringent
+721,tonic,tonic
+721,inflammation,inflammation
+721,tumours,tumours
+721,dysentery,dysentery
+721,diarrhoea and intestinal worms.,diarrhoea and intestinal worms
+722,Purgative,purgative
+722,astringent,astringent
+722,diarrhea,diarrhea
+722,tonic,tonic
+722,cooling,cooling
+722,maturant,maturant
+722,laxative and anthelmintic.,laxative and anthelmintic
+723,Ipecacuanha.,ipecacuanha
+724,Febrifuge,febrifuge
+724,tonic,tonic
+724,antidiarrhoeal,antidiarrhoeal
+724,astringent,astringent
+724,bowels and cooling and analgesic,bowels and cooling and analgesic
+725,Post-natal indigestion,post-natal indigestion
+725,irregular menstruation.,irregular menstruation
+726,Astringent,astringent
+726,liver,liver
+726,tumours,tumours
+726,refrigerant,refrigerant
+726,laxative,laxative
+726,anthelmintic,anthelmintic
+726,ulcers,ulcers
+726,lessens muscular pain,lessens muscular pain
+726,rheumatism and spleen.,rheumatism and spleen
+727,Alterative,alterative
+727,tonic,tonic
+727,carminative,carminative
+727,laxative,laxative
+727,stomachic,stomachic
+727,diuretic,diuretic
+727,aphrodisiac,aphrodisiac
+727,febrifuge,febrifuge
+727,skin,skin
+727,hiccup,hiccup
+727,leucoderma,leucoderma
+727,chronic diarrhoea,chronic diarrhoea
+727,bronchitis,bronchitis
+727,asthma,asthma
+727,gout,gout
+727,rheumatism and heart disease.,rheumatism and heart disease
+728,Lactagogue,lactagogue
+728,bowels and cardiac.,bowels and cardiac
+729,dysentery.,dysentery
+730,Stimulant,stimulant
+730,carminative,carminative
+730,febrifuge,febrifuge
+730,diarrhoea and rheumatism.,diarrhoea and rheumatism
+731,Astringent,astringent
+731,anthelmintic,anthelmintic
+731,laxative,laxative
+731,diuretic,diuretic
+731,aphrodisiac,aphrodisiac
+731,emmenagogue,emmenagogue
+731,nervine,nervine
+731,cardiotonic,cardiotonic
+731,inflammation,inflammation
+731,diarrhea,diarrhea
+731,anthelmintic and sore lips.,anthelmintic and sore lips
+732,Alterative,alterative
+732,skin,skin
+732,diuretic,diuretic
+732,alterative,alterative
+732,hypnotic,hypnotic
+732,dropsy,dropsy
+732,jaundice warts,jaundice warts
+732,tumours,tumours
+732,cancer,cancer
+732,laxative,laxative
+732,nauseant,nauseant
+732,emetic,emetic
+732,expectorant,expectorant
+732,narcotic,narcotic
+732,demulcent and coughs.,demulcent and coughs
+733,Ear pinnae,ear pinnae
+734,Aphrodisiac,aphrodisiac
+734,diuretic alterative,diuretic alterative
+734,tonic,tonic
+734,gleet,gleet
+734,gonorrhoea,gonorrhoea
+734,strangury,strangury
+734,chronic ulcers,chronic ulcers
+734,skin and abscess,skin and abscess
+735,Stimulant,stimulant
+735,tonic,tonic
+735,emmenagogue,emmenagogue
+735,malarial fever,malarial fever
+735,pains,pains
+735,dyspepsia,dyspepsia
+735,stomachic,stomachic
+735,tonic,tonic
+735,antiperiodic,antiperiodic
+735,purgative,purgative
+735,inflammations,inflammations
+735,biliousness and dry coughs.,biliousness and dry coughs
+736,Tonic and stomach pain.,tonic and stomach pain
+737,Cholera,cholera
+737,vomiting,vomiting
+737,biliousness,biliousness
+737,itch,itch
+737,leucoderma,leucoderma
+737,blood and the heart,blood and the heart
+738,Cholera.,cholera
+739,Skin,skin
+739,diarrhea,diarrhea
+739,astringent,astringent
+739,carminative,carminative
+739,tonic,tonic
+739,laxative,laxative
+739,oleagenous,oleagenous
+739,tonic,tonic
+739,fattening,fattening
+739,aphrodisiac and diarrhoea.,aphrodisiac and diarrhoea
+740,Constipation,constipation
+740,pimples and cracked skin.,pimples and cracked skin
+741,Cancers,cancers
+741,anthelmintic,anthelmintic
+741,haemorrhages,haemorrhages
+741,cardiotonic,cardiotonic
+741,purgative,purgative
+741,emetic,emetic
+741,febrifuge and astringent,febrifuge and astringent
+741,asthma,asthma
+741,fever,fever
+741,venereal diseases,venereal diseases
+741,piles,piles
+741,gonorrhea and Jaundice.,gonorrhea and jaundice
+742,Tonic,tonic
+742,refrigerant,refrigerant
+742,demulcent,demulcent
+742,diuretic,diuretic
+742,aphrodisiac,aphrodisiac
+742,antispasmodic,antispasmodic
+742,alterative,alterative
+742,galactagogue,galactagogue
+742,laxative,laxative
+742,expectorant,expectorant
+742,anti-diarrhoeal and anti-dysenteric,anti-diarrhoeal and anti-dysenteric
+742,kidney,kidney
+742,liver.,liver
+743,Jaundice and malarial fever.,jaundice and malarial fever
+744,Paralysis,paralysis
+744,rheumatism and hemiplegia.,rheumatism and hemiplegia
+745,Jaundice.,jaundice
+746,Pain,pain
+746,night fever,night fever
+746,dropsy,dropsy
+746,anaemia,anaemia
+746,hemiplegia,hemiplegia
+746,burns,burns
+746,wounds,wounds
+746,small-pox,small-pox
+746,venereal sores,venereal sores
+746,syphilis,syphilis
+746,gonorrhoea,gonorrhoea
+746,spermatorrhoea,spermatorrhoea
+746,gravel,gravel
+746,cholera,cholera
+746,dysentery,dysentery
+746,snake-bite and rinderpest and diarrhea.,snake-bite and rinderpest and diarrhea
+747,Astringent,astringent
+747,stomachic,stomachic
+747,refrigerant,refrigerant
+747,haemorrhage,haemorrhage
+747,piles,piles
+747,scurvy,scurvy
+747,hepatitis,hepatitis
+747,fever,fever
+747,diarrhoea and bilious colic.,diarrhoea and bilious colic
+748,Tonic,tonic
+748,refrigerant,refrigerant
+748,antiscorbutic,antiscorbutic
+748,jaundice,jaundice
+748,piles,piles
+748,dysentery,dysentery
+748,hepatic colic,hepatic colic
+748,fevers,fevers
+748,antipyretic,antipyretic
+748,antipruritic,antipruritic
+748,anthelmintic and scabies.,anthelmintic and scabies
+749,Tonic,tonic
+749,refrigerant,refrigerant
+749,anthelmintic,anthelmintic
+749,maturant,maturant
+749,astringent,astringent
+749,relieves fatigue,relieves fatigue
+749,fever,fever
+749,thirst,thirst
+749,cough,cough
+749,amenorrhoea,amenorrhoea
+749,ulcers,ulcers
+749,inflammations,inflammations
+749,alexiteric,alexiteric
+749,anthelmintic,anthelmintic
+749,ophthalmia,ophthalmia
+749,biliousness,biliousness
+749,skin diseases,skin diseases
+749,boils,boils
+749,eczema,eczema
+749,stomachic,stomachic
+749,anthelmintic,anthelmintic
+749,dyspepsia,dyspepsia
+749,purgati,purgati
+750,Diuretic,diuretic
+750,laxative,laxative
+750,emetic,emetic
+750,aphrodisiac,aphrodisiac
+750,brain tonic,brain tonic
+750,ascites,ascites
+750,indigestion,indigestion
+750,diarrhoea,diarrhoea
+750,epilepsy,epilepsy
+750,insanity,insanity
+750,scabies,scabies
+750,asthma,asthma
+750,cardiac tonic,cardiac tonic
+750,cough and rheumatism,cough and rheumatism
+751,Purgative,purgative
+751,dropsy,dropsy
+751,jaundice,jaundice
+751,rheumatism,rheumatism
+751,asthma,asthma
+751,cure scabies,cure scabies
+751,stomach pain.,stomach pain
+752,Cooling,cooling
+752,laxative,laxative
+752,blood,blood
+752,leucoderma,leucoderma
+752,inflammatory,inflammatory
+752,laxative,laxative
+752,aphrodisiac,aphrodisiac
+752,cough,cough
+752,cold,cold
+752,asthma,asthma
+752,diarrhea and pains,diarrhea and pains
+753,Stimulant,stimulant
+753,demulcent,demulcent
+753,anaemia.,anaemia
+754,Ulcers,ulcers
+754,skin diseases,skin diseases
+754,leucoderma,leucoderma
+754,pains,pains
+754,itching and inflammations.,itching and inflammations
+755,Diarrhoea,diarrhoea
+755,dysentery,dysentery
+755,cooling,cooling
+755,aperients,aperients
+755,expectorant,expectorant
+755,stimulating,stimulating
+755,emetic,emetic
+755,lactagogue,lactagogue
+755,vulnerary,vulnerary
+755,anthelmintic,anthelmintic
+755,biliousness,biliousness
+755,bronchitis,bronchitis
+755,sore eyes,sore eyes
+755,gleet,gleet
+755,lumber pain,lumber pain
+755,nasal catarrh,nasal catarrh
+755,hallucinations,hallucinations
+755,carminative,carminative
+755,emetic,emetic
+755,pain,pain
+755,gonorrhea,gonorrhea
+755,blenorrhagia and,blenorrhagia and
+756,Febrifuge,febrifuge
+756,deobstruent,deobstruent
+756,cooling,cooling
+756,coughs,coughs
+756,asthma,asthma
+756,diarrhea,diarrhea
+756,skin,skin
+756,colic,colic
+756,opthalmia,opthalmia
+756,diarrhea and jaundice.,diarrhea and jaundice
+757,Demulcent,demulcent
+757,diuretic,diuretic
+757,laxative,laxative
+757,gonorrhea,gonorrhea
+757,balanitis,balanitis
+757,urticaria,urticaria
+757,sores and toothache,sores and toothache
+758,Biliousness,biliousness
+758,bladder stone,bladder stone
+758,leprosy,leprosy
+758,asthma,asthma
+758,burns and dropsy.,burns and dropsy
+759,Skin lesions.,skin lesions
+760,Dysentery.,dysentery
+761,Dropsy,dropsy
+761,pain,pain
+761,rheumatism,rheumatism
+761,diarrhea,diarrhea
+761,ulcers,ulcers
+761,carminative and laxative.,carminative and laxative
+762,Laxative,laxative
+762,anthelmintic,anthelmintic
+762,tonic,tonic
+762,biliousness,biliousness
+762,leprosy,leprosy
+762,dysmenorrhoea,dysmenorrhoea
+762,menorrhagia,menorrhagia
+762,tubercular glands,tubercular glands
+762,asthma,asthma
+762,wounds,wounds
+762,ulcers,ulcers
+762,tumours,tumours
+762,bronchitis,bronchitis
+762,consumption,consumption
+762,biliousness,biliousness
+762,headache,headache
+762,diarrhoea,diarrhoea
+762,dysentery and worms.,dysentery and worms
+763,Disease: Dysentery and jaundice.,disease: dysentery and jaundice
+764,Resolvent,resolvent
+764,purgative,purgative
+764,antipyretic,antipyretic
+764,diuretic,diuretic
+764,expectorant,expectorant
+764,deobstruent,deobstruent
+764,tumour and stomachic.,tumour and stomachic
+765,: laxative,laxative
+765,demulcent,demulcent
+765,cooling,cooling
+765,diuretic,diuretic
+765,tonic,tonic
+765,antiperiodic,antiperiodic
+765,haemorrhages,haemorrhages
+765,insanity,insanity
+765,epilepsy,epilepsy
+765,nervous diseases,nervous diseases
+765,strangury,strangury
+765,urinary calculi,urinary calculi
+765,heart diseases,heart diseases
+765,tuberculosis,tuberculosis
+765,tympanites and colic pain,tympanites and colic pain
+766,Tonic,tonic
+766,stimulant,stimulant
+766,insomnia,insomnia
+766,gonorrhea,gonorrhea
+766,lithiasis,lithiasis
+766,diuretic,diuretic
+766,astringent,astringent
+766,fevers and asthma.,fevers and asthma
+767,Antiperiodic,antiperiodic
+767,antipyretic,antipyretic
+767,fevers,fevers
+767,jaundice and fever,jaundice and fever
+767,astringent,astringent
+767,febrifuge,febrifuge
+767,diuretic,diuretic
+767,laxative,laxative
+767,digestive,digestive
+767,dysentery,dysentery
+767,epilepsy,epilepsy
+767,skin diseases and gonorrhoea.,skin diseases and gonorrhoea
+768,Stomachic,stomachic
+768,antispasmodic,antispasmodic
+768,emmenagogue,emmenagogue
+768,antiseptic,antiseptic
+768,expectorant,expectorant
+768,leucorrhoea,leucorrhoea
+768,diarrhoea,diarrhoea
+768,cholera,cholera
+768,bronchitis,bronchitis
+768,rheumatism and headache.,rheumatism and headache
+769,Disease: Jaundice.,disease: jaundice
+770,Astringent,astringent
+770,stomachic,stomachic
+770,antispasmodic,antispasmodic
+770,antipyretic,antipyretic
+770,diuretic,diuretic
+770,bronchitis,bronchitis
+770,fevers,fevers
+770,burning sensation,burning sensation
+770,anthelmintic,anthelmintic
+770,piles and dysentery.,piles and dysentery
+771,Fever.,fever
+772,Stomachic,stomachic
+772,laxative and expectorant,laxative and expectorant
+772,emetic,emetic
+772,dropsy,dropsy
+772,epilepsy,epilepsy
+772,blood,blood
+772,dysentery,dysentery
+772,jaundice,jaundice
+772,anaemia,anaemia
+772,ascites,ascites
+772,ophthalmia,ophthalmia
+772,gonorrhoea,gonorrhoea
+772,and cancer.,and cancer
+773,cataract.,cataract
+774,Emetic,emetic
+774,metrorrhagiaastringent,metrorrhagiaastringent
+774,demulcent,demulcent
+774,tonic,tonic
+774,alterative,alterative
+774,haemostatic,haemostatic
+774,aphrodisiac,aphrodisiac
+774,diarrhoea,diarrhoea
+774,dysentery,dysentery
+774,menorrhagia,menorrhagia
+774,cough,cough
+774,leucorrhoea,leucorrhoea
+774,stomatitis and burning of the body.,stomatitis and burning of the body
+775,cooling,cooling
+775,stimulant,stimulant
+775,antiphlegmatic,antiphlegmatic
+775,inflammatory dropsy,inflammatory dropsy
+775,stomachic,stomachic
+775,aphrodisiac,aphrodisiac
+775,antibilious,antibilious
+775,tonic,tonic
+775,laxative,laxative
+775,alexiteric and leprosy,alexiteric and leprosy
+776,ophthalmia,ophthalmia
+776,inflammation,inflammation
+776,blindness,blindness
+776,earache,earache
+776,fever,fever
+776,spleen complaints,spleen complaints
+776,pimples,pimples
+776,sores and dysentery.,sores and dysentery
+777,Cooling,cooling
+777,binding,binding
+777,tonic,tonic
+777,asthma,asthma
+777,dysentery,dysentery
+777,skin diseases,skin diseases
+777,ulcers,ulcers
+777,rheumatic,rheumatic
+777,nervous diseases,nervous diseases
+777,fevers,fevers
+777,diaphoesis,diaphoesis
+777,convulsions,convulsions
+777,mouth sores,mouth sores
+777,dysentery,dysentery
+777,diabetes,diabetes
+777,urinary disorders,urinary disorders
+777,skin diseases,skin diseases
+777,bronchitis,bronchitis
+777,asthma,asthma
+777,cough,cough
+777,chronic laryngitis and gonor,chronic laryngitis and gonor
+778,gout,gout
+778,sciatica and urticant.,sciatica and urticant
+779,inflammations,inflammations
+780,Disease: Lumbago,disease: lumbago
+780,hemiplegia and rheumatism.,hemiplegia and rheumatism
+781,Cough,cough
+781,fever,fever
+781,asthma,asthma
+781,jaundice and anaemia.,jaundice and anaemia
+782,Laxative,laxative
+782,binding,binding
+782,cooling,cooling
+782,aphrodisiac,aphrodisiac
+782,cures biliousness,cures biliousness
+782,fever,fever
+782,ulcers,ulcers
+782,diarrhea,diarrhea
+782,tonic and cardiotonic.,tonic and cardiotonic
+783,inflammations.,inflammations
+784,fractured bones.,fractured bones
+785,aphrodisiac,aphrodisiac
+785,laxative,laxative
+785,anthelmintic,anthelmintic
+785,dysentery,dysentery
+785,piles and hydrocele and cough.,piles and hydrocele and cough
+786,antiperiodic,antiperiodic
+786,antipyretic,antipyretic
+786,antispasmodic,antispasmodic
+786,tonic,tonic
+786,anthelmintic and febrifuge,anthelmintic and febrifuge
+786,colic,colic
+786,malaria,malaria
+786,fever,fever
+786,hydrocele and skin diseases.,hydrocele and skin diseases
+787,Astringent,astringent
+787,phthisis,phthisis
+787,scrofula,scrofula
+787,diabetes and diarrhea.,diabetes and diarrhea
+788,stimulant,stimulant
+788,cholera,cholera
+788,purgative,purgative
+788,bronchitis,bronchitis
+788,asthma,asthma
+788,malarial fever,malarial fever
+788,intestinal worms,intestinal worms
+788,coughs and chronic catarrh.,coughs and chronic catarrh
+789,piles,piles
+789,laxative,laxative
+789,jaundice,jaundice
+789,pneumonia,pneumonia
+789,anthelmintic,anthelmintic
+789,ulcers,ulcers
+789,tumours,tumours
+789,bronchitis,bronchitis
+789,heart diseases,heart diseases
+789,piles and cough.,piles and cough
+790,dysentery sores,dysentery sores
+790,leprosy and rheumatic joints.,leprosy and rheumatic joints
+791,fever,fever
+791,malaria,malaria
+791,menstruation,menstruation
+791,menorrhagia and diarrhoea.,menorrhagia and diarrhoea
+792,orchitis,orchitis
+792,haemorrhages,haemorrhages
+792,purgative,purgative
+792,ulcers,ulcers
+792,ulcers and wounds.,ulcers and wounds
+793,diaphoretic,diaphoretic
+793,emetic,emetic
+793,alterative,alterative
+793,purgative,purgative
+793,dysentery,dysentery
+793,asthma,asthma
+793,elephantiasis,elephantiasis
+793,syphilis,syphilis
+793,leucoderma,leucoderma
+793,tumours and ascites,tumours and ascites
+794,dyspepsia,dyspepsia
+794,flatulence,flatulence
+794,constipation,constipation
+794,asthma.,asthma
+795,laxative,laxative
+795,anthelmintic and astringent,anthelmintic and astringent
+795,colic,colic
+795,diarrhea,diarrhea
+795,dysentery,dysentery
+795,malarial fever.,malarial fever
+796,stomachic,stomachic
+796,diaphoretic,diaphoretic
+796,diuretic.,diuretic
+797,rheumatism.,rheumatism
+798,diuretic,diuretic
+798,diaphoretic,diaphoretic
+798,stimulant,stimulant
+798,demulcent,demulcent
+798,fevers,fevers
+798,dropsy and dyspepsia.,dropsy and dyspepsia
+799,narcotic,narcotic
+799,stomachic,stomachic
+799,antispasmodic,antispasmodic
+799,analgesic,analgesic
+799,stimulant,stimulant
+799,aphrodisiac,aphrodisiac
+799,sedative,sedative
+799,diarrhea,diarrhea
+799,gonorrhea,gonorrhea
+799,headache,headache
+799,neuralgia,neuralgia
+799,migraine,migraine
+799,whooping cough,whooping cough
+799,asthma,asthma
+799,dysmenorrhoea,dysmenorrhoea
+799,menorrhagia and pain of phthisis.,menorrhagia and pain of phthisis
+800,Febrifuge,febrifuge
+800,Stimulant,stimulant
+800,Antispasmodic,antispasmodic
+800,Tonic,tonic
+800,Stomachic,stomachic
+800,Gonorrhoea,gonorrhoea
+800,Abscesses,abscesses
+800,Inflammation,inflammation
+800,Painful Micturation,painful micturation
+800,Colic,colic
+800,Expectorant,expectorant
+800,Diuretic,diuretic
+800,Cough,cough
+800,Rheumatism,rheumatism
+800,Antispasmodic,antispasmodic
+800,Carminative,carminative
+800,Cooling,cooling
+800,Dyspepsia,dyspepsia
+800,Nausea,nausea
+800,Fever,fever
+800,Renal Diseases,renal diseases
+800,Vertigo,vertigo
+800,Cepha,cepha
+810,Diarrhoea,diarrhoea
+810,dysentery,dysentery
+810,acne,acne
+810,blistery,blistery
+810,boils,boils
+810,carbuncle,carbuncle
+810,haematuria,haematuria
+810,jaundice,jaundice
+810,leucorrhoea,leucorrhoea
+810,painful micturation,painful micturation
+811,Bronchitis,bronchitis
+811,asthma,asthma
+811,whooping cough,whooping cough
+812,Irregular menstruation,irregular menstruation
+812,psoriasis,psoriasis
+813,Bronchitis,bronchitis
+813,asthma,asthma
+813,whooping cough,whooping cough
+814,Diabetes,diabetes
+814,excessive menstruation,excessive menstruation
+814,facial paralysis,facial paralysis
+814,hyper acidity,hyper acidity
+814,jaundice,jaundice
+814,marasmus,marasmus
+814,menorrhoea,menorrhoea
+814,menorrhagia,menorrhagia
+814,oedema,oedema
+814,sexual weakness,sexual weakness
+814,spermatorrhoea,spermatorrhoea
+814,spermaturia,spermaturia
+817,Dysmenorrhoea,dysmenorrhoea
+817,febric convulsion,febric convulsion
+817,hysteria,hysteria
+817,menopause,menopause
+817,painful micturation,painful micturation
+817,remitting fever,remitting fever
+818,Jaundice,jaundice
+818,fever,fever
+818,boils,boils
+818,bone fracture,bone fracture
+818,bone marrow,bone marrow
+818,bone sprain,bone sprain
+818,dysmenorrhoea,dysmenorrhoea
+818,gastric tumor,gastric tumor
+818,headache,headache
+818,lipoma,lipoma
+818,nari bat,nari bat
+818,paratyphoid,paratyphoid
+818,rheumatic arthritis,rheumatic arthritis
+818,rheumatism,rheumatism
+819,Gangivitis,gangivitis
+819,irregular menstruation,irregular menstruation
+819,snake bite,snake bite
+819,sore,sore
+819,swellings of the abdomen,swellings of the abdomen
+819,dysentery,dysentery
+820,Tonic,tonic
+820,anthelmintic,anthelmintic
+820,astringent to the bowels,astringent to the bowels
+820,restorative; useful in ulcers,restorative; useful in ulcers
+820,tumour,tumour
+820,ascites,ascites
+820,piles; cures dysentery,piles; cures dysentery
+820,cooling,cooling
+820,laxative,laxative
+820,stimulant,stimulant
+820,tonic,tonic
+820,aphrodisiac,aphrodisiac
+820,alexipharmac,alexipharmac
+820,pain,pain
+820,stomach troubles,stomach troubles
+820,skin diseases,skin diseases
+822,Rheumatism,rheumatism
+822,diarrhoea and dysentery.,diarrhoea and dysentery
+823,Astrigent,astrigent
+823,alterative,alterative
+823,styptic,styptic
+823,vulnerary,vulnerary
+823,asthma,asthma
+823,dysentery,dysentery
+824,Fever,fever
+824,hysteria,hysteria
+825,Astringent,astringent
+825,Uterine disorder,uterine disorder
+825,hysteria,hysteria
+825,poisonous,poisonous
+826,Ulcers,ulcers
+826,wounds,wounds
+826,itch,itch
+826,leprosy,leprosy
+826,gonorrhoea,gonorrhoea
+826,ascites,ascites
+826,menorrhagia,menorrhagia
+826,enlargement of spleen,enlargement of spleen
+826,obesity,obesity
+826,toothache,toothache
+826,dysentery,dysentery
+828,Abdominal pain,abdominal pain
+828,epilepsy,epilepsy
+828,gastric tumor,gastric tumor
+828,general weakness,general weakness
+828,gout,gout
+828,lipoma,lipoma
+828,migraine headache,migraine headache
+828,paralysis,paralysis
+828,remitting fever,remitting fever
+828,rheumatism,rheumatism
+828,spermatorrhoea,spermatorrhoea
+828,stomach disorder,stomach disorder
+829,Cough,cough
+829,cold,cold
+829,fever and purgative,fever and purgative
+829,diarrhoea,diarrhoea
+829,dysentery,dysentery
+829,astringent,astringent
+829,abortion,abortion
+829,dyspepsia,dyspepsia
+829,food poisoning,food poisoning
+829,general weakness,general weakness
+829,hair fall,hair fall
+829,lipoma,lipoma
+829,septic sore,septic sore
+829,spermatorrhoea,spermatorrhoea
+829,traumatic injury,traumatic injury
+830,Indigestion,indigestion
+830,constipation,constipation
+830,malaria,malaria
+830,piles,piles
+831,Anthelmintic,anthelmintic
+832,Carminative,carminative
+832,cough,cough
+833,Antibacterial,antibacterial
+834,Asthma,asthma
+834,dysurea,dysurea
+834,flatulence,flatulence
+834,insanity,insanity
+834,paralysis,paralysis
+834,rheumatism,rheumatism
+835,Diuretic,diuretic
+835,astringent,astringent
+835,cooling,cooling
+835,colic,colic
+836,Ring worm,ring worm
+838,Worm complaints,worm complaints
+838,anaemia,anaemia
+839,Bruise,bruise
+839,jaundice,jaundice
+839,paralysis,paralysis
+841,Body pain,body pain
+841,cardiac weakness,cardiac weakness
+841,dysmenorrhoea,dysmenorrhoea
+841,epilepsy,epilepsy
+841,febric convulsion,febric convulsion
+841,gout,gout
+841,hysteria,hysteria
+841,nari bat,nari bat
+841,oedema,oedema
+841,painful micturation,painful micturation
+841,paralysis,paralysis
+841,pneumonia,pneumonia
+841,poisoning effect,poisoning effect
+841,remitting fever,remitting fever
+841,rheumatism,rheumatism
+841,headache,headache
+841,sore,sore
+843,Stomach disorder,stomach disorder
+844,Sexual weakness,sexual weakness
+845,Diarrhoea,diarrhoea
+845,dysentery,dysentery
+845,stomachic,stomachic
+846,Boils,boils
+846,fever,fever
+846,blisters,blisters
+846,eye itch,eye itch
+846,bone fracture,bone fracture
+846,cutting wound,cutting wound
+846,dandruff,dandruff
+846,eczema,eczema
+846,flatulence,flatulence
+846,jaundice,jaundice
+846,lactopenia,lactopenia
+846,painful micturation,painful micturation
+846,paralysis,paralysis
+847,Rheumatism,rheumatism
+847,irregular menstruation,irregular menstruation
+847,skin disease,skin disease
+848,Scabies.,scabies
+849,Gout,gout
+849,tetanus,tetanus
+852,Wound,wound
+852,septic abscess,septic abscess
+853,Boils,boils
+854,Bone fracture,bone fracture
+855,Oedema,oedema
+856,Boils,boils
+857,Tumor,tumor
+857,urinary problem,urinary problem
+857,snake bite,snake bite
+857,paralysis,paralysis
+857,fever,fever
+857,food poisoning,food poisoning
+857,lipoma,lipoma
+857,neck pain,neck pain
+857,stomach disorder,stomach disorder
+857,tetanus,tetanus
+858,Tumor,tumor
+858,constipation,constipation
+858,rheumatism,rheumatism
+858,paralysis,paralysis
+859,Cut,cut
+859,boils,boils
+859,chest pain,chest pain
+859,epilepsy,epilepsy
+859,fever,fever
+859,gout,gout
+859,jaundice,jaundice
+859,paralysis,paralysis
+859,remitting fever,remitting fever
+859,stomachache,stomachache
+859,strangury,strangury
+859,tuberculosis,tuberculosis
+860,Bone fracture,bone fracture
+860,scabies,scabies
+861,Laxative,laxative
+861,alterative,alterative
+861,tonic,tonic
+861,fresh,fresh
+861,insanity,insanity
+861,epilepsy,epilepsy
+861,gonorrhea,gonorrhea
+861,leucorrhoeal and spermatorrhoeal discharge.,leucorrhoeal and spermatorrhoeal discharge
+862,Nerve tonic,nerve tonic
+863,Sedative,sedative
+863,cooling,cooling
+863,cholagogue,cholagogue
+863,stomachic,stomachic
+863,antihidrotic,antihidrotic
+863,cholera,cholera
+863,boils,boils
+863,swellings,swellings
+863,piles and rheumatism.,piles and rheumatism
+864,uralgia and rheumatism. Internally it is tonic and carminative,uralgia and rheumatism. internally it is tonic and carminative
+864,atonic,atonic
+864,dysentery,dysentery
+865,Rheumatism,rheumatism
+865,gonorrhea,gonorrhea
+865,anthelmintic,anthelmintic
+865,dropsy,dropsy
+865,measles,measles
+865,stimulant,stimulant
+865,diuretic,diuretic
+865,piles,piles
+865,amenorrhoea,amenorrhoea
+865,gonorrhoea,gonorrhoea
+865,rheumatism,rheumatism
+865,erysipelas,erysipelas
+865,intestinal worms,intestinal worms
+865,diaphoretic,diaphoretic
+865,emetic,emetic
+865,laxative,laxative
+865,rubefacient,rubefacient
+865,emmenagogue,emmenagogue
+865,occasionally,occasionally
+865,lumbago,lumbago
+865,fever and nervous diseases,fever and nervous diseases
+866,Alexiteric,alexiteric
+866,diuretic,diuretic
+866,anthelmintic,anthelmintic
+866,tumours,tumours
+866,dyspepsia,dyspepsia
+866,colic,colic
+866,bronchitis,bronchitis
+866,piles,piles
+866,leucoderma and skin diseases.,leucoderma and skin diseases
+867,Anthelmintic,anthelmintic
+867,dyspepsia,dyspepsia
+867,intestinal irritation,intestinal irritation
+867,ringworm,ringworm
+867,wounds,wounds
+867,ulcers,ulcers
+867,boils,boils
+867,warts,warts
+867,cancerous tumours,cancerous tumours
+867,diarrhea,diarrhea
+867,stomachic,stomachic
+867,appetizer,appetizer
+867,digestive,digestive
+867,carminative and diuretic.,carminative and diuretic
+868,Antiscorbutic,antiscorbutic
+868,stomachic and anthelmintic.,stomachic and anthelmintic
+869,Laxative,laxative
+869,diuretic,diuretic
+869,appetizer,appetizer
+869,diuretic,diuretic
+869,expectorant,expectorant
+869,inflammations,inflammations
+869,boils,boils
+869,ringworms,ringworms
+869,scabies,scabies
+869,leucoderma,leucoderma
+869,piles,piles
+869,bronchitis and jaundice,bronchitis and jaundice
+869,diaphoretic,diaphoretic
+869,rheumatism,rheumatism
+869,laxative and toinc,laxative and toinc
+869,measles.,measles
+870,Tonic,tonic
+870,aphrodisiac,aphrodisiac
+870,laxative and hemicrania.,laxative and hemicrania
+871,Purgative and antiparasitic,purgative and antiparasitic
+871,ringworm,ringworm
+871,tonic,tonic
+871,herpes,herpes
+871,insect bites,insect bites
+871,eczema,eczema
+871,expectorant,expectorant
+871,bronchitis and eczema.,bronchitis and eczema
+872,Laxative,laxative
+872,antiperiodic,antiperiodic
+872,ulcers,ulcers
+872,inflammation,inflammation
+872,rheumatism,rheumatism
+872,ringworms,ringworms
+872,laxative,laxative
+872,gout,gout
+872,rheumatism,rheumatism
+872,ringworm,ringworm
+872,jaundice and diabetes.,jaundice and diabetes
+873,Anthelmintic,anthelmintic
+873,laxative,laxative
+873,antipyretic,antipyretic
+873,bronchitis,bronchitis
+873,asthma,asthma
+873,leprosy,leprosy
+873,piles,piles
+873,and eczema.,and eczema
+874,Alexiteric,alexiteric
+874,antiperiodic,antiperiodic
+874,cough,cough
+874,hiccup,hiccup
+874,asthma,asthma
+874,fever,fever
+874,worms,worms
+874,purgative,purgative
+874,ringworm,ringworm
+874,fevers,fevers
+874,neuralgia and dropsy.,neuralgia and dropsy
+875,Ringworm,ringworm
+875,asthma,asthma
+875,bronchitis,bronchitis
+875,hiccup,hiccup
+875,gonorrhea,gonorrhea
+875,sores,sores
+875,diabetes,diabetes
+875,ringworm,ringworm
+875,pityriasis and psoriasis.,pityriasis and psoriasis
+876,Alterative,alterative
+876,tonic astringent,tonic astringent
+876,aphrodisiac and diuretic,aphrodisiac and diuretic
+876,urethritis,urethritis
+876,dysentery,dysentery
+876,dropsy,dropsy
+876,anasarca,anasarca
+876,skin diseases,skin diseases
+876,seborrhoea,seborrhoea
+876,congestion,congestion
+876,rheumatism and waist pain.,rheumatism and waist pain
+877,Colic,colic
+877,diarrhea,diarrhea
+877,dysentery,dysentery
+877,nervous disorder,nervous disorder
+877,cough,cough
+877,ulcers,ulcers
+877,stomachache and constipation,stomachache and constipation
+878,Diabetes,diabetes
+878,menorrhagia,menorrhagia
+878,tonic,tonic
+878,stomachic,stomachic
+878,leukemia and Hodgkin’s disease,leukemia and hodgkin’s disease
+879,astringent.,astringent
+880,Abdominal pains and sores.,abdominal pains and sores
+881,Diuretic,diuretic
+881,astringent,astringent
+881,febrifuge and emetic.,febrifuge and emetic
+882,Appetizer,appetizer
+882,laxative,laxative
+882,emetic,emetic
+882,aphrodisiac,aphrodisiac
+882,expectorant,expectorant
+882,brain,brain
+882,liver,liver
+882,paralysis,paralysis
+882,rheumatism,rheumatism
+882,gout,gout
+882,leprosy,leprosy
+882,scabies and ulcers,scabies and ulcers
+883,Antipyretic,antipyretic
+883,liver,liver
+883,inflammations,inflammations
+883,blood diseases,blood diseases
+883,mouth sores,mouth sores
+883,eye diseases and diarrhoea.,eye diseases and diarrhoea
+884,Cooling,cooling
+884,alexiteric,alexiteric
+884,dysentery,dysentery
+884,strangury. diarrhoea,strangury. diarrhoea
+884,menstrual discharges,menstrual discharges
+884,cough,cough
+884,diarrhoea,diarrhoea
+884,dysentery and seminal diseases,dysentery and seminal diseases
+885,Mumps,mumps
+888,Cough,cough
+888,whooping cough,whooping cough
+888,rheumatic pains,rheumatic pains
+889,Allergy,allergy
+889,fever,fever
+889,painful micturation,painful micturation
+889,rheumatism,rheumatism
+889,urticaria,urticaria
+890,Diarrhoea,diarrhoea
+890,dysentery,dysentery
+890,anklitis,anklitis
+890,asthma,asthma
+890,bleeding,bleeding
+890,boils,boils
+890,bone fracture,bone fracture
+890,cancerous tumor,cancerous tumor
+890,carbuncle,carbuncle
+890,cirorhosis,cirorhosis
+890,epilepsy,epilepsy
+890,evil spell,evil spell
+890,gastric tumor,gastric tumor
+890,general weakness,general weakness
+890,worm,worm
+890,jaundice,jaundice
+890,leucorrhoea,leucorrhoea
+890,lipoma,lipoma
+890,liver disease,liver disease
+890,osteoarthritis,osteoarthritis
+890,paralysis,paralysis
+890,pyerrhoea,pyerrhoea
+891,the plant  is used in bilious affection,the plant is used in bilious affection
+891,urethritis,urethritis
+891,chronic dysentery,chronic dysentery
+891,dropsy,dropsy
+891,anasarca,anasarca
+891,skin diseases,skin diseases
+891,seborrhoea,seborrhoea
+891,congestion,congestion
+891,rheumatism,rheumatism
+891,waist pain,waist pain
+892,the plant is used in the treatment of boils,the plant is used in the treatment of boils
+892,epilepsy,epilepsy
+892,gout,gout
+892,hysteria,hysteria
+892,mental disorder,mental disorder
+892,otitis,otitis
+892,rheumatism,rheumatism
+892,tuberculosis,tuberculosis
+893,DIARRHOEA.,diarrhoea
+894,NAUSEA.,nausea
+895,OEDEMA,oedema
+896,OSTEOARTHRITIS,osteoarthritis
+896,RHEUMATISM,rheumatism
+896,VERTIGO.,vertigo
+897,Alterative,alterative
+897,astringent,astringent
+897,tonic,tonic
+897,diuretic,diuretic
+897,laxative,laxative
+897,digestive,digestive
+897,antipyretic,antipyretic
+897,dysentery,dysentery
+897,leucoderma,leucoderma
+897,urinary discharges,urinary discharges
+897,bronchitis,bronchitis
+897,inflammations,inflammations
+897,fevers,fevers
+897,ulcerations,ulcerations
+897,eczema,eczema
+897,leprosy.,leprosy
+898,Purgative and vomiting.4,purgative and vomiting.4
+899,Astringent,astringent
+899,haemorrhage and ulcers.,haemorrhage and ulcers
+900,witchcraft and swollen limbs.,witchcraft and swollen limbs
+901,Laxative,laxative
+901,diuretic,diuretic
+901,piles,piles
+901,dysentery,dysentery
+901,anoerexia and hiccup.,anoerexia and hiccup
+902,Stomachic,stomachic
+902,carminative,carminative
+902,diaphoretic,diaphoretic
+902,anthelmintic,anthelmintic
+902,emmenagogue,emmenagogue
+902,cholera,cholera
+902,ulcers,ulcers
+902,pyemia,pyemia
+902,gastralgia and nervous affections.,gastralgia and nervous affections
+903,Skeletal fractures,skeletal fractures
+903,astringent and,astringent and
+904,Refrigerant,refrigerant
+904,fevers,fevers
+904,dysmenorrhoea,dysmenorrhoea
+904,gonorrhea,gonorrhea
+905,stomachic and cardiotonic.,stomachic and cardiotonic
+906,Stimulant,stimulant
+906,carminative,carminative
+906,diuretic,diuretic
+906,colic,colic
+906,diarrhoea,diarrhoea
+906,dyspepsia,dyspepsia
+906,anoerexia,anoerexia
+906,skin diseases,skin diseases
+906,teeth,teeth
+906,sore throat,sore throat
+906,piles,piles
+906,heart troubles,heart troubles
+906,inflammation and sore eyes,inflammation and sore eyes
+906,cough and colds,cough and colds
+906,diabetes and gonorrhoea.,diabetes and gonorrhoea
+907,Astringent,astringent
+907,stimulant,stimulant
+907,carminative,carminative
+907,anthelmintic,anthelmintic
+907,expectorant,expectorant
+907,aphrodisiac,aphrodisiac
+907,bronchitis,bronchitis
+907,hiccup,hiccup
+907,piles,piles
+907,diarrhoea and heart trouble.,diarrhoea and heart trouble
+908,Abdominal pain,abdominal pain
+908,allergy,allergy
+908,asthma,asthma
+908,boils,boils
+908,bronchitis,bronchitis
+908,cirorhosis,cirorhosis
+908,dyspepsia,dyspepsia
+908,gastric tumor,gastric tumor
+908,gout,gout
+908,hook worm infestation,hook worm infestation
+908,nasal polyps,nasal polyps
+908,syphilis,syphilis
+908,vessel injury,vessel injury
+909,Digestion weakness,digestion weakness
+909,sexual weakness,sexual weakness
+909,kidney pains,kidney pains
+910,Jaundice,jaundice
+910,liver weakness,liver weakness
+911,Tonic,tonic
+911,astringent,astringent
+911,deobstruent,deobstruent
+911,aphrodisiac,aphrodisiac
+911,dysmenorrhoea,dysmenorrhoea
+911,restrain seminal gleet,restrain seminal gleet
+911,rheumatism,rheumatism
+912,Poisonous,poisonous
+912,tonic,tonic
+912,stomachic,stomachic
+912,kidney troubles,kidney troubles
+912,vesicant,vesicant
+912,blisters,blisters
+912,sciatica,sciatica
+912,rheumatism,rheumatism
+912,dysuria,dysuria
+912,asthma,asthma
+912,pneumonia,pneumonia
+912,stitch,stitch
+913,Fever,fever
+913,headache,headache
+913,stomach pain,stomach pain
+913,itch,itch
+913,allergy,allergy
+913,asthma,asthma
+913,epilepsy,epilepsy
+913,gastric ulcer,gastric ulcer
+913,lipoma,lipoma
+913,stomachache,stomachache
+913,tetanus,tetanus
+913,throat sore,throat sore
+914,Constipation,constipation
+914,oxytocie,oxytocie
+914,skin diseases,skin diseases
+915,Duodenal ulcer,duodenal ulcer
