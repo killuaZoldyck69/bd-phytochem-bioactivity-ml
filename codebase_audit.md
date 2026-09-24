@@ -351,7 +351,7 @@ F:\bmppd-thesis\
   - `data/quality/cox_data_check_report.md`
   - `data/attrition/cox_data_check_attrition.csv`
 
-### 5.6 Pipeline Script 05: Provenance Audit & Domain-Shift Diagnostics (`pipeline/05_provenance_and_domain_diagnostics.py`)
+### 5.6 Stage 7A-1: Provenance Audit & Domain-Shift Diagnostics (`pipeline/05_provenance_and_domain_diagnostics.py`)
 - **Objective**: Conduct rigorous provenance audit of 100 flora-labeled molecules across human COX-1, COX-2, XO, and MAO-A, evaluate chemical identity consistency across all 7,317 flora layers, and quantify domain shift between flora and ChEMBL training pools.
 - **Constraints & Compliance**:
   - ChEMBL 37 opened strictly read-only (`mode=ro`).
@@ -385,25 +385,44 @@ F:\bmppd-thesis\
   - **Part B (Link Quality & Recalibration)**:
     - 17 of 222 plants lose >50% of links under HIGH-only filtering (e.g., Plant 21 *Benincasa hispida* and Plant 35 *Clitoria ternatea* due to massive upstream CID copy-paste errors).
     - Group (ii) audit of 966 discordant layers: 488 (50.5%) are ALL HIGH (valid chemical synonyms/isomers), 210 (21.7%) contain confirmed LOW collisions, 268 (27.7%) are MEDIUM.
-    - Detailed layers: `IQPNAANSBPBGFQ` (Luteolin) has 34 HIGH links and 2 LOW links (Plant 623 Curcuma caesia and Plant 637 Zingiber zerumbet mislabeled sterols with Luteolin CID); `AEDDIBAIWPIIBD` (Mangiferin) has 4 HIGH and 1 LOW (Plant 626 ginger mislabeled Lycopene); `ZDWSNKPLZUXBPE` (3,5-di-tert-butylphenol) has 4 HIGH and 1 LOW (Plant 505 Diclofenac-Na typo).
-    - Recalibrated external flora evaluation sets (after purging LOW layers):
-      - COX-1: 32 -> 27 layers (T=6: 4 act / 23 inact; T=5: 12 act / 15 inact).
-      - COX-2: 25 -> 22 layers (T=6: 1 act / 19 inact; T=5: 6 act / 14 inact).
-      - XO: 30 -> 23 layers (T=6: 4 act / 17 inact; T=5: 13 act / 9 inact).
-      - MAO-A: 43 -> 36 layers (T=6: 11 act / 24 inact; T=5: 21 act / 14 inact).
-  - **Part C (Reference-Compound Candidates)**:
-    - 18 labeled flora layers have ChEMBL `max_phase >= 1` and appear in $\le 3$ plants (e.g. Suprofen, Allopurinol, Captopril, Disulfiram, Amphetamine, Methoxsalen, Capsaicin).
-    - All citations formatted with clean DOIs (all Sci-Hub/mirror URLs and redirect wrappers stripped) for manual paper verification.
-  - **Part D (In-Domain Power Check)**:
-    - Standardized using `pipeline/02_standardize_structures.py`'s `standardize_mol` (0 earlier NN figures changed).
-    - Missing 2 of 7,317 flora layers explained: `JATASMBSXKNAQR` (ferrocene stripped of Fe leaving unkekulizable radical anion) and `ISHQPQZAQICIAZ` (phosphonic acid explicit valence error).
-    - Under HIGH-tier links, at $NN \ge 0.3$, 212 of 222 plants (95.5%) retain $\ge 1$ in-domain compound for COX-1 (168 have $\ge 5$; 136 have $\ge 10$). At $NN \ge 0.4$, 195 plants retain $\ge 1$ (120 have $\ge 5$; 76 have $\ge 10$).
-    - In the pain/inflammation keyword proxy subset (122 plants), 68 plants have $\ge 5$ in-domain compounds at $NN \ge 0.4$ for COX-1 (compared to 52 for the 100 other plants).
+    - Detailed layers: `IQPNAANSBPBGFQ` (Luteolin) has 34 HIGH links and 2 LOW links; `AEDDIBAIWPIIBD` (Mangiferin) has 4 HIGH and 1 LOW; `ZDWSNKPLZUXBPE` (3,5-di-tert-butylphenol) has 4 HIGH and 1 LOW.
+    - Part C: 18 reference-compound candidate layers with clean DOIs.
+    - Part D: Missing 2 of 7,317 flora layers explained (`JATASMBSXKNAQR` and `ISHQPQZAQICIAZ`).
 - **Outputs**:
   - `data/processed/compounds/plant_compound_links_confidence.csv` (22,614 rows)
   - `data/quality/link_confidence_and_power_report.md`
   - `data/cache/pubchem/synonyms_batch_*.json` (142 files, 7,061 unique CIDs)
   - `data/cache/pubchem/names/name_*.json` (1,501 newly cached names)
+
+### 5.8 Stage 7A-3: Corrections to the Link-Confidence Audit
+- **Objective**: Implement methodological corrections from expert audit review: (1) Correct the external-set retention rule (drop LOW links, preserve molecules having $\ge 1$ HIGH link); (2) Generate primary literature verification sheet for manual inspection; (3) Reconcile duplicate plant query binomials into plant analysis units; (4) Perform molecular formula audit on LOW-tier links to separate isomer/representation differences from collisions; and (5) Recalibrate plant-level compound yield distributions without describing counts as statistical power.
+- **Constraints & Compliance**:
+  - `docs/thesis_design_note.md` adhered to as primary authority.
+  - Master MPBD SHA-256 verified at start and end: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`.
+  - Zero model training, zero dataset modifications to existing files, zero network calls, zero paper claims made (none read).
+- **Key Findings**:
+  - **1. External Set Rule Correction**:
+    - Only 3 of 100 labeled flora layers have zero HIGH links across all plants: `ITDYPNOEEHONAH` (1 MED, 0 HIGH, 0 LOW), `SHPPXMGVUDNKLV` (2 LOW, 0 HIGH), and `IBRKLUSXDYATLG` (1 MED, 0 HIGH).
+    - Preserved 97 authentic phytochemicals previously dropped in whole-layer purging (luteolin, rutin, hyperoside, catechin, linoleic acid).
+    - Recalibrated sets: COX-1 (31 layers: 4 act / 27 inact at T=6; 12 act / 19 inact at T=5); COX-2 (25 layers: 1 act / 22 inact / 2 conflict at T=6; 6 act / 17 inact / 2 conflict at T=5); XO (29 layers: 5 act / 21 inact / 3 conflict at T=6; 15 act / 11 inact / 3 conflict at T=5); MAO-A (42 layers: 12 act / 29 inact / 1 conflict at T=6; 26 act / 15 inact / 1 conflict at T=5).
+    - **Trolox & Suprofen Diagnostic Insight**: The link-tier method tests name-vs-CID consistency within the database. It cannot detect literature positive-control contamination (e.g., Trolox or Suprofen) when the paper extractor entered the control drug's name alongside its correct PubChem CID (tier HIGH by construction).
+  - **2. Verification Sheet**:
+    - Compiled `external_verification_sheet.csv` (519 rows across 84 qualifying layers) with clean DOIs/PMIDs/ISBNs and blank manual review columns (`verified_in_source`, `is_reference_compound`, `notes`).
+  - **3. Duplicate Plants & Plant Analysis Units**:
+    - Identified 14 duplicate query groups covering 29 plant indices (all with 100% identical compound sets from identical BMPPD query dispatches, but divergent `disease_raw` texts from MPBD).
+    - Formulated 207 plant analysis units across the 222 compound plants.
+    - Only 16 analysis units lose >50% of links under HIGH-only (AU_021 *Benincasa hispida* was previously double-counted under plants 21 and 765).
+  - **4. Molecular Formula Tier Audit**:
+    - Formula comparison separates constitutional/stereochemical isomers from true database collisions.
+    - Demonstrated that petunidin, peonidin, pelargonidin, curzerene, seychellene, and casuarinin share formulas/skeletons with their CID records, having been flagged due to counter-ion representation or standardization limitations.
+  - **5. Plant-Level In-Domain Yield Recalibration**:
+    - Computed in-domain compound counts across 207 analysis units (115 pain units, 55.6% vs 92 other units, 44.4%).
+    - For COX-1 at $NN \ge 0.4$ under HIGH links: 64 of 115 pain units (55.7%) vs 47 of 92 other units (51.1%) have $\ge 5$ in-domain compounds (a modest 4.6 percentage point difference). Correctly framed as compound yield and chemical space coverage rather than statistical power.
+- **Outputs**:
+  - `data/processed/modeling/plant_analysis_units.csv` (916 rows)
+  - `data/processed/modeling/external_verification_sheet.csv` (519 rows)
+  - `data/processed/modeling/tier_sample_audit.csv` (100 rows, random seed 42)
+  - `data/quality/stage7a3_corrections_report.md`
 
 ---
 
