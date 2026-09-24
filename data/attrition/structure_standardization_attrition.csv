@@ -1,0 +1,10 @@
+step,description,count,notes
+1_input_rows,Total input rows evaluated,24001,Limit: None
+2_unresolved_script01,Rows unresolved in Script 01 (no_match/encoding/nonspecific),1363,Dropped
+3_multiple_matches_evaluated,Multiple-match candidate sets evaluated,133,Salt-standardized
+4_multiple_matches_accepted,Multiple-match rows accepted (same connectivity),131,Flat structure
+5_multiple_matches_rejected,Multiple-match rows rejected (heterogeneous connectivity),2,Dropped
+6_invalid_smiles,Rows with unparseable/empty SMILES,22,Dropped
+7_standardization_failed,Rows where RDKit curation raised an exception,0,Dropped
+8_successfully_standardized_rows,Total rows successfully standardized and linked,22614,Linked to unique
+9_unique_connectivity_molecules,Total unique molecules (14-char connectivity layer),7317,Primary deduplicated set

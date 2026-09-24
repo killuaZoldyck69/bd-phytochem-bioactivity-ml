@@ -1,0 +1,1388 @@
+plant_index,compound_name_original,pubchem_cid_original,match_type,drop_reason
+1,"(1aR,4S,4aS,7R,7aS,7bR)-1,1,4,7-tetramethyl-2,3,4,5,6,7,7a,7b-octahydro-1aH-cyclopropa[h]azulen-4a-ol",,no_match,unresolved_script01_no_match
+1,Methyl piperbetol,,no_match,unresolved_script01_no_match
+1,Piperol A,,no_match,unresolved_script01_no_match
+1,Piperol B,,no_match,unresolved_script01_no_match
+2,(+)-Piperenol A,,no_match,unresolved_script01_no_match
+2,Artesin[sesquiterpene],,no_match,unresolved_script01_no_match
+2,Isohinokinin,,no_match,unresolved_script01_no_match
+4,(+/-)-6-Acetonyldihydrosanguinarine,,no_match,unresolved_script01_no_match
+4,"(1R,11S,13S)-11,16,17-trimethoxy-6,8,12-trioxa-22-azapentacyclo[11.9.0.02,10.05,9.014,19]docosa-2(10),3,5(9),14,16,18-hexaene",,no_match,unresolved_script01_no_match
+4,"(4S,4aR,7S,7aR,12bS)-7,9-dimethoxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline",,no_match,unresolved_script01_no_match
+4,Cotarnoline,,no_match,unresolved_script01_no_match
+4,UNII-Z32OFX7V17 component BDLSDHWCOJPHIE-PEKXWBJKSA-N,,no_match,unresolved_script01_no_match
+4,trans-10-Hydroxythebaine,,no_match,unresolved_script01_no_match
+5,"(2S)-5-hydroxy-7-methoxy-6-(3-methylbut-2-enyl)-2-(3,4,5-trimethoxyphenyl)-2,3-dihydrochromen-4-one",,no_match,unresolved_script01_no_match
+5,(3? -sulfo)Galbeta-Cer(d18:1/18:0(2OH)),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+5,4-hydroxy-2-oxo-glutaric acid,,no_match,unresolved_script01_no_match
+5,Artoheterophyllin F,,no_match,unresolved_script01_no_match
+5,Bis (2-ethylhexyl) phthalate,,no_match,unresolved_script01_no_match
+5,Cer(d14:1(4E)/20:0(2OH)),,no_match,unresolved_script01_no_match
+5,Cistanoside,,no_match,unresolved_script01_no_match
+5,DG(16:1(9Z)/0:0/16:1(9Z)) (d5),,no_match,unresolved_script01_no_match
+5,Glutaminyl phenylalanine,,no_match,unresolved_script01_no_match
+5,Isorenieratene/(Leprotene),,no_match,unresolved_script01_no_match
+5,MGDG (16:0/18:1(9Z)),,no_match,unresolved_script01_no_match
+5,"PA(O-16:0/17:2(9Z,12Z))",,no_match,unresolved_script01_no_match
+5,"PC(14:0/20:3(5Z,8Z,11Z))",,no_match,unresolved_script01_no_match
+5,PS(19:0/16:0),,no_match,unresolved_script01_no_match
+5,artocarpfuranol,,no_match,unresolved_script01_no_match
+5,artoheterophyllin E,,no_match,unresolved_script01_no_match
+5,artoheterophyllin G,,no_match,unresolved_script01_no_match
+5,artoheterophyllin I,,no_match,unresolved_script01_no_match
+5,gamma.-Sitosterol,,no_match,unresolved_script01_no_match
+9,Boerhadiffusene,,no_match,unresolved_script01_no_match
+9,Boerhavilanostenyl benzoate,,no_match,unresolved_script01_no_match
+9,Diffusarotenoid,,no_match,unresolved_script01_no_match
+13,Andrachamine,,no_match,unresolved_script01_no_match
+13,Andrachcine,,no_match,unresolved_script01_no_match
+13,Saponin A,,no_match,unresolved_script01_no_match
+14,Chitanone,,no_match,unresolved_script01_no_match
+14,Plumbazeylanone,,no_match,unresolved_script01_no_match
+27,"(Z,Z)-6,9-cis-3,4-epoxy-nonadecadiene",,no_match,unresolved_script01_no_match
+27,"1,2-Benzenedicarboxylic acid, bis(2methylpropyl) ester",,no_match,unresolved_script01_no_match
+27,"1-Nitro-.?.-d-arabinofuranose, tetraacetate",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"1-hydroxy-2,2,6,6-tetramethyl-3- (4-nitroso-1(piperazinylmethyl)-piperidin-4-one",,no_match,unresolved_script01_no_match
+27,"1?Norvaline, N?ethoxycarbonyl?, nonyl ester",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"2,3-Dihydro-3,5-dihydroxy-6-methyl-4 hpyran-4-one",,no_match,unresolved_script01_no_match
+27,"2,4 (1H ,3 H}?Pyrimidinedione, 6?iodo?5?methyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"2,6,10-Trimethyl,14-ethylene-14-pe",,no_match,unresolved_script01_no_match
+27,"2,6,10-Trimethyl,14-ethylene-14-pentadecne",,no_match,unresolved_script01_no_match
+27,"2,6-Bis[2-[2-Sthiosulfuroethylamino]ethoxy ]pyrazine",,no_match,unresolved_script01_no_match
+27,"2,6-Di-butyl-2,5-cyclohexadiene-1",,no_match,unresolved_script01_no_match
+27,"2?Fluoro?6?trifluora methyl benzoic acid, 4?nitraphenyl ester",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,2?Pyrrolidinone (5?(cyclo hexyl methyl)?,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"4?Methyl?2,4?bis (4?trimethylsilyloxyphenyl} pentene?l",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,5-hydroxy-2-(hydroxyl methyl)-4H-pyran-4-one,,no_match,unresolved_script01_no_match
+27,"5?-androstane-3,17-dione 17monooxime",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"7,9-Di-tert-butyl-1-oxaspiro(4,5)deca-6,9diene-2,8-dione",,no_match,unresolved_script01_no_match
+27,"7-(Isobut-1-yl)cyclohepta-1,3,5-tr",,no_match,unresolved_script01_no_match
+27,"7-Propyl-1,3,5-cycloheptatriene",272807074,CID-based,empty_smiles
+27,"Acetamide, N-methyl-N-[4[4-fluoro-1hexahydropyridyl]-2butynyl]-",,no_match,unresolved_script01_no_match
+27,"Benzene, 1,10-(1,2-cyclobutanediyl",,no_match,unresolved_script01_no_match
+27,"Cyclopropaneoctanoic acid, 2-[[-2-[(-2ethylcyclopropyl)-methyl]-cyclopropyl]methyl], methyl ester",,no_match,unresolved_script01_no_match
+27,Dimethylaminato [4-methyl-2-,,no_match,unresolved_script01_no_match
+27,Isopropyl(dimethyl)silylpalmitate,,no_match,unresolved_script01_no_match
+27,Methyl commateC,,no_match,unresolved_script01_no_match
+27,"Morphinan-3-ol-6-one, 4methoxy-",,no_match,unresolved_script01_no_match
+27,"N,N'-Pentamethylenebis[s-3aminopropyl thiosulfuric acid",,no_match,unresolved_script01_no_match
+27,N-Methoxy-1-ribofuranosyl4-imidazolecarboxylic amide,,no_match,unresolved_script01_no_match
+27,N-Methyl-à-diMethylThioPropylamide,,no_match,unresolved_script01_no_match
+27,"Octadecanoic acid, 2-hydroxy-1,3propanediyl ester",,no_match,unresolved_script01_no_match
+27,"Octane, 1,10-oxybis-",,no_match,unresolved_script01_no_match
+27,"Propane, 2?methoxy?2?rnethyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,"Propanoic acid, 2-methyl-3-[4-tbutyl]phenyl-",,no_match,unresolved_script01_no_match
+27,"Pyrrolo[3,2-k]anthracene4,6-diol, 3-methoxy4b,5,6,7,8,9,10,11,11a,12decahydro-11-methyl-",,no_match,unresolved_script01_no_match
+27,"Silane, [{1,1?dimethy1?2?propenyl) oxy] dimethyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+27,Tetra acetyl-d-xylonic nitrile,,no_match,unresolved_script01_no_match
+27,"beta?1?Arabinopyranoside, methyl",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+28,ketol-nonadecan-7-ol-2-one,,no_match,unresolved_script01_no_match
+38,"(2S,4aS,8aS)-6-(2-hydroxypropan-2-yl)-8a-methyl-4-methylidene-1,2,3,4a,5,6,7,8-octahydronaphthalen-2-ol",,no_match,unresolved_script01_no_match
+38,O-Acetyloleanolic aldehyde,,no_match,unresolved_script01_no_match
+38,Pterocarpdiolone,,no_match,unresolved_script01_no_match
+38,Pterocarptriol,,no_match,unresolved_script01_no_match
+43,(24S)-stigmast-5-ene7?-ethoxy-3?-ol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"2,3-(S)-hexahydroxydiphenoyl-?/ ? ?? ? ?-d-glucose",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"2-hydroxy-3-oxo-24-noroleana- 1,4,12-trien-28-oic acid",,no_match,unresolved_script01_no_match
+43,"2?,3?,24-trihydroxylup-20(29)-ene-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"2?,3?,24-trihydroxyolean-18-ene-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"3,32-di-O-methylellagic acid",,no_match,unresolved_script01_no_match
+43,"3,4,32-tri-O-methylellagic acid",,no_match,unresolved_script01_no_match
+43,3-O-methyl-ellagic acid 42-sulfate,,no_match,unresolved_script01_no_match
+43,31-methylenecycloartanol acetate,,no_match,unresolved_script01_no_match
+43,31-norlargerenol acetate,,no_match,unresolved_script01_no_match
+43,3?-hydroxy1-oxo-olean-12-en-28-oic acid,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,4-0 methyl gallic acid,,no_match,unresolved_script01_no_match
+43,"5?,6?-epoxy3?-hydroxyergosta-22-ene-7-one",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"6?-methoxyergosta- 7,9(11),22-triene-3?,5?-diol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,"7?-methoxy 5?,6?-epoxyergosta-8(14),22-diene-3?-ol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,7?-methoxy-stigmast-5-ene-3?-ol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,Epipunicacortein A,,no_match,unresolved_script01_no_match
+43,Flosin B,,no_match,unresolved_script01_no_match
+43,Lagerstroemin,,no_match,unresolved_script01_no_match
+43,Largerenol acetate,,no_match,unresolved_script01_no_match
+43,Pentacylic triterpenes,,no_match,unresolved_script01_no_match
+43,Reginin A,,no_match,unresolved_script01_no_match
+43,Tinotufolins C,,no_match,unresolved_script01_no_match
+43,Tinotufolins D,,no_match,unresolved_script01_no_match
+43,"ergosta8(14),22-diene-3?,5?,6?,7?-tetraol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+43,psiguanin,,no_match,unresolved_script01_no_match
+43,punicaone,,no_match,unresolved_script01_no_match
+43,stigmast-4-ene-6?-ol-3-one,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+49,4-(5-Methyl-2-furyl)-3-buten-2-one,,no_match,unresolved_script01_no_match
+59,(S)-4-(p-Tolyl)valeraldehyde,,no_match,unresolved_script01_no_match
+59,(Z)-gamma-Curcumen-12-ol,,no_match,unresolved_script01_no_match
+59,Acetyldihydroalbene,,no_match,unresolved_script01_no_match
+59,Bisabolenol D,,no_match,unresolved_script01_no_match
+59,Cyclosantalal,,no_match,unresolved_script01_no_match
+61,Toluidine,,no_match,unresolved_script01_no_match
+61,kamalachalcone E,,no_match,unresolved_script01_no_match
+68,"(1S,2S,6S,7R,8R)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",,no_match,unresolved_script01_no_match
+68,(E)-?-Farnesene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,"1,2-Cyclohexanediol, 1-methyl-4-(1-methylethenyl)",,no_match,unresolved_script01_no_match
+68,1-beta-pinene,,no_match,unresolved_script01_no_match
+68,2''-O-Xylosylvitexin,,no_match,unresolved_script01_no_match
+68,"2,6-Octadienal, 3,7-dimethyl, (Z)",,no_match,unresolved_script01_no_match
+68,"2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl), cis",,no_match,unresolved_script01_no_match
+68,3-methylidenecyclobutanecarbonitrile,,no_match,unresolved_script01_no_match
+68,?-Bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-Bisabolol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-Elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-Santalene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-Thujene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-bergamotene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-humulene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-myrcene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-pinene5.278,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-pinene6.607,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-terpinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,?-thujone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,"Acetic acid 3-(3,4,5-trimethoxyphenyl)propyl ester",,no_match,unresolved_script01_no_match
+68,Alkanes,,no_match,unresolved_script01_no_match
+68,Artesin[sesquiterpene],,no_match,unresolved_script01_no_match
+68,Cis-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,E-Citral,,no_match,unresolved_script01_no_match
+68,Monoterpenes,,no_match,unresolved_script01_no_match
+68,Oxygenated,,no_match,unresolved_script01_no_match
+68,cis- Limonene oxide,,no_match,unresolved_script01_no_match
+68,cis-?-Bergamotene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,cis-?-Bisabolene 1,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,terpenes,,no_match,unresolved_script01_no_match
+68,trans- Limonene oxide,,no_match,unresolved_script01_no_match
+68,trans-?-Bergamotene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,trans-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+68,tri-cyclen,,no_match,unresolved_script01_no_match
+74,(E)- ? -Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,(E)- Amyl-Cinnamaldehyde,,no_match,unresolved_script01_no_match
+74,(E)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,(Z)- ? -Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,1.8-Cineol,,no_match,unresolved_script01_no_match
+74,2-Caren-10-al,,no_match,unresolved_script01_no_match
+74,5-neo-Cedranol,,no_match,unresolved_script01_no_match
+74,? -Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,? -Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,? -Terpinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,? -Terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Bisabolol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Bourbonene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Caryophyllene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Copaene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Cubebene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Cubebene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Duprezianene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Farnesene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Guaiene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Myrcene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Selinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Terpinolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Thujaplicin,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-Thujene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-terpinen -7- al,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,?-terpinen-7-al,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+74,D Germacrene,,no_match,unresolved_script01_no_match
+74,P-Methoxy allyl benzene,,no_match,unresolved_script01_no_match
+74,"Pentyl-Cyclohexa-1,3-diene",,no_match,unresolved_script01_no_match
+74,Perilla-aldehyde,,no_match,unresolved_script01_no_match
+74,Perillaalcohol,,no_match,unresolved_script01_no_match
+74,Perillaaldehyde,,no_match,unresolved_script01_no_match
+74,Tarragon,,no_match,unresolved_script01_no_match
+74,Trans Dihydro Carvone,,no_match,unresolved_script01_no_match
+74,cis-Verbénol,,no_match,unresolved_script01_no_match
+74,gamma-Terpinene-7-al,,no_match,unresolved_script01_no_match
+75,10-R-Acetoxy-11-Hydroxyumbelliprenin,,no_match,unresolved_script01_no_match
+75,2-Butyl Vinyl Disulfide,,no_match,unresolved_script01_no_match
+75,Epi-Conferodine,,no_match,unresolved_script01_no_match
+75,Liprenin,,no_match,unresolved_script01_no_match
+75,Tadshiferin,,no_match,unresolved_script01_no_match
+75,foetithiophenes C,,no_match,unresolved_script01_no_match
+75,foetithiophenes D,,no_match,unresolved_script01_no_match
+75,foetithiophenes E,,no_match,unresolved_script01_no_match
+75,foetithiophenes F,,no_match,unresolved_script01_no_match
+77,"(10S,22R,23R,24S)-4-methyl-9-oxa-4,13-diazahexacyclo[11.6.5.01,24.06,22.010,23.014,19]tetracosa-6,14,16,18-tetraene-12,20-dione",,no_match,unresolved_script01_no_match
+77,"1-[(12S,13R,14R,19R,21S)-14-hydroxy-15-oxa-1,11-diazahexacyclo[16.3.1.04,12.04,21.05,10.013,19]docosa-5,7,9,17-tetraen-11-yl]ethanone",,no_match,unresolved_script01_no_match
+77,Henningsamine,,no_match,unresolved_script01_no_match
+77,Polyneuridine,,no_match,unresolved_script01_no_match
+85,Dihydrosolasodine,,no_match,unresolved_script01_no_match
+85,Indioside A,,no_match,unresolved_script01_no_match
+92,"(E)-2,3-dihydrofarnesyl acetate",,no_match,unresolved_script01_no_match
+92,Biclyclogermacrene,,no_match,unresolved_script01_no_match
+92,Cis-2-tert-butyl cyclohexanol acetate,,no_match,unresolved_script01_no_match
+92,p-Mentha-1-en-al,,no_match,unresolved_script01_no_match
+93,"(E)-2,6,10,15,19,23-Hexamethyl-2,6,10,14,18,22-tetracosa-hexane",,no_match,unresolved_script01_no_match
+94,"(1S,3R,6S,7S,8R,11S,12S,15R,16R)-6-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2R,3R,4S,5S,6S)-3,4,5-trihydroxy-6-methoxycarbonyloxan-2-yl]oxyoxan-2-yl]oxy-7,12,16-trimethyl-15-[(1S)-1-[(2S)-5-methyl-6-oxo-2,3-dihydropyran-2-yl]ethyl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecane-7-carboxylic acid",,no_match,unresolved_script01_no_match
+95,"1,2-Benzenedicarboxylic acid, diundecanol",,no_match,unresolved_script01_no_match
+95,"3, 4-Dibrom-1, 1, 1-Triflour-2",,no_match,unresolved_script01_no_match
+95,4-(1E)-3-Hydroxy-1-propenyl,,no_match,unresolved_script01_no_match
+95,"4α-Methyl-1-methylidene-1,2,3,4,4a,9,10,10a-octahydrophenanthrene",,no_match,unresolved_script01_no_match
+95,"5, 19 cyclo 5a androst 6 ene 3, 17 dione",,no_match,unresolved_script01_no_match
+95,"9,19-Cyclo-9a-lanostane3a,25-diol",,no_match,unresolved_script01_no_match
+95,?-cineole,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+95,??glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+95,"Benzene-1, methyl-4-1,2,2 trimethylcyclo",,no_match,unresolved_script01_no_match
+95,"Octadecanoic acid, 9,10-epoxy-18-(trimethyl)-, methyl ester, cis-",,no_match,unresolved_script01_no_match
+95,Quercetin-3?O??-rhamnopyranosyl,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+95,glucovanilloyl glucose,,no_match,unresolved_script01_no_match
+95,hexadectonic acid,,no_match,unresolved_script01_no_match
+95,p???D-glucosycoxybenozoic acid,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+100,?-spinasterone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+100,Acacidiol,,no_match,unresolved_script01_no_match
+104,Andrachamine,,no_match,unresolved_script01_no_match
+104,Andrachcine,,no_match,unresolved_script01_no_match
+104,Saponin A,,no_match,unresolved_script01_no_match
+114,( Z)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,(E)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,(E)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,(Z)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,"3,6-Octadecadienoic Acid, Methyl Ester",,no_match,unresolved_script01_no_match
+114,?-Caryophyllene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Cubebene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Duprezianene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Humulene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Ionone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Terpinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Terpinyl isobutyrate,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,?-Thujene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+114,"Menthol, 1'-(butyn-3-one-1-yl)-, (1R,2S,5R)",,no_match,unresolved_script01_no_match
+114,Shahidine,,no_match,unresolved_script01_no_match
+114,Thuj-3-en-10-al,,no_match,unresolved_script01_no_match
+192,(E)-4-Hydroxy-2-methyl-pent-2 -enoic acid,,no_match,unresolved_script01_no_match
+192,"1,2,3,4,6-Penta-O-galloyl-B-D-Glc",,no_match,unresolved_script01_no_match
+192,"1,2,3,4,6-Penta-Ogalloyl-?-D-glucose",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,"1,3,4,6-Tetra-O-galloyl-B-D-Glc",,no_match,unresolved_script01_no_match
+192,"1,3-Dioxolo[4,5-c]acridin-6(11 H)-one, 5- ethoxy-4-methoxy-11-methyl",,no_match,unresolved_script01_no_match
+192,"1,6-Di-O-galloyl-B-D-Glc",,no_match,unresolved_script01_no_match
+192,"2-Acetoxy-3,3-dimethyl-2-(3-oxo-but-1-enyl)-Cyclobutane carboxylic acid, methyl ester",,no_match,unresolved_script01_no_match
+192,"2-Buten-1-one, 1-(6,7,7-trimethyl-2,3-dioxabicyclo[2.2.2]oct-5-en-1-yl)-, [1R-[1à(E),4á]]-",,no_match,unresolved_script01_no_match
+192,2-fluoroisoproterenol,274777717,CID-based,empty_smiles
+192,"3' -O-Methyl-4-O-(3'',4''-di-O-galloyl-?-L-rhamnopyranosyl)ellagic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,3'-O-Methyl-4-0-(B-D-xylopyranosyl)ellagic acid,,no_match,unresolved_script01_no_match
+192,"3'-O-Methyl-4-0-(n""-O-galloyl-?-D-xylopyranosyl)ellagic acid (n=2, 3, or 4)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,"3(5ethylhexahydro2,4,6trioxo5pyrimidinyl)-1,1-di methylpropyl-2,3,4trisO(trimethylsilyl), methyl ester",,no_match,unresolved_script01_no_match
+192,"3,3'-Di-O-methyl-4-0-(B-D-xylopyranosyl)ellagic acid",,no_match,unresolved_script01_no_match
+192,"3,3'-Di-O-methyl-4-0-(n""-O-galloyl-B-D- xylopyranosyl)ellagic acid (n = 2, 3, or 4)",,no_match,unresolved_script01_no_match
+192,"3,4,5 tris (trimethylsiloxyl) benzoic acid",,no_match,unresolved_script01_no_match
+192,"3,4,5-Tri-0-galloyl-(3R,4S,5R)-shikimic acid",,no_match,unresolved_script01_no_match
+192,"3,4,5-Trimethoxy-á-methyl-á-nitrostyrene",,no_match,unresolved_script01_no_match
+192,"3,4,6-Tri-O-galloyl-B-D-Glc",,no_match,unresolved_script01_no_match
+192,"3,4,6-tri-O-galloyl-?-d-Glc",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,"3,4-didehydro-1,1',2,2'-Tetrahydrol' hydroxylmethoxy",,no_match,unresolved_script01_no_match
+192,3-0-Methyl ellagic acid,,no_match,unresolved_script01_no_match
+192,"4-0-(3,4-di-O-Galloyl-2-1-rhamnopyranosyl)ellagic acid",,no_match,unresolved_script01_no_match
+192,"4-0-(4""-0-Galloyl-a-1-rhamnopyranosyl)ellagic acid",,no_match,unresolved_script01_no_match
+192,4-Hydroxy-à-bromoethylphenone,,no_match,unresolved_script01_no_match
+192,"4-Normethy-19,19-cyclolanoststan-7-one 3-acetoxy",,no_match,unresolved_script01_no_match
+192,"4-O-(3'',4''-Di-O-galloyl-?-L-rhamnopyranosyl)ellagic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,4-O-(4''-O-Galloyl- ?-L-rhamnopyranosyl)ellagic acid,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+192,4-Piperidineacetic acid 1-acetyl-5-ethyl-2[3-(2-hydroxyethyl)-1H-indol-2-yl] -a-methyl-methyl ester,,no_match,unresolved_script01_no_match
+192,"5,10-Pentadecadienoic acid, (E,Z)-",319419221,CID-based,empty_smiles
+192,"5a-pregnan3,20a-diol, 14a, 18a-(4-methyl-3-oxa (1-oxa-4-azabutane-1,4-diyl) -diacetate",,no_match,unresolved_script01_no_match
+192,"6,7-Dihydroxanthotoxin",,no_match,unresolved_script01_no_match
+192,"9-Azabicyclo[3.3.1]non-2-ene9-carboxylic acid, 6- (acetyloxy)-, ethyl ester, endo",,no_match,unresolved_script01_no_match
+192,Arjunglucoside-III,275187408,CID-based,empty_smiles
+192,Arjunglucoside-l,,no_match,unresolved_script01_no_match
+192,Bellericoside,273779104,CID-based,empty_smiles
+192,"But-2-endiamide, N,N'-bis (4-methoxy phenyl)-",,no_match,unresolved_script01_no_match
+192,"Cyclobutaneethanol, á-methylene",249948006,CID-based,empty_smiles
+192,"Cyclohexane, 1,1'-[1,2-bis(1,1-dimethylethyl )-1,2- ethanediyl]bis-, (R*,R*)-(ñ)-",249921609,CID-based,empty_smiles
+192,"Cyclooctanemethanol, à,à-dimethyl",249924990,CID-based,empty_smiles
+192,"Cyclopentancundecanoic acid, methyl ester",,no_match,unresolved_script01_no_match
+192,"Diazene, 1-cyclopentyl-2-methoxy-, 1-oxide",249929455,CID-based,empty_smiles
+192,Ibogamin-9(17H)-o,,no_match,unresolved_script01_no_match
+192,Kaempferol-3-0-rutinoside,,no_match,unresolved_script01_no_match
+192,Methyl (S)-flavogallonate,,no_match,unresolved_script01_no_match
+192,"Methyl 7-(2,4,6 trimethylphenyl)-5H furo (2,3c)thiopyran-4-corboxylate",,no_match,unresolved_script01_no_match
+192,"Psi-Carotene, 3,4-didehydro-1,2-dihydro-1,2-dihydroxy-[2R]",,no_match,unresolved_script01_no_match
+192,"a-D-Glucopyranose,1,2,3,4- tetrakis(3,4,5-trihydroxybenzoate)",,no_match,unresolved_script01_no_match
+192,áDGlucopyranosiduronic acid,473055195,CID-based,empty_smiles
+195,Arjunolone,,no_match,unresolved_script01_no_match
+195,Arjunoside II,,no_match,unresolved_script01_no_match
+195,"[(10R,11R)-10-[(15S,19S)-2,3,4,7,8,9,19-heptahydroxy-12,17-dioxo-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaen-14-yl]-3,4,5,17,18,19-hexahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(19),2,4,6,15,17-hexaen-11-yl] 3,4,5-trihydroxybenzoate",,no_match,unresolved_script01_no_match
+196,"7,4'-Dihydroxy-3',5'-dimethoxyisoflavone",,no_match,unresolved_script01_no_match
+196,Purpurenone,,no_match,unresolved_script01_no_match
+196,Purpurin A,,no_match,unresolved_script01_no_match
+196,Purpurin B,,no_match,unresolved_script01_no_match
+196,Tephroglabrin,,no_match,unresolved_script01_no_match
+196,"[(12S,15R,16R)-14,14-dimethyl-6-oxo-4-phenyl-3,11,13-trioxatetracyclo[8.6.0.02,7.012,16]hexadeca-1(10),2(7),4,8-tetraen-15-yl] acetate",,no_match,unresolved_script01_no_match
+196,beta-Hydroxychalcone,,no_match,unresolved_script01_no_match
+218,Hernandolinol,,no_match,unresolved_script01_no_match
+218,Stephasubine,,no_match,unresolved_script01_no_match
+218,"[(1S,8S,10S,11R,13S)-3-hydroxy-4,11,12-trimethoxy-18-oxa-17-azapentacyclo[8.4.3.18,11.01,10.02,7]octadeca-2(7),3,5-trien-13-yl] (E)-3-(3-hydroxy-4-methoxyphenyl)prop-2-enoate",,no_match,unresolved_script01_no_match
+272,"(1R,2R,4S,5R)-6-[(2S,3S,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycyclohexane-1,2,3,4,5-pentol",,no_match,unresolved_script01_no_match
+272,"magnesium;methyl (3R,21S,22S)-16-ethenyl-11-ethyl-12,17,21,26-tetramethyl-4-oxo-22-[3-oxo-3-[(E,7S,11R)-3,7,11,15-tetramethylhexadec-2-enoxy]propyl]-23,25-diazonia-7,24-diazanidahexacyclo[18.2.1.15,8.110,13.115,18.02,6]hexacosa-1(23),2(6),5(26),8,10(25),11,13,15,17,19-decaene-3-carboxylate",,no_match,unresolved_script01_no_match
+278,(16S)-Sarpagan-17-ol,,no_match,unresolved_script01_no_match
+278,"(1R,12S,13R,14R,15E)-15-ethylidene-13-(hydroxymethyl)-3,17-diazapentacyclo[12.3.1.02,10.04,9.012,17]octadeca-2(10),4(9),5,7-tetraene-1,7-diol",,no_match,unresolved_script01_no_match
+278,12-Hydroxyajmaline,,no_match,unresolved_script01_no_match
+278,18-Hydroxyepialloyohimbine,,no_match,unresolved_script01_no_match
+278,"3,4,5,6-Tetradehydroyohimbine",,no_match,unresolved_script01_no_match
+278,3-Oxorhazinilam,,no_match,unresolved_script01_no_match
+278,6alpha-Hydroxyraumacline,,no_match,unresolved_script01_no_match
+278,"Ajmalan-17-ol, 19,20-didehydro-, (17R,19E)-(9CI)",,no_match,unresolved_script01_no_match
+278,Ajmalicidine,,no_match,unresolved_script01_no_match
+278,Ajmalinimine,,no_match,unresolved_script01_no_match
+278,Geissoschizol,,no_match,unresolved_script01_no_match
+278,Isosandwicine,,no_match,unresolved_script01_no_match
+278,Oleoresin tumeric,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+278,Raupine,,no_match,unresolved_script01_no_match
+278,"[(1R,10S,12R,13E,14R,16S,17S,18R)-13-ethylidene-14-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6,8-tetraen-18-yl] acetate",,no_match,unresolved_script01_no_match
+278,"[(1R,10S,12R,13E,16S,17S,18R)-13-ethylidene-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6,8-tetraen-18-yl] acetate",,no_match,unresolved_script01_no_match
+278,"[(1R,10S,12R,13R,14S,16S,17S,18R)-13-formyl-14-methyl-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6,8-tetraen-18-yl] acetate",,no_match,unresolved_script01_no_match
+278,"[(1R,9R,10S,12R,13S,14R,16S,17R,18R)-13-ethyl-14-hydroxy-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6-trien-18-yl] acetate",,no_match,unresolved_script01_no_match
+278,"[(1R,9R,10S,12R,13S,14R,16S,17S,18R)-13-ethyl-14-hydroxy-8-methyl-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6-trien-18-yl] 3,4,5-trimethoxybenzoate",,no_match,unresolved_script01_no_match
+283,"1,2,4,6-Tetragalloylglucose",,no_match,unresolved_script01_no_match
+287,"(1R,4S)-1,6-dimethyl-4-propan-2-yl-1,2,3,4,4a,7-hexahydronaphthalene",,no_match,unresolved_script01_no_match
+287,"(1R,4Z,9R)-4,11,11-Trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene",,no_match,unresolved_script01_no_match
+287,"(1S,2S,20S,42S,46R)-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37-pentadecahydroxy-46-[(2R,3R)-3,5,7-trihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-6-yl]-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-4,17,22,40,44-pentone",,no_match,unresolved_script01_no_match
+287,"(1S,2S,6S,7R,8R)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",,no_match,unresolved_script01_no_match
+287,"(1S,4E,9S)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene",,no_match,unresolved_script01_no_match
+287,"(2E,6E)-2,6-dimethyl-8-(oxan-2-yloxy)octa-2,6-dienal",,no_match,unresolved_script01_no_match
+287,(3E)-3-Ethylidene-1-cycloheptene,,no_match,unresolved_script01_no_match
+287,"(6R)-1a-methyl-4-methylidene-6-propan-2-yl-1b,2,3,5,5a,6a-hexahydro-1H-cyclopropa[a]inden-6-ol",,no_match,unresolved_script01_no_match
+287,1H-Benzocycloheptene,,no_match,unresolved_script01_no_match
+287,CC=Cccc=cccc=cccc=cco,,no_match,unresolved_script01_no_match
+287,Guavacoumaric acid,,no_match,unresolved_script01_no_match
+287,Ilelatifol D,,no_match,unresolved_script01_no_match
+287,Isoneriucoumaric acid,,no_match,unresolved_script01_no_match
+287,"[(10R,11R)-10-[(15S,19R)-2,3,4,7,8,9,19-heptahydroxy-12,17-dioxo-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaen-14-yl]-3,4,5,17,18,19-hexahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(19),2,4,6,15,17-hexaen-11-yl] 3,4,5-trihydroxybenzoate",,no_match,unresolved_script01_no_match
+287,"[(10R,11R)-10-[(15S,19S)-2,3,4,7,8,9,19-heptahydroxy-12,17-dioxo-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaen-14-yl]-3,4,5,17,18,19-hexahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(19),2,4,6,15,17-hexaen-11-yl] 3,4,5-trihydroxybenzoate",,no_match,unresolved_script01_no_match
+287,beta-Terpinyl acetate,,no_match,unresolved_script01_no_match
+288,Premnenol,,no_match,unresolved_script01_no_match
+299,"(1R,4R,6R,8R,10R,11Z,14R)-11-ethylidene-6-hydroxy-7,9,13-trioxatetracyclo[6.5.1.01,10.04,14]tetradec-2-en-12-one",,no_match,unresolved_script01_no_match
+299,"(1R,4R,8S,10S,11R,14R)-11-ethyl-12-oxo-7,9,13-trioxatetracyclo[6.5.1.01,10.04,14]tetradeca-2,5-diene-5-carboxylic acid",,no_match,unresolved_script01_no_match
+299,Quercetin 3-diglucoside,,no_match,unresolved_script01_no_match
+300,Isozeylanone,,no_match,unresolved_script01_no_match
+300,Plumbazeylanone,,no_match,unresolved_script01_no_match
+301,Chitanone,,no_match,unresolved_script01_no_match
+301,Plumbazeylanone,,no_match,unresolved_script01_no_match
+307,"(1S,2S,3S,6S)-3-ethenyl-3,7,7-trimethyl-2-prop-1-en-2-ylbicyclo[4.1.0]heptane",,no_match,unresolved_script01_no_match
+307,"(1S,2S,6S,7R,8R)-1,3-dimethyl-8-propan-2-yltricyclo[4.4.0.02,7]dec-3-ene",,no_match,unresolved_script01_no_match
+307,Butylated hydroxytoluene,,no_match,unresolved_script01_no_match
+307,Pipericide,,no_match,unresolved_script01_no_match
+308,Diaeudesmin,,no_match,unresolved_script01_no_match
+314,"[(3R,3aS,5aS,5bS,7aR,9S,11aS,13aR,13bS)-3a,5a,8,8,11a,13a-hexamethyl-3-propan-2-yl-1,2,3,4,5,5b,6,7,7a,9,10,11,13,13b-tetradecahydrocyclopenta[a]chrysen-9-yl] acetate",,no_match,unresolved_script01_no_match
+316,"2-Methoxycarbonyl-6-oxo-3-[2,3,4-trihydroxy-6-[4-hydroxy-6-(hydroxymethyl)-2-(3,4,5-trihydroxybenzoyl)oxyoxan-3-yl]oxycarbonylphenyl]oxane-4-carboxylic acid",,no_match,unresolved_script01_no_match
+316,Tryptase,,no_match,unresolved_script01_no_match
+336,(E)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,3-Ethyl-4-methylmaleimide,,no_match,unresolved_script01_no_match
+336,3-Methyl-2(SH)-furanone,,no_match,unresolved_script01_no_match
+336,4-O-Caffeoylquinic acid-1,,no_match,unresolved_script01_no_match
+336,"?,4-Dimethyl-3-cyclohexene-1-aldehyde",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-Butyrolactone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-Damascenone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-Pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-Terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+336,Azedarachin C,,no_match,unresolved_script01_no_match
+336,Dihydrocaf-feic acid 3-O-glucuronide,,no_match,unresolved_script01_no_match
+336,Stigmastero,,no_match,unresolved_script01_no_match
+336,gamma-sitostero,,no_match,unresolved_script01_no_match
+336,iridoid flavonoids,,no_match,unresolved_script01_no_match
+336,paederolone,,no_match,unresolved_script01_no_match
+336,paederone,,no_match,unresolved_script01_no_match
+349,"1,4-Methanobenzocyclodecene, 1,2,3,4a,5,8,9, 12,12 adecahydro- (ST)",,no_match,unresolved_script01_no_match
+349,"1,6-Cyclodecadiene, 1-methyl-5-methylene-8 (1- methylethyl)-, [S-(E,E)]- (ST)",,no_match,unresolved_script01_no_match
+349,"2-propanone, 1-(4-methoxyphenol) (PP)",,no_match,unresolved_script01_no_match
+349,4-Hydroxyproline (Hyp),,no_match,unresolved_script01_no_match
+349,?-Aminobutyric acid (GABA),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-Caryophyllene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-Cubebene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-Muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-Phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-Pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-cadinol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-farnesene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,?-terpinenol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,Alanine (Ala),,no_match,unresolved_script01_no_match
+349,Alkaloids,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+349,"Bicyclo[2.2.1]heptan-2-one, 1,7,7-trimethyl- (MT)",,no_match,unresolved_script01_no_match
+349,Cadrene,,no_match,unresolved_script01_no_match
+349,Carbohydrate,,no_match,unresolved_script01_no_match
+349,Cis-?-Terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+349,Cystine (Cys),,no_match,unresolved_script01_no_match
+349,D-Glucose (Glu),,no_match,unresolved_script01_no_match
+349,Metionyn (Met),,no_match,unresolved_script01_no_match
+349,"N-(1-Cyanoethyl)(7,7- dimethyl-2- oxobicyclo[2.2.1]hept-1-ylmethylmethanesulfonamide (MTD)",,no_match,unresolved_script01_no_match
+349,Proline (Pro),,no_match,unresolved_script01_no_match
+349,Protein,,no_match,unresolved_script01_no_match
+349,Quinones,,no_match,unresolved_script01_no_match
+349,Serine (Ser),,no_match,unresolved_script01_no_match
+349,Tannins,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+349,Threonine (Thr),,no_match,unresolved_script01_no_match
+349,Total phenolics,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+354,3-4 secotriterpene acid,,no_match,unresolved_script01_no_match
+354,??digentibioside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+354,Desrhamnosylverbacoside,,no_match,unresolved_script01_no_match
+354,cyclohexylethanoid rengyolone,,no_match,unresolved_script01_no_match
+364,"(Z,Z)-6,9-cis-3,4-epoxynonadecaciene",,no_match,unresolved_script01_no_match
+364,"1,8(2H,5H)-Napthalenedione,hexahydro-8a-methyl-,cis",,no_match,unresolved_script01_no_match
+364,"2,6,10-trimethyl,14-ethylene-14,pentadecne",,no_match,unresolved_script01_no_match
+364,2-propen,,no_match,unresolved_script01_no_match
+364,"2?, 3?, 19?, 23-tetrahydroxyurs-12-en-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+364,"9,12,octadecadinoic acid(Z,Z-)",,no_match,unresolved_script01_no_match
+364,?-sitosterol glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+364,"Cis,cis,cis-7,3,13 hexadecatrienal",,no_match,unresolved_script01_no_match
+364,"Erost-5-EN-3-ol, (3,beta)",,no_match,unresolved_script01_no_match
+364,"Ethyl (9Z,12Z)-9,12-octadecadenoate",,no_match,unresolved_script01_no_match
+364,Ethyl dacylate,,no_match,unresolved_script01_no_match
+364,Ethyl.alpa.-d-glucopyranoside,,no_match,unresolved_script01_no_match
+364,"Heptadecafluorononanoic acid, udecyl ester",,no_match,unresolved_script01_no_match
+364,"Heptadecanoic acid, ethy ester",,no_match,unresolved_script01_no_match
+364,"Heptadeconoic acid, ethyl ester",,no_match,unresolved_script01_no_match
+364,Neryl linalool isomer,,no_match,unresolved_script01_no_match
+364,"Octadecanoicacid,ethyl ester",,no_match,unresolved_script01_no_match
+364,"Octadeconoic acid, ethyl ester",,no_match,unresolved_script01_no_match
+364,Pentadecoinic acid,,no_match,unresolved_script01_no_match
+374,"(Z,Z)-6,9-cis-3,4-epoxy-nonadecadiene",,no_match,unresolved_script01_no_match
+374,"1,2-Benzenedicarboxylic acid, bis(2methylpropyl) ester",,no_match,unresolved_script01_no_match
+374,"1-Nitro-.?.-d-arabinofuranose, tetraacetate",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"1-hydroxy-2,2,6,6-tetramethyl-3- (4-nitroso-1(piperazinylmethyl)-piperidin-4-one",,no_match,unresolved_script01_no_match
+374,"1?Norvaline, N?ethoxycarbonyl?, nonyl ester",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"2,3-Dihydro-3,5-dihydroxy-6-methyl-4 hpyran-4-one",,no_match,unresolved_script01_no_match
+374,"2,4 (1H ,3 H}?Pyrimidinedione, 6?iodo?5?methyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"2,6,10-Trimethyl,14-ethylene-14-pe",,no_match,unresolved_script01_no_match
+374,"2,6,10-Trimethyl,14-ethylene-14-pentadecne",,no_match,unresolved_script01_no_match
+374,"2,6-Bis[2-[2-Sthiosulfuroethylamino]ethoxy ]pyrazine",,no_match,unresolved_script01_no_match
+374,"2,6-Di-butyl-2,5-cyclohexadiene-1",,no_match,unresolved_script01_no_match
+374,"2?Fluoro?6?trifluora methyl benzoic acid, 4?nitraphenyl ester",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,2?Pyrrolidinone (5?(cyclo hexyl methyl)?,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"4?Methyl?2,4?bis (4?trimethylsilyloxyphenyl} pentene?l",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,5-hydroxy-2-(hydroxyl methyl)-4H-pyran-4-one,,no_match,unresolved_script01_no_match
+374,"5?-androstane-3,17-dione 17monooxime",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"7,9-Di-tert-butyl-1-oxaspiro(4,5)deca-6,9diene-2,8-dione",,no_match,unresolved_script01_no_match
+374,"7-(Isobut-1-yl)cyclohepta-1,3,5-tr",,no_match,unresolved_script01_no_match
+374,"7-Propyl-1,3,5-cycloheptatriene",272807074,CID-based,empty_smiles
+374,"Acetamide, N-methyl-N-[4[4-fluoro-1hexahydropyridyl]-2butynyl]-",,no_match,unresolved_script01_no_match
+374,"Benzene, 1,10-(1,2-cyclobutanediyl",,no_match,unresolved_script01_no_match
+374,"Cyclopropaneoctanoic acid, 2-[[-2-[(-2ethylcyclopropyl)-methyl]-cyclopropyl]methyl], methyl ester",,no_match,unresolved_script01_no_match
+374,Dimethylaminato [4-methyl-2-,,no_match,unresolved_script01_no_match
+374,Isopropyl(dimethyl)silylpalmitate,,no_match,unresolved_script01_no_match
+374,Methyl commateC,,no_match,unresolved_script01_no_match
+374,"Morphinan-3-ol-6-one, 4methoxy-",,no_match,unresolved_script01_no_match
+374,"N,N'-Pentamethylenebis[s-3aminopropyl thiosulfuric acid",,no_match,unresolved_script01_no_match
+374,N-Methoxy-1-ribofuranosyl4-imidazolecarboxylic amide,,no_match,unresolved_script01_no_match
+374,N-Methyl-à-diMethylThioPropylamide,,no_match,unresolved_script01_no_match
+374,"Octadecanoic acid, 2-hydroxy-1,3propanediyl ester",,no_match,unresolved_script01_no_match
+374,"Octane, 1,10-oxybis-",,no_match,unresolved_script01_no_match
+374,"Propane, 2?methoxy?2?rnethyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,"Propanoic acid, 2-methyl-3-[4-tbutyl]phenyl-",,no_match,unresolved_script01_no_match
+374,"Pyrrolo[3,2-k]anthracene4,6-diol, 3-methoxy4b,5,6,7,8,9,10,11,11a,12decahydro-11-methyl-",,no_match,unresolved_script01_no_match
+374,"Silane, [{1,1?dimethy1?2?propenyl) oxy] dimethyl?",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+374,Tetra acetyl-d-xylonic nitrile,,no_match,unresolved_script01_no_match
+374,"beta?1?Arabinopyranoside, methyl",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,"1,2-Benzenediol, 4-methyl",,no_match,unresolved_script01_no_match
+386,"1,3-Benzenediol, 4-ethyl",,no_match,unresolved_script01_no_match
+386,"1beta-hydroxy-3beta-hexanoyllup-20 (29)- ene-23, 28-dioic acid",,no_match,unresolved_script01_no_match
+386,2-butyl phenol,,no_match,unresolved_script01_no_match
+386,"2-cyclopentene-1-one, 2-hydroxy-3-methyl",,no_match,unresolved_script01_no_match
+386,3 5 7-trihydroxy-40-methoxyflavone,,no_match,unresolved_script01_no_match
+386,3-(4- hydroxyphenyl) prop-2-enoic acid,,no_match,unresolved_script01_no_match
+386,"3-Methoxy-4,5,7-trihydroxyflavonol",,no_match,unresolved_script01_no_match
+386,"3?, 6?, 19?, 23-tetrahydroxyurs-12-en-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,4-hydroxy benzene methanol,,no_match,unresolved_script01_no_match
+386,"6beta,19alpha,23-tetrahydroxy-urs-12-ene",,no_match,unresolved_script01_no_match
+386,"?-,?-amyrin",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,?-spinosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,"Acetic acid, ethyl ester (CAS)",,no_match,unresolved_script01_no_match
+386,"Borneol L (Bicyclo[2.2.1]heptan-2-ol,1,7,7-trimethyl)",,no_match,unresolved_script01_no_match
+386,Cis pinen-3-ol,,no_match,unresolved_script01_no_match
+386,D- (-)-Quinic acid,,no_match,unresolved_script01_no_match
+386,Dodecane-1 chloro,,no_match,unresolved_script01_no_match
+386,Kaempferol-3-O-(6-pcoumaroyl)-glucoside,,no_match,unresolved_script01_no_match
+386,Kaempferol-3-O-a-Lrhamnoside,,no_match,unresolved_script01_no_match
+386,"Kauren-18-ol, acetate",,no_match,unresolved_script01_no_match
+386,Long chain carboxylic acid,,no_match,unresolved_script01_no_match
+386,"Methane, sulfinylbis-(CAS) Dimethyl sulfoxida",,no_match,unresolved_script01_no_match
+386,Miglycoside 1,,no_match,unresolved_script01_no_match
+386,N2 methylaurantiamide acetate,,no_match,unresolved_script01_no_match
+386,dihydro quercetine,,no_match,unresolved_script01_no_match
+386,diisooctyl ester,,no_match,unresolved_script01_no_match
+386,myricetin 3-O-rahmnopyranoside (1 ? 6) glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+386,n- Hexadecenoic acid,,no_match,unresolved_script01_no_match
+386,n-Hexadecenoic acid,,no_match,unresolved_script01_no_match
+386,spinasterol ?-D glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,(E)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,(E)-Pyranoid linalool oxide,,no_match,unresolved_script01_no_match
+389,(E)-iso-?-Bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,(Z)-?-Farnesene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,(Z)-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,(Z)-Nerolidyl acetate,,no_match,unresolved_script01_no_match
+389,"1,5-Cyclodecadiene, 1,5-dimethyl-8-(1-methylethenyl)-, (S,Z,E)-",,no_match,unresolved_script01_no_match
+389,"1,8-Cineol(Eucalyptol)",,no_match,unresolved_script01_no_match
+389,"1,8-Cineole (Eucalyptol)",,no_match,unresolved_script01_no_match
+389,"1-(?-D-Ribofuranosyl)-1,4-dihydronicotinamide",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,1-Acetamidopyridinium iodide,,no_match,unresolved_script01_no_match
+389,1-Phosphatidyl-1D-myoinositol-3-phosphate,,no_match,unresolved_script01_no_match
+389,10-epi-?-Eudesmol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,14-Hydroxy-?-cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,14-Hydroxy-?-muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,"17-beta-(Acetylthio)estra-1,3,5(10)-trien-3-ol acetate",,no_match,unresolved_script01_no_match
+389,"2,3-Dichloro-5,6-dicyano-p-benzoquinone (DDQ)",,no_match,unresolved_script01_no_match
+389,"2,6,10,14-Hexadecatetraen-1-ol, 3,7,11,15-tetramethyl-, acetate (E,E,E)-",,no_match,unresolved_script01_no_match
+389,2-Methylbutanoate(Ethyl 2-methylbutanoate),,no_match,unresolved_script01_no_match
+389,"3,6-Dimethoxyestra-1,3,5(10),6,8-pentaene-17?-carboxylic acid methyl ester",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,3-Fenchene,,no_match,unresolved_script01_no_match
+389,3-methoxymagnolol,,no_match,unresolved_script01_no_match
+389,"5-Ethyl-5-phenyl-1,3-ditosyl-2,4-imidazolidinedione",,no_match,unresolved_script01_no_match
+389,"9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)-(Methyl linolenate)",,no_match,unresolved_script01_no_match
+389,"9,12-Octadecadienoic acid (Z,Z)(Linoleic acid)",,no_match,unresolved_script01_no_match
+389,"9,12-Octadecadienoic acid, methyl ester, (E,E)-(Methyl linolelaidate)",,no_match,unresolved_script01_no_match
+389,?-Amorphene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Bergamotene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Bisabolol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Bourbonene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Cadinol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Caryophyllene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Copaene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Cubebene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Guaiene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Humulene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Linalool,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Myrcene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Santalene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Selinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Terpinolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Thujene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Tocopherol(Vitamin E),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,?-Ylangene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,Arachidic acid(Eicosanoic acid),,no_match,unresolved_script01_no_match
+389,"Benzoic acid, 2-amino-, methyl ester(Methyl 2-aminobenzoate)",,no_match,unresolved_script01_no_match
+389,Benzyl nitrile(Phenylacetonitrile),,no_match,unresolved_script01_no_match
+389,Delta Limonene(Limonene),,no_match,unresolved_script01_no_match
+389,Dihydrospheroidene/methoxyneurosporene,,no_match,unresolved_script01_no_match
+389,"Dodecanoic acid, 2-phenylethyl ester(Phenethyl laurate)",,no_match,unresolved_script01_no_match
+389,"Ethanone,1-(3-ethyloxiranyl)-",,no_match,unresolved_script01_no_match
+389,Ethyl 2-hydroxy isobutyrate,,no_match,unresolved_script01_no_match
+389,Fusaric acid(5-Butylpicolinic acid),,no_match,unresolved_script01_no_match
+389,"Hexadecanoic acid, ethyl ester(Ethyl palmitate)",,no_match,unresolved_script01_no_match
+389,"Hexadecanoic acid, methyl ester(Methyl palmitate)",,no_match,unresolved_script01_no_match
+389,Imazamethabenz,,no_match,unresolved_script01_no_match
+389,Isogermacrene-D,,no_match,unresolved_script01_no_match
+389,Isorhamnetin 3-O-[?-D-glucopyranosyl-(1?2)-?-L-rhamnopyranoside],,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+389,Linoleic acid ethyl ester(Ethyl linoleate),,no_match,unresolved_script01_no_match
+389,"Linoleic acid[(9Z,12Z)-Octadeca-9,12-dienoic acid]",,no_match,unresolved_script01_no_match
+389,Methyl octadecyl ether(1-Ethoxyoctadecane),,no_match,unresolved_script01_no_match
+389,Methyl palmitate(Methyl hexadecanoate),,no_match,unresolved_script01_no_match
+389,Myristic acid (Tetradecanoic acid),,no_match,unresolved_script01_no_match
+389,"Nonanedioic acid, dibutyl ester(Dibutyl azelate)",,no_match,unresolved_script01_no_match
+389,Oleic acid[(9Z)-Octadec-9-enoic acid],,no_match,unresolved_script01_no_match
+389,Palmitoleic acid[(9Z)-Hexadec-9-enoic acid],,no_match,unresolved_script01_no_match
+389,Phenylethyl alcohol(2-Phenylethanol),,no_match,unresolved_script01_no_match
+389,Pheophorbide a,,multiple_matches,multiple_matches_heterogeneous_connectivity
+389,Pheophorbide b,,multiple_matches,multiple_matches_heterogeneous_connectivity
+389,Stearic acid(Octadecanoic acid),,no_match,unresolved_script01_no_match
+389,Trans Farnesol,,no_match,unresolved_script01_no_match
+389,Trans beta Ionone,,no_match,unresolved_script01_no_match
+389,Varamol,,no_match,unresolved_script01_no_match
+389,cis-Linalool pyran oxide,,no_match,unresolved_script01_no_match
+389,iso-Menthyl acetate,,no_match,unresolved_script01_no_match
+389,n-Hexadecanoic acid(Palmitic acid),,no_match,unresolved_script01_no_match
+389,n-Tricosene,,no_match,unresolved_script01_no_match
+389,"trans-1,4-bis(2-Chlorobenzaminomethyl)cyclohexane",,no_match,unresolved_script01_no_match
+402,Alkaloids,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+402,Flavonones,,no_match,unresolved_script01_no_match
+402,Gum,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+402,Proteins,,no_match,unresolved_script01_no_match
+402,Tannins,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+407,Petroleum ether,,no_match,unresolved_script01_no_match
+410,"3'-methoxy-4',5,7-trihydroxyflavonol",,no_match,unresolved_script01_no_match
+418,Lygodinolide,275066814,CID-based,empty_smiles
+425,"1,2-diphenyl-2-butene-1-one",,no_match,unresolved_script01_no_match
+425,?-caryophyllene alcohol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+425,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+425,Alkaloids,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+425,Terpenoids,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+425,anthraquinone glycosides,,no_match,unresolved_script01_no_match
+425,tri-trans poly-cis prenol-15,,no_match,unresolved_script01_no_match
+435,"Benzene,1-methyl-2-(1-methyl-2-methylenecyclopentyl)",,no_match,unresolved_script01_no_match
+442,(+)-pinoresinol-di-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,(+)-syringaresinol-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"(20 S)-3?,30-dihydroxylupane",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"1, 4-Naphtoquinone, 2-amino",,no_match,unresolved_script01_no_match
+442,"1, 4-Naphtoquinone, 3-hydroxy",,no_match,unresolved_script01_no_match
+442,"1,2,4-trihydroxynaphthalene-1-O-?-D-glucopyranoside",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"1,2-dihydroxy-4-O-glucosyloxynaphthalene",,no_match,unresolved_script01_no_match
+442,"1,3-dihydroxy-6,7-dimethoxyxanthone (laxanthone-I)",,no_match,unresolved_script01_no_match
+442,"1-hydroxy-3,6-diacetoxy-7-methoxyxanthone (laxanthone-II)",,no_match,unresolved_script01_no_match
+442,"1-hydroxy-3,7-dimethoxy-6-acetoxyxanthone (laxanthone-III)",,no_match,unresolved_script01_no_match
+442,"2,4,6-trihydroxyacetophenone-2-O-?-D-glucopyranoside",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,2-(2-Isopropenylcyclopentylmethoxy) tetrahydropyran,,no_match,unresolved_script01_no_match
+442,2-(2-Isopropenylcyclopentylmethoxy)tetrahydropyran,,no_match,unresolved_script01_no_match
+442,30-norlupan-3?-ol-20-one,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"3?,4?-dihydroxy-?-tetralone",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,4S-4-hydroxy-?-tetralone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"9, 12, 15-Octadecatnen-1-ol",,no_match,unresolved_script01_no_match
+442,?-Copaene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,?-Isomethyl ionone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Alkaloids,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+442,"Alpha-D-Glucopyranoside, metyl, alpha-D-",,no_match,unresolved_script01_no_match
+442,Apigenin-4'-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Benzene dicarboxilicaciddiethyl ester,,no_match,unresolved_script01_no_match
+442,"Benzene, (1-methyllundecyl)",,no_match,unresolved_script01_no_match
+442,Carbohydrates,,no_match,unresolved_script01_no_match
+442,Etherphenylvinyl,,no_match,unresolved_script01_no_match
+442,Lacoumarin (5-allyloxy-7-acetoxycoumarin),,no_match,unresolved_script01_no_match
+442,"Lawnermis acid (3?,28?-dihydroxy-ursa-12,20-dien-23?-oic acid)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Lawnermis acid methyl ester,,no_match,unresolved_script01_no_match
+442,Lawsochrysin (5-hydroxy-6-n-pentyl-7-n-pentyloxy-flavone),,no_match,unresolved_script01_no_match
+442,Lawsochrysinin (5-hydroxy-7-(4?-pentenyloxy-flavone),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Lawsochylin A,,no_match,unresolved_script01_no_match
+442,Lawsochylin B,,no_match,unresolved_script01_no_match
+442,Lawsochylin C,,no_match,unresolved_script01_no_match
+442,Lawsonaphthoate A,,no_match,unresolved_script01_no_match
+442,Lawsonaphthoate B,,no_match,unresolved_script01_no_match
+442,Lawsonaphthoate C,,no_match,unresolved_script01_no_match
+442,"Lawsonaringenin (4',5-dihydroxy-7-(4?-pentenyloxy)-flavanone)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"Lawsoniaside A (1-butanoyl-3,5-dimethylphloroglucinyl-6-O-?-D-glucopyronoside)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,"Lawsoniaside B (3-(4-O-?-D-glucopyranosyl-3,5-dimethoxy)phenyl-2E-propenol)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Lawsonic acid (3?-E-ferulyloxy-lup-20(29)-en-28-oic acid),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Lipids/Fat,,no_match,unresolved_script01_no_match
+442,Luteolin-4'-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Oxygenated monoterpenes,,no_match,unresolved_script01_no_match
+442,Oxygenated sesquiterpenes,,no_match,unresolved_script01_no_match
+442,Saponins,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+442,Sesquiterpene hydrocarbons,,no_match,unresolved_script01_no_match
+442,Syringaresinol-di-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Syringinosinol di-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+442,Tannins,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+442,"p,?-Dimethylstyrene",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+447,"(Z,Z)-Farnesyl acetone",,no_match,unresolved_script01_no_match
+447,10-nor-Calamenene-10-one,,no_match,unresolved_script01_no_match
+447,14-Hydroxy-?-muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+447,"4-Acetyloxyimino-6,6-dimethyl-3-methylsulfanyl-4,5,6,7",,no_match,unresolved_script01_no_match
+447,6-Ethoxy-7-methoxy-1-(3-nitro-phenyl,,no_match,unresolved_script01_no_match
+447,"Eudesm-7(11)-en-4-ol, acetate",,no_match,unresolved_script01_no_match
+447,Methyloctadecanoate,,no_match,unresolved_script01_no_match
+447,"N, N'-Tetramethylenebis",,no_match,unresolved_script01_no_match
+447,cis-Apritone,,no_match,unresolved_script01_no_match
+447,cis-Hexadec-9-enoic acid,,no_match,unresolved_script01_no_match
+447,cis-Nuciferal,,no_match,unresolved_script01_no_match
+447,epi-?-Bisabolol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+447,trans-Apritone,,no_match,unresolved_script01_no_match
+447,trans-Nuciferal,,no_match,unresolved_script01_no_match
+449,(24S)-stigmast-5-ene7?-ethoxy-3?-ol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"2,3-(S)-hexahydroxydiphenoyl-?/ ? ?? ? ?-d-glucose",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"2-hydroxy-3-oxo-24-noroleana- 1,4,12-trien-28-oic acid",,no_match,unresolved_script01_no_match
+449,"2?,3?,24-trihydroxylup-20(29)-ene-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"2?,3?,24-trihydroxyolean-18-ene-28-oic acid",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"3,32-di-O-methylellagic acid",,no_match,unresolved_script01_no_match
+449,"3,4,32-tri-O-methylellagic acid",,no_match,unresolved_script01_no_match
+449,3-O-methyl-ellagic acid 42-sulfate,,no_match,unresolved_script01_no_match
+449,31-methylenecycloartanol acetate,,no_match,unresolved_script01_no_match
+449,31-norlargerenol acetate,,no_match,unresolved_script01_no_match
+449,3?-hydroxy1-oxo-olean-12-en-28-oic acid,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,4-0 methyl gallic acid,,no_match,unresolved_script01_no_match
+449,"5?,6?-epoxy3?-hydroxyergosta-22-ene-7-one",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"6?-methoxyergosta- 7,9(11),22-triene-3?,5?-diol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,"7?-methoxy 5?,6?-epoxyergosta-8(14),22-diene-3?-ol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,7?-methoxy-stigmast-5-ene-3?-ol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,Epipunicacortein A,,no_match,unresolved_script01_no_match
+449,Flosin B,,no_match,unresolved_script01_no_match
+449,Lagerstroemin,,no_match,unresolved_script01_no_match
+449,Largerenol acetate,,no_match,unresolved_script01_no_match
+449,Pentacylic triterpenes,,no_match,unresolved_script01_no_match
+449,Reginin A,,no_match,unresolved_script01_no_match
+449,Tinotufolins C,,no_match,unresolved_script01_no_match
+449,Tinotufolins D,,no_match,unresolved_script01_no_match
+449,"ergosta8(14),22-diene-3?,5?,6?,7?-tetraol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+449,psiguanin,,no_match,unresolved_script01_no_match
+449,punicaone,,no_match,unresolved_script01_no_match
+449,stigmast-4-ene-6?-ol-3-one,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+465,Alkaloid,504687223,CID-based,empty_smiles
+491,Hemlesyanol C,,no_match,unresolved_script01_no_match
+491,Resveratrol oligomers,,no_match,unresolved_script01_no_match
+498,10-methylene-9-oxo methyl ester,,no_match,unresolved_script01_no_match
+498,11-methoxy-9-oxo-methyl ester,,no_match,unresolved_script01_no_match
+498,Ethyl ester,,no_match,unresolved_script01_no_match
+498,Kaempferol-3-O-beta-D-xylosyl-glucoside,,no_match,unresolved_script01_no_match
+498,Methyl ester of dec-9-ynoic acid,,no_match,unresolved_script01_no_match
+498,Methyl ester of non-8-ynoic acid,,no_match,unresolved_script01_no_match
+498,Methyl ester of oclade(1)-yn-1-oic acid 10-oxa,,no_match,unresolved_script01_no_match
+498,Methyl-2- hydroxysterculate,,no_match,unresolved_script01_no_match
+498,N -Triacontan-15-one,,no_match,unresolved_script01_no_match
+498,Nonadec-trans-10-enoic acid cyclopropenoids,,no_match,unresolved_script01_no_match
+498,Quercetin-3-7-di-0-beta-D-glucoside,,no_match,unresolved_script01_no_match
+498,Quercetin-3-diglucoside,,no_match,unresolved_script01_no_match
+498,Scutellarein-6-O-?-L-rhamnopyranoside-8-C-?-D-glucopyra noside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+498,kaempferol-7-O-[6-O-p-hydroxybenzoyl-?-D-glucosyl-(1-6)-? D-glucopyranoside],,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+498,"n-Hexacosa-3-one-20, 21-diol",,no_match,unresolved_script01_no_match
+505,"(3.beta.,5.alpha.,22E,24R)-Ergost-22-en-3-ol",,no_match,unresolved_script01_no_match
+505,"(E)-ethyl-12-cyclohexyl-4,5-dihydroxydodec-2-enoate",,no_match,unresolved_script01_no_match
+505,"(E, Z)-2-Nonadienal",,no_match,unresolved_script01_no_match
+505,"1-Isopropenyl-4,5-dimethylbicyclo[4.3.0]nonan-5-ylmethylphenylsulfoxide",,no_match,unresolved_script01_no_match
+505,12-Acetyl Indicine,,no_match,unresolved_script01_no_match
+505,"3,7,11-trimethyl-, (Z,E)-2,6,10-Dodecatrien-1-ol",,no_match,unresolved_script01_no_match
+505,"6,4,10-trimethyl-2-pentadecanone",,no_match,unresolved_script01_no_match
+505,Cynoglossine,,no_match,unresolved_script01_no_match
+505,Helindicine,,no_match,unresolved_script01_no_match
+505,Indicinine,,no_match,unresolved_script01_no_match
+505,N-heptaeicosane,,no_match,unresolved_script01_no_match
+505,N-hexaeicosane,,no_match,unresolved_script01_no_match
+505,N-nonaeicosane,,no_match,unresolved_script01_no_match
+505,N-octaeicosane,,no_match,unresolved_script01_no_match
+505,N-pentaeicosane,,no_match,unresolved_script01_no_match
+505,Octadetrienoic acid,,no_match,unresolved_script01_no_match
+515,3-O-L-rhamnopyranosyl(1?2)-?-D-glucopyranosylkaempferol (kaempferol 3-O-?-neohesperidoside or Kaempferol-3-O-?-D-glucorhamnoside),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+515,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+515,Apigenin-7-O-apiosylglucoside,,no_match,unresolved_script01_no_match
+515,Chlorogenic acid (5-Caffeoylquinic acid),,no_match,unresolved_script01_no_match
+515,"Cyanidin-3-O(6""acetyl glucoside)",,no_match,unresolved_script01_no_match
+515,Cyanidin-3-O-(6- malonyl-3-glucosylglucoside),,no_match,unresolved_script01_no_match
+515,Dihydroquercetin-3-O-hexoside,,no_match,unresolved_script01_no_match
+515,Hesperetin-3-Oglucuronide,,no_match,unresolved_script01_no_match
+515,Hydroxycinnamic acids,,no_match,unresolved_script01_no_match
+515,Isorhamnetin-3-Opentaside-7-O-glucoside,,no_match,unresolved_script01_no_match
+515,Pelargonidin 3-O-(6?'-malonyl-glucoside),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+515,Pelargonidin-3-O-(6acetyl glucoside),,no_match,unresolved_script01_no_match
+523,"3,5,7-Trihydroxy-6,8,4'-trimethoxyflavone",,no_match,unresolved_script01_no_match
+523,"5,7,3',5'-Tetrahydroxy-3,4'-dimethoxyflavone",,no_match,unresolved_script01_no_match
+523,glycoquinone (5),,no_match,unresolved_script01_no_match
+523,oxo-?-ylangene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+539,"2-(2',4',4',6',6',8',8'-heptamethyltetrasiloxan-2'-yloxy)-2,4,4,6,6,8,8,10,10-pentasiloxane",,no_match,unresolved_script01_no_match
+539,6-Hydroxymusizin 6-O-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+539,7-Hydroxyflavanone 7-?-D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+539,"Isopropoxy-1,1,7,7,7-hexamethyl-3,5,5-tris(trimethylsiloxy)tetrasiloxane",,no_match,unresolved_script01_no_match
+545,TMS derivative Ethylene glycol,,no_match,unresolved_script01_no_match
+563,Tryptase,,no_match,unresolved_script01_no_match
+587,ketol-nonadecan-7-ol-2-one,,no_match,unresolved_script01_no_match
+602,"(1R,14R)-3-methoxy-7,7,20,20-tetramethyl-8,12,19,25-tetraoxahexacyclo[12.11.0.02,11.04,9.015,24.018,23]pentacosa-2(11),3,5,9,15(24),16,18(23),21-octaene",,no_match,unresolved_script01_no_match
+602,(?)-nortrachelogenin,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,"2,5-bis (1,1-dimethylethyl) phenol",,no_match,unresolved_script01_no_match
+602,"2-(3,4-Methylenedioxyphenyl) cyclohexanone",,no_match,unresolved_script01_no_match
+602,"2-Hydroxy-4-methoxy-7-methyl-7, 8,9,10,11,12,13,14-octahydro-6-oxabenzocyclododecen-5-one",,no_match,unresolved_script01_no_match
+602,"24-Ethylcholesta-5,22-dien-3?-ol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,"4-H-Pyran-4-one, 2,3-dihydro-3,5-dihydroxy-6-methyl-",,no_match,unresolved_script01_no_match
+602,4-[2-(dimethylamino)ethyl]phenol (cactine),,no_match,unresolved_script01_no_match
+602,"4/,5,7-Trihydroxy-8-prenylflavone",,no_match,unresolved_script01_no_match
+602,4/-O-?-L-rhamnopyranosyl-(1?6)-?-d glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,"9,12-Octadecadienoic acid, methyl ester, (E,E)-(Linoleic acid ester)",,no_match,unresolved_script01_no_match
+602,"9-Octadecenoic acid (Z)-, methyl ester (Oleic acid ester)",,no_match,unresolved_script01_no_match
+602,?- Amyrone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,?-lactone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,"Androst-5-ene-3,19-diol, 3-acetate, (3-beta)-",,no_match,unresolved_script01_no_match
+602,"Benzene, 1-methoxy-4-(1-propenyl)-(Anise camphor)",,no_match,unresolved_script01_no_match
+602,"Benzenepropanol, 4-hydroxy--methyl-, (R)- (Betuligenol4.Rhododendrol)",,no_match,unresolved_script01_no_match
+602,"Hepten-3-one, 4-methyl-",,no_match,unresolved_script01_no_match
+602,Kaempferol 7-O-?-d-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,Phosphatidyl ethanolamine,,no_match,unresolved_script01_no_match
+602,Phosphatidyl serine,,no_match,unresolved_script01_no_match
+602,Quercetin-4?-O-?-D glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+602,"Silane, [[(3-beta)-gorgost-5-en-3-yl] oxy]trimethyl",,no_match,unresolved_script01_no_match
+602,"Spiro[androst-5-ene-17,1'-cyclobutan]-2'-one, 3-hydroxy-, (3-beta,17-beta)-",,no_match,unresolved_script01_no_match
+602,trans-Z-alphabisabolene epoxide,,no_match,unresolved_script01_no_match
+603,12a-hydroxyelliptone,,no_match,unresolved_script01_no_match
+603,6.7-Dimethyl-4-chromanone [4],,no_match,unresolved_script01_no_match
+603,7a-O- methyldeguelol,,no_match,unresolved_script01_no_match
+603,?-toxicarol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+603,maltol beta-D-glucopyranoside,,no_match,unresolved_script01_no_match
+612,"(S)-7,4' -dihydroxyflavanone",,no_match,unresolved_script01_no_match
+612,2-hydroxyisomucronustyrene,,no_match,unresolved_script01_no_match
+612,"8-hydroxy-7,4'-dimethoxy isoflavone",,no_match,unresolved_script01_no_match
+612,dalpulanone,,no_match,unresolved_script01_no_match
+628,"1,6-dimethyl-9-91-metiletiliden)-5.12-dioxatricylododecan-8-one",,no_match,unresolved_script01_no_match
+628,"2,4-cycloheptadien-I",,no_match,unresolved_script01_no_match
+628,3-Hepten-6-ol,,no_match,unresolved_script01_no_match
+628,Cyclopent-4-ene,,no_match,unresolved_script01_no_match
+628,Lipifoli-1(6)en-4-ol-5-on,,no_match,unresolved_script01_no_match
+628,T-muurol,,no_match,unresolved_script01_no_match
+628,"benzo [1,2-b: 4,3-b'] dipiran-3,6-dion-2,2-dimethy",,no_match,unresolved_script01_no_match
+628,"benzotazola-2-thiol, - siperon",,no_match,unresolved_script01_no_match
+628,elemena,,no_match,unresolved_script01_no_match
+628,monoterpene hydrocarbones,,no_match,unresolved_script01_no_match
+628,oxygenated monoterpines,,no_match,unresolved_script01_no_match
+628,oxygenated sequiterpenes,,no_match,unresolved_script01_no_match
+628,second monoclinic curcumenol,,no_match,unresolved_script01_no_match
+628,sequiterpene hyrocarbons,,no_match,unresolved_script01_no_match
+628,trans-Sativene,,no_match,unresolved_script01_no_match
+630,Artesin[sesquiterpene],,no_match,unresolved_script01_no_match
+630,Tropolone,643730,CID-based,empty_smiles
+632,(E)-Caryophyllene or beta caryophyllene,,no_match,unresolved_script01_no_match
+632,"(E,Z)- Geranyl linalool",,no_match,unresolved_script01_no_match
+632,(Z)-epi-?-Santalol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,(Z)-epi-?-Santalol acetate,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,"(Z,Z)-Farnesyl acetone",,no_match,unresolved_script01_no_match
+632,"10-chlorotricyclo[4.2.1.1(2,5)] Deca-3,7-Dion-9-ol",,no_match,unresolved_script01_no_match
+632,14-Hydroxy-?-cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,14-hydroxy-?-Cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,14-hydroxy-?-Muurolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,7-epi-?-Eudesmol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,"8, 9-dehydro-9-formyl-cycloisolongifolene",,no_match,unresolved_script01_no_match
+632,?- guariene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,?-(Z)-Curcumen-12-ol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,?-2-Carene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,?-Eudesmol acetate,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+632,Bicyclo (3.3.0) oct-1-en-3-one (Bicyclo[3.3.0]oct-1(2)-en-3-one),,no_match,unresolved_script01_no_match
+632,Di-isooctyladipate,,no_match,unresolved_script01_no_match
+632,Diflobenzuran,,no_match,unresolved_script01_no_match
+632,"Dimethyl 1,2,5-cycloheptatriene",,no_match,unresolved_script01_no_match
+632,Ethyl lenolenate,,no_match,unresolved_script01_no_match
+632,"Eudesma-4,11-diene-2-ol",,no_match,unresolved_script01_no_match
+632,"Fumaric acid, 2-dimethyl amino ethyl octadecyl ester",,no_match,unresolved_script01_no_match
+632,Isocericenin,,no_match,unresolved_script01_no_match
+632,Methyl isotridecanoate,,no_match,unresolved_script01_no_match
+632,Methyl-11-methyl-dodecaonte,,no_match,unresolved_script01_no_match
+632,Occidentalol acetate,,no_match,unresolved_script01_no_match
+632,Phenol 4-(( dimethylamino) sulfony) methylamino,,no_match,unresolved_script01_no_match
+632,"Phthalic acid, isobutyl octadecylsilane",,no_match,unresolved_script01_no_match
+632,Trans- retinal,,no_match,unresolved_script01_no_match
+632,ar-Dehydro-turmerone,,no_match,unresolved_script01_no_match
+632,g-Elemene,,no_match,unresolved_script01_no_match
+632,trans-Dihydro carvone,,no_match,unresolved_script01_no_match
+632,Ò-elemene,,no_match,unresolved_script01_no_match
+644,Crotocaudin,,no_match,unresolved_script01_no_match
+650,"(1S,4E,6S,7R,17S)-4-ethylidene-7-hydroxy-7-(hydroxymethyl)-6-methyl-2,9-dioxa-14-azatricyclo[9.5.1.014,17]heptadec-11-ene-3,8-dione",,no_match,unresolved_script01_no_match
+657,"[(2R,3S,4S,5R,6R)-3,4,5-trihydroxy-6-[[(1S,17S,18S,19S)-17-hydroxy-5,7-dioxa-12-azapentacyclo[10.6.1.02,10.04,8.015,19]nonadeca-2,4(8),9,15-tetraen-18-yl]oxy]oxan-2-yl]methyl hexadecanoate",,no_match,unresolved_script01_no_match
+661,2-Isopropylidencyclohexanon,,no_match,unresolved_script01_no_match
+687,"1H-Cycloprop[e]azulen-4-ol,decahydro-1,1,4,7-tetramethyl-, [1aR-(1a?,4?,4a?,7?,7a?,7b?)]-",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,"1H-Cycloprop[e]azulene,1a,2,3,5,6,7,7a,7b-octahydro-1,1,4,7-tetramethyl-, [1aR-(1a?,7?,7a?,7b?)]-",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,"5-(6-hydroxy-3,7-dimethyl-2E,7-octadienyloxy)psoralen",,no_match,unresolved_script01_no_match
+687,"5-(6-hydroxy-7-methoxy-3,8-dimethyl-2E-2-octenyloxy)psoralen",,no_match,unresolved_script01_no_match
+687,"5-Azulenemethanol, 1,2,3,3a,4,5,6,7-octahydro-?,?,3,8-tetramethyl-, [3S-(3?,3a?,5?)]-",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,5-Demethyltoddannol,,no_match,unresolved_script01_no_match
+687,"5-[(6?,7?-Dihydroxy-3?,7?-dimethyl-2-octenyl)oxy] psoralen",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,"5-[(7?,8?-Dihydroxy-3?,8?-dimethyl-2-nonadienyl)oxy] psoralen",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,"5-hydroxy-3,6,7,3',4'pentamethoxyflavone",,no_match,unresolved_script01_no_match
+687,"7-(6-hydroxy-3,7-dimethyl-2E,7-octadienyloxy)coumarin",,no_match,unresolved_script01_no_match
+687,"7-(6-hydroxy-7-methoxy-3,7-dimethyl-(2E)-2-octenyloxy)coumarine",,no_match,unresolved_script01_no_match
+687,7-hydroxy-8-(2'-hydroxy-3'-methylbut-3'enyl)coumarin,,no_match,unresolved_script01_no_match
+687,"8-(3-Hydroxy-2,2-dimethylpropyl)-7-methoxy-2Hchromen-2-one",,no_match,unresolved_script01_no_match
+687,"8-(6,7-dihydroxy3,7-dimethyl-2E-octenyloxy)psoralen",,no_match,unresolved_script01_no_match
+687,"8-(6-hydroxy-7-methoxy-3,7-dimethyl-2Eoctenyloxy)psoralen",,no_match,unresolved_script01_no_match
+687,"Baiyumines A, B",,no_match,unresolved_script01_no_match
+687,Buntanamine-A,,no_match,unresolved_script01_no_match
+687,Buntanbismine,,no_match,unresolved_script01_no_match
+687,Citropone-A,,no_match,unresolved_script01_no_match
+687,Citropone-B,,no_match,unresolved_script01_no_match
+687,"Columbianosides I, II",,no_match,unresolved_script01_no_match
+687,E-?-Ocimene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+687,Ethyl 2-(5-methyl-5-vinyltetrahy,,no_match,unresolved_script01_no_match
+687,Geibalansine,,no_match,unresolved_script01_no_match
+687,Natsucitrine-II,,no_match,unresolved_script01_no_match
+687,Paniculin III,,no_match,unresolved_script01_no_match
+687,Prenylcitpressine,,no_match,unresolved_script01_no_match
+687,bomyl acetate,,no_match,unresolved_script01_no_match
+687,delta-5-Ergostenol,,no_match,unresolved_script01_no_match
+687,"p-Mentha-(E)-2,8(9)-dien-1-ol",,no_match,unresolved_script01_no_match
+687,trans-Epoxyocimene,,no_match,unresolved_script01_no_match
+687,trans-beta-Cyrophyllene,,no_match,unresolved_script01_no_match
+687,trans-epoxy-Ocimene,,no_match,unresolved_script01_no_match
+697,"10, 12, 14 Nonacosatriynoic acid",,no_match,unresolved_script01_no_match
+699,"(1R,4Z,9R)-4,11,11-Trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene",274318321,CID-based,empty_smiles
+699,7-epi-cis-Sesquisabinene hydrate,387132838,CID-based,empty_smiles
+702,(-)-globilol,,no_match,unresolved_script01_no_match
+702,"1,6,10-Dodecatrien-3-ol, 3,7,11-trimethyl-, (E)-/nerolidol",,no_match,unresolved_script01_no_match
+702,"2,4-Diisopropenyl-1-methyl-1-vinylcyclohexane/beta elemene",,no_match,unresolved_script01_no_match
+702,"4,8,12-Trimethyl-1,3(E),7(E),11-tridecatetraene",,no_match,unresolved_script01_no_match
+702,"4-Isopropyl-1,6-dimethylenedecahydronaphthalene",,no_match,unresolved_script01_no_match
+702,5-Isopropyl-2-methylbicyclo[3.1.0]hexan-2-ol/sabinene hydrate,,no_match,unresolved_script01_no_match
+702,"6,6-Dimethyl-2-methylenebicyclo[3.1.1]heptane/beta pinene",,no_match,unresolved_script01_no_match
+702,Selin-11-en-4 alpha-ol,,no_match,unresolved_script01_no_match
+702,cebreuva oxide-V,,no_match,unresolved_script01_no_match
+702,cebreuva oxide-VI,,no_match,unresolved_script01_no_match
+702,"heptatriacontanoic acid 1, 3-dihydroxypropyl ester",,no_match,unresolved_script01_no_match
+702,"heptatriacontanoic acid 2, 3-dihydroxypropyl ester",,no_match,unresolved_script01_no_match
+702,"pentatriacontanoic acid1, 3-dihydroxypropyl ester",,no_match,unresolved_script01_no_match
+705,1'-OH-gamma-carotene glucoside/(Carotenoids B-G),,no_match,unresolved_script01_no_match
+715,Tannin,481191638,CID-based,empty_smiles
+717,"(4S)-10,11-dimethoxyspiro[5-azatricyclo[6.3.1.04,12]dodeca-1(12),8,10-triene-2,4'-cyclohexa-2,5-diene]-1'-one",,no_match,unresolved_script01_no_match
+717,C15H18O7.C15H16O6,,no_match,unresolved_script01_no_match
+717,Methyl picrotoxate,,no_match,unresolved_script01_no_match
+721,(?)-?-atlantone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,(?)-?-bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,"1,3,6-Octatriene, 3,7-dimethyl",,no_match,unresolved_script01_no_match
+721,16?-hydro-19-al-ent-kauran-17-oic acid,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,"3,4-dihydroxy-1,6-bis (3-methoxy-phenyl)-hexa-2,4-diene-1,6-dione",,no_match,unresolved_script01_no_match
+721,"4H-1-Benzopyran-4-one, 2-(3,4 dimethoxyphenyl)-5-hydroxy-3,6,7-trimethoxy",,no_match,unresolved_script01_no_match
+721,6?-hydroxystigmast-4-en-3-one,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-bisabolene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-cadinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-caryophyllene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-cedrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-elemene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-humulene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-phellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-pinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-sesquiphellandrene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-sitosterol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-terpinene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,?-terpineol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+721,"Bicyclo [2.2.1]heptane-2,3-dione, 1,7,7- trimethyl",,no_match,unresolved_script01_no_match
+721,"Bicyclo [3.3.1] nonan-2-one, 9-hydroxy-, syn",,no_match,unresolved_script01_no_match
+721,"Bis-(1,7-diazabicyclo [2.2.0] hept-7-YL) methane",,no_match,unresolved_script01_no_match
+721,"Hexane, 1-propoxy",,no_match,unresolved_script01_no_match
+721,Neoannonin,,no_match,unresolved_script01_no_match
+721,"Nonane, 1,9-dibromo",,no_match,unresolved_script01_no_match
+739,"(2S)-5-hydroxy-7-methoxy-6-(3-methylbut-2-enyl)-2-(3,4,5-trimethoxyphenyl)-2,3-dihydrochromen-4-one",,no_match,unresolved_script01_no_match
+739,(3? -sulfo)Galbeta-Cer(d18:1/18:0(2OH)),,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+739,4-hydroxy-2-oxo-glutaric acid,,no_match,unresolved_script01_no_match
+739,Artoheterophyllin F,,no_match,unresolved_script01_no_match
+739,Bis (2-ethylhexyl) phthalate,,no_match,unresolved_script01_no_match
+739,Cer(d14:1(4E)/20:0(2OH)),,no_match,unresolved_script01_no_match
+739,Cistanoside,,no_match,unresolved_script01_no_match
+739,DG(16:1(9Z)/0:0/16:1(9Z)) (d5),,no_match,unresolved_script01_no_match
+739,Glutaminyl phenylalanine,,no_match,unresolved_script01_no_match
+739,Isorenieratene/(Leprotene),,no_match,unresolved_script01_no_match
+739,MGDG (16:0/18:1(9Z)),,no_match,unresolved_script01_no_match
+739,"PA(O-16:0/17:2(9Z,12Z))",,no_match,unresolved_script01_no_match
+739,"PC(14:0/20:3(5Z,8Z,11Z))",,no_match,unresolved_script01_no_match
+739,PS(19:0/16:0),,no_match,unresolved_script01_no_match
+739,artocarpfuranol,,no_match,unresolved_script01_no_match
+739,artoheterophyllin E,,no_match,unresolved_script01_no_match
+739,artoheterophyllin G,,no_match,unresolved_script01_no_match
+739,artoheterophyllin I,,no_match,unresolved_script01_no_match
+739,gamma.-Sitosterol,,no_match,unresolved_script01_no_match
+740,"9,19-Cyclolanost-24-en-3-ol, acetate, (3beta)-",,no_match,unresolved_script01_no_match
+748,"(E)-?-Farnesene(7,11-dimethyl-3-methylene-1,6,10-dodecatriene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"2,3-Dihydroxybutanoic acid 3TMS",,no_match,unresolved_script01_no_match
+748,"3,4-[(2)Trimethylsiloxy]dihydro-2(3H)-furanone",,no_match,unresolved_script01_no_match
+748,"3-oxo-9-O-?-d-glucosyloxy-4,6E-megastigmadien",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,3-oxo-?-ionol 9-O-?-d-glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,4-oxo-?-ionol 9-O-?-d-glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,9E-abscisic acid,,no_match,unresolved_script01_no_match
+748,9E-abscisic alcohol ?-d-glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,9E-abscisyl ?-d-glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Bisabolene ((S)-1-Methyl-4-(6-methylhepta-1,5-diene-2-yl) cyclohexa-1-ene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Caryophyllene ([1R-(1R,4Z,9S)]-4,11,11 -trimethyl-8-methylene-Bicyclo [7.2.0] undec-4-ene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Curcumenene ((R)-1-Methyl-4-(6-methylhept-5-en-2-yl) cyclohexa-1,4-diene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,?-Dodecalatone,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Ocimene(3,7-dimethyl-1,3,7-Octatriene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Sesquiphellandrene ([S-(R*,S*)]-3-(1,5-dimethyl-4-enyl)-6-methylene-cyclohexene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"?-Tocopherol, O-TMS",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,Allose 5TMS-ether TMS,,no_match,unresolved_script01_no_match
+748,"Aminoethanol, O,N,N-3 TMS",,no_match,unresolved_script01_no_match
+748,"Arabinonic acid, 3TMS ?-lactone",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,Arabinose 4TMS,,no_match,unresolved_script01_no_match
+748,Ascorbic acid 4TMS-ether,,no_match,unresolved_script01_no_match
+748,Erythronic acid 4TMS,,no_match,unresolved_script01_no_match
+748,"Erythronic acid ?-lactone, 2 TMS-ether",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,Estragole(1-methoxy-4-(prop-2-en-1-yl)benzene),,no_match,unresolved_script01_no_match
+748,Fructofuranose 5TMS,,no_match,unresolved_script01_no_match
+748,"Fructopyranose, 4TMS",,no_match,unresolved_script01_no_match
+748,GABA 3TMS,,no_match,unresolved_script01_no_match
+748,Gentiobiose 8TMS,,no_match,unresolved_script01_no_match
+748,"Germacerene D ((S,1Z,6Z)-8-isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene)",,no_match,unresolved_script01_no_match
+748,Isomaltulose 7TMS,,no_match,unresolved_script01_no_match
+748,Mannobiose 8TMS,,no_match,unresolved_script01_no_match
+748,"Mannose, 6-deoxy-2,3,4,5-4-O-TMS",,no_match,unresolved_script01_no_match
+748,O-?-Galactopyranosyl-d-mannopyranose 8TMS,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"Oleamide, N-TMS",,no_match,unresolved_script01_no_match
+748,Pentadecana,,no_match,unresolved_script01_no_match
+748,"Pentonic acid, 5-deoxy-3 TMS, ?-lactone",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,Pyroglutamic acid 2TMS,,no_match,unresolved_script01_no_match
+748,Ribofuranose 4TMS (isomer 1),,no_match,unresolved_script01_no_match
+748,Sorbofuranose 5TMS,,no_match,unresolved_script01_no_match
+748,"Stearic acid, 2,3-[2trimethylsiloxy]propyl ester",,no_match,unresolved_script01_no_match
+748,Tagatofuranose 5TMS,,no_match,unresolved_script01_no_match
+748,"Tartaric acid 2TMS-ether, 2TMS ester",,no_match,unresolved_script01_no_match
+748,Threonic acid 3TMS,,no_match,unresolved_script01_no_match
+748,Thymol-?-glucopyranoside-O-TMS,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,"Trans-?-Bergamotene(2,6-dimethyl-6-(4-methyl-3-pentenyl)-Bicyclo [3.1.1]hept-2-ene)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,abscisyl ?-d-glucoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+748,cannabiside D,,no_match,unresolved_script01_no_match
+748,"trans-?-Bisabolene (Cyclohexene, 4-[(1E)-1,5-dimethyl-1,4-hexadien-1-yl]-1-methyl-)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+749,(?) epicatech,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+749,"1,2,4-Oxadiazole, 3-(1,3-benzodioxol-5-yl)-5-[(4-iodo-1Hpyrazol-1-yl)methyl]-",,no_match,unresolved_script01_no_match
+749,"1,5-Anhydro-2-deoxy-L-arabino-hex-1-enitol",,no_match,unresolved_script01_no_match
+749,1-napthyl acetoxy acetate,,no_match,unresolved_script01_no_match
+749,2-hexyl-tetrahydrothiophane,,no_match,unresolved_script01_no_match
+749,"3-Acetoxy-24-methyl-5-cholest-5,22-dien-7-one",,no_match,unresolved_script01_no_match
+749,4-Fluorophenyl,,no_match,unresolved_script01_no_match
+749,Aromadendran,,no_match,unresolved_script01_no_match
+749,Margoloine,,no_match,unresolved_script01_no_match
+749,"Methanoazulene, octahydro-3,6,8,8-tetramethyl-, [3R-(3a`,3aa´,6a`,7a´,8aa`)]-",,no_match,unresolved_script01_no_match
+749,"Naphthalene, 1,2,3,5,6,7,8,8a-octahydro-1,8a-dimethyl-7-(1-methylethenyl)-, [1R-(1a`,7a´,8aa`)]-",,no_match,unresolved_script01_no_match
+749,Nimbidin,,no_match,unresolved_script01_no_match
+749,Sodium nimbidate,,no_match,unresolved_script01_no_match
+749,"Spiro[4.5]dec-7-ene, 1,8-dimethyl-4-(1-methylethenyl)-, [1S-(1a`,4a´,5a`)]-",,no_match,unresolved_script01_no_match
+749,"trans-13-Octadecenoic acid, methyl ester",,no_match,unresolved_script01_no_match
+761,"N-[(4-hydroxy)hydrocinnamoyl],",,no_match,unresolved_script01_no_match
+768,Artesin[sesquiterpene],,no_match,unresolved_script01_no_match
+786,"17-methylvouacapane-8(14),-9(11)-diene",,no_match,unresolved_script01_no_match
+786,"2', 4-dihydroxy-4'-methoxy-chalcone",,no_match,unresolved_script01_no_match
+786,6-methox pulcherrimin,,no_match,unresolved_script01_no_match
+786,"7,4?-dihydroxy-3,11-dehydrohomoisoflavanone",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+786,"7-hydroxy-4?-methoxy-3,11-dehydrohomoisoflavanone",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+786,Caesall A,,no_match,unresolved_script01_no_match
+786,Caesall B,,no_match,unresolved_script01_no_match
+786,Caesall C,,no_match,unresolved_script01_no_match
+786,Caesall D,,no_match,unresolved_script01_no_match
+786,Caesall E,,no_match,unresolved_script01_no_match
+786,Caesall F,,no_match,unresolved_script01_no_match
+786,Caesall G,,no_match,unresolved_script01_no_match
+786,Caesall I,,no_match,unresolved_script01_no_match
+786,Caesall J,,no_match,unresolved_script01_no_match
+786,Caesall K,,no_match,unresolved_script01_no_match
+786,Caesall L,,no_match,unresolved_script01_no_match
+786,Caesall M,,no_match,unresolved_script01_no_match
+786,Caesalpinin,,no_match,unresolved_script01_no_match
+786,Caesalpinins D,,no_match,unresolved_script01_no_match
+786,Kaempferol-3-O-?-Lrhamnopyranosyl-(1?2)-b-D-xylopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+786,Norcaesalpinins MC,,no_match,unresolved_script01_no_match
+786,Prephytoenediphosphate,,no_match,unresolved_script01_no_match
+786,Protocatecheuic acid,,no_match,unresolved_script01_no_match
+786,Vasicionolone,,no_match,unresolved_script01_no_match
+786,bonducin,,no_match,unresolved_script01_no_match
+786,caesalpinia-F,,no_match,unresolved_script01_no_match
+786,caesalpinin B,,no_match,unresolved_script01_no_match
+786,eocaesalpin P,,no_match,unresolved_script01_no_match
+786,gamma caesalpin,,no_match,unresolved_script01_no_match
+786,hepatsane,,no_match,unresolved_script01_no_match
+786,homoisoflavonoid,,no_match,unresolved_script01_no_match
+786,lognoceric acid,,no_match,unresolved_script01_no_match
+786,methyl lineolate,,no_match,unresolved_script01_no_match
+786,peltogynoids,,no_match,unresolved_script01_no_match
+787,Celallocinnine,,no_match,unresolved_script01_no_match
+796,6-deoxo-28-norcathasterone,,no_match,unresolved_script01_no_match
+796,Assamicain B,,no_match,unresolved_script01_no_match
+796,Theaflagallin,,no_match,unresolved_script01_no_match
+796,theasaponins E3,,no_match,unresolved_script01_no_match
+796,theasaponins E4,,no_match,unresolved_script01_no_match
+796,theasaponins E5,,no_match,unresolved_script01_no_match
+796,theasaponins E6,,no_match,unresolved_script01_no_match
+796,theasaponins E7,,no_match,unresolved_script01_no_match
+799,"(?)- delta7-trans-(1R, 3R, 6R)-isotetrahydrocannabinol-C5 (",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+799,"(?)-delta 7-trans-(1R, 3R, 6R)-isotetrahydrocannabivarin-C3 (",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+799,()-7-hydroxycannabichromane,,no_match,unresolved_script01_no_match
+799,"()-7R-cannabicourmarone,",,no_match,unresolved_script01_no_match
+799,()-7R-cannabicourmaronic acid,,no_match,unresolved_script01_no_match
+799,()-trans-CBT-C5,,no_match,unresolved_script01_no_match
+799,()-trans-CBT-OEt-C5,,no_match,unresolved_script01_no_match
+799,(±)-3''-hydroxy- delta-4''-cannabichromene,,no_match,unresolved_script01_no_match
+799,(±)-4-acetoxycannabichromene,,no_match,unresolved_script01_no_match
+799,"(±)-6,7-cis-epoxycannabigerol",,no_match,unresolved_script01_no_match
+799,"(±)-6,7-cis-epoxycannabigerolic acid",,no_match,unresolved_script01_no_match
+799,"(±)-6,7-trans-epoxycannabigerol",,no_match,unresolved_script01_no_match
+799,"(±)-6,7-trans-epoxycannabigerolic acid",,no_match,unresolved_script01_no_match
+799,(±)-cis-CBT-C5,,no_match,unresolved_script01_no_match
+799,(±)-trans-CBT-C3,,no_match,unresolved_script01_no_match
+799,7-methoxy-cannabispirone,,no_match,unresolved_script01_no_match
+799,8-OH-CBN,,no_match,unresolved_script01_no_match
+799,8-OH-CBNA,,no_match,unresolved_script01_no_match
+799,8-OH-CBT-C5,,no_match,unresolved_script01_no_match
+799,?-Limonene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+799,?9-tetrahydrocannabinol,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+799,CBDA-C5 9-O-CBT-C5 ester,,no_match,unresolved_script01_no_match
+799,CBE-C3,,no_match,unresolved_script01_no_match
+799,CBE-C5,,no_match,unresolved_script01_no_match
+799,CBEA-C3 B,,no_match,unresolved_script01_no_match
+799,CBEA-C5 A,,no_match,unresolved_script01_no_match
+799,CBEA-C5 B,,no_match,unresolved_script01_no_match
+799,CBL-C3,,no_match,unresolved_script01_no_match
+799,CBN-C3,,no_match,unresolved_script01_no_match
+799,CBND-C3,,no_match,unresolved_script01_no_match
+799,CBND-C5,,no_match,unresolved_script01_no_match
+799,CBT-C3 homologue,,no_match,unresolved_script01_no_match
+799,"apigenin-6,8-di-C- beta-D-glucopyranoside",,no_match,unresolved_script01_no_match
+799,beta copane,,no_match,unresolved_script01_no_match
+799,beta-fenchyl-delta- 9-tetrahydrocannabinolate,,no_match,unresolved_script01_no_match
+799,beta-sitosteryl-3-O- beta-D-glucopyranoside-2´-O-palamite,,no_match,unresolved_script01_no_match
+799,canavin C,,no_match,unresolved_script01_no_match
+799,cannabichromanone-B,,no_match,unresolved_script01_no_match
+799,cannabichromanone-C,,no_match,unresolved_script01_no_match
+799,cannabichromanone-C3,,no_match,unresolved_script01_no_match
+799,cannabichromanone-C5,,no_match,unresolved_script01_no_match
+799,cannabichromanone-D,,no_match,unresolved_script01_no_match
+799,cannabifuran (CBF-C5),,no_match,unresolved_script01_no_match
+799,cannabitetrol (CBTT),,no_match,unresolved_script01_no_match
+799,cannabsin,,no_match,unresolved_script01_no_match
+799,dehydrocannabifuran (DCBF-C5),,no_match,unresolved_script01_no_match
+799,delta 9 trans-THCA-C4,,no_match,unresolved_script01_no_match
+799,gamma eudesmyl delta 9-tetrahydrocannabinolate,,no_match,unresolved_script01_no_match
+799,gamma-eudesmyl cannabigerolate,,no_match,unresolved_script01_no_match
+799,polyunsaturated hydroxy fatty acid,,skipped_nonspecific,unresolved_script01_skipped_nonspecific
+799,trans-(2)-delta-8-tetrahydrocannabinol,,no_match,unresolved_script01_no_match
+799,trans-(2)-delta-9-tetrahydrocanna binolic acid,,no_match,unresolved_script01_no_match
+799,trans-(2)-delta-9-tetrahydrocannabinol,,no_match,unresolved_script01_no_match
+799,trans-(2)-delta-9-tetrahydrocannabivarin,,no_match,unresolved_script01_no_match
+799,trans-(2)-delta-9-tetrahydrocannabivarinic acid,,no_match,unresolved_script01_no_match
+812,Apigenin-O-acetylxyloside,,no_match,unresolved_script01_no_match
+812,Cyanidin 3-(cinnamoyl glucoside),,no_match,unresolved_script01_no_match
+812,Cyanidin 3-(malonylxyloside),,no_match,unresolved_script01_no_match
+812,Cyanidin3-(acetylgalloylgalactoside),,no_match,unresolved_script01_no_match
+812,Cyanidin3-(digalloylglucoside),,no_match,unresolved_script01_no_match
+812,Cyanidin3-(oxalylglucoside),,no_match,unresolved_script01_no_match
+812,Cyanidin3-(xylosylarabinoside),,no_match,unresolved_script01_no_match
+812,Delphinidinneohesperidoside/Delphinidin rutinoside,,no_match,unresolved_script01_no_match
+812,Dimethyl-delphinidin-glucosylacetate,,no_match,unresolved_script01_no_match
+812,Docosanedione,,no_match,unresolved_script01_no_match
+812,Gossypetinglucuronide,,no_match,unresolved_script01_no_match
+812,Hibiscusacidhydroxyethyldimethylether,,no_match,unresolved_script01_no_match
+812,Hibiscusacidhydroxyethylether,,no_match,unresolved_script01_no_match
+812,Hibiscuslactone(Hydroxycitricacidlactone),,no_match,unresolved_script01_no_match
+812,Hydroxytaraxerylacetate,,no_match,unresolved_script01_no_match
+812,Kaempferol-3-O-glucuronicacidmethylether,,no_match,unresolved_script01_no_match
+812,Malvidin O-(coumaroylglucoside),,no_match,unresolved_script01_no_match
+812,Myricetin O-arabinogalactoside,,no_match,unresolved_script01_no_match
+812,Scutellareinrhamnopyranosideglucopyranoside,,no_match,unresolved_script01_no_match
+812,Trimethylhydroxycitricacid,,no_match,unresolved_script01_no_match
+843,"2-Furanmethanol, 5-ethenyltetrahydro-alpha,alpha,5-trimethyl-, cis-(-)-Carvomenthone",,no_match,unresolved_script01_no_match
+867,(Z)-Linalool pyranoxide,,no_match,unresolved_script01_no_match
+867,1-Gala-1-ido-octose,,no_match,unresolved_script01_no_match
+867,1-Hentriacontane,,no_match,unresolved_script01_no_match
+867,"10-Oxatetracyclo[5.5.2.0(1,5).0(8,12)] tetradecene-9,11,14-trione, 4-[(2-methoxyethoxy)methoxyl]5-methyl-",,no_match,unresolved_script01_no_match
+867,"12,15-Octadecadienioc acid, methyl ester",,no_match,unresolved_script01_no_match
+867,"2,2?-methylenebis[6(1,1-dimethylethyl)4-ethyl-]phenol",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+867,"2,3,4-trihydroxytoluene",,no_match,unresolved_script01_no_match
+867,"2,4-bis(1,1dimethylethyl)phenol",,no_match,unresolved_script01_no_match
+867,"2-chloro-5,5-dimethyl-1-phenyl-3hexen-1-ol",,no_match,unresolved_script01_no_match
+867,2-hydroxy-1-cis9-octadecenoic acid ethyl ester,,no_match,unresolved_script01_no_match
+867,"3-Methyl-4,6-di-tert-Butyl Phenol",,no_match,unresolved_script01_no_match
+867,"4H-Pyranone-2,3-dihydro-3,5-dihydroxy-dihydroxy-6-methyl",,no_match,unresolved_script01_no_match
+867,6-Acetyl-beta-D-mannose,,no_match,unresolved_script01_no_match
+867,"9,12,15-Octadecatrienoic acid, 2-[(trimethylsilyl)oxy]-1-[[(trimethysilyl)oxy]methyl]ethyl (9E,12E,15E)-9,12,15-octadecatriene",,no_match,unresolved_script01_no_match
+867,Anodendrosid G Monoacetate,,no_match,unresolved_script01_no_match
+867,"Benzoic acid, 4-hydroxy-3,5-dimethoxy",,no_match,unresolved_script01_no_match
+867,"Cis-9, cis-17-octadecadienal",,no_match,unresolved_script01_no_match
+867,Docasane,,no_match,unresolved_script01_no_match
+867,"Ergosta-5,22-dien-3-ol acetate (3beta, 22?)",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+867,Ethyl (E)-9-palmitoleate,,no_match,unresolved_script01_no_match
+867,"Glyceryl-1,2-dipalmityl-3-myristate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1,2-distearyl-3phosphate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1-(2,3,4-trihydroxybenzoyl)-2,3-dioleate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1-linoleiyl-2,3-distearate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1-oleiyl-2,3-diarachidate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1-oleiyl-2,3-dilinoleiate",,no_match,unresolved_script01_no_match
+867,"Glyceryl-1-oleiyl-2,3-dimyristate",,no_match,unresolved_script01_no_match
+867,Glyceryl-1-oleiyl-2-lauryl-3-phosphate,,no_match,unresolved_script01_no_match
+867,Glyceryl-1-oleiyl-3-phosphate,,no_match,unresolved_script01_no_match
+867,"Isoxazolo (2,3-Alpha) Pyridine",,no_match,unresolved_script01_no_match
+867,Methyl-11-hexadecanoate,,no_match,unresolved_script01_no_match
+867,Neofitadien,,no_match,unresolved_script01_no_match
+867,"Octanoic acid, methylester",,no_match,unresolved_script01_no_match
+867,Papain,,no_match,unresolved_script01_no_match
+867,Proteinase omega,,no_match,unresolved_script01_no_match
+867,Quimiopapain,,no_match,unresolved_script01_no_match
+867,beta-sitosterol trimethylsilyl ester,,no_match,unresolved_script01_no_match
+867,lsothiocyanatomethyl benzene,,no_match,unresolved_script01_no_match
+867,n-benzyl-n-phenylethylisobutyramide,,no_match,unresolved_script01_no_match
+867,p-Coumarin,,no_match,unresolved_script01_no_match
+872,1-O-Methylchrysophanol,272730083,CID-based,empty_smiles
+872,"22,23-dibromostigmasterol acetate",249905390,CID-based,empty_smiles
+872,Furoaloesone,275124113,CID-based,empty_smiles
+872,"Glycine ,N-[(3±,5ß,12±)-3,12-dihydroxy-24-oxocholan-24-yl]-",405416867,CID-based,empty_smiles
+872,(E)-7-Methoxy-6-(3'-methylbuta-1'.3'-dienyl) coumarin,,no_match,unresolved_script01_no_match
+872,"1 1alpha, 17 alpha-dihydroxyprogesterone",,no_match,unresolved_script01_no_match
+872,"1,2-Benzenedicarboxyl ic acid, bis(2-ethylhexyl) ester",,no_match,unresolved_script01_no_match
+872,"2,5-Furandione, 3-dodecenyl",,no_match,unresolved_script01_no_match
+872,"2,6, Hydroxyl cholesterol",,no_match,unresolved_script01_no_match
+872,"2,6,10,14,18,22-Tetracosahexae ne, 2,6, 0,15,19.23-hexam -ethyl-(all-E)",,no_match,unresolved_script01_no_match
+872,3-Methyl-5-propy l nonane,,no_match,unresolved_script01_no_match
+872,3-Methyl-5-propyl nonane,,no_match,unresolved_script01_no_match
+872,"5,8,1 1-Eicosatrienoic acid, methyl ester",,no_match,unresolved_script01_no_match
+872,"5-(4,8-Dimethylnonyl)-5-methyldihydro-2(3H)-furanone",,no_match,unresolved_script01_no_match
+872,"Cholest-5-en-3-ol, 24-propylidene",,no_match,unresolved_script01_no_match
+872,DL-Citronel l ol,,no_match,unresolved_script01_no_match
+872,"Ergosta-4,22-d ien-3-one",,no_match,unresolved_script01_no_match
+872,"Hexadecano icacid, methyl ester",,no_match,unresolved_script01_no_match
+872,Hexadecanoic acid. 2-hyd roxy-1-(hydroxy -methyl)ethyl ester,,no_match,unresolved_script01_no_match
+872,L-Proline. N-(3-tri fluoro methyl benzoyl)-nonyl ester,,no_match,unresolved_script01_no_match
+872,Lupeolacetate,,no_match,unresolved_script01_no_match
+872,Methyl cis-6-octadecenoa te,,no_match,unresolved_script01_no_match
+872,Octadecanoic acid. 2-hyd roxy-1-(hydroxy-methyl)ethyl ester,,no_match,unresolved_script01_no_match
+872,"Octadecanoic acid, 2-hydroxy-1-(hydroxymethyl) ethyl ester",,no_match,unresolved_script01_no_match
+872,"Phenol, 2.4-bis( l ,1-dimethylethyl)",,no_match,unresolved_script01_no_match
+872,"Phenol,2,4-bis( 1.1-dimethylethyl)",,no_match,unresolved_script01_no_match
+872,"Silane, cyclohexyldimethoxymethyl",,no_match,unresolved_script01_no_match
+872,"Silane,cyclohexyl dimethoxy methyl",,no_match,unresolved_script01_no_match
+872,Silikonfett se30 (grevels),,no_match,unresolved_script01_no_match
+872,"Tetramethylhexadeca- 1,6,I 0, 14-tetraen-3-o l",,no_match,unresolved_script01_no_match
+872,"l ,30-Triacontanediol",,no_match,unresolved_script01_no_match
+872,"l ,40-Tetracontaned iol",,no_match,unresolved_script01_no_match
+872,n-Amyrin acetate,,no_match,unresolved_script01_no_match
+872,n-Ecosane,,no_match,unresolved_script01_no_match
+872,n-Hen icosane,,no_match,unresolved_script01_no_match
+872,n-Henicosane,,no_match,unresolved_script01_no_match
+872,"n-Octadecanoicacid, methyl ester",,no_match,unresolved_script01_no_match
+872,trans-Squalcne,,no_match,unresolved_script01_no_match
+874,Ar-dihydro-turmerone,,no_match,unresolved_script01_no_match
+874,Germichrysone,,no_match,unresolved_script01_no_match
+874,Occidentalol I,,no_match,unresolved_script01_no_match
+874,Occidentalol II,,no_match,unresolved_script01_no_match
+874,Potassium chelidonate,,no_match,unresolved_script01_no_match
+875,"1,2,6-Trihydroxy-7,8-dimethoxy-3-methylanthracene-9,10-dione",,no_match,unresolved_script01_no_match
+878,"(+)-3-Caren, 2-alpha-isopropenyl-",,no_match,unresolved_script01_no_match
+878,"(3aR,4R,7R)-1,4,9,9-Tetramethyl-3,4,5,6,7,8-hexahydro-2H-",,no_match,unresolved_script01_no_match
+878,"1,2-Benzenedicarboxylic acid, bis(2-methyl propyl) ester",,no_match,unresolved_script01_no_match
+878,"1H-Cycloprop[e]azulene, 31a,2,3,4,4a,5,6,7b-octa",,no_match,unresolved_script01_no_match
+878,"2,20-Cycloaspidospermidine -3-carboxylic acid vindolinine",,no_match,unresolved_script01_no_match
+878,"2,20-Cycloaspidospermidine-3-carboxylic acid",,no_match,unresolved_script01_no_match
+878,2-Methyl-9-á-d- ribofuranosylhypoxanthine,,no_match,unresolved_script01_no_match
+878,"3 ?-D-Glucopyranoside, O-?-D-glucopyranosyl-(1.fwdarw.3)-ß-d-fru",,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+878,"3,4,4-trimethylcyclohexa-2-en-1-ol",,no_match,unresolved_script01_no_match
+878,"30,50-Dimethoxyacetophenone",,no_match,unresolved_script01_no_match
+878,"9,10 Anthraquinone",,no_match,unresolved_script01_no_match
+878,Aspidospermidine-3-carboxylic acid,,no_match,unresolved_script01_no_match
+878,Aspidospermidine-3-carboxylic acid vindoline,,no_match,unresolved_script01_no_match
+878,"Aspidospermidine-3-carboxylic acid,",,no_match,unresolved_script01_no_match
+878,Aspidospermidine-3-carboxylic acidvindoline,,no_match,unresolved_script01_no_match
+878,"Dodecane, 1,10 -oxybis-",,no_match,unresolved_script01_no_match
+878,"L-Glutamine,N2 [(phenyl methoxy)carbonyl]-",,no_match,unresolved_script01_no_match
+878,"O,N-Permethylated N-Acetyllysine",,no_match,unresolved_script01_no_match
+878,"alpha-D-Glucopyranoside,O-alpha-Dglucopyranosyl-(1.fwdarw.3)-beta-d-fru",,no_match,unresolved_script01_no_match
+883,Isoamaranthin,,no_match,unresolved_script01_no_match
+894,Eucryphin,274911633,CID-based,empty_smiles
+897,18Z-pentadecosenoic acid,,no_match,unresolved_script01_no_match
+897,Resveratol 3-O-glucoside,,no_match,unresolved_script01_no_match
+906,(Epi) catechin trimer with double A linkage,,no_match,unresolved_script01_no_match
+906,(Epi)catechin trimer A type (EC-A-EC-EC),,no_match,unresolved_script01_no_match
+906,(Epi)gallocatechin- (epi)catechin,,no_match,unresolved_script01_no_match
+906,(Epi)gallocatechin-O-caffeate,,no_match,unresolved_script01_no_match
+906,2- Hydroxyhydrocinnamic acid,,no_match,unresolved_script01_no_match
+906,"9-Hydroxy-12,14,16- octadecatrienoic acid",,no_match,unresolved_script01_no_match
+906,Arachidinic acid I,,no_match,unresolved_script01_no_match
+906,Arachidinic acid II,,no_match,unresolved_script01_no_match
+906,Behenamide I,,no_match,unresolved_script01_no_match
+906,Behenamide II,,no_match,unresolved_script01_no_match
+906,Ceriporic acid I,,no_match,unresolved_script01_no_match
+906,Ceriporic acid II,,no_match,unresolved_script01_no_match
+906,Ceriporic acid III,,no_match,unresolved_script01_no_match
+906,Cinnakotolactone,,no_match,unresolved_script01_no_match
+906,Cinnamaldehyde I,,no_match,unresolved_script01_no_match
+906,Cinnamaldehyde II,,no_match,unresolved_script01_no_match
+906,Cinnamyl alcohol II,,no_match,unresolved_script01_no_match
+906,Cinnamyl-O-hexoside,,no_match,unresolved_script01_no_match
+906,Decenedioic acid II,,no_match,unresolved_script01_no_match
+906,Dihydro coumaroyl-O-hexoside (Dihydomelilotoside),,no_match,unresolved_script01_no_match
+906,Dihydrocinnacasside (HydroxyphenylpropanoyO-hexoside),,no_match,unresolved_script01_no_match
+906,Dihydrocinnacasside pentoside,,no_match,unresolved_script01_no_match
+906,Dihydroxy-tetramethoxy-epoxylignanolone,,no_match,unresolved_script01_no_match
+906,Dihydroxyoctadecadienoic acid I,,no_match,unresolved_script01_no_match
+906,Dihydroxyoctadecadienoic acid II,,no_match,unresolved_script01_no_match
+906,Dihydroxyoctadecadienoic acid III,,no_match,unresolved_script01_no_match
+906,Dimethoxyphenol-O-pentosyl hexoside,,no_match,unresolved_script01_no_match
+906,Dodecanedioic acid II,,no_match,unresolved_script01_no_match
+906,Dodecenedioic acid I,,no_match,unresolved_script01_no_match
+906,Eicosadienoic acid I,,no_match,unresolved_script01_no_match
+906,Eicosadienoic acid II,,no_match,unresolved_script01_no_match
+906,Erucamide I,,no_match,unresolved_script01_no_match
+906,Erucamide II,,no_match,unresolved_script01_no_match
+906,Heptadecanamide I,,no_match,unresolved_script01_no_match
+906,Heptadecanamide II,,no_match,unresolved_script01_no_match
+906,Heptadecanamide III,,no_match,unresolved_script01_no_match
+906,Heptadecanedioic acid I,,no_match,unresolved_script01_no_match
+906,Heptadecanedioic acid II,,no_match,unresolved_script01_no_match
+906,Heptadecanoic acid I,,no_match,unresolved_script01_no_match
+906,Heptadecenoic acid I,,no_match,unresolved_script01_no_match
+906,Heptadecenoic acid II,,no_match,unresolved_script01_no_match
+906,Hydroxy-dimethoxy epoxy-neolignene diolethyl ether,,no_match,unresolved_script01_no_match
+906,Hydroxyhexadecanoic acid I,,no_match,unresolved_script01_no_match
+906,Hydroxyhexadecanoic acid II,,no_match,unresolved_script01_no_match
+906,Hydroxyhexadecenoic acid I,,no_match,unresolved_script01_no_match
+906,Hydroxyhexadecenoic acid II,,no_match,unresolved_script01_no_match
+906,Hydroxyhexadecenoic acid III,,no_match,unresolved_script01_no_match
+906,Hydroxyoctadecatrieno ic acid I,,no_match,unresolved_script01_no_match
+906,Hydroxyoctadecatrienoic acid II,,no_match,unresolved_script01_no_match
+906,Hydroxyoctadecatrienoic acid III,,no_match,unresolved_script01_no_match
+906,Hydroxystearidonic acid I,,no_match,unresolved_script01_no_match
+906,Hydroxystearidonic acid II,,no_match,unresolved_script01_no_match
+906,Hydroxystearidonic acid III,,no_match,unresolved_script01_no_match
+906,Hydroxystearidonic acid IV,,no_match,unresolved_script01_no_match
+906,Hydroxyundecanedioic acid,,no_match,unresolved_script01_no_match
+906,Inonone,,no_match,unresolved_script01_no_match
+906,Isorhamnetin-Opentosyldeoxyhexoside,,no_match,unresolved_script01_no_match
+906,Linoleamide I,,no_match,unresolved_script01_no_match
+906,Linoleamide II,,no_match,unresolved_script01_no_match
+906,Luteolin-O-hexoside-C-hexoside,,no_match,unresolved_script01_no_match
+906,Methoxycarotene,,no_match,unresolved_script01_no_match
+906,Naringenin di-O-hexoside,,no_match,unresolved_script01_no_match
+906,Nonadecanamide II,,no_match,unresolved_script01_no_match
+906,Ocatdecanoic acid II,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid I,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid II,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid III,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid IV,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid V,,no_match,unresolved_script01_no_match
+906,Octadecanedioic acid VI,,no_match,unresolved_script01_no_match
+906,Oleamide I,,no_match,unresolved_script01_no_match
+906,Oleamide II,,no_match,unresolved_script01_no_match
+906,Oxodecanedioic acid,,no_match,unresolved_script01_no_match
+906,Oxododecanedioic acid I,,no_match,unresolved_script01_no_match
+906,Oxododecanedioic acid II,,no_match,unresolved_script01_no_match
+906,Oxododecanedioic acid III,,no_match,unresolved_script01_no_match
+906,Oxotetracosanedioic acid,,no_match,unresolved_script01_no_match
+906,Palmitic acid I,,no_match,unresolved_script01_no_match
+906,Palmitic acid II,,no_match,unresolved_script01_no_match
+906,Palmitic acid III,,no_match,unresolved_script01_no_match
+906,Palmitoleamide I,,no_match,unresolved_script01_no_match
+906,Palmitoleamide II,,no_match,unresolved_script01_no_match
+906,Palmitoleic acid I,,no_match,unresolved_script01_no_match
+906,Palmitoleic acid II,,no_match,unresolved_script01_no_match
+906,Palmitoleic acid III,,no_match,unresolved_script01_no_match
+906,Pentacosanedioic acid I,,no_match,unresolved_script01_no_match
+906,Pentacosanedioic acid II,,no_match,unresolved_script01_no_match
+906,Phenylethyl-O-pentosyl hexoside (Icariside DC),,no_match,unresolved_script01_no_match
+906,Protocatechuic acid hexoside,,no_match,unresolved_script01_no_match
+906,Ricinoleic acid I,,no_match,unresolved_script01_no_match
+906,Ricinoleic acid II,,no_match,unresolved_script01_no_match
+906,Ricinoleic acid III,,no_match,unresolved_script01_no_match
+906,Ricinoleic acid IV,,no_match,unresolved_script01_no_match
+906,"Spiro (6,6-dimethyl-2,3-diazobicyclo[3.1.0] hex-2-ene-4,1'cyclopropane)",,no_match,unresolved_script01_no_match
+906,Stearic acid I,,no_match,unresolved_script01_no_match
+906,Stearic acid II,,no_match,unresolved_script01_no_match
+906,Stearidonic acid I,,no_match,unresolved_script01_no_match
+906,Stearidonic acid II,,no_match,unresolved_script01_no_match
+906,Tetradecanedioic acid I,,no_match,unresolved_script01_no_match
+906,Tetradecanedioic acid II,,no_match,unresolved_script01_no_match
+906,alpha-Calacorene I,,no_match,unresolved_script01_no_match
+906,alpha-Calacorene II,,no_match,unresolved_script01_no_match
+908,Sylvamide,,no_match,unresolved_script01_no_match
+203,9beta-Hydroxy-9-hydro-16-dehydro-12-methoxyibogamine-18-carboxylic acid methyl ester,,no_match,unresolved_script01_no_match
+203,Iso-voacangine,,no_match,unresolved_script01_no_match
+203,Mehranine,,no_match,unresolved_script01_no_match
+203,Pseudovobparicine,,no_match,unresolved_script01_no_match
+203,Voaharine,,no_match,unresolved_script01_no_match
+203,"dimethyl (2R,6R,13R,22S,23S,24S,35R,38R,39S)-13,24-diethyl-23,32-dihydroxy-30,31-dimethoxy-21-oxa-1,9,17,28-tetrazaundecacyclo[22.13.1.16,9.02,22.03,20.05,18.06,16.027,35.029,34.035,38.013,39]nonatriaconta-3,5(18),11,15,19,26,29,31,33-nonaene-15,26-dicarboxylate",,no_match,unresolved_script01_no_match
+203,"methyl (1S,10S,15R,17S,18S)-17-ethyl-10-hydroxy-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2,4,6,8-tetraene-1-carboxylate",,no_match,unresolved_script01_no_match
+203,"methyl (1S,14R,15Z,18S)-15-ethylidene-17-methyl-12-oxo-10,17-diazatetracyclo[12.3.1.03,11.04,9]octadeca-3(11),4,6,8-tetraene-18-carboxylate",,no_match,unresolved_script01_no_match
+203,"methyl (1S,17R)-17-(1-hydroxyethyl)-3,13-diazapentacyclo[13.3.1.02,10.04,9.013,18]nonadeca-2(10),4,6,8-tetraene-1-carboxylate",,no_match,unresolved_script01_no_match
+207,"3,6 hexahydroxydiphenoylglucose",,no_match,unresolved_script01_no_match
+207,3-O-?- D-glucopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+207,3-O-?- L -rhamnopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+207,4-O-?- L -2-acetylrhamnopyranoside,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss
+207,Cyanidin malonylglucoside,,no_match,unresolved_script01_no_match
+207,Dimethyl dihydromyricetin,,no_match,unresolved_script01_no_match
+207,Methyl dihydromyricetin,,no_match,unresolved_script01_no_match
+207,Peonidine,,no_match,unresolved_script01_no_match
+207,Peonidine 3-O-glucoside,,no_match,unresolved_script01_no_match
+207,Petunidine,,no_match,unresolved_script01_no_match
+207,"Petunidine 3,5-diglucoside",,no_match,unresolved_script01_no_match
+207,Petunidine 3-O-glucoside,,no_match,unresolved_script01_no_match
+207,Quercetin deoxyhexoside,,no_match,unresolved_script01_no_match
+207,gelatin,,no_match,unresolved_script01_no_match
+207,polyvinyl alcohol,,no_match,unresolved_script01_no_match
+207,starch,,no_match,unresolved_script01_no_match
+209,Gelomulide D,,no_match,unresolved_script01_no_match
+213,"3-[3,4-dimethoxy-6-methyl-5-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-5,14-dihydroxy-13-methyl-17-(5-oxo-2H-furan-3-yl)-2,3,4,6,7,8,9,11,12,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthrene-10-carbaldehyde",,no_match,unresolved_script01_no_match
+213,Sarmethoside,,no_match,unresolved_script01_no_match
+213,Strophanolloside,,no_match,unresolved_script01_no_match
+219,"(4S)-10,11-dimethoxyspiro[5-azatricyclo[6.3.1.04,12]dodeca-1(12),8,10-triene-2,4'-cyclohexa-2,5-diene]-1'-one",,no_match,unresolved_script01_no_match
+229,Sisalagenone,,no_match,unresolved_script01_no_match
+229,Torvogenin,,no_match,unresolved_script01_no_match
+229,Torvonin B,,no_match,unresolved_script01_no_match
+232,24-Methyl-31-norlanost-9(11)-enol,,no_match,unresolved_script01_no_match
+232,Aminoethylcysteine ketimine decarboxylated dimer,,no_match,unresolved_script01_no_match
+247,4-(5-Methyl-2-furyl)-3-buten-2-one,,no_match,unresolved_script01_no_match

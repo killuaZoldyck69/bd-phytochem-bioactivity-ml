@@ -1,0 +1,12 @@
+plant_index,compound_name_original,pubchem_cid_original,match_type,drop_reason
+602,"Androst-5-ene-3,19-diol, 3-acetate, (3-beta)-",,no_match,unresolved_script01_no_match
+386,n- Hexadecenoic acid,,no_match,unresolved_script01_no_match
+192,"1,3-Dioxolo[4,5-c]acridin-6(11 H)-one, 5- ethoxy-4-methoxy-11-methyl",,no_match,unresolved_script01_no_match
+906,Ocatdecanoic acid II,,no_match,unresolved_script01_no_match
+447,cis-Hexadec-9-enoic acid,,no_match,unresolved_script01_no_match
+192,"3,4-didehydro-1,1',2,2'-Tetrahydrol' hydroxylmethoxy",,no_match,unresolved_script01_no_match
+515,Apigenin-7-O-apiosylglucoside,,no_match,unresolved_script01_no_match
+602,trans-Z-alphabisabolene epoxide,,no_match,unresolved_script01_no_match
+95,4-(1E)-3-Hydroxy-1-propenyl,,no_match,unresolved_script01_no_match
+867,"3-Methyl-4,6-di-tert-Butyl Phenol",,no_match,unresolved_script01_no_match
+68,?-bergamotene,,skipped_encoding_loss,unresolved_script01_skipped_encoding_loss

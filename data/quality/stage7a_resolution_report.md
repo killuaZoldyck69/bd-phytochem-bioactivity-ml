@@ -1,10 +1,10 @@
 # Stage 7A: Chemical Structure Resolution Report
 
-**Execution Timestamp**: 2026-09-24T10:46:05.486826+00:00  
+**Execution Timestamp**: 2026-09-24T11:09:44.583840+00:00  
 **Master MPBD SHA-256 (Start & End)**: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7` (Integrity Verified)  
-**Total Runtime**: 45.10 seconds (0.75 minutes)  
-**Network Calls Made**: 28  
-**Cache Hits**: 11713  
+**Total Runtime**: 2.78 seconds (0.05 minutes)  
+**Network Calls Made**: 1  
+**Cache Hits**: 11719  
 
 ---
 
@@ -15,10 +15,10 @@
 | **`CID-based`** (Direct) | **7,082** | 66.53% | Directly resolved via numeric PubChem CID in BMPPD |
 | **`exact_match`** (Name) | **2,283** | 21.45% | Name-based lookup returning exactly 1 CID |
 | **`multiple_matches`** | **81** | 0.76% | Name-based lookup returning >1 CIDs (logged for review) |
-| **`no_match`** | **970** | 9.11% | PubChem returned 404 (no compound found for string) |
+| **`no_match`** | **977** | 9.18% | PubChem returned 404 (no compound found for string) |
 | **`skipped_nonspecific`** | **8** | 0.08% | Mixture/extract terms skipped without API call |
 | **`skipped_encoding_loss`**| **214** | 2.01% | Corrupted characters ('?', '\ufffd') skipped without API call |
-| **`fetch_error`** | **7** | 0.07% | Transient network errors remaining after 3 retry passes |
+| **`fetch_error`** | **0** | 0.00% | Transient network errors remaining after 3 retry passes |
 | **Total Workload Entities** | **10,645** | **100.00%** | |
 | **Total Resolved Entities** | **9,365** | **87.98%** | Structure resolved (`CID-based` + `exact_match`) |
 
@@ -282,15 +282,15 @@ Total Count: **214**
 
 ## 6. No-Match Structural Breakdown (`no_match`)
 
-Total Unresolved Names: **970**
+Total Unresolved Names: **977**
 
 | Category Pattern | Count | % of No-Match | Example Pattern |
 | :--- | :---: | :---: | :--- |
-| **Parenthetical or bracketed synonym** | **123** | 12.7% | `Compound Name (Synonym)` or `Name[Synonym]` |
-| **CAS-style inverted name** | **125** | 12.9% | `Silane, cyclohexyl dimethoxy methyl` |
-| **Parenthesized stereo descriptor prefix** | **61** | 6.3% | `(1R,2S)-...` or `(+)-...` |
+| **Parenthetical or bracketed synonym** | **126** | 12.9% | `Compound Name (Synonym)` or `Name[Synonym]` |
+| **CAS-style inverted name** | **127** | 13.0% | `Silane, cyclohexyl dimethoxy methyl` |
+| **Parenthesized stereo descriptor prefix** | **61** | 6.2% | `(1R,2S)-...` or `(+)-...` |
 | **Class or plural names** | **40** | 4.1% | `Flavonones`, `...derivatives` |
-| **Other / Misspelling / Obscure** | **621** | 64.0% | `Andrachcine` (misspelling), obscure metabolites |
+| **Other / Misspelling / Obscure** | **623** | 63.8% | `Andrachcine` (misspelling), obscure metabolites |
 
 ---
 

@@ -252,7 +252,7 @@ class PubChemResolver:
             else:
                 return "multiple_matches", cids, False
 
-        encoded_name = urllib.parse.quote(cleaned_name)
+        encoded_name = urllib.parse.quote(cleaned_name, safe="")
         url = f"{PUG_REST_BASE}/compound/name/{encoded_name}/cids/JSON"
 
         resp, err = self._get_with_retry(url)
@@ -280,10 +280,10 @@ class PubChemResolver:
             else:
                 return "multiple_matches", cids, False
 
-        elif resp.status_code == 404:
-            # Legitimate 404 from PubChem
+        elif resp.status_code in (400, 404):
+            # Legitimate 404 (Not Found) or 400 (Bad input/name syntax rejected by PubChem)
             with open(cache_file, "w", encoding="utf-8") as f:
-                json.dump({"name": cleaned_name, "status": 404, "cids": []}, f)
+                json.dump({"name": cleaned_name, "status": resp.status_code, "cids": []}, f)
             return "no_match", [], False
 
         else:
