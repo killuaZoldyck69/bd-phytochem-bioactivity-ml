@@ -366,10 +366,44 @@ F:\bmppd-thesis\
   - **Domain Shift**:
     - Labeled flora nearest-neighbour Tanimoto similarities to training pools (median 0.457–0.555) are drastically lower than training pool leave-one-out self-similarity (median 0.745–0.785).
     - Only 7.7%–12.7% of all 7,317 flora molecules share an analogue with $NN \ge 0.4$ in the ChEMBL training pools.
-    - Natural products represent only 3.8%–7.0% of ChEMBL training pool layers.
 - **Outputs**:
   - `data/processed/modeling/flora_provenance_review.csv` (100 rows)
   - `data/quality/provenance_and_domain_report.md`
+
+### 5.7 Stage 7A-2: Link-Confidence Audit & In-Domain Power Check
+- **Objective**: Conduct systematic name-versus-structure agreement audit for every plant-compound link (22,614 rows), classify link confidence into tiers (HIGH, MEDIUM, LOW), recalibrate labeled flora external sets after purging confirmed collisions, identify literature reference-compound candidates with clean DOIs, and execute an in-domain statistical power check across all 222 compound plants stratified by pain/inflammation indications.
+- **Constraints & Compliance**:
+  - `docs/thesis_design_note.md` adhered to as primary authority.
+  - ChEMBL 37 opened strictly read-only (`mode=ro`).
+  - Master MPBD SHA-256 verified at start and end: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`.
+  - Zero model training, zero dataset modifications to `data/raw/` or existing processed files, zero paper claims made (none read).
+- **Key Findings**:
+  - **Part A (Link-Confidence Classification)**:
+    - **HIGH (20,346 links, 89.97%)**: 15,258 CID synonym matches, 4,789 exact name lookups, 168 name/CID same connectivity, 131 name multi-matches same connectivity.
+    - **MEDIUM (1,366 links, 6.04%)**: 1,336 PubChem unresolvable names (mostly misspellings or non-chemical strings), 30 ambiguous multi-matches.
+    - **LOW (902 links, 3.99%)**: Confirmed upstream CID/name collisions resolving to different connectivity layers.
+  - **Part B (Link Quality & Recalibration)**:
+    - 17 of 222 plants lose >50% of links under HIGH-only filtering (e.g., Plant 21 *Benincasa hispida* and Plant 35 *Clitoria ternatea* due to massive upstream CID copy-paste errors).
+    - Group (ii) audit of 966 discordant layers: 488 (50.5%) are ALL HIGH (valid chemical synonyms/isomers), 210 (21.7%) contain confirmed LOW collisions, 268 (27.7%) are MEDIUM.
+    - Detailed layers: `IQPNAANSBPBGFQ` (Luteolin) has 34 HIGH links and 2 LOW links (Plant 623 Curcuma caesia and Plant 637 Zingiber zerumbet mislabeled sterols with Luteolin CID); `AEDDIBAIWPIIBD` (Mangiferin) has 4 HIGH and 1 LOW (Plant 626 ginger mislabeled Lycopene); `ZDWSNKPLZUXBPE` (3,5-di-tert-butylphenol) has 4 HIGH and 1 LOW (Plant 505 Diclofenac-Na typo).
+    - Recalibrated external flora evaluation sets (after purging LOW layers):
+      - COX-1: 32 -> 27 layers (T=6: 4 act / 23 inact; T=5: 12 act / 15 inact).
+      - COX-2: 25 -> 22 layers (T=6: 1 act / 19 inact; T=5: 6 act / 14 inact).
+      - XO: 30 -> 23 layers (T=6: 4 act / 17 inact; T=5: 13 act / 9 inact).
+      - MAO-A: 43 -> 36 layers (T=6: 11 act / 24 inact; T=5: 21 act / 14 inact).
+  - **Part C (Reference-Compound Candidates)**:
+    - 18 labeled flora layers have ChEMBL `max_phase >= 1` and appear in $\le 3$ plants (e.g. Suprofen, Allopurinol, Captopril, Disulfiram, Amphetamine, Methoxsalen, Capsaicin).
+    - All citations formatted with clean DOIs (all Sci-Hub/mirror URLs and redirect wrappers stripped) for manual paper verification.
+  - **Part D (In-Domain Power Check)**:
+    - Standardized using `pipeline/02_standardize_structures.py`'s `standardize_mol` (0 earlier NN figures changed).
+    - Missing 2 of 7,317 flora layers explained: `JATASMBSXKNAQR` (ferrocene stripped of Fe leaving unkekulizable radical anion) and `ISHQPQZAQICIAZ` (phosphonic acid explicit valence error).
+    - Under HIGH-tier links, at $NN \ge 0.3$, 212 of 222 plants (95.5%) retain $\ge 1$ in-domain compound for COX-1 (168 have $\ge 5$; 136 have $\ge 10$). At $NN \ge 0.4$, 195 plants retain $\ge 1$ (120 have $\ge 5$; 76 have $\ge 10$).
+    - In the pain/inflammation keyword proxy subset (122 plants), 68 plants have $\ge 5$ in-domain compounds at $NN \ge 0.4$ for COX-1 (compared to 52 for the 100 other plants).
+- **Outputs**:
+  - `data/processed/compounds/plant_compound_links_confidence.csv` (22,614 rows)
+  - `data/quality/link_confidence_and_power_report.md`
+  - `data/cache/pubchem/synonyms_batch_*.json` (142 files, 7,061 unique CIDs)
+  - `data/cache/pubchem/names/name_*.json` (1,501 newly cached names)
 
 ---
 
