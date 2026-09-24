@@ -1,0 +1,8 @@
+step,description,row_count,notes
+1_input_rows,Total input plant-compound pairs evaluated,50,"Limit: 50, Stratified: True"
+2_cid_based_input,Rows with valid numeric PubChem CID,25,Direct CID property lookup
+3_name_based_exact,Name lookup returning exactly 1 CID,23,Single exact match auto-accepted
+4_name_based_multiple,Name lookup returning >1 CIDs,1,"Logged for manual review, not auto-guessed"
+5_name_based_no_match,Name lookup returning 0 CIDs (404),1,PubChem has no record for this name
+6_skipped_nonspecific,Non-specific mixture or extract terms skipped,0,Skipped without API call
+7_structures_resolved,Rows successfully assigned a structure,48,Valid SMILES and InChIKey populated
