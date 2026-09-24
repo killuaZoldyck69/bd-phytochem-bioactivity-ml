@@ -40,9 +40,7 @@ import requests
 
 BASE_URL = "https://bmppd.org"
 
-# NOTE:
-# Replace this with your real research contact email.
-CONTACT_EMAIL = "YOUR_EMAIL@example.com"
+CONTACT_EMAIL = "nh694225@gmail.com"
 
 USER_AGENT = (
     "BMPPD-Thesis-Scraper/0.1 "
@@ -681,10 +679,6 @@ def main() -> None:
 
     for index, url in enumerate(all_page_urls, start=1):
         print(f"[{index}] {url}")
-
-    detail_urls = filter_detail_urls(
-        all_page_urls
-    )
 
     logger.info(
         "Potential plant/compound detail URLs: %d",

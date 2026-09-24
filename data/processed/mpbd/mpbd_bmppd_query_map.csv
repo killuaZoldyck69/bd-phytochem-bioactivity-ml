@@ -1,0 +1,917 @@
+plant_index,raw_mpbd_name,name_pattern,bmpdd_query_name,query_source,query_status,transformation_notes
+1,Piper betle L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper betle,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+2,Piper cubeba Vahl,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper cubeba,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+3,Berberis aristata DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Berberis aristata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+4,Papaver somniferum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Papaver somniferum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+5,Artocarpus heterophyllus Lam.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Artocarpus heterophyllus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+6,Ficus racemosa L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus racemosa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+7,Morus indica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Morus indica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+8,Juglans regia L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Juglans regia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+9,Boerhavia diffusa L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boerhavia diffusa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+10,Boerhavia repens L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boerhavia repens,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+11,Mirabilis jalapa L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mirabilis jalapa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+12,Opuntia dellenii (Ker Gawl.) Haw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Opuntia dellenii,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+13,Achyranthes aspera L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Achyranthes aspera,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+14,Plumbago indica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Plumbago indica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+15,Vateria indica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vateria indica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+16,Mesua ferrea L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mesua ferrea,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+17,Helicteres isora L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Helicteres isora,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+18,Abelmoschus esculentus (L.) Moench,BINOMIAL_PARENTHETICAL_AUTHORITY,Abelmoschus esculentus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+19,Gossypium arboreum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gossypium arboreum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+20,Viola odorata L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Viola odorata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+21,Benincasa hispida (Thunb.) Cogn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Benincasa hispida,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+22,Citrullus colocynthis (L.) Schard.,BINOMIAL_PARENTHETICAL_AUTHORITY,Citrullus colocynthis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+23,Momordica dioica Roxb. ex Willd.,MULTI_AUTHOR_OR_COMPLEX,Momordica dioica,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+24,Mukia maderaspatana (L.) M. Roem,BINOMIAL_PARENTHETICAL_AUTHORITY,Mukia maderaspatana,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+25,Brassica juncea (L.) Czern.,BINOMIAL_PARENTHETICAL_AUTHORITY,Brassica juncea,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+26,Raphanus raphanistrum subsp. SATIVUS(L.) Domin.,INFRASPECIFIC_SUBSP,Raphanus raphanistrum subsp. SATIVUS,OFFLINE_RULE,READY,Preserved species binomial and subsp. rank + epithet; stripped author citations.
+27,Moringa oleifera Lam.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Moringa oleifera,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+28,Diospyros malabarica(desr.) Kostel.,BINOMIAL_PARENTHETICAL_AUTHORITY,Diospyros malabarica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+29,Cydonia oblonga Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cydonia oblonga,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+30,Prunus amygdalus Stokes,SIMPLE_BINOMIAL_WITH_AUTHORITY,Prunus amygdalus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+31,Acacia nilotica (L.) Delile subsp. INDICA(Benth) Brenan,INFRASPECIFIC_SUBSP,Acacia nilotica subsp. INDICA,OFFLINE_RULE,READY,Preserved species binomial and subsp. rank + epithet; stripped author citations.
+32,Entada phaseoloides (L.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Entada phaseoloides,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+33,Mimosa pudica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mimosa pudica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+34,Saraca asoca (Roxb.) Wild.,BINOMIAL_PARENTHETICAL_AUTHORITY,Saraca asoca,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+35,Clitoria ternatea L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Clitoria ternatea,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+36,Glycyrrhiza glabra L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Glycyrrhiza glabra,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+37,Mucuna pruriens (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Mucuna pruriens,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+38,Pterocarpus SANTALINUS L. f.,MULTI_AUTHOR_OR_COMPLEX,Pterocarpus SANTALINUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+39,Sesbania bispinosa (Jacq.) W.Wight,BINOMIAL_PARENTHETICAL_AUTHORITY,Sesbania bispinosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+40,Sesbania grandiflora (L.) Poir,BINOMIAL_PARENTHETICAL_AUTHORITY,Sesbania grandiflora,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+41,Sesbania sesban (L.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Sesbania sesban,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+42,Trigonella foenum-graeceum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Trigonella foenum-graeceum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+43,Lagerstroemia speciosa(l.) Pers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lagerstroemia speciosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+44,Eucalyptus globulus Labill,SIMPLE_BINOMIAL_WITH_AUTHORITY,Eucalyptus globulus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+45,Mentha arvensis L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mentha arvensis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+46,Mentha spicata L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mentha spicata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+47,Pogostemon PUBESCENS Benth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pogostemon PUBESCENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+48,Rhinacanthus nasutus (L.) Kurz,BINOMIAL_PARENTHETICAL_AUTHORITY,Rhinacanthus nasutus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+49,Sesamum indicum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sesamum indicum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+50,Nelumbium speciosum Willd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nelumbium speciosum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+51,Rubia cordifolia L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Rubia cordifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+52,Artemisia absinthium L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Artemisia absinthium,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+53,Eclipta prostrata (L.) L.,BINOMIAL_PARENTHETICAL_AUTHORITY,Eclipta prostrata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+54,Cyperus rotandus L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyperus rotandus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+55,Saccharum officinarum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Saccharum officinarum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+56,Hordeum vulgare L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hordeum vulgare,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+57,Elettaria cardamomum (L.) Maton.,BINOMIAL_PARENTHETICAL_AUTHORITY,Elettaria cardamomum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+58,Crocus sativus L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crocus sativus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+59,Santalum album L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Santalum album,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+60,Macaranga peltata (Roxb.)Muell.-Arg.,BINOMIAL_PARENTHETICAL_AUTHORITY,Macaranga peltata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+61,Mallotus philippensis (Lam.) Muell.-Arg.,BINOMIAL_PARENTHETICAL_AUTHORITY,Mallotus philippensis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+62,Phyllanthus niruri L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phyllanthus niruri,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+63,Vitis vinifera L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vitis vinifera,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+64,Sapindus saponaria L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sapindus saponaria,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+65,Schleichera oleosa (Lour.)Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Schleichera oleosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+66,Commiphora mukul (HOOK. EX STOCKS) ENGL.,BINOMIAL_PARENTHETICAL_AUTHORITY,Commiphora mukul,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+67,Semecarpus anacardium L. F.,MULTI_AUTHOR_OR_COMPLEX,Semecarpus anacardium,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+68,Citrus limon (L.) Osbeck,BINOMIAL_PARENTHETICAL_AUTHORITY,Citrus limon,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+69,Citrus medica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Citrus medica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+70,Citrus reticulata Blanco,SIMPLE_BINOMIAL_WITH_AUTHORITY,Citrus reticulata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+71,Murraya koenigii (L.)Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Murraya koenigii,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+72,Peganum harmala L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Peganum harmala,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+73,Anethum sowa Roxb.ex Fleming,MULTI_AUTHOR_OR_COMPLEX,Anethum sowa,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+74,Carum carvi L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Carum carvi,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+75,Ferula foetida (Bunge) Regel,BINOMIAL_PARENTHETICAL_AUTHORITY,Ferula foetida,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+76,Trachyspermum roxburghianum (DC.) H.Wolff,BINOMIAL_PARENTHETICAL_AUTHORITY,Trachyspermum roxburghianum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+77,Strychnos potatorum L. f.,MULTI_AUTHOR_OR_COMPLEX,Strychnos potatorum,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+78,Holarrhena pubescens Wall.ex G.Don,MULTI_AUTHOR_OR_COMPLEX,Holarrhena pubescens,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+79,Tabernamontana divaricata (L.)R.Br. ex Roem.& Schult.,BINOMIAL_PARENTHETICAL_AUTHORITY,Tabernamontana divaricata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+80,Wrightia tinctoria R. Brown,MULTI_AUTHOR_OR_COMPLEX,Wrightia tinctoria,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+81,Gymnema sylvestre (Retz.)R.Br. ex Sm.,BINOMIAL_PARENTHETICAL_AUTHORITY,Gymnema sylvestre,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+82,Atropa belladonna L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Atropa belladonna,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+83,Datura stramonium L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Datura stramonium,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+84,Solanum lycopersicum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum lycopersicum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+85,Solanum indicum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum indicum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+86,Ipomoea nil (L.) Roth,BINOMIAL_PARENTHETICAL_AUTHORITY,Ipomoea nil,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+87,Gmelina arborea Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gmelina arborea,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+88,Premna serratifolia L..,SIMPLE_BINOMIAL_WITH_AUTHORITY,Premna serratifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+89,Sapindus SAPONARIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sapindus SAPONARIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+90,Schleichera oleosa (Lour.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Schleichera oleosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+91,Abelmoschus ESCULENTUS (L.) Moench,BINOMIAL_PARENTHETICAL_AUTHORITY,Abelmoschus ESCULENTUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+92,Abelmoschus MOSCHATUS Medik.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Abelmoschus MOSCHATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+93,Abroma AUGUSTA (L.) L.f.,BINOMIAL_PARENTHETICAL_AUTHORITY,Abroma AUGUSTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+94,Abrus PRECATORIUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Abrus PRECATORIUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+95,Abutilon INDICUM (L.) Sweet,BINOMIAL_PARENTHETICAL_AUTHORITY,Abutilon INDICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+96,Acacia CATECHU (L.f.) Willd.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acacia CATECHU,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+97,Acacia FARNESIANA (L.) Willd.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acacia FARNESIANA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+98,Acacia NILOTICA (L.) Willd. ex Del. ssp. INDICA (Benth.) Brenan.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acacia NILOTICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+99,Acacia PENNATA (L.) Willd.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acacia PENNATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+100,Acacia concinna (WILLD.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acacia concinna,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+101,Acalypha INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Acalypha INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+102,Acampe praemorsa (Roxb.) Blatt. & McCann,BINOMIAL_PARENTHETICAL_AUTHORITY,Acampe praemorsa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+103,Acanthus ILICIFOLIUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Acanthus ILICIFOLIUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+104,Achyranthes ASPERA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Achyranthes ASPERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+105,Acorus CALAMUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Acorus CALAMUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+106,Acronychia PEDUNCULATA (L.) Miq.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acronychia PEDUNCULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+107,Actinodaphne gullavara (Buch.-Ham. ex Nees) M.R.Almeida,BINOMIAL_PARENTHETICAL_AUTHORITY,Actinodaphne gullavara,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+108,Adenanthera PAVONINA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Adenanthera PAVONINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+109,Justicia adhatoda L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Justicia adhatoda,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+110,Adiantum capillus-veneris L,SIMPLE_BINOMIAL_WITH_AUTHORITY,Adiantum capillus-veneris,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+111,Adiantum INCISUM Forssk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Adiantum INCISUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+112,Adiantum LUNULATUM Burm. F.,MULTI_AUTHOR_OR_COMPLEX,Adiantum LUNULATUM,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+113,Haldina cordifolia (Roxb.) Ridsdale,BINOMIAL_PARENTHETICAL_AUTHORITY,Haldina cordifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+114,Aegle MARMELOS (L.) Corr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Aegle MARMELOS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+115,Aganosma DICHOTOMA (Roth) K. Schum.,BINOMIAL_PARENTHETICAL_AUTHORITY,Aganosma DICHOTOMA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+116,Ageratum CONYZOIDES L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ageratum CONYZOIDES,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+117,Alangium SALVIFOLIUM (L. f.) Wang.,BINOMIAL_PARENTHETICAL_AUTHORITY,Alangium SALVIFOLIUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+118,Albizia CHINENSIS (Osbeck) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Albizia CHINENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+119,Albizzia LEBBECK (L.) Benth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Albizzia LEBBECK,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+120,Albizia ODORATISSIMA (L. f.) Benth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Albizia ODORATISSIMA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+121,Albizia PROCERA (Roxb.) Benth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Albizia PROCERA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+122,Allamanda CATHARTICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Allamanda CATHARTICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+123,Allium CEPA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Allium CEPA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+124,Allium SATIVUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Allium SATIVUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+125,Ziziphus RUGOSA Lam.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ziziphus RUGOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+126,Zizyphus oenoplia Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zizyphus oenoplia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+127,Ziziphus jujuba Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ziziphus jujuba,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+128,Zingiber ZERUMBET (L.) Roscoe ex Sm.,BINOMIAL_PARENTHETICAL_AUTHORITY,Zingiber ZERUMBET,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+129,Zingiber OFFICINALE Rose.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zingiber OFFICINALE,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+130,Zingiber MONTANUM (Koenig) Dietrich.,BINOMIAL_PARENTHETICAL_AUTHORITY,Zingiber MONTANUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+131,Zeuxine STRATEUMATICA Schlechter.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zeuxine STRATEUMATICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+132,Zea MAYS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zea MAYS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+133,Zanthoxylum RHETSA (Roxb.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Zanthoxylum RHETSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+134,Zanthoxylum NITIDUM (Roxb.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Zanthoxylum NITIDUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+135,Zanonia INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zanonia INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+136,Xylyocarpus MOLUCCENSIS (Lam.) M.Roem.,BINOMIAL_PARENTHETICAL_AUTHORITY,Xylyocarpus MOLUCCENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+137,Xylocarpus GRANATUM Koen.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Xylocarpus GRANATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+138,Tamilnadia uliginosa (Retz.) Tirveng. & Sastre,BINOMIAL_PARENTHETICAL_AUTHORITY,Tamilnadia uliginosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+139,Catunaregam spinosa (Thunb.) Tirveng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Catunaregam spinosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+140,Xanthium strumarium L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Xanthium strumarium,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+141,Wrightia ARBOREA (Dennst.) Mabb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Wrightia ARBOREA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+142,Woodfordia FRUTICOSA (L.) Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Woodfordia FRUTICOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+143,Withania SOMNIFERA (L.) Dunal.,BINOMIAL_PARENTHETICAL_AUTHORITY,Withania SOMNIFERA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+144,Wikstroemia INDICA (L.) C.A. Mey.,BINOMIAL_PARENTHETICAL_AUTHORITY,Wikstroemia INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+145,Sphagneticola calendulacea (L.) Pruski.,BINOMIAL_PARENTHETICAL_AUTHORITY,Sphagneticola calendulacea,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+146,Dregea volubilis (L.f.) Benth. ex Hook.f.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dregea volubilis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+147,Vitis PENTAGONA (Roxb.) Lawson.,BINOMIAL_PARENTHETICAL_AUTHORITY,Vitis PENTAGONA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+148,Vitex TRIFOLIA L. f.,MULTI_AUTHOR_OR_COMPLEX,Vitex TRIFOLIA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+149,Vitex pinnata L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vitex pinnata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+150,Vitex PEDUNCULARIS Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vitex PEDUNCULARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+151,Vitex NEGUNDO L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vitex NEGUNDO,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+152,Viscum cruciatum Sieber ex Boiss.,MULTI_AUTHOR_OR_COMPLEX,Viscum cruciatum,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+153,Vigna UNGUICULATA (L.) Walp.,BINOMIAL_PARENTHETICAL_AUTHORITY,Vigna UNGUICULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+154,Vigna RADIATA (L.) Wilczek.,BINOMIAL_PARENTHETICAL_AUTHORITY,Vigna RADIATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+155,Vigna MUNGO (L.) Hepper,BINOMIAL_PARENTHETICAL_AUTHORITY,Vigna MUNGO,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+156,Chrysopogon zizanioides (L.) Roberty.,BINOMIAL_PARENTHETICAL_AUTHORITY,Chrysopogon zizanioides,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+157,Vernonia PATULA (Dryand.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Vernonia PATULA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+158,Vanda TESSELLATA (Roxb.) Hook. ex G. Don.,BINOMIAL_PARENTHETICAL_AUTHORITY,Vanda TESSELLATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+159,Vallisneria SPIRALIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Vallisneria SPIRALIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+160,Uvaria HAMILTONII Hook. f. & Thom.,MULTI_AUTHOR_OR_COMPLEX,Uvaria HAMILTONII,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+161,Drimia indica (Roxb.) Jessop.,BINOMIAL_PARENTHETICAL_AUTHORITY,Drimia indica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+162,Urena LOBATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Urena LOBATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+163,Urena SINUATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Urena SINUATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+164,Uraria PICTA (Jacq.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Uraria PICTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+165,Uraria LAGOPODIOIDES (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Uraria LAGOPODIOIDES,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+166,Typhonium TRILOBATUM (L.) Schott.,BINOMIAL_PARENTHETICAL_AUTHORITY,Typhonium TRILOBATUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+167,Typha ELEPHANTINA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Typha ELEPHANTINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+168,Tylophora INDICA (Burm.f.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Tylophora INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+169,Triumfetta RHOMBOIDEA Jacq.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Triumfetta RHOMBOIDEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+170,Trigonella FOENUM-GRAECUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Trigonella FOENUM-GRAECUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+171,Tridax PROCUMBENS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tridax PROCUMBENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+172,Trichosanthes DIOICA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Trichosanthes DIOICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+173,Trichosanthes CUCUMERINA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Trichosanthes CUCUMERINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+174,Trichosanthes BRACTEATA (Lam.) Voigt.,BINOMIAL_PARENTHETICAL_AUTHORITY,Trichosanthes BRACTEATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+175,Tribulus TERRESTRIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tribulus TERRESTRIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+176,Trianthema PORTULACASTRUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Trianthema PORTULACASTRUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+177,Mallotus polycarpus (Benth.) Kulju & Welzen.,BINOMIAL_PARENTHETICAL_AUTHORITY,Mallotus polycarpus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+178,Trevesia PALMATA (Roxb. ex Lindl.) Vis.,BINOMIAL_PARENTHETICAL_AUTHORITY,Trevesia PALMATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+179,Trema ORIENTALIS (L.) Bl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Trema ORIENTALIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+180,Trapa natans var. bispinosa (Roxb.) Makino,INFRASPECIFIC_VAR,Trapa natans var. bispinosa,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+181,Tragia INVOLUCRATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tragia INVOLUCRATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+182,Torenia ASIATICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Torenia ASIATICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+183,Toona CILIATA J. Roem.,MULTI_AUTHOR_OR_COMPLEX,Toona CILIATA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+184,Toddalia ASIATICA (L.) Lam.,BINOMIAL_PARENTHETICAL_AUTHORITY,Toddalia ASIATICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+185,Tinospora CRISPA Miers.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tinospora CRISPA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+186,Tinospora sinensis (Lour.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Tinospora sinensis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+187,Tiliacora racemosa Colebr.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tiliacora racemosa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+188,Thunbergia GRANDIFLORA (Roxb. ex Rottl.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Thunbergia GRANDIFLORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+189,Cascabela thevetia (L.) Lippold.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cascabela thevetia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+190,Thespesia POPULNEA (L.) Sol. ex Corr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Thespesia POPULNEA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+191,Terminalia CITRINA Flaming.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Terminalia CITRINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+192,Terminalia CHEBULA Retz.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Terminalia CHEBULA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+193,Terminalia CATAPPA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Terminalia CATAPPA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+194,Terminalia BILLIRICA (Gaertn.)Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Terminalia BILLIRICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+195,Terminalia ARJUNA (Roxb. ex DC.) Wight & Arn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Terminalia ARJUNA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+196,Tephrosia PURPUREA (L.) Pers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Tephrosia PURPUREA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+197,Tectona grandis L.f.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tectona grandis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+198,Tamarix INDICA Willd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tamarix INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+199,Tamarix DIOICA Roxb. ex Roth.,MULTI_AUTHOR_OR_COMPLEX,Tamarix DIOICA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+200,Tamarindus INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tamarindus INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+201,Tagetes ERECTA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tagetes ERECTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+202,Tacca INTEGRIFOLIA Ker.-Gawl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Tacca INTEGRIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+203,Tabernaemontana DIVARICATA (L.) R.Br. ex Roem. & Schult.,BINOMIAL_PARENTHETICAL_AUTHORITY,Tabernaemontana DIVARICATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+204,Syzygium nervosum A.Cunn. ex DC.,MULTI_AUTHOR_OR_COMPLEX,Syzygium nervosum,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+205,Syzygium JAMBOS (L.) Alston.,BINOMIAL_PARENTHETICAL_AUTHORITY,Syzygium JAMBOS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+206,Syzygium FRUTICOSUM DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Syzygium FRUTICOSUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+207,Syzygium CUMINI (L.) Skeel.,BINOMIAL_PARENTHETICAL_AUTHORITY,Syzygium CUMINI,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+208,Symplocos RACEMOSA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Symplocos RACEMOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+209,Suregada MULTIFLORA (A. Juss.) Baill.,BINOMIAL_PARENTHETICAL_AUTHORITY,Suregada MULTIFLORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+210,Strychnos NUX-VOMICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Strychnos NUX-VOMICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+211,Strobilanthes AURICULATUS Nees.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Strobilanthes AURICULATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+212,Striga asiatica (L.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Striga asiatica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+213,Streblus ASPER Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Streblus ASPER,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+214,Stereospermum chelonoides (L.f.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Stereospermum chelonoides,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+215,Stereospermum tetragonum DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Stereospermum tetragonum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+216,Sterculia VILLOSA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sterculia VILLOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+217,Sterculia FOETIDA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sterculia FOETIDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+218,Stephania JAPONICA (Thunb.) Miers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Stephania JAPONICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+219,Stephania GLABRA (Roxb.) Miers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Stephania GLABRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+220,Stachytarpheta INDICA Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Stachytarpheta INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+221,Spondias PINNATA (L.f.) Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Spondias PINNATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+222,Spinacia OLERACEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Spinacia OLERACEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+223,Acmella paniculata (Wall. ex DC.) R.K.Jansen.,BINOMIAL_PARENTHETICAL_AUTHORITY,Acmella paniculata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+224,Sphaeranthus INDICUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sphaeranthus INDICUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+225,Sonneratia CASEOLARIS (L.) Engl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Sonneratia CASEOLARIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+226,Sonchus WIGHTIANUS DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sonchus WIGHTIANUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+227,Solanum VIRGINIANUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum VIRGINIANUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+228,Solanum VIOLACEUM Ortega,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum VIOLACEUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+229,Solanum TORVUM Swartz.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum TORVUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+230,Solanum SISYMBRIFOLIUM Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum SISYMBRIFOLIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+231,Solanum americanum Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum americanum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+232,Solanum MELONGENA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Solanum MELONGENA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+233,Solanum ERIANTHUM D. Don.,MULTI_AUTHOR_OR_COMPLEX,Solanum ERIANTHUM,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+234,Smilax ZEYLANICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Smilax ZEYLANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+235,Smilax PERFOLIATA Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Smilax PERFOLIATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+236,Smilax GLABRA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Smilax GLABRA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+237,Sida ORIENTALIS Cav.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sida ORIENTALIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+238,Sida CORDIFOLIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sida CORDIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+239,Sida CORDATA (Burm. f. ) Borssum.,BINOMIAL_PARENTHETICAL_AUTHORITY,Sida CORDATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+240,Sida ACUTA Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Sida ACUTA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+241,Shorea ROBUSTA Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Shorea ROBUSTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+242,Setaria ITALICA (L.) Beauv.,BINOMIAL_PARENTHETICAL_AUTHORITY,Setaria ITALICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+243,Seseli DIFFUSUM (Roxb.ex Sm.)Sant. & Wagh.,BINOMIAL_PARENTHETICAL_AUTHORITY,Seseli DIFFUSUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+244,Sesbania SESBAN (L.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Sesbania SESBAN,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+245,Sesbania GRANDIFLORA Pers.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sesbania GRANDIFLORA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+246,Sesbania ACULEATA Pers.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sesbania ACULEATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+247,Sesamum INDICUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sesamum INDICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+248,Semecarpus ANACARDIUM L.f.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Semecarpus ANACARDIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+249,Scoparia DULCIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Scoparia DULCIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+250,Scindapsus OFFICINALIS (Roxb.) Schott.,BINOMIAL_PARENTHETICAL_AUTHORITY,Scindapsus OFFICINALIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+251,Schoenoplectus ARTICULATUS (L.) Palla,BINOMIAL_PARENTHETICAL_AUTHORITY,Schoenoplectus ARTICULATUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+252,Schoenoplectus GROSSUS (L.f.) Palla.,BINOMIAL_PARENTHETICAL_AUTHORITY,Schoenoplectus GROSSUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+253,Schleichera OLEOSA (Lour.) Oken,BINOMIAL_PARENTHETICAL_AUTHORITY,Schleichera OLEOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+254,Scaphium WALLICHII Schott. & Endl.,MULTI_AUTHOR_OR_COMPLEX,Scaphium WALLICHII,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+255,Saussurea AFFINIS Spreng.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Saussurea AFFINIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+256,Sarcochlamys PULCHERRIMA Gaud.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sarcochlamys PULCHERRIMA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+257,Saraca ASOCA (Roxb.) De Wilde.,BINOMIAL_PARENTHETICAL_AUTHORITY,Saraca ASOCA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+258,Sapindus MUKOROSSI Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sapindus MUKOROSSI,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+259,Sansevieria ROXBURGHIANA Schult.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sansevieria ROXBURGHIANA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+260,Sambucas JAVANICA Reinw. ex Blume.,MULTI_AUTHOR_OR_COMPLEX,Sambucas JAVANICA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+261,Salvia PLEBEIA R. Br.,MULTI_AUTHOR_OR_COMPLEX,Salvia PLEBEIA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+262,Salix TETRASPERMA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Salix TETRASPERMA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+263,Sagittaria SAGITTIFOLIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sagittaria SAGITTIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+264,Saccharum SPONTANEUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Saccharum SPONTANEUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+265,Saccharum OFFICINARUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Saccharum OFFICINARUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+266,Saccharum ARUNDINACEUM Rets.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Saccharum ARUNDINACEUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+267,Rungia PECTINATA (L.) Nees.,BINOMIAL_PARENTHETICAL_AUTHORITY,Rungia PECTINATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+268,Rumex VESICARIUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Rumex VESICARIUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+269,rumex MARITIMUS L,SIMPLE_BINOMIAL_WITH_AUTHORITY,rumex MARITIMUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+270,Ruellia SUFFRUTICOSA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ruellia SUFFRUTICOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+271,Rourea COMMUTATA Planch.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Rourea COMMUTATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+272,Ricinus COMMUNIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ricinus COMMUNIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+273,RHYNCHOTECHUM ELLIPTICUM (Wall. ex D. Dietr.) A. DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,RHYNCHOTECHUM ELLIPTICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+274,rhizophora MUCRONATA Lam.,SIMPLE_BINOMIAL_WITH_AUTHORITY,rhizophora MUCRONATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+275,Rhinacanthus NASUTA (L.) Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Rhinacanthus NASUTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+276,Reinwardtia indica Dumort.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Reinwardtia indica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+277,Rauvolfia TETRAPHYLLA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Rauvolfia TETRAPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+278,Rauvolfia SERPENTINA (L.) Benth. ex Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Rauvolfia SERPENTINA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+279,Ranunculus SCELERATUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ranunculus SCELERATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+280,Oxyceros longiflorus (Lam.) T.Yamaz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Oxyceros longiflorus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+281,aidia DENSIFLORA (Wall.) Masam.,BINOMIAL_PARENTHETICAL_AUTHORITY,aidia DENSIFLORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+282,Combretum indicum (L.) De Filipps.,BINOMIAL_PARENTHETICAL_AUTHORITY,Combretum indicum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+283,Punica GRANATUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Punica GRANATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+284,Pueraria TUBEROSA (Willd.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pueraria TUBEROSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+285,Pterygota ALATA (Roxb.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pterygota ALATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+286,Pterospermum ACERIFOLIUM (L.) Willd.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pterospermum ACERIFOLIUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+287,Psidium GUAJAVA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Psidium GUAJAVA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+288,Premna CORYMBOSA Rottler & Willd.,MULTI_AUTHOR_OR_COMPLEX,Premna CORYMBOSA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+289,Premna ESCULENTA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Premna ESCULENTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+290,Pouzolzia ZEYLANICA (L.) Benn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pouzolzia ZEYLANICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+291,Pothos SCANDENS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pothos SCANDENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+292,Portulaca OLERACEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Portulaca OLERACEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+293,polygonum PLEBEIUM R. Br.,MULTI_AUTHOR_OR_COMPLEX,polygonum PLEBEIUM,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+294,Polygala ARVENSIS Willd,SIMPLE_BINOMIAL_WITH_AUTHORITY,Polygala ARVENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+295,Polyalthia LONGIFOLIA (Sonn.) Thw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Polyalthia LONGIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+296,Polianthes TUBEROSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Polianthes TUBEROSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+297,Pogostemon PUBESCENCE Benth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pogostemon PUBESCENCE,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+298,Pogostemon BENGHALENSE (Burm.f.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pogostemon BENGHALENSE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+299,Plumeria RUBRA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Plumeria RUBRA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+300,Plumbago ZEYLANICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Plumbago ZEYLANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+301,Plumbago INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Plumbago INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+302,Pithecellobium DULCE (Roxb.) Benth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pithecellobium DULCE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+303,Archidendron clypearia (Jack) I.C.Nielsen.,BINOMIAL_PARENTHETICAL_AUTHORITY,Archidendron clypearia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+304,Pisum SATIVUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pisum SATIVUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+305,Pistia STRATIOTES L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pistia STRATIOTES,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+306,Piper RETROFRACTUM Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper RETROFRACTUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+307,Piper NIGRUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper NIGRUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+308,Piper LONGUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper LONGUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+309,Piper BETEL L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper BETEL,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+310,Picrasma JAVANICA Bl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Picrasma JAVANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+311,Physalis minima L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Physalis minima,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+312,Phyllanthus virgatus G.Forst.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phyllanthus virgatus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+313,Phyllanthus URINARIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phyllanthus URINARIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+314,Phyllanthus RETICULATUS Poir.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phyllanthus RETICULATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+315,Phyllanthus MADERASPATENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phyllanthus MADERASPATENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+316,. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),OTHER_REVIEW,PHYLLANTHUS EMBLICA,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Stripped leading period and extraneous family annotation in parentheses
+317,Phyllanthus amarus Schumach. & Thonn.,MULTI_AUTHOR_OR_COMPLEX,Phyllanthus amarus,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+318,Phyllanthus acidus (L.) Skeels.,BINOMIAL_PARENTHETICAL_AUTHORITY,Phyllanthus acidus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+319,Phyla NODIFLORA (L.) Greene.,BINOMIAL_PARENTHETICAL_AUTHORITY,Phyla NODIFLORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+320,Phragmites karka (Retz.) Trin. ex Steud.,BINOMIAL_PARENTHETICAL_AUTHORITY,Phragmites karka,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+321,Phoenix sylvestris (L.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Phoenix sylvestris,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+322,Phlogacanthus THYRSIFLORUS Nees.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Phlogacanthus THYRSIFLORUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+323,Persicaria ORIENTALIS (L.) Spach.,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria ORIENTALIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+324,Persicaria hydropiper (L.) Delarbre .,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria hydropiper,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+325,Persicaria GLABRA (Willd.) Gomez de la Maza,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria GLABRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+326,Persicaria BARBATA (L.) Hara,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria BARBATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+327,Pericamphylus GLAUCUS (Lamk.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pericamphylus GLAUCUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+328,Pergularia DAEMIA (Forssk.) Chiov.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pergularia DAEMIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+329,Peperomia pellucida (L.) Kunth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Peperomia pellucida,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+330,Euphorbia tithymaloides L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euphorbia tithymaloides,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+331,Pavetta INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pavetta INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+332,Passiflora FOETIDA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Passiflora FOETIDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+333,Parsonia SPIRALIS Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Parsonia SPIRALIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+334,Pandanus odorifer (Forssk.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pandanus odorifer,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+335,Paederia LANUGINOSA Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Paederia LANUGINOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+336,Paederia FOETIDA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Paederia FOETIDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+337,Oxystelma SECAMONE (L.) Karst.,BINOMIAL_PARENTHETICAL_AUTHORITY,Oxystelma SECAMONE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+338,Oxalis CORNICULATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Oxalis CORNICULATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+339,Oryza SATIVA L. .,MULTI_AUTHOR_OR_COMPLEX,Oryza SATIVA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+340,Orthosiphon aristatus (Blume) Miq.,BINOMIAL_PARENTHETICAL_AUTHORITY,Orthosiphon aristatus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+341,Oroxylum INDICUM (L.) Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Oroxylum INDICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+342,Orobanche AEGYPTIACA Pers.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Orobanche AEGYPTIACA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+343,Opuntia ELATIOR Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Opuntia ELATIOR,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+344,Ophiorrhiza rugosa VAR. PROSTRATA (D.Don) Deb & Mondal.,INFRASPECIFIC_VAR,Ophiorrhiza rugosa var. PROSTRATA,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+345,Operculina TURPETHUM (L.) Silva.- Manso.,BINOMIAL_PARENTHETICAL_AUTHORITY,Operculina TURPETHUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+346,Ocimum tenuiflorum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ocimum tenuiflorum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+347,Ocium GRATISSIMUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ocium GRATISSIMUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+348,Ocimum BASILICUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ocimum BASILICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+349,Ocimum AMERICANUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ocimum AMERICANUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+350,discladium SQUARROSUM (L.) Tiegh.,BINOMIAL_PARENTHETICAL_AUTHORITY,discladium SQUARROSUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+351,Nymphoides HYDROPHYLLA (Lour.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Nymphoides HYDROPHYLLA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+352,Nymphaea nouchali Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Nymphaea nouchali,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+353,Nymphaea NOUCHALI Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Nymphaea NOUCHALI,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+354,Nyctanthes ARBOR-TRISTIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nyctanthes ARBOR-TRISTIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+355,Nipa FRUTICANS Wurmb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nipa FRUTICANS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+356,Nigella SATIVA L,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nigella SATIVA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+357,Nicotiana TABACUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nicotiana TABACUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+358,Nicotiana RUSTICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nicotiana RUSTICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+359,Nerium oleander L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nerium oleander,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+360,Nelumbo NUCIFERA Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Nelumbo NUCIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+361,Neonauclea sessilifolia (Roxb.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Neonauclea sessilifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+362,Rorippa indica (L.) Hiern.,BINOMIAL_PARENTHETICAL_AUTHORITY,Rorippa indica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+363,Myrica ESCULENTA Buch.-Ham,SIMPLE_BINOMIAL_WITH_AUTHORITY,Myrica ESCULENTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+364,Mussaenda ROXBURGHII Hook. f.,MULTI_AUTHOR_OR_COMPLEX,Mussaenda ROXBURGHII,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+365,Mussaenda GLABRATA Hutch.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mussaenda GLABRATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+366,Musa PARADISIACA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Musa PARADISIACA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+367,Musa ORNATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Musa ORNATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+368,Murraya PANICULATA (L.) Jacq.,BINOMIAL_PARENTHETICAL_AUTHORITY,Murraya PANICULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+369,Murraya KOENIGII (L.) Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Murraya KOENIGII,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+370,Murdania NUDIFLORA (L.) Breman.,BINOMIAL_PARENTHETICAL_AUTHORITY,Murdania NUDIFLORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+371,Mucuna PRURIENS (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Mucuna PRURIENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+372,Mucuna MONOSPERMA DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mucuna MONOSPERMA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+373,Morus INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Morus INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+374,Moringa OLEIFERA Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Moringa OLEIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+375,Morinda CITRIFOLIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Morinda CITRIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+376,Morinda ANGUSTIFOLIA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Morinda ANGUSTIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+377,Monochoria VAGINALIS (Burm. f.) Presl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Monochoria VAGINALIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+378,Monochoria HASTATA (L.) Solms.,BINOMIAL_PARENTHETICAL_AUTHORITY,Monochoria HASTATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+379,Momordica DIOICA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Momordica DIOICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+380,Momordica COCHINCHINENSIS Spreng.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Momordica COCHINCHINENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+381,Momordica CHARANTEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Momordica CHARANTEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+382,Mollugo PENTAPHYLLA L. (),OTHER_REVIEW,Mollugo PENTAPHYLLA,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Stripped trailing empty parentheses and author citation 'L.'
+383,Molineria CAPITULATA (Loureiro) Herbert.,BINOMIAL_PARENTHETICAL_AUTHORITY,Molineria CAPITULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+384,Mitragyna PARVIFOLIA (Roxb.) Korth.,BINOMIAL_PARENTHETICAL_AUTHORITY,Mitragyna PARVIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+385,Mirabilis JALAPA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mirabilis JALAPA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+386,Mimusops ELENGI L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mimusops ELENGI,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+387,Mimosa PUDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mimosa PUDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+388,Mikania CORDATA (Burm. f.) Rob,BINOMIAL_PARENTHETICAL_AUTHORITY,Mikania CORDATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+389,Michelia CHAMPACA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Michelia CHAMPACA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+390,Meyna SPINOSA Roxb. ex. Link.,MULTI_AUTHOR_OR_COMPLEX,Meyna SPINOSA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+391,Mesua NAGESSARIUM (Burm.) Kost. (),OTHER_REVIEW,Mesua NAGESSARIUM,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Stripped trailing empty parentheses and parenthetical/combining author citations
+392,Merremia VITIFOLIA (Burm. f.) Hallier f.,BINOMIAL_PARENTHETICAL_AUTHORITY,Merremia VITIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+393,Mentha ARVENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mentha ARVENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+394,Memecylon UMBELLATUM Burm.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Memecylon UMBELLATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+395,Melothria HETEROPHYLLA Cogn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Melothria HETEROPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+396,Melochia CORCHORIFOLIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Melochia CORCHORIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+397,Melilotus ALBA Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Melilotus ALBA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+398,Melia SEMPERVIRENS (L.) All.,BINOMIAL_PARENTHETICAL_AUTHORITY,Melia SEMPERVIRENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+399,Melastoma MALABATHRICUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Melastoma MALABATHRICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+400,Martynia ANNUA (Hous.) L.,BINOMIAL_PARENTHETICAL_AUTHORITY,Martynia ANNUA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+401,Marsdenia TINCTORA (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Marsdenia TINCTORA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+402,Maranta ARUNDINACEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Maranta ARUNDINACEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+403,Manilkara ZAPOTA (L.) Royen.,BINOMIAL_PARENTHETICAL_AUTHORITY,Manilkara ZAPOTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+404,Manilkara HEXANDRA (Roxb.) Dub.,BINOMIAL_PARENTHETICAL_AUTHORITY,Manilkara HEXANDRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+405,Manihot ESCULENTA Crantz.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Manihot ESCULENTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+406,Mangifera laurina Blume.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mangifera laurina,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+407,Mangifera INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mangifera INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+408,Mallotus ROXBURGHIANUS Muel-Arg.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mallotus ROXBURGHIANUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+409,Mallotus PHILIPPINENSIS Muell-Arg.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Mallotus PHILIPPINENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+410,Maesa INDICA Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Maesa INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+411,Maesa ACUMINATA DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Maesa ACUMINATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+412,Madhuca longifolia VAR. LATIFOLIA (Roxb.) A.Chev.,INFRASPECIFIC_VAR,Madhuca longifolia var. LATIFOLIA,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+413,Macrotyloma uniflorum (Lam.) Verde.,BINOMIAL_PARENTHETICAL_AUTHORITY,Macrotyloma uniflorum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+414,Macrosolen COCHINCHINENSIS (Lour.) Van Teigh.,BINOMIAL_PARENTHETICAL_AUTHORITY,Macrosolen COCHINCHINENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+415,Macaranga DENTICULATA Muell.-Arg.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Macaranga DENTICULATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+416,Lygodium MICROPHYLLUM (Cau.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lygodium MICROPHYLLUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+417,Lygodium JAPONICUM (Thunb.) Sw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lygodium JAPONICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+418,Lygodium FLEXUOSUM Sw.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lygodium FLEXUOSUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+419,Lygodium CIRCINATUM (Burm.) Sw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lygodium CIRCINATUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+420,Lycopersicon LYCOPERSICUM (L.) Karsten,BINOMIAL_PARENTHETICAL_AUTHORITY,Lycopersicon LYCOPERSICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+421,Luvunga SCANDENS Buch.-Ham.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Luvunga SCANDENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+422,Luffa CYLINDRICA (L.) Roem.,BINOMIAL_PARENTHETICAL_AUTHORITY,Luffa CYLINDRICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+423,Luffa ACUTANGULA (L.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Luffa ACUTANGULA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+424,Ludwigia ADSCENDENS (L.) Hara.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ludwigia ADSCENDENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+425,Litsea MONOPETALA (Roxb.) Pers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Litsea MONOPETALA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+426,Litsea LANCIFOLIA (Roxb.ex Nees) Fern.-Vill,BINOMIAL_PARENTHETICAL_AUTHORITY,Litsea LANCIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+427,Litsea GLUTIONSA (Lour.) Rob.,BINOMIAL_PARENTHETICAL_AUTHORITY,Litsea GLUTIONSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+428,Litchi CHINESIS Sonn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Litchi CHINESIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+429,Linum USITATISSIMUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Linum USITATISSIMUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+430,Lindenbergia INDICA Vatke,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lindenbergia INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+431,Limnophila INDICA (L.) Druce.,BINOMIAL_PARENTHETICAL_AUTHORITY,Limnophila INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+432,Leucas zeylanica (L.) W.T.Aiton.,BINOMIAL_PARENTHETICAL_AUTHORITY,Leucas zeylanica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+433,Leucas LAVANDULIFOLIA Sm.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Leucas LAVANDULIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+434,Leucas CEPHALOTES (Roth.) Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Leucas CEPHALOTES,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+435,Leucas ASPERA (Willd.) Link.,BINOMIAL_PARENTHETICAL_AUTHORITY,Leucas ASPERA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+436,Leonurus SIBIRICUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Leonurus SIBIRICUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+437,Lens CULINARIS Medik.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lens CULINARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+438,Leea MACROPHYLLA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Leea MACROPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+439,Leea INDICA (Burm. f.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Leea INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+440,Leea asiatica (L.) Ridsdale.,BINOMIAL_PARENTHETICAL_AUTHORITY,Leea asiatica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+441,Leea AEQUATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Leea AEQUATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+442,Lawsonia INERMIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lawsonia INERMIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+443,Launaea SARMENTOSA (Willd.) Sch.-Bip.,BINOMIAL_PARENTHETICAL_AUTHORITY,Launaea SARMENTOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+444,Launaea ASPLENIIFOLIA Hook. f.,MULTI_AUTHOR_OR_COMPLEX,Launaea ASPLENIIFOLIA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+445,Lasia SPINOSA (L.) Thw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lasia SPINOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+446,Dendrocnide sinuata (Blume) Chew.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dendrocnide sinuata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+447,Lantana CAMARA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lantana CAMARA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+448,Lannea COROMANDELICA (Houtt.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lannea COROMANDELICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+449,Lagerstroemia speciosa (L.) Pers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lagerstroemia speciosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+450,Lagerstroemia INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Lagerstroemia INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+451,Lageneria SICERARIA (Molina) Standl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lageneria SICERARIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+452,Lablab PURPUREUS (L.) Sweet.,BINOMIAL_PARENTHETICAL_AUTHORITY,Lablab PURPUREUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+453,Bryophyllum pinnatum (Lam.) Oken.,BINOMIAL_PARENTHETICAL_AUTHORITY,Bryophyllum pinnatum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+454,Kaempferia ROTUNDA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Kaempferia ROTUNDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+455,Kaempferia PARVIFLORA Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Kaempferia PARVIFLORA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+456,Alpinia sessilis J.Koenig,SIMPLE_BINOMIAL_WITH_AUTHORITY,Alpinia sessilis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+457,justicia JAPONICA Thunb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,justicia JAPONICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+458,Justicia GENDARUSSA Burm.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Justicia GENDARUSSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+459,Jatropha GOSSYPIFOLIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Jatropha GOSSYPIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+460,. JATROPHA CURCAS L.,OTHER_REVIEW,JATROPHA CURCAS,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Stripped leading period and author citation 'L.'
+461,Jasminum SCANDENS Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Jasminum SCANDENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+462,Jasminum SAMBAC (L.) Ait.,BINOMIAL_PARENTHETICAL_AUTHORITY,Jasminum SAMBAC,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+463,Jasminum ANGUSTIFOLIUM Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Jasminum ANGUSTIFOLIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+464,Ixora NIGRICANS R. Br. ex Wight & Arn.,MULTI_AUTHOR_OR_COMPLEX,Ixora NIGRICANS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+465,Ixora CUNEIFOLIA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ixora CUNEIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+466,Ixora COCCINEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ixora COCCINEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+467,Ixora pavetta Andr.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ixora pavetta,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+468,Isodon LOPHANTHOIDES (Buch.-Ham. ex D. Don.) Hara,BINOMIAL_PARENTHETICAL_AUTHORITY,Isodon LOPHANTHOIDES,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+469,ipomoea QUAMOCLIT L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,ipomoea QUAMOCLIT,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+470,Ipomoea PES -TIGRIDIS L.,MULTI_AUTHOR_OR_COMPLEX,Ipomoea PES,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+471,Ipomoea PES-CAPRAE (L.) R.Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ipomoea PES-CAPRAE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+472,Ipomoea OBSCURA Ker-Gawl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ipomoea OBSCURA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+473,Ipomoea MAXIMA (L.f.) Don. ex. Sweef.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ipomoea MAXIMA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+474,Ipomoea MAURITIANA Jacq.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ipomoea MAURITIANA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+475,Ipomoea BATATUS (L.) Lamk.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ipomoea BATATUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+476,Ipomoea AQUATICA Forsk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ipomoea AQUATICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+477,Ipomoea ALBA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ipomoea ALBA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+478,Indigofera TINCTORIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Indigofera TINCTORIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+479,Imperata CYLINDRICA Rausch.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Imperata CYLINDRICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+480,Impatiens BALSAMINA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Impatiens BALSAMINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+481,Ichnocarpus FRUTESCENS (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ichnocarpus FRUTESCENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+482,Hyptis SUAVEOLENS (L.) Poit.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hyptis SUAVEOLENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+483,Hypericum JAPONICUM Thunb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hypericum JAPONICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+484,Hymenodictyon ORIXENSIS (Roxb.) Mabberly,BINOMIAL_PARENTHETICAL_AUTHORITY,Hymenodictyon ORIXENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+485,Hygroryza ARISTATA (Retz.) Nees.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hygroryza ARISTATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+486,Hygrophila AURICULATA (Schum.) Heyne.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hygrophila AURICULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+487,Hydrolea ZEYLANICA Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hydrolea ZEYLANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+488,Hydnocarpus KURZII (King.) Warb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hydnocarpus KURZII,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+489,Hybanthus ENNEASPERMUS (L.) F. Muell.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hybanthus ENNEASPERMUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+490,Hoya PARASITICA Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hoya PARASITICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+491,Hopea ODORATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hopea ODORATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+492,Homalomena aromatica (Spreng.) Schott.,BINOMIAL_PARENTHETICAL_AUTHORITY,Homalomena aromatica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+493,Holarrhena PUBESCENCE (Buch.-Ham.) Wall.,BINOMIAL_PARENTHETICAL_AUTHORITY,Holarrhena PUBESCENCE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+494,Hiptage BENGHALENSIS (L.) Kurz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hiptage BENGHALENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+495,Hibiscus TILLIACEUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus TILLIACEUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+496,Hibiscus SURATTENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus SURATTENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+497,Hibiscus SABDARIFFA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus SABDARIFFA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+498,Hibiscus ROSA-SINENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus ROSA-SINENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+499,Hibiscus MUTABILIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus MUTABILIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+500,Hibiscus CANABINUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hibiscus CANABINUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+501,Schefflera hypoleuca (Kurz) Harms.,BINOMIAL_PARENTHETICAL_AUTHORITY,Schefflera hypoleuca,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+502,Hemigraphis HIRTA (Vahl.) And.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hemigraphis HIRTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+503,Hemidesmus INDICUS (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hemidesmus INDICUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+504,Helminthostachys ZEYLANICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Helminthostachys ZEYLANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+505,Heliotropium INDICUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Heliotropium INDICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+506,Helicteres ISORA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Helicteres ISORA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+507,Helianthus ANNUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Helianthus ANNUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+508,Hedyotis SCANDENS Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hedyotis SCANDENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+509,Oldenlandia diffusa (Willd.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Oldenlandia diffusa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+510,Oldenlandia corymbosa L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Oldenlandia corymbosa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+511,Hedychium CORONARIUM Koenig,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hedychium CORONARIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+512,Peristylus constrictus (Lindl.) Lindl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Peristylus constrictus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+513,Gynocardia ORORATA R. Br.,MULTI_AUTHOR_OR_COMPLEX,Gynocardia ORORATA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+514,Gymnopetalum chinense (Lour.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Gymnopetalum chinense,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+515,Grewia asiatica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Grewia asiatica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+516,Grewia SCLEROPHYLLA Roxb. ex Don.,MULTI_AUTHOR_OR_COMPLEX,Grewia SCLEROPHYLLA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+517,Grewia nervosa (Lour.) Panigrahi.,BINOMIAL_PARENTHETICAL_AUTHORITY,Grewia nervosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+518,Grangea MADERESPATANA (L.) Poir.,BINOMIAL_PARENTHETICAL_AUTHORITY,Grangea MADERESPATANA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+519,Gossypium HERBACIUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gossypium HERBACIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+520,Gomphrena GLOBOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gomphrena GLOBOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+521,Gnetum MONTANUM Markgraf,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gnetum MONTANUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+522,Laphangium luteoalbum (L.) Tzvelev.,BINOMIAL_PARENTHETICAL_AUTHORITY,Laphangium luteoalbum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+523,Glycosmis PENTAPHYLLA (Retz.) A. DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Glycosmis PENTAPHYLLA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+524,Gmelina ARBOREA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gmelina ARBOREA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+525,Gloriosa SUPERBA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gloriosa SUPERBA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+526,Glochidion LANCEOLARIUM (Roxb.) Dalz.,BINOMIAL_PARENTHETICAL_AUTHORITY,Glochidion LANCEOLARIUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+527,Glinus OPPOSITIFOLIUS (L.) A. DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Glinus OPPOSITIFOLIUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+528,Garuga PINNATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Garuga PINNATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+529,Gardenia RESINIFERA Roth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gardenia RESINIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+530,Gardenia JASMINOIDES Ellis.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gardenia JASMINOIDES,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+531,Gardenia CORONARIA Ham.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Gardenia CORONARIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+532,Ceriscoides campanulata (Roxb.) Tirveng,BINOMIAL_PARENTHETICAL_AUTHORITY,Ceriscoides campanulata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+533,Garcinia XANTHOCHYMUS Hook. f.,MULTI_AUTHOR_OR_COMPLEX,Garcinia XANTHOCHYMUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+534,Garcinia COWA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Garcinia COWA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+535,Foeniculum VULGARE Mill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Foeniculum VULGARE,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+536,Floscopa SCANDENS Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Floscopa SCANDENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+537,Flemingia STROBILIFERA R.Br.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Flemingia STROBILIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+538,Flemingia MACROPHYLLA (Willd.) O.Ktze. ex Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Flemingia MACROPHYLLA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+539,Flacourtia JANGOMAS (Lour.) Raeus.,BINOMIAL_PARENTHETICAL_AUTHORITY,Flacourtia JANGOMAS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+540,Flacourtia INDICA (Burm.f.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Flacourtia INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+541,Firmiana COLORATA R. Br.,MULTI_AUTHOR_OR_COMPLEX,Firmiana COLORATA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+542,Ficus SEMICORDATA Buch.-Ham. ex Smith.,MULTI_AUTHOR_OR_COMPLEX,Ficus SEMICORDATA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+543,Ficus RELIGIOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus RELIGIOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+544,Ficus RACEMOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus RACEMOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+545,Ficus HISPIDA L. f.,MULTI_AUTHOR_OR_COMPLEX,Ficus HISPIDA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+546,Ficus BENJAMINA L. var. comosa (Roxb.) Kurz.,INFRASPECIFIC_VAR,Ficus BENJAMINA var. comosa,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+547,Ficus BENGHALENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus BENGHALENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+548,Feronia LIMONIA (L.) Sw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Feronia LIMONIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+549,Shirakiopsis indica (Willd.) Esser,BINOMIAL_PARENTHETICAL_AUTHORITY,Shirakiopsis indica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+550,Excoecaria AGALLOCHA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Excoecaria AGALLOCHA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+551,Euryale FEROX Salisb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euryale FEROX,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+552,Eurya ACUMINATA DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Eurya ACUMINATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+553,Euphorbia TIRUCALLI L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euphorbia TIRUCALLI,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+554,Euphorbia THYMIFOLIA Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Euphorbia THYMIFOLIA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+555,Euphorbia HIRTA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euphorbia HIRTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+556,Euphorbia ANTIQUORUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euphorbia ANTIQUORUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+557,Ayapana triplinervis (Vahl) R.M.King & H.Rob.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ayapana triplinervis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+558,Eupatorium ODORATUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Eupatorium ODORATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+559,Graphorchis campestris (Wall.) Kuntze,BINOMIAL_PARENTHETICAL_AUTHORITY,Graphorchis campestris,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+560,Etlingera LINGUIFORMIS (Roxb.) R.M. Smith,BINOMIAL_PARENTHETICAL_AUTHORITY,Etlingera LINGUIFORMIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+561,Erythrina VARIEGATA L. var. orientalis (L.) Merr.,INFRASPECIFIC_VAR,Erythrina VARIEGATA var. orientalis,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+562,Hippochaete debilis (Roxb. ex Vaucher) Ching.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hippochaete debilis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+563,Entada rheedii Spreng.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Entada rheedii,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+564,Cissampelos PAREIRA L. Var. hirsuta (Buch. ex Dc.) Forman,INFRASPECIFIC_VAR,Cissampelos PAREIRA var. hirsuta,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+565,Cissus ADNATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cissus ADNATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+566,Enhydra FLUCTUANS Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Enhydra FLUCTUANS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+567,Emilia SONCHIFOLIA DC. ex DC.,MULTI_AUTHOR_OR_COMPLEX,Emilia SONCHIFOLIA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+568,Embelia RIBES Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Embelia RIBES,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+569,Elsholtzia stachyodes (Link) Raizada & H.O.Saxena,BINOMIAL_PARENTHETICAL_AUTHORITY,Elsholtzia stachyodes,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+570,Eleusine INDICA (L.) Gaertn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Eleusine INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+571,Elephantopus SCABER L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Elephantopus SCABER,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+572,Elaeocarpus SPHAERICUS (Gaertn.) K. Schum.,BINOMIAL_PARENTHETICAL_AUTHORITY,Elaeocarpus SPHAERICUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+573,Elaeocarpus FLORIBUNDUS Blume.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Elaeocarpus FLORIBUNDUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+574,Eichhornia CRASSIPES (Mart.) Solms.,BINOMIAL_PARENTHETICAL_AUTHORITY,Eichhornia CRASSIPES,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+575,Ecbolium VIRIDE (Forsk.) Alst.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ecbolium VIRIDE,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+576,Dysoxylum HAMILTONII Hiern.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dysoxylum HAMILTONII,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+577,Pogostemon auricularius (L.) Hassk.,BINOMIAL_PARENTHETICAL_AUTHORITY,Pogostemon auricularius,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+578,Putranjiva roxburghii Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Putranjiva roxburghii,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+579,Drynaria QUERCIFOLIA (L.) J. Sm.,BINOMIAL_PARENTHETICAL_AUTHORITY,Drynaria QUERCIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+580,Drosera BURMANII Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Drosera BURMANII,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+581,Dodonaea VISCOSA (L.) Jacq.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dodonaea VISCOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+582,Dipterocarpus TURBINATUS C.F Gaertn.,MULTI_AUTHOR_OR_COMPLEX,Dipterocarpus TURBINATUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+583,Dipterocarpus GRACILIS Bl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dipterocarpus GRACILIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+584,Dipterocarpus ALATUS Roxb. ex G. Don.,MULTI_AUTHOR_OR_COMPLEX,Dipterocarpus ALATUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+585,Diploclisia GLAUCESCENS (Bl.) Diels.,BINOMIAL_PARENTHETICAL_AUTHORITY,Diploclisia GLAUCESCENS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+586,Diospyros MONTANA Roxb. Var. CORDIFOLIA (Roxb.) Heirn.,INFRASPECIFIC_VAR,Diospyros MONTANA var. CORDIFOLIA,OFFLINE_RULE,READY,Preserved species binomial and var. rank + epithet; stripped species and varietal authors.
+587,Diospyros MALABARICA (Desr.) Kostel,BINOMIAL_PARENTHETICAL_AUTHORITY,Diospyros MALABARICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+588,Diosocorea PENTAPHYLLA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Diosocorea PENTAPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+589,Dioscorea HISPIDA Dennstedt,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dioscorea HISPIDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+590,Dioscorea HAMILTONII Hook. f.,MULTI_AUTHOR_OR_COMPLEX,Dioscorea HAMILTONII,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+591,Dioscorea BULBIFERA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dioscorea BULBIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+592,Dioscorea BELOPHYLLA (Prain) Haines,BINOMIAL_PARENTHETICAL_AUTHORITY,Dioscorea BELOPHYLLA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+593,Dioscorea ALATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dioscorea ALATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+594,Dimocarpus LONGAN Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dimocarpus LONGAN,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+595,Dillenia PENTAGYNA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dillenia PENTAGYNA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+596,Dillenia INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dillenia INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+597,Digera ALTERNIFOLIA Asch.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Digera ALTERNIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+598,Desmodium TRIFLORUM (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Desmodium TRIFLORUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+599,Desmodium styracifolium (Osbeck) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Desmodium styracifolium,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+600,Phyllodium PULCHELLUM (L.) Desv.,BINOMIAL_PARENTHETICAL_AUTHORITY,Phyllodium PULCHELLUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+601,Desmodium HETEROCARPON (L.) A. DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Desmodium HETEROCARPON,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+602,Desmodium GANGETICUM (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Desmodium GANGETICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+603,Derris TRIFOLIATA Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Derris TRIFOLIATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+604,Derris ROBUSTA Benth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Derris ROBUSTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+605,Derris INDICA (Lamk.) Bennet.,BINOMIAL_PARENTHETICAL_AUTHORITY,Derris INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+606,Derris ELLIPTICA Benth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Derris ELLIPTICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+607,Dendrophthoe FALCATA (L. f.) Ett.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dendrophthoe FALCATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+608,Dendrocalamus STRICTUS (Roxb.) Nees.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dendrocalamus STRICTUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+609,Daucus CAROTA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Daucus CAROTA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+610,Datura METEL L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Datura METEL,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+611,Dalbergia VOLUBILIS Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia VOLUBILIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+612,Dalbergia STIPULACEA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia STIPULACEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+613,Dalbergia SPINOSA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia SPINOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+614,Dalbergia SISSOO Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia SISSOO,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+615,Dalbergia LATIFOLIA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia LATIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+616,Dalbergia LANCEOLARIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dalbergia LANCEOLARIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+617,Dactyloctenium AEGYPTIUM (L.) Beauv.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dactyloctenium AEGYPTIUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+618,Cyperus SCARIOSUS Br.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyperus SCARIOSUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+619,Cyperus ROTUNDUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyperus ROTUNDUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+620,Cyperus IRIA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyperus IRIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+621,Cyperus ARTICULATUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyperus ARTICULATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+622,Cynometra RAMIFLORA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cynometra RAMIFLORA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+623,Cynodon DACTYLON (L.)Pers.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cynodon DACTYLON,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+624,Cymbopogon CITRATUS (DC.) Stapf.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cymbopogon CITRATUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+625,Cymbidium ALOIFOLIUM (L.) Sw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cymbidium ALOIFOLIUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+626,Cuscuta REFLEXA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cuscuta REFLEXA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+627,Cuscuta HYALINA Roth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cuscuta HYALINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+628,Curcuma ZEDOARIA Rosc.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma ZEDOARIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+629,Curcuma LONGA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma LONGA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+630,Curcuma CAESIA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma CAESIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+631,Curcuma AROMATICA Salisb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma AROMATICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+632,Curcuma ANGUSTIFOLIA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma ANGUSTIFOLIA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+633,Curcuma AMADA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curcuma AMADA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+634,Curculigo ORCHIOIDES Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Curculigo ORCHIOIDES,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+635,Cuminum CYMINUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cuminum CYMINUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+636,Cullen CORYLIFOLIA (L.) Medic.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cullen CORYLIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+637,Cucurbita MAXIMA Duch.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cucurbita MAXIMA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+638,Cucumis SATIVUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cucumis SATIVUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+639,Cucumis MELO L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cucumis MELO,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+640,Cryptolepis dubia (Burm.f.) M.R.Almeida,BINOMIAL_PARENTHETICAL_AUTHORITY,Cryptolepis dubia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+641,Cryptocoryne spiralis (Retz.) Fisch. ex Wydler,BINOMIAL_PARENTHETICAL_AUTHORITY,Cryptocoryne spiralis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+642,Croton TIGLIUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Croton TIGLIUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+643,croton PERSIMILIS Müll.Arg.,SIMPLE_BINOMIAL_WITH_AUTHORITY,croton PERSIMILIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+644,Croton CAUDATUS Geisel.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Croton CAUDATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+645,Croton BONPLANDIANUM Baill.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Croton BONPLANDIANUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+646,Crotalaria VERRUCOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria VERRUCOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+647,Crotalaria SPECTABILIS Roth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria SPECTABILIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+648,Crotalaria RETUSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria RETUSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+649,Crotalaria PROSTRATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria PROSTRATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+650,Crotalaria PALLIDA Ait.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria PALLIDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+651,Crotalaria JUNCEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria JUNCEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+652,Crotalaria CALYCINA Schrank,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crotalaria CALYCINA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+653,Crotalaria ALBIDA Heyne ex Roth.,MULTI_AUTHOR_OR_COMPLEX,Crotalaria ALBIDA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+654,crotalaria ALATA D.Don,SIMPLE_BINOMIAL_WITH_AUTHORITY,crotalaria ALATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+655,Crossandra INFUNDIBULIFORMIS (L.) Nees.,BINOMIAL_PARENTHETICAL_AUTHORITY,Crossandra INFUNDIBULIFORMIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+656,Crinum viviparum (Lam.) R.Ansari & V.J.Nair,BINOMIAL_PARENTHETICAL_AUTHORITY,Crinum viviparum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+657,Crinum ASIATICUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crinum ASIATICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+658,Crateva religiosa G.Forst.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Crateva religiosa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+659,Crassocephalum CREPIDIOIDES (Benth.) Moore,BINOMIAL_PARENTHETICAL_AUTHORITY,Crassocephalum CREPIDIOIDES,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+660,Cheilocostus SPECIOSUS (J.Koenig) C.D.Specht,BINOMIAL_PARENTHETICAL_AUTHORITY,Cheilocostus SPECIOSUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+661,Coriandrum SATIVUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Coriandrum SATIVUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+662,Cordia DICHOTOMA Forst. f.,MULTI_AUTHOR_OR_COMPLEX,Cordia DICHOTOMA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+663,Corchorus OLITORIUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corchorus OLITORIUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+664,Corchorus FASICULARIS Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corchorus FASICULARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+665,Corchorus CAPSULARIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corchorus CAPSULARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+666,Commiphora madagascariensis Jacq.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Commiphora madagascariensis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+667,Commelina SUFFRUTICOSA Bl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Commelina SUFFRUTICOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+668,Commelina PALUDOSA Bl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Commelina PALUDOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+669,Commelina DIFFUSA Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Commelina DIFFUSA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+670,Commelina BENGHALENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Commelina BENGHALENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+671,Colocasia ESCULENTA (L.) Schott.,BINOMIAL_PARENTHETICAL_AUTHORITY,Colocasia ESCULENTA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+672,Colocasia AFFINIS Schott.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Colocasia AFFINIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+673,Plectranthus amboinicus (Lour.) Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Plectranthus amboinicus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+674,Coix LACHRYMA - JOBI L.,MULTI_AUTHOR_OR_COMPLEX,Coix LACHRYMA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+675,Cocos NUCIFERA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cocos NUCIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+676,Cocculus HIRSUTUS (L.) W.Theob.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cocculus HIRSUTUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+677,Coccinia GRANDIS (L.) Voigt.,BINOMIAL_PARENTHETICAL_AUTHORITY,Coccinia GRANDIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+678,Clitoria TARNETEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Clitoria TARNETEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+679,Clerodendrum laevifolium Blume.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Clerodendrum laevifolium,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+680,Clerodendrum INFORTUNATUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Clerodendrum INFORTUNATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+681,Volkameria inermis L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Volkameria inermis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+682,Clerodendrum INDICUM (L.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Clerodendrum INDICUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+683,Cleome VISCOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cleome VISCOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+684,Cleome GYNANDRA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cleome GYNANDRA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+685,Clausena HEPTAPHYLLA (Roxb.) Wight.& Arn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Clausena HEPTAPHYLLA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+686,Clausena EXCAVATA Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Clausena EXCAVATA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+687,Citrus maxima (Burm.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Citrus maxima,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+688,Citrus AURANTIFOLIA (Christ.) Sw.,BINOMIAL_PARENTHETICAL_AUTHORITY,Citrus AURANTIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+689,Citrullus lanatus (Thunb.) Matsum. & Nakai,BINOMIAL_PARENTHETICAL_AUTHORITY,Citrullus lanatus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+690,Cissus REPENS Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cissus REPENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+691,Cissus REPENDA(Wight & Arn.) Vahl.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cissus REPENDA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+692,Cissus QUADRANGULARIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cissus QUADRANGULARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+693,Cissus ELONGATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cissus ELONGATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+694,Cissus ASSAMICA (Lawson) Craib.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cissus ASSAMICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+695,Allium TUBEROSUM Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Allium TUBEROSUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+696,Allophylus DIMORPHUS Radlk. .,MULTI_AUTHOR_OR_COMPLEX,Allophylus DIMORPHUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+697,Alocasia INDICA (Roxb.) Schott.,BINOMIAL_PARENTHETICAL_AUTHORITY,Alocasia INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+698,Aloe BARBADENSIS Mill,SIMPLE_BINOMIAL_WITH_AUTHORITY,Aloe BARBADENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+699,Alpinia CALCARATA Rosc.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Alpinia CALCARATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+700,Alpinia CONCHIGERA Griff.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Alpinia CONCHIGERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+701,Alpinia MALACCENSIS Rosc.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Alpinia MALACCENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+702,Alpinia NIGRA (Gaertn.) Burtt.,BINOMIAL_PARENTHETICAL_AUTHORITY,Alpinia NIGRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+703,Alstonia SCHOLARIS (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Alstonia SCHOLARIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+704,Alternanthera SESSILIS (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Alternanthera SESSILIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+705,Amaranthus SPINOSUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amaranthus SPINOSUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+706,Amaranthus VIRIDIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amaranthus VIRIDIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+707,Amischophacelus AXILLARIS (L.) R. R. & K.,BINOMIAL_PARENTHETICAL_AUTHORITY,Amischophacelus AXILLARIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+708,Ammannia BACCIFERA L,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ammannia BACCIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+709,Amomum AROMATICUM Roxb,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amomum AROMATICUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+710,Amomum COSTATUM Benth.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amomum COSTATUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+711,Amoora CUCULATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amoora CUCULATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+712,Amorphophallus CAMPANULATUS (Roxb.) Bl. ex. Decne.,BINOMIAL_PARENTHETICAL_AUTHORITY,Amorphophallus CAMPANULATUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+713,Ampelocissus BARBATA (Wall.) Planch.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ampelocissus BARBATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+714,Ampelocissus LATIFOLIA (Roxb.) Planch.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ampelocissus LATIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+715,Anacardium OCCIDENTALE L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Anacardium OCCIDENTALE,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+716,Anagallis ARVENSIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Anagallis ARVENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+717,Anamirta COCCULUS (L.) W. & A.,BINOMIAL_PARENTHETICAL_AUTHORITY,Anamirta COCCULUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+718,Ananas SATIVUS Schult. f.,MULTI_AUTHOR_OR_COMPLEX,Ananas SATIVUS,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+719,Andrographis PANICULATA (Burm. f.) Wall. ex Ness.,BINOMIAL_PARENTHETICAL_AUTHORITY,Andrographis PANICULATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+720,Anisomeles INDICA (L.) Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Anisomeles INDICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+721,Annona RETICULATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Annona RETICULATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+722,Annona SQUAMOSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Annona SQUAMOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+723,Anodendron MANUBRIATUM (Wall.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Anodendron MANUBRIATUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+724,Anthocephalus CHINENSIS (Lamk.) Rich. ex Walp.,BINOMIAL_PARENTHETICAL_AUTHORITY,Anthocephalus CHINENSIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+725,Antidesma ROXBURGHII Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Antidesma ROXBURGHII,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+726,Aphanamixis POLYSTACHYA (Wall.) R.N. Parker.,BINOMIAL_PARENTHETICAL_AUTHORITY,Aphanamixis POLYSTACHYA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+727,Aquilaria MALACCENSIS Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Aquilaria MALACCENSIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+728,Arachis HYPOGEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Arachis HYPOGEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+729,Ardisia PANICULATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ardisia PANICULATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+730,Ardisia SOLANACEA (Poir.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ardisia SOLANACEA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+731,Areca CATECHU L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Areca CATECHU,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+732,Argemone MAXICANA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Argemone MAXICANA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+733,Argyreia CAPITIFORMIS (Poir.) Oostr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Argyreia CAPITIFORMIS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+734,Argyreia NERVOSA (Burm. f.) Boj.,BINOMIAL_PARENTHETICAL_AUTHORITY,Argyreia NERVOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+735,Aristolochia INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Aristolochia INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+736,Aristolochia TAGALA Cham.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Aristolochia TAGALA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+737,Artabotrys HEXAPETALUS (L.f.) Bhandari,BINOMIAL_PARENTHETICAL_AUTHORITY,Artabotrys HEXAPETALUS,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+738,Artabotrys SUAVEOLENS Blume.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Artabotrys SUAVEOLENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+739,Artocarpus HETEROPHYLLUS Lamk.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Artocarpus HETEROPHYLLUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+740,Artocarpus LACUCHA Buch-Ham.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Artocarpus LACUCHA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+741,Asclepias CURASSAVICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Asclepias CURASSAVICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+742,Asparagus RACEMOSUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Asparagus RACEMOSUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+743,Asplenium polyodon G. Forst.,MULTI_AUTHOR_OR_COMPLEX,Asplenium polyodon,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+744,Atalantia MONOPHYLLA Correa,SIMPLE_BINOMIAL_WITH_AUTHORITY,Atalantia MONOPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+745,Cajanus crassus (King) Maesen,BINOMIAL_PARENTHETICAL_AUTHORITY,Cajanus crassus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+746,Cajanus scarabaeoides (L.) Thouars,BINOMIAL_PARENTHETICAL_AUTHORITY,Cajanus scarabaeoides,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+747,Averrhoa BILIMBI L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Averrhoa BILIMBI,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+748,Averrhoa CARAMBOLA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Averrhoa CARAMBOLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+749,Azadirachta INDICA A. Juss.,MULTI_AUTHOR_OR_COMPLEX,Azadirachta INDICA,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+750,Bacopa monnieri (L.) WETTST.,BINOMIAL_PARENTHETICAL_AUTHORITY,Bacopa monnieri,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+751,Baliospermum solanifolium (BURM.) SURESH,BINOMIAL_PARENTHETICAL_AUTHORITY,Baliospermum solanifolium,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+752,Bambusa bambos (L.) Voss,BINOMIAL_PARENTHETICAL_AUTHORITY,Bambusa bambos,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+753,Barleria cristata L,SIMPLE_BINOMIAL_WITH_AUTHORITY,Barleria cristata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+754,Barlaria STRIGOSA Willd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Barlaria STRIGOSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+755,Barringtonia ACUTANGULA (L.) Gaertn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Barringtonia ACUTANGULA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+756,Barringtonia RACEMOSA (L.) Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Barringtonia RACEMOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+757,Basella ALBA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Basella ALBA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+758,Bauhinia ACUMINITA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bauhinia ACUMINITA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+759,Bauhinia MACROSTACHYA Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bauhinia MACROSTACHYA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+760,Bauhinia MALABARICA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bauhinia MALABARICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+761,Bauhinia PURPUREA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bauhinia PURPUREA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+762,Bauhinia VARIEGATA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bauhinia VARIEGATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+763,Begonia ROXBURGHII DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Begonia ROXBURGHII,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+764,Iris domestica (L.) Goldblatt & Mabb,BINOMIAL_PARENTHETICAL_AUTHORITY,Iris domestica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+765,Benincasa HISPIDA (Thunb.) Cogn.,BINOMIAL_PARENTHETICAL_AUTHORITY,Benincasa HISPIDA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+766,Biophytum SENSITIVUM (L.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Biophytum SENSITIVUM,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+767,Bixa ORELLANA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bixa ORELLANA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+768,Blumea BALSAMIFERA DC,SIMPLE_BINOMIAL_WITH_AUTHORITY,Blumea BALSAMIFERA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+769,Blumea CLERKEI Hook. f.,MULTI_AUTHOR_OR_COMPLEX,Blumea CLERKEI,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+770,Blumea LACERA (Burn.f.) DC.,BINOMIAL_PARENTHETICAL_AUTHORITY,Blumea LACERA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+771,Boehmeria MALABARICA Wedd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boehmeria MALABARICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+772,Boerhaavia DIFFUSA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boerhaavia DIFFUSA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+773,Boesenbergia LONGIFLORA Kuntze.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boesenbergia LONGIFLORA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+774,Bombax CEIBA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bombax CEIBA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+775,Borassus FLABELLIFER L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Borassus FLABELLIFER,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+776,Spermacoce articularis L.f.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Spermacoce articularis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+777,Boswellia SERRATA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Boswellia SERRATA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+778,Brassica NIGRA (L.) Koch.,BINOMIAL_PARENTHETICAL_AUTHORITY,Brassica NIGRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+779,Breynia RETUSA (Dennst.) Alston.,BINOMIAL_PARENTHETICAL_AUTHORITY,Breynia RETUSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+780,Bridelia RETUSA (L.) Spreng.,BINOMIAL_PARENTHETICAL_AUTHORITY,Bridelia RETUSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+781,Bridelia STIPULARIS Bl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bridelia STIPULARIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+782,Buchanania cochinchinensis (Lour.) M.R.Almeida,BINOMIAL_PARENTHETICAL_AUTHORITY,Buchanania cochinchinensis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+783,Buddleja NEEMDA Buch.-Ham.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Buddleja NEEMDA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+784,Byttneria pilosa Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Byttneria pilosa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+785,Butea MONOSPERMA (Lam.) Taub.,BINOMIAL_PARENTHETICAL_AUTHORITY,Butea MONOSPERMA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+786,Caesalpinia BONDUC (L.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Caesalpinia BONDUC,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+787,Caesalpinia DIGYNA Rottl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Caesalpinia DIGYNA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+788,Caesalpinia PULCHERIMA Sw.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Caesalpinia PULCHERIMA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+789,Cajanus cajan (L.) Millsp.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cajanus cajan,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+790,Callicarpa MACROPHYLLA Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Callicarpa MACROPHYLLA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+791,Callicarpa TOMENTOSA (L.) Merr.,BINOMIAL_PARENTHETICAL_AUTHORITY,Callicarpa TOMENTOSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+792,Calophyllum INOPHYLLUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Calophyllum INOPHYLLUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+793,Calotropis GIGANTEA (L.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Calotropis GIGANTEA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+794,Calotropis PROCERA (Aiton) Dryand.,BINOMIAL_PARENTHETICAL_AUTHORITY,Calotropis PROCERA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+795,Getonia floribunda ROXB.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Getonia floribunda,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+796,Camellia sinensis (L.) O. Kuntze.,BINOMIAL_PARENTHETICAL_AUTHORITY,Camellia sinensis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+797,Canarium BENGALENSE Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Canarium BENGALENSE,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+798,Canna INDICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Canna INDICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+799,Cannabis SATIVA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cannabis SATIVA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+800,Magnolia champaca (L.)Baill.exPierre,BINOMIAL_PARENTHETICAL_AUTHORITY,Magnolia champaca,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+801,Zehneria scabra Sond.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Zehneria scabra,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+802,Solenaamplexicaulis(lam.) gandhi.,OTHER_REVIEW,Solena amplexicaulis,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Decomposed fused genus+species 'Solenaamplexicaulis' and stripped parenthetical/combining authors
+803,Cochlospermum religiosum (L.) Alston,BINOMIAL_PARENTHETICAL_AUTHORITY,Cochlospermum religiosum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+804,Gynocardia odorata R. Br.,MULTI_AUTHOR_OR_COMPLEX,Gynocardia odorata,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+805,Drosera peltata Thunb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Drosera peltata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+806,Sida rhombifolia L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sida rhombifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+807,Sida orientaliscav.,OTHER_REVIEW,Sida orientalis,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Separated species epithet from fused Cavanilles author abbreviation 'cav.'
+808,Sida cordifolia L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sida cordifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+809,Sidacordata(burm.f.) borss.waalk.,OTHER_REVIEW,Sida cordata,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Decomposed fused genus+species 'Sidacordata' and stripped author citation '(burm.f.) borss.waalk.'
+810,Sida acuta Burm. f.,MULTI_AUTHOR_OR_COMPLEX,Sida acuta,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+811,Malva sylvestris L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Malva sylvestris,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+812,Hibiscus schizopetalus (Mast.) Hook. f.,BINOMIAL_PARENTHETICAL_AUTHORITY,Hibiscus schizopetalus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+813,Althaea officinalis L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Althaea officinalis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+814,Bombax insigne Wall.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bombax insigne,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+815,Firmiana simplex(l.) W.Wight.,BINOMIAL_PARENTHETICAL_AUTHORITY,Firmiana simplex,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+816,Sterculia lanceifolia Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sterculia lanceifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+817,Pentapetes phoenicea L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Pentapetes phoenicea,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+818,Microcos paniculata L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Microcos paniculata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+819,Melochia corchorifolia L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Melochia corchorifolia,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+820,Corchorus fascicularis Lam.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corchorus fascicularis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+821,Corchorus aestuans L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corchorus aestuans,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+822,Elaeocarpus serratusl.,OTHER_REVIEW,Elaeocarpus serratus,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Separated species epithet from fused Linnaean author abbreviation 'l.'
+823,Hypericum japonicum Thunb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Hypericum japonicum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+824,Calophyllum polyanthumwall.ex Choisy,SIMPLE_BINOMIAL_WITH_AUTHORITY,Calophyllum polyanthumwall.ex,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+825,Schima wallichii Choisy,SIMPLE_BINOMIAL_WITH_AUTHORITY,Schima wallichii,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+826,Shorea robusta Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Shorea robusta,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+827,Dipterocarpus turbinatus Gaertn.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dipterocarpus turbinatus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+828,Tetracera sarmentosa (L.) Vahl,BINOMIAL_PARENTHETICAL_AUTHORITY,Tetracera sarmentosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+829,Dillenia indica L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Dillenia indica,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+830,Rheum emodi L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Rheum emodi,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+831,Polygonum pubescens Blume,SIMPLE_BINOMIAL_WITH_AUTHORITY,Polygonum pubescens,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+832,Polygonum aviculare L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Polygonum aviculare,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+833,Polygonum viscosumbuch.-ham. ex D. Don.,MULTI_AUTHOR_OR_COMPLEX,Polygonum viscosumbuch.-ham.,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+834,Persicaria strigosa (R. Br.) Nakai,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria strigosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+835,Persicaria stagnina (Buch.-Ham. ex Meisn.)Qaiser,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria stagnina,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+836,Persicaria lapathifolia (L.) Delarbre,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria lapathifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+837,Persicaria chinensis (L.) H. Gross,BINOMIAL_PARENTHETICAL_AUTHORITY,Persicaria chinensis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+838,Polycarpon prostratum (Forssk.) Asch. & Schweinf.,BINOMIAL_PARENTHETICAL_AUTHORITY,Polycarpon prostratum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+839,Drymaria cordata subsp.diandra (Blume) J.A.Duke.,INFRASPECIFIC_SUBSP,Drymaria cordata subsp. diandra,OFFLINE_RULE,READY,Preserved species binomial and subsp. rank + epithet; stripped author citations.
+840,portulaca grandiflora Hook.,SIMPLE_BINOMIAL_WITH_AUTHORITY,portulaca grandiflora,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+841,Cyathula prostrata (L.) Blume,BINOMIAL_PARENTHETICAL_AUTHORITY,Cyathula prostrata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+842,Amaranthus tricolor L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Amaranthus tricolor,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+843,Bougainvillea spectabilis Willd,SIMPLE_BINOMIAL_WITH_AUTHORITY,Bougainvillea spectabilis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+844,Corylus avellana L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Corylus avellana,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+845,Quercus infectoria G.Olivier,SIMPLE_BINOMIAL_WITH_AUTHORITY,Quercus infectoria,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+846,Sarcochlamys pulcherrima Gaudich.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Sarcochlamys pulcherrima,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+847,Pouzolzia sanguinea (Blume.) Merrill,BINOMIAL_PARENTHETICAL_AUTHORITY,Pouzolzia sanguinea,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+848,Pouzolzia hirta Blume ex Hassk.,MULTI_AUTHOR_OR_COMPLEX,Pouzolzia hirta,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+849,Fleurya interrupta Gaud.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Fleurya interrupta,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+850,Elatostema rupestre(buch.-ham. ex D.Don) Wedd.,BINOMIAL_PARENTHETICAL_AUTHORITY,Elatostema rupestre,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+851,Elatostema papillosum Wedd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Elatostema papillosum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+852,Boehmeria nivea (L.) Gaudich.,BINOMIAL_PARENTHETICAL_AUTHORITY,Boehmeria nivea,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+853,Ficus sagittata Vahl,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus sagittata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+854,Ficus rumphii Blume,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus rumphii,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+855,Ficus pumila L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus pumila,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+856,Ficus mollis Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus mollis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+857,Ficus hirta Vahl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus hirta,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+858,Ficus heterophylla L.f.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus heterophylla,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+859,Ficus hederacea Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus hederacea,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+860,Ficus curtipes Corner,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus curtipes,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+861,Canscora alata (ROTH) WALL.,BINOMIAL_PARENTHETICAL_AUTHORITY,Canscora alata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+862,Canscora DIFFUSA (Vahl.) R. Br.,BINOMIAL_PARENTHETICAL_AUTHORITY,Canscora DIFFUSA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+863,Capparis ZEYLANICA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Capparis ZEYLANICA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+864,Capsicum ANNUUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Capsicum ANNUUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+865,Cardiospermum HALICACABUML.,OTHER_REVIEW,Cardiospermum HALICACABUM,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Separated uppercase species epithet from fused author citation 'L.'
+866,Careya ARBOREA Roxb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Careya ARBOREA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+867,Carica PAPAYA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Carica PAPAYA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+868,Carissa spinarum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Carissa spinarum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+869,Carthamus TINCTORIUS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Carthamus TINCTORIUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+870,Caryota URENS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Caryota URENS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+871,Senna alata (L.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Senna alata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+872,Cassia FISTULA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cassia FISTULA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+873,Senna obtusifolia (L.) H.S.Irwin & Barneby,BINOMIAL_PARENTHETICAL_AUTHORITY,Senna obtusifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+874,Senna occidentalis (L.) Link,BINOMIAL_PARENTHETICAL_AUTHORITY,Senna occidentalis,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+875,Senna sophera (L.) Roxb.,BINOMIAL_PARENTHETICAL_AUTHORITY,Senna sophera,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+876,Cassytha FILIFORMIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cassytha FILIFORMIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+877,Casuarina LITTOREA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Casuarina LITTOREA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+878,Catharanthus roseus (L.) G.Don,BINOMIAL_PARENTHETICAL_AUTHORITY,Catharanthus roseus,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+879,Cayratia PEDATA (Lam.) Juss. ex Gagnep.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cayratia PEDATA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+880,Cayratia TRIFOLIA (L.) Domin.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cayratia TRIFOLIA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+881,Ceiba PENTANDRA (L.)Gaertn,BINOMIAL_PARENTHETICAL_AUTHORITY,Ceiba PENTANDRA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+882,Celastrus PANICULATUS Willd.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Celastrus PANICULATUS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+883,Celosia ARGENTEA L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Celosia ARGENTEA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+884,Celosia CRISTATA L.(SAME AS 161),OTHER_REVIEW,Celosia CRISTATA,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Stripped administrative duplicate catalog annotation '(SAME AS 161)' and author 'L.'
+885,Piper pedicellatum DC.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper pedicellatum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+886,Piperboehmeriifolium(miq.) wall. ex C. DC.,OTHER_REVIEW,Piper boehmeriifolium,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Decomposed fused genus+species 'Piperboehmeriifolium' and stripped complex author citation
+887,Piper wallichii (MIQ.) HAND.-MAZZ.,BINOMIAL_PARENTHETICAL_AUTHORITY,Piper wallichii,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+888,Chloranthus elatior LINK.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Chloranthus elatior,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+889,Ocotea lancifolia (SCHOTT) MEZ.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ocotea lancifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+890,Litsea glutinosa (LOUR.) ROBINSON,BINOMIAL_PARENTHETICAL_AUTHORITY,Litsea glutinosa,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+891,Cassytha FILIFORMIS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cassytha FILIFORMIS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+892,Actinodaphne obovata (NEES) BLUME,BINOMIAL_PARENTHETICAL_AUTHORITY,Actinodaphne obovata,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+893,Uvaria hamiltonii HOOK. F. & THOM.,MULTI_AUTHOR_OR_COMPLEX,Uvaria hamiltonii,OFFLINE_RULE,READY,Preserved genus and species epithet; stripped multi-word/compound author citation.
+894,Desmos chinensislour.,OTHER_REVIEW,Desmos chinensis,MANUAL_OVERRIDE,MANUAL_REVIEW,Manual override: Separated species epithet from fused Loureiro author citation 'lour.'
+895,Dasymaschalon longiflorum(roxb.) FINET & GAGNEP.,BINOMIAL_PARENTHETICAL_AUTHORITY,Dasymaschalon longiflorum,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+896,Magnolia praecalva(dandy) Figlar & Noot.,BINOMIAL_PARENTHETICAL_AUTHORITY,Magnolia praecalva,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+897,Centella ASIATICA (L.) Urban.,BINOMIAL_PARENTHETICAL_AUTHORITY,Centella ASIATICA,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+898,Cerbera MANGHAS L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cerbera MANGHAS,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+899,Ceriops TAGAL (Perr.) C.B. Rob.,BINOMIAL_PARENTHETICAL_AUTHORITY,Ceriops TAGAL,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+900,Cheilosoria tenuifolia (BURM. F.) TREVIS.,BINOMIAL_PARENTHETICAL_AUTHORITY,Cheilosoria tenuifolia,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+901,Chenopodium ALBUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Chenopodium ALBUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+902,Dysphania ambrosioides (L.) Mosyakin & Clemants,BINOMIAL_PARENTHETICAL_AUTHORITY,Dysphania ambrosioides,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+903,Chukrasia tabularis A.Juss.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Chukrasia tabularis,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+904,Cicer ARIETINUM L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cicer ARIETINUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+905,Cinnamomum curvifolium (Lam.) Nees,BINOMIAL_PARENTHETICAL_AUTHORITY,Cinnamomum curvifolium,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+906,Cinnamomum TAMALA Nees,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cinnamomum TAMALA,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+907,Cinnamomum VERUM Presl.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cinnamomum VERUM,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+908,Piper sylvaticum Roxb,SIMPLE_BINOMIAL_WITH_AUTHORITY,Piper sylvaticum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+909,Aristolochia rotunda L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Aristolochia rotunda,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+910,Asarum europaeum L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Asarum europaeum,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+911,Euryale ferox Salisb.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Euryale ferox,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+912,Ranunculus sceleratus L.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ranunculus sceleratus,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+913,Cyclea barbata Miers,SIMPLE_BINOMIAL_WITH_AUTHORITY,Cyclea barbata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+914,Fumaria indica (Hausskn.)Pugsley,BINOMIAL_PARENTHETICAL_AUTHORITY,Fumaria indica,OFFLINE_RULE,READY,Preserved clean binomial preceding parenthetical basionym author citation.
+915,Altingia excelsa Noronha,SIMPLE_BINOMIAL_WITH_AUTHORITY,Altingia excelsa,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.
+916,Ficus auriculata Lour.,SIMPLE_BINOMIAL_WITH_AUTHORITY,Ficus auriculata,OFFLINE_RULE,READY,Removed single botanical author abbreviation suffix.

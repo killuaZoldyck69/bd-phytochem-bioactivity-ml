@@ -53,8 +53,7 @@ BASE_URL = "https://bmppd.org"
 
 SEARCH_PATH = "/bmppd_result/"
 
-# Replace this with your real research contact email.
-CONTACT_EMAIL = "YOUR_EMAIL@example.com"
+CONTACT_EMAIL = "nh694225@gmail.com"
 
 USER_AGENT = (
     "BMPPD-Thesis-Scraper/0.1 "
@@ -845,7 +844,8 @@ def parse_result_table(
                 entire_row_text
             )
 
-            record["quality_flags"] = identify_quality_flags(
+        # Quality flags are assessed for every row, not only those missing a CID.
+        record["quality_flags"] = identify_quality_flags(
             record["compound_name"],
             record["pubchem_cid"],
         )

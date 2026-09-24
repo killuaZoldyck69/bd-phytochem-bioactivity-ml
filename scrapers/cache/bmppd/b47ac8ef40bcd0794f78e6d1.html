@@ -1,0 +1,2137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Manihot ESCULENTA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Manihot ESCULENTA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>1-octen-3-one</td>
+							<td>CID: 61346</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>10,12-Docosadiynedioic acid ditms</td>
+							<td>CID: 91696394</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>2-Methyl-4-vinylphenol</td>
+							<td>CID: 6429339</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>3-methylbutanal</td>
+							<td>CID: 11552</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>6-deoxyjacareubin</td>
+							<td>CID: 5281629</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>9-Octadecenamide</td>
+							<td>CID: 1930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>?-carotene</td>
+							<td>CID: 5280489</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>?-carotene</td>
+							<td>CID: 6419725</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Betulin</td>
+							<td>CID: 72326</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Coniferaldehyde</td>
+							<td>CID: 5280536</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>D-Friedoolean-14-en-3-one</td>
+							<td>CID: 92785</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>D-Mannose</td>
+							<td>CID: 18950</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>DL-carnitine</td>
+							<td>CID: 288</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Fructose</td>
+							<td>CID: 2723872</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Galactose</td>
+							<td>CID: 6036</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Glucose</td>
+							<td>CID: 5793</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Hydroxybenzoic acid</td>
+							<td>CID: 135</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Linamarin</td>
+							<td>CID: 11128</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Lup-20(29)-en-3-one</td>
+							<td>CID: 323075</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Lupeol</td>
+							<td>CID: 259846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.bcab.2019.101476">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Malic acid</td>
+							<td>CID: 525</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Melibiose</td>
+							<td>CID: 440658</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Succinic-D4acid</td>
+							<td>CID: 12998487</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Sucrose</td>
+							<td>CID: 892</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Threonic acid</td>
+							<td>CID: 151152</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Tryptophan</td>
+							<td>CID: 6305</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/antiox12091726">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>Xylulose</td>
+							<td>CID: 5289590</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>acetyl furan</td>
+							<td>CID: 14505</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>alpha-tocospiro B</td>
+							<td>CID: 71452249</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>amentoflavone</td>
+							<td>CID: 5281600</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>anthocyanidins</td>
+							<td>CID: 145858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>anthocyanins</td>
+							<td>CID: 145858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>apigenin</td>
+							<td>CID: 5280443</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>ascorbic acid</td>
+							<td>CID: 54670067</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>ascorbyl glucoside</td>
+							<td>CID: 54693473</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>balanophonin</td>
+							<td>CID: 23252258</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>benzeneacetaldehyde</td>
+							<td>CID: 998</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>butyric acid</td>
+							<td>CID: 264</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>campesterol</td>
+							<td>CID: 173183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>catechin</td>
+							<td>CID: 9064</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>chlorogenic acid</td>
+							<td>CID: 1794427</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>coumarin</td>
+							<td>CID: 323</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>cyanidin</td>
+							<td>CID: 128861</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>cycloartenol</td>
+							<td>CID: 92110</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>delphinidin</td>
+							<td>CID: 68245</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>diosgenin</td>
+							<td>CID: 99474</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>dodecanoic acid</td>
+							<td>CID: 3893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>epicatechin</td>
+							<td>CID: 72276</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>esculetin</td>
+							<td>CID: 5281416</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>ethamivan</td>
+							<td>CID: 9363</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>ethyl octanoate</td>
+							<td>CID: 7799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>ferulic acid</td>
+							<td>CID: 445858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/s41598-024-82450-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>flavonoid</td>
+							<td>CID: 11349</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>furfural</td>
+							<td>CID: 7362</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>gentiopicrin</td>
+							<td>CID: 88708</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>gentisic acid</td>
+							<td>CID: 3469</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>glucogallin</td>
+							<td>CID: 124375</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>glucoheptonic acid</td>
+							<td>CID: 25588</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>guaiacol</td>
+							<td>CID: 460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>hydrogen cyanide</td>
+							<td>CID: 768</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1590/S0100-204X2002001100018">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>hydroxyacetaldehyde</td>
+							<td>CID: 756</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.fuel.2009.07.003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>hydroxyacetone</td>
+							<td>CID: 8299</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.fuel.2009.07.003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>isoginkgetin</td>
+							<td>CID: 5318569</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/s41598-024-82450-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>isovanillin</td>
+							<td>CID: 12127</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>kaempferol</td>
+							<td>CID: 5280863</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>lotaustralin</td>
+							<td>CID: 441467</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>methyl caffeate</td>
+							<td>CID: 689075</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>methylpropanal</td>
+							<td>CID: 6561</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>n-Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2024/6637904">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>naringenin</td>
+							<td>CID: 439246</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>neochlorogenic acid</td>
+							<td>CID: 5280633</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>nicotiflorin</td>
+							<td>CID: 5318767</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2020.09.012">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>nitrosoguvacoline</td>
+							<td>CID: 62103</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>p-coumaric acid</td>
+							<td>CID: 73399</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>pentadecanoic acid</td>
+							<td>CID: 13849</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>pentylfuran</td>
+							<td>CID: 19602</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/19476337.2015.1074944">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>quercetin</td>
+							<td>CID: 5280343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>rutin</td>
+							<td>CID: 5280805</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10942912.2019.1626879">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>salicylic acid</td>
+							<td>CID: 338</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>scopoletin</td>
+							<td>CID: 5280460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>scutellarein tetramethyl ether</td>
+							<td>CID: 96118</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/s41598-024-82450-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>shikimic acid</td>
+							<td>CID: 8742</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.nature.com/articles/srep29136">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>solasodine</td>
+							<td>CID: 442985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.4103/0972-9062.361177">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>sphinganine</td>
+							<td>CID: 91486</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ink.springer.com/article/10.1186/s12870-023-04181-3">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>syringaldehyde</td>
+							<td>CID: 8655</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>syringic acid</td>
+							<td>CID: 10742</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>tetradecanoic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Manihot esculenta</td>
+							<td>
+								
+								Cassava, Manioc, Yuca
+								
+							</td>
+							<td>vanillic acid</td>
+							<td>CID: 8468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0974-8490.204648">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

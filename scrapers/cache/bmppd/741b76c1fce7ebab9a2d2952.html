@@ -1,0 +1,3397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Ferula foetida"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Ferula foetida</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(+)-tau-Muurolol</td>
+							<td>CID: 51394521</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(E)-3-methylsulfinyl-2-propenylsec-butyl disulfide (foetisulfide A)</td>
+							<td>CID: 11138782</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(E)-3-methylsulfinyloxy-2-propenylsec-butyl disulfide (foetisulfide C)</td>
+							<td>CID: 11042864</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(E)-?-Ocimene</td>
+							<td>CID: 5281553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(E)-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(E)-Phenyl-1-propenylsulfide</td>
+							<td>CID: 5373102</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(Z)-3-methylsulfinyloxy-2-propenylsec-butyl disulfide (foetisulfide B)</td>
+							<td>CID: 10933621</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>(Z)-?-Ocimene</td>
+							<td>CID: 5320250</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-(Methylthio)propyl 1-Propenyl Disulfide</td>
+							<td>CID: 528856</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-(Methylthio)propyl 1-Propenyl Disulfide</td>
+							<td>CID: 6428835</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-(Methylthio)propyl Disulfide</td>
+							<td>CID: 521472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-(Methylthio)propyl Propyl Disulfide</td>
+							<td>CID: 528856</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-(Propyldisulfanyl)propane</td>
+							<td>CID: 12377</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>1-Methylthio-(Z)-1-Propene</td>
+							<td>CID: 5364225</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>10-R-Acetoxy-11-Hydroxyumbelliprenin</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>10-R-Karatavicinol</td>
+							<td>CID: 44386968</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>14-hydroxy-9-epi-E-Caryophyllene</td>
+							<td>CID: 5352484</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>15-Hydroxy-6-En-Dehydroabietic Acid</td>
+							<td>CID: 44479216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2,3,4-Trimethylthiophene</td>
+							<td>CID: 15710</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2,3-Dimethyltihirane</td>
+							<td>CID: 138050</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-(Methylthio) Butane</td>
+							<td>CID: 93062</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl 1-Propenyl Disulfide</td>
+							<td>CID: 91704044</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl 3-(Methylthio)-2-Propenyl Disulfide</td>
+							<td>CID: 85792847</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Ethyl Disulfide</td>
+							<td>CID: 522111</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Methyl Disulfide</td>
+							<td>CID: 94314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Methyl Trisulfide</td>
+							<td>CID: 189722</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Propyl Disulfide</td>
+							<td>CID: 522458</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Tetrasulfide</td>
+							<td>CID: 12550513</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Butyl Vinyl Disulfide</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>2-Methyl-2-Propanethiol</td>
+							<td>CID: 6387</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>3,4,5-trimethyl-2-(methylsulfinyloxymethyl)thiophene (foetithiophene B)</td>
+							<td>CID: 10911031</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>3,4,5-trimethyl-2-thiophenecarboxylic acid (foetithiophene A)</td>
+							<td>CID: 10877558</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>3,4-Dimethylthiophene</td>
+							<td>CID: 79089</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>5-Hydroxyumbelliprenin</td>
+							<td>CID: 101405001</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>7-Oxocallitrisic Acid</td>
+							<td>CID: 29212</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>7-epi-?-eudesmol</td>
+							<td>CID: 92762</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>8-Acetoxy-5-S-Hydroxyumbelliprenin</td>
+							<td>CID: 44631968</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>8-Hydroxyumbelliprenin</td>
+							<td>CID: 44631968</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>8-acetoxy-5-hydroxyumbelliprenin</td>
+							<td>CID: 101405001</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/jccs.200700035">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Agarofuran</td>
+							<td>CID: 10627032</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Bisabolene</td>
+							<td>CID: 25203009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Cadinene</td>
+							<td>CID: 12306048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Cadinene</td>
+							<td>CID: 92313</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Calacorene</td>
+							<td>CID: 528708</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Humulene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Muurolene</td>
+							<td>CID: 12306047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?- Muurolene</td>
+							<td>CID: 12313020</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Barbatene</td>
+							<td>CID: 14109421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: 6432404</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Copaene</td>
+							<td>CID: 19725</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Dihydroionone</td>
+							<td>CID: 519382</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Gurjunene</td>
+							<td>CID: 6450812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Phellandrene</td>
+							<td>CID: 7460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Sabinene</td>
+							<td>CID: 10887971</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-Terpinene</td>
+							<td>CID: 7462</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-eudesmol</td>
+							<td>CID: 6432005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>?-eudesmol</td>
+							<td>CID: 92762</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Allo-aromadendrene</td>
+							<td>CID: 42608158</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Asacoumarin A</td>
+							<td>CID: 14313756</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Asacoumarin B</td>
+							<td>CID: 7082474</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Assafoetidin</td>
+							<td>CID: 131751454</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Assafoetidinol A</td>
+							<td>CID: 12041593</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Assafoetidinol B</td>
+							<td>CID: 636584</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Cedryl acetate</td>
+							<td>CID: 13918856</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Conferol</td>
+							<td>CID: 11892267</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Dehydro Aromadendrene</td>
+							<td>CID: 589433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Di-2-Butyl Disulfide</td>
+							<td>CID: 66060</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Di-2-Butyl Trisulfide</td>
+							<td>CID: 548567</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Di-sec-butyl disulfide</td>
+							<td>CID: 94314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Dimethyl Disulfide</td>
+							<td>CID: 12232</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Dimethyl Trisulfide</td>
+							<td>CID: 19310</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Dipropyl Disulfide</td>
+							<td>CID: 12377</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>E-1-propenyl sec-butyl disulfide</td>
+							<td>CID: 91704044</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>E-propenyl-propyl trisulfide</td>
+							<td>CID: 181104</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Elemol</td>
+							<td>CID: 92138</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epi-?-cadinol</td>
+							<td>CID: 10398656</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epi-Conferodine</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epi-Samarcandcin</td>
+							<td>CID: 71587098</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epi-Samarcandcin Acetate</td>
+							<td>CID: 71587098</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epi-cyclocoloremone</td>
+							<td>CID: 160491</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Epoixide</td>
+							<td>CID: 46782076</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Eremophilene</td>
+							<td>CID: 12309744</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Ethyl 3-indoleacetate</td>
+							<td>CID: 13067</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Falcarinolone</td>
+							<td>CID: 6442185</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Fenchone</td>
+							<td>CID: 14525</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Ferocaulicin</td>
+							<td>CID: 124356232</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Ferulic Acid</td>
+							<td>CID: 445858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Feselol</td>
+							<td>CID: 179577</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Fetidone A</td>
+							<td>CID: 11843844</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Fetidone B</td>
+							<td>CID: 11843845</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Foetidin I</td>
+							<td>CID: 9940744</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Foetidine</td>
+							<td>CID: 15945065</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Franesiferol A</td>
+							<td>CID: 7067262</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Franesiferol B</td>
+							<td>CID: 1779468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Franesiferol C</td>
+							<td>CID: 15559239</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Galbanic acid</td>
+							<td>CID: 7082474</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Germacrene D</td>
+							<td>CID: 5317570</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Gummosin</td>
+							<td>CID: 7092581</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Gurjunene</td>
+							<td>CID: 15560275</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Isoledene</td>
+							<td>CID: 530426</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>J-Guaiene</td>
+							<td>CID: 94275</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Kamolonol</td>
+							<td>CID: 46883037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Lavandulyl acetate</td>
+							<td>CID: 30247</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Ledenoxide</td>
+							<td>CID: 534497</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Ligupersin A</td>
+							<td>CID: 11876038</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Liprenin</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Longiborneol</td>
+							<td>CID: 6432447</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Luteolin 3-?-D-Glucopyranoside</td>
+							<td>CID: 12309350</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Methyl (E)-1-Propenyl Disulfide</td>
+							<td>CID: 5366552</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Methyl (Z)-1-Propenyl Disulfide</td>
+							<td>CID: 6164465</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Methyl 1-(Methylthio)ethyl Disulfide</td>
+							<td>CID: 123388</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Methyl Galbanate</td>
+							<td>CID: 7075765</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Microbin</td>
+							<td>CID: 23691027</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Neo-verbanol acetate</td>
+							<td>CID: 524260</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Oleic Acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Picealactone C</td>
+							<td>CID: 11244281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Polyanthinin</td>
+							<td>CID: 46883036</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Propyl-sec-butyl disulfide</td>
+							<td>CID: 521902</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>S-Methylpropanethioate</td>
+							<td>CID: 521869</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Samaderin A</td>
+							<td>CID: 441807</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Spathulenol</td>
+							<td>CID: 92231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>T-muurolol</td>
+							<td>CID: 3084331</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Tadshiferin</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Taraxacin</td>
+							<td>CID: 5241825</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Terpinene-4-ol acetate</td>
+							<td>CID: 20960</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Trans-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//ijpt.iums.ac.ir/article-1-262-en.html">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Trans-pinocarvyl acetate</td>
+							<td>CID: 102553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Umbelliferone (7-Hydroxycoumarin)</td>
+							<td>CID: 5281426</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2010.11.067">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Vanillin</td>
+							<td>CID: 1183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Viridiflorol</td>
+							<td>CID: 11996452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>Z-propenyl-propyl trisulfide</td>
+							<td>CID: 5352694</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>alpha-Funnebrene</td>
+							<td>CID: 6552024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>asacoumarin</td>
+							<td>CID: 7082474</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/jccs.200700035">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>bis(3-methylthio-2E-propenyl) disulfide (foetisulfide D)</td>
+							<td>CID: 11128369</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/np010541h">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>colladonin</td>
+							<td>CID: 375430</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/jccs.200700035">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>coumarins</td>
+							<td>CID: 54678486</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>d- Cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.22034/jmpb.2023.361581.1535">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>epi-conferdione</td>
+							<td>CID: 11875353</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/jccs.200700035">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>farnesiferoles A</td>
+							<td>CID: 7067262</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>farnesiferoles B</td>
+							<td>CID: 1779468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>farnesiferoles C</td>
+							<td>CID: 15559239</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>foetidin</td>
+							<td>CID: 15945065</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>foetithiophenes C</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3109/13880209.2014.939765">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>foetithiophenes D</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3109/13880209.2014.939765">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>foetithiophenes E</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3109/13880209.2014.939765">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>foetithiophenes F</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3109/13880209.2014.939765">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>kamolonol</td>
+							<td>CID: 46883037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/286111090">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Ferula foetida</td>
+							<td>
+								
+								Asafoetida, Hing
+								
+							</td>
+							<td>karatavicinol</td>
+							<td>CID: 44386968</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/jccs.200700035">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

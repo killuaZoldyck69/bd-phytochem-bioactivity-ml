@@ -1,0 +1,33 @@
+{
+  "stage": "4",
+  "stage_name": "botanical_reconciliation",
+  "stage_run_timestamp": "2026-09-22T16:41:35.921496+00:00",
+  "source_dataset": "data/raw/mpbd/mpbd_plant_index.csv",
+  "source_dataset_version": "v1.0.0",
+  "source_dataset_sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7",
+  "raw_record_count": 916,
+  "normalization_method": "deterministic_text_normalization",
+  "botanical_reconciliation": "evidence_based_conservative",
+  "raw_unique_scientific_names": 915,
+  "normalized_unique_scientific_names": 890,
+  "potential_duplicate_groups": 26,
+  "affected_records_potential_duplicate": 52,
+  "records_unchanged": 0,
+  "records_normalized_only": 864,
+  "records_canonical_match": 0,
+  "records_synonym_candidate": 0,
+  "records_review_required": 0,
+  "raw_unique_families": 182,
+  "normalized_unique_families": 175,
+  "family_variant_groups": 7,
+  "derived_outputs": [
+    "mpbd_plant_index_normalized.csv",
+    "mpbd_botanical_reconciliation.csv",
+    "mpbd_family_normalization.csv"
+  ],
+  "output_sha256": {
+    "mpbd_plant_index_normalized.csv": "44ED4560916A5EAB8F309C5CAE9BE448CB46636803539B8B2C743E09EFAD1056",
+    "mpbd_botanical_reconciliation.csv": "B4DEF98C29B3E30DEE513850382F8C1FAF2A9E56F48CDEB642906FEDD8636188",
+    "mpbd_family_normalization.csv": "B2D96B00864D697582D2D928533C5658F1210CB104A7C313B0B61EEE947C480C"
+  }
+}

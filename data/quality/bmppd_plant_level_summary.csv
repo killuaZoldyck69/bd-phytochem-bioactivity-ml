@@ -1,0 +1,917 @@
+plant_index,source_query,bmpdd_query_name,parser_status,rows_extracted,rows_with_cid,rows_missing_cid
+1,Piper betle L.,Piper betle,PASS,112,0,112
+2,Piper cubeba Vahl,Piper cubeba,PASS,181,0,181
+3,Berberis aristata DC.,Berberis aristata,ZERO_RESULTS,0,0,0
+4,Papaver somniferum L.,Papaver somniferum,PASS,128,0,128
+5,Artocarpus heterophyllus Lam.,Artocarpus heterophyllus,PASS,180,0,180
+6,Ficus racemosa L.,Ficus racemosa,ZERO_RESULTS,0,0,0
+7,Morus indica L.,Morus indica,ZERO_RESULTS,0,0,0
+8,Juglans regia L.,Juglans regia,ZERO_RESULTS,0,0,0
+9,Boerhavia diffusa L.,Boerhavia diffusa,PASS,57,53,4
+10,Boerhavia repens L.,Boerhavia repens,ZERO_RESULTS,0,0,0
+11,Mirabilis jalapa L.,Mirabilis jalapa,ZERO_RESULTS,0,0,0
+12,Opuntia dellenii (Ker Gawl.) Haw.,Opuntia dellenii,ZERO_RESULTS,0,0,0
+13,Achyranthes aspera L.,Achyranthes aspera,PASS,32,22,10
+14,Plumbago indica L.,Plumbago indica,PASS,28,0,28
+15,Vateria indica L.,Vateria indica,ZERO_RESULTS,0,0,0
+16,Mesua ferrea L.,Mesua ferrea,PASS,133,133,0
+17,Helicteres isora L.,Helicteres isora,ZERO_RESULTS,0,0,0
+18,Abelmoschus esculentus (L.) Moench,Abelmoschus esculentus,ZERO_RESULTS,0,0,0
+19,Gossypium arboreum L.,Gossypium arboreum,ZERO_RESULTS,0,0,0
+20,Viola odorata L.,Viola odorata,ZERO_RESULTS,0,0,0
+21,Benincasa hispida (Thunb.) Cogn.,Benincasa hispida,PASS,66,63,3
+22,Citrullus colocynthis (L.) Schard.,Citrullus colocynthis,ZERO_RESULTS,0,0,0
+23,Momordica dioica Roxb. ex Willd.,Momordica dioica,ZERO_RESULTS,0,0,0
+24,Mukia maderaspatana (L.) M. Roem,Mukia maderaspatana,ZERO_RESULTS,0,0,0
+25,Brassica juncea (L.) Czern.,Brassica juncea,ZERO_RESULTS,0,0,0
+26,Raphanus raphanistrum subsp. SATIVUS(L.) Domin.,Raphanus raphanistrum subsp. SATIVUS,ZERO_RESULTS,0,0,0
+27,Moringa oleifera Lam.,Moringa oleifera,PASS,272,235,37
+28,Diospyros malabarica(desr.) Kostel.,Diospyros malabarica,PASS,34,33,1
+29,Cydonia oblonga Mill.,Cydonia oblonga,ZERO_RESULTS,0,0,0
+30,Prunus amygdalus Stokes,Prunus amygdalus,ZERO_RESULTS,0,0,0
+31,Acacia nilotica (L.) Delile subsp. INDICA(Benth) Brenan,Acacia nilotica subsp. INDICA,ZERO_RESULTS,0,0,0
+32,Entada phaseoloides (L.) Merr.,Entada phaseoloides,ZERO_RESULTS,0,0,0
+33,Mimosa pudica L.,Mimosa pudica,ZERO_RESULTS,0,0,0
+34,Saraca asoca (Roxb.) Wild.,Saraca asoca,PASS,30,0,30
+35,Clitoria ternatea L.,Clitoria ternatea,PASS,53,46,7
+36,Glycyrrhiza glabra L.,Glycyrrhiza glabra,ZERO_RESULTS,0,0,0
+37,Mucuna pruriens (L.) DC.,Mucuna pruriens,ZERO_RESULTS,0,0,0
+38,Pterocarpus SANTALINUS L. f.,Pterocarpus SANTALINUS,PASS,36,0,36
+39,Sesbania bispinosa (Jacq.) W.Wight,Sesbania bispinosa,ZERO_RESULTS,0,0,0
+40,Sesbania grandiflora (L.) Poir,Sesbania grandiflora,ZERO_RESULTS,0,0,0
+41,Sesbania sesban (L.) Merr.,Sesbania sesban,ZERO_RESULTS,0,0,0
+42,Trigonella foenum-graeceum L.,Trigonella foenum-graeceum,ZERO_RESULTS,0,0,0
+43,Lagerstroemia speciosa(l.) Pers.,Lagerstroemia speciosa,PASS,115,87,28
+44,Eucalyptus globulus Labill,Eucalyptus globulus,ZERO_RESULTS,0,0,0
+45,Mentha arvensis L.,Mentha arvensis,ZERO_RESULTS,0,0,0
+46,Mentha spicata L.,Mentha spicata,ZERO_RESULTS,0,0,0
+47,Pogostemon PUBESCENS Benth.,Pogostemon PUBESCENS,ZERO_RESULTS,0,0,0
+48,Rhinacanthus nasutus (L.) Kurz,Rhinacanthus nasutus,ZERO_RESULTS,0,0,0
+49,Sesamum indicum L.,Sesamum indicum,PASS,74,0,74
+50,Nelumbium speciosum Willd.,Nelumbium speciosum,ZERO_RESULTS,0,0,0
+51,Rubia cordifolia L.,Rubia cordifolia,ZERO_RESULTS,0,0,0
+52,Artemisia absinthium L.,Artemisia absinthium,ZERO_RESULTS,0,0,0
+53,Eclipta prostrata (L.) L.,Eclipta prostrata,ZERO_RESULTS,0,0,0
+54,Cyperus rotandus L.,Cyperus rotandus,ZERO_RESULTS,0,0,0
+55,Saccharum officinarum L.,Saccharum officinarum,PASS,72,0,72
+56,Hordeum vulgare L.,Hordeum vulgare,ZERO_RESULTS,0,0,0
+57,Elettaria cardamomum (L.) Maton.,Elettaria cardamomum,ZERO_RESULTS,0,0,0
+58,Crocus sativus L.,Crocus sativus,ZERO_RESULTS,0,0,0
+59,Santalum album L.,Santalum album,PASS,105,0,105
+60,Macaranga peltata (Roxb.)Muell.-Arg.,Macaranga peltata,PASS,25,25,0
+61,Mallotus philippensis (Lam.) Muell.-Arg.,Mallotus philippensis,PASS,48,46,2
+62,Phyllanthus niruri L.,Phyllanthus niruri,PASS,3,3,0
+63,Vitis vinifera L.,Vitis vinifera,ZERO_RESULTS,0,0,0
+64,Sapindus saponaria L.,Sapindus saponaria,ZERO_RESULTS,0,0,0
+65,Schleichera oleosa (Lour.)Merr.,Schleichera oleosa,PASS,24,0,24
+66,Commiphora mukul (HOOK. EX STOCKS) ENGL.,Commiphora mukul,ZERO_RESULTS,0,0,0
+67,Semecarpus anacardium L. F.,Semecarpus anacardium,ZERO_RESULTS,0,0,0
+68,Citrus limon (L.) Osbeck,Citrus limon,PASS,340,0,340
+69,Citrus medica L.,Citrus medica,ZERO_RESULTS,0,0,0
+70,Citrus reticulata Blanco,Citrus reticulata,PASS,708,708,0
+71,Murraya koenigii (L.)Spreng.,Murraya koenigii,ZERO_RESULTS,0,0,0
+72,Peganum harmala L.,Peganum harmala,ZERO_RESULTS,0,0,0
+73,Anethum sowa Roxb.ex Fleming,Anethum sowa,ZERO_RESULTS,0,0,0
+74,Carum carvi L.,Carum carvi,PASS,215,0,215
+75,Ferula foetida (Bunge) Regel,Ferula foetida,PASS,156,147,9
+76,Trachyspermum roxburghianum (DC.) H.Wolff,Trachyspermum roxburghianum,ZERO_RESULTS,0,0,0
+77,Strychnos potatorum L. f.,Strychnos potatorum,PASS,43,0,43
+78,Holarrhena pubescens Wall.ex G.Don,Holarrhena pubescens,PASS,106,106,0
+79,Tabernamontana divaricata (L.)R.Br. ex Roem.& Schult.,Tabernamontana divaricata,ZERO_RESULTS,0,0,0
+80,Wrightia tinctoria R. Brown,Wrightia tinctoria,ZERO_RESULTS,0,0,0
+81,Gymnema sylvestre (Retz.)R.Br. ex Sm.,Gymnema sylvestre,ZERO_RESULTS,0,0,0
+82,Atropa belladonna L.,Atropa belladonna,ZERO_RESULTS,0,0,0
+83,Datura stramonium L.,Datura stramonium,ZERO_RESULTS,0,0,0
+84,Solanum lycopersicum L.,Solanum lycopersicum,ZERO_RESULTS,0,0,0
+85,Solanum indicum L.,Solanum indicum,PASS,13,0,13
+86,Ipomoea nil (L.) Roth,Ipomoea nil,ZERO_RESULTS,0,0,0
+87,Gmelina arborea Roxb.,Gmelina arborea,ZERO_RESULTS,0,0,0
+88,Premna serratifolia L..,Premna serratifolia,ZERO_RESULTS,0,0,0
+89,Sapindus SAPONARIA L.,Sapindus SAPONARIA,ZERO_RESULTS,0,0,0
+90,Schleichera oleosa (Lour.) Merr.,Schleichera oleosa,PASS,24,0,24
+91,Abelmoschus ESCULENTUS (L.) Moench,Abelmoschus ESCULENTUS,ZERO_RESULTS,0,0,0
+92,Abelmoschus MOSCHATUS Medik.,Abelmoschus MOSCHATUS,PASS,156,152,4
+93,Abroma AUGUSTA (L.) L.f.,Abroma AUGUSTA,PASS,21,20,1
+94,Abrus PRECATORIUS L.,Abrus PRECATORIUS,PASS,135,134,1
+95,Abutilon INDICUM (L.) Sweet,Abutilon INDICUM,PASS,165,151,14
+96,Acacia CATECHU (L.f.) Willd.,Acacia CATECHU,ZERO_RESULTS,0,0,0
+97,Acacia FARNESIANA (L.) Willd.,Acacia FARNESIANA,PASS,52,46,6
+98,Acacia NILOTICA (L.) Willd. ex Del. ssp. INDICA (Benth.) Brenan.,Acacia NILOTICA,ZERO_RESULTS,0,0,0
+99,Acacia PENNATA (L.) Willd.,Acacia PENNATA,ZERO_RESULTS,0,0,0
+100,Acacia concinna (WILLD.) DC.,Acacia concinna,PASS,27,0,27
+101,Acalypha INDICA L.,Acalypha INDICA,ZERO_RESULTS,0,0,0
+102,Acampe praemorsa (Roxb.) Blatt. & McCann,Acampe praemorsa,ZERO_RESULTS,0,0,0
+103,Acanthus ILICIFOLIUS L.,Acanthus ILICIFOLIUS,ZERO_RESULTS,0,0,0
+104,Achyranthes ASPERA L.,Achyranthes ASPERA,PASS,32,22,10
+105,Acorus CALAMUS L.,Acorus CALAMUS,ZERO_RESULTS,0,0,0
+106,Acronychia PEDUNCULATA (L.) Miq.,Acronychia PEDUNCULATA,ZERO_RESULTS,0,0,0
+107,Actinodaphne gullavara (Buch.-Ham. ex Nees) M.R.Almeida,Actinodaphne gullavara,ZERO_RESULTS,0,0,0
+108,Adenanthera PAVONINA L.,Adenanthera PAVONINA,ZERO_RESULTS,0,0,0
+109,Justicia adhatoda L.,Justicia adhatoda,ZERO_RESULTS,0,0,0
+110,Adiantum capillus-veneris L,Adiantum capillus-veneris,ZERO_RESULTS,0,0,0
+111,Adiantum INCISUM Forssk.,Adiantum INCISUM,ZERO_RESULTS,0,0,0
+112,Adiantum LUNULATUM Burm. F.,Adiantum LUNULATUM,ZERO_RESULTS,0,0,0
+113,Haldina cordifolia (Roxb.) Ridsdale,Haldina cordifolia,PASS,50,50,0
+114,Aegle MARMELOS (L.) Corr.,Aegle MARMELOS,PASS,300,277,23
+115,Aganosma DICHOTOMA (Roth) K. Schum.,Aganosma DICHOTOMA,ZERO_RESULTS,0,0,0
+116,Ageratum CONYZOIDES L.,Ageratum CONYZOIDES,PASS,291,291,0
+117,Alangium SALVIFOLIUM (L. f.) Wang.,Alangium SALVIFOLIUM,ZERO_RESULTS,0,0,0
+118,Albizia CHINENSIS (Osbeck) Merr.,Albizia CHINENSIS,PASS,2,2,0
+119,Albizzia LEBBECK (L.) Benth.,Albizzia LEBBECK,ZERO_RESULTS,0,0,0
+120,Albizia ODORATISSIMA (L. f.) Benth.,Albizia ODORATISSIMA,ZERO_RESULTS,0,0,0
+121,Albizia PROCERA (Roxb.) Benth.,Albizia PROCERA,PASS,29,29,0
+122,Allamanda CATHARTICA L.,Allamanda CATHARTICA,ZERO_RESULTS,0,0,0
+123,Allium CEPA L.,Allium CEPA,ZERO_RESULTS,0,0,0
+124,Allium SATIVUM L.,Allium SATIVUM,PASS,350,350,0
+125,Ziziphus RUGOSA Lam.,Ziziphus RUGOSA,ZERO_RESULTS,0,0,0
+126,Zizyphus oenoplia Mill.,Zizyphus oenoplia,ZERO_RESULTS,0,0,0
+127,Ziziphus jujuba Mill.,Ziziphus jujuba,ZERO_RESULTS,0,0,0
+128,Zingiber ZERUMBET (L.) Roscoe ex Sm.,Zingiber ZERUMBET,PASS,162,162,0
+129,Zingiber OFFICINALE Rose.,Zingiber OFFICINALE,ZERO_RESULTS,0,0,0
+130,Zingiber MONTANUM (Koenig) Dietrich.,Zingiber MONTANUM,ZERO_RESULTS,0,0,0
+131,Zeuxine STRATEUMATICA Schlechter.,Zeuxine STRATEUMATICA,ZERO_RESULTS,0,0,0
+132,Zea MAYS L.,Zea MAYS,ZERO_RESULTS,0,0,0
+133,Zanthoxylum RHETSA (Roxb.) DC.,Zanthoxylum RHETSA,ZERO_RESULTS,0,0,0
+134,Zanthoxylum NITIDUM (Roxb.) DC.,Zanthoxylum NITIDUM,ZERO_RESULTS,0,0,0
+135,Zanonia INDICA L.,Zanonia INDICA,ZERO_RESULTS,0,0,0
+136,Xylyocarpus MOLUCCENSIS (Lam.) M.Roem.,Xylyocarpus MOLUCCENSIS,ZERO_RESULTS,0,0,0
+137,Xylocarpus GRANATUM Koen.,Xylocarpus GRANATUM,ZERO_RESULTS,0,0,0
+138,Tamilnadia uliginosa (Retz.) Tirveng. & Sastre,Tamilnadia uliginosa,ZERO_RESULTS,0,0,0
+139,Catunaregam spinosa (Thunb.) Tirveng.,Catunaregam spinosa,ZERO_RESULTS,0,0,0
+140,Xanthium strumarium L.,Xanthium strumarium,ZERO_RESULTS,0,0,0
+141,Wrightia ARBOREA (Dennst.) Mabb.,Wrightia ARBOREA,ZERO_RESULTS,0,0,0
+142,Woodfordia FRUTICOSA (L.) Kurz.,Woodfordia FRUTICOSA,ZERO_RESULTS,0,0,0
+143,Withania SOMNIFERA (L.) Dunal.,Withania SOMNIFERA,ZERO_RESULTS,0,0,0
+144,Wikstroemia INDICA (L.) C.A. Mey.,Wikstroemia INDICA,ZERO_RESULTS,0,0,0
+145,Sphagneticola calendulacea (L.) Pruski.,Sphagneticola calendulacea,ZERO_RESULTS,0,0,0
+146,Dregea volubilis (L.f.) Benth. ex Hook.f.,Dregea volubilis,ZERO_RESULTS,0,0,0
+147,Vitis PENTAGONA (Roxb.) Lawson.,Vitis PENTAGONA,ZERO_RESULTS,0,0,0
+148,Vitex TRIFOLIA L. f.,Vitex TRIFOLIA,ZERO_RESULTS,0,0,0
+149,Vitex pinnata L.,Vitex pinnata,PASS,10,10,0
+150,Vitex PEDUNCULARIS Wall.,Vitex PEDUNCULARIS,ZERO_RESULTS,0,0,0
+151,Vitex NEGUNDO L.,Vitex NEGUNDO,PASS,137,137,0
+152,Viscum cruciatum Sieber ex Boiss.,Viscum cruciatum,ZERO_RESULTS,0,0,0
+153,Vigna UNGUICULATA (L.) Walp.,Vigna UNGUICULATA,ZERO_RESULTS,0,0,0
+154,Vigna RADIATA (L.) Wilczek.,Vigna RADIATA,ZERO_RESULTS,0,0,0
+155,Vigna MUNGO (L.) Hepper,Vigna MUNGO,ZERO_RESULTS,0,0,0
+156,Chrysopogon zizanioides (L.) Roberty.,Chrysopogon zizanioides,ZERO_RESULTS,0,0,0
+157,Vernonia PATULA (Dryand.) Merr.,Vernonia PATULA,ZERO_RESULTS,0,0,0
+158,Vanda TESSELLATA (Roxb.) Hook. ex G. Don.,Vanda TESSELLATA,ZERO_RESULTS,0,0,0
+159,Vallisneria SPIRALIS L.,Vallisneria SPIRALIS,ZERO_RESULTS,0,0,0
+160,Uvaria HAMILTONII Hook. f. & Thom.,Uvaria HAMILTONII,ZERO_RESULTS,0,0,0
+161,Drimia indica (Roxb.) Jessop.,Drimia indica,ZERO_RESULTS,0,0,0
+162,Urena LOBATA L.,Urena LOBATA,PASS,8,8,0
+163,Urena SINUATA L.,Urena SINUATA,ZERO_RESULTS,0,0,0
+164,Uraria PICTA (Jacq.) DC.,Uraria PICTA,ZERO_RESULTS,0,0,0
+165,Uraria LAGOPODIOIDES (L.) DC.,Uraria LAGOPODIOIDES,ZERO_RESULTS,0,0,0
+166,Typhonium TRILOBATUM (L.) Schott.,Typhonium TRILOBATUM,ZERO_RESULTS,0,0,0
+167,Typha ELEPHANTINA Roxb.,Typha ELEPHANTINA,ZERO_RESULTS,0,0,0
+168,Tylophora INDICA (Burm.f.) Merr.,Tylophora INDICA,ZERO_RESULTS,0,0,0
+169,Triumfetta RHOMBOIDEA Jacq.,Triumfetta RHOMBOIDEA,ZERO_RESULTS,0,0,0
+170,Trigonella FOENUM-GRAECUM L.,Trigonella FOENUM-GRAECUM,ZERO_RESULTS,0,0,0
+171,Tridax PROCUMBENS L.,Tridax PROCUMBENS,ZERO_RESULTS,0,0,0
+172,Trichosanthes DIOICA Roxb.,Trichosanthes DIOICA,ZERO_RESULTS,0,0,0
+173,Trichosanthes CUCUMERINA L.,Trichosanthes CUCUMERINA,ZERO_RESULTS,0,0,0
+174,Trichosanthes BRACTEATA (Lam.) Voigt.,Trichosanthes BRACTEATA,ZERO_RESULTS,0,0,0
+175,Tribulus TERRESTRIS L.,Tribulus TERRESTRIS,ZERO_RESULTS,0,0,0
+176,Trianthema PORTULACASTRUM L.,Trianthema PORTULACASTRUM,ZERO_RESULTS,0,0,0
+177,Mallotus polycarpus (Benth.) Kulju & Welzen.,Mallotus polycarpus,ZERO_RESULTS,0,0,0
+178,Trevesia PALMATA (Roxb. ex Lindl.) Vis.,Trevesia PALMATA,ZERO_RESULTS,0,0,0
+179,Trema ORIENTALIS (L.) Bl.,Trema ORIENTALIS,ZERO_RESULTS,0,0,0
+180,Trapa natans var. bispinosa (Roxb.) Makino,Trapa natans var. bispinosa,ZERO_RESULTS,0,0,0
+181,Tragia INVOLUCRATA L.,Tragia INVOLUCRATA,ZERO_RESULTS,0,0,0
+182,Torenia ASIATICA L.,Torenia ASIATICA,ZERO_RESULTS,0,0,0
+183,Toona CILIATA J. Roem.,Toona CILIATA,ZERO_RESULTS,0,0,0
+184,Toddalia ASIATICA (L.) Lam.,Toddalia ASIATICA,ZERO_RESULTS,0,0,0
+185,Tinospora CRISPA Miers.,Tinospora CRISPA,ZERO_RESULTS,0,0,0
+186,Tinospora sinensis (Lour.) Merr.,Tinospora sinensis,ZERO_RESULTS,0,0,0
+187,Tiliacora racemosa Colebr.,Tiliacora racemosa,ZERO_RESULTS,0,0,0
+188,Thunbergia GRANDIFLORA (Roxb. ex Rottl.) Roxb.,Thunbergia GRANDIFLORA,ZERO_RESULTS,0,0,0
+189,Cascabela thevetia (L.) Lippold.,Cascabela thevetia,ZERO_RESULTS,0,0,0
+190,Thespesia POPULNEA (L.) Sol. ex Corr.,Thespesia POPULNEA,ZERO_RESULTS,0,0,0
+191,Terminalia CITRINA Flaming.,Terminalia CITRINA,PASS,2,0,2
+192,Terminalia CHEBULA Retz.,Terminalia CHEBULA,PASS,413,365,48
+193,Terminalia CATAPPA L.,Terminalia CATAPPA,ZERO_RESULTS,0,0,0
+194,Terminalia BILLIRICA (Gaertn.)Roxb.,Terminalia BILLIRICA,ZERO_RESULTS,0,0,0
+195,Terminalia ARJUNA (Roxb. ex DC.) Wight & Arn.,Terminalia ARJUNA,PASS,314,287,27
+196,Tephrosia PURPUREA (L.) Pers.,Tephrosia PURPUREA,PASS,58,0,58
+197,Tectona grandis L.f.,Tectona grandis,ZERO_RESULTS,0,0,0
+198,Tamarix INDICA Willd.,Tamarix INDICA,ZERO_RESULTS,0,0,0
+199,Tamarix DIOICA Roxb. ex Roth.,Tamarix DIOICA,ZERO_RESULTS,0,0,0
+200,Tamarindus INDICA L.,Tamarindus INDICA,PASS,322,293,29
+201,Tagetes ERECTA L.,Tagetes ERECTA,ZERO_RESULTS,0,0,0
+202,Tacca INTEGRIFOLIA Ker.-Gawl.,Tacca INTEGRIFOLIA,PASS,5,0,5
+203,Tabernaemontana DIVARICATA (L.) R.Br. ex Roem. & Schult.,Tabernaemontana DIVARICATA,PASS,61,0,61
+204,Syzygium nervosum A.Cunn. ex DC.,Syzygium nervosum,ZERO_RESULTS,0,0,0
+205,Syzygium JAMBOS (L.) Alston.,Syzygium JAMBOS,ZERO_RESULTS,0,0,0
+206,Syzygium FRUTICOSUM DC.,Syzygium FRUTICOSUM,ZERO_RESULTS,0,0,0
+207,Syzygium CUMINI (L.) Skeel.,Syzygium CUMINI,PASS,282,164,118
+208,Symplocos RACEMOSA Roxb.,Symplocos RACEMOSA,ZERO_RESULTS,0,0,0
+209,Suregada MULTIFLORA (A. Juss.) Baill.,Suregada MULTIFLORA,PASS,9,0,9
+210,Strychnos NUX-VOMICA L.,Strychnos NUX-VOMICA,ZERO_RESULTS,0,0,0
+211,Strobilanthes AURICULATUS Nees.,Strobilanthes AURICULATUS,ZERO_RESULTS,0,0,0
+212,Striga asiatica (L.) Kuntze.,Striga asiatica,ZERO_RESULTS,0,0,0
+213,Streblus ASPER Lour.,Streblus ASPER,PASS,23,0,23
+214,Stereospermum chelonoides (L.f.) DC.,Stereospermum chelonoides,ZERO_RESULTS,0,0,0
+215,Stereospermum tetragonum DC.,Stereospermum tetragonum,ZERO_RESULTS,0,0,0
+216,Sterculia VILLOSA Roxb.,Sterculia VILLOSA,PASS,5,0,5
+217,Sterculia FOETIDA L.,Sterculia FOETIDA,ZERO_RESULTS,0,0,0
+218,Stephania JAPONICA (Thunb.) Miers.,Stephania JAPONICA,PASS,25,0,25
+219,Stephania GLABRA (Roxb.) Miers.,Stephania GLABRA,PASS,22,0,22
+220,Stachytarpheta INDICA Vahl.,Stachytarpheta INDICA,ZERO_RESULTS,0,0,0
+221,Spondias PINNATA (L.f.) Kurz.,Spondias PINNATA,PASS,14,0,14
+222,Spinacia OLERACEA L.,Spinacia OLERACEA,ZERO_RESULTS,0,0,0
+223,Acmella paniculata (Wall. ex DC.) R.K.Jansen.,Acmella paniculata,ZERO_RESULTS,0,0,0
+224,Sphaeranthus INDICUS L.,Sphaeranthus INDICUS,ZERO_RESULTS,0,0,0
+225,Sonneratia CASEOLARIS (L.) Engl.,Sonneratia CASEOLARIS,ZERO_RESULTS,0,0,0
+226,Sonchus WIGHTIANUS DC.,Sonchus WIGHTIANUS,ZERO_RESULTS,0,0,0
+227,Solanum VIRGINIANUM L.,Solanum VIRGINIANUM,ZERO_RESULTS,0,0,0
+228,Solanum VIOLACEUM Ortega,Solanum VIOLACEUM,ZERO_RESULTS,0,0,0
+229,Solanum TORVUM Swartz.,Solanum TORVUM,PASS,37,0,37
+230,Solanum SISYMBRIFOLIUM Lamk.,Solanum SISYMBRIFOLIUM,ZERO_RESULTS,0,0,0
+231,Solanum americanum Mill.,Solanum americanum,ZERO_RESULTS,0,0,0
+232,Solanum MELONGENA L.,Solanum MELONGENA,PASS,101,0,101
+233,Solanum ERIANTHUM D. Don.,Solanum ERIANTHUM,ZERO_RESULTS,0,0,0
+234,Smilax ZEYLANICA L.,Smilax ZEYLANICA,ZERO_RESULTS,0,0,0
+235,Smilax PERFOLIATA Lour.,Smilax PERFOLIATA,ZERO_RESULTS,0,0,0
+236,Smilax GLABRA Roxb.,Smilax GLABRA,ZERO_RESULTS,0,0,0
+237,Sida ORIENTALIS Cav.,Sida ORIENTALIS,ZERO_RESULTS,0,0,0
+238,Sida CORDIFOLIA L.,Sida CORDIFOLIA,ZERO_RESULTS,0,0,0
+239,Sida CORDATA (Burm. f. ) Borssum.,Sida CORDATA,ZERO_RESULTS,0,0,0
+240,Sida ACUTA Burm. f.,Sida ACUTA,PASS,26,0,26
+241,Shorea ROBUSTA Gaertn.,Shorea ROBUSTA,ZERO_RESULTS,0,0,0
+242,Setaria ITALICA (L.) Beauv.,Setaria ITALICA,ZERO_RESULTS,0,0,0
+243,Seseli DIFFUSUM (Roxb.ex Sm.)Sant. & Wagh.,Seseli DIFFUSUM,ZERO_RESULTS,0,0,0
+244,Sesbania SESBAN (L.) Merr.,Sesbania SESBAN,ZERO_RESULTS,0,0,0
+245,Sesbania GRANDIFLORA Pers.,Sesbania GRANDIFLORA,ZERO_RESULTS,0,0,0
+246,Sesbania ACULEATA Pers.,Sesbania ACULEATA,ZERO_RESULTS,0,0,0
+247,Sesamum INDICUM L.,Sesamum INDICUM,PASS,74,0,74
+248,Semecarpus ANACARDIUM L.f.,Semecarpus ANACARDIUM,ZERO_RESULTS,0,0,0
+249,Scoparia DULCIS L.,Scoparia DULCIS,ZERO_RESULTS,0,0,0
+250,Scindapsus OFFICINALIS (Roxb.) Schott.,Scindapsus OFFICINALIS,ZERO_RESULTS,0,0,0
+251,Schoenoplectus ARTICULATUS (L.) Palla,Schoenoplectus ARTICULATUS,ZERO_RESULTS,0,0,0
+252,Schoenoplectus GROSSUS (L.f.) Palla.,Schoenoplectus GROSSUS,ZERO_RESULTS,0,0,0
+253,Schleichera OLEOSA (Lour.) Oken,Schleichera OLEOSA,PASS,24,0,24
+254,Scaphium WALLICHII Schott. & Endl.,Scaphium WALLICHII,ZERO_RESULTS,0,0,0
+255,Saussurea AFFINIS Spreng.,Saussurea AFFINIS,ZERO_RESULTS,0,0,0
+256,Sarcochlamys PULCHERRIMA Gaud.,Sarcochlamys PULCHERRIMA,ZERO_RESULTS,0,0,0
+257,Saraca ASOCA (Roxb.) De Wilde.,Saraca ASOCA,PASS,30,0,30
+258,Sapindus MUKOROSSI Gaertn.,Sapindus MUKOROSSI,ZERO_RESULTS,0,0,0
+259,Sansevieria ROXBURGHIANA Schult.,Sansevieria ROXBURGHIANA,ZERO_RESULTS,0,0,0
+260,Sambucas JAVANICA Reinw. ex Blume.,Sambucas JAVANICA,ZERO_RESULTS,0,0,0
+261,Salvia PLEBEIA R. Br.,Salvia PLEBEIA,ZERO_RESULTS,0,0,0
+262,Salix TETRASPERMA Roxb.,Salix TETRASPERMA,ZERO_RESULTS,0,0,0
+263,Sagittaria SAGITTIFOLIA L.,Sagittaria SAGITTIFOLIA,ZERO_RESULTS,0,0,0
+264,Saccharum SPONTANEUM L.,Saccharum SPONTANEUM,ZERO_RESULTS,0,0,0
+265,Saccharum OFFICINARUM L.,Saccharum OFFICINARUM,PASS,72,0,72
+266,Saccharum ARUNDINACEUM Rets.,Saccharum ARUNDINACEUM,ZERO_RESULTS,0,0,0
+267,Rungia PECTINATA (L.) Nees.,Rungia PECTINATA,ZERO_RESULTS,0,0,0
+268,Rumex VESICARIUS L.,Rumex VESICARIUS,ZERO_RESULTS,0,0,0
+269,rumex MARITIMUS L,rumex MARITIMUS,ZERO_RESULTS,0,0,0
+270,Ruellia SUFFRUTICOSA Roxb.,Ruellia SUFFRUTICOSA,ZERO_RESULTS,0,0,0
+271,Rourea COMMUTATA Planch.,Rourea COMMUTATA,ZERO_RESULTS,0,0,0
+272,Ricinus COMMUNIS L.,Ricinus COMMUNIS,PASS,64,0,64
+273,RHYNCHOTECHUM ELLIPTICUM (Wall. ex D. Dietr.) A. DC.,RHYNCHOTECHUM ELLIPTICUM,ZERO_RESULTS,0,0,0
+274,rhizophora MUCRONATA Lam.,rhizophora MUCRONATA,ZERO_RESULTS,0,0,0
+275,Rhinacanthus NASUTA (L.) Kurz.,Rhinacanthus NASUTA,ZERO_RESULTS,0,0,0
+276,Reinwardtia indica Dumort.,Reinwardtia indica,ZERO_RESULTS,0,0,0
+277,Rauvolfia TETRAPHYLLA L.,Rauvolfia TETRAPHYLLA,ZERO_RESULTS,0,0,0
+278,Rauvolfia SERPENTINA (L.) Benth. ex Kurz.,Rauvolfia SERPENTINA,PASS,90,0,90
+279,Ranunculus SCELERATUS L.,Ranunculus SCELERATUS,ZERO_RESULTS,0,0,0
+280,Oxyceros longiflorus (Lam.) T.Yamaz.,Oxyceros longiflorus,ZERO_RESULTS,0,0,0
+281,aidia DENSIFLORA (Wall.) Masam.,aidia DENSIFLORA,ZERO_RESULTS,0,0,0
+282,Combretum indicum (L.) De Filipps.,Combretum indicum,ZERO_RESULTS,0,0,0
+283,Punica GRANATUM L.,Punica GRANATUM,PASS,117,0,117
+284,Pueraria TUBEROSA (Willd.) DC.,Pueraria TUBEROSA,ZERO_RESULTS,0,0,0
+285,Pterygota ALATA (Roxb.) R. Br.,Pterygota ALATA,ZERO_RESULTS,0,0,0
+286,Pterospermum ACERIFOLIUM (L.) Willd.,Pterospermum ACERIFOLIUM,ZERO_RESULTS,0,0,0
+287,Psidium GUAJAVA L.,Psidium GUAJAVA,PASS,466,0,466
+288,Premna CORYMBOSA Rottler & Willd.,Premna CORYMBOSA,PASS,6,0,6
+289,Premna ESCULENTA Roxb.,Premna ESCULENTA,ZERO_RESULTS,0,0,0
+290,Pouzolzia ZEYLANICA (L.) Benn.,Pouzolzia ZEYLANICA,ZERO_RESULTS,0,0,0
+291,Pothos SCANDENS L.,Pothos SCANDENS,ZERO_RESULTS,0,0,0
+292,Portulaca OLERACEA L.,Portulaca OLERACEA,ZERO_RESULTS,0,0,0
+293,polygonum PLEBEIUM R. Br.,polygonum PLEBEIUM,PASS,7,0,7
+294,Polygala ARVENSIS Willd,Polygala ARVENSIS,ZERO_RESULTS,0,0,0
+295,Polyalthia LONGIFOLIA (Sonn.) Thw.,Polyalthia LONGIFOLIA,ZERO_RESULTS,0,0,0
+296,Polianthes TUBEROSA L.,Polianthes TUBEROSA,ZERO_RESULTS,0,0,0
+297,Pogostemon PUBESCENCE Benth.,Pogostemon PUBESCENCE,ZERO_RESULTS,0,0,0
+298,Pogostemon BENGHALENSE (Burm.f.) Kuntze.,Pogostemon BENGHALENSE,ZERO_RESULTS,0,0,0
+299,Plumeria RUBRA L.,Plumeria RUBRA,PASS,151,0,151
+300,Plumbago ZEYLANICA L.,Plumbago ZEYLANICA,PASS,26,0,26
+301,Plumbago INDICA L.,Plumbago INDICA,PASS,28,0,28
+302,Pithecellobium DULCE (Roxb.) Benth.,Pithecellobium DULCE,ZERO_RESULTS,0,0,0
+303,Archidendron clypearia (Jack) I.C.Nielsen.,Archidendron clypearia,ZERO_RESULTS,0,0,0
+304,Pisum SATIVUM L.,Pisum SATIVUM,ZERO_RESULTS,0,0,0
+305,Pistia STRATIOTES L.,Pistia STRATIOTES,ZERO_RESULTS,0,0,0
+306,Piper RETROFRACTUM Vahl.,Piper RETROFRACTUM,ZERO_RESULTS,0,0,0
+307,Piper NIGRUM L.,Piper NIGRUM,PASS,277,0,277
+308,Piper LONGUM L.,Piper LONGUM,PASS,90,0,90
+309,Piper BETEL L.,Piper BETEL,ZERO_RESULTS,0,0,0
+310,Picrasma JAVANICA Bl.,Picrasma JAVANICA,ZERO_RESULTS,0,0,0
+311,Physalis minima L.,Physalis minima,ZERO_RESULTS,0,0,0
+312,Phyllanthus virgatus G.Forst.,Phyllanthus virgatus,ZERO_RESULTS,0,0,0
+313,Phyllanthus URINARIA L.,Phyllanthus URINARIA,PASS,17,0,17
+314,Phyllanthus RETICULATUS Poir.,Phyllanthus RETICULATUS,PASS,16,0,16
+315,Phyllanthus MADERASPATENSIS L.,Phyllanthus MADERASPATENSIS,ZERO_RESULTS,0,0,0
+316,. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),PHYLLANTHUS EMBLICA,PASS,50,0,50
+317,Phyllanthus amarus Schumach. & Thonn.,Phyllanthus amarus,ZERO_RESULTS,0,0,0
+318,Phyllanthus acidus (L.) Skeels.,Phyllanthus acidus,ZERO_RESULTS,0,0,0
+319,Phyla NODIFLORA (L.) Greene.,Phyla NODIFLORA,ZERO_RESULTS,0,0,0
+320,Phragmites karka (Retz.) Trin. ex Steud.,Phragmites karka,ZERO_RESULTS,0,0,0
+321,Phoenix sylvestris (L.) Roxb.,Phoenix sylvestris,PASS,8,0,8
+322,Phlogacanthus THYRSIFLORUS Nees.,Phlogacanthus THYRSIFLORUS,ZERO_RESULTS,0,0,0
+323,Persicaria ORIENTALIS (L.) Spach.,Persicaria ORIENTALIS,ZERO_RESULTS,0,0,0
+324,Persicaria hydropiper (L.) Delarbre .,Persicaria hydropiper,ZERO_RESULTS,0,0,0
+325,Persicaria GLABRA (Willd.) Gomez de la Maza,Persicaria GLABRA,ZERO_RESULTS,0,0,0
+326,Persicaria BARBATA (L.) Hara,Persicaria BARBATA,ZERO_RESULTS,0,0,0
+327,Pericamphylus GLAUCUS (Lamk.) Merr.,Pericamphylus GLAUCUS,ZERO_RESULTS,0,0,0
+328,Pergularia DAEMIA (Forssk.) Chiov.,Pergularia DAEMIA,ZERO_RESULTS,0,0,0
+329,Peperomia pellucida (L.) Kunth.,Peperomia pellucida,ZERO_RESULTS,0,0,0
+330,Euphorbia tithymaloides L.,Euphorbia tithymaloides,PASS,1,1,0
+331,Pavetta INDICA L.,Pavetta INDICA,PASS,1,0,1
+332,Passiflora FOETIDA L.,Passiflora FOETIDA,PASS,73,73,0
+333,Parsonia SPIRALIS Wall.,Parsonia SPIRALIS,ZERO_RESULTS,0,0,0
+334,Pandanus odorifer (Forssk.) Kuntze.,Pandanus odorifer,ZERO_RESULTS,0,0,0
+335,Paederia LANUGINOSA Wall.,Paederia LANUGINOSA,ZERO_RESULTS,0,0,0
+336,Paederia FOETIDA L.,Paederia FOETIDA,PASS,135,117,18
+337,Oxystelma SECAMONE (L.) Karst.,Oxystelma SECAMONE,ZERO_RESULTS,0,0,0
+338,Oxalis CORNICULATA L.,Oxalis CORNICULATA,ZERO_RESULTS,0,0,0
+339,Oryza SATIVA L. .,Oryza SATIVA,ZERO_RESULTS,0,0,0
+340,Orthosiphon aristatus (Blume) Miq.,Orthosiphon aristatus,ZERO_RESULTS,0,0,0
+341,Oroxylum INDICUM (L.) Kurz.,Oroxylum INDICUM,ZERO_RESULTS,0,0,0
+342,Orobanche AEGYPTIACA Pers.,Orobanche AEGYPTIACA,ZERO_RESULTS,0,0,0
+343,Opuntia ELATIOR Mill.,Opuntia ELATIOR,ZERO_RESULTS,0,0,0
+344,Ophiorrhiza rugosa VAR. PROSTRATA (D.Don) Deb & Mondal.,Ophiorrhiza rugosa var. PROSTRATA,ZERO_RESULTS,0,0,0
+345,Operculina TURPETHUM (L.) Silva.- Manso.,Operculina TURPETHUM,ZERO_RESULTS,0,0,0
+346,Ocimum tenuiflorum L.,Ocimum tenuiflorum,PASS,267,267,0
+347,Ocium GRATISSIMUM L.,Ocium GRATISSIMUM,ZERO_RESULTS,0,0,0
+348,Ocimum BASILICUM L.,Ocimum BASILICUM,ZERO_RESULTS,0,0,0
+349,Ocimum AMERICANUM L.,Ocimum AMERICANUM,PASS,134,102,32
+350,discladium SQUARROSUM (L.) Tiegh.,discladium SQUARROSUM,ZERO_RESULTS,0,0,0
+351,Nymphoides HYDROPHYLLA (Lour.) Kuntze.,Nymphoides HYDROPHYLLA,ZERO_RESULTS,0,0,0
+352,Nymphaea nouchali Burm. f.,Nymphaea nouchali,ZERO_RESULTS,0,0,0
+353,Nymphaea NOUCHALI Burm. f.,Nymphaea NOUCHALI,ZERO_RESULTS,0,0,0
+354,Nyctanthes ARBOR-TRISTIS L.,Nyctanthes ARBOR-TRISTIS,PASS,49,45,4
+355,Nipa FRUTICANS Wurmb.,Nipa FRUTICANS,ZERO_RESULTS,0,0,0
+356,Nigella SATIVA L,Nigella SATIVA,PASS,138,138,0
+357,Nicotiana TABACUM L.,Nicotiana TABACUM,ZERO_RESULTS,0,0,0
+358,Nicotiana RUSTICA L.,Nicotiana RUSTICA,ZERO_RESULTS,0,0,0
+359,Nerium oleander L.,Nerium oleander,ZERO_RESULTS,0,0,0
+360,Nelumbo NUCIFERA Gaertn.,Nelumbo NUCIFERA,ZERO_RESULTS,0,0,0
+361,Neonauclea sessilifolia (Roxb.) Merr.,Neonauclea sessilifolia,ZERO_RESULTS,0,0,0
+362,Rorippa indica (L.) Hiern.,Rorippa indica,ZERO_RESULTS,0,0,0
+363,Myrica ESCULENTA Buch.-Ham,Myrica ESCULENTA,ZERO_RESULTS,0,0,0
+364,Mussaenda ROXBURGHII Hook. f.,Mussaenda ROXBURGHII,PASS,54,34,20
+365,Mussaenda GLABRATA Hutch.,Mussaenda GLABRATA,ZERO_RESULTS,0,0,0
+366,Musa PARADISIACA L.,Musa PARADISIACA,ZERO_RESULTS,0,0,0
+367,Musa ORNATA Roxb.,Musa ORNATA,ZERO_RESULTS,0,0,0
+368,Murraya PANICULATA (L.) Jacq.,Murraya PANICULATA,PASS,69,69,0
+369,Murraya KOENIGII (L.) Spreng.,Murraya KOENIGII,ZERO_RESULTS,0,0,0
+370,Murdania NUDIFLORA (L.) Breman.,Murdania NUDIFLORA,ZERO_RESULTS,0,0,0
+371,Mucuna PRURIENS (L.) DC.,Mucuna PRURIENS,ZERO_RESULTS,0,0,0
+372,Mucuna MONOSPERMA DC.,Mucuna MONOSPERMA,ZERO_RESULTS,0,0,0
+373,Morus INDICA L.,Morus INDICA,ZERO_RESULTS,0,0,0
+374,Moringa OLEIFERA Lamk.,Moringa OLEIFERA,PASS,272,235,37
+375,Morinda CITRIFOLIA L.,Morinda CITRIFOLIA,ZERO_RESULTS,0,0,0
+376,Morinda ANGUSTIFOLIA Roxb.,Morinda ANGUSTIFOLIA,ZERO_RESULTS,0,0,0
+377,Monochoria VAGINALIS (Burm. f.) Presl.,Monochoria VAGINALIS,ZERO_RESULTS,0,0,0
+378,Monochoria HASTATA (L.) Solms.,Monochoria HASTATA,ZERO_RESULTS,0,0,0
+379,Momordica DIOICA Roxb.,Momordica DIOICA,ZERO_RESULTS,0,0,0
+380,Momordica COCHINCHINENSIS Spreng.,Momordica COCHINCHINENSIS,ZERO_RESULTS,0,0,0
+381,Momordica CHARANTEA L.,Momordica CHARANTEA,ZERO_RESULTS,0,0,0
+382,Mollugo PENTAPHYLLA L. (),Mollugo PENTAPHYLLA,ZERO_RESULTS,0,0,0
+383,Molineria CAPITULATA (Loureiro) Herbert.,Molineria CAPITULATA,ZERO_RESULTS,0,0,0
+384,Mitragyna PARVIFOLIA (Roxb.) Korth.,Mitragyna PARVIFOLIA,ZERO_RESULTS,0,0,0
+385,Mirabilis JALAPA L.,Mirabilis JALAPA,ZERO_RESULTS,0,0,0
+386,Mimusops ELENGI L.,Mimusops ELENGI,PASS,184,150,34
+387,Mimosa PUDICA L.,Mimosa PUDICA,ZERO_RESULTS,0,0,0
+388,Mikania CORDATA (Burm. f.) Rob,Mikania CORDATA,PASS,126,126,0
+389,Michelia CHAMPACA L.,Michelia CHAMPACA,PASS,339,0,339
+390,Meyna SPINOSA Roxb. ex. Link.,Meyna SPINOSA,ZERO_RESULTS,0,0,0
+391,Mesua NAGESSARIUM (Burm.) Kost. (),Mesua NAGESSARIUM,ZERO_RESULTS,0,0,0
+392,Merremia VITIFOLIA (Burm. f.) Hallier f.,Merremia VITIFOLIA,ZERO_RESULTS,0,0,0
+393,Mentha ARVENSIS L.,Mentha ARVENSIS,ZERO_RESULTS,0,0,0
+394,Memecylon UMBELLATUM Burm.,Memecylon UMBELLATUM,ZERO_RESULTS,0,0,0
+395,Melothria HETEROPHYLLA Cogn.,Melothria HETEROPHYLLA,ZERO_RESULTS,0,0,0
+396,Melochia CORCHORIFOLIA L.,Melochia CORCHORIFOLIA,PASS,32,32,0
+397,Melilotus ALBA Lamk.,Melilotus ALBA,ZERO_RESULTS,0,0,0
+398,Melia SEMPERVIRENS (L.) All.,Melia SEMPERVIRENS,ZERO_RESULTS,0,0,0
+399,Melastoma MALABATHRICUM L.,Melastoma MALABATHRICUM,ZERO_RESULTS,0,0,0
+400,Martynia ANNUA (Hous.) L.,Martynia ANNUA,ZERO_RESULTS,0,0,0
+401,Marsdenia TINCTORA (L.) R. Br.,Marsdenia TINCTORA,ZERO_RESULTS,0,0,0
+402,Maranta ARUNDINACEA L.,Maranta ARUNDINACEA,PASS,15,10,5
+403,Manilkara ZAPOTA (L.) Royen.,Manilkara ZAPOTA,ZERO_RESULTS,0,0,0
+404,Manilkara HEXANDRA (Roxb.) Dub.,Manilkara HEXANDRA,ZERO_RESULTS,0,0,0
+405,Manihot ESCULENTA Crantz.,Manihot ESCULENTA,PASS,93,93,0
+406,Mangifera laurina Blume.,Mangifera laurina,ZERO_RESULTS,0,0,0
+407,Mangifera INDICA L.,Mangifera INDICA,PASS,577,576,1
+408,Mallotus ROXBURGHIANUS Muel-Arg.,Mallotus ROXBURGHIANUS,ZERO_RESULTS,0,0,0
+409,Mallotus PHILIPPINENSIS Muell-Arg.,Mallotus PHILIPPINENSIS,ZERO_RESULTS,0,0,0
+410,Maesa INDICA Wall.,Maesa INDICA,PASS,66,65,1
+411,Maesa ACUMINATA DC.,Maesa ACUMINATA,ZERO_RESULTS,0,0,0
+412,Madhuca longifolia VAR. LATIFOLIA (Roxb.) A.Chev.,Madhuca longifolia var. LATIFOLIA,ZERO_RESULTS,0,0,0
+413,Macrotyloma uniflorum (Lam.) Verde.,Macrotyloma uniflorum,ZERO_RESULTS,0,0,0
+414,Macrosolen COCHINCHINENSIS (Lour.) Van Teigh.,Macrosolen COCHINCHINENSIS,ZERO_RESULTS,0,0,0
+415,Macaranga DENTICULATA Muell.-Arg.,Macaranga DENTICULATA,ZERO_RESULTS,0,0,0
+416,Lygodium MICROPHYLLUM (Cau.) R. Br.,Lygodium MICROPHYLLUM,ZERO_RESULTS,0,0,0
+417,Lygodium JAPONICUM (Thunb.) Sw.,Lygodium JAPONICUM,ZERO_RESULTS,0,0,0
+418,Lygodium FLEXUOSUM Sw.,Lygodium FLEXUOSUM,PASS,12,12,0
+419,Lygodium CIRCINATUM (Burm.) Sw.,Lygodium CIRCINATUM,ZERO_RESULTS,0,0,0
+420,Lycopersicon LYCOPERSICUM (L.) Karsten,Lycopersicon LYCOPERSICUM,ZERO_RESULTS,0,0,0
+421,Luvunga SCANDENS Buch.-Ham.,Luvunga SCANDENS,ZERO_RESULTS,0,0,0
+422,Luffa CYLINDRICA (L.) Roem.,Luffa CYLINDRICA,ZERO_RESULTS,0,0,0
+423,Luffa ACUTANGULA (L.) Roxb.,Luffa ACUTANGULA,PASS,83,83,0
+424,Ludwigia ADSCENDENS (L.) Hara.,Ludwigia ADSCENDENS,ZERO_RESULTS,0,0,0
+425,Litsea MONOPETALA (Roxb.) Pers.,Litsea MONOPETALA,PASS,35,28,7
+426,Litsea LANCIFOLIA (Roxb.ex Nees) Fern.-Vill,Litsea LANCIFOLIA,ZERO_RESULTS,0,0,0
+427,Litsea GLUTIONSA (Lour.) Rob.,Litsea GLUTIONSA,ZERO_RESULTS,0,0,0
+428,Litchi CHINESIS Sonn.,Litchi CHINESIS,ZERO_RESULTS,0,0,0
+429,Linum USITATISSIMUM L.,Linum USITATISSIMUM,ZERO_RESULTS,0,0,0
+430,Lindenbergia INDICA Vatke,Lindenbergia INDICA,ZERO_RESULTS,0,0,0
+431,Limnophila INDICA (L.) Druce.,Limnophila INDICA,ZERO_RESULTS,0,0,0
+432,Leucas zeylanica (L.) W.T.Aiton.,Leucas zeylanica,ZERO_RESULTS,0,0,0
+433,Leucas LAVANDULIFOLIA Sm.,Leucas LAVANDULIFOLIA,ZERO_RESULTS,0,0,0
+434,Leucas CEPHALOTES (Roth.) Spreng.,Leucas CEPHALOTES,ZERO_RESULTS,0,0,0
+435,Leucas ASPERA (Willd.) Link.,Leucas ASPERA,PASS,191,190,1
+436,Leonurus SIBIRICUS L.,Leonurus SIBIRICUS,ZERO_RESULTS,0,0,0
+437,Lens CULINARIS Medik.,Lens CULINARIS,ZERO_RESULTS,0,0,0
+438,Leea MACROPHYLLA Roxb.,Leea MACROPHYLLA,ZERO_RESULTS,0,0,0
+439,Leea INDICA (Burm. f.) Merr.,Leea INDICA,PASS,52,52,0
+440,Leea asiatica (L.) Ridsdale.,Leea asiatica,ZERO_RESULTS,0,0,0
+441,Leea AEQUATA L.,Leea AEQUATA,PASS,20,20,0
+442,Lawsonia INERMIS L.,Lawsonia INERMIS,PASS,221,169,52
+443,Launaea SARMENTOSA (Willd.) Sch.-Bip.,Launaea SARMENTOSA,ZERO_RESULTS,0,0,0
+444,Launaea ASPLENIIFOLIA Hook. f.,Launaea ASPLENIIFOLIA,ZERO_RESULTS,0,0,0
+445,Lasia SPINOSA (L.) Thw.,Lasia SPINOSA,ZERO_RESULTS,0,0,0
+446,Dendrocnide sinuata (Blume) Chew.,Dendrocnide sinuata,ZERO_RESULTS,0,0,0
+447,Lantana CAMARA L.,Lantana CAMARA,PASS,201,187,14
+448,Lannea COROMANDELICA (Houtt.) Merr.,Lannea COROMANDELICA,ZERO_RESULTS,0,0,0
+449,Lagerstroemia speciosa (L.) Pers.,Lagerstroemia speciosa,PASS,115,87,28
+450,Lagerstroemia INDICA L.,Lagerstroemia INDICA,ZERO_RESULTS,0,0,0
+451,Lageneria SICERARIA (Molina) Standl.,Lageneria SICERARIA,ZERO_RESULTS,0,0,0
+452,Lablab PURPUREUS (L.) Sweet.,Lablab PURPUREUS,ZERO_RESULTS,0,0,0
+453,Bryophyllum pinnatum (Lam.) Oken.,Bryophyllum pinnatum,ZERO_RESULTS,0,0,0
+454,Kaempferia ROTUNDA L.,Kaempferia ROTUNDA,ZERO_RESULTS,0,0,0
+455,Kaempferia PARVIFLORA Wall.,Kaempferia PARVIFLORA,ZERO_RESULTS,0,0,0
+456,Alpinia sessilis J.Koenig,Alpinia sessilis,ZERO_RESULTS,0,0,0
+457,justicia JAPONICA Thunb.,justicia JAPONICA,ZERO_RESULTS,0,0,0
+458,Justicia GENDARUSSA Burm.,Justicia GENDARUSSA,PASS,15,15,0
+459,Jatropha GOSSYPIFOLIA L.,Jatropha GOSSYPIFOLIA,ZERO_RESULTS,0,0,0
+460,. JATROPHA CURCAS L.,JATROPHA CURCAS,ZERO_RESULTS,0,0,0
+461,Jasminum SCANDENS Vahl.,Jasminum SCANDENS,ZERO_RESULTS,0,0,0
+462,Jasminum SAMBAC (L.) Ait.,Jasminum SAMBAC,PASS,213,213,0
+463,Jasminum ANGUSTIFOLIUM Vahl.,Jasminum ANGUSTIFOLIUM,ZERO_RESULTS,0,0,0
+464,Ixora NIGRICANS R. Br. ex Wight & Arn.,Ixora NIGRICANS,PASS,6,0,6
+465,Ixora CUNEIFOLIA Roxb.,Ixora CUNEIFOLIA,PASS,4,4,0
+466,Ixora COCCINEA L.,Ixora COCCINEA,ZERO_RESULTS,0,0,0
+467,Ixora pavetta Andr.,Ixora pavetta,ZERO_RESULTS,0,0,0
+468,Isodon LOPHANTHOIDES (Buch.-Ham. ex D. Don.) Hara,Isodon LOPHANTHOIDES,ZERO_RESULTS,0,0,0
+469,ipomoea QUAMOCLIT L.,ipomoea QUAMOCLIT,ZERO_RESULTS,0,0,0
+470,Ipomoea PES -TIGRIDIS L.,Ipomoea PES,ZERO_RESULTS,0,0,0
+471,Ipomoea PES-CAPRAE (L.) R.Br.,Ipomoea PES-CAPRAE,ZERO_RESULTS,0,0,0
+472,Ipomoea OBSCURA Ker-Gawl.,Ipomoea OBSCURA,ZERO_RESULTS,0,0,0
+473,Ipomoea MAXIMA (L.f.) Don. ex. Sweef.,Ipomoea MAXIMA,ZERO_RESULTS,0,0,0
+474,Ipomoea MAURITIANA Jacq.,Ipomoea MAURITIANA,ZERO_RESULTS,0,0,0
+475,Ipomoea BATATUS (L.) Lamk.,Ipomoea BATATUS,ZERO_RESULTS,0,0,0
+476,Ipomoea AQUATICA Forsk.,Ipomoea AQUATICA,ZERO_RESULTS,0,0,0
+477,Ipomoea ALBA L.,Ipomoea ALBA,ZERO_RESULTS,0,0,0
+478,Indigofera TINCTORIA L.,Indigofera TINCTORIA,ZERO_RESULTS,0,0,0
+479,Imperata CYLINDRICA Rausch.,Imperata CYLINDRICA,ZERO_RESULTS,0,0,0
+480,Impatiens BALSAMINA L.,Impatiens BALSAMINA,ZERO_RESULTS,0,0,0
+481,Ichnocarpus FRUTESCENS (L.) R. Br.,Ichnocarpus FRUTESCENS,ZERO_RESULTS,0,0,0
+482,Hyptis SUAVEOLENS (L.) Poit.,Hyptis SUAVEOLENS,ZERO_RESULTS,0,0,0
+483,Hypericum JAPONICUM Thunb.,Hypericum JAPONICUM,ZERO_RESULTS,0,0,0
+484,Hymenodictyon ORIXENSIS (Roxb.) Mabberly,Hymenodictyon ORIXENSIS,ZERO_RESULTS,0,0,0
+485,Hygroryza ARISTATA (Retz.) Nees.,Hygroryza ARISTATA,ZERO_RESULTS,0,0,0
+486,Hygrophila AURICULATA (Schum.) Heyne.,Hygrophila AURICULATA,ZERO_RESULTS,0,0,0
+487,Hydrolea ZEYLANICA Vahl.,Hydrolea ZEYLANICA,PASS,19,19,0
+488,Hydnocarpus KURZII (King.) Warb.,Hydnocarpus KURZII,ZERO_RESULTS,0,0,0
+489,Hybanthus ENNEASPERMUS (L.) F. Muell.,Hybanthus ENNEASPERMUS,ZERO_RESULTS,0,0,0
+490,Hoya PARASITICA Wall.,Hoya PARASITICA,ZERO_RESULTS,0,0,0
+491,Hopea ODORATA Roxb.,Hopea ODORATA,PASS,15,13,2
+492,Homalomena aromatica (Spreng.) Schott.,Homalomena aromatica,PASS,93,93,0
+493,Holarrhena PUBESCENCE (Buch.-Ham.) Wall.,Holarrhena PUBESCENCE,ZERO_RESULTS,0,0,0
+494,Hiptage BENGHALENSIS (L.) Kurz.,Hiptage BENGHALENSIS,ZERO_RESULTS,0,0,0
+495,Hibiscus TILLIACEUS L.,Hibiscus TILLIACEUS,ZERO_RESULTS,0,0,0
+496,Hibiscus SURATTENSIS L.,Hibiscus SURATTENSIS,PASS,85,85,0
+497,Hibiscus SABDARIFFA L.,Hibiscus SABDARIFFA,PASS,656,656,0
+498,Hibiscus ROSA-SINENSIS L.,Hibiscus ROSA-SINENSIS,PASS,163,146,17
+499,Hibiscus MUTABILIS L.,Hibiscus MUTABILIS,PASS,76,76,0
+500,Hibiscus CANABINUS L.,Hibiscus CANABINUS,ZERO_RESULTS,0,0,0
+501,Schefflera hypoleuca (Kurz) Harms.,Schefflera hypoleuca,ZERO_RESULTS,0,0,0
+502,Hemigraphis HIRTA (Vahl.) And.,Hemigraphis HIRTA,ZERO_RESULTS,0,0,0
+503,Hemidesmus INDICUS (L.) R. Br.,Hemidesmus INDICUS,PASS,58,58,0
+504,Helminthostachys ZEYLANICA L.,Helminthostachys ZEYLANICA,PASS,11,11,0
+505,Heliotropium INDICUM L.,Heliotropium INDICUM,PASS,183,166,17
+506,Helicteres ISORA L.,Helicteres ISORA,ZERO_RESULTS,0,0,0
+507,Helianthus ANNUS L.,Helianthus ANNUS,ZERO_RESULTS,0,0,0
+508,Hedyotis SCANDENS Roxb.,Hedyotis SCANDENS,PASS,34,34,0
+509,Oldenlandia diffusa (Willd.) Roxb.,Oldenlandia diffusa,ZERO_RESULTS,0,0,0
+510,Oldenlandia corymbosa L.,Oldenlandia corymbosa,ZERO_RESULTS,0,0,0
+511,Hedychium CORONARIUM Koenig,Hedychium CORONARIUM,ZERO_RESULTS,0,0,0
+512,Peristylus constrictus (Lindl.) Lindl.,Peristylus constrictus,ZERO_RESULTS,0,0,0
+513,Gynocardia ORORATA R. Br.,Gynocardia ORORATA,ZERO_RESULTS,0,0,0
+514,Gymnopetalum chinense (Lour.) Merr.,Gymnopetalum chinense,ZERO_RESULTS,0,0,0
+515,Grewia asiatica L.,Grewia asiatica,PASS,102,89,13
+516,Grewia SCLEROPHYLLA Roxb. ex Don.,Grewia SCLEROPHYLLA,ZERO_RESULTS,0,0,0
+517,Grewia nervosa (Lour.) Panigrahi.,Grewia nervosa,ZERO_RESULTS,0,0,0
+518,Grangea MADERESPATANA (L.) Poir.,Grangea MADERESPATANA,ZERO_RESULTS,0,0,0
+519,Gossypium HERBACIUM L.,Gossypium HERBACIUM,ZERO_RESULTS,0,0,0
+520,Gomphrena GLOBOSA L.,Gomphrena GLOBOSA,ZERO_RESULTS,0,0,0
+521,Gnetum MONTANUM Markgraf,Gnetum MONTANUM,ZERO_RESULTS,0,0,0
+522,Laphangium luteoalbum (L.) Tzvelev.,Laphangium luteoalbum,ZERO_RESULTS,0,0,0
+523,Glycosmis PENTAPHYLLA (Retz.) A. DC.,Glycosmis PENTAPHYLLA,PASS,93,89,4
+524,Gmelina ARBOREA L.,Gmelina ARBOREA,ZERO_RESULTS,0,0,0
+525,Gloriosa SUPERBA L.,Gloriosa SUPERBA,PASS,169,169,0
+526,Glochidion LANCEOLARIUM (Roxb.) Dalz.,Glochidion LANCEOLARIUM,ZERO_RESULTS,0,0,0
+527,Glinus OPPOSITIFOLIUS (L.) A. DC.,Glinus OPPOSITIFOLIUS,ZERO_RESULTS,0,0,0
+528,Garuga PINNATA Roxb.,Garuga PINNATA,ZERO_RESULTS,0,0,0
+529,Gardenia RESINIFERA Roth.,Gardenia RESINIFERA,ZERO_RESULTS,0,0,0
+530,Gardenia JASMINOIDES Ellis.,Gardenia JASMINOIDES,ZERO_RESULTS,0,0,0
+531,Gardenia CORONARIA Ham.,Gardenia CORONARIA,ZERO_RESULTS,0,0,0
+532,Ceriscoides campanulata (Roxb.) Tirveng,Ceriscoides campanulata,ZERO_RESULTS,0,0,0
+533,Garcinia XANTHOCHYMUS Hook. f.,Garcinia XANTHOCHYMUS,ZERO_RESULTS,0,0,0
+534,Garcinia COWA Roxb.,Garcinia COWA,ZERO_RESULTS,0,0,0
+535,Foeniculum VULGARE Mill.,Foeniculum VULGARE,ZERO_RESULTS,0,0,0
+536,Floscopa SCANDENS Lour.,Floscopa SCANDENS,ZERO_RESULTS,0,0,0
+537,Flemingia STROBILIFERA R.Br.,Flemingia STROBILIFERA,ZERO_RESULTS,0,0,0
+538,Flemingia MACROPHYLLA (Willd.) O.Ktze. ex Merr.,Flemingia MACROPHYLLA,ZERO_RESULTS,0,0,0
+539,Flacourtia JANGOMAS (Lour.) Raeus.,Flacourtia JANGOMAS,PASS,49,45,4
+540,Flacourtia INDICA (Burm.f.) Merr.,Flacourtia INDICA,ZERO_RESULTS,0,0,0
+541,Firmiana COLORATA R. Br.,Firmiana COLORATA,ZERO_RESULTS,0,0,0
+542,Ficus SEMICORDATA Buch.-Ham. ex Smith.,Ficus SEMICORDATA,ZERO_RESULTS,0,0,0
+543,Ficus RELIGIOSA L.,Ficus RELIGIOSA,ZERO_RESULTS,0,0,0
+544,Ficus RACEMOSA L.,Ficus RACEMOSA,ZERO_RESULTS,0,0,0
+545,Ficus HISPIDA L. f.,Ficus HISPIDA,PASS,83,82,1
+546,Ficus BENJAMINA L. var. comosa (Roxb.) Kurz.,Ficus BENJAMINA var. comosa,ZERO_RESULTS,0,0,0
+547,Ficus BENGHALENSIS L.,Ficus BENGHALENSIS,ZERO_RESULTS,0,0,0
+548,Feronia LIMONIA (L.) Sw.,Feronia LIMONIA,ZERO_RESULTS,0,0,0
+549,Shirakiopsis indica (Willd.) Esser,Shirakiopsis indica,ZERO_RESULTS,0,0,0
+550,Excoecaria AGALLOCHA L.,Excoecaria AGALLOCHA,ZERO_RESULTS,0,0,0
+551,Euryale FEROX Salisb.,Euryale FEROX,ZERO_RESULTS,0,0,0
+552,Eurya ACUMINATA DC.,Eurya ACUMINATA,ZERO_RESULTS,0,0,0
+553,Euphorbia TIRUCALLI L.,Euphorbia TIRUCALLI,ZERO_RESULTS,0,0,0
+554,Euphorbia THYMIFOLIA Burm. f.,Euphorbia THYMIFOLIA,ZERO_RESULTS,0,0,0
+555,Euphorbia HIRTA L.,Euphorbia HIRTA,ZERO_RESULTS,0,0,0
+556,Euphorbia ANTIQUORUM L.,Euphorbia ANTIQUORUM,ZERO_RESULTS,0,0,0
+557,Ayapana triplinervis (Vahl) R.M.King & H.Rob.,Ayapana triplinervis,ZERO_RESULTS,0,0,0
+558,Eupatorium ODORATUM L.,Eupatorium ODORATUM,ZERO_RESULTS,0,0,0
+559,Graphorchis campestris (Wall.) Kuntze,Graphorchis campestris,ZERO_RESULTS,0,0,0
+560,Etlingera LINGUIFORMIS (Roxb.) R.M. Smith,Etlingera LINGUIFORMIS,ZERO_RESULTS,0,0,0
+561,Erythrina VARIEGATA L. var. orientalis (L.) Merr.,Erythrina VARIEGATA var. orientalis,ZERO_RESULTS,0,0,0
+562,Hippochaete debilis (Roxb. ex Vaucher) Ching.,Hippochaete debilis,ZERO_RESULTS,0,0,0
+563,Entada rheedii Spreng.,Entada rheedii,PASS,57,35,22
+564,Cissampelos PAREIRA L. Var. hirsuta (Buch. ex Dc.) Forman,Cissampelos PAREIRA var. hirsuta,ZERO_RESULTS,0,0,0
+565,Cissus ADNATA Roxb.,Cissus ADNATA,PASS,3,3,0
+566,Enhydra FLUCTUANS Lour.,Enhydra FLUCTUANS,ZERO_RESULTS,0,0,0
+567,Emilia SONCHIFOLIA DC. ex DC.,Emilia SONCHIFOLIA,ZERO_RESULTS,0,0,0
+568,Embelia RIBES Burm. f.,Embelia RIBES,PASS,6,5,1
+569,Elsholtzia stachyodes (Link) Raizada & H.O.Saxena,Elsholtzia stachyodes,ZERO_RESULTS,0,0,0
+570,Eleusine INDICA (L.) Gaertn.,Eleusine INDICA,PASS,7,7,0
+571,Elephantopus SCABER L.,Elephantopus SCABER,PASS,22,20,2
+572,Elaeocarpus SPHAERICUS (Gaertn.) K. Schum.,Elaeocarpus SPHAERICUS,ZERO_RESULTS,0,0,0
+573,Elaeocarpus FLORIBUNDUS Blume.,Elaeocarpus FLORIBUNDUS,ZERO_RESULTS,0,0,0
+574,Eichhornia CRASSIPES (Mart.) Solms.,Eichhornia CRASSIPES,ZERO_RESULTS,0,0,0
+575,Ecbolium VIRIDE (Forsk.) Alst.,Ecbolium VIRIDE,ZERO_RESULTS,0,0,0
+576,Dysoxylum HAMILTONII Hiern.,Dysoxylum HAMILTONII,ZERO_RESULTS,0,0,0
+577,Pogostemon auricularius (L.) Hassk.,Pogostemon auricularius,PASS,1,0,1
+578,Putranjiva roxburghii Wall.,Putranjiva roxburghii,ZERO_RESULTS,0,0,0
+579,Drynaria QUERCIFOLIA (L.) J. Sm.,Drynaria QUERCIFOLIA,PASS,90,90,0
+580,Drosera BURMANII Vahl.,Drosera BURMANII,ZERO_RESULTS,0,0,0
+581,Dodonaea VISCOSA (L.) Jacq.,Dodonaea VISCOSA,ZERO_RESULTS,0,0,0
+582,Dipterocarpus TURBINATUS C.F Gaertn.,Dipterocarpus TURBINATUS,ZERO_RESULTS,0,0,0
+583,Dipterocarpus GRACILIS Bl.,Dipterocarpus GRACILIS,ZERO_RESULTS,0,0,0
+584,Dipterocarpus ALATUS Roxb. ex G. Don.,Dipterocarpus ALATUS,ZERO_RESULTS,0,0,0
+585,Diploclisia GLAUCESCENS (Bl.) Diels.,Diploclisia GLAUCESCENS,PASS,19,19,0
+586,Diospyros MONTANA Roxb. Var. CORDIFOLIA (Roxb.) Heirn.,Diospyros MONTANA var. CORDIFOLIA,ZERO_RESULTS,0,0,0
+587,Diospyros MALABARICA (Desr.) Kostel,Diospyros MALABARICA,PASS,34,33,1
+588,Diosocorea PENTAPHYLLA L.,Diosocorea PENTAPHYLLA,ZERO_RESULTS,0,0,0
+589,Dioscorea HISPIDA Dennstedt,Dioscorea HISPIDA,ZERO_RESULTS,0,0,0
+590,Dioscorea HAMILTONII Hook. f.,Dioscorea HAMILTONII,ZERO_RESULTS,0,0,0
+591,Dioscorea BULBIFERA L.,Dioscorea BULBIFERA,ZERO_RESULTS,0,0,0
+592,Dioscorea BELOPHYLLA (Prain) Haines,Dioscorea BELOPHYLLA,ZERO_RESULTS,0,0,0
+593,Dioscorea ALATA L.,Dioscorea ALATA,ZERO_RESULTS,0,0,0
+594,Dimocarpus LONGAN Lamk.,Dimocarpus LONGAN,ZERO_RESULTS,0,0,0
+595,Dillenia PENTAGYNA Roxb.,Dillenia PENTAGYNA,ZERO_RESULTS,0,0,0
+596,Dillenia INDICA L.,Dillenia INDICA,PASS,32,32,0
+597,Digera ALTERNIFOLIA Asch.,Digera ALTERNIFOLIA,ZERO_RESULTS,0,0,0
+598,Desmodium TRIFLORUM (L.) DC.,Desmodium TRIFLORUM,ZERO_RESULTS,0,0,0
+599,Desmodium styracifolium (Osbeck) Merr.,Desmodium styracifolium,ZERO_RESULTS,0,0,0
+600,Phyllodium PULCHELLUM (L.) Desv.,Phyllodium PULCHELLUM,ZERO_RESULTS,0,0,0
+601,Desmodium HETEROCARPON (L.) A. DC.,Desmodium HETEROCARPON,ZERO_RESULTS,0,0,0
+602,Desmodium GANGETICUM (L.) DC.,Desmodium GANGETICUM,PASS,128,0,128
+603,Derris TRIFOLIATA Lour.,Derris TRIFOLIATA,PASS,51,0,51
+604,Derris ROBUSTA Benth.,Derris ROBUSTA,ZERO_RESULTS,0,0,0
+605,Derris INDICA (Lamk.) Bennet.,Derris INDICA,ZERO_RESULTS,0,0,0
+606,Derris ELLIPTICA Benth.,Derris ELLIPTICA,ZERO_RESULTS,0,0,0
+607,Dendrophthoe FALCATA (L. f.) Ett.,Dendrophthoe FALCATA,ZERO_RESULTS,0,0,0
+608,Dendrocalamus STRICTUS (Roxb.) Nees.,Dendrocalamus STRICTUS,ZERO_RESULTS,0,0,0
+609,Daucus CAROTA L.,Daucus CAROTA,ZERO_RESULTS,0,0,0
+610,Datura METEL L.,Datura METEL,ZERO_RESULTS,0,0,0
+611,Dalbergia VOLUBILIS Roxb.,Dalbergia VOLUBILIS,ZERO_RESULTS,0,0,0
+612,Dalbergia STIPULACEA Roxb.,Dalbergia STIPULACEA,PASS,16,12,4
+613,Dalbergia SPINOSA Roxb.,Dalbergia SPINOSA,ZERO_RESULTS,0,0,0
+614,Dalbergia SISSOO Roxb.,Dalbergia SISSOO,ZERO_RESULTS,0,0,0
+615,Dalbergia LATIFOLIA Roxb.,Dalbergia LATIFOLIA,ZERO_RESULTS,0,0,0
+616,Dalbergia LANCEOLARIA L.,Dalbergia LANCEOLARIA,ZERO_RESULTS,0,0,0
+617,Dactyloctenium AEGYPTIUM (L.) Beauv.,Dactyloctenium AEGYPTIUM,ZERO_RESULTS,0,0,0
+618,Cyperus SCARIOSUS Br.,Cyperus SCARIOSUS,ZERO_RESULTS,0,0,0
+619,Cyperus ROTUNDUS L.,Cyperus ROTUNDUS,PASS,578,578,0
+620,Cyperus IRIA L.,Cyperus IRIA,ZERO_RESULTS,0,0,0
+621,Cyperus ARTICULATUS L.,Cyperus ARTICULATUS,ZERO_RESULTS,0,0,0
+622,Cynometra RAMIFLORA L.,Cynometra RAMIFLORA,ZERO_RESULTS,0,0,0
+623,Cynodon DACTYLON (L.)Pers.,Cynodon DACTYLON,PASS,48,44,4
+624,Cymbopogon CITRATUS (DC.) Stapf.,Cymbopogon CITRATUS,PASS,254,254,0
+625,Cymbidium ALOIFOLIUM (L.) Sw.,Cymbidium ALOIFOLIUM,PASS,12,10,2
+626,Cuscuta REFLEXA Roxb.,Cuscuta REFLEXA,PASS,38,29,9
+627,Cuscuta HYALINA Roth.,Cuscuta HYALINA,ZERO_RESULTS,0,0,0
+628,Curcuma ZEDOARIA Rosc.,Curcuma ZEDOARIA,PASS,207,186,21
+629,Curcuma LONGA L.,Curcuma LONGA,PASS,269,269,0
+630,Curcuma CAESIA Roxb.,Curcuma CAESIA,PASS,69,51,18
+631,Curcuma AROMATICA Salisb.,Curcuma AROMATICA,ZERO_RESULTS,0,0,0
+632,Curcuma ANGUSTIFOLIA Roxb.,Curcuma ANGUSTIFOLIA,PASS,415,380,35
+633,Curcuma AMADA Roxb.,Curcuma AMADA,ZERO_RESULTS,0,0,0
+634,Curculigo ORCHIOIDES Gaertn.,Curculigo ORCHIOIDES,ZERO_RESULTS,0,0,0
+635,Cuminum CYMINUM L.,Cuminum CYMINUM,PASS,225,224,1
+636,Cullen CORYLIFOLIA (L.) Medic.,Cullen CORYLIFOLIA,ZERO_RESULTS,0,0,0
+637,Cucurbita MAXIMA Duch.,Cucurbita MAXIMA,PASS,66,45,21
+638,Cucumis SATIVUS L.,Cucumis SATIVUS,ZERO_RESULTS,0,0,0
+639,Cucumis MELO L.,Cucumis MELO,ZERO_RESULTS,0,0,0
+640,Cryptolepis dubia (Burm.f.) M.R.Almeida,Cryptolepis dubia,ZERO_RESULTS,0,0,0
+641,Cryptocoryne spiralis (Retz.) Fisch. ex Wydler,Cryptocoryne spiralis,ZERO_RESULTS,0,0,0
+642,Croton TIGLIUM L.,Croton TIGLIUM,ZERO_RESULTS,0,0,0
+643,croton PERSIMILIS Müll.Arg.,croton PERSIMILIS,ZERO_RESULTS,0,0,0
+644,Croton CAUDATUS Geisel.,Croton CAUDATUS,PASS,14,10,4
+645,Croton BONPLANDIANUM Baill.,Croton BONPLANDIANUM,ZERO_RESULTS,0,0,0
+646,Crotalaria VERRUCOSA L.,Crotalaria VERRUCOSA,ZERO_RESULTS,0,0,0
+647,Crotalaria SPECTABILIS Roth.,Crotalaria SPECTABILIS,ZERO_RESULTS,0,0,0
+648,Crotalaria RETUSA L.,Crotalaria RETUSA,ZERO_RESULTS,0,0,0
+649,Crotalaria PROSTRATA Roxb.,Crotalaria PROSTRATA,ZERO_RESULTS,0,0,0
+650,Crotalaria PALLIDA Ait.,Crotalaria PALLIDA,PASS,14,10,4
+651,Crotalaria JUNCEA L.,Crotalaria JUNCEA,ZERO_RESULTS,0,0,0
+652,Crotalaria CALYCINA Schrank,Crotalaria CALYCINA,ZERO_RESULTS,0,0,0
+653,Crotalaria ALBIDA Heyne ex Roth.,Crotalaria ALBIDA,ZERO_RESULTS,0,0,0
+654,crotalaria ALATA D.Don,crotalaria ALATA,ZERO_RESULTS,0,0,0
+655,Crossandra INFUNDIBULIFORMIS (L.) Nees.,Crossandra INFUNDIBULIFORMIS,ZERO_RESULTS,0,0,0
+656,Crinum viviparum (Lam.) R.Ansari & V.J.Nair,Crinum viviparum,ZERO_RESULTS,0,0,0
+657,Crinum ASIATICUM L.,Crinum ASIATICUM,PASS,32,26,6
+658,Crateva religiosa G.Forst.,Crateva religiosa,ZERO_RESULTS,0,0,0
+659,Crassocephalum CREPIDIOIDES (Benth.) Moore,Crassocephalum CREPIDIOIDES,PASS,35,33,2
+660,Cheilocostus SPECIOSUS (J.Koenig) C.D.Specht,Cheilocostus SPECIOSUS,ZERO_RESULTS,0,0,0
+661,Coriandrum SATIVUM L.,Coriandrum SATIVUM,PASS,421,419,2
+662,Cordia DICHOTOMA Forst. f.,Cordia DICHOTOMA,ZERO_RESULTS,0,0,0
+663,Corchorus OLITORIUS L.,Corchorus OLITORIUS,ZERO_RESULTS,0,0,0
+664,Corchorus FASICULARIS Lamk.,Corchorus FASICULARIS,ZERO_RESULTS,0,0,0
+665,Corchorus CAPSULARIS L.,Corchorus CAPSULARIS,ZERO_RESULTS,0,0,0
+666,Commiphora madagascariensis Jacq.,Commiphora madagascariensis,ZERO_RESULTS,0,0,0
+667,Commelina SUFFRUTICOSA Bl.,Commelina SUFFRUTICOSA,ZERO_RESULTS,0,0,0
+668,Commelina PALUDOSA Bl.,Commelina PALUDOSA,ZERO_RESULTS,0,0,0
+669,Commelina DIFFUSA Burm. f.,Commelina DIFFUSA,ZERO_RESULTS,0,0,0
+670,Commelina BENGHALENSIS L.,Commelina BENGHALENSIS,PASS,7,7,0
+671,Colocasia ESCULENTA (L.) Schott.,Colocasia ESCULENTA,PASS,72,6,66
+672,Colocasia AFFINIS Schott.,Colocasia AFFINIS,ZERO_RESULTS,0,0,0
+673,Plectranthus amboinicus (Lour.) Spreng.,Plectranthus amboinicus,ZERO_RESULTS,0,0,0
+674,Coix LACHRYMA - JOBI L.,Coix LACHRYMA,ZERO_RESULTS,0,0,0
+675,Cocos NUCIFERA L.,Cocos NUCIFERA,PASS,35,32,3
+676,Cocculus HIRSUTUS (L.) W.Theob.,Cocculus HIRSUTUS,ZERO_RESULTS,0,0,0
+677,Coccinia GRANDIS (L.) Voigt.,Coccinia GRANDIS,ZERO_RESULTS,0,0,0
+678,Clitoria TARNETEA L.,Clitoria TARNETEA,ZERO_RESULTS,0,0,0
+679,Clerodendrum laevifolium Blume.,Clerodendrum laevifolium,ZERO_RESULTS,0,0,0
+680,Clerodendrum INFORTUNATUM L.,Clerodendrum INFORTUNATUM,ZERO_RESULTS,0,0,0
+681,Volkameria inermis L.,Volkameria inermis,ZERO_RESULTS,0,0,0
+682,Clerodendrum INDICUM (L.) Kuntze.,Clerodendrum INDICUM,PASS,13,10,3
+683,Cleome VISCOSA L.,Cleome VISCOSA,PASS,26,13,13
+684,Cleome GYNANDRA L.,Cleome GYNANDRA,ZERO_RESULTS,0,0,0
+685,Clausena HEPTAPHYLLA (Roxb.) Wight.& Arn.,Clausena HEPTAPHYLLA,PASS,30,24,6
+686,Clausena EXCAVATA Burm. f.,Clausena EXCAVATA,ZERO_RESULTS,0,0,0
+687,Citrus maxima (Burm.) Merr.,Citrus maxima,PASS,579,544,35
+688,Citrus AURANTIFOLIA (Christ.) Sw.,Citrus AURANTIFOLIA,ZERO_RESULTS,0,0,0
+689,Citrullus lanatus (Thunb.) Matsum. & Nakai,Citrullus lanatus,ZERO_RESULTS,0,0,0
+690,Cissus REPENS Lamk.,Cissus REPENS,ZERO_RESULTS,0,0,0
+691,Cissus REPENDA(Wight & Arn.) Vahl.,Cissus REPENDA,ZERO_RESULTS,0,0,0
+692,Cissus QUADRANGULARIS L.,Cissus QUADRANGULARIS,PASS,32,22,10
+693,Cissus ELONGATA Roxb.,Cissus ELONGATA,ZERO_RESULTS,0,0,0
+694,Cissus ASSAMICA (Lawson) Craib.,Cissus ASSAMICA,ZERO_RESULTS,0,0,0
+695,Allium TUBEROSUM Roxb.,Allium TUBEROSUM,ZERO_RESULTS,0,0,0
+696,Allophylus DIMORPHUS Radlk. .,Allophylus DIMORPHUS,ZERO_RESULTS,0,0,0
+697,Alocasia INDICA (Roxb.) Schott.,Alocasia INDICA,PASS,31,30,1
+698,Aloe BARBADENSIS Mill,Aloe BARBADENSIS,ZERO_RESULTS,0,0,0
+699,Alpinia CALCARATA Rosc.,Alpinia CALCARATA,PASS,133,133,0
+700,Alpinia CONCHIGERA Griff.,Alpinia CONCHIGERA,ZERO_RESULTS,0,0,0
+701,Alpinia MALACCENSIS Rosc.,Alpinia MALACCENSIS,ZERO_RESULTS,0,0,0
+702,Alpinia NIGRA (Gaertn.) Burtt.,Alpinia NIGRA,PASS,155,142,13
+703,Alstonia SCHOLARIS (L.) R. Br.,Alstonia SCHOLARIS,ZERO_RESULTS,0,0,0
+704,Alternanthera SESSILIS (L.) R. Br.,Alternanthera SESSILIS,ZERO_RESULTS,0,0,0
+705,Amaranthus SPINOSUS L.,Amaranthus SPINOSUS,PASS,21,19,2
+706,Amaranthus VIRIDIS L.,Amaranthus VIRIDIS,PASS,7,6,1
+707,Amischophacelus AXILLARIS (L.) R. R. & K.,Amischophacelus AXILLARIS,ZERO_RESULTS,0,0,0
+708,Ammannia BACCIFERA L,Ammannia BACCIFERA,ZERO_RESULTS,0,0,0
+709,Amomum AROMATICUM Roxb,Amomum AROMATICUM,ZERO_RESULTS,0,0,0
+710,Amomum COSTATUM Benth.,Amomum COSTATUM,ZERO_RESULTS,0,0,0
+711,Amoora CUCULATA Roxb.,Amoora CUCULATA,ZERO_RESULTS,0,0,0
+712,Amorphophallus CAMPANULATUS (Roxb.) Bl. ex. Decne.,Amorphophallus CAMPANULATUS,ZERO_RESULTS,0,0,0
+713,Ampelocissus BARBATA (Wall.) Planch.,Ampelocissus BARBATA,ZERO_RESULTS,0,0,0
+714,Ampelocissus LATIFOLIA (Roxb.) Planch.,Ampelocissus LATIFOLIA,ZERO_RESULTS,0,0,0
+715,Anacardium OCCIDENTALE L.,Anacardium OCCIDENTALE,PASS,310,309,1
+716,Anagallis ARVENSIS L.,Anagallis ARVENSIS,ZERO_RESULTS,0,0,0
+717,Anamirta COCCULUS (L.) W. & A.,Anamirta COCCULUS,PASS,35,29,6
+718,Ananas SATIVUS Schult. f.,Ananas SATIVUS,ZERO_RESULTS,0,0,0
+719,Andrographis PANICULATA (Burm. f.) Wall. ex Ness.,Andrographis PANICULATA,ZERO_RESULTS,0,0,0
+720,Anisomeles INDICA (L.) Kuntze.,Anisomeles INDICA,ZERO_RESULTS,0,0,0
+721,Annona RETICULATA L.,Annona RETICULATA,PASS,145,0,145
+722,Annona SQUAMOSA L.,Annona SQUAMOSA,ZERO_RESULTS,0,0,0
+723,Anodendron MANUBRIATUM (Wall.) Merr.,Anodendron MANUBRIATUM,ZERO_RESULTS,0,0,0
+724,Anthocephalus CHINENSIS (Lamk.) Rich. ex Walp.,Anthocephalus CHINENSIS,ZERO_RESULTS,0,0,0
+725,Antidesma ROXBURGHII Wall.,Antidesma ROXBURGHII,ZERO_RESULTS,0,0,0
+726,Aphanamixis POLYSTACHYA (Wall.) R.N. Parker.,Aphanamixis POLYSTACHYA,ZERO_RESULTS,0,0,0
+727,Aquilaria MALACCENSIS Lamk.,Aquilaria MALACCENSIS,ZERO_RESULTS,0,0,0
+728,Arachis HYPOGEA L.,Arachis HYPOGEA,ZERO_RESULTS,0,0,0
+729,Ardisia PANICULATA Roxb.,Ardisia PANICULATA,PASS,2,2,0
+730,Ardisia SOLANACEA (Poir.) Roxb.,Ardisia SOLANACEA,PASS,4,4,0
+731,Areca CATECHU L.,Areca CATECHU,PASS,62,58,4
+732,Argemone MAXICANA L.,Argemone MAXICANA,ZERO_RESULTS,0,0,0
+733,Argyreia CAPITIFORMIS (Poir.) Oostr.,Argyreia CAPITIFORMIS,ZERO_RESULTS,0,0,0
+734,Argyreia NERVOSA (Burm. f.) Boj.,Argyreia NERVOSA,ZERO_RESULTS,0,0,0
+735,Aristolochia INDICA L.,Aristolochia INDICA,ZERO_RESULTS,0,0,0
+736,Aristolochia TAGALA Cham.,Aristolochia TAGALA,ZERO_RESULTS,0,0,0
+737,Artabotrys HEXAPETALUS (L.f.) Bhandari,Artabotrys HEXAPETALUS,ZERO_RESULTS,0,0,0
+738,Artabotrys SUAVEOLENS Blume.,Artabotrys SUAVEOLENS,ZERO_RESULTS,0,0,0
+739,Artocarpus HETEROPHYLLUS Lamk.,Artocarpus HETEROPHYLLUS,PASS,180,0,180
+740,Artocarpus LACUCHA Buch-Ham.,Artocarpus LACUCHA,PASS,15,11,4
+741,Asclepias CURASSAVICA L.,Asclepias CURASSAVICA,ZERO_RESULTS,0,0,0
+742,Asparagus RACEMOSUS L.,Asparagus RACEMOSUS,ZERO_RESULTS,0,0,0
+743,Asplenium polyodon G. Forst.,Asplenium polyodon,ZERO_RESULTS,0,0,0
+744,Atalantia MONOPHYLLA Correa,Atalantia MONOPHYLLA,ZERO_RESULTS,0,0,0
+745,Cajanus crassus (King) Maesen,Cajanus crassus,ZERO_RESULTS,0,0,0
+746,Cajanus scarabaeoides (L.) Thouars,Cajanus scarabaeoides,ZERO_RESULTS,0,0,0
+747,Averrhoa BILIMBI L.,Averrhoa BILIMBI,ZERO_RESULTS,0,0,0
+748,Averrhoa CARAMBOLA L.,Averrhoa CARAMBOLA,PASS,260,212,48
+749,Azadirachta INDICA A. Juss.,Azadirachta INDICA,PASS,519,503,16
+750,Bacopa monnieri (L.) WETTST.,Bacopa monnieri,ZERO_RESULTS,0,0,0
+751,Baliospermum solanifolium (BURM.) SURESH,Baliospermum solanifolium,ZERO_RESULTS,0,0,0
+752,Bambusa bambos (L.) Voss,Bambusa bambos,ZERO_RESULTS,0,0,0
+753,Barleria cristata L,Barleria cristata,ZERO_RESULTS,0,0,0
+754,Barlaria STRIGOSA Willd.,Barlaria STRIGOSA,ZERO_RESULTS,0,0,0
+755,Barringtonia ACUTANGULA (L.) Gaertn.,Barringtonia ACUTANGULA,ZERO_RESULTS,0,0,0
+756,Barringtonia RACEMOSA (L.) Spreng.,Barringtonia RACEMOSA,ZERO_RESULTS,0,0,0
+757,Basella ALBA L.,Basella ALBA,ZERO_RESULTS,0,0,0
+758,Bauhinia ACUMINITA L.,Bauhinia ACUMINITA,ZERO_RESULTS,0,0,0
+759,Bauhinia MACROSTACHYA Wall.,Bauhinia MACROSTACHYA,ZERO_RESULTS,0,0,0
+760,Bauhinia MALABARICA Roxb.,Bauhinia MALABARICA,PASS,4,4,0
+761,Bauhinia PURPUREA L.,Bauhinia PURPUREA,PASS,42,40,2
+762,Bauhinia VARIEGATA L.,Bauhinia VARIEGATA,ZERO_RESULTS,0,0,0
+763,Begonia ROXBURGHII DC.,Begonia ROXBURGHII,ZERO_RESULTS,0,0,0
+764,Iris domestica (L.) Goldblatt & Mabb,Iris domestica,ZERO_RESULTS,0,0,0
+765,Benincasa HISPIDA (Thunb.) Cogn.,Benincasa HISPIDA,PASS,66,63,3
+766,Biophytum SENSITIVUM (L.) DC.,Biophytum SENSITIVUM,ZERO_RESULTS,0,0,0
+767,Bixa ORELLANA L.,Bixa ORELLANA,ZERO_RESULTS,0,0,0
+768,Blumea BALSAMIFERA DC,Blumea BALSAMIFERA,PASS,50,0,50
+769,Blumea CLERKEI Hook. f.,Blumea CLERKEI,ZERO_RESULTS,0,0,0
+770,Blumea LACERA (Burn.f.) DC.,Blumea LACERA,ZERO_RESULTS,0,0,0
+771,Boehmeria MALABARICA Wedd.,Boehmeria MALABARICA,ZERO_RESULTS,0,0,0
+772,Boerhaavia DIFFUSA L.,Boerhaavia DIFFUSA,ZERO_RESULTS,0,0,0
+773,Boesenbergia LONGIFLORA Kuntze.,Boesenbergia LONGIFLORA,ZERO_RESULTS,0,0,0
+774,Bombax CEIBA L.,Bombax CEIBA,ZERO_RESULTS,0,0,0
+775,Borassus FLABELLIFER L.,Borassus FLABELLIFER,ZERO_RESULTS,0,0,0
+776,Spermacoce articularis L.f.,Spermacoce articularis,PASS,6,0,6
+777,Boswellia SERRATA Roxb.,Boswellia SERRATA,ZERO_RESULTS,0,0,0
+778,Brassica NIGRA (L.) Koch.,Brassica NIGRA,ZERO_RESULTS,0,0,0
+779,Breynia RETUSA (Dennst.) Alston.,Breynia RETUSA,ZERO_RESULTS,0,0,0
+780,Bridelia RETUSA (L.) Spreng.,Bridelia RETUSA,ZERO_RESULTS,0,0,0
+781,Bridelia STIPULARIS Bl.,Bridelia STIPULARIS,PASS,3,3,0
+782,Buchanania cochinchinensis (Lour.) M.R.Almeida,Buchanania cochinchinensis,ZERO_RESULTS,0,0,0
+783,Buddleja NEEMDA Buch.-Ham.,Buddleja NEEMDA,ZERO_RESULTS,0,0,0
+784,Byttneria pilosa Roxb.,Byttneria pilosa,ZERO_RESULTS,0,0,0
+785,Butea MONOSPERMA (Lam.) Taub.,Butea MONOSPERMA,ZERO_RESULTS,0,0,0
+786,Caesalpinia BONDUC (L.) Roxb.,Caesalpinia BONDUC,PASS,157,123,34
+787,Caesalpinia DIGYNA Rottl.,Caesalpinia DIGYNA,PASS,6,4,2
+788,Caesalpinia PULCHERIMA Sw.,Caesalpinia PULCHERIMA,ZERO_RESULTS,0,0,0
+789,Cajanus cajan (L.) Millsp.,Cajanus cajan,ZERO_RESULTS,0,0,0
+790,Callicarpa MACROPHYLLA Vahl.,Callicarpa MACROPHYLLA,ZERO_RESULTS,0,0,0
+791,Callicarpa TOMENTOSA (L.) Merr.,Callicarpa TOMENTOSA,ZERO_RESULTS,0,0,0
+792,Calophyllum INOPHYLLUM L.,Calophyllum INOPHYLLUM,ZERO_RESULTS,0,0,0
+793,Calotropis GIGANTEA (L.) R. Br.,Calotropis GIGANTEA,PASS,150,150,0
+794,Calotropis PROCERA (Aiton) Dryand.,Calotropis PROCERA,PASS,127,127,0
+795,Getonia floribunda ROXB.,Getonia floribunda,ZERO_RESULTS,0,0,0
+796,Camellia sinensis (L.) O. Kuntze.,Camellia sinensis,PASS,322,313,9
+797,Canarium BENGALENSE Roxb.,Canarium BENGALENSE,ZERO_RESULTS,0,0,0
+798,Canna INDICA L.,Canna INDICA,PASS,4,4,0
+799,Cannabis SATIVA L.,Cannabis SATIVA,PASS,324,264,60
+800,Magnolia champaca (L.)Baill.exPierre,Magnolia champaca,ZERO_RESULTS,0,0,0
+801,Zehneria scabra Sond.,Zehneria scabra,ZERO_RESULTS,0,0,0
+802,Solenaamplexicaulis(lam.) gandhi.,Solena amplexicaulis,PASS,25,0,25
+803,Cochlospermum religiosum (L.) Alston,Cochlospermum religiosum,ZERO_RESULTS,0,0,0
+804,Gynocardia odorata R. Br.,Gynocardia odorata,ZERO_RESULTS,0,0,0
+805,Drosera peltata Thunb.,Drosera peltata,ZERO_RESULTS,0,0,0
+806,Sida rhombifolia L.,Sida rhombifolia,PASS,18,0,18
+807,Sida orientaliscav.,Sida orientalis,ZERO_RESULTS,0,0,0
+808,Sida cordifolia L.,Sida cordifolia,ZERO_RESULTS,0,0,0
+809,Sidacordata(burm.f.) borss.waalk.,Sida cordata,ZERO_RESULTS,0,0,0
+810,Sida acuta Burm. f.,Sida acuta,PASS,26,0,26
+811,Malva sylvestris L.,Malva sylvestris,ZERO_RESULTS,0,0,0
+812,Hibiscus schizopetalus (Mast.) Hook. f.,Hibiscus schizopetalus,PASS,89,69,20
+813,Althaea officinalis L.,Althaea officinalis,ZERO_RESULTS,0,0,0
+814,Bombax insigne Wall.,Bombax insigne,PASS,1,1,0
+815,Firmiana simplex(l.) W.Wight.,Firmiana simplex,ZERO_RESULTS,0,0,0
+816,Sterculia lanceifolia Roxb.,Sterculia lanceifolia,ZERO_RESULTS,0,0,0
+817,Pentapetes phoenicea L.,Pentapetes phoenicea,ZERO_RESULTS,0,0,0
+818,Microcos paniculata L.,Microcos paniculata,ZERO_RESULTS,0,0,0
+819,Melochia corchorifolia L.,Melochia corchorifolia,PASS,32,32,0
+820,Corchorus fascicularis Lam.,Corchorus fascicularis,ZERO_RESULTS,0,0,0
+821,Corchorus aestuans L.,Corchorus aestuans,PASS,14,12,2
+822,Elaeocarpus serratusl.,Elaeocarpus serratus,ZERO_RESULTS,0,0,0
+823,Hypericum japonicum Thunb.,Hypericum japonicum,ZERO_RESULTS,0,0,0
+824,Calophyllum polyanthumwall.ex Choisy,Calophyllum polyanthumwall.ex,ZERO_RESULTS,0,0,0
+825,Schima wallichii Choisy,Schima wallichii,ZERO_RESULTS,0,0,0
+826,Shorea robusta Gaertn.,Shorea robusta,ZERO_RESULTS,0,0,0
+827,Dipterocarpus turbinatus Gaertn.,Dipterocarpus turbinatus,ZERO_RESULTS,0,0,0
+828,Tetracera sarmentosa (L.) Vahl,Tetracera sarmentosa,ZERO_RESULTS,0,0,0
+829,Dillenia indica L.,Dillenia indica,PASS,32,32,0
+830,Rheum emodi L.,Rheum emodi,ZERO_RESULTS,0,0,0
+831,Polygonum pubescens Blume,Polygonum pubescens,ZERO_RESULTS,0,0,0
+832,Polygonum aviculare L.,Polygonum aviculare,ZERO_RESULTS,0,0,0
+833,Polygonum viscosumbuch.-ham. ex D. Don.,Polygonum viscosumbuch.-ham.,ZERO_RESULTS,0,0,0
+834,Persicaria strigosa (R. Br.) Nakai,Persicaria strigosa,ZERO_RESULTS,0,0,0
+835,Persicaria stagnina (Buch.-Ham. ex Meisn.)Qaiser,Persicaria stagnina,ZERO_RESULTS,0,0,0
+836,Persicaria lapathifolia (L.) Delarbre,Persicaria lapathifolia,ZERO_RESULTS,0,0,0
+837,Persicaria chinensis (L.) H. Gross,Persicaria chinensis,ZERO_RESULTS,0,0,0
+838,Polycarpon prostratum (Forssk.) Asch. & Schweinf.,Polycarpon prostratum,ZERO_RESULTS,0,0,0
+839,Drymaria cordata subsp.diandra (Blume) J.A.Duke.,Drymaria cordata subsp. diandra,ZERO_RESULTS,0,0,0
+840,portulaca grandiflora Hook.,portulaca grandiflora,ZERO_RESULTS,0,0,0
+841,Cyathula prostrata (L.) Blume,Cyathula prostrata,PASS,1,1,0
+842,Amaranthus tricolor L.,Amaranthus tricolor,ZERO_RESULTS,0,0,0
+843,Bougainvillea spectabilis Willd,Bougainvillea spectabilis,PASS,38,34,4
+844,Corylus avellana L.,Corylus avellana,ZERO_RESULTS,0,0,0
+845,Quercus infectoria G.Olivier,Quercus infectoria,ZERO_RESULTS,0,0,0
+846,Sarcochlamys pulcherrima Gaudich.,Sarcochlamys pulcherrima,ZERO_RESULTS,0,0,0
+847,Pouzolzia sanguinea (Blume.) Merrill,Pouzolzia sanguinea,ZERO_RESULTS,0,0,0
+848,Pouzolzia hirta Blume ex Hassk.,Pouzolzia hirta,ZERO_RESULTS,0,0,0
+849,Fleurya interrupta Gaud.,Fleurya interrupta,ZERO_RESULTS,0,0,0
+850,Elatostema rupestre(buch.-ham. ex D.Don) Wedd.,Elatostema rupestre,ZERO_RESULTS,0,0,0
+851,Elatostema papillosum Wedd.,Elatostema papillosum,ZERO_RESULTS,0,0,0
+852,Boehmeria nivea (L.) Gaudich.,Boehmeria nivea,ZERO_RESULTS,0,0,0
+853,Ficus sagittata Vahl,Ficus sagittata,ZERO_RESULTS,0,0,0
+854,Ficus rumphii Blume,Ficus rumphii,ZERO_RESULTS,0,0,0
+855,Ficus pumila L.,Ficus pumila,ZERO_RESULTS,0,0,0
+856,Ficus mollis Vahl.,Ficus mollis,ZERO_RESULTS,0,0,0
+857,Ficus hirta Vahl.,Ficus hirta,ZERO_RESULTS,0,0,0
+858,Ficus heterophylla L.f.,Ficus heterophylla,ZERO_RESULTS,0,0,0
+859,Ficus hederacea Roxb.,Ficus hederacea,ZERO_RESULTS,0,0,0
+860,Ficus curtipes Corner,Ficus curtipes,ZERO_RESULTS,0,0,0
+861,Canscora alata (ROTH) WALL.,Canscora alata,ZERO_RESULTS,0,0,0
+862,Canscora DIFFUSA (Vahl.) R. Br.,Canscora DIFFUSA,ZERO_RESULTS,0,0,0
+863,Capparis ZEYLANICA L.,Capparis ZEYLANICA,ZERO_RESULTS,0,0,0
+864,Capsicum ANNUUM L.,Capsicum ANNUUM,ZERO_RESULTS,0,0,0
+865,Cardiospermum HALICACABUML.,Cardiospermum HALICACABUM,PASS,25,25,0
+866,Careya ARBOREA Roxb.,Careya ARBOREA,ZERO_RESULTS,0,0,0
+867,Carica PAPAYA L.,Carica PAPAYA,PASS,449,407,42
+868,Carissa spinarum L.,Carissa spinarum,ZERO_RESULTS,0,0,0
+869,Carthamus TINCTORIUS L.,Carthamus TINCTORIUS,ZERO_RESULTS,0,0,0
+870,Caryota URENS L.,Caryota URENS,PASS,10,10,0
+871,Senna alata (L.) Roxb.,Senna alata,ZERO_RESULTS,0,0,0
+872,Cassia FISTULA L.,Cassia FISTULA,PASS,439,323,116
+873,Senna obtusifolia (L.) H.S.Irwin & Barneby,Senna obtusifolia,ZERO_RESULTS,0,0,0
+874,Senna occidentalis (L.) Link,Senna occidentalis,PASS,108,0,108
+875,Senna sophera (L.) Roxb.,Senna sophera,PASS,13,0,13
+876,Cassytha FILIFORMIS L.,Cassytha FILIFORMIS,ZERO_RESULTS,0,0,0
+877,Casuarina LITTOREA L.,Casuarina LITTOREA,ZERO_RESULTS,0,0,0
+878,Catharanthus roseus (L.) G.Don,Catharanthus roseus,PASS,359,340,19
+879,Cayratia PEDATA (Lam.) Juss. ex Gagnep.,Cayratia PEDATA,ZERO_RESULTS,0,0,0
+880,Cayratia TRIFOLIA (L.) Domin.,Cayratia TRIFOLIA,ZERO_RESULTS,0,0,0
+881,Ceiba PENTANDRA (L.)Gaertn,Ceiba PENTANDRA,ZERO_RESULTS,0,0,0
+882,Celastrus PANICULATUS Willd.,Celastrus PANICULATUS,ZERO_RESULTS,0,0,0
+883,Celosia ARGENTEA L.,Celosia ARGENTEA,PASS,44,38,6
+884,Celosia CRISTATA L.(SAME AS 161),Celosia CRISTATA,ZERO_RESULTS,0,0,0
+885,Piper pedicellatum DC.,Piper pedicellatum,ZERO_RESULTS,0,0,0
+886,Piperboehmeriifolium(miq.) wall. ex C. DC.,Piper boehmeriifolium,ZERO_RESULTS,0,0,0
+887,Piper wallichii (MIQ.) HAND.-MAZZ.,Piper wallichii,ZERO_RESULTS,0,0,0
+888,Chloranthus elatior LINK.,Chloranthus elatior,ZERO_RESULTS,0,0,0
+889,Ocotea lancifolia (SCHOTT) MEZ.,Ocotea lancifolia,ZERO_RESULTS,0,0,0
+890,Litsea glutinosa (LOUR.) ROBINSON,Litsea glutinosa,ZERO_RESULTS,0,0,0
+891,Cassytha FILIFORMIS L.,Cassytha FILIFORMIS,ZERO_RESULTS,0,0,0
+892,Actinodaphne obovata (NEES) BLUME,Actinodaphne obovata,PASS,3,3,0
+893,Uvaria hamiltonii HOOK. F. & THOM.,Uvaria hamiltonii,ZERO_RESULTS,0,0,0
+894,Desmos chinensislour.,Desmos chinensis,PASS,79,79,0
+895,Dasymaschalon longiflorum(roxb.) FINET & GAGNEP.,Dasymaschalon longiflorum,ZERO_RESULTS,0,0,0
+896,Magnolia praecalva(dandy) Figlar & Noot.,Magnolia praecalva,ZERO_RESULTS,0,0,0
+897,Centella ASIATICA (L.) Urban.,Centella ASIATICA,PASS,220,218,2
+898,Cerbera MANGHAS L.,Cerbera MANGHAS,ZERO_RESULTS,0,0,0
+899,Ceriops TAGAL (Perr.) C.B. Rob.,Ceriops TAGAL,ZERO_RESULTS,0,0,0
+900,Cheilosoria tenuifolia (BURM. F.) TREVIS.,Cheilosoria tenuifolia,ZERO_RESULTS,0,0,0
+901,Chenopodium ALBUM L.,Chenopodium ALBUM,PASS,46,43,3
+902,Dysphania ambrosioides (L.) Mosyakin & Clemants,Dysphania ambrosioides,ZERO_RESULTS,0,0,0
+903,Chukrasia tabularis A.Juss.,Chukrasia tabularis,ZERO_RESULTS,0,0,0
+904,Cicer ARIETINUM L.,Cicer ARIETINUM,ZERO_RESULTS,0,0,0
+905,Cinnamomum curvifolium (Lam.) Nees,Cinnamomum curvifolium,ZERO_RESULTS,0,0,0
+906,Cinnamomum TAMALA Nees,Cinnamomum TAMALA,PASS,420,314,106
+907,Cinnamomum VERUM Presl.,Cinnamomum VERUM,ZERO_RESULTS,0,0,0
+908,Piper sylvaticum Roxb,Piper sylvaticum,PASS,9,0,9
+909,Aristolochia rotunda L.,Aristolochia rotunda,ZERO_RESULTS,0,0,0
+910,Asarum europaeum L.,Asarum europaeum,ZERO_RESULTS,0,0,0
+911,Euryale ferox Salisb.,Euryale ferox,ZERO_RESULTS,0,0,0
+912,Ranunculus sceleratus L.,Ranunculus sceleratus,ZERO_RESULTS,0,0,0
+913,Cyclea barbata Miers,Cyclea barbata,PASS,5,4,1
+914,Fumaria indica (Hausskn.)Pugsley,Fumaria indica,ZERO_RESULTS,0,0,0
+915,Altingia excelsa Noronha,Altingia excelsa,PASS,45,15,30
+916,Ficus auriculata Lour.,Ficus auriculata,ZERO_RESULTS,0,0,0

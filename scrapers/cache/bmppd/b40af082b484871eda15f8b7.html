@@ -1,0 +1,7077 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Michelia CHAMPACA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Michelia CHAMPACA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(-)-Epicatechin</td>
+							<td>CID: C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(-)-Spathulenol</td>
+							<td>CID: CC1(C2CCC3(C(C2(CCC1=C)C)CCC(O3)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(3E)-Hexenol</td>
+							<td>CID: CC/C=C/CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(9Z,11E,13E,15Z)-4-Oxo-9,11,13,15-octadecatetraenoic acid</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E)-?-Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E)-Furanoid linalool oxide</td>
+							<td>CID: CC(=CCCC(C)(C1CO1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E)-Nerolidol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E)-Pyranoid linalool oxide</td>
+							<td>CID: CC(=CCCC(C)(C1COC1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E)-iso-?-Bisabolene</td>
+							<td>CID: CC1=CCC(CC1)C(=C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(E,E)-1,7-Diphenyl-4,6-heptadien-3-ol</td>
+							<td>CID: C1=CC=C(C=C1)CCC(/C=C/C=C\C2=CC=CC=C2)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-3-Hexenyl 2-methylbutanoate</td>
+							<td>CID: CCC(C)C(=O)OCC=CCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-?-Farnesene</td>
+							<td>CID: CC(=CCCC(=CCCC(=C)C=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-?-Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-Furanoid linalool oxide</td>
+							<td>CID: CC(=CCCC(C)(C1CO1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-Muurola-4(14),5-diene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z)-Nerolidyl acetate</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)OC(=O)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>(Z,E)-Farnesol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1,2,4-Butanetriol</td>
+							<td>CID: OCC(O)CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1,5,9,9-Tetramethyl-1,4,7-cycloundecatriene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1,5-Cyclodecadiene, 1,5-dimethyl-8-(1-methylethenyl)-, (S,Z,E)-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1,8-Cineol(Eucalyptol)</td>
+							<td>CID: CC1(C2CCC(O1)(CC2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1,8-Cineole (Eucalyptol)</td>
+							<td>CID: CC1(C2CCC(O1)(CC2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-(?-D-Ribofuranosyl)-1,4-dihydronicotinamide</td>
+							<td>CID: C1C=CN(C=C1C(=O)N)[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Acetamidopyridinium iodide</td>
+							<td>CID: CC(=O)N=C1C=CC=[N+]1C.[I-]</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Bromomethyl-3,5-bis(trifluoromethyl)benzene</td>
+							<td>CID: C1=C(C=C(C=C1Br)C(F)(F)F)C(F)(F)F</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Decanol</td>
+							<td>CID: CCCCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Dehydro-9-fluoro-11-oxotestololactone</td>
+							<td>CID: C[C@]12CC(=O)[C@]3([C@H]([C@@H]1CCC(=O)O2)CCC4=CC(=O)C=C[C@@]43C)F</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Octanol</td>
+							<td>CID: CCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Octen-3-yl glucoside</td>
+							<td>CID: CCCCCC(C=C)OC1C(C(C(C(O1)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1-Phosphatidyl-1D-myoinositol-3-phosphate</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>10-epi-?-Eudesmol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>14-Hydroxy-?-cadinene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>14-Hydroxy-?-muurolene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>17-Hydroxylinolenic acid</td>
+							<td>CID: CC(/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>17-beta-(Acetylthio)estra-1,3,5(10)-trien-3-ol acetate</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>19-Noretiocholanolone</td>
+							<td>CID: C[C@]12CC[C@@H]3[C@H]4CC[C@H](C[C@H]4CC[C@H]3[C@@H]1CCC2=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>1H-Cycloprop(e)azulen-7-ol, decahydro-1,1,7-trimethyl-4-methylene-</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2,3-Dichloro-5,6-dicyano-p-benzoquinone (DDQ)</td>
+							<td>CID: C1(=C(C(=O)C(=O)C(=C1Cl)Cl)C#N)C#N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2,6,10,14-Hexadecatetraen-1-ol, 3,7,11,15-tetramethyl-, acetate (E,E,E)-</td>
+							<td>CID: CC(=CCCC(=CCCC(=CCCC(=CCOC(=O)C)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-(Methylthiomethyl)-3-phenyl-2-propenal</td>
+							<td>CID: CSCC(=CC1=CC=CC=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-Benzylideneheptanal</td>
+							<td>CID: CCCCCC(=CC1=CC=CC=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-Methylbutanoate(Ethyl 2-methylbutanoate)</td>
+							<td>CID: CCC(C)C(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-Pentene,4,4-dimethyl-</td>
+							<td>CID: CC=C(C)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-Phenylethanol</td>
+							<td>CID: C1=CC=C(C=C1)CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>2-Phenylethyl benzoate</td>
+							<td>CID: C1=CC=C(C=C1)CCOC(=O)C2=CC=CC=C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3,5-di-tert-butyl-4-hydroxybenzaldehyde</td>
+							<td>CID: CC(C)(C)C1=CC(=C(C(=C1)C=O)O)C(C)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3,6-Dimethoxyestra-1,3,5(10),6,8-pentaene-17?-carboxylic acid methyl ester</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-Fenchene</td>
+							<td>CID: CC1(C2CCC1C2=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-Hexen-1-ol, acetate, (E)-</td>
+							<td>CID: CC=CCCOC(=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-Methylbutanal oxime</td>
+							<td>CID: CC(C)CC=NO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-Methyldioxyindole</td>
+							<td>CID: CC1(C2=CC=CC=C2NC1=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-O-Methyl-D-glucose</td>
+							<td>CID: COC1C(C(C(C(O1)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-Phenylpropyl propanoate</td>
+							<td>CID: CCCC(=O)OCCC1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>3-methoxymagnolol</td>
+							<td>CID: COC1=CC(=CC(=C1CC=CC2=CC(=CC(=C2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>4,4&#x27;-(3,3&#x27;-Dinitro-4,4&#x27;-biphenylylenebisazo)diphenol</td>
+							<td>CID: C1=CC(=CC=C1N=NC2=CC(=C(C=C2[N+](=O)[O-])C3=CC(=C(C=C3)N=NC4=CC=C(C=C4)O)[N+](=O)[O-])O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>4-Hydroxybenzoic acid</td>
+							<td>CID: C1=CC(=CC=C1C(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>4-O-methylhonokiol</td>
+							<td>CID: COC1=CC(=CC(=C1)C2=CC(=CC(=C2)O)OC)CC=CC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>4-Terpineol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>5&#x27;-Butyrylphosphoinosine</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>5-Ethyl-5-phenyl-1,3-ditosyl-2,4-imidazolidinedione</td>
+							<td>CID: CCN1C(=O)N(C(=O)C1(C2=CC=CC=C2)C)S(=O)(=O)C3=CC=C(C=C3)C)S(=O)(=O)C4=CC=C(C=C4)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>6-(1,2,3,4-Tetrahydro-6-methoxy-2-naphthyl)-2(1H)-pyridone</td>
+							<td>CID: COC1=CC2=C(CC(CC2)C3=CC=CC(=O)N3)C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>6-Methoxy-2-phenyl-hexahydropyrano[2,3-b][1,3]dioxine-7,8-diol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>6-Methyl-5-hepten-2-one</td>
+							<td>CID: CC(=CCCC(=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>7-O-Acetylaustroinulin</td>
+							<td>CID: C/C(=C/CC1C2(CCCC(C2C(C(C1(C)O)OC(=O)C)O)(C)C)C)/C=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)-(Methyl linolenate)</td>
+							<td>CID: CCCC=CCC=CCC=CCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>9,12-Octadecadienoic acid (Z,Z)(Linoleic acid)</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>9,12-Octadecadienoic acid, methyl ester, (E,E)-(Methyl linolelaidate)</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>9-epi-(E)-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Amorphene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Bergamotene</td>
+							<td>CID: CC1=CCC(=CC1)C(=C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Bisabolene</td>
+							<td>CID: CC1=CCC(CC1)C(=C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Bisabolol</td>
+							<td>CID: CC1=CCC(CC1)C(C)(C=C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Bourbonene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: CC1=CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Cadinol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Copaene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Cubebene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Elemene</td>
+							<td>CID: CC1=CCC(C(=C)C)CC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Elemene</td>
+							<td>CID: CC1=CCC(C=CC1(C)C)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Guaiene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Humulene</td>
+							<td>CID: CC1=CCC(C=CCC(=CCC1)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Linalool</td>
+							<td>CID: CC(=CCCC(C)(C=C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Muurolene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Myrcene</td>
+							<td>CID: CC(=CCCC(=C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: CC1(C2CCC(=C)C1C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: CC1=CCC2CC1C2(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Santalene</td>
+							<td>CID: CC1CCC(=C2CCC(=C)C2C1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Selinene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Sitosterol</td>
+							<td>CID: CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Terpineol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Terpinolene</td>
+							<td>CID: CC1=CCC(=C(C)C)CC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Thujene</td>
+							<td>CID: CC1=CCC2C1C2(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Tocopherol(Vitamin E)</td>
+							<td>CID: CC1=C(C2=C(CCC(O2)(C)CCCC(C)CCCC(C)CCCC(C)C)C(=C1O)C)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>?-Ylangene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Albanol A</td>
+							<td>CID: C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Allamandin</td>
+							<td>CID: C/C=C/1\[C@H]2[C@@]3(C=C[C@H]4[C@@H]3[C@@H](O2)O[C@@H]([C@H]4C(=O)OC)O)OC1=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Alpha Farnesol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Alpha amorphene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Alpha cubebene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Alpha gurjunene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Apigenin</td>
+							<td>CID: C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Apigenin-7-O-glucoside</td>
+							<td>CID: C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Arachidic acid(Eicosanoic acid)</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Aromadendrane</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Aromadendrene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Austinol</td>
+							<td>CID: C[C@@H]1[C@]2(C(=O)O[C@@]3([C@H](C4=C([C@@]5(CC[C@@]4([C@]2(C3=C)C(=O)O1)C)C=CC(=O)OC5(C)C)C)O)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Azafrin</td>
+							<td>CID: C/C(=C\C=C\C=C(/C)\C=C\C(=O)O)/C=C/C=C(\C)/C=C/[C@@]1([C@](CCCC1(C)C)(C)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Azulene</td>
+							<td>CID: C1=CC2=CC=C3C=CC=CC3=C2C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Beclomethasone</td>
+							<td>CID: C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)Cl)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benserazide</td>
+							<td>CID: C1=CC=C(C=C1)CN(CC(=O)O)C(=O)NN=C(C2=CC=C(C=C2)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzaldehyde</td>
+							<td>CID: C1=CC=C(C=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzene, 1,2-bis(9-borabicyclo[3.3.1]non-9-yloxymethyl)-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzene, 1-methoxy-4-methyl-</td>
+							<td>CID: COC1=CC=C(C=C1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzoic acid, 2-amino-, methyl ester(Methyl 2-aminobenzoate)</td>
+							<td>CID: COC(=O)C1=CC=CC=C1N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzyl Alcohol</td>
+							<td>CID: C1=CC=C(C=C1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzyl Benzoate</td>
+							<td>CID: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzyl acetate</td>
+							<td>CID: COC(=O)CC1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Benzyl nitrile(Phenylacetonitrile)</td>
+							<td>CID: C1=CC=C(C=C1)CC#N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Beta-caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Betaxolol</td>
+							<td>CID: CC(C)NCC(COC1=CC=C(C=C1)CCOCC2CC2)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Bicyclogermacrene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Borneol</td>
+							<td>CID: CC1(C2CCC1(C(C2)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Bornyl acetate</td>
+							<td>CID: CC(=O)OC1C2CCC(C2(C)C)C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Broussonin C</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C3=CC(=C(C(=C3)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Butyl 2-aminobenzoate</td>
+							<td>CID: CCCCCOC(=O)C1=CC=CC=C1N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>C16 Sphinganine</td>
+							<td>CID: CCCCCCCCCCCCCCCC[C@H]([C@H](CO)N)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Cadina-1(6),4-diene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Caffeic acid</td>
+							<td>CID: C1=CC(=C(C=C1C=CC(=O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Caftaric acid</td>
+							<td>CID: C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O)OC(=O)C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: CC1(C2CCC(C2)C1=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Camphene hydrate</td>
+							<td>CID: CC1(C2CCC(C1C2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Camphor</td>
+							<td>CID: CC1(C2CCC1(C(=O)C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Carbamazepine 10,11-epoxide</td>
+							<td>CID: C1=CC=C2C(=C1)C(=O)N3C=CC=CC3=N2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Carbosulfan</td>
+							<td>CID: CCCCN(CCCC)SN(C)C(=O)OC1=CC=CC2=C1OC(C2)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Carvone oxide</td>
+							<td>CID: CC1=CC(=O)CCC1(C)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Caryophyllen oxide</td>
+							<td>CID: CC1(CC2C1CCC3(C(O3)CCC2=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: CC1(CC2C1CCC3(C(O3)CCC2=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Catechin</td>
+							<td>CID: C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Chlorogenic acid</td>
+							<td>CID: C1C(C(C(CC1(C(=O)O)O)OC(=O)C=CC2=CC(=C(C=C2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Cholesteryl decanoate</td>
+							<td>CID: CCCCCCCCCC(=O)OCC1CCC2C3CCC4CC(C(=C)C=CC4C3C(CC2C1(C)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Cinnamic acid</td>
+							<td>CID: C1=CC=C(C=C1)C=CC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Cis-3-Hexenyl benzoate</td>
+							<td>CID: CC=CCCOC(=O)C1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Copaene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Cubebol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>D-(+)-Sucrose octaacetate</td>
+							<td>CID: CC(=O)OCC1C(C(C(C(O1)OC(=O)C)OC(=O)C)OC(=O)C)OC(=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Delta Limonene(Limonene)</td>
+							<td>CID: CC1=CCC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Deoxytubulosine</td>
+							<td>CID: CC[C@H]1CN2CCC3=CC(=C(C=C3[C@@H]2C[C@@H]1C[C@@H]4C5=C(CCN4)C6=CC=CC=C6N5)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Diepicedrene-1-oxide</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Dihydrodeoxystreptomycin</td>
+							<td>CID: C[C@H]1[C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)N=C(N)N)O)N=C(N)N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)NC)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Dihydrospheroidene/methoxyneurosporene</td>
+							<td>CID: CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/CCCC(C)(C)OC)/C)/C)/C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Diminazene</td>
+							<td>CID: C1=CC(=CC=C1C(=N)N)NN=NC2=CC=C(C=C2)C(=N)N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Diplodiatoxin</td>
+							<td>CID: CC1C[C@H]2C=C([C@H]([C@@](C2C(C1)C)(C)C(=O)CCO)C(=O)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Dodecanoic acid, 2-phenylethyl ester(Phenethyl laurate)</td>
+							<td>CID: CCCCCCCCCCCC(=O)OCCC1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Doripenem</td>
+							<td>CID: CC1C2C(C(=O)N1C(=C)CS2)C(=O)NC3=CC=CC=C3C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Drimenol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>E-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Elemol</td>
+							<td>CID: CC1=CCC(CC1)C(C)(C=C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ellagic acid</td>
+							<td>CID: C1=C2C3=C(C(=C1O)O)OC(=O)C4=CC(=C(C(=C43)OC2=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Epicatechin</td>
+							<td>CID: C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Epoxylinalool</td>
+							<td>CID: CC(=CCCC(C)(C1COC1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Eriodictyol</td>
+							<td>CID: C1=CC(=C(C=C1C2C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethanone,1-(3-ethyloxiranyl)-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl (9Z,11E)-9,11-octadecadienoate</td>
+							<td>CID: CCCCCC/C=C/C=C\CCCCCCCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1186/s13104-023-06487-9">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl 2-hydroxy isobutyrate</td>
+							<td>CID: CC(C)(C(=O)OCC)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl 2-methylbutanoate</td>
+							<td>CID: CCC(C)C(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl benzoate</td>
+							<td>CID: CCOC(=O)C1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl butanoate</td>
+							<td>CID: CCCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl hexanoate</td>
+							<td>CID: CCCCCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ethyl propanoate</td>
+							<td>CID: CCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Eugenol</td>
+							<td>CID: COC1=C(C=CC(=C1)CC=C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Exemestane</td>
+							<td>CID: C[C@]12CC[C@H]3[C@H]([C@@H]1CCC2=O)CC(=C)C4=CC(=O)C=C[C@]34C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Farnesyl butanoate</td>
+							<td>CID: CCCC(=O)OCCCC(=CCCC(=CCCC(=C)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Fenofibrate</td>
+							<td>CID: CC(C)OC(=O)C1=CC=C(C=C1)OC(=O)C2=CC=C(C=C2)Cl</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ferulic acid</td>
+							<td>CID: COC1=C(C=CC(=C1)C=CC(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Fluticasone propionate</td>
+							<td>CID: CC1=CC(=C(C(=C1)C(=O)OC(=O)C(C)C)C2=CC(=CC(=C2F)F)F)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Forsythiaside</td>
+							<td>CID: C1=CC(=C(C=C1C2C(C(C(C(O2)OC3C(C(C(C(O3)CO)O)O)O)O)O)C=CC(=O)OCC4C(C(C(C(O4)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Fusaric acid(5-Butylpicolinic acid)</td>
+							<td>CID: CCCCC1=CC(=NC=C1)C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: C1=C(C=C(C(=C1O)O)O)C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Geranial</td>
+							<td>CID: CC(=CCCC(=CC=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: CC(=CCCC(=CCO)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Geranyl ethyl ether</td>
+							<td>CID: CC(=CCCC(=CCCOC)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Geranyl methyl ether</td>
+							<td>CID: CC(=CCCC(=CCC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Germacrene D</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Germacrene D-4-ol</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(C)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Guaiol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Harderoporphyrin</td>
+							<td>CID: CC1=C(C2=CC3=NC(=CC4=C(C(=C(N4)C=C5C(=C(C(=N5)C=C1N2)CCC(=O)O)C)C(=C3CCC(=O)O)C)CCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Heptanal</td>
+							<td>CID: CCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Heteratisine</td>
+							<td>CID: CCN1CC2(CCC(C34C2C(C(C31)C5(CCC6CC4C5C(=O)O6)O)O)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hexadecanoic acid, ethyl ester(Ethyl palmitate)</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hexadecanoic acid, methyl ester(Methyl palmitate)</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hexadecanol</td>
+							<td>CID: CCCCCCCCCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hexanal</td>
+							<td>CID: CCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Honokiol</td>
+							<td>CID: C1=CC(=C(C=C1CC=CC2=CC(=CC(=C2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hydroflumethiazide</td>
+							<td>CID: C1NC2=C(C=C(C(=C2)C(F)(F)F)S(=O)(=O)N)S(=O)(=O)N1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hydroxyprogesterone caproate</td>
+							<td>CID: CCCCCC(=O)O[C@H]1CC[C@@H]2[C@@]3(CC[C@H](C[C@H]3CC[C@]12C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Hyperoside</td>
+							<td>CID: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Imazamethabenz</td>
+							<td>CID: CC1=CC(=C(C=C1)C(=O)OC)C2=NC(C(=O)N2)(C)C(C)C.CC1=CC(=C(C=C1)C2=NC(C(=O)N2)(C)C(C)C)C(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Indole</td>
+							<td>CID: C1=CC=C2C(=C1)C=CN2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isoborneol</td>
+							<td>CID: CC1(C2CCC1(C(C2)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isobornyl acetate</td>
+							<td>CID: CC(=O)OC1C2CCC(C2(C)C)C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isogermacrene-D</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isomagnolol</td>
+							<td>CID: C1=CC(=C(C=C1CC=CC2=CC(=CC(=C2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isoquercetin</td>
+							<td>CID: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isorhamnetin 3-O-[?-D-glucopyranosyl-(1?2)-?-L-rhamnopyranoside]</td>
+							<td>CID: COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)COC5C(C(C(C(O5)C)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isorhamnetin-3-O-glucoside</td>
+							<td>CID: COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isorhamnetin-3-O-rutinoside</td>
+							<td>CID: COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)COC5C(C(C(C(O5)CO)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Isosorbide</td>
+							<td>CID: C1C(C2C(C(C1O2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Kaempferol</td>
+							<td>CID: C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Kaempferol-3-O-rutinoside</td>
+							<td>CID: C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)COC5C(C(C(C(O5)CO)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Kanamycin</td>
+							<td>CID: C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)N)O)N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>L-Arabinose</td>
+							<td>CID: C1[C@@H]([C@@H]([C@H](C(O1)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Lemnalol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)CO)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Lentiginosine</td>
+							<td>CID: C1CCN2C[C@@H]([C@H]([C@@H]2C1)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: CC1=CCC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: CC(=CCCC(C)(C=C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linalool formate</td>
+							<td>CID: CC(=CCCC(C)(C=C)OC=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linalyl acetate</td>
+							<td>CID: CC(=CCCC(C)(C=C)OC(=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linoleic acid ethyl ester(Ethyl linoleate)</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linoleic acid[(9Z,12Z)-Octadeca-9,12-dienoic acid]</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Linoleoylethanolamide</td>
+							<td>CID: CCCCC/C=C\C/C=C\CCCCCCCC(=O)NCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Liriodenine</td>
+							<td>CID: C1=CC=C2C(=C1)C3=C(C=CN3)C(=O)O2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Longistylin C</td>
+							<td>CID: CC(=CCC1=C(C=C(C=C1OC)O)/C=C/C2=CC=CC=C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Luteolin</td>
+							<td>CID: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Luteolin-7-O-glucoside</td>
+							<td>CID: C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Lyngbyatoxin</td>
+							<td>CID: CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)[C@](C)(CCC=C(C)C)C=C)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Magnolol</td>
+							<td>CID: C1=CC(=C(C=C1CC=CC2=CC(=CC(=C2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Memantine</td>
+							<td>CID: CC12CC3CC(C1)(CC(C3)(C2)N)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Menthone</td>
+							<td>CID: CC1CCC(C(=O)C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Menthyl acetate</td>
+							<td>CID: CC(=O)OC1CC(C)CCC1C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl (9Z)-10&#x27;-oxo-6,10&#x27;-diapo-6-carotenoate</td>
+							<td>CID: (Carotenoid derivative; may require InChIKey)</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl 2-methylbutanoate</td>
+							<td>CID: CCC(C)C(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl 2-phenylacetate</td>
+							<td>CID: COC(=O)CC1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl anthranilate</td>
+							<td>CID: COC(=O)C1=CC=CC=C1N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl benzoate</td>
+							<td>CID: COC(=O)C1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl hexadecanoate</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl hexanoate</td>
+							<td>CID: CCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl linoleate</td>
+							<td>CID: CCCCCC=CCC=CCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl linolenate</td>
+							<td>CID: CCCC=CCC=CCC=CCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl octadecanoate</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl octadecyl ether(1-Ethoxyoctadecane)</td>
+							<td>CID: CCOCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl palmitate(Methyl hexadecanoate)</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyl tiglate</td>
+							<td>CID: CC=C(C)C(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Methyldopa</td>
+							<td>CID: C[C@](CC1=CC(=C(C=C1)O)O)(C(=O)O)N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Mianserin</td>
+							<td>CID: CN1CCN2C3=CC=CC=C3CCC2=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Mitoxantrone</td>
+							<td>CID: C1=CC(=C2C(=C1NCCNCCO)C(=O)C3=C(C=CC(=C3C2=O)O)O)NCCNCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Momilactone A</td>
+							<td>CID: C[C@@H]1[C@H]([C@@H]([C@H]([C@@H]1O)O)O)C2=CC(=C(C=C2)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Muurolene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: CC(=CCCC(=C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myricetin</td>
+							<td>CID: C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myristic acid (Tetradecanoic acid)</td>
+							<td>CID: CCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myrtenal</td>
+							<td>CID: CC1(C2CC=C(C1C2)C=O)</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myrtenol</td>
+							<td>CID: CC1(C2CC=C(C1C2)CO)</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Myrtenyl acetate</td>
+							<td>CID: CC(=O)OC1C2CC=C(C1C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Naringenin-7-O-glucoside</td>
+							<td>CID: C1=CC(=CC=C1C2C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Neo-allo-ocimene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Neral</td>
+							<td>CID: CC(=CCCC(=CC=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Nerol</td>
+							<td>CID: CC(=CCCC(=CCO)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Nerolidol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Nonanedioic acid, dibutyl ester(Dibutyl azelate)</td>
+							<td>CID: CCCCCOC(=O)CCCCCCCC(=O)OCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Norethindrone enanthate</td>
+							<td>CID: CCCCCCC(=O)O[C@H]1CC[C@@H]2[C@@]3(CC[C@H](C[C@H]3CC[C@]12C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Oleic acid[(9Z)-Octadec-9-enoic acid]</td>
+							<td>CID: CCCCCCCC=CCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Palmitoleic acid[(9Z)-Hexadec-9-enoic acid]</td>
+							<td>CID: CCCCCC=CCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Palustrol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Panaquinquecol 1</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Parthenolide</td>
+							<td>CID: CC1CCC2C(C1)C(=C)C(=O)OC2C=CC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Pentadecanol</td>
+							<td>CID: CCCCCCCCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Chemical%20composition%20and%20seasonal%20variation%20of%20the...%20-%20BV%20FAPESP">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Perillene</td>
+							<td>CID: CC(=CCCC(=C)C=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenethyl acetate</td>
+							<td>CID: CC(=O)OCCC1=CC=CC=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenethyl phenylacetate</td>
+							<td>CID: C1=CC=C(C=C1)CCOC(=O)CC2=CC=CC=C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenylacetaldehyde</td>
+							<td>CID: C1=CC=C(C=C1)CC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenylacetonitrile</td>
+							<td>CID: C1=CC=C(C=C1)CC#N</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenylethyl alcohol</td>
+							<td>CID: C1=CC=C(C=C1)CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Phenylethyl alcohol(2-Phenylethanol)</td>
+							<td>CID: C1=CC=C(C=C1)CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Pheophorbide a</td>
+							<td>CID: CSCC(=CC1=CC=CC=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Pheophorbide b</td>
+							<td>CID: CC1=C(C2=CC3=NC(=CC4=C(C(=C(N4)C=C5C(=C(C(=N5)C=C1N2)CCC(=O)O)C)C(=C3CCC(=O)O)C)CCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Poncirin</td>
+							<td>CID: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC3=CC(=C4C(=O)C[C@H](OC4=C3)C5=CC=C(C=C5)OC)O)CO)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Propyl 2-methylbutanoate</td>
+							<td>CID: CCC(C)C(=O)OCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1186/s12864-017-3846-8">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Pyropheophorbide a</td>
+							<td>CID: CC1=C(C2=CC3=NC(=CC4=C(C(=C(N4)C=C5C(=C(C(=N5)C=C1N2)CCC(=O)O)C)C(=C3CCC(=O)O)C)CCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Quercetin</td>
+							<td>CID: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Quercitrin</td>
+							<td>CID: CC1C(C(C(C(O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)C4=CC(=C(C=C4)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Ranitidine</td>
+							<td>CID: CN(C)C1=NCCS1COC2=CC=C(C=C2)NO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Resveratrol</td>
+							<td>CID: C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=FREE%20RADICAL%20SCAVENGING%20ACTIVITY%2C%20TLC%2C%20HPTLC%20AND%20GC%20MS%20ANALYSIS%20OF%20DRY%20FLOWER%20OF%20MICHELIA%20CHAMPACA%20LINN">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Rutin</td>
+							<td>CID: CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Sabinene</td>
+							<td>CID: CC(C)C12CCC(=C)C1C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Salicylic acid</td>
+							<td>CID: C1=CC=C(C(=C1)C(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Salviaflaside methyl ester</td>
+							<td>CID: COC(=O)C1=CC(=C(C=C1O)O)C2C(C(C(C(O2)COC3C(C(C(C(O3)CO)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Shyobunol</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Sodium glycocholate</td>
+							<td>CID: C[C@H](CCC(=O)NCC(=O)[O-])[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C.[Na+]</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Spathulenol</td>
+							<td>CID: CC1(C2CCC3(C(C2(CCC1=C)C)CCC(O3)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Sphinganine</td>
+							<td>CID: CCCCCCCCCCCCCCC[C@H]([C@H](CO)N)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Squalene</td>
+							<td>CID: CC(=CCCC(=CCCC(=CCCC=C(C)CCC=C(C)CCC=C(C)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Stearic acid(Octadecanoic acid)</td>
+							<td>CID: CCCCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s13399-024-05846-1">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: CC(C)C=CCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.5530/pres.16.3.59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Syringic acid</td>
+							<td>CID: COC1=CC(=CC(=C1O)OC)C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Taxifolin</td>
+							<td>CID: C1=CC(=C(C=C1C2C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Terpinolene</td>
+							<td>CID: CC1=CCC(=C(C)C)CC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Terpinyl propionate</td>
+							<td>CID: CCC(=O)OC1CC(CCC1(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Trans Farnesol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Trans beta Ionone</td>
+							<td>CID: CC1=CC(=O)CCC1C=CC(=CC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.1088/1755-1315/1476/1/012091">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Trenbolone</td>
+							<td>CID: C[C@]12C=CC3=C4CCC(=O)C=C4CC[C@H]3[C@@H]1CC[C@@H]2O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Vanillic acid</td>
+							<td>CID: COC1=C(C=CC(=C1)C(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Varamol</td>
+							<td>CID: Structure</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Veraguensin</td>
+							<td>CID: C[C@H]1[C@@H]([C@H](O[C@H]1C2=CC(=C(C=C2)OC)OC)C3=CC(=C(C=C3)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Verrucarol</td>
+							<td>CID: CC1CCC2C3C(O3)C(C2(C1)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Viridiflorene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Virol B</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>Vulgarone A</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>allo-Aromadendrene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Jasmone</td>
+							<td>CID: CC1CCC(=O)C=C1C=CC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Linalool oxide (furanoid)</td>
+							<td>CID: CC(=CCCC(C)(C1CO1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Linalool pyran oxide</td>
+							<td>CID: CC(=CCCC(C)(C1COC1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Effect%20of%20Extraction%20on%20Volatile%20Compounds%20and%20Sensory%20Profile%20of%20Champak%20Flower%20%28Michelia%20champaca%20L.%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Muurola-3,5-diene</td>
+							<td>CID: CC1CCC(C2C1C(CC2)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Piperitol</td>
+							<td>CID: CC1CCC(C(C1)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Resveratrol 4&#x27;-O-glucuronide</td>
+							<td>CID: C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)OC3C(C(C(C(O3)C(=O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Sabinene hydrate</td>
+							<td>CID: CC1(C2CCC(C1C2)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>cis-Sabinene hydrate</td>
+							<td>CID: CC1(C2CCC(C1C2)(C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>iso-Menthyl acetate</td>
+							<td>CID: CC(=O)OC1CC(C)CCC1C(C)C(stereoisomer)</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>methyl 5,12-octadecadienoate</td>
+							<td>CID: CCCCC/C=C\CCCCC/C=C\CCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1186/s13104-023-06487-9">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Docosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Eicosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Heneicosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Hexadecanoic acid(Palmitic acid)</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=GAS%20CHROMATOGRAPHY-MASS%20SPECTROMETRY%20ANALYSIS%20OF%20METHANOL%20EXTRACT%20OF%20MICHELIA%20CHAMPACA%20L.%20FLOWERS">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Hexadecanol</td>
+							<td>CID: CCCCCCCCCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27217302">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Nonadecane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Pentacosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Tetracosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Tricosane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>n-Tricosene</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCC=CC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>p-Coumaric acid</td>
+							<td>CID: C1=CC(=CC=C1C=CC(=O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>p-Cymene</td>
+							<td>CID: CC1=CC=C(C=C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>trans-1,4-bis(2-Chlorobenzaminomethyl)cyclohexane</td>
+							<td>CID: C1CC(CCC1CNCC2=CC=CC=C2Cl)CNCC3=CC=CC=C3Cl</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880209.2022.2101669">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>trans-Linalool oxide</td>
+							<td>CID: CC(=CCCC(C)(C1CO1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>trans-Linalool oxide (furanoid)</td>
+							<td>CID: CC(=CCCC(C)(C1CO1)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2012.08.048">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Michelia champaca</td>
+							<td>
+								
+								Champaca, Fragrant Magnolia, Yellow Champaca
+								
+							</td>
+							<td>trans-Nerolidol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/horticulturae10020141">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,5657 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Curcuma LONGA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Curcuma LONGA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(+)-Curcumenol</td>
+							<td>CID: 167812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(+)-alpha-Cadinene</td>
+							<td>CID: 12306048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(+)-beta-Phellandrene</td>
+							<td>CID: 442484</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1999.9712004%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(+)-cis-Sabinol</td>
+							<td>CID: 94147</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(+)-delta-Cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-Terpinen-4-ol</td>
+							<td>CID: 5325830</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-Zingiberene</td>
+							<td>CID: 521253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-beta-Curcumene</td>
+							<td>CID: 14014430</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-beta-Pinene</td>
+							<td>CID: 440967</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-beta-Sesquiphellandrene</td>
+							<td>CID: 12315492</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(-)-cis-Carveol</td>
+							<td>CID: 330573</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(1E,4E)-1,5-bis(4-hydroxy-3-methoxyphenyl)penta-1,4-dien-3-one</td>
+							<td>CID: 6474893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(1R)-2-methyl-5-propan-2-ylbicyclo[3.1.0]hex-2-ene</td>
+							<td>CID: 637518</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(1R,4S)-1,7,7-Trimethylbicyclo[2.2.1]heptan-2-yl (E)-2- methylbut-2-enoate</td>
+							<td>CID: 89926820</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(6R, 7R)-Bisabolone</td>
+							<td>CID: 10421034</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-2-Isopropyl-5-methylphenyl 2-methylbut-2-enoate</td>
+							<td>CID: 91698167</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-Atlantone</td>
+							<td>CID: 6365122</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-Tagetenone</td>
+							<td>CID: 6428431</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-beta-Farnesene</td>
+							<td>CID: 5281517</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-beta-ocimene</td>
+							<td>CID: 5281553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(E)-gamma-Bisabolene</td>
+							<td>CID: 5352437</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1780%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene</td>
+							<td>CID: 91723653</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(Z)-Methyl jasmonate</td>
+							<td>CID: 6430765</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>(Z)-beta-Ocimene</td>
+							<td>CID: 5320250</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>.gamma.-Sitosterol</td>
+							<td>CID: 457801</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1,5-Bis(4-hydroxy-3-methoxyphenyl)-1,4-pentadien-3-one</td>
+							<td>CID: 468133</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1,7-Bis(4-hydroxyphenyl)-1,4,6-heptatrien-3-one</td>
+							<td>CID: 10447050</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1,7-Bis(4-hydroxyphenyl)-3,5- heptanediol</td>
+							<td>CID: 14427394</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1,7-Bis(4-hydroxyphenyl)-heptane-3,5-dione</td>
+							<td>CID: 9796792</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1-Bisabolone</td>
+							<td>CID: 11736155</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1-Hexen-3-OL</td>
+							<td>CID: 20928</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1-Isopropyl-4,8-dimethylspiro[4.5]dec-8-en-7-one</td>
+							<td>CID: 573024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1-Methyl-4-(prop-1-en-2-yl)benzene</td>
+							<td>CID: 62385</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>1-Undecanol</td>
+							<td>CID: 8184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>10-epi-gamma-Eudesmol</td>
+							<td>CID: 6430754</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2,5-Dimethyl-4-hydroxy-3(2H)-furanone</td>
+							<td>CID: 19309</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2,5-dihydroxybisabola -3,10-diene</td>
+							<td>CID: 157009920</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-(4-Methylphenyl)propan-1-ol</td>
+							<td>CID: 95376</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-(4-Methylphenyl)propan-2-ol</td>
+							<td>CID: 14529</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Carene</td>
+							<td>CID: 79044</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Cyclohexen-1-ol, 1-methyl-4-(1-methylethyl)-, trans-</td>
+							<td>CID: 122484</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl)-, acetate, cis-</td>
+							<td>CID: 102024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Cyclohexen-1-one, 4-(1,5-dimethyl-4-hexenyl)-</td>
+							<td>CID: 550361</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Decanol</td>
+							<td>CID: 14254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Furanmethanol, 5-ethenyltetrahydro-alpha,alpha,5-trimethyl-, cis-</td>
+							<td>CID: 6428573</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Heptanol</td>
+							<td>CID: 10976</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Heptanone</td>
+							<td>CID: 8051</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Methoxy-4-vinylphenol</td>
+							<td>CID: 332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Methyl-4-octenal</td>
+							<td>CID: 5367755</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Methylisoborneol</td>
+							<td>CID: 11062802</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Nonanol</td>
+							<td>CID: 12367</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Nonanone</td>
+							<td>CID: 13187</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1780%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Octanol</td>
+							<td>CID: 20083</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1780%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Propanone, 1-hydroxy-</td>
+							<td>CID: 8299</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Propenoic acid, 3-(4-hydroxy-3-methoxyphenyl)-, methyl ester</td>
+							<td>CID: 5357283</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Undecanol</td>
+							<td>CID: 15448</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>2-Undecanone</td>
+							<td>CID: 8163</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3,3,5,5-Tetramethylcyclopentene</td>
+							<td>CID: 520917</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3,7(11)-Eudesmadiene</td>
+							<td>CID: 522296</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-(1,5-Dimethyl-4-hexenyl)-6-methylene-1-cyclohexene</td>
+							<td>CID: 519764</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-Buten-2-OL</td>
+							<td>CID: 11716</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-Buten-2-one, 4-(4-hydroxy-3-methoxyphenyl)-</td>
+							<td>CID: 5354238</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-Carene</td>
+							<td>CID: 26049</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-Decen-5-one</td>
+							<td>CID: 5367760</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>3-Phenylpropyl cyclohexanecarboxylate</td>
+							<td>CID: 576409</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>4&#x27;-Methylacetophenone</td>
+							<td>CID: 8500</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>4-Carvomenthenol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>4-Isopropylbenzyl alcohol</td>
+							<td>CID: 325</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>4H-Pyran-4-one,2,3-dihydro-3,5-dihydroxy-6-methyl-</td>
+							<td>CID: 119838</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>5-Hydroxy-p-menth-6-en-2-one</td>
+							<td>CID: 14106048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1997.9700783%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>5-Hydroxymethylfurfural</td>
+							<td>CID: 237332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>6-Epi-beta-bisabolol</td>
+							<td>CID: 12300148</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>6Z-2,5,5,10-Tetramethyl-undeca-2,6,9-trien-8-one</td>
+							<td>CID: 643819</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>7-epi-Sesquithujene</td>
+							<td>CID: 56927990</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>9,12-Octadecadienoic acid (Z,Z)</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>9-Octadecenoic acid</td>
+							<td>CID: 637517</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Acetic acid</td>
+							<td>CID: 176</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Allene</td>
+							<td>CID: 10037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Allo-Aromadendrene</td>
+							<td>CID: 42608158</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Anethole</td>
+							<td>CID: 637563</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Ar-tumerone</td>
+							<td>CID: 558221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Benzene, 1,4-dimethyl-2-(2-methylpropyl)</td>
+							<td>CID: 41508</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Bicyclo(4.1.0)heptan-3-one, 1-methyl-4-(1-methylethylidene)-7-(3-oxobutyl)-, (1S,6R,7R)-</td>
+							<td>CID: 153845</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Bisacumol</td>
+							<td>CID: 5315469</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Bisdemethoxycurcumin</td>
+							<td>CID: 5315472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Bornyl chloride</td>
+							<td>CID: 10048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: 6616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Camphene hydrate</td>
+							<td>CID: 101680</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Camphor</td>
+							<td>CID: 2537</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Carvacrol</td>
+							<td>CID: 10364</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Carvone</td>
+							<td>CID: 7439</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cedrelanol</td>
+							<td>CID: 160799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cedrenol</td>
+							<td>CID: 119831</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cinnamaldehyde</td>
+							<td>CID: 637511</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1997.9700783%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cinnamyl cinnamate</td>
+							<td>CID: 1550890</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Citral</td>
+							<td>CID: 638011</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Corymbolone</td>
+							<td>CID: 178931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Coumaran</td>
+							<td>CID: 10329</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curcumin</td>
+							<td>CID: 969516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=PMID%3A17400527%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curcuphenol</td>
+							<td>CID: 360253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curdione</td>
+							<td>CID: 6441391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curlone</td>
+							<td>CID: 196216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curzerene</td>
+							<td>CID: 12305301</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Curzerenone</td>
+							<td>CID: 3081930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cyclocurcumin</td>
+							<td>CID: 69879809</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cycloheptasiloxane, tetradecamethyl-</td>
+							<td>CID: 7874</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Cyclopentanecarboxylic acid, 3-isopropylidene-, bornyl ester</td>
+							<td>CID: 586220</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>D-Limonene</td>
+							<td>CID: 440917</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Decanoic acid</td>
+							<td>CID: 2969</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Demethoxycurcumin</td>
+							<td>CID: 5469424</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Dicumene</td>
+							<td>CID: 74681</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Dihydrocurcumene</td>
+							<td>CID: 577053</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Dihydrocurcumin</td>
+							<td>CID: 10429233</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>E-Nerolidol</td>
+							<td>CID: 5284507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Elemicin</td>
+							<td>CID: 10248</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Eucalyptol</td>
+							<td>CID: 2758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Eugenol</td>
+							<td>CID: 3314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2004.9698664%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Ezlopitant, dehydro-</td>
+							<td>CID: 6426122</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Farnesol</td>
+							<td>CID: 445070</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2004.9698664%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Furanodienon</td>
+							<td>CID: 6442374</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: 637566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Geranyl acetate</td>
+							<td>CID: 1549026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Geranyl butyrate</td>
+							<td>CID: 5355856</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Geranyl formate</td>
+							<td>CID: 5282109</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Geranyl hexanoate</td>
+							<td>CID: 5365992</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Germacr-1(10)-ene-5,8-dione</td>
+							<td>CID: 6441391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Germacrene B</td>
+							<td>CID: 5281519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1780%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Germacron</td>
+							<td>CID: 6436348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Germacrone</td>
+							<td>CID: 6436348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Glycerin</td>
+							<td>CID: 753</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Heptyl salicylate</td>
+							<td>CID: 80420</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Humuladienone</td>
+							<td>CID: 101297706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Humulene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Humulene epoxide II</td>
+							<td>CID: 10704181</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Isoborneol, heptafluorobutyrate (ester)</td>
+							<td>CID: 565263</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Isobornyl acetate</td>
+							<td>CID: 6950273</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Isoledene</td>
+							<td>CID: 530426</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Levomenol</td>
+							<td>CID: 442343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Linalyl acetate</td>
+							<td>CID: 8294</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Linalyl isobutyrate</td>
+							<td>CID: 6532</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1999.9712004%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Linalyl propionate</td>
+							<td>CID: 61098</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Methyleugenol</td>
+							<td>CID: 7127</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: 31253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Myrtenal</td>
+							<td>CID: 61130</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Myrtenol</td>
+							<td>CID: 10582</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Neral</td>
+							<td>CID: 643779</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698993%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Nerolidol</td>
+							<td>CID: 5284507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>O-Cymene</td>
+							<td>CID: 10703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Perilla ketone</td>
+							<td>CID: 68381</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Piperine</td>
+							<td>CID: 638024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=PMID%3A27529277%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Piperitone</td>
+							<td>CID: 6987</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1997.9700783%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Propanoic acid, 2-oxo-, methyl ester</td>
+							<td>CID: 11748</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Pulegone</td>
+							<td>CID: 442495</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Pyrazine, tetramethyl-</td>
+							<td>CID: 14296</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Sabinene</td>
+							<td>CID: 18818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Sabinyl acetate</td>
+							<td>CID: 94266</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Safrole</td>
+							<td>CID: 5144</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Sesquisabinene</td>
+							<td>CID: 25202482</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Terpinolene</td>
+							<td>CID: 11463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tetradecanal</td>
+							<td>CID: 31291</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1999.9712004%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tetradecane</td>
+							<td>CID: 12389</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tetrahydrobisdemethoxydiferuloylmethane</td>
+							<td>CID: 9796792</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Thymol</td>
+							<td>CID: 6989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Thymol acetate</td>
+							<td>CID: 68252</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Toluene</td>
+							<td>CID: 1140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.1997.9700783%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tricyclene</td>
+							<td>CID: 79035</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tridecane</td>
+							<td>CID: 12388</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Trimethylsilyl 2-methoxyacetate</td>
+							<td>CID: 11400955</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Tumerone</td>
+							<td>CID: 558173</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Turmerol</td>
+							<td>CID: 20055538</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Vanillin</td>
+							<td>CID: 1183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Viridiflorol</td>
+							<td>CID: 11996452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Xanthorrhizol</td>
+							<td>CID: 93135</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Zingiberene</td>
+							<td>CID: 92776</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>Zingiberenol</td>
+							<td>CID: 13213649</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha -Bisabolol</td>
+							<td>CID: 1201551</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Atlantone</td>
+							<td>CID: 12299868</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Bergamotene</td>
+							<td>CID: 86608</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698993%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Caryophyllene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Curcumene</td>
+							<td>CID: 92139</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Farnesene</td>
+							<td>CID: 5281516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Fenchene</td>
+							<td>CID: 28930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Fenchol</td>
+							<td>CID: 439711</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Guaiene</td>
+							<td>CID: 5317844</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Muurolene</td>
+							<td>CID: 12306047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Phellandrene</td>
+							<td>CID: 7460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Selinene</td>
+							<td>CID: 10856614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Terpinene</td>
+							<td>CID: 7462</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Terpineol</td>
+							<td>CID: 17100</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Turmerone</td>
+							<td>CID: 14632996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-Zingiberene</td>
+							<td>CID: 11127403</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-curcumene</td>
+							<td>CID: 92139</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-santalol</td>
+							<td>CID: 5281531</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>alpha-zingiberene</td>
+							<td>CID: 11127403</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>ar-Curcumene</td>
+							<td>CID: 3083834</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>ar-Turmerone</td>
+							<td>CID: 160512</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>ar-curcumene</td>
+							<td>CID: 3083834</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>ar-tumerone</td>
+							<td>CID: 558221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>ar-turmerone</td>
+							<td>CID: 160512</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta Bisabolene</td>
+							<td>CID: 10104370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta- turmerone</td>
+							<td>CID: 196216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.3390/molecules23071568">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Atlantone</td>
+							<td>CID: 181580</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Bisabolene</td>
+							<td>CID: 10104370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Curcumene</td>
+							<td>CID: 6428461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Elemene</td>
+							<td>CID: 6918391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Eudesmol</td>
+							<td>CID: 91457</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Farnesene</td>
+							<td>CID: 5281517</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Himachalene</td>
+							<td>CID: 11586487</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2019.1599734%20%28IMPAAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Patchoulene</td>
+							<td>CID: 101731</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698993%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Phellandrene</td>
+							<td>CID: 11142</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Sesquiphellandrene</td>
+							<td>CID: 12315492</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-Turmerone</td>
+							<td>CID: 196216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta-bisabolene</td>
+							<td>CID: 10104370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>beta.-Sesquiphellandrene</td>
+							<td>CID: 519764</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>bisabola-3,10-dien-2-one</td>
+							<td>CID: 10421034</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>bisacumol</td>
+							<td>CID: 5315469</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>bisacurone</td>
+							<td>CID: 14287397</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>bisdemethoxycurcumin</td>
+							<td>CID: 5315472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.3390/molecules23071568">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>calebin-A</td>
+							<td>CID: 637429</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-3-Hexen-1-ol</td>
+							<td>CID: 5281167</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-3-Hexenyl acetate</td>
+							<td>CID: 5363388</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698993%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-Carvotanacetol</td>
+							<td>CID: 12233170</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-Nerolidol</td>
+							<td>CID: 5320128</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-Sesquisabinene hydrate</td>
+							<td>CID: 6428435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-alpha-Bergamotene</td>
+							<td>CID: 6429303</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-beta-Farnesene</td>
+							<td>CID: 5317319</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2006.9699056%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>cis-gamma-bisabolene</td>
+							<td>CID: 3033866</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>curcumenol</td>
+							<td>CID: 167812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>curcumenone</td>
+							<td>CID: 153845</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>curcumin</td>
+							<td>CID: 969516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>curdione</td>
+							<td>CID: 6441391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>curlone</td>
+							<td>CID: 196216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>d-Borneol</td>
+							<td>CID: 6552009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>delta-3-Carene</td>
+							<td>CID: 26049</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>delta-Elemene</td>
+							<td>CID: 12309449</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>demethoxycurcumin</td>
+							<td>CID: 5469424</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A10.3390/molecules23071568">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>e-beta-Farnesene</td>
+							<td>CID: 10407</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/pdf/10.1177/1934578X1300800826">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>gamma-Curcumene</td>
+							<td>CID: 12304273</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>gamma-Elemene</td>
+							<td>CID: 6432312</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>gamma-Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>gamma-Terpineol</td>
+							<td>CID: 11467</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730070105%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>gammaElemene</td>
+							<td>CID: 6432312</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>germacron</td>
+							<td>CID: 6436348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>m-Cymene</td>
+							<td>CID: 10812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>n-Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Comparative%20phytochemical%20screening%20ofCurcuma%20angustifolia%2CCurcuma%20decipiensandCurcuma%20longaby%20using%20GC-MS.%20J%20Pharmacogn%20Phytochem%202019%3B8%282%29%3A1227-1234.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>p-(1-Propenyl)-toluene</td>
+							<td>CID: 5314058</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules27103196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>p-Cymen-8-ol</td>
+							<td>CID: 14529</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>p-Cymene</td>
+							<td>CID: 7463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>p-Mentha-1,3,8-triene</td>
+							<td>CID: 176983</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2002.9699843%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>procurcumadiol</td>
+							<td>CID: 14633012</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>procurcumenol</td>
+							<td>CID: 189061</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>tau-Cadinol</td>
+							<td>CID: 160799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698993%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>trans-Linalool oxide</td>
+							<td>CID: 6432254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>trans-Sesquisabinene hydrate</td>
+							<td>CID: 6428444</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.1053%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>trans-alpha-Bergamotene</td>
+							<td>CID: 6429302</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2014.942766%20%28IMPPAT%29">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>trans-sesquisabinene hydrate</td>
+							<td>CID: 6428444</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1080/00032719.2012.751541">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>turmeronol A</td>
+							<td>CID: 11117927</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>turmeronol B</td>
+							<td>CID: 10955433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Curcuma longa</td>
+							<td>
+								
+								Common turmeric, Indian saffron, Turmeric
+								
+							</td>
+							<td>zedoarondiol</td>
+							<td>CID: 24834047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/157341210793292356">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

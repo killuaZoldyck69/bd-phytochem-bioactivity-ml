@@ -1,0 +1,2937 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Mesua ferrea"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Mesua ferrea</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>1,3,7-Trihydroxyxanthone</td>
+							<td>CID: 5281635</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>1,6-Octadien-3-ol, 3,7-dimethyl-</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>1,7-Dihydroxyxanthone</td>
+							<td>CID: 5281631</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>1-Heptatriacotanol</td>
+							<td>CID: 537071</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>13-Docosenamide</td>
+							<td>CID: 5365369</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2,2-Dimethyl-6-methylene-1-[3,5-dihydroxy-1-pentenyl]cyclohexan-1-perhydrol</td>
+							<td>CID: 5365954</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2,4,6,8,10-Tetradecapentaenoic acid, 9a-(acetyloxy)-1a,1b,4,4a,5,7a,7b,8,9,9a-decahydro-4a,7b-dihydroxy-3-(hydroxymethyl)-1,1,6,8-tetramethyl-5-oxo-1H-cyclopropa[3,4]</td>
+							<td>CID: 5367200</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2,4-Tetradecadienoic acid isobutyl amide</td>
+							<td>CID: 85248609</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2-Butenedioc acid</td>
+							<td>CID: 54608775</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2-Methoxycinnamaldehyde</td>
+							<td>CID: 641298</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.5530/pj.2019.11.35">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2-[4-methyl-6-(2,6,6-trimethylcyclohex-1-enyl)hexa-1,3,5-trienyl]cyclohex-1-en-1-carboxaldehyde</td>
+							<td>CID: 5363101</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>2H-1-Benzopyran</td>
+							<td>CID: 9211</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.5530/pj.2019.11.35">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>3-Furanacetic acid, 4-hexyl-2,5-dihydro-2,5-dioxo</td>
+							<td>CID: 580944</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>3-Hydroxybenzoic acid</td>
+							<td>CID: 7420</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>4H-Pyran-4-one, 2,3-dihydro-3,5-dihydroxy-6-methyl</td>
+							<td>CID: 119838</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>5-Hydroxymethylfurfural</td>
+							<td>CID: 237332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>7-Methyl-Z-tetradecen-1-ol acetate</td>
+							<td>CID: 5363222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>8,11-Octadecadienoic acid, methyl ester</td>
+							<td>CID: 5319737</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>8-Heptadecene</td>
+							<td>CID: 5364555</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid, 2-phenyl-1,3-dioxan-5-yl ester</td>
+							<td>CID: 5367498</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>9-Octadecenenitrile</td>
+							<td>CID: 8220</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>9-Octadecenoic acid methyl ester</td>
+							<td>CID: 8202</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: 10657</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: 92313</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Cadinol</td>
+							<td>CID: 10398656</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Caryophyllene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Copaene</td>
+							<td>CID: 19725</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Guaiene</td>
+							<td>CID: 15560252</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Himachalene</td>
+							<td>CID: 520909</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Humulene</td>
+							<td>CID: 5318102</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Muurolene</td>
+							<td>CID: 12306047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>?-Selinene</td>
+							<td>CID: 10856614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Alloaromadendrene</td>
+							<td>CID: 10899740</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Apigenin</td>
+							<td>CID: 5280443</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Arachidic acid</td>
+							<td>CID: 10467</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.7324/JAPS.2017.70721">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Aristolochic acid</td>
+							<td>CID: 2236</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/117750283/isolation_purification_and_anticancer_potency_of_novel_compound_6ethyl3hydroxy4methyl8ahxanthen910ahone_from_emmesua_fer-libre.pdf%3F1724755552%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DIsolation_purification_and_anticancer_po.pdf%26Expires%3D1751178204%26Signature%3DYsctR326uWgwAdkLS-pZqIPCWkB3Rf~phnOk85KtdXsyyGzWLRDc9VQBsN2unCm0nGW2fMDDkWpV~yPcYFE3PFQxfhtzGvW1naMgBYkfEUPnaU0GFG235vRS2hgY11jCUVYRlMHPRPriUXAW9R0ECKRKmcNZ3O6pMNt0JtEdDsvILzS9J0qvkfYdc~0V~TncrR8vuf4auD-zDCGpbF-~1lEl0inB6mv8a56ReSnR5JIW6H88OyjJ3KS5e5EG35RS53UZrq5XtdVcT4zDtE6b4r~8RP-9T5p1p9vNAzpT7ZrKfoyUJKAmFehvIWwuk~urCTWlN9W0OXd6Tgk1~Mr--g__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Benzoic acid</td>
+							<td>CID: 243</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Benzyl-b-D-glucopyranoside</td>
+							<td>CID: 172641809</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Betulin</td>
+							<td>CID: 72326</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Betulinaldehyde</td>
+							<td>CID: 99615</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Betulinic acid</td>
+							<td>CID: 64971</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Bicyclo[4.4.0]dec-2-ene-4-ol, 2-methyl-9-(prop-1-en-3-ol-2-yl)-</td>
+							<td>CID: 535256</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Cepharadione A</td>
+							<td>CID: 94577</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Cinnamaldehyde</td>
+							<td>CID: 637511</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.5530/pj.2019.11.35">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Cinnamic acid</td>
+							<td>CID: 444539</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Coniferyl alcohol</td>
+							<td>CID: 1549095</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Copaene</td>
+							<td>CID: 12303902</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Cyclopropanebutanoic acid, 2-[[2-[[2-[(2-pentylcyclopropyl)methyl]cyclopropyl]methyl]cyclopropyl]methyl]-, methyl ester</td>
+							<td>CID: 554084</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Cyperene</td>
+							<td>CID: 12308843</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Dasycarpidan-1-methanol, acetate [ester]</td>
+							<td>CID: 550072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/117750283/isolation_purification_and_anticancer_potency_of_novel_compound_6ethyl3hydroxy4methyl8ahxanthen910ahone_from_emmesua_fer-libre.pdf%3F1724755552%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DIsolation_purification_and_anticancer_po.pdf%26Expires%3D1751178204%26Signature%3DYsctR326uWgwAdkLS-pZqIPCWkB3Rf~phnOk85KtdXsyyGzWLRDc9VQBsN2unCm0nGW2fMDDkWpV~yPcYFE3PFQxfhtzGvW1naMgBYkfEUPnaU0GFG235vRS2hgY11jCUVYRlMHPRPriUXAW9R0ECKRKmcNZ3O6pMNt0JtEdDsvILzS9J0qvkfYdc~0V~TncrR8vuf4auD-zDCGpbF-~1lEl0inB6mv8a56ReSnR5JIW6H88OyjJ3KS5e5EG35RS53UZrq5XtdVcT4zDtE6b4r~8RP-9T5p1p9vNAzpT7ZrKfoyUJKAmFehvIWwuk~urCTWlN9W0OXd6Tgk1~Mr--g__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Disodium cromoglycate</td>
+							<td>CID: 27503</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Docosahexaenoic acid, 1,2,3-propanetriyl ester</td>
+							<td>CID: 9546569</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Eicosane</td>
+							<td>CID: 8222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Eremophilene</td>
+							<td>CID: 12309744</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Estra-1,3,5(10)-trien-17?-ol</td>
+							<td>CID: 228944</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Ethyl Oleate</td>
+							<td>CID: 5363269</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Ethyl iso-allocholate</td>
+							<td>CID: 6452096</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Ethyl palmitate</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Eugenol</td>
+							<td>CID: 3314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.5530/pj.2019.11.35">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Formic acid, 3,7,11-trimethyl-1,6,10-dodecatrien-3-yl ester</td>
+							<td>CID: 5363406</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Friedelin</td>
+							<td>CID: 91472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Friedelinol</td>
+							<td>CID: 101341</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Geranylgeraniol</td>
+							<td>CID: 5281365</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Germacrene A</td>
+							<td>CID: 5835162</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Heptadecane</td>
+							<td>CID: 12398</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Heptadecanenitrile</td>
+							<td>CID: 79388</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hexadecanamide</td>
+							<td>CID: 69421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hexadecane</td>
+							<td>CID: 11006</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hexadecanenitrile</td>
+							<td>CID: 69424</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hexadecanoic acid methyl ester</td>
+							<td>CID: 8181</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hexanoic acid, 2-methyl</td>
+							<td>CID: 159431333</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Homoorientin</td>
+							<td>CID: 114776</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Homovanillic acid</td>
+							<td>CID: 1738</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Hulupone</td>
+							<td>CID: 630403</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Isopropyl linoleate</td>
+							<td>CID: 5352860</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/117750283/isolation_purification_and_anticancer_potency_of_novel_compound_6ethyl3hydroxy4methyl8ahxanthen910ahone_from_emmesua_fer-libre.pdf%3F1724755552%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DIsolation_purification_and_anticancer_po.pdf%26Expires%3D1751178204%26Signature%3DYsctR326uWgwAdkLS-pZqIPCWkB3Rf~phnOk85KtdXsyyGzWLRDc9VQBsN2unCm0nGW2fMDDkWpV~yPcYFE3PFQxfhtzGvW1naMgBYkfEUPnaU0GFG235vRS2hgY11jCUVYRlMHPRPriUXAW9R0ECKRKmcNZ3O6pMNt0JtEdDsvILzS9J0qvkfYdc~0V~TncrR8vuf4auD-zDCGpbF-~1lEl0inB6mv8a56ReSnR5JIW6H88OyjJ3KS5e5EG35RS53UZrq5XtdVcT4zDtE6b4r~8RP-9T5p1p9vNAzpT7ZrKfoyUJKAmFehvIWwuk~urCTWlN9W0OXd6Tgk1~Mr--g__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Kaempferol 3-O-glucoside</td>
+							<td>CID: 5282102</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Kaempferol 3-O-rhamnoside</td>
+							<td>CID: 5316673</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Ketotifen fumarate</td>
+							<td>CID: 5282408</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Linolenic acid</td>
+							<td>CID: 5280934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Lup-20(29)-en-3?-ol</td>
+							<td>CID: 259846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Lupeol</td>
+							<td>CID: 259846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Luteolin</td>
+							<td>CID: 5280445</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Luteolin 8-C-glucoside</td>
+							<td>CID: 5281675</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Maltol</td>
+							<td>CID: 8369</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Methoxyeugenol</td>
+							<td>CID: 226486</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Methyl 14-methylhexadecanoate</td>
+							<td>CID: 520159</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Methyl 9-cis,11-trans-octadecadienoate</td>
+							<td>CID: 11748436</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Methyl stearate</td>
+							<td>CID: 8201</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Myristic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.7324/JAPS.2017.70721">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Naringenin</td>
+							<td>CID: 439246</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Nonadecanenitrile</td>
+							<td>CID: 98566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1021/acsomega.4c07019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Octadecanal, 2-bromo-</td>
+							<td>CID: 537255</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Oleamide</td>
+							<td>CID: 5283387</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Oleic acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.7324/JAPS.2017.70721">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Orientin</td>
+							<td>CID: 5281675</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Palmitamide</td>
+							<td>CID: 69421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Palmitic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Physcion</td>
+							<td>CID: 10639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Phytol acetate</td>
+							<td>CID: 6428538</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Piperine</td>
+							<td>CID: 638024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Propanone, 1-hydroxy</td>
+							<td>CID: 586459</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Protocatechuic acid</td>
+							<td>CID: 72</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Protocatechuic acid methyl ester</td>
+							<td>CID: 287064</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Protocatechuic aldehyde</td>
+							<td>CID: 8768</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Quercetin</td>
+							<td>CID: 5280343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Quercetin 3-O-rhamnoside</td>
+							<td>CID: 5280459</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Rhusflavanone</td>
+							<td>CID: 466314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/14786419.2019.1613395">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Saponaretin</td>
+							<td>CID: 162350</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Sericealactone, deoxy-</td>
+							<td>CID: 538432</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Shikimic acid</td>
+							<td>CID: 8742</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Spathulenol</td>
+							<td>CID: 92231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Stearic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.7324/JAPS.2017.70721">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Terpinyl acetate</td>
+							<td>CID: 111037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.5530/pj.2019.11.35">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Tetracosanoic acid</td>
+							<td>CID: 11197</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//psasir.upm.edu.my/id/eprint/4959/1/FS_2006_59.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Thieno[2,3-b]pyridin-3-amine, 2-[4-bromobenzoyl]-4,5,6-trimethyl</td>
+							<td>CID: 633012</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/117750283/isolation_purification_and_anticancer_potency_of_novel_compound_6ethyl3hydroxy4methyl8ahxanthen910ahone_from_emmesua_fer-libre.pdf%3F1724755552%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DIsolation_purification_and_anticancer_po.pdf%26Expires%3D1751178204%26Signature%3DYsctR326uWgwAdkLS-pZqIPCWkB3Rf~phnOk85KtdXsyyGzWLRDc9VQBsN2unCm0nGW2fMDDkWpV~yPcYFE3PFQxfhtzGvW1naMgBYkfEUPnaU0GFG235vRS2hgY11jCUVYRlMHPRPriUXAW9R0ECKRKmcNZ3O6pMNt0JtEdDsvILzS9J0qvkfYdc~0V~TncrR8vuf4auD-zDCGpbF-~1lEl0inB6mv8a56ReSnR5JIW6H88OyjJ3KS5e5EG35RS53UZrq5XtdVcT4zDtE6b4r~8RP-9T5p1p9vNAzpT7ZrKfoyUJKAmFehvIWwuk~urCTWlN9W0OXd6Tgk1~Mr--g__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Trans-cinnamic acid</td>
+							<td>CID: 444539</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Ursolic acid</td>
+							<td>CID: 64945</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Vanillic acid</td>
+							<td>CID: 8468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>Vitexin</td>
+							<td>CID: 5280441</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>[2-Methoxy-1,3,2-thiozin][5,10,9]androstan-3,17-dione</td>
+							<td>CID: 633089</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/117750283/isolation_purification_and_anticancer_potency_of_novel_compound_6ethyl3hydroxy4methyl8ahxanthen910ahone_from_emmesua_fer-libre.pdf%3F1724755552%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DIsolation_purification_and_anticancer_po.pdf%26Expires%3D1751178204%26Signature%3DYsctR326uWgwAdkLS-pZqIPCWkB3Rf~phnOk85KtdXsyyGzWLRDc9VQBsN2unCm0nGW2fMDDkWpV~yPcYFE3PFQxfhtzGvW1naMgBYkfEUPnaU0GFG235vRS2hgY11jCUVYRlMHPRPriUXAW9R0ECKRKmcNZ3O6pMNt0JtEdDsvILzS9J0qvkfYdc~0V~TncrR8vuf4auD-zDCGpbF-~1lEl0inB6mv8a56ReSnR5JIW6H88OyjJ3KS5e5EG35RS53UZrq5XtdVcT4zDtE6b4r~8RP-9T5p1p9vNAzpT7ZrKfoyUJKAmFehvIWwuk~urCTWlN9W0OXd6Tgk1~Mr--g__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>cis-?-Farnesene</td>
+							<td>CID: 5317319</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0312047">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>p-Hydroxybenzoic acid</td>
+							<td>CID: 135</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations9050127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>tau-Cadinol</td>
+							<td>CID: 160799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Mesua ferreaLinn.</td>
+							<td>
+								
+								Ceylon Ironwood, Ironwood, Nagala
+								
+							</td>
+							<td>trans-3-Caren-2-ol</td>
+							<td>CID: 576906</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%20https%3A//doi.org/10.22271/flora.2024.v12.i2a.926">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

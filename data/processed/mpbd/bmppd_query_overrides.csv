@@ -1,0 +1,13 @@
+plant_index,raw_mpbd_name,bmpdd_query_name,override_reason,review_status
+316,. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),PHYLLANTHUS EMBLICA,Stripped leading period and extraneous family annotation in parentheses,MANUAL_VALIDATION
+382,Mollugo PENTAPHYLLA L. (),Mollugo PENTAPHYLLA,Stripped trailing empty parentheses and author citation 'L.',MANUAL_VALIDATION
+391,Mesua NAGESSARIUM (Burm.) Kost. (),Mesua NAGESSARIUM,Stripped trailing empty parentheses and parenthetical/combining author citations,MANUAL_VALIDATION
+460,. JATROPHA CURCAS L.,JATROPHA CURCAS,Stripped leading period and author citation 'L.',MANUAL_VALIDATION
+802,Solenaamplexicaulis(lam.) gandhi.,Solena amplexicaulis,Decomposed fused genus+species 'Solenaamplexicaulis' and stripped parenthetical/combining authors,MANUAL_VALIDATION
+807,Sida orientaliscav.,Sida orientalis,Separated species epithet from fused Cavanilles author abbreviation 'cav.',MANUAL_VALIDATION
+809,Sidacordata(burm.f.) borss.waalk.,Sida cordata,Decomposed fused genus+species 'Sidacordata' and stripped author citation '(burm.f.) borss.waalk.',MANUAL_VALIDATION
+822,Elaeocarpus serratusl.,Elaeocarpus serratus,Separated species epithet from fused Linnaean author abbreviation 'l.',MANUAL_VALIDATION
+865,Cardiospermum HALICACABUML.,Cardiospermum HALICACABUM,Separated uppercase species epithet from fused author citation 'L.',MANUAL_VALIDATION
+884,Celosia CRISTATA L.(SAME AS 161),Celosia CRISTATA,Stripped administrative duplicate catalog annotation '(SAME AS 161)' and author 'L.',MANUAL_VALIDATION
+886,Piperboehmeriifolium(miq.) wall. ex C. DC.,Piper boehmeriifolium,Decomposed fused genus+species 'Piperboehmeriifolium' and stripped complex author citation,MANUAL_VALIDATION
+894,Desmos chinensislour.,Desmos chinensis,Separated species epithet from fused Loureiro author citation 'lour.',MANUAL_VALIDATION

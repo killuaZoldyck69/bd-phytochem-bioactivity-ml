@@ -1,0 +1,4617 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Carum carvi"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Carum carvi</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(+)-beta-Phellandrene</td>
+							<td>CID: CC(C)C1CCC(=C)C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(+)-delta-Cadinene</td>
+							<td>CID: CC1=CC2C(CCC(=C2CC1)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(+)-trans-Piperitenol</td>
+							<td>CID: CC1=CC(C(CC1)C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(-)-beta-Bourbonene</td>
+							<td>CID: CC(C)C1CCC2(C1C3C2CCC3=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(-)-cis-Carveol</td>
+							<td>CID: CC1=CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(-)-trans-Carveol</td>
+							<td>CID: CC1=CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(1R)-2-methyl-5-propan-2-ylbicyclo[3.1.0]hex-2-ene</td>
+							<td>CID: CC1=CCC2(C1C2)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(4S)-1-Methyl-4-(prop-1-EN-2-YL)-7-oxabicyclo[4.1.0]heptane</td>
+							<td>CID: CC(=C)C1CCC2(C(C1)O2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%284S%29-1-Methyl-4-%28prop-1-EN-2-YL%29-7-oxabicyclo%5B4.1.0%5Dheptane">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(E)- ? -Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(E)- Amyl-Cinnamaldehyde</td>
+							<td>CID: CCCCCC(=CC1=CC=CC=C1)C(OCC)OCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(E)-?-Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(E)-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(Z)- ? -Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>(Z)-beta-Ocimene</td>
+							<td>CID: CC(=CCC=C(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>1,2-Diisopropenylcyclobutane</td>
+							<td>CID: CC(=C)C1CCC1C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>1,8-Cineole</td>
+							<td>CID: CC1(C2CCC(O1)(CC2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>1.8-Cineol</td>
+							<td>CID: CC1(C2CCC(O1)(CC2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>10 epi-Italicene ether</td>
+							<td>CID: CC1CCC2C13CCC(=CC3OC2(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>2-Caren-10-al</td>
+							<td>CID: CC1(C2C1C=C(CC2)C=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>3-Benzyloxyphenol</td>
+							<td>CID: C1=CC=C(C=C1)COC2=CC=CC(=C2)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>4-Carvomenthenol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>4-Methoxybenzaldehyde</td>
+							<td>CID: COC1=CC=C(C=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>5-neo-Cedranol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>9-epi-(E)-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>? -Cadinene</td>
+							<td>CID: CC1=CC2C(CC1)C(=C)CCC2C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>? -Phellandrene</td>
+							<td>CID: CC1=CCC(C=C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>? -Terpinene</td>
+							<td>CID: CC1=CCC(=CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>? -Terpineol</td>
+							<td>CID: CC1=CCC(CC1)C(C)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Bisabolol</td>
+							<td>CID: CC1=CCC(CC1)C(C)(CCC=C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Bourbonene</td>
+							<td>CID: CC(C)C1CCC2(C1C3C2CCC3=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: CC1=CC2C(CCC(=C2CC1)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Cadinene</td>
+							<td>CID: CC1=CCC2C(C1)C(CC=C2C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Copaene</td>
+							<td>CID: CC1=CCC2C3C1C2(CCC3C(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Cubebene</td>
+							<td>CID: CC1CCC(C2C13C2C(=C)CC3)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Cubebene</td>
+							<td>CID: CC1CCC(C2C13C2C(=CC3)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Duprezianene</td>
+							<td>CID: CC1CCC2C13CCC(C2(C)C)C(=C)C3</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Elemene</td>
+							<td>CID: CC(=C)C1CCC(C(C1)C(=C)C)(C)C=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Farnesene</td>
+							<td>CID: CC(=CCCC(=CCC=C(C)C=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Guaiene</td>
+							<td>CID: CC1CCC(CC2=C1CCC2C)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Muurolene</td>
+							<td>CID: CC1=CC2C(CC1)C(=C)CCC2C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Myrcene</td>
+							<td>CID: CC(=CCCC(=C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Phellandrene</td>
+							<td>CID: CC(C)C1CCC(=C)C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Phellandrene</td>
+							<td>CID: CC1=CCC(C=C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: CC1(C2CCC(=C)C1C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: CC1=CCC2CC1C2(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Selinene</td>
+							<td>CID: CC(=C)C1CCC2(CCCC(=C)C2C1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Selinene</td>
+							<td>CID: CC1=CCCC2(C1CC(CC2)C(=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Terpinolene</td>
+							<td>CID: CC1=CCC(=C(C)C)CC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Thujaplicin</td>
+							<td>CID: CC(C)C1=C(C(=O)C=CC=C1)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-Thujene</td>
+							<td>CID: CC1=CCC2(C1C2)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-terpinen -7- al</td>
+							<td>CID: CC(C)C1=CCC(=CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>?-terpinen-7-al</td>
+							<td>CID: CC(C)C1=CC=C(CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Aciphyllene</td>
+							<td>CID: CC1CCC(CC2=C(CCC12)C)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Alloaromadendrene</td>
+							<td>CID: CC1CCC2C1C3C(C3(C)C)CCC2=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Andrographolide</td>
+							<td>CID: CC12CCC(C(C1CCC(=C)C2CC=C3C(COC3=O)O)(C)CO)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Anethole</td>
+							<td>CID: CC=CC1=CC=C(C=C1)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Apiole</td>
+							<td>CID: COC1=C2C(=C(C(=C1)CC=C)OC)OCO2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Apioline</td>
+							<td>CID: COC1=C2C(=C(C(=C1)CC=C)OC)OCO2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Aromadendrene</td>
+							<td>CID: CC1CCC2C1C3C(C3(C)C)CCC2=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Ascaridole</td>
+							<td>CID: CC(C)C12CCC(C=C1)(OO2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Bicyclogermacrene</td>
+							<td>CID: CC1=CCCC(=CC2C(C2(C)C)CC1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Bornyl acetate</td>
+							<td>CID: CC(=O)OC1CC2CCC1(C2(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Calamenene</td>
+							<td>CID: CC1CCC(C2=C1C=CC(=C2)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: CC1(C2CCC(C2)C1=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Camphor</td>
+							<td>CID: CC1(C2CCC1(C(=O)C2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Carotol</td>
+							<td>CID: CC1=CCC2(CCC(C2(CC1)O)C(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Carvacrol</td>
+							<td>CID: CC1=C(C=C(C=C1)C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Carvenone</td>
+							<td>CID: CC1CCC(=CC1=O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Carvone</td>
+							<td>CID: CC1=CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: CC1(CC2C1CCC3(C(O3)CCC2=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Caswell No. 264AB</td>
+							<td>CID: CC1CCC(C2C13C2C(=CC3)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cedrelanol</td>
+							<td>CID: CC1=CC2C(CCC(C2CC1)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cis-carvone oxide</td>
+							<td>CID: CC(=C)C1CC2C(O2)(C(=O)C1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cis-limonene oxide</td>
+							<td>CID: CC(=C)C1CCC2(C(C1)O2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Citral</td>
+							<td>CID: CC(=CCCC(=CC=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Citronellal</td>
+							<td>CID: CC(CCC=C(C)C)CC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Citronellol</td>
+							<td>CID: CC(CCC=C(C)C)CCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Citronellol</td>
+							<td>CID: CC(CCC=C(C)C)CCOC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Citronellyl formate</td>
+							<td>CID: CC(CCC=C(C)C)CCOC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Copaene</td>
+							<td>CID: CC1=CCC2C3C1C2(CCC3C(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cubebol</td>
+							<td>CID: CC1CCC(C2C13C2C(CC3)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cumin aldehyde</td>
+							<td>CID: CC(C)C1=CC=C(C=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cuminaldehyde</td>
+							<td>CID: CC(C)C1=CC=C(C=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Cyclodecanone</td>
+							<td>CID: C1CCCCC(=O)CCCC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>D Germacrene</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>D-Limonene</td>
+							<td>CID: CC1=CCC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Damascenone</td>
+							<td>CID: CC=CC(=O)C1=C(C=CCC1(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Daucene</td>
+							<td>CID: CC1=CCC2(CCC(=C2CC1)C(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Decanal</td>
+							<td>CID: CCCCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Decanoic acid</td>
+							<td>CID: CCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Dihydrocarveol</td>
+							<td>CID: CC1CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Dill apiol</td>
+							<td>CID: COC1=C(C2=C(C=C1CC=C)OCO2)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Dillapiol</td>
+							<td>CID: COC1=C(C2=C(C=C1CC=C)OCO2)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Elemicin</td>
+							<td>CID: COC1=CC(=CC(=C1OC)OC)CC=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Epiglobulol</td>
+							<td>CID: CC1CCC2C1C3C(C3(C)C)CCC2(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Estragole</td>
+							<td>CID: COC1=CC=C(C=C1)CC=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Eucalyptol</td>
+							<td>CID: CC1(C2CCC(O1)(CC2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Eugenol</td>
+							<td>CID: COC1=C(C=CC(=C1)CC=C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Fenchone</td>
+							<td>CID: CC1(C2CCC(C2)(C1=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Friedelanol</td>
+							<td>CID: CC1C(CCC2C1(CCC3C2(CCC4(C3(CCC5(C4CC(CC5)(C)C)C)C)C)C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: CC(=CCCC(=CCO)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Geranyl acetate</td>
+							<td>CID: CC(=CCCC(=CCOC(=O)C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Germacrene B</td>
+							<td>CID: CC1=CCCC(=CCC(=C(C)C)CC1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Germacrene-D</td>
+							<td>CID: CC1=CCCC(=C)C=CC(CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Hexanal</td>
+							<td>CID: CCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Humulene</td>
+							<td>CID: CC1=CCC(C=CCC(=CCC1)C)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Isocarveol</td>
+							<td>CID: CC(=C)C1CCC(=CC1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Zi-Tao-Jiang/publication/256839177_Essential_oil_Composition_of_Chinese_Caraway_Carum_carvi_L/links/00b7d52ca00b56995c000000/Essential-oil-Composition-of-Chinese-Caraway-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Isophytol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Isoterpinolene</td>
+							<td>CID: CC1CCC(=C(C)C)C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Jasmone</td>
+							<td>CID: CCC=CCC1=C(CCC1=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>L-Fenchone</td>
+							<td>CID: CC1(C2CCC(C2)(C1=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: CC1=CCC(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Limonene oxide, cis-(-)-</td>
+							<td>CID: CC(=C)C1CCC2(C(C1)O2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: CC(=CCCC(C)(C=C)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Linalyl acetate</td>
+							<td>CID: CC(=CCCC(C)(C=C)OC(=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Menthol</td>
+							<td>CID: CC1CCC(C(C1)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Menthone</td>
+							<td>CID: CC1CCC(C(=O)C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Methyl petroselinate</td>
+							<td>CID: CCCCCCCCCCCC=CCCCCC(=O)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Methyleugenol</td>
+							<td>CID: COC1=C(C=C(C=C1)CC=C)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Methylisoeugenol</td>
+							<td>CID: CC=CC1=CC(=C(C=C1)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: CC(=CCCC(=C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Myristic acid</td>
+							<td>CID: CCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Myristicin</td>
+							<td>CID: COC1=CC(=CC2=C1OCO2)CC=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Myrtenal</td>
+							<td>CID: CC1(C2CC=C(C1C2)C=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Neral</td>
+							<td>CID: CC(=CCCC(=CC=O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Nerol</td>
+							<td>CID: CC(=CCCC(=CCO)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Nerolidol</td>
+							<td>CID: CC(=CCCC(=CCCC(C)(C=C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Nonadecane</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Nonanal</td>
+							<td>CID: CCCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Nonane</td>
+							<td>CID: CCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Octanal</td>
+							<td>CID: CCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2012.646016">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>P-Methoxy allyl benzene</td>
+							<td>CID: COC1=CC=C(C=C1)CC=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>P-Methoxy benzaldehyde</td>
+							<td>CID: COC1=CC=C(C=C1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Palmitic acid</td>
+							<td>CID: CCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Pentadecanal</td>
+							<td>CID: CCCCCCCCCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Pentyl-Cyclohexa-1,3-diene</td>
+							<td>CID: CC1CCC(C1)CCCCCC2CC=CC=C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perilla Alcohol</td>
+							<td>CID: CC(=C)C1CCC(=CC1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perilla-aldehyde</td>
+							<td>CID: CC(=C)C1CCC(=CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perillaldehyde</td>
+							<td>CID: CC(=C)C1CCC(=CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perillaalcohol</td>
+							<td>CID: CC(=C)C1CCC(=CC1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Iraj-Rasooli/publication/301257232_Caraway_Carum_carvi_L_Essential_Oils/links/5ef229dfa6fdcc2404eab78a/Caraway-Carum-carvi-L-Essential-Oils.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perillaaldehyde</td>
+							<td>CID: CC(=C)C1CCC(=CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Iraj-Rasooli/publication/301257232_Caraway_Carum_carvi_L_Essential_Oils/links/5ef229dfa6fdcc2404eab78a/Caraway-Carum-carvi-L-Essential-Oils.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Perillyl alcohol</td>
+							<td>CID: CC(=C)C1CCC(=CC1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Phellandral</td>
+							<td>CID: CC(C)C1CCC(=CC1)C=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: CC(C)CCCC(C)CCCC(C)CCCC(=CCO)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Pulegone</td>
+							<td>CID: CC1CCC(=C(C)C)C(=O)C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>R-Carvone</td>
+							<td>CID: CC1=CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Sabinene</td>
+							<td>CID: CC(C)C12CCC(=C)C1C2</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Spathulenol</td>
+							<td>CID: CC1(C2C1C3C(CCC3(C)O)C(=C)CC2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>T-Muurolol</td>
+							<td>CID: CC1=CC2C(CCC(C2CC1)(C)O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Tarragon</td>
+							<td>CID: COC1=CC=C(C=C1)CC=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mohamed-Nasraldeen-Abdalaziz/publication/316141197_Evaluation_of_Fixed_Oil_Seed_Extracts_of_Carum_carvi_L/links/58f216070f7e9b6f82e26ab2/Evaluation-of-Fixed-Oil-Seed-Extracts-of-Carum-carvi-L.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Terpinen-4-ol acetate</td>
+							<td>CID: CC1=C2CC(C2(C)C)CC1C3(CC4CC(=C3C)C4(C)C)C5C(C6CC(=C5C)C6(C)C)OC(=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Terpinene-4-ol</td>
+							<td>CID: CC1=CCC(CC1)(C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Terpinolene</td>
+							<td>CID: CC1=CCC(=C(C)C)CC1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Thujone</td>
+							<td>CID: CC1C2CC2(CC1=O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Thymol</td>
+							<td>CID: CC1=CC(=C(C=C1)C(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Trans Carveol</td>
+							<td>CID: CC1=CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Trans Dihydro Carvone</td>
+							<td>CID: CC1CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Trans Limonene Oxide</td>
+							<td>CID: CC(=C)C1CCC2(C(C1)O2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//researchgate.net/profile/Ali-Abdolahi-2/publication/268383436_Identification_of_essential_oil_constituents_of_caraway_Carum_carvi_using_ultrasonic_assist_with_headspace_solid_phase_microextraction_UA-HS-SPME/links/56a2775f08aef91c8c0ef8fa/Identification-of-essential-oil-constituents-of-caraway-Carum-carvi-using-ultrasonic-assist-with-headspace-solid-phase-microextraction-UA-HS-SPME.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Trans-dihydrocarvone</td>
+							<td>CID: CC1CCC(CC1=O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Tricyclene</td>
+							<td>CID: CC1(C2CC3C1(C3C2)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Tridecanal</td>
+							<td>CID: CCCCCCCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Undecanal</td>
+							<td>CID: CCCCCCCCCCC=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Viridiflorene</td>
+							<td>CID: CC1CCC2=C(CCC3C(C12)C3(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Viridiflorol</td>
+							<td>CID: CC1CCC2C1C3C(C3(C)C)CCC2(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Z-3-Hexenol</td>
+							<td>CID: CCC=CCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>Z-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>allo-Aromadendrene epoxide</td>
+							<td>CID: CC1CCC2C1C3C(C3(C)C)CCC24CO4</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>alpha-Guaiene</td>
+							<td>CID: CC1CCC(CC2=C1CCC2C)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>alpha-Pinene</td>
+							<td>CID: CC1=CCC2CC1C2(C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2012.646016%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>alpha-Terpinene</td>
+							<td>CID: CC1=CC=C(CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>alpha-Terpineol</td>
+							<td>CID: CC1=CCC(CC1)C(C)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>ar-Curcumene</td>
+							<td>CID: CC1=CC=C(C=C1)C(C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Cadinene</td>
+							<td>CID: CC1=CCC2C(C1)C(CC=C2C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Caryophyllene</td>
+							<td>CID: CC1=CCCC(=C)C2CC(C2CC1)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Cubebene</td>
+							<td>CID: CC1CCC(C2C13C2C(=C)CC3)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Elemene</td>
+							<td>CID: CC(=C)C1CCC(C(C1)C(=C)C)(C)C=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Eudesmol</td>
+							<td>CID: CC12CCCC(=C)C1CC(CC2)C(C)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Farnesene</td>
+							<td>CID: CC(=CCCC(=CCCC(=C)C=C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Pinene</td>
+							<td>CID: CC1(C2CCC(=C)C1C2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Selinene</td>
+							<td>CID: CC(=C)C1CCC2(CCCC(=C)C2C1)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>beta-Thujone</td>
+							<td>CID: CC1C2CC2(CC1=O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-3-Hexenyl isovalerate</td>
+							<td>CID: CCC=CCCOC(=O)CC(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-Anethole</td>
+							<td>CID: CC=CC1=CC=C(C=C1)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-Carveol</td>
+							<td>CID: CC1=CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-Dihydrocarvone</td>
+							<td>CID: CC1CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060x.2011.10643949%2C%20DOI%3A10.1080/10412905.2012.646016">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-Sabinene hydrate</td>
+							<td>CID: CC1CCC2(C1C2)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-Verbénol</td>
+							<td>CID: CC1=CC(C2CC1C2(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-alpha-Bergamotene</td>
+							<td>CID: CC1=CCC2CC1C2(C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-dihydroCarvone</td>
+							<td>CID: CC1CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>cis-dihydrocarvone</td>
+							<td>CID: CC1CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>d-Borneol</td>
+							<td>CID: CC1(C2CCC1(C(C2)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>d-Carvone</td>
+							<td>CID: CC1=CCC(CC1=O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>delta-3-Carene</td>
+							<td>CID: CC1=CCC2C(C1)C2(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>gamma-Elemene</td>
+							<td>CID: CC(=C1CCC(C(C1)C(=C)C)(C)C=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>gamma-Terpinene</td>
+							<td>CID: CC1=CCC(=CC1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2012.646016%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>gamma-Terpinene-7-al</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>meta-Cresol</td>
+							<td>CID: CC1=CC(=CC=C1)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>n-Decane</td>
+							<td>CID: CCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>n-Dodecane</td>
+							<td>CID: CCCCCCCCCCCC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Cymen-7-ol</td>
+							<td>CID: CC(C)C1=CC=C(C=C1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Cymen-7-ol acetate</td>
+							<td>CID: CC(C)C1=CC=C(C=C1)COC(=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Cymen-8-ol</td>
+							<td>CID: CC1=CC=C(C=C1)C(C)(C)OC(=O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Df6aa4fd460cfa643d62e9499b1b571b82afa2cf7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Cymene</td>
+							<td>CID: CC1=CC=C(C=C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1002/ffj.2730020207%2C%20DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Mentha-1,3,8-triene</td>
+							<td>CID: CC1=CC=C(CC1)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Mentha-1,4-dien-7-ol</td>
+							<td>CID: CC(C)C1=CCC(=CC1)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Mentha-2,4(8)-diene</td>
+							<td>CID: CC1CCC(=C(C)C)C=C1</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>p-Menthan-3-one</td>
+							<td>CID: CC1CCC(C(=O)C1)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans sesquisabinene hydrate</td>
+							<td>CID: CC(CCC=C(C)C)C12CCC(C1C2)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/profile/Mekaoui-Radja/publication/308401128_Article_Waset_2014_GC-GC-MS/links/57e2cb8c08ae52ba52cb24ef/Article-Waset-2014-GC-GC-MS.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-Carveol</td>
+							<td>CID: CC1=CCC(CC1O)C(=C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-Dihydrocarvone</td>
+							<td>CID: CC1CCC(CC1=O)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-Limonene oxide</td>
+							<td>CID: CC(=C)C1CCC2(C(C1)O2)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/79091847/jsfa.382720220119-26015-6rbz2c-libre.pdf%3F1642638338%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DFatty_acid_and_essential_oil_composition.pdf%26Expires%3D1719931035%26Signature%3DA-6zvnEc5Aro0vTwuaiJ2ybChv1fY14nTJi6TqDk2cCiJrb4q7X7FpEsS0jtBdaHvukrI1ciWbDkhkrixOwZV3FpDM4aGKzhI6JhUlnVgc0YRvmp3Qdndy8OsK-uos~bev8rjwosrWs02LgD0nf2qbbPxvfz-vGzvbPg1y3v6vSR5ud09a-xP3uo7W8jQZ4b6je32PKBNi1jpR5J47xpGTeMbUEcgB8qAcBM3XH77V8YbqYYZujhTSV6L1FIpQ36lyT5psKejsvjab9VSx~BpFRmiGtN2sELVxso1SO0o4mcbcGjkcFF7VD4uN5Jl5Sd3zY4Z8bD9pD21HZ4tGmJ7Q__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-Linalool oxide</td>
+							<td>CID: CC1(CCC(O1)C(C)(C)O)C=C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2000.9712206">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-Sabinene hydrate</td>
+							<td>CID: CC(C)C12CCC(C1C2)(C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919%2C">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Carum carvi</td>
+							<td>
+								
+								Caraway
+								
+							</td>
+							<td>trans-alpha-Bergamotene</td>
+							<td>CID: CC1=CCC2CC1C2(C)CCC=C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2015.1025919">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

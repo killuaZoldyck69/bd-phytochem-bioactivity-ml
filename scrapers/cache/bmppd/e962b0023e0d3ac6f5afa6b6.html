@@ -1,0 +1,2977 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Abrus PRECATORIUS"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Abrus PRECATORIUS</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(+)-gamma-Cadinene</td>
+							<td>CID: 6432404</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(1R)-2-methyl-5-propan-2-ylbicyclo[3.1.0]hex-2-ene</td>
+							<td>CID: 6451618</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(1S,3R,6S,7R,8R,11S,12S,15R,16R)-6-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-7,12,16-trimethyl-15-[(1S)-1-[(2S)-5-methyl-6-oxo-2,3-dihydropyran-2-yl]ethyl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecane-7-carboxylic acid</td>
+							<td>CID: 101616457</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(1S,3R,6S,7S,8R,11S,12S,15R,16R)-6-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2R,3R,4S,5S,6S)-3,4,5-trihydroxy-6-methoxycarbonyloxan-2-yl]oxyoxan-2-yl]oxy-7,12,16-trimethyl-15-[(1S)-1-[(2S)-5-methyl-6-oxo-2,3-dihydropyran-2-yl]ethyl]pentacyclo[9.7.0.01,3.03,8.012,16]octadecane-7-carboxylic acid</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(4-ethoxy-3-methoxy-benzyl)-(1-phenyl-cyclopentylmethyl)-amine</td>
+							<td>CID: 596744</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6-diene</td>
+							<td>CID: 91723653</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(Z) 6, (Z) 9-Pentadecadiene-1-ol, (C15H28O)</td>
+							<td>CID: 5365570</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>(Z) 6-Pentadecen-1-ol</td>
+							<td>CID: 5365626</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>-3-oxobutyl)-coumarin-4-yl carbonate</td>
+							<td>CID: 537118</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00022">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1, 3-Propanediamine, N-(2-aminoethyl)</td>
+							<td>CID: 26091</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1,1&#x27;-Bicyclopentyl, 2-Hexadecyl-</td>
+							<td>CID: 291314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00039">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1-Heneicosanol</td>
+							<td>CID: 85014</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1-Heptacosanol</td>
+							<td>CID: 74822</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1-Hexyl-1-nitrocyclohexane</td>
+							<td>CID: 544063</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00015">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>1-Hexyl-2-nitrocyclohexane</td>
+							<td>CID: 544017</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00019">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>11-Tricosene</td>
+							<td>CID: 5363113</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00008">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>12-Methylaminolauric acid</td>
+							<td>CID: 81903</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>17-Pentatriacontene</td>
+							<td>CID: 5365022</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00007">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2(3h)-Furanone, 3-(15-hexadecynylidene) dihydro-4- hydroxy-5-methyl-, 4r-(3e, 4.alpha. 5.beta.)-</td>
+							<td>CID: 95652</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00014">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2,3-Anhydro-D-mannosan</td>
+							<td>CID: 88413508</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00025">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2,4  bis (1, 1-dimethylethyl)</td>
+							<td>CID: 7311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00027">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2,6-Dimethyl-2,4,6-octatriene</td>
+							<td>CID: 5368821</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2,7,7-Trimethylbicyclo[3.1.1]hept-1(6)-en-2-ol</td>
+							<td>CID: 22013424</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2- Bromopropionic acid, Pentadecyl ester</td>
+							<td>CID: 530592</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00030">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2- Isopropyl- 5- methyl-cyclohexyl 3-(1-(4- chlorophenyl)-3-oxobutyl )-coumarin- 4-yl carbonate</td>
+							<td>CID: 537118</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00040">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2-Amino-4-benzylthiomethyl-6-morpholino-1, 3, 5-triazine,</td>
+							<td>CID: 606837</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2-Heptadecenal</td>
+							<td>CID: 5363335</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00010">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2-Isopropyl- 5-methyl-cyclohexyl 3-(1- (4 -chlorophenyl)</td>
+							<td>CID: 2834426</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00021">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2-Piperidinone, N-[4-bromo-N-butyl]-</td>
+							<td>CID: 536377</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00041">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>2-Propenoic acid, oxidise (methyl 2,1-ethanediyl) ester</td>
+							<td>CID: 92522</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00016">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>3&#x27;-Methoxyacetophenone</td>
+							<td>CID: 11460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>3,7,11,15-Tetramethyl-2-hexadecen-1-ol</td>
+							<td>CID: 5366244</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>3-Decen-1-ol, (E)-</td>
+							<td>CID: 5352493</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>3-methoxytyrosine</td>
+							<td>CID: 1670</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>4-Carvomenthenol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>4-vinylphenol</td>
+							<td>CID: 62453</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>4H-Pyran-4-one,2,3-dihydro- 3,5-dihydroxy-6-methyl-</td>
+							<td>CID: 119838</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>5-Eicosene, (E)-</td>
+							<td>CID: 5364600</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00029">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>5beta-Cholanic acid</td>
+							<td>CID: 92803</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>6,10,13-Trimethyltetradecanol</td>
+							<td>CID: 545755</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00034">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>6,10-Dimethyl-4-undecanol</td>
+							<td>CID: 543600</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00043">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>6-Hydroxy-7,8,3&#x27;,4&#x27;-tetramethoxyisoflavanquinone</td>
+							<td>CID: 44257520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>6-Tridecene</td>
+							<td>CID: 5364429</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>8-Heptadecene, 1-chloro-</td>
+							<td>CID: 5364550</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00033">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>9, 12-octadecadienoyl chloride, (Z, Z), (C18H31ClO)</td>
+							<td>CID: 9817754</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid, (Z,Z,Z)-</td>
+							<td>CID: 5280934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>?-Phenoxyethyl iso-butyrate</td>
+							<td>CID: 61005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>?-lonone</td>
+							<td>CID: 638014</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abrine</td>
+							<td>CID: 160511</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%2C%20ISBN%3A9788185042114">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abruquinone A</td>
+							<td>CID: 172847</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abruquinone B</td>
+							<td>CID: 3009614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abruslactone A</td>
+							<td>CID: 44575701</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%2C%20ISBN%3A9788172363178%2C%20ISBN%3A9788185042114">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abrusogenin</td>
+							<td>CID: 6451058</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Abrusoside A</td>
+							<td>CID: 6857683</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Acetic acid;1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol</td>
+							<td>CID: 67173459</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Acetyleugenol</td>
+							<td>CID: 7136</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Benzene, 1, 11-(1-(ethylthio) propylidene) bis</td>
+							<td>CID: 606838</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Benzyl Alcohol</td>
+							<td>CID: 244</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Bis (2-methylphenylthio)-methane</td>
+							<td>CID: 586173</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Bis (4-methylphenylthio)-methane</td>
+							<td>CID: 504311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: 6616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Carvacrol</td>
+							<td>CID: 10364</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Caswell No. 264AB</td>
+							<td>CID: 442359</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cholesta -8, 24-dien -3- ol, 4-methyl -, (3. beta. 4. alpha.)-</td>
+							<td>CID: 22212496</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00020">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cholestane-3,5-diol, 5-acetate, (3?,5?)-</td>
+							<td>CID: 91691425</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cinnamaldehyde</td>
+							<td>CID: 637511</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cinnamaldehyde, ?-hexyl-</td>
+							<td>CID: 5355857</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cis-9-tetradecen-1-ol, (C14H28O)</td>
+							<td>CID: 5364712</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Citral</td>
+							<td>CID: 638011</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Citronellal</td>
+							<td>CID: 7794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Citronellol</td>
+							<td>CID: 8842</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Cyclopentane, 1,1&#x27;-hexadecylidenebis-</td>
+							<td>CID: 298069</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00018">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Decanoic acid, 2-oxo-, methyl ester</td>
+							<td>CID: 545552</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Decylenic alcohol</td>
+							<td>CID: 25612</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>E-14-Hexadecenal</td>
+							<td>CID: 5363106</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00028">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>E-3-pentadecen-2-Ol</td>
+							<td>CID: 5363322</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00017">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Eicosanoic acid, 2-ethyl-2-methyl-, methyl ester</td>
+							<td>CID: 575666</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Elemicin</td>
+							<td>CID: 10248</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Ergosterol</td>
+							<td>CID: 444679</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Erucic acid</td>
+							<td>CID: 5281116</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Eucalyptol</td>
+							<td>CID: 2758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Geranyl acetate</td>
+							<td>CID: 1549026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Germacrene B</td>
+							<td>CID: 5281519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Heneicosane, 11-(1-ethylpropyl)-</td>
+							<td>CID: 292291</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Heptadecane, 9-octyl-</td>
+							<td>CID: 292286</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Hexanedioic acid, mono(2-ethylhexyl)ester</td>
+							<td>CID: 20342</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Humulene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Linalyl acetate</td>
+							<td>CID: 8294</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Methyl dihydrojasmonate</td>
+							<td>CID: 102861</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Methyl-2-hdroxydodecanoate</td>
+							<td>CID: 543590</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: 31253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Neral</td>
+							<td>CID: 643779</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Octadecanal, 2-bromo-</td>
+							<td>CID: 537255</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00012">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Oleic acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Oleyl alcohol, (C18H36O)</td>
+							<td>CID: 5284499</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Palmitic acid á-monoglyceride</td>
+							<td>CID: 14900</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Pentadecanoic acid</td>
+							<td>CID: 13849</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00042">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Pentanoic acid, 2-ethyl-2-methyl-, methyl ester</td>
+							<td>CID: 520876</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Phenol,</td>
+							<td>CID: 996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Phenol, 2,4-Bis(1,1-dimethylethyl)-</td>
+							<td>CID: 7311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Phenolic Compound</td>
+							<td>CID: 6072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Precatorine</td>
+							<td>CID: 54704420</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=PMID%3A24995286">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Propanoic acid,2-methyl-3-[4-t- butyl]phenyl-</td>
+							<td>CID: 106694</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Propyl heptyl ether</td>
+							<td>CID: 529186</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Sabinene</td>
+							<td>CID: 18818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Squalene</td>
+							<td>CID: 638072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Terpenoids</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Tetradecane, 1-Chloro-</td>
+							<td>CID: 17043</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.lww.com/jdra/_layouts/15/oaks.journals/downloadpdf.aspx%3Fan%3D02035463-202106030-00024">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Thymol</td>
+							<td>CID: 6989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Thymol methyl ether</td>
+							<td>CID: 14104</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Tricyclene</td>
+							<td>CID: 79035</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Tricyclo (3.2.1.0(2, 4) oct-6-ene, 2-(2-(phenylthio) ethyl)</td>
+							<td>CID: 562337</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>Triptotriterpenic acid A</td>
+							<td>CID: 21594203</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%2C%20ISBN%3A9788185042114">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>alpha-Copaene</td>
+							<td>CID: 70678558</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>alpha-Pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>alpha-Selinene</td>
+							<td>CID: 10856614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>alpha-Terpineol</td>
+							<td>CID: 17100</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>beta-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>beta-Elemene</td>
+							<td>CID: 6918391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>beta-Pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>beta-Selinene</td>
+							<td>CID: 442393</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>cis-11-Tetradecen-1-ol</td>
+							<td>CID: 1712010</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>d-Borneol</td>
+							<td>CID: 61060</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>dl-Alanyl-dl-Valine</td>
+							<td>CID: 137276</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/download/89855272/101.bhavare.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>gamma-Muurolene</td>
+							<td>CID: 12313020</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>gamma-Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>n-Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>p-Cymene</td>
+							<td>CID: 7463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1016/s2222-1808%2815%2961050-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Abrus precatorius</td>
+							<td>
+								
+								Crabs eye, Jequirity bean, Rosary pea
+								
+							</td>
+							<td>p-Vinylguaiacol</td>
+							<td>CID: 332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//eprints.usm.my/46426/1/Norzila%2520JTAS-1071-2017-5th.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

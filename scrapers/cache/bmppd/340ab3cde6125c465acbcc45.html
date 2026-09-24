@@ -1,0 +1,3057 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Nigella SATIVA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Nigella SATIVA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(9E.12E)-9.12-Octadecadienoic Acid</td>
+							<td>CID: 5282457</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(9Z)-9.17-Octadecadienal</td>
+							<td>CID: 5365667</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(E)-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(E,E)-2,4-Decadienal</td>
+							<td>CID: 5283349</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(Z, Z)?9,12?Octadecadienoic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>(Z.Z)/cis linoleic acid</td>
+							<td>CID: 5284421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>-Thujene</td>
+							<td>CID: 637518</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>.Z-1.3.12-Nonadecatriene</td>
+							<td>CID: 5364768</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1,2,3,4?Butanetetrol, [S?(R*, R*)]?</td>
+							<td>CID: 569363</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1,2-Diphenylethylamine</td>
+							<td>CID: 26482</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1,3?Propanediol, 2?(hydroxymethyl)?2?nitro?</td>
+							<td>CID: 3039998</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1,5,9,9?Tetramethyl?2?oxatricyclo[6.4.0.0 (4,8)]dodecane</td>
+							<td>CID: 586811</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1-Heptatriacotanol</td>
+							<td>CID: 537071</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1-Octadecanol</td>
+							<td>CID: 8221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1-Terpinenol</td>
+							<td>CID: 11468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>10,13-Eicosadienoic acid , methyl ester</td>
+							<td>CID: 5365687</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>10,13?Eicosadienoic acid, methyl ester</td>
+							<td>CID: 5365687</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>17 pentatriacontene</td>
+							<td>CID: 5365022</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>1R-a-Pinene</td>
+							<td>CID: 82227</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>2,5,5,8a?Tetramethyl?6,7,8,8a?tetrahydro?5H?chromen?3?one</td>
+							<td>CID: 596376</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>2,6?Octadiene, 1?(1?ethoxyethoxy)?3,7?dimethyl?</td>
+							<td>CID: 5366408</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>2-oxo-méthyl ester Hexadecanoic acid</td>
+							<td>CID: 545549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>2.4-Decadienal</td>
+							<td>CID: 5283349</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>2?Cyclopenten?1?one, 3?methyl?2?(2,4?pentadienyl)?, (Z)?</td>
+							<td>CID: 5373801</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>3-Hydroxybenzoic acid</td>
+							<td>CID: 7420</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>3?Carene</td>
+							<td>CID: 26049</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>4-Hydroxybenzoic acid</td>
+							<td>CID: 135</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>4-Pyridineethanesulfonic acid</td>
+							<td>CID: 96722</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>4-Terpineol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>5-Hydroxyferulic acid</td>
+							<td>CID: 446834</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>7?Hexadecenal, (Z)?</td>
+							<td>CID: 5364438</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>8-Octadecenoic acid</td>
+							<td>CID: 5282758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9,12-Octadecadienoic acid (Z,Z)-, methyl ester</td>
+							<td>CID: 5284421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9-Eicosene. -</td>
+							<td>CID: 5365037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9-Hexacosene</td>
+							<td>CID: 5363630</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9-Octadecenamide ,(Z)</td>
+							<td>CID: 6441194</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9-Tricosene</td>
+							<td>CID: 6385060</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9.12-Octadecadienoic acid</td>
+							<td>CID: 3931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>9.12-heptadecadienoate</td>
+							<td>CID: 14162504</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Acetone</td>
+							<td>CID: 180</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Allopurinol</td>
+							<td>CID: 135401907</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Apigenin</td>
+							<td>CID: 5280443</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ascorbic acid</td>
+							<td>CID: 54670067</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ascorbic acid 2.6-dihexadecanoate</td>
+							<td>CID: 54722209</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Azelaic acid</td>
+							<td>CID: 2266</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Bicyclo[3.1.0]hex?2?ene, 2?methyl?5?(1?methylethyl)?</td>
+							<td>CID: 17868</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Bicyclo[3.1.1]heptane, 6,6?dimethyl?2?methylene?, (1S)?</td>
+							<td>CID: 12212059</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Biformene</td>
+							<td>CID: 157814493</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Caffeic acid</td>
+							<td>CID: 689043</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Campesterol</td>
+							<td>CID: 173183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0308-8146%2802%2900254-6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Carvacrol</td>
+							<td>CID: 10364</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Catechol</td>
+							<td>CID: 289</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Chlorogenic acid</td>
+							<td>CID: 1794427</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Chrysin</td>
+							<td>CID: 5281607</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Citronellal</td>
+							<td>CID: 7794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Coumarins</td>
+							<td>CID: 54678486</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Cysteine</td>
+							<td>CID: 5862</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>D-Glucose</td>
+							<td>CID: 5793</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>D-longifolene</td>
+							<td>CID: 1796220</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>DL-Arabinose</td>
+							<td>CID: 854</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Decane</td>
+							<td>CID: 15600</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Dichloroacetic acid.heptadecyl ester</td>
+							<td>CID: 546049</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Dihydroartemisinin, 10?O?(t?butyloxy)?</td>
+							<td>CID: 537898</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Eicosane</td>
+							<td>CID: 8222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ergosterol</td>
+							<td>CID: 444679</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0308-8146%2802%2900254-6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ethylbenzene</td>
+							<td>CID: 7500</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ethylenimine</td>
+							<td>CID: 9033</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Ferulic acid</td>
+							<td>CID: 445858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Flavonoids</td>
+							<td>CID: 11349</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Galangin</td>
+							<td>CID: 5281616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Gamma.?Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Glycerin</td>
+							<td>CID: 753</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Heptadecanoic acid</td>
+							<td>CID: 10465</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Hexadecane</td>
+							<td>CID: 11006</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Hexadecane. 2.6.11.15-tetramethyl-</td>
+							<td>CID: 136331</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Hexadecanoic acid, ethyl ester</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Hexane</td>
+							<td>CID: 8058</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Hydroquinone</td>
+							<td>CID: 785</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Kaempferol</td>
+							<td>CID: 5280863</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>L-Histidine</td>
+							<td>CID: 6274</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Lanosterol</td>
+							<td>CID: 246983</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0308-8146%2802%2900254-6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Laural dimethyl acetal</td>
+							<td>CID: 84559</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Lignocerol</td>
+							<td>CID: 10472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Limonen -6-ol ,pivalate</td>
+							<td>CID: 545235</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Longifolene</td>
+							<td>CID: 1796220</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Methyl azelaaldehydate</td>
+							<td>CID: 74732</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Methyl chavicol</td>
+							<td>CID: 8815</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Myricetin</td>
+							<td>CID: 5281672</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Naringenin</td>
+							<td>CID: 439246</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>O-Cymene</td>
+							<td>CID: 10703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>O-xylene</td>
+							<td>CID: 7237</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>O?Cymene</td>
+							<td>CID: 10703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Octadecanoic acid, ethyl ester</td>
+							<td>CID: 8122</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Octanoic acid. 8-hydroxy-</td>
+							<td>CID: 11195032</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Oleic Acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Oleic acid methyl ester</td>
+							<td>CID: 5364509</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Oleic acid. Methyl ester</td>
+							<td>CID: 132427492</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Palmitic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Palmitic acid-methyl ester</td>
+							<td>CID: 526818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Palmitic acid. Methyl ester</td>
+							<td>CID: 526818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Pinocembrin</td>
+							<td>CID: 68071</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Propanenitrile, 3-chloro-</td>
+							<td>CID: 10963</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Protocatechuic acid</td>
+							<td>CID: 72</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Quercetin</td>
+							<td>CID: 5280343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Reflux</td>
+							<td>CID: 11478</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Rosmarinic acid</td>
+							<td>CID: 5281792</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Rutin</td>
+							<td>CID: 5280805</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Sabinene</td>
+							<td>CID: 18818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Salicylic acid</td>
+							<td>CID: 338</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Sinapinic acid</td>
+							<td>CID: 637775</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Stearic</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Steroids</td>
+							<td>CID: 139082353</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0308-8146%2802%2900254-6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Syringic acid</td>
+							<td>CID: 10742</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Thymol</td>
+							<td>CID: 6989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Thymoquinone</td>
+							<td>CID: 10281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Toluene</td>
+							<td>CID: 1140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Trans -4-methoxy thujane</td>
+							<td>CID: 129845680</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.5897/JPP2015.0364">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>Vanillic acid</td>
+							<td>CID: 8468</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>a-Longipinene</td>
+							<td>CID: 530428</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>alpha.,3a.beta.,4.alpha.,8a.beta.,9R*)]?</td>
+							<td>CID: 564934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>b-Cyclocitral</td>
+							<td>CID: 9895</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>b-Pinene</td>
+							<td>CID: 440967</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>b-Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0308-8146%2802%2900254-6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>cis?4?methoxy thujane</td>
+							<td>CID: 129847957</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>l-(+)-Ascorbic acid 2.6-dihexadecanoate</td>
+							<td>CID: 54722209</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>l?(+)?Ascorbic acid 2,6?dihexadecanoate</td>
+							<td>CID: 54722209</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>lauric acid</td>
+							<td>CID: 3893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1155/2021/6623609">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>m-cymene</td>
+							<td>CID: 10812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1371/journal.pone.0272457">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>o-Cymene</td>
+							<td>CID: 10703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2013.02.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>p-Coumaric acid</td>
+							<td>CID: 637542</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>p-Cymene</td>
+							<td>CID: 7463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/bmc.2671">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>trans-Cinnamic acid</td>
+							<td>CID: 444539</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.17305/bjbms.2017.2049">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Nigella sativa</td>
+							<td>
+								
+								Black Seed, Cumin Seed, Nigella
+								
+							</td>
+							<td>trans?4?methoxy thujane</td>
+							<td>CID: 129845680</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//phcog.com/article/view/2018/14/57s/s471-s480">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

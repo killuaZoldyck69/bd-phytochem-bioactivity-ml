@@ -1,0 +1,2077 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Drynaria QUERCIFOLIA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Drynaria QUERCIFOLIA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>(4-Chlorophenyl) Methanesulfonamide</td>
+							<td>CID: 58029842</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>(4-Chlorophenyl)Methanesulfonamide</td>
+							<td>CID: 581056</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic Acid, Bis(2-Methylpropyl) Ester</td>
+							<td>CID: 6782</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic Acid, Dibutyl Ester</td>
+							<td>CID: 3026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic Acid, Diethyl Ester</td>
+							<td>CID: 6781</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic Acid, Diisooctyl Ester</td>
+							<td>CID: 33934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,2-Bis(Trimethylsilyl) Benzene</td>
+							<td>CID: 519794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,3,4,5-tetrahydroxycyclohexanecarboxylic acid</td>
+							<td>CID: 1064</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1,30-Triacontanediol</td>
+							<td>CID: 543982</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13140/RG.2.1.4053.1448">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1-Heptacosanol</td>
+							<td>CID: 74822</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1-Heptyn-4-ol</td>
+							<td>CID: 543909</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1-Octadecanol</td>
+							<td>CID: 8221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>1-phenanthrenecarboxylic acid, 7-ethyl-1,2,3,4,4a,4b,5,6,7,9,10,10a-dodecahydro-1,4a,7-trimethyl-, methyl ester</td>
+							<td>CID: 578750</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>2-Myristynoyl-Glycinamide</td>
+							<td>CID: 610025</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>2-Pyridinepropanamide, N-Phenyl-</td>
+							<td>CID: 309656</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>2-hydroxycyclopentadecanone</td>
+							<td>CID: 543400</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>3,4-Dicarbomethoxybenzoic Acid</td>
+							<td>CID: 610016</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>3,4-Dihydroxy Benzoic Acid</td>
+							<td>CID: 72</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>3,5-Dichloro-4-(Dodecylsulfanyl)-2,6-Dimethylpyridine</td>
+							<td>CID: 536613</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>4,8,12,16-Tetramethylheptadecan-4-olide</td>
+							<td>CID: 567149</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>4H-Pyran-4-one, 2,3-dihydro-3,5-dihydroxy-6-methyl-</td>
+							<td>CID: 119838</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>5-Hydroxymethylfurfural</td>
+							<td>CID: 237332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>6-Octadecenoic acid, methyl ester, (Z)-</td>
+							<td>CID: 5362717</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,12-Octadecadienoic Acid (Z,Z)-, Methyl Ester</td>
+							<td>CID: 5284421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,12-Octadecadienoic acid (Z,Z)-, 2-hydroxy-1-(hydroxymethyl)ethyl ester</td>
+							<td>CID: 5365676</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,19-Cycloergost-24(28)-en-3-ol, 4,14-dimethyl-, (3.beta.,4.alpha.,5.alpha.)</td>
+							<td>CID: 101690</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,19-Cyclolanost-24-en-3-ol, (3.beta.)-</td>
+							<td>CID: 92110</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,19-Cyclolanost-25-en-3-ol, 24-methyl-, (3.beta.,24S)-</td>
+							<td>CID: 101729</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9,19-Cyclolanostan-3-ol, 24-methylene-, (3.beta.)-</td>
+							<td>CID: 94204</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9-Octadecenoic Acid</td>
+							<td>CID: 637517</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>9-Octadecenoic Acid (Z)-, Methyl Ester</td>
+							<td>CID: 5364509</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>?-Amyrin</td>
+							<td>CID: 73145</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>?-Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Alpha.-D-Glucopyranoside, methyl</td>
+							<td>CID: 5289394</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>A-neogammacer-22(29)-ene</td>
+							<td>CID: 92155</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Benzeneacetic acid</td>
+							<td>CID: 999</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Benzenepropanoic Acid, Alpha, 4-Bis(Acetyloxy)-, Methyl Ester</td>
+							<td>CID: 601090</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Benzenepropanoic acid, 4-hydroxy-, methyl ester</td>
+							<td>CID: 79706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Benzenesulfonamide, 3-Amino-4-Hydroxy-</td>
+							<td>CID: 66814</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Beta.-d-Ribopyranoside, methyl, 3-acetate</td>
+							<td>CID: 11680050</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Bis(2-ethylhexyl) phthalate</td>
+							<td>CID: 8343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Catechol</td>
+							<td>CID: 289</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Chloroform</td>
+							<td>CID: 6212</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Chlorophyll</td>
+							<td>CID: 5748352</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4103/jdras.jdras_168_24">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cholest-5-en-3-ol, 4,4-dimethyl-, (3.beta.)-</td>
+							<td>CID: 15137988</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cyclohexasiloxane, Dodecamethyl</td>
+							<td>CID: 10911</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cyclohexasiloxane, Dodecamethyl-</td>
+							<td>CID: 10911</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cyclooctasiloxane, Hexadecamethyl</td>
+							<td>CID: 11170</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cyclooctasiloxane, Hexadecamethyl-</td>
+							<td>CID: 11170</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Cyclopropa[5,6]-33-norgorgostan-3-ol, 3?,6-dihydro-, (3.beta.,5.beta.,6.alpha.,22.xi.,23.xi.)</td>
+							<td>CID: 557802</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Dibutyl phthalate</td>
+							<td>CID: 3026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Dodecanoic acid</td>
+							<td>CID: 3893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Epifriedelinol</td>
+							<td>CID: 119242</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Ergost-5-en-3-ol</td>
+							<td>CID: 18660356</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13140/RG.2.1.4053.1449">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Ergost-5-en-3-ol, (3.beta.,24r)</td>
+							<td>CID: 173183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Ergosta-8,24(28)-dien-3-ol, 4,14-dimethyl-, (3.beta.,4.alpha.,5.alpha.)-</td>
+							<td>CID: 65252</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Ethylacetate</td>
+							<td>CID: 8857</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Friedelin</td>
+							<td>CID: 91472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4103/jdras.jdras_168_23">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Gamma-Tocopherol</td>
+							<td>CID: 92729</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Hexadecanoic Acid, Methyl Ester</td>
+							<td>CID: 8181</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Hexadecanoic acid, 2-hydroxy-1-(hydroxymethyl)ethyl ester</td>
+							<td>CID: 123409</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Lucenin 2</td>
+							<td>CID: 44257937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13140/RG.2.1.4053.1450">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Methanol</td>
+							<td>CID: 887</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Naringin</td>
+							<td>CID: 442428</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Nonamethyl, Phenyl-, Cyclopentasiloxane</td>
+							<td>CID: 6429722</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Octadec-9-Enoic Acid</td>
+							<td>CID: 965</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Octadecamethylcyclononasiloxane</td>
+							<td>CID: 11172</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Octadecanoic Acid, Methyl Ester</td>
+							<td>CID: 8201</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Palmitic Acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Pentamethyl Phenyl-Disilane</td>
+							<td>CID: 10923966</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Pentanoic Acid, Methyl Ester</td>
+							<td>CID: 12206</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Phosphine Oxide, Triphenyl-</td>
+							<td>CID: 13097</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Phosphoric Acid, 2-Ethylhexyl Diphenyl Ester</td>
+							<td>CID: 14716</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13140/RG.2.1.4053.1447">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Phosphoric Acid, Octyl Diphenyl Ester</td>
+							<td>CID: 8290</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13140/RG.2.1.4053.1446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Quercetin</td>
+							<td>CID: 5280343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4103/jdras.jdras_168_22">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Silane, [1,3,5-Benzenetriyltris(Oxy)] Tris[Trimethyl-</td>
+							<td>CID: 517874</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Silane, ethenylethoxydimethyl-</td>
+							<td>CID: 79315</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Squalene</td>
+							<td>CID: 638072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Stigmast-5-en-3-ol, (3.beta.)</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Tetracosamethylcyclododecasiloxane</td>
+							<td>CID: 167767</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Tetradecanoic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>Undecane</td>
+							<td>CID: 14257</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//d1wqtxts1xzle7.cloudfront.net/38465706/ajadd-libre.pdf%3F1439477436%3D%26response-content-disposition%3Dinline%253B%2Bfilename%253DPhytochemical_Screening_and_GC_MS_Analys.pdf%26Expires%3D1742034636%26Signature%3DEzxWwVW38GSJ3IhsgTuGASlCF3QPPiIr3OwvvToBkt8HBx4pXR-mWSgTPaIZjNCqt6rhOvJdaFBsFO3td~NkFU7hLi7u0gpNQ~~bkwnWLTHIF5MRuvVYixO5upufYMJgOOzj4S-Ey88PAJcd4zU6FojavqDZZzxLbavJcIy9YUdBo~7-NuiMbRK~2B0Zjg1M1PBaSaOps9SJCHpLstSZbxJLcDbNGXv6yrgMGFB-8hUwI5rlWopVTtf19UQOYUIIIFAGb2j~fEl0L6hlwJWcv9w9Gy1Bxh3sQpxtqZmS9bWzrlDVh-k2SZfaD511jyCF~EDq7vyzeWTSTGQwmRVf2A__%26Key-Pair-Id%3DAPKAJLOHF5GGSLRBV4ZA">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>cis-9-Hexadecenal</td>
+							<td>CID: 5364643</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>n-Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>n-Hexane</td>
+							<td>CID: 8058</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>n-Nonadecanol-1</td>
+							<td>CID: 80281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>n-Pentadecanol</td>
+							<td>CID: 12397</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.%0Aorg/10.1186/s12906-021-03265-7.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Drynaria quercifolia (L.)</td>
+							<td>
+								
+								Basket fern, Oakleaf fern, Wart fern
+								
+							</td>
+							<td>tert-Butyl(2-Isopropyl-5-Methylphenoxy) Dimethyl Silane</td>
+							<td>CID: 610042</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.iscientific.org/wp-content/uploads/2023/12/2-ijcbs-23-24-6-90-done.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

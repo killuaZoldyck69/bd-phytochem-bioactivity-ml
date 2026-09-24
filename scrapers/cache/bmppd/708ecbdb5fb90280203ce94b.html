@@ -1,0 +1,1317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Leea INDICA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Leea INDICA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>1-Eicosanol</td>
+							<td>CID: 12404</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>17-Pentatriacontene</td>
+							<td>CID: 5365022</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>2?,4?,6?-Trihydroxy-4-methoxy dihydrochalcone (3-Methylphloretin)</td>
+							<td>CID: 13990811</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>3&#x27;,8,8&#x27;-Trimethoxy-3-piperidyl-2,2&#x27;-binaphthalene-1,1&#x27;,4,4&#x27;-tetrone</td>
+							<td>CID: 590815</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A221696205">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>3-Hydroxyphloridzin</td>
+							<td>CID: 102068587</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>6-Hydroxy-4,4,7a-trimethyl-5,6,7,7a-tetrahydrobenzofuran-2(4H)-one</td>
+							<td>CID: 14334</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9,12 Octadecadienoic acid methyl ester</td>
+							<td>CID: 8203</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A221696205">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9,12,13-Trihydroxy octadecadienoic acid</td>
+							<td>CID: 44559173</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9,12-Octadecadienoic acid</td>
+							<td>CID: 3931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9-Oxononanoic acid</td>
+							<td>CID: 75704</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9-Oxononanoic acid methyl ester</td>
+							<td>CID: 74732</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A221696205">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>9-octadecene</td>
+							<td>CID: 5364599</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Bergenin</td>
+							<td>CID: 66065</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Butyl-2-ethylhexyl phthalate</td>
+							<td>CID: 6818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Catechin gallate</td>
+							<td>CID: 5276454</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Dehydrovomifoliol</td>
+							<td>CID: 688492</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Ellagic acid</td>
+							<td>CID: 5281855</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Epicatechin</td>
+							<td>CID: 72276</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Epigallocatechin</td>
+							<td>CID: 72277</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Epigallocatechin-3-O-gallate</td>
+							<td>CID: 65064</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Esculetin</td>
+							<td>CID: 5281416</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Farnesol</td>
+							<td>CID: 3327</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Gallocatechin</td>
+							<td>CID: 65084</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Isooctyl phthalate</td>
+							<td>CID: 33934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Kaempferol</td>
+							<td>CID: 5280863</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Kaempferol 3-O-arabinoside</td>
+							<td>CID: 5481882</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Lycopersen</td>
+							<td>CID: 5365816</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Methyl gallate</td>
+							<td>CID: 7428</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Methyl stearate</td>
+							<td>CID: 8201</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Methyl-O-ellagic acid</td>
+							<td>CID: 13915428</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Myricetin 3-O-rhamnoside</td>
+							<td>CID: 5281673</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Myricetin-O-(O-galloyl)-3-rhamnopyranoside</td>
+							<td>CID: 101248998</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Palmitic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Phloridzin</td>
+							<td>CID: 6072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Phthalic acid</td>
+							<td>CID: 1017</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Quercetin 3-O-rhamnoside (Quercitrin)</td>
+							<td>CID: 5280459</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Quercitrin 2?-O-gallate</td>
+							<td>CID: 10031482</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Solanesol</td>
+							<td>CID: 5477212</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Theasinensin A</td>
+							<td>CID: 442543</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>Theasinensin F</td>
+							<td>CID: 467316</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/molecules24040714">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>di-n-Butyl phthalate</td>
+							<td>CID: 3026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Eicosane</td>
+							<td>CID: 8222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Heptacosane</td>
+							<td>CID: 11636</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Heptadecane</td>
+							<td>CID: 12398</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Octadecane</td>
+							<td>CID: 11635</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Tetracosane</td>
+							<td>CID: 12592</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Tetratetracontane</td>
+							<td>CID: 23494</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Tetratriacontane</td>
+							<td>CID: 26519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Tricosane</td>
+							<td>CID: 12534</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>n-Tritetracontane</td>
+							<td>CID: 522398</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.2478/v1007-008-0002-7">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Leea indica</td>
+							<td>
+								
+								Indian Leea, Leea, Wild Currant
+								
+							</td>
+							<td>oleic acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//api.semanticscholar.org/CorpusID%3A149546097">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

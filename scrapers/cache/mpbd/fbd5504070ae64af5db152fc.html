@@ -1,0 +1,408 @@
+    <!DOCTYPE html>
+    <html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MPBD | Medicinal Plants of Bangladesh</title>
+        <meta name="description" content="Medicinal Plants of Bangladesh"/>
+        <meta name="keywords" content="medicinal plant,medicinal plants,medicinal,plants,mpbd"/>
+        <meta name="author" content="Antonov_WEB"/>
+
+        <meta name="robots" content="index, follow, all"/>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"
+              rel="stylesheet"/>
+        <link href="https://bootswatch.com/flatly/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"
+              rel="stylesheet"/>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
+
+        <link href="assets/plugins/datatables/datatables.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="ism/css/my-slider.css"/>
+        <script src="ism/js/ism-2.2.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+    <body>
+    <section id="top-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="index.php"><h1 style="font-size: 50px; vertical-align: middle;">MPBD</h1></a>
+                </div>
+                <div class="col-md-4">
+                     <div class="col-md-12 center">
+                         <img style="float:left;padding-right:10px" src="assets/img/cu.png" height="95">
+                        <img style="float:left;padding-right:10px" src="assets/img/echo.png">
+                        <img style="float:left" src="assets/img/mpbd.png" width= "100">
+                    </div>
+                </div>
+                <div class="col-md-4" align="right">
+                    <a href="#" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header id="header">
+        <div class="container">
+            <br/>
+
+            <nav style="background-color: #28A745" class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button id="nav-toggle-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul id="nav-menu" class="nav navbar-nav">
+
+                            <li ><a href="index.php"><i class="fa fa-home"></i> Home</a></li><li ><a href="family.php"><i class="fa "></i> Family</a></li><li class="active"><a href="plants.php"><i class="fa "></i> Scientific Name</a></li><li class="dropdown">
+                <a href="dictionary.php" class="dropdown-toggle" data-toggle="dropdown"><i class="fa "></i> Dictionary <span class="caret"></span></a>
+                <ul id="d-menu" class="dropdown-menu"><li><a href="botany.php">Botany</a></li><li><a href="pharmacology.php">Pharmacology</a></li><li><a href="page.php?id=3">Publications</a></li></ul></li><li ><a href="about.php"><i class="fa "></i> About</a></li><li ><a href="contact.php"><i class="fa "></i> Contact</a></li><li ><a href="gallery.php"><i class="fa "></i> Gallery</a></li>                            <li class="dropdown">
+                <a href="contributors.php" class="dropdown-toggle" data-toggle="dropdown"> Contributors & Advisors <span class="caret"></span></a>
+                <ul id="d-menu" class="dropdown-menu"><li><a href="page.php?id=4">Dr. Shaikh Bokhtear Uddin</a></li><li><a href="page.php?id=5">Dr. Mohammad Yusuf</a></li><li><a href="page.php?id=6">M. K. Pasha</a></li><li><a href="page.php?id=7">Dr. Mohammad Omar Faruque</a></li></ul></li>                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="ism-slider" id="my-slider">
+                <ol>
+                    <li>
+                        <img src="ism/image/slides/_u/1580713133781_337682.jpg">
+                        <div class="ism-caption ism-caption-0">My slide caption text</div>
+                    </li>
+                    <li>
+                        <img src="ism/image/slides/_u/1580713133713_104895.jpg">
+                        <div class="ism-caption ism-caption-0">My slide caption text</div>
+                    </li>
+                    <li>
+                        <img src="ism/image/slides/_u/1580713133570_604754.jpg">
+                        <div class="ism-caption ism-caption-0">My slide caption text</div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+
+            <aside id="sidebar" class="col-md-4">
+
+        <div class="title-divider">
+            <h3>Quick Links</h3>
+            <div class="divider-arrow"></div>
+        </div>
+
+        <section class="block-grey">
+            <div class="block-light wrap15"><br/>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="botany.php"><i class="fa fa-arrow-right""></i>&nbsp;
+                            Botany</a></li>
+                    <li class="list-group-item"><a href="pharmacology.php"><i class="fa fa-arrow-right""></i>&nbsp;
+                            Pharmacology</a></li>
+                    <li class="list-group-item"><a href="/page.php?id=3"><i class="fa fa-arrow-right""></i>&nbsp;
+                            Publications</a></li>
+                           
+                </ul>
+
+
+                </ul>
+            </div>
+        </section>
+
+
+        <div class="title-divider">
+            <h3>Search by Scientific Name</h3>
+            <div class="divider-arrow"></div>
+        </div>
+        <section class="block-grey">
+            <div class="block-light">
+
+                    <div class="input-group">
+                        <input type="text" id="search" class="form-control" placeholder="Type here to search..." name="q" required>
+                        <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit"><i
+                                                    class="fa fa-search"></i></button>
+                                    </span>
+                    </div>
+                <div style="max-height: 300px;overflow-y: scroll" id="display"></div>
+            </div>
+        </section>
+
+
+        <div class="title-divider">
+            <h3>Search by Family</h3>
+            <div class="divider-arrow"></div>
+        </div>
+        <section class="block-grey">
+            <div class="block-light">
+
+                    <div class="input-group">
+                        <input type="text" id="searchfamily" class="form-control" placeholder="Type here to search..." name="searchfamily" required>
+                        <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit"><i
+                                                    class="fa fa-search"></i></button>
+                                    </span>
+                    </div>
+               <div style="max-height: 300px;overflow-y: scroll" id="display-family"></div>
+            </div>
+        </section>
+
+        <div class="title-divider">
+            <h3>Search by Habit</h3>
+            <div class="divider-arrow"></div>
+        </div>
+        <section class="block-grey">
+            <div class="block-light">
+
+                    <div class="input-group">
+                        <input type="text" id="searchhabit" class="form-control" placeholder="Type here to search..." name="searchhabit" required>
+                        <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit"><i
+                                                    class="fa fa-search"></i></button>
+                                    </span>
+                    </div>
+                <div style="max-height: 300px;overflow-y: scroll" id="display-habit"></div>
+            </div>
+        </section>
+
+
+        <div class="title-divider">
+            <h3>Search by Disease</h3>
+            <div class="divider-arrow"></div>
+        </div>
+        <section class="block-grey">
+            <div class="block-light">
+
+                    <div class="input-group">
+                        <input type="text" id="searchdisease" class="form-control" placeholder="Type here to search..." name="searchdisease" required>
+                        <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit"><i
+                                                    class="fa fa-search"></i></button>
+                                    </span>
+                    </div>
+               <div style="max-height: 300px;overflow-y: scroll" id="display-disease"></div>
+            </div>
+        </section>
+
+    </aside>
+
+            <div class="col-md-8">
+
+            <section class="alignleft col-md-12">
+                <div class="title-divider">
+                    <h3>Plants List</h3>
+                    <div class="divider-arrow"></div>
+                </div>
+                                    <!--<table width="100%" border="1">
+                        <tr>
+                            <th style="text-align: center;padding: 10px">Scientific Name</th>
+                            <th style="text-align: center;padding: 10px">Synonym</th>
+                            <th style="text-align: center;padding: 10px">Family</th>
+                        </tr>-->
+
+
+                        <table class="table table-bordered table-striped table-hover" id="dt-basic">
+                            <thead>
+                            <tr>
+                                
+                                <th>Scientific Name</th>
+                                <th>Synonym</th>
+                                <th>Family</th>
+                            </tr>
+                            </thead>
+                                                <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=275"> <em> rumex</em>  MARITIMUS L                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Lapathum minus </em> Lam. <br><em>Rumex aureus </em> Mill. <br><em>Rumex fueginus </em> Phil. <br><em>Rumex longisetus </em> A.I. Baranov & Skvortsov <br>
+                                </td>
+                                <td style="padding: 5px">Polygonaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=276"> <em>Ruellia </em> SUFFRUTICOSA Roxb.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Dipteracanthus sibua </em> Nees <br><em>Dipteracanthus suffruticosus </em> Voigt <br>
+                                </td>
+                                <td style="padding: 5px">Acanthaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=277"> <em>Rourea </em> COMMUTATA Planch.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>-  </em> <br>
+                                </td>
+                                <td style="padding: 5px">Connaraceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=278"> <em>Ricinus </em> COMMUNIS L.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Croton spinosus </em> L. <br><em>Ricinus angulatus </em> Thunb. <br><em>Ricinus badius </em> Rchb. <br><em>Ricinus cambodgensis </em> Benary <br>
+                                </td>
+                                <td style="padding: 5px">Euphorbiaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=279"> <em> </em> RHYNCHOTECHUM  ELLIPTICUM  (Wall. ex D. Dietr.) A. DC.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Corysanthera elliptica </em> Wall. ex D. Dietr. <br><em>Rhynchotechum latifolium </em> Hook. f. & Thomson ex C.B. Clarke <br><em>Rhynchotechum obovatum </em> (Griff.) B.L. Burtt (Gesneriaceae) <br>
+                                </td>
+                                <td style="padding: 5px">-</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=280"> <em> rhizophora</em> MUCRONATA Lam.                                     </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Mangium candelarium </em> Rumphius <br><em>Rhizophora candelaria </em> Wight & Arn. <br><em>Rhizophora longissima </em> Blanco  <br><em>Rhizophora macrorrhiza </em> Griff. <br><em>Rhizophora  </em> mucronata Poir. <br>
+                                </td>
+                                <td style="padding: 5px">Rhizophoraceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=281"> <em>Rhinacanthus </em> NASUTA (L.) Kurz.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Dianthera paniculata </em> Lour. <br><em>Ecbolium dichotomum </em> (Blume) Kuntze <br><em>Justicia nasuta </em> L. <br><em>Rhinacanthus comimunis </em> Nees (Acanthaceae) <br>
+                                </td>
+                                <td style="padding: 5px">Acanthaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=282"> <em>Reinwardtia indica</em> Dumort.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Kittelocharis trigyna </em> (Rchb.) Alef. <br><em>Linum repens </em> Buch.-Ham. ex D. Don <br><em>Macrolinum trigynum </em> Rchb. <br><em>Reinwardtia trigyna </em> Planch. <br><em>Reinwardtia  </em> indica Dum. <br>
+                                </td>
+                                <td style="padding: 5px">Linaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=283"> <em>Rauvolfia </em> TETRAPHYLLA L.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Rauvolfia canescens </em> L. <br><em>Rauvolfia hirsuta </em> Jacq. <br><em>Rauvolfia subpubescens </em> L. <br><em>Rauvolfia tomentosa </em> Jacq. <br>
+                                </td>
+                                <td style="padding: 5px">Apocynaceae</td>
+                            </tr>
+
+
+                                                    <tr>
+                                <td style="padding: 5px">
+                                   <a style="color: #1a1a1a" href="details.php?id=284"> <em>Rauvolfia </em> SERPENTINA (L.) Benth. ex Kurz.                                    </a>
+                                </td>
+                                <td style="padding: 5px">
+
+                                      <em>Ophioxylon serpentinum </em> L. <br><em>Ophioxylon trifoliatum </em> Gaertn. <br><em>Rauvolfia obversa </em> (Miq.) Baill. <br><em>Rauvolfia trifoliata </em> (Gaertn.) Baill. <br>
+                                </td>
+                                <td style="padding: 5px">Apocynaceae</td>
+                            </tr>
+
+
+                                            </table>
+                    
+            </section>
+
+            <section class="alignleft col-md-12">
+                <ul class="pagination">
+                    <li><a href="?pageno=1">First</a></li>
+                    <li class="">
+                        <a href="?pageno=27">Prev</a>
+                    </li>
+                    <li class="">
+                        <a href="?pageno=29">Next</a>
+                    </li>
+                    <li><a href="?pageno=93">Last</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+</div>
+    <script>
+        $(document).ready(function () {
+
+            $('#dt-basic').dataTable({
+                "responsive": true,
+                "language": {
+                    "paginate": {
+                        "previous": '<i class="fa fa-angle-left"></i>',
+                        "next": '<i class="fa fa-angle-right"></i>'
+                    }
+                }
+            });
+        });
+    </script>
+    <br>
+
+    <section id="footer-menu">
+        <div class="container aligncenter">
+            <div class="row">
+               <div class="col-md-8">
+                <p><span>All rights reserved &copy; 2012 <span
+                                style="color:#28A745">  Ethnobotany & Pharmacognosy.</span></span></p>
+               </div>
+               <div class="col-md-4">
+                <p>Developed by  <a style="color: #31708f;font-size: 15px;font-weight: 600;" href="http://tentechsoft.com">Tentechsoft</a></p>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="assets/plugins/datatables/datatables.min.js"></script>
+   
+</body>
+    </html>
+    

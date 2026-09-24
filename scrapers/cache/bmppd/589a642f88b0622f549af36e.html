@@ -1,0 +1,4700 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Centella ASIATICA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Centella ASIATICA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(+)-Norreticuline</td>
+							<td>CID: 441066</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(+)-cyclosativene</td>
+							<td>CID: 519960</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(+)-delta-Cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(-)-alpha-Copaene</td>
+							<td>CID: 12303902</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2009.05.072">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(-)-beta-Chamigrene</td>
+							<td>CID: 442353</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(-)-beta-Selinene</td>
+							<td>CID: 28237</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(E)-5-Nonen-2-one</td>
+							<td>CID: 5363537</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>(S,1Z,6Z)-8-Isopropyl-1-methyl-5-methylenecyclodeca-1,6- diene/ Germacrene-D</td>
+							<td>CID: 91723653</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>-(-)Spathulenol</td>
+							<td>CID: 92231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1,5,5,8-Tetramethyl-12-oxabicyclo[9.1.0]dodeca-3,7-diene</td>
+							<td>CID: 23274265</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1-Bromoallene</td>
+							<td>CID: 139078</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1-Naphthalenamine,N-methyl</td>
+							<td>CID: 16667</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1-Naphthalenol</td>
+							<td>CID: 7005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>18Z-pentadecosenoic acid</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1H-Cycloprop(E) 
+azulene,1a,2,3,4,4a,5,6,7b
+1,1,4,7-tetramethyl-</td>
+							<td>CID: 521243</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1H-Cyclopropa(a)naphthalene-4,7-diol, decahydro-1,1,3a,7-tetramethyl-, 4-(4-methylbenzenesulfonate), (1aalpha,3aalpha,4alpha,7alpha,7abeta,7balpha)-</td>
+							<td>CID: 181435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1R,4S,7S,11R-2,2,4,8-Tetramethyltricyclo[5.3.1.0(4,11)]undec-8-ene</td>
+							<td>CID: 573293</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1-acetoxyeugenol acetate</td>
+							<td>CID: 4484222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>1-hydroxychavicol acetate</td>
+							<td>CID: 71596738</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2,3,9,10-Tetramethylpentacene-1,4,8,11-tetrone</td>
+							<td>CID: 71342441</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2,3-Dihydrobenzofuran</td>
+							<td>CID: 10329</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2-Heptenal</td>
+							<td>CID: 5283316</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2-Methoxy-4-vinylphenol</td>
+							<td>CID: 332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2-Methyl-2-butanol</td>
+							<td>CID: 6405</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2-Octenal</td>
+							<td>CID: 5283324</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>2-Tridecanone</td>
+							<td>CID: 11622</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>3,6-Heptadiene-2-ol</td>
+							<td>CID: 12701392</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>3-(1,5-Dimethyl-4-hexenyl)-6-methylene-1-cyclohexene/ Sesquiphellandrene</td>
+							<td>CID: 519764</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>3-Nonen-2-one</td>
+							<td>CID: 5317045</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>4-Allylphenol/ chavicol</td>
+							<td>CID: 68148</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>4-Hexen-2- one,3,3-diethyl-4,5-dimethyl-</td>
+							<td>CID: 549557</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>5-Heptadecylresorcinol</td>
+							<td>CID: 181700</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>6,13-Dihexyl-2,3,9,10-termethylpentacene-1,4,8,11-tetrone</td>
+							<td>CID: 71342442</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>6-Azaestra-1,3,5(10),6,8-pentaen-17-one,-3-methoxy</td>
+							<td>CID: 22295695</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>7,10,13-Hexadecatrienoic acid, methyl ester</td>
+							<td>CID: 556196</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>7-Tetradecene</td>
+							<td>CID: 5364651</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>8(17),12-Labdadiene-15,16-dial</td>
+							<td>CID: 9904510</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>8-Desoxygartanin</td>
+							<td>CID: 392450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>9,12,15-octadecatrienoic acid, methyl ester,(z,z,z)-</td>
+							<td>CID: 5319706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>9,12,15-octadecatrienoic acid,(z,z,z)-</td>
+							<td>CID: 5280934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>9H-Fluorene-2-carboxylic acid</td>
+							<td>CID: 348591</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/1539445X.2023.2243922">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>? Candinene/ Cadinane</td>
+							<td>CID: 9548708</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>? Copaene</td>
+							<td>CID: 19725</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?- Caryophyllene/ Isocaryophyllene</td>
+							<td>CID: 5281522</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?-Cubebene</td>
+							<td>CID: 93081</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?-Cymene</td>
+							<td>CID: 10812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?-Elemene</td>
+							<td>CID: 6918391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?-Pinene</td>
+							<td>CID: 2723720</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>?-Thujene</td>
+							<td>CID: 12444324</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Alanine</td>
+							<td>CID: 5950</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Allo-Aromadendrene</td>
+							<td>CID: 42608158</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Alpha-Tocopherol</td>
+							<td>CID: 14985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Anthocyanins</td>
+							<td>CID: 145858</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Arachidic acid</td>
+							<td>CID: 10467</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Arachidonic acid</td>
+							<td>CID: 444899</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Aristolene epoxide</td>
+							<td>CID: 535269</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Aromadendrene</td>
+							<td>CID: 91354</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Asiatic acid</td>
+							<td>CID: 119034</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/app11188475">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Asiaticoside</td>
+							<td>CID: 11954171</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/app11188475">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Asiaticoside B</td>
+							<td>CID: 91618002</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Aspartate</td>
+							<td>CID: 5960</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Benzene,1-(1-Buten-3-yl)-2-vinyl</td>
+							<td>CID: 581921</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Bergamotene</td>
+							<td>CID: 521569</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Beta-sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Bicycloelemene</td>
+							<td>CID: 56842786</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Bicyclogermacrene</td>
+							<td>CID: 13894537</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Bornyl acetate</td>
+							<td>CID: 93009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Campesterol</td>
+							<td>CID: 173183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: 6616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Castilliferol/ Kaempferol 3-p-coumarate</td>
+							<td>CID: 10526707</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Centellasaponin</td>
+							<td>CID: 101103168</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Centellasaponin A</td>
+							<td>CID: 21633803</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Centellasaponin B</td>
+							<td>CID: 85411973</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Centellasaponin C</td>
+							<td>CID: 85348461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Chavicol acetate,</td>
+							<td>CID: 523825</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Cholesterol</td>
+							<td>CID: 5997</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Chrysanthenyl acetate</td>
+							<td>CID: 162747</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Cinnamoyl glucose</td>
+							<td>CID: 165361340</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Corosolic acid/2,3-dihydroxyurs-12-en-28-oic acid</td>
+							<td>CID: 6918774</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.56042/ijnpr.v12i4.43764">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Coumarin</td>
+							<td>CID: 323</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Coumestrol</td>
+							<td>CID: 5281707</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Cuparene</td>
+							<td>CID: 86895</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Cysteine</td>
+							<td>CID: 5862</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>D-limonene</td>
+							<td>CID: 440917</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Delphinidin 3,5-O-diglucoside</td>
+							<td>CID: 10100906</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Delphinidin 3-O-glucosyl-glucoside</td>
+							<td>CID: 5316496</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Delta-carotene-1,2-epoxide</td>
+							<td>CID: 131752096</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Dihydrocaffeic acid</td>
+							<td>CID: 348154</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Dihydroquercetin 3-O-rhamnoside</td>
+							<td>CID: 119258</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Dioncopeltine A</td>
+							<td>CID: 185971</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Dipyridamole</td>
+							<td>CID: 3108</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Elaidic acid</td>
+							<td>CID: 637517</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Eucalyptol</td>
+							<td>CID: 2758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Farnesol</td>
+							<td>CID: 445070</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Furfural</td>
+							<td>CID: 7362</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Gamma-Elemene</td>
+							<td>CID: 6432312</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Gamma-Tocopherol</td>
+							<td>CID: 92729</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: 637566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Germacrene A</td>
+							<td>CID: 9548705</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Germacrene B</td>
+							<td>CID: 5281519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Germacrene D</td>
+							<td>CID: 5317570</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Glutamate</td>
+							<td>CID: 33032</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Glycine</td>
+							<td>CID: 750</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Heptadecane ,9-octyl-</td>
+							<td>CID: 292286</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Heptanal</td>
+							<td>CID: 8130</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Hexadecanoic acid, ethyl ester</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Hexahydrofarnesyl acetone</td>
+							<td>CID: 10408</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Hexanal</td>
+							<td>CID: 6184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Histidine</td>
+							<td>CID: 6274</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Humulene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Humulene epoxide</td>
+							<td>CID: 5352470</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Isoaromadendrene epoxide</td>
+							<td>CID: 534398</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Isoleucine</td>
+							<td>CID: 6306</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Isoquercitrin/ quercetin-3glucoside</td>
+							<td>CID: 5280804</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.2174/1573409919666230525151933%20%3B%20https%3A//doi.org/10.1080/1539445X.2023.2243922">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Isorhamnetin 3-O-glucuronide</td>
+							<td>CID: 5491630</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Isorhamnetin 3-O-rutinoside</td>
+							<td>CID: 5481663</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Kaempferol 7-O-glucoside</td>
+							<td>CID: 10095180</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Lauric acid</td>
+							<td>CID: 3893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Leucine</td>
+							<td>CID: 6106</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Lignans</td>
+							<td>CID: 443013</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Linolenic acid</td>
+							<td>CID: 5280934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Lysine</td>
+							<td>CID: 5962</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Menthone</td>
+							<td>CID: 26447</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methionine</td>
+							<td>CID: 6137</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methyl 8,11,14,17-eicosatetraenoate</td>
+							<td>CID: 14122970</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methyl carvacrol</td>
+							<td>CID: 80790</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methyl linoleate</td>
+							<td>CID: 5284421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methyl octadecanoate</td>
+							<td>CID: 8201</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Methyl thymol</td>
+							<td>CID: 6989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Mintsulfide</td>
+							<td>CID: 14564587</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: 31253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Myristic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Naphthalene, 1,2,3,5,6,8a-hexahydro-4,7-
+dimethyl-1-(1-methylethyl)-, (1s-cis</td>
+							<td>CID: 10223</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Neophytadiene</td>
+							<td>CID: 10446</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Neral</td>
+							<td>CID: 643779</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Nerolidol</td>
+							<td>CID: 5284507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Octadecanoic acid,2,3-dihydroxypropyl ester</td>
+							<td>CID: 24699</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Oleic acid</td>
+							<td>CID: 445639</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Oxalic acid, bis(6-ethyloct-3-yl) ester</td>
+							<td>CID: 6420814</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Palmitic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pelargonidin-3-O-(6-malonyl-glucoside)</td>
+							<td>CID: 44256691</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pelargonidin-3-O-(6-malonyl-glucoside)</td>
+							<td>CID: 443913</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pentadecane</td>
+							<td>CID: 12391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pentadecane,3-methyl-</td>
+							<td>CID: 17899</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pentanal</td>
+							<td>CID: 8063</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phenol,2,6-bis(1,1-dimethylethyl)-</td>
+							<td>CID: 31404</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phenolic Acid / Phenylalanine</td>
+							<td>CID: 6140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phenylalanine</td>
+							<td>CID: 6140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phytol / 3,7,11,15-Tetramethyl ?- hexadecane-1-ol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Phytol, acetate</td>
+							<td>CID: 6428538</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Proline</td>
+							<td>CID: 145742</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Pulegone</td>
+							<td>CID: 442495</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Resveratol 3-O-glucoside</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Santalene</td>
+							<td>CID: 94164</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Scheffoleoside A</td>
+							<td>CID: 101675595</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Selina-3,7(11)-diene</td>
+							<td>CID: 6432648</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Selinene / Eudesmene</td>
+							<td>CID: 442393</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Serine</td>
+							<td>CID: 5951</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Stearic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Stilbenes</td>
+							<td>CID: 638088</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Taraxasterol</td>
+							<td>CID: 115250</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Terpinolene</td>
+							<td>CID: 11463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Tetracosane</td>
+							<td>CID: 12592</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Tetradecanoic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Threonine</td>
+							<td>CID: 6288</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Thujopsene</td>
+							<td>CID: 442402</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Todolactol A</td>
+							<td>CID: 158029</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Toluene</td>
+							<td>CID: 1140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Trans-coniferyl diacetate</td>
+							<td>CID: 6537101</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Tricyclo[5.2.2.0(1,6)]undecan-3-ol, 2-methylene-6,8,8-trimethyl-</td>
+							<td>CID: 535346</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Tryptophan</td>
+							<td>CID: 6305</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Tyrosine</td>
+							<td>CID: 6057</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Valeranone</td>
+							<td>CID: 171455</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Valine</td>
+							<td>CID: 6287</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Viridiflorol</td>
+							<td>CID: 11996452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>Ziziphin</td>
+							<td>CID: 441957</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.9734/AJOCS/2020/v8i319046">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alloaromadendrene</td>
+							<td>CID: 10899740</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2009.05.072">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-Chamigrene</td>
+							<td>CID: 442351</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-PHELLANDRENE</td>
+							<td>CID: 7460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-Panasinsene</td>
+							<td>CID: 578929</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-Pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-Selinene</td>
+							<td>CID: 10856614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>alpha-Terpineol</td>
+							<td>CID: 17100</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta Farnesene</td>
+							<td>CID: 15228937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Acoradiene</td>
+							<td>CID: 6428280</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Bisabolene</td>
+							<td>CID: 10104370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Farnesene</td>
+							<td>CID: 15228937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Guaiene</td>
+							<td>CID: 6949</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Gurjunene</td>
+							<td>CID: 6450812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-OCIMENE</td>
+							<td>CID: 5281553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>beta-Pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>betulinic acid</td>
+							<td>CID: 64971</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>castillicetin/ [2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl] (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate</td>
+							<td>CID: 102394640</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants12203547">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>epi-Globulol</td>
+							<td>CID: 7308311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>eugenol methylether</td>
+							<td>CID: 7127</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>gamma-Cadinene</td>
+							<td>CID: 15094</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.academia.edu/6759476/Chemical_Composition_of_Essential_Oils_of_Centella_asiatica_L_Urban_from_Different_Habitats_of_Nepal">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>gamma-Curcumene</td>
+							<td>CID: 12304273</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/13880200590928843">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>gamma-Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>germacrene</td>
+							<td>CID: 9548705</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>kaempferol 3-glucoside/ Astragalin</td>
+							<td>CID: 5282102</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/1539445X.2023.2243922">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>kaempferol 7-glucoside</td>
+							<td>CID: 10095180</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/1539445X.2023.2243922">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>m-Xylene</td>
+							<td>CID: 7929</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>m-cymene</td>
+							<td>CID: 10812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=doi%3A%2010.35248/2167-0412.20.9.346">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>madecassic acid</td>
+							<td>CID: 73412</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/app11188475">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>madecassoside</td>
+							<td>CID: 45356919</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/app11188475">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>p-cymol</td>
+							<td>CID: 7463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>pentanal</td>
+							<td>CID: 8063</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/10412905.1994.9698382">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>phytosterols</td>
+							<td>CID: 12303662</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1007/s00299-010-0831-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>pomolic acid</td>
+							<td>CID: 382831</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.56042/ijnpr.v12i4.43764">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>quercetin</td>
+							<td>CID: 5280343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1080/1539445X.2023.2243922">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Centella asiatica</td>
+							<td>
+								
+								Gotukola, Indian pennywort, Mandookaparni, Thankuni
+								
+							</td>
+							<td>terpene acetate</td>
+							<td>CID: 75699</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=Centella%20asiatica%20%28L.%29%20Urb.%3A%20Ethnomedicinal%20uses%20and%20their%20scientific%20validations">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

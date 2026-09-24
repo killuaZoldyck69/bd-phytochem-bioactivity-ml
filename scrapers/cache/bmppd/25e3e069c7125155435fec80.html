@@ -1,0 +1,7477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Catharanthus roseus"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Catharanthus roseus</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(+)-3-Caren, 2-alpha-isopropenyl-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(.+ -.)-Menthol</td>
+							<td>CID: 1254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(11E,13Z)- Labdadien-8-ol</td>
+							<td>CID: 91747188</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(1S,4aR,7R)-1,4a-Dimethyl-7-(prop-1-en-2-yl)-1,2,3,4,4a,5,6</td>
+							<td>CID: 91704179</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(2,3-Diphenylcyclopropyl) Methyl Phenyl Sulfoxide</td>
+							<td>CID: 562543</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(2,3-Diphenylcyclopropyl) Methyl Phenyl Sulfoxide, Trans-</td>
+							<td>CID: 562543</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(3aR,4R,7R)-1,4,9,9-Tetramethyl-3,4,5,6,7,8-hexahydro-2H-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(E)- Decenal</td>
+							<td>CID: 5283345</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(E)-Octenal</td>
+							<td>CID: 5283324</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(E,Z)-octa-3,5-dien-2-one</td>
+							<td>CID: 5352876</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(Z)-13-Docosenamide</td>
+							<td>CID: 5365371</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(Z)-hexadec-7-enal</td>
+							<td>CID: 5364438</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>(Z)6-Pentadecen-1-ol</td>
+							<td>CID: 5365626</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,1,4,7-tetramethyl-1a,2,3,4,5,6,7,7b-octahydro cyclopropa[e]azulene</td>
+							<td>CID: 530426</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2,3,5-Cyclohexanetetrol</td>
+							<td>CID: 548226</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2,3-Propanetriol, 1-acetate</td>
+							<td>CID: 33510</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic Acid, Butyl 2-Methylpropyl Ester</td>
+							<td>CID: 28813</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic acid</td>
+							<td>CID: 1017</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic acid, bis(2-methyl propyl) ester</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-Benzenedicarboxylic acid, diisooctyl ester</td>
+							<td>CID: 33934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-Propanediol, 3-Benzyloxy-1,2 -Diacetyl-</td>
+							<td>CID: 114563</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,2-dihydro-8-hydroxylinalool</td>
+							<td>CID: 5363274</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,3-Butanedione</td>
+							<td>CID: 22747</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,3-Diazacyclooctane-2-thione</td>
+							<td>CID: 5372734</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,4-Cyclooctanedione</td>
+							<td>CID: 521684</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,54-dibromo-Tetrapentacontane</td>
+							<td>CID: 545963</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1,6,10-dodecatrien-3-ol, 3,7,11-trimethyl</td>
+							<td>CID: 5284507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-(1,2,3,4,7,7a-hexahydro-1,4,4,5-tetramethyl-1,3aethano-3aH-inden-6-yl)-Ethanone</td>
+							<td>CID: 122550</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Butanol, 2-amino</td>
+							<td>CID: 22129</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Decanol</td>
+							<td>CID: 8174</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Fluorododecane</td>
+							<td>CID: 9548</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.saa.2014.07.010">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Heptacosanol</td>
+							<td>CID: 74822</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Heptatriacotanol</td>
+							<td>CID: 537071</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Hexadecene</td>
+							<td>CID: 12395</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Nonadecene</td>
+							<td>CID: 29075</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Pentadecene</td>
+							<td>CID: 25913</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1-Propene, 3-(2-Cyclopentenyl)-2-Methyl-1,1-Diphenyl-</td>
+							<td>CID: 610079</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>10-Methylundec-2-en-4-olide</td>
+							<td>CID: 21778197</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>11-Octadecenoic Acid, Methyl Ester</td>
+							<td>CID: 5364432</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>17-Pentatriacontene</td>
+							<td>CID: 5365022</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>19-Epivindolinine</td>
+							<td>CID: 163184435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1H-Cycloprop[e]azulene, 31a,2,3,4,4a,5,6,7b-octa</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>1H-indole-3-ethanamine</td>
+							<td>CID: 1150</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2(3H)-Benzothiazolone</td>
+							<td>CID: 13625</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,20-Cycloaspidospermidine -3-carboxylic acid vindolinine</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,20-Cycloaspidospermidine-3-carboxylic acid</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,4(1H,3H)-Pyrimidinedione</td>
+							<td>CID: 1174</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,4,4-Trimethyl-1-pentanol</td>
+							<td>CID: 85984</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6 octadien-1-Ol</td>
+							<td>CID: 6366591</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6,10,14,18-Pentamethyl-2,6,10,14,18-Eicosapentaene</td>
+							<td>CID: 5366013</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6-Octadien-1-Ol, 3,7-Dimethyl-, Acetate</td>
+							<td>CID: 1549026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6-Octadien-1-ol, 3,7-dimethyl-, (Z)-, Geraniol</td>
+							<td>CID: 637566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6-Octadienal, 3,7-dimethyl, Citral</td>
+							<td>CID: 638011</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2,6-Octadienal,3,7-Dimethyl,-(E)-</td>
+							<td>CID: 638011</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-(1,3-Benzothiazol-2-ylsulfanyl)ethanol</td>
+							<td>CID: 20790</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Buten-1-One, 3-Amino-1-Phenyl-4,4,4-Trifluoro-</td>
+							<td>CID: 5376101</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Hexadecen-1-ol, 3,7,11,15- Tetram</td>
+							<td>CID: 145386</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Hydroxy-2-methyl-4-pentanone (diacetone)</td>
+							<td>CID: 31256</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Isopropenyl-5-methylcyclohexanol</td>
+							<td>CID: 24585</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Methyl-9-á-d- ribofuranosylhypoxanthine</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Methylhexacosane</td>
+							<td>CID: 150931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Pentadecanone, 6,10,14- trimethyl</td>
+							<td>CID: 10408</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Pentyne-1,4-diol, 4- methyl-1-(2-thienyl)-</td>
+							<td>CID: 5151212</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Propynoic acid, methyl ester</td>
+							<td>CID: 13536</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-Pyrrolidinone, 1-butyl-</td>
+							<td>CID: 18984</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2-methyl-4-heptanone</td>
+							<td>CID: 69378</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>22,23-Dibromostigmasterol Acetate</td>
+							<td>CID: 155926489</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>24-Norursa-3,12-diene</td>
+							<td>CID: 91735342</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>2H-1-Benzopyran-3,4-diol</td>
+							<td>CID: 5318979</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3 ?-D-Glucopyranoside, O-?-D-glucopyranosyl-(1.fwdarw.3)-ß-d-fru</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,3,3&#x27;,3&#x27;,5,5,5&#x27;,5&#x27;-octamethyl- Bi-1-cyclohexen-1-yl</td>
+							<td>CID: 621100</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,3-Diphenyl-4-Hexenoic Acid</td>
+							<td>CID: 14338215</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,4,4-trimethylcyclohexa-2-en-1-ol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,4,5,6-tetradehydroyohimbine</td>
+							<td>CID: 15287521</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,5-Dimethyl-4-Phenylpyridine</td>
+							<td>CID: 603085</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,5-bis(1,1-Dimethylethyl)-4-hydroxybenzonitrile</td>
+							<td>CID: 137274</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.saa.2014.07.010">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,7,11,15-Tetramethyl-2-hexadecane-1-ol</td>
+							<td>CID: 5366244</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-(2-Chloroethyl)-1,3-benzothiazol-2(3H)-one</td>
+							<td>CID: 272711</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-Bromocholest-5-Ene</td>
+							<td>CID: 101735</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-Butoxy-1,1,1,5,5,5-hexamethyl-3-(Trimethylsiloxy)trisiloxane</td>
+							<td>CID: 545990</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-Cyclohexen-1-ol, 4-methyl-1-(1-methylethyl)</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-Nitrophthalic Acid</td>
+							<td>CID: 69043</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-Phenylbicyclo (3.2.2) nona-3,6-dien-2-one</td>
+							<td>CID: 610888</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3-octen-2-one</td>
+							<td>CID: 5363229</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>30,50-Dimethoxyacetophenone</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>3,5-Dimethoxyacetophenone</td>
+							<td>CID: 17198</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4,4,6a,6b,8a,11,11,14b-Octamethyl 1,4,4a,5,6,6a, 6b,7,8,8a,9,10,11,12,12a,14,14a,14b-octadecahydro-2H-picen-3-one</td>
+							<td>CID: 612782</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4,40 ((phenylene)diisopropylidene)diphenol</td>
+							<td>CID: 630355</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4-Penten-2-Ol, 3-methyl-</td>
+							<td>CID: 544701</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4-Pyridinecarboxamide</td>
+							<td>CID: 15074</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4-Pyrimidinamine, 2,6-dimethyl</td>
+							<td>CID: 68039</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4H-Pyran-4-one</td>
+							<td>CID: 7968</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>4a,7,7,10a-Tetramethyldodecahydrobenzo[f]chromen-3-ol</td>
+							<td>CID: 606042</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>5-(Hydroxymethyl)- 2-furancarboxaldehyde</td>
+							<td>CID: 237332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.saa.2014.07.010">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>5-(O-Benzamido-N-Bnezoylanilino) Tropolone</td>
+							<td>CID: 571356</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>5-(O-Benzamido-NBnezoylanilino) Tropolone</td>
+							<td>CID: 10789</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>5-Hydroxymethylfurfural</td>
+							<td>CID: 237332</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>6,9,12-Octadecatrienoic acid, methyl ester</td>
+							<td>CID: 5362805</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>6,9Octadecadienoic acid, methyl ester</td>
+							<td>CID: 5365662</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>6-Heptenyl acetate</td>
+							<td>CID: 537537</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>8,11,14-Eicosatrienoic acid,(Z,Z,Z)-</td>
+							<td>CID: 5280581</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,10 Anthraquinone</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12,15-Octadecatrien-1-ol</td>
+							<td>CID: 5367327</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid</td>
+							<td>CID: 5280934</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid, methyl ester</td>
+							<td>CID: 5367462</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12,15-Octadecatrienoic acid, methyl ester,(Z,Z,Z)-</td>
+							<td>CID: 5319706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12-Octadecadienoic Acid, Ethyl Ester</td>
+							<td>CID: 5365672</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12-Octadecadienoic acid (Z, Z)-, methyl ester</td>
+							<td>CID: 5284421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,12-Octadecadienoyl chloride</td>
+							<td>CID: 98987</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9,19-Cyclolanostan-3?-ol, acetate</td>
+							<td>CID: 537304</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9-Hexadecenoic acid,(Z)-</td>
+							<td>CID: 445638</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9-Octadecenoic acid (Z)-methyl ester</td>
+							<td>CID: 5364509</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>9-Octadecynoic acid</td>
+							<td>CID: 68167</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>A&#x27;-Neogammacer - 22(29) -en-3-one</td>
+							<td>CID: 604937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Adipic acid, bis(2-ethylhexyl) ester</td>
+							<td>CID: 7641</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ajmalicine</td>
+							<td>CID: 441975</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ajmaline</td>
+							<td>CID: 6100671</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Alpha tumerone</td>
+							<td>CID: 14632996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Alpha.-turmerone</td>
+							<td>CID: 14632996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Antirhine</td>
+							<td>CID: 5462421</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ar turmerone</td>
+							<td>CID: 160512</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ascaridole epoxide</td>
+							<td>CID: 584498</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Aspidospermidine-3-carboxylic acid</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Aspidospermidine-3-carboxylic acid vindoline</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Aspidospermidine-3-carboxylic acid,</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Aspidospermidine-3-carboxylic acidvindoline</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzaldehyde</td>
+							<td>CID: 240</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzene, (1-pentyllheptyl)-</td>
+							<td>CID: 17629</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzene, 1,1&#x27;-[3-(2-Phenylethylidene)-1,5-Pentanediyl]Bis-</td>
+							<td>CID: 294750</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzene, 1-methyl-4-(1,2,2-trimethylcyclopentyl)</td>
+							<td>CID: 519346</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzene,(1-butyloctyl)</td>
+							<td>CID: 17630</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzene,1-Methyl-4-(1,2,2-Trimethylcyclopen</td>
+							<td>CID: 519346</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Benzofuran, 2,3-dihydro</td>
+							<td>CID: 10329</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Beta Iono</td>
+							<td>CID: 638014</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Beta tumeron</td>
+							<td>CID: 10921989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Beta.-Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Betulinaldehyde</td>
+							<td>CID: 99615</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Bicyclo[3.3.1]non-6-ene-3,9-dione</td>
+							<td>CID: 556259</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Bis (2-Ethylhexyl) Phthalate</td>
+							<td>CID: 8343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Bis (2-ethylhexyl) phthalate</td>
+							<td>CID: 8343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Bis (2ethylhexyl) phthalate</td>
+							<td>CID: 8343</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Bornyl acetate</td>
+							<td>CID: 93009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>CIS-7-Methylbicyclo[4.3.0]NON-3-ENE</td>
+							<td>CID: 13181413</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Campesterol</td>
+							<td>CID: 173183</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Catechol</td>
+							<td>CID: 289</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Catharanthine</td>
+							<td>CID: 5458190</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Catharine</td>
+							<td>CID: 11953924</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Catharosine</td>
+							<td>CID: 101686461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cedrol</td>
+							<td>CID: 65575</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Chlorozotocin</td>
+							<td>CID: 451706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cholest-5-en-3-ol (3.Beta.)-</td>
+							<td>CID: 5997</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cholesta-3,5-Diene</td>
+							<td>CID: 92835</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cholestan-3-one</td>
+							<td>CID: 85881</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cis-Inositol</td>
+							<td>CID: 892</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Citronellyl Acetate</td>
+							<td>CID: 9017</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Citronellyl Valerate</td>
+							<td>CID: 61416</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Condyfolan, 14,19-didehydro-12-methoxy-, (14E)-</td>
+							<td>CID: 5372292</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Coronaridine</td>
+							<td>CID: 6426909</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclododecasiloxane, tetracosamethyl</td>
+							<td>CID: 167767</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclododecene, (E)-</td>
+							<td>CID: 15164</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cycloheptasiloxane, tetradecamethyl-</td>
+							<td>CID: 7874</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclohexanol, 5-methyl-2-(1-methylethyl)-</td>
+							<td>CID: 1254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclononasiloxane, Octadecamethyl</td>
+							<td>CID: 11172</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclooctasiloxane, hexadecamethyl</td>
+							<td>CID: 11170</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Cyclooctasiloxane, hexadecamethyl-</td>
+							<td>CID: 11170</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>D-Galactitol-5-O-hexyl-</td>
+							<td>CID: 537907</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>D-allose</td>
+							<td>CID: 439507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>D-fructose</td>
+							<td>CID: 2723872</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>D:B-Friedo-B&#x27;:A&#x27;-neogammacer-5-en-3 beta-ol</td>
+							<td>CID: 12442794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dasycarpidan-1-methanol, acetate</td>
+							<td>CID: 550072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Deacetylvindoline</td>
+							<td>CID: 260534</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Decanoic acid</td>
+							<td>CID: 2969</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Deoxyspergualin</td>
+							<td>CID: 91272</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Desulfosinigrin</td>
+							<td>CID: 134160268</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Desulphosinigrin</td>
+							<td>CID: 9601716</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dichloroacetic acid, nonyl ester</td>
+							<td>CID: 522795</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Diethyl Phthalate</td>
+							<td>CID: 6781</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dimethyl palmitamine</td>
+							<td>CID: 16221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Docosane</td>
+							<td>CID: 12405</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Docosanoic acid</td>
+							<td>CID: 8215</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dodecane, 1,10 -oxybis-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dodecanoic acid, 10-undecen-1-yl ester</td>
+							<td>CID: 543988</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dodecanoic acid, methyl ester</td>
+							<td>CID: 8139</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Dotriacontane</td>
+							<td>CID: 11008</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Eicosane</td>
+							<td>CID: 8222</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Eicosyl Acetate</td>
+							<td>CID: 110347</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ergost-5-en-3ol,(3.Beta., 24R)-</td>
+							<td>CID: 6428659</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl (9z,12z)-9,12-Octadecadienoate</td>
+							<td>CID: 5282184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl (E)-9-Octadecenoate</td>
+							<td>CID: 44147693</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl 9 hexadecenoate</td>
+							<td>CID: 5364759</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl 9-Hexadecanoate</td>
+							<td>CID: 5364759</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl 9-Hexadecenoate</td>
+							<td>CID: 5364759</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl 9-Octadecenoate</td>
+							<td>CID: 8123</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl 9-hexadecenoate</td>
+							<td>CID: 5364759</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl Linoleic</td>
+							<td>CID: 5282184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl N-(o-anisyl) formimidate</td>
+							<td>CID: 601627</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl Nonadecanoate</td>
+							<td>CID: 29008</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl Oleate</td>
+							<td>CID: 5363269</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl Pentadecanoate</td>
+							<td>CID: 38762</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl docosanoate</td>
+							<td>CID: 22199</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl eicosanoate</td>
+							<td>CID: 29009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl linoleate</td>
+							<td>CID: 5282184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl nonadecanoate</td>
+							<td>CID: 29008</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ethyl palmitate</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Farnesol</td>
+							<td>CID: 445070</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ferruginol</td>
+							<td>CID: 442027</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Furan-3-One, Tetrahydro-2,2-Dimethyl-5-Phenyl-</td>
+							<td>CID: 568892</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: 637566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Geranyl Acetone</td>
+							<td>CID: 1549778</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Geranyl acetate</td>
+							<td>CID: 1549026</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Globulol</td>
+							<td>CID: 12304985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Guanosine</td>
+							<td>CID: 135398635</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Heneicosane</td>
+							<td>CID: 12403</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Henicosanal</td>
+							<td>CID: 12052911</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hentriacontane</td>
+							<td>CID: 12410</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Heptadecane, 7-methyl-</td>
+							<td>CID: 30398</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Heptadecanoic Acid, Ethyl Ester</td>
+							<td>CID: 26397</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Heptanal</td>
+							<td>CID: 8130</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Heptasiloxane, Hexadecamethyl</td>
+							<td>CID: 10912</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexacontane</td>
+							<td>CID: 24318</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecane, 1-Chloro</td>
+							<td>CID: 20993</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecanoic Acid, Ethyl Ester</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecanoic Acid, Trimethylsilyl Ester</td>
+							<td>CID: 521638</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecanoic acid, 2-hydroxy-1- (hydroxymethyl)ethyl ester</td>
+							<td>CID: 123409</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecanoic acid, ethyl ester</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexadecanoic acid, methyl ester</td>
+							<td>CID: 8181</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexanedioic acid, bis(2-ethylhexyl) ester</td>
+							<td>CID: 7641</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexathiane</td>
+							<td>CID: 139602</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hexatriacontane</td>
+							<td>CID: 12412</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Hydroxytabersonine</td>
+							<td>CID: 138911113</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Isopropyl palmitate</td>
+							<td>CID: 8907</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Isositsirikine</td>
+							<td>CID: 6436828</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Isovindolinine</td>
+							<td>CID: 120879</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>L(+)-Glutaminic acid hydrochlo</td>
+							<td>CID: 2723891</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>L-Alanine, N-acetyl-</td>
+							<td>CID: 88064</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>L-Glucose</td>
+							<td>CID: 10954115</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>L-Glutamine,N2 [(phenyl methoxy)carbonyl]-</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lanosta-8,24-dien-3-one</td>
+							<td>CID: 3036241</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lanosterol</td>
+							<td>CID: 246983</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Limonen-6-ol, pivalate</td>
+							<td>CID: 545235</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Linoleic Acid Ethyl Ester</td>
+							<td>CID: 5282184</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lochneridine</td>
+							<td>CID: 10860758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lup-20(29)-en-3-one</td>
+							<td>CID: 92158</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lup-20(29)-en-3?-ol, acetate</td>
+							<td>CID: 92157</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Lycopene 7</td>
+							<td>CID: 446925</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Methyl 17-methyl-octadecanoate</td>
+							<td>CID: 554141</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Methyl 8,11,14-heptadecatrienoate</td>
+							<td>CID: 85978449</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Methyl Phenyl Sulfoxide</td>
+							<td>CID: 14516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Methyl tetradecanoate</td>
+							<td>CID: 31284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dresearchgate.net">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Minovincinine</td>
+							<td>CID: 57506228</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Mome inositol</td>
+							<td>CID: 892</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Myo-Inositol, 4-C-methyl-</td>
+							<td>CID: 244581</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>N-(1-Methoxycarbonyl-1-methylethyl)-4-methyl-2-aza-1,3-dioxane</td>
+							<td>CID: 588924</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.saa.2014.07.010">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>N-desmethyltramadol</td>
+							<td>CID: 198555</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Naphthalene</td>
+							<td>CID: 931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Neophytadiene</td>
+							<td>CID: 10446</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Nonadecane</td>
+							<td>CID: 12401</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Norseredamine</td>
+							<td>CID: 5379001</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>O,N-Permethylated N-Acetyllysine</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecane, 1-iodo-</td>
+							<td>CID: 12402</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecane, 3-ethyl-5-(2-ethylbutyl)-</td>
+							<td>CID: 292285</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecane,3-ethyl-5-(2-ethylbutyl)-</td>
+							<td>CID: 292285</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecanoic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecanoic acid, 2,3-dihydroxypropyl ester</td>
+							<td>CID: 24699</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octadecanoic acid, Methyl ester</td>
+							<td>CID: 8201</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octanoic acid, phenylmethyl ester</td>
+							<td>CID: 82511</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Octathiocane</td>
+							<td>CID: 66348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Olean-12-en-3?-ol, acetate</td>
+							<td>CID: 345510</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Oleic Acid, Trimethylsilyl Ester</td>
+							<td>CID: 5366433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Oleic acid, Trimethylsilyl ester</td>
+							<td>CID: 5366433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Oxacycloheptadec-8-En-2-One, (8z)</td>
+							<td>CID: 5365703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Oxacycloheptadec-8En-2-One</td>
+							<td>CID: 31267</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Oxalic Acid, 3,5-Difluorophenyl Tetradecyl Ester</td>
+							<td>CID: 6420795</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Patchouli alcohol</td>
+							<td>CID: 10955174</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pentacosane</td>
+							<td>CID: 12406</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pentadecanoic Acid, Trimethylsilyl Ester</td>
+							<td>CID: 523679</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pentadecanoic acid</td>
+							<td>CID: 13849</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pericyclivine</td>
+							<td>CID: 11969544</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Perivine</td>
+							<td>CID: 6473766</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phenethylamine, alpha-ethyl</td>
+							<td>CID: 103771</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phenol, 2,4-Bis(1,1-dimethylethyl)</td>
+							<td>CID: 7311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phenol, 3,5-Di-Tert-Butyl-</td>
+							<td>CID: 70825</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phosphine Oxide, bis(Pentamethylphenyl)-</td>
+							<td>CID: 6329926</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phthalic acid, butyl tetradecyl ester</td>
+							<td>CID: 6423452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phthalic acid, di (oct-3-yl) ester</td>
+							<td>CID: 15764573</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phthalic acid, di(oct-3-yl) ester</td>
+							<td>CID: 15764573</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phthalic acid, di-(1-hexen-5- yl) ester</td>
+							<td>CID: 590929</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phthalic acid, isobutyl octadecyl ester</td>
+							<td>CID: 6423451</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Phytol</td>
+							<td>CID: 5280435</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Piperidine, 1-nitro-</td>
+							<td>CID: 23506</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Piperidine, 3-phenyl-</td>
+							<td>CID: 107207</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pleiocarpamine</td>
+							<td>CID: 5385014</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Prednisolone hemisuccinate</td>
+							<td>CID: 656804</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Psicofuranine</td>
+							<td>CID: 65086</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Pyridine, 3-(1-methyl-2-pyrrolidinyl)-, (s)- (Nicotine)</td>
+							<td>CID: 89594</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Quinic acid</td>
+							<td>CID: 6508</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Quinoline, 1,2-dihydro-2,2,4-trimethyl-</td>
+							<td>CID: 8981</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>R (-)-2-Amino-1-butanol</td>
+							<td>CID: 2723856</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Reserpine</td>
+							<td>CID: 5770</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Resorcinol</td>
+							<td>CID: 5054</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Rhamnitol, 1-O-decyl-</td>
+							<td>CID: 552216</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Salicylic Acid</td>
+							<td>CID: 338</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Salicylic Acid, 2-Methylbutyl Ether, 2-Methylbutyl Ester</td>
+							<td>CID: 91715918</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Serpentine</td>
+							<td>CID: 73391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Sitsirikine</td>
+							<td>CID: 3050539</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Squalene</td>
+							<td>CID: 638072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Stearic acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Stigmast-5-en-3-ol(3.Beta.), (b- sitosterol)</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Stigmastane-3,6-dione</td>
+							<td>CID: 13992093</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Stigmastanol</td>
+							<td>CID: 241572</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Sucrose</td>
+							<td>CID: 5988</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tabersonine</td>
+							<td>CID: 20485</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetraacetyl-d-xylonic nitrile</td>
+							<td>CID: 541568</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetracontane</td>
+							<td>CID: 20149</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetracosane</td>
+							<td>CID: 12592</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetradecane</td>
+							<td>CID: 12389</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetradecanoic Acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetradecanoic acid</td>
+							<td>CID: 11005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetrahydroalstonine</td>
+							<td>CID: 72340</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetrapentacontane</td>
+							<td>CID: 521846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tetraphyllicine</td>
+							<td>CID: 6436266</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Thiosulfuric acid(H2S2O3), S-(2-aminoethyl) ester</td>
+							<td>CID: 76242</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Trichophylline</td>
+							<td>CID: 101288314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tricosane</td>
+							<td>CID: 12534</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tricosyl acetate</td>
+							<td>CID: 13908470</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tricyclo[4.4.0.0(2,7)]dec-3-ene, 1,3-dimethyl-8-(1-methylethyl)-, (1S,2R,6R,7R,8S)-</td>
+							<td>CID: 20055075</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tridecanoic acid</td>
+							<td>CID: 12530</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1007/s40502-021-00595-z">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Trimethylsilyl ester</td>
+							<td>CID: 15920054</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Tris (2,4-di-tert-butylphenyl) phosphate</td>
+							<td>CID: 14572930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Undecane</td>
+							<td>CID: 14257</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.14704/NQ.2022.20.15.NQ88378">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Urea</td>
+							<td>CID: 1176</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.dib.2020.105258">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Ursolic aldehyde</td>
+							<td>CID: 14423519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vellosiminol</td>
+							<td>CID: 10469722</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vinblastine</td>
+							<td>CID: 13342</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vincoline</td>
+							<td>CID: 3032566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vincristine</td>
+							<td>CID: 5978</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vindolicine</td>
+							<td>CID: 159614</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vindoline</td>
+							<td>CID: 260535</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vindolinine</td>
+							<td>CID: 24148538</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vindorosine</td>
+							<td>CID: 11618751</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.15835/NBHA44110127">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vinleurosine</td>
+							<td>CID: 259898</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.foodchem.2013.01.088">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vinpocetine</td>
+							<td>CID: 443955</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Vitamin E acetate</td>
+							<td>CID: 86472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Yohimbine</td>
+							<td>CID: 8969</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1002/rcm.8037">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>Z,Z-2,5-Pentadecadien-1-Ol</td>
+							<td>CID: 5364952</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.51470/PLANTARCHIVES.2023.v23.no2.026">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>[1,1-Bicyclopropyl]-2-octanoic acid, 2-hexyl-, methyl ester</td>
+							<td>CID: 552098</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>alpha-D-Glucopyranoside,O-alpha-Dglucopyranosyl-(1.fwdarw.3)-beta-d-fru</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/separations10060340">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>alpha-Eudesmol</td>
+							<td>CID: 92762</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>alpha.-Tocopherol-.beta.-D-mannose</td>
+							<td>CID: 597057</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>beta-Ionol</td>
+							<td>CID: 5373729</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>cis-11-Eicosenamide</td>
+							<td>CID: 5365374</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//dx.doi.org/10.22271/phyto.2022.v11.i5c.14504">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>citronellyl 2-methylpropanoate</td>
+							<td>CID: 60985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.13057/biodiv/d210409">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>gamma-Eudesmol</td>
+							<td>CID: 6432005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%5BPDF%5Dacademia.edu">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>l-Gala-l-ido-octonic lactone</td>
+							<td>CID: 219893</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Catharanthus roseus</td>
+							<td>
+								
+								Madagascar periwinkle, Rose periwinkle, Vinca
+								
+							</td>
+							<td>n-Hexadecanoic acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2019.v12i3.">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

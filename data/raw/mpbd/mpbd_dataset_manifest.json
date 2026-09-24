@@ -1,0 +1,28 @@
+{
+  "dataset_name": "mpbd_plant_index",
+  "dataset_version": "v1.0.0",
+  "source": "MPBD (Medicinal Plants of Bangladesh)",
+  "source_base_url": "https://mpbd.cu.ac.bd/plants.php",
+  "collection_run_timestamp": "2026-09-22T16:26:45.042578+00:00",
+  "frozen_at": "2026-09-22T22:35:00+06:00",
+  "page_count": 93,
+  "raw_rows": 921,
+  "duplicates_removed": 5,
+  "unique_records": 916,
+  "final_csv": "data/raw/mpbd/mpbd_plant_index.csv",
+  "final_sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7",
+  "cache_html_files": 93,
+  "verified_pages": 73,
+  "backfilled_pages": 20,
+  "rate_limit_seconds": 1.5,
+  "schema": [
+    "scientific_name",
+    "synonym",
+    "family",
+    "source_page_url",
+    "scrape_timestamp"
+  ],
+  "duplicate_key": "scientific_name + family (exact match, whitespace-trimmed)",
+  "attrition_log": "data/attrition/mpbd_attrition.csv",
+  "provenance_notes": "scrapers/cache/mpbd/backfill_notes.csv"
+}

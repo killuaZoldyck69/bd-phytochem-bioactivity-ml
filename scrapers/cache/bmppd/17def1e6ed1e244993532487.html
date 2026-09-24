@@ -1,0 +1,1857 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Desmos chinensis"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Desmos chinensis</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>1,8-Cineole</td>
+							<td>CID: 2758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>2&#x27;,3&#x27;-Dihydroxy-4&#x27;,6&#x27;-dimethoxydihydrochalcone</td>
+							<td>CID: 42607714</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>2&#x27;,4&#x27;-Dihydroxy-3&#x27;-(2,6-dihydroxybenzyl)-6&#x27;-methoxychalcone</td>
+							<td>CID: 91614562</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>2-Decenal</td>
+							<td>CID: 5283345</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>4,7-Dihydroxy-5-methoxy-6-methyl-8-formylflavan</td>
+							<td>CID: 129394</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Anisole</td>
+							<td>CID: 7519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Aromadendrene</td>
+							<td>CID: 11095734</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>BETA-CARYOPHYLLENE</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Benzaldehyde</td>
+							<td>CID: 240</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Benzenemethanol, 2-methoxy-, benzoate</td>
+							<td>CID: 3085295</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Benzoic Acid</td>
+							<td>CID: 243</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Benzyl Benzoate</td>
+							<td>CID: 2345</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Beta-Elemene</td>
+							<td>CID: 6918391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Beta-Sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Bicycloelemene</td>
+							<td>CID: 56842786</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Cadina-1,4-diene</td>
+							<td>CID: 6427091</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Camphene</td>
+							<td>CID: 6616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Daucosterol</td>
+							<td>CID: 5742590</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Delta-Cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Desmethoxymatteucinol</td>
+							<td>CID: 625031</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Desmosflavone</td>
+							<td>CID: 369598</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Eucryphin</td>
+							<td>CID: 274911633</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Farnesyl acetate</td>
+							<td>CID: 638500</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Geijerene</td>
+							<td>CID: 12310053</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Germacrene B</td>
+							<td>CID: 5281519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Germacrene D</td>
+							<td>CID: 5317570</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Isounonal</td>
+							<td>CID: 194004</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Lawinal</td>
+							<td>CID: 189152</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Menthone</td>
+							<td>CID: 26447</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Methyl ether</td>
+							<td>CID: 8254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Mosloflavone</td>
+							<td>CID: 471722</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Myrcene</td>
+							<td>CID: 31253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>NEROLIDOL</td>
+							<td>CID: 5284507</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Negletein</td>
+							<td>CID: 471719</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Nonanal</td>
+							<td>CID: 31289</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Quercitrin</td>
+							<td>CID: 5280459</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Sabinen</td>
+							<td>CID: 18818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Salvial-4(14)-en-1-one</td>
+							<td>CID: 42608172</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Stearic Acid</td>
+							<td>CID: 5281</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: 5280794</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Succinic Acid</td>
+							<td>CID: 1110</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>T-Muurolol</td>
+							<td>CID: 3084331</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>TRANS-ASARONE</td>
+							<td>CID: 636822</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Terpinen-4-ol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Terpinolene</td>
+							<td>CID: 11463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Unonal</td>
+							<td>CID: 25076214</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>Uvaretin</td>
+							<td>CID: 73447</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//core.ac.uk/download/pdf/14980685.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Amorphene</td>
+							<td>CID: 12306052</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Bergamotene</td>
+							<td>CID: 86608</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Cadinene</td>
+							<td>CID: 12306048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Cadinol</td>
+							<td>CID: 519662</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Calacorene</td>
+							<td>CID: 12302243</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Cederene</td>
+							<td>CID: 442348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Copaene</td>
+							<td>CID: 19725</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Cubebene</td>
+							<td>CID: 86609</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Farnesene</td>
+							<td>CID: 5362889</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Guaiene</td>
+							<td>CID: 5317844</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Gurjunene</td>
+							<td>CID: 15560275</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Humulene</td>
+							<td>CID: 5281520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-PINENE</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Terpinene</td>
+							<td>CID: 7462</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>alpha-Ylangene</td>
+							<td>CID: 442409</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta Farnesene</td>
+							<td>CID: 15228937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Caryophyllene</td>
+							<td>CID: 20831623</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Cedrene</td>
+							<td>CID: 11106485</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Cubebene</td>
+							<td>CID: 93081</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Gurjunene</td>
+							<td>CID: 6450812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-OCIMENE</td>
+							<td>CID: 5281553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>beta-Selinene</td>
+							<td>CID: 28237</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>cis-3-Hexenyl benzoate</td>
+							<td>CID: 5367706</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//journals.sagepub.com/doi/abs/10.1177/1934578X1200700531">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>cis-Asarone</td>
+							<td>CID: 5281758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>endo-1-Bourbonanol</td>
+							<td>CID: 12301996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>gamma-Cadinene</td>
+							<td>CID: 15094</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>gamma-Terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Desmos chinensis</td>
+							<td>
+								
+								Chinese desmos, Desmos vine
+								
+							</td>
+							<td>iso-Menthone</td>
+							<td>CID: 6986</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.tandfonline.com/doi/abs/10.1080/0972060X.2012.10662610">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,2397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Holarrhena pubescens"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Holarrhena pubescens</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>7-Hydroxy-4-methylcoumarin</td>
+							<td>CID: 5280567</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Baicalein</td>
+							<td>CID: 5281605</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Balsaminagenin B</td>
+							<td>CID: 44555453</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Balsaminol A</td>
+							<td>CID: 44607276</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Berberine</td>
+							<td>CID: 2353</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Biochanin A</td>
+							<td>CID: 5280373</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Caffeic acid</td>
+							<td>CID: 689043</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Canthaxanthin</td>
+							<td>CID: 5281227</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Capsaicin</td>
+							<td>CID: 1548943</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Carnosic acid</td>
+							<td>CID: 65126</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Carnosol</td>
+							<td>CID: 442009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Catharanthine</td>
+							<td>CID: 5458190</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Chlorogenic acid Hemihydrate</td>
+							<td>CID: 71306904</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Conessine</td>
+							<td>CID: 441082</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Coumarins</td>
+							<td>CID: 54678486</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Curcumin</td>
+							<td>CID: 969516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Cystathionine</td>
+							<td>CID: 834</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>D-(-)-Quinic acid</td>
+							<td>CID: 6508</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>D-Glucuronic acid</td>
+							<td>CID: 94715</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>DL-Dihydrozeatin</td>
+							<td>CID: 32021</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Diospyrin</td>
+							<td>CID: 308140</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Ellagic acid</td>
+							<td>CID: 5281855</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Esculin sesquihydrate</td>
+							<td>CID: 16211025</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Falcarindiol</td>
+							<td>CID: 5281148</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Farnesol</td>
+							<td>CID: 445070</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Ferruginol</td>
+							<td>CID: 442027</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Fusaric acid</td>
+							<td>CID: 3442</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Gallic acid</td>
+							<td>CID: 370</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Genistein</td>
+							<td>CID: 5280961</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Geraniol</td>
+							<td>CID: 637566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Harmaline</td>
+							<td>CID: 3564</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Indirubin</td>
+							<td>CID: 10177</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Isoflavone</td>
+							<td>CID: 72304</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Isopimaric acid</td>
+							<td>CID: 442048</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Juliflorine</td>
+							<td>CID: 442644</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Karavilagenin C</td>
+							<td>CID: 46182790</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Lignoceric Acid</td>
+							<td>CID: 11197</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Linoleic acid</td>
+							<td>CID: 5280450</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Liquiritin</td>
+							<td>CID: 503737</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Mangostin</td>
+							<td>CID: 5281650</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>N-Acetyl-Phytosphingosine</td>
+							<td>CID: 10451108</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Oleanolic acid</td>
+							<td>CID: 10494</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Olympicin A</td>
+							<td>CID: 57380109</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Orobol</td>
+							<td>CID: 5281801</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Osthol</td>
+							<td>CID: 10228</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Palmatine</td>
+							<td>CID: 19009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Piperine</td>
+							<td>CID: 638024</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Pterocarpan</td>
+							<td>CID: 6451349</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Quinine</td>
+							<td>CID: 3034034</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Reserpine</td>
+							<td>CID: 5770</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Resveratrol</td>
+							<td>CID: 445154</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Salicylic acid</td>
+							<td>CID: 338</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Sarothrin</td>
+							<td>CID: 5386960</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Scoulerin</td>
+							<td>CID: 439654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Silybin</td>
+							<td>CID: 31553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Sodium Deoxycholate</td>
+							<td>CID: 23668196</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Tetrandrine</td>
+							<td>CID: 73078</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Theobromine</td>
+							<td>CID: 5429</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Totarol</td>
+							<td>CID: 92783</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Uvaol</td>
+							<td>CID: 92802</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jpha.2019.11.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>Xanthosine</td>
+							<td>CID: 64959</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>acacetin</td>
+							<td>CID: 5280442</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>ailanthinone</td>
+							<td>CID: 441784</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>ajmalicine</td>
+							<td>CID: 441975</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>ajmaline</td>
+							<td>CID: 6100671</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>aminoguanidine</td>
+							<td>CID: 2146</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jsps.2023.04.009">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>apigenin</td>
+							<td>CID: 5280443</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>beta-sitosterol</td>
+							<td>CID: 222284</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2020.112446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>carvacrol</td>
+							<td>CID: 10364</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>caryophyllene</td>
+							<td>CID: 5281515</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>chitranone</td>
+							<td>CID: 633072</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2020.112446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>cinnamyl tiglate</td>
+							<td>CID: 5367766</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>cordifolioside A</td>
+							<td>CID: 45359937</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>curcumene</td>
+							<td>CID: 92139</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>cycloeucalenol</td>
+							<td>CID: 101690</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.phytol.2015.04.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>elliptinone</td>
+							<td>CID: 146680</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2020.112446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>ethyl gallate</td>
+							<td>CID: 13250</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>eugenol</td>
+							<td>CID: 3314</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>excelsin</td>
+							<td>CID: 49866283</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>friedelin</td>
+							<td>CID: 91472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>glaucarubol</td>
+							<td>CID: 225484</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>jatrorrhizine</td>
+							<td>CID: 72323</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>lupeol</td>
+							<td>CID: 259846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.phytol.2015.04.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>lupeol acetate</td>
+							<td>CID: 92157</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.phytol.2015.04.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>luteolin</td>
+							<td>CID: 5280445</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>magnoflorine</td>
+							<td>CID: 73337</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>mangiferin</td>
+							<td>CID: 5281647</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>mangiferolic acid</td>
+							<td>CID: 45270099</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>manglupenone</td>
+							<td>CID: 131751009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>menthol</td>
+							<td>CID: 1254</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>n-heneicosane</td>
+							<td>CID: 12403</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>n-triacontane</td>
+							<td>CID: 12535</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.4103/0973-7847.65325">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>oleanolic acid</td>
+							<td>CID: 10494</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.phytol.2015.04.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>palmatine</td>
+							<td>CID: 19009</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>plumbagin</td>
+							<td>CID: 10205</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2020.112446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>pubadysone</td>
+							<td>CID: 12044303</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0031-9422%2801%2900330-2">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>pubamide</td>
+							<td>CID: 12044304</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0031-9422%2801%2900330-2">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>puboestrene</td>
+							<td>CID: 92846</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/S0031-9422%2801%2900330-2">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>reserpine</td>
+							<td>CID: 5770</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>serpentine</td>
+							<td>CID: 73391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>thymol</td>
+							<td>CID: 6989</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/pathogens10050524">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>tinocordiside</td>
+							<td>CID: 177384</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>ursolic acid</td>
+							<td>CID: 64945</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.phytol.2015.04.013">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>yangambin</td>
+							<td>CID: 443028</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2015.08.001">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>yohimbine</td>
+							<td>CID: 8969</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.jep.2022.115327">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Holarrhena pubescens</td>
+							<td>
+								
+								Dhangun, Indrajav, Kuchla
+								
+							</td>
+							<td>zeylanone</td>
+							<td>CID: 5276618</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.1016/j.indcrop.2020.112446">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

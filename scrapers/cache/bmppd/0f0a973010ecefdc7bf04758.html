@@ -1,0 +1,4417 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Curcuma ZEDOARIA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Curcuma ZEDOARIA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>(3Z)-Hexenyl methyl carbonate</td>
+							<td>CID: 5365699</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>(E)-?-ocimene</td>
+							<td>CID: 5281553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1,2,4-Trimethoxyethyl benzene</td>
+							<td>CID: 129864133</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1,2-Dihydro-1,1,6-trimethyl-naphthalene</td>
+							<td>CID: 121677</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1,6-dimethyl-9-91-metiletiliden)-5.12-dioxatricylododecan-8-one</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1,8-cineole</td>
+							<td>CID: 2758</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1-Methylnaphthalene</td>
+							<td>CID: 7002</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1-butene,4-isothiocyanato</td>
+							<td>CID: 76922</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>1-octen-3-ol</td>
+							<td>CID: 18827</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2(3H)-Furanone,5 methyl</td>
+							<td>CID: 7714</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2(3H)-furanone</td>
+							<td>CID: 140765</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2,4-cycloheptadien-I</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-Heptanol</td>
+							<td>CID: 10976</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-Heptanone</td>
+							<td>CID: 8051</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-Nonanone</td>
+							<td>CID: 13187</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/0972060X.2014.895196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-Undecanol</td>
+							<td>CID: 15448</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-heptanol</td>
+							<td>CID: 10976</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-hydroxycyclopent-2-en-1-one</td>
+							<td>CID: 82674</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-nonanol</td>
+							<td>CID: 12367</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-octanole</td>
+							<td>CID: 20083</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>2-undecanone</td>
+							<td>CID: 8163</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>3,5,7-trihydroxy-4-methoxyflavone</td>
+							<td>CID: 5281612</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2020.v13i7.38249">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>3-Hepten-6-ol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>3-bromocholest-5-ene</td>
+							<td>CID: 101735</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>4-Methoxystilbene</td>
+							<td>CID: 1245920</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>5-isopropylidene-3,8-dimethyl-1(5H)-azulenone</td>
+							<td>CID: 11264315</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1142/S0192415X0400193X">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>6,9-Guaiadiene</td>
+							<td>CID: 527113</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>7-methoxy coumarin</td>
+							<td>CID: 10748</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.22159/ajpcr.2020.v13i7.38249">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>?-(E)-Atlantone</td>
+							<td>CID: 57335475</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>?-(E)-Atlantone</td>
+							<td>CID: 91698330</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Acetic acid</td>
+							<td>CID: 176</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Aciphyllene</td>
+							<td>CID: 565709</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Allyl(ethoxy) dimethylsilane</td>
+							<td>CID: 568563</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Aromadendrene</td>
+							<td>CID: 91354</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Aromadendrene oxide-(II)</td>
+							<td>CID: 16211192</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Ascorbic acid</td>
+							<td>CID: 54670067</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.3109/01480540903170738">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Bicycloelemene</td>
+							<td>CID: 56842786</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Butyl stearate</td>
+							<td>CID: 31278</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Carvone</td>
+							<td>CID: 7439</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Cyclooctyl acetate</td>
+							<td>CID: 69877</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Cyclopent-4-ene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Cyclopentane carboxylic acid</td>
+							<td>CID: 18840</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Cylopentanone</td>
+							<td>CID: 8452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Docosanoic acid</td>
+							<td>CID: 8215</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Epiglobulol</td>
+							<td>CID: 11858788</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.29303/jfh.v2i1.3103">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Ethyl 9-hexadecenoate</td>
+							<td>CID: 5364759</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Ethyl p-methoxycinnamate</td>
+							<td>CID: 5281783</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Formic acid,2-propenyl ester</td>
+							<td>CID: 61278</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Furanodiene</td>
+							<td>CID: 636458</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/0972060X.2014.895196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Furanodienone</td>
+							<td>CID: 6506548</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/0972060X.2014.895196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Germacrene A</td>
+							<td>CID: 9548705</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Germacrene D</td>
+							<td>CID: 5317570</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/0972060X.2014.895196">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Globulol</td>
+							<td>CID: 12304985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Guaia-1(10),11-diene</td>
+							<td>CID: 94275</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Hexadecanoic Acid</td>
+							<td>CID: 985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.29303/jfh.v2i1.3103">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Hexadecanoic acidEthyl Ester</td>
+							<td>CID: 12366</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Hexahydrofarnesylacetone</td>
+							<td>CID: 10408</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>I-tridecene</td>
+							<td>CID: 17095</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Isopropyl Myristate</td>
+							<td>CID: 8042</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.29303/jfh.v2i1.3103">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Lipifoli-1(6)en-4-ol-5-on</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Myrtenol</td>
+							<td>CID: 10582</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Pentadecanoic acid</td>
+							<td>CID: 13849</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Perillyl alcohol</td>
+							<td>CID: 10819</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Phenol</td>
+							<td>CID: 996</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Propanoic acid</td>
+							<td>CID: 1032</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Pyrrolidine</td>
+							<td>CID: 31268</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Selina-4,11-diene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Spathulenol</td>
+							<td>CID: 92231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.29303/jfh.v2i1.3103">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Succinic acid</td>
+							<td>CID: 1110</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.13040/IJPSR.0975-8232.14%2810%29.4854-59">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>T-cadinol</td>
+							<td>CID: 160799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>T-muurol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Thuja-2,4(10)-diene</td>
+							<td>CID: 524198</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Tricyclene</td>
+							<td>CID: 79035</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Verbenone</td>
+							<td>CID: 29025</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Viridiflorol</td>
+							<td>CID: 11996452</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.29303/jfh.v2i1.3103">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Z)-?-ocimene</td>
+							<td>CID: 5320250</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>Zerumbone</td>
+							<td>CID: 5470187</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>aerugidiol</td>
+							<td>CID: 11776892</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha Fenchene</td>
+							<td>CID: 28930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha Thujene</td>
+							<td>CID: 637518</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha agarofuran</td>
+							<td>CID: 10857022</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha amorphene</td>
+							<td>CID: 101708</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha copaene</td>
+							<td>CID: 12303902</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha cubebene</td>
+							<td>CID: 86609</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha cuparenol</td>
+							<td>CID: 5316200</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha curcumene</td>
+							<td>CID: 92139</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha elemol</td>
+							<td>CID: 6429032</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha muurolene</td>
+							<td>CID: 12306047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha phellandrene</td>
+							<td>CID: 7460</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha pinene</td>
+							<td>CID: 6654</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha santlene</td>
+							<td>CID: 94164</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha terpineol</td>
+							<td>CID: 17100</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha terpinyl acetate</td>
+							<td>CID: 111037</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>alpha-tocopherol</td>
+							<td>CID: 14985</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.3109/01480540903170738">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>anisaldehyde</td>
+							<td>CID: 31244</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>ar- turmerone</td>
+							<td>CID: 160512</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>azulene</td>
+							<td>CID: 9231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>benzo [1,2-b: 4,3-b&#x27;] dipiran-3,6-dion-2,2-dimethy</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>benzofuranone</td>
+							<td>CID: 68382</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>benzotazola-2-thiol, - siperon</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>benzyl benzoate</td>
+							<td>CID: 2345</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta Chamigrene</td>
+							<td>CID: 29073</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta bourbonene</td>
+							<td>CID: 62566</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta elemene</td>
+							<td>CID: 6918391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta eudesmol</td>
+							<td>CID: 91457</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta pinene</td>
+							<td>CID: 14896</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta salinene</td>
+							<td>CID: 442393</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta-carotene</td>
+							<td>CID: 5280489</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.3109/01480540903170738">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>beta-sesquiphellndrene</td>
+							<td>CID: 12315492</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>bisdemothxycurcumin</td>
+							<td>CID: 5315472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>borneol</td>
+							<td>CID: 64685</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>calcaratarin A</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>calcaratarin A</td>
+							<td>CID: 10689094</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>camphene</td>
+							<td>CID: 6616</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>camphene hydrate</td>
+							<td>CID: 101680</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>camphor</td>
+							<td>CID: 2537</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>caryophyllene oxide</td>
+							<td>CID: 1742210</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis Pinocamphone</td>
+							<td>CID: 84532</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis alpha bergamotene</td>
+							<td>CID: 6429303</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-4-heptenal</td>
+							<td>CID: 5362814</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-?-elemenone</td>
+							<td>CID: 12314814</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-Carveol</td>
+							<td>CID: 330573</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-Piperitol</td>
+							<td>CID: 85567</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-Sabinene hydrate</td>
+							<td>CID: 20055523</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-cinnamic acid</td>
+							<td>CID: 5372954</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-p-Menth-2-en-1-ol</td>
+							<td>CID: 5319367</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cis-p-Mentha-2,8-dien-1-ol</td>
+							<td>CID: 5319363</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>comosone II</td>
+							<td>CID: 25158371</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cubebol</td>
+							<td>CID: 11276107</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curcumanolide A</td>
+							<td>CID: 14191393</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curcumenol</td>
+							<td>CID: 167812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curcuzedoalide</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curdione</td>
+							<td>CID: 6441391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curzerene</td>
+							<td>CID: 572766</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>curzerenone</td>
+							<td>CID: 3081930</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cyclohexane</td>
+							<td>CID: 8078</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cyclopentylmethanol</td>
+							<td>CID: 77195</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>cyperene</td>
+							<td>CID: 12308843</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>dehydrocurdione</td>
+							<td>CID: 6442617</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>delta cadinene</td>
+							<td>CID: 441005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>delta elemene</td>
+							<td>CID: 89316</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>delta-3-carene</td>
+							<td>CID: 26049</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>demothxycurcumin</td>
+							<td>CID: 5469424</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>di-p-coumaroylmethane</td>
+							<td>CID: 5315472</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>diferuloylmethane</td>
+							<td>CID: 969516</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>dihydrocurcumin</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>dihyrocurdione</td>
+							<td>CID: 6442617</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>elemena</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>elemol</td>
+							<td>CID: 92138</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>epi-curzerenone</td>
+							<td>CID: 5315433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>epialpha-Cadinol</td>
+							<td>CID: 160799</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>eucarvone</td>
+							<td>CID: 136330</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>exo-Acetoxy camphene</td>
+							<td>CID: 121006638</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>gamma eudesmol</td>
+							<td>CID: 6432005</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>gamma gurjunene</td>
+							<td>CID: 90805</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>gamma terpinene</td>
+							<td>CID: 7461</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>germacrene B</td>
+							<td>CID: 5281519</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>germacrone</td>
+							<td>CID: 6436348</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>germacrone-4, 5-epoxide</td>
+							<td>CID: 13922652</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>gweicurculactone</td>
+							<td>CID: 130117</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>hexanol</td>
+							<td>CID: 8103</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>iso-Germacrene D</td>
+							<td>CID: 91723653</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>isoborneol</td>
+							<td>CID: 6321405</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>isolongifolen</td>
+							<td>CID: 90971</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>isovelleral</td>
+							<td>CID: 37839</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>labda-8(17), 12 diene-15, 16 dial</td>
+							<td>CID: 11077520</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>ledol</td>
+							<td>CID: 92812</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>limonene</td>
+							<td>CID: 22311</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>linalool</td>
+							<td>CID: 6549</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>madolin A</td>
+							<td>CID: 10561685</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.thepharmajournal.com/archives/2022/vol11issue1/PartA/11-1-61-812.pdf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>monoterpene hydrocarbones</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>myrcene</td>
+							<td>CID: 31253</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>naphthalene</td>
+							<td>CID: 931</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.researchgate.net/publication/271509662_Chemical_composition_and_antibacterial_properties_of_the_essential_oil_and_organic_extracts_of_Curcuma_zedoaria_Leaf">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>neocurdione</td>
+							<td>CID: 24836956</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>o-cymene</td>
+							<td>CID: 10703</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>occidentalol</td>
+							<td>CID: 11138655</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>oxygenated monoterpines</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>oxygenated sequiterpenes</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>p-Cymen-8-ol</td>
+							<td>CID: 14529</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>p-cymene</td>
+							<td>CID: 7463</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>pentadecane</td>
+							<td>CID: 12391</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>procurcumenol</td>
+							<td>CID: 189061</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>sabinene</td>
+							<td>CID: 18818</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>second monoclinic curcumenol</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>selina-4(15),11-diene</td>
+							<td>CID: 6429320</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>selina-4(15),7(11)-dien-8-one</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2005.9698821">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>sequiterpene hyrocarbons</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>spathulenol</td>
+							<td>CID: 92231</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>styrene</td>
+							<td>CID: 7501</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>terpinen-4-ol</td>
+							<td>CID: 11230</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/10412905.2005.9698846">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>tetradecane</td>
+							<td>CID: 12389</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1177/09731296231166055">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>tetrahydrobismethoxycurcumin</td>
+							<td>CID: 9796792</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>tetrahyrodemothxycurcumin</td>
+							<td>CID: 9906039</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans alpha bergamotene</td>
+							<td>CID: 6429302</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-Cadina-1(6),4-diene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-Carveol</td>
+							<td>CID: 94221</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-Pinocarveol</td>
+							<td>CID: 88302</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1016/j.fbio.2013.06.002">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-Pinocarvyl acetate</td>
+							<td>CID: 102553</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-Sativene</td>
+							<td>CID: -</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-beta-Guaiene</td>
+							<td>CID: 92173696</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>trans-p-Mentha-2,8-dien-1-ol</td>
+							<td>CID: 111274</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//doi.org/10.3390/plants11151932">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zederone</td>
+							<td>CID: 101286196</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zedoarondiol</td>
+							<td>CID: 24834047</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zerumbone</td>
+							<td>CID: 5470187</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.1080/0972060X.2017.1362997">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zerumbone epoxide</td>
+							<td>CID: 5463724</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%2010.1211/jpp/61.01.0003">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zerumin A</td>
+							<td>CID: 11723433</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=http%3A//dx.doi.org/10.1155/2014/321943">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>curcuma zedoaria</td>
+							<td>
+								
+								Round turmeric, White turmeric, Zedoary
+								
+							</td>
+							<td>zingiberene</td>
+							<td>CID: 92776</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A%2010.1080/10412905.2006.9699050">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

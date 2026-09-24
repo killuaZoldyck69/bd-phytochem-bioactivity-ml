@@ -1,0 +1,1298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Abu Sadat Soash">
+    <title>BMPPD</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+
+    <link rel="canonical" href="https://bmppd.org/">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+
+    
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/static/bmppd.png" alt="DawniLab Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/about/">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="/acknowledgement/">Acknowledgement</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 text-uppercase" href="https://forms.gle/xkNg4KjjMj7qKsC19">Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topbar" class="py-2 text-white text-end" style="background-color: #5b7435;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://dawnofbioinformatics.com/" target="_blank" class="text-white text-decoration-none">Dawn of Bioinformatics Limited Bangladesh
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <main>
+        
+
+<section class="text-center d-flex align-items-center">
+  <div class="container mt-5">
+    <h1 class="fw-bold">Bangladeshi Medicinal Plant <br> Phytochemicals Database</h1>
+    <p class="text-muted">1<sup>st</sup> Medicinal Plant Phytochemicals Database in Bangladesh</p>
+
+
+    <form method="get" action="/bmppd_result/" class="hero-search">
+      <div class="search-pill">
+        <input
+          type="text"
+          name="q"
+          value="Derris TRIFOLIATA"
+          placeholder="Search by plant name, common name, compound, CID"
+          aria-label="Search"
+        >
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+
+	<section class="container mt-5">
+
+	<h5 class="mb-3">
+		Search results for "<strong>Derris TRIFOLIATA</strong>"
+	</h5>
+
+	
+		<div class="table-responsive">
+			<table id="resultsTable" class="table table-striped table-bordered table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th>Plant Name</th>
+						<th>Common Name(s)</th>
+						<th>Phytochemical</th>
+						<th>PubChem CID</th>
+						<th>Reference</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>(1)Benzopyrano(3,4-b)furo(2,3-h)(1)benzopyran-6(12H)-one, 1,2-dihydro-2-alpha-isopropyl-8,9-dimethoxy-</td>
+							<td>CID: CC(=C)[C@H]1CC2=C(O1)C=CC3=C2OC4=C(C3=O)C5=CC(=C(C=C5OC4)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006%2C%20ISBN%3A9780387706375%2C%20ISBN%3A9788172360481%2C%20ISBN%3A9788185042084">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>1-Hexacosanol</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCCCCCCCCO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9780387706375">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>12a-hydroxyelliptone</td>
+							<td>CID: COC1=C(C=C2C(=C1)C3C(CO2)OC4C5=C(C=C[C@]4(C3=O)O)OC=C5)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//cdnsciencepub.com/doi/abs/10.1139/v07-120">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>12a-hydroxyrotenone</td>
+							<td>CID: CC(=C)[C@H]1CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@]4(C3=O)O)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%3Bhttps%3A//doi.org/10.3390/molecules17010657">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>4&#x27;-hydroxy-7-methoxyflavanone</td>
+							<td>CID: COC1=CC2=C(C=C1)C(=O)CC(O2)C3=CC=C(C=C3)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%3Bhttps%3A//doi.org/10.3390/molecules17010657">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>6.7-Dimethyl-4-chromanone [4]</td>
+							<td>CID: CC1=CC2=C(C=C1C)OCCC2=O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>7a-O-
+methyldeguelol</td>
+							<td>CID: CC1(C=CC2=C(O1)C=CC(=C2O)C(=O)C3CCOC4=CC(=C(C=C34)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>?-toxicarol</td>
+							<td>CID: CC1(C=CC2=C(O1)C=C(C3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@H]4C3=O)OC)OC)O)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Apocynoside I</td>
+							<td>CID: C[C@H](/C=C/[C@H]1C(=CC(=O)CC1(C)C)CO[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Arachidic acid</td>
+							<td>CID: CCCCCCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9780387706375">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Benzyl beta-d-glucopyranoside</td>
+							<td>CID: C1=CC=C(C=C1)CO[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Betulin</td>
+							<td>CID: CC(=C)[C@@H]1CC[C@]2([C@H]1[C@H]3CC[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)CO</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=DOI%3A10.15482/usda.adc/1239279%2C%20ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Campesterol</td>
+							<td>CID: C[C@H](CC[C@@H](C)C(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Chloroquine</td>
+							<td>CID: CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Cholesterol</td>
+							<td>CID: C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Deguelin</td>
+							<td>CID: CC1(C=CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@H]4C3=O)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Dehydrodeguelin</td>
+							<td>CID: CC1(C=CC2=C(O1)C=CC3=C2OC4=C(C3=O)C5=CC(=C(C=C5OC4)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Dehydrorotenone</td>
+							<td>CID: CC(=C)C1CC2=C(O1)C=CC3=C2OC4=C(C3=O)C5=CC(=C(C=C5OC4)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//citeseerx.ist.psu.edu/document%3Frepid%3Drep1%26type%3Dpdf%26doi%3Dcbb62cd09bafa217aaf445d6177904404dad5c41">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Isomedicarpin</td>
+							<td>CID: COC1=CC2=C(C=C1)[C@H]3[C@@H](CO2)C4=C(O3)C=C(C=C4)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Kaempferol</td>
+							<td>CID: C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/chapter/10.1007/978-81-322-2704-5_6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Lupeol</td>
+							<td>CID: CC(=C)[C@@H]1CC[C@]2([C@H]1[C@H]3CC[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006%2C%20ISBN%3A9780387706375%2C%20ISBN%3A9788172360481%2C%20ISBN%3A9788185042053">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Mefloquine</td>
+							<td>CID: C1CCN[C@H](C1)[C@H](C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Oleanolic acid</td>
+							<td>CID: C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Quercetin</td>
+							<td>CID: C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Rhamnetin</td>
+							<td>CID: COC1=CC(=C2C(=C1)OC(=C(C2=O)O)C3=CC(=C(C=C3)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Rhamnetin-3-O-neohesperidoside</td>
+							<td>CID: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC)OC3=C(OC4=CC(=CC(=C4C3=O)O)OC)C5=CC(=C(C=C5)O)O)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788185042053">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Roseoside</td>
+							<td>CID: CC1=CC(=O)CC([C@]1(/C=C/[C@@H](C)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Rotenone</td>
+							<td>CID: CC(=C)[C@H]1CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@H]4C3=O)OC)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788172361266%2C%20ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Schottenol</td>
+							<td>CID: CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3C2=CC[C@@H]4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Stearic acid</td>
+							<td>CID: CCCCCCCCCCCCCCCCCC(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9780387706375">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Stigmasterol</td>
+							<td>CID: CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Tannic acid</td>
+							<td>CID: C1=C(C=C(C(=C1O)O)O)C(=O)OC2=CC(=CC(=C2O)O)C(=O)OC[C@@H]3[C@H]([C@@H]([C@H]([C@@H](O3)OC(=O)C4=CC(=C(C(=C4)OC(=O)C5=CC(=C(C(=C5)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)OC(=O)C7=CC(=C(C(=C7)O)O)O)O)O)OC(=O)C8=CC(=C(C(=C8)OC(=O)C9=CC(=C(C(=C9)O)O)O)O)O)OC(=O)C1=CC(=C(C(=C1)OC(=O)C1=CC(=C(C(=C1)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9780387706375">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Tephrosin</td>
+							<td>CID: CC1(C=CC2=C(O1)C=CC3=C2O[C@@H]4COC5=CC(=C(C=C5[C@@]4(C3=O)O)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=10.4314/bcse.v23i3.47665">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>Ursolic acid</td>
+							<td>CID: C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9788172363178">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>alpha-Amyrin</td>
+							<td>CID: C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]2[C@H]1C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>barbigerone</td>
+							<td>CID: CC1(C=CC2=C(O1)C=CC3=C2OC=C(C3=O)C4=CC(=C(C=C4OC)OC)OC)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>beta-Amyrin</td>
+							<td>CID: C[C@@]12CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]1CC(CC2)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>beta-Sitosterol</td>
+							<td>CID: CC[C@H](CC[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=ISBN%3A9770972795006">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>betulalbuside A</td>
+							<td>CID: C/C(=C\CCC(C)(C=C)O)/CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>citroside A</td>
+							<td>CID: CC(=O)C=C=C1[C@](C[C@H](CC1(C)C)O)(C)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>corchoionoside A</td>
+							<td>CID: C[C@@H](/C=C/[C@]12[C@](O1)(C[C@H](CC2(C)C)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>daidzein</td>
+							<td>CID: C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=%3Bhttps%3A//doi.org/10.3390/molecules17010657">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>dereticulatin</td>
+							<td>CID: CC(=C)C(CC1=C2C(=C(C3=C1O[C@@H](CC3=O)C4=CC=C(C=C4)O)O)C=CC(O2)(C)C)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>elliptone</td>
+							<td>CID: COC1=C(C=C2C(=C1)[C@H]3[C@@H](CO2)OC4=C(C3=O)C=CC5=C4C=CO5)OC</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>isotachioside</td>
+							<td>CID: COC1=C(C=CC(=C1)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>lupinifolin</td>
+							<td>CID: CC(=CCC1=C2C(=C(C3=C1O[C@@H](CC3=O)C4=CC=C(C=C4)O)O)C=CC(O2)(C)C)C</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/chapter/10.1007/978-81-322-2704-5_6">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>maltol beta-D-glucopyranoside</td>
+							<td>CID: CC1=C(C(=O)C=CO1)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>mauritianin</td>
+							<td>CID: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@@H]([C@@H]([C@H]([C@@H](O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC=C(C=C5)O)O[C@H]6[C@@H]([C@@H]([C@H]([C@@H](O6)C)O)O)O)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>prunetin</td>
+							<td>CID: COC1=CC(=C2C(=C1)OC=C(C2=O)C3=CC=C(C=C3)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//erepository.uonbi.ac.ke/handle/11295/107156">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>rutin</td>
+							<td>CID: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//www.sciencedirect.com/science/article/pii/S2352952025000052">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+						<tr>
+							<td>Derris trifoliata</td>
+							<td>
+								
+								Mangrove derris, derris
+								
+							</td>
+							<td>tachioside</td>
+							<td>CID: COC1=C(C=CC(=C1)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O</td>
+							<td>
+								
+								
+
+								<a href="/reference/?ref=https%3A//link.springer.com/article/10.1007/s11418-008-0263-y">
+									Link
+								</a>
+								
+							</td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+	
+
+	</section>
+
+
+
+
+    </main>
+
+
+
+
+    <div class="container-fluid py-5" style="background-color:#a2bd79;">
+      <div class="container">
+
+        <!-- TOP FOOTER -->
+        <div class="row gy-4">
+
+          <!-- About Us -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <img src="/static/dob.png" width="200" alt="Dawn of Bioinformatics">
+            <p class="mb-0 small">
+                1st Bioinformatics Limited Company in Bangladesh.
+            </p> <br>
+
+            <p class="mb-0 text-dark small">
+              Dawn of Bioinformatics Limited Bangladesh represents a pioneering force
+              in the nation’s scientific community as the first company to seamlessly
+              connect the complexities of bioinformatics with practical, real-world
+              applications.
+            </p>
+          </div>
+
+          <!-- Useful Links -->
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Useful Links</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a href="https://dawnofbioinformatics.com/" class="text-dark text-decoration-none">
+                  > Dawn of Bioinformatics Limited Bangladesh
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://ibaidob.com/" class="text-dark text-decoration-none">
+                  > Institute of Bioinformatics and Artificial Intelligence
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="https://dawnilab.org/" class="text-dark text-decoration-none">
+                  > DawniLab
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <h5 class="fw-bold mb-3 text-dark">Map</h5>
+
+            <div class="row g-3">
+
+              <!-- Dhaka -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Dhaka Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.76693727725!2d90.4877090105786!3d23.72001548985387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70001248f2b%3A0x12e1995d85309cfa!2sDawn%20of%20Bioinformatics%20Ltd.!5e0!3m2!1sen!2sbd!4v1760424019662!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Chittagong -->
+              <div class="col-12 col-md-6 col-lg-6">
+                <h6 class="fw-semibold text-dark mb-2">Chittagong Office</h6>
+                <div class="ratio ratio-1x1">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.588328725813!2d91.82798507498586!3d22.3691679403963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd90061645667%3A0x5fd127f0df804c55!2sDawn%20of%20Bioinformatics%20Ltd.%20Chittagong%20Branch!5e0!3m2!1sen!2sbd!4v1763318203953!5m2!1sen!2sbd"
+                    class="border rounded"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- BOTTOM FOOTER -->
+        <div class="text-center">
+            <p class="mb-0 small text-muted">
+                Copyright © <span>2026</span> by DawniLab. All Rights Reserved.
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#resultsTable').DataTable();
+        });
+    </script>
+
+    
+<script>
+$(document).ready(function() {
+    $('#requestPlantForm').on('submit', function(e) {
+        e.preventDefault();
+        var $btn = $('#submitRequestBtn');
+        var $alert = $('#requestAlertContainer');
+        
+        $btn.prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Submitting...');
+        $alert.empty();
+
+        $.ajax({
+            url: "/request-plant/",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function(response) {
+                $alert.html('<div class="alert alert-success rounded-3 small mb-3"><i class="fa-solid fa-check-circle me-1"></i>' + response.message + '</div>');
+                $('#requestPlantForm input[name="email"]').val('');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-check me-2"></i>Submitted');
+                setTimeout(function() {
+                    $('#requestPlantModal').modal('hide');
+                    $alert.empty();
+                    $btn.html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+                }, 3500);
+            },
+            error: function(xhr) {
+                var msg = "An error occurred. Please try again.";
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    msg = xhr.responseJSON.message;
+                }
+                $alert.html('<div class="alert alert-danger rounded-3 small mb-3"><i class="fa-solid fa-exclamation-triangle me-1"></i>' + msg + '</div>');
+                $btn.prop('disabled', false).html('<i class="fa-solid fa-paper-plane me-2"></i>Submit Request');
+            }
+        });
+    });
+
+    
+});
+</script>
+
+      
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f5c560af737e43e5b498140cd25c433b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

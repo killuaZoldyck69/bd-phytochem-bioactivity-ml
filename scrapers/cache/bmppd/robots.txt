@@ -1,0 +1,32 @@
+# -----------------------------------------------------------
+# OpenAI Specific Rules
+# -----------------------------------------------------------
+
+# 1. ALLOW ChatGPT Search
+# This allows your site to appear in ChatGPT's search answers.
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+
+# 2. DISALLOW AI Model Training
+# This stops OpenAI from using your site's content to train their AI models.
+User-agent: GPTBot
+Disallow: /
+
+# 3. ALLOW ChatGPT Users (Optional but recommended)
+# This allows users who are actively chatting with ChatGPT to fetch links from your site.
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+
+# -----------------------------------------------------------
+# General Rules for all other bots (Google, Bing, etc.)
+# -----------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+# -----------------------------------------------------------
+# Sitemap
+# -----------------------------------------------------------
+Sitemap: https://bmppd.dawnilab.org/sitemap.xml

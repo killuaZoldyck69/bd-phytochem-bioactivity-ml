@@ -1,0 +1,6 @@
+plant_index,raw_mpbd_name,candidate_query,raw_query_url,raw_parser_status,raw_rows_extracted,candidate_query_url,candidate_parser_status,candidate_rows_extracted,candidate_rows_with_cid,candidate_rows_missing_cid
+1,Piper betle L.,Piper betle,https://bmppd.org/bmppd_result/?q=Piper+betle+L.,ZERO_RESULTS,0,https://bmppd.org/bmppd_result/?q=Piper+betle,PASS,112,0,112
+2,Piper cubeba Vahl,Piper cubeba,https://bmppd.org/bmppd_result/?q=Piper+cubeba+Vahl,ZERO_RESULTS,0,https://bmppd.org/bmppd_result/?q=Piper+cubeba,PASS,181,0,181
+3,Berberis aristata DC.,Berberis aristata,https://bmppd.org/bmppd_result/?q=Berberis+aristata+DC.,ZERO_RESULTS,0,https://bmppd.org/bmppd_result/?q=Berberis+aristata,ZERO_RESULTS,0,0,0
+4,Papaver somniferum L.,Papaver somniferum,https://bmppd.org/bmppd_result/?q=Papaver+somniferum+L.,ZERO_RESULTS,0,https://bmppd.org/bmppd_result/?q=Papaver+somniferum,PASS,128,0,128
+5,Artocarpus heterophyllus Lam.,Artocarpus heterophyllus,https://bmppd.org/bmppd_result/?q=Artocarpus+heterophyllus+Lam.,ZERO_RESULTS,0,https://bmppd.org/bmppd_result/?q=Artocarpus+heterophyllus,PASS,180,0,180
