@@ -1,0 +1,5 @@
+target,target_name,chembl_id,raw_records,raw_molregnos,total_connectivity_layers,flora_layers_excluded_from_training,training_pool_layers,pool_conflicts_T6,pool_labeled_T6,pool_actives_T6,pool_inactives_T6,pool_active_frac_T6,pool_conflicts_T5,pool_labeled_T5,pool_actives_T5,pool_inactives_T5,pool_active_frac_T5,flora_conflicts_T6,flora_labeled_T6,flora_actives_T6,flora_inactives_T6,flora_active_frac_T6,flora_conflicts_T5,flora_labeled_T5,flora_actives_T5,flora_inactives_T5,flora_active_frac_T5
+cox1,COX-1,CHEMBL221,1807,1569,1525,32,1493,35,1458,325,1133,22.29,36,1457,839,618,57.58,0,32,4,28,12.5,0,32,13,19,40.62
+cox2,COX-2,CHEMBL230,5142,4389,4273,25,4248,126,4122,2319,1803,56.26,42,4206,3598,608,85.54,2,23,1,22,4.35,2,23,6,17,26.09
+xo,Xanthine Oxidase,CHEMBL1929,776,658,650,30,620,9,611,372,239,60.88,3,617,486,131,78.77,3,27,5,22,18.52,3,27,15,12,55.56
+maoa,MAO-A,CHEMBL1951,3691,3121,2989,43,2946,32,2914,748,2166,25.67,24,2922,1722,1200,58.93,1,42,12,30,28.57,1,42,26,16,61.9

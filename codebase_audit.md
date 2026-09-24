@@ -325,6 +325,52 @@ F:\bmppd-thesis\
   - `data/attrition/mpbd_detail_attrition.csv` (936 rows)
   - `data/quality/mpbd_detail_scrape_report.md` (comprehensive audit report)
 
+### 5.5 Pipeline Script 04: COX Go/No-Go Data Check (`pipeline/04_cox_data_check.py`)
+- **Objective**: Conduct read-only activity counting and target validation across ChEMBL 37 for primary (COX-1, COX-2) and exploratory (Xanthine Oxidase, MAO-A) human single-protein targets after removing flora molecules, per `docs/thesis_design_note.md` Section 9.
+- **Constraints & Compliance**:
+  - ChEMBL 37 SQLite database opened strictly read-only (`mode=ro`).
+  - Master MPBD SHA-256 integrity verified at start and end: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`.
+  - No model training, no scaffold splitting, no changes to design note thresholds or rules.
+- **Filtering & Labeling Rules Applied (Design Note Section 5)**:
+  - `standard_relation = '='`, `standard_units = 'nM'`, `standard_type IN ('IC50', 'Ki', 'Kd', 'EC50')`.
+  - `potential_duplicate = 0`, `data_validity_comment IS NULL`, `pchembl_value IS NOT NULL`.
+  - Assays: `assay_type IN ('B', 'F')`, `confidence_score IN (8, 9)`, `assays.tid = target.tid`.
+  - Aggregation: Median pChEMBL per 14-char InChIKey connectivity layer.
+  - Conflict rule: `(min < T and max >= T) AND (max - min) > 1.0` log unit. Excluded from labeled set.
+  - Partitioning: Training pool vs Flora external set by 14-char InChIKey connectivity layer.
+- **Go/No-Go Findings (T=6 threshold: ~1,000 labeled layers)**:
+  - **COX-1 (CHEMBL221, tid 96)**: 1,458 labeled training layers (325 active, 1,133 inactive, 22.3% active fraction, 35 conflicts excluded) -> **PASS**.
+  - **COX-2 (CHEMBL230, tid 126)**: 4,122 labeled training layers (2,319 active, 1,803 inactive, 56.3% active fraction, 126 conflicts excluded) -> **PASS**.
+  - **Xanthine Oxidase (CHEMBL1929, tid 149)**: 611 labeled training layers (372 active, 239 inactive, 60.9% active fraction, 9 conflicts excluded).
+  - **MAO-A (CHEMBL1951, tid 86)**: 2,914 labeled training layers (748 active, 2,166 inactive, 25.7% active fraction, 32 conflicts excluded).
+- **Outputs**:
+  - `data/processed/modeling/cox_datacheck_labels_cox1.csv` (1,525 rows)
+  - `data/processed/modeling/cox_datacheck_labels_cox2.csv` (4,273 rows)
+  - `data/processed/modeling/cox_datacheck_labels_xo.csv` (650 rows)
+  - `data/processed/modeling/cox_datacheck_labels_maoa.csv` (2,989 rows)
+  - `data/quality/cox_data_check_report.md`
+  - `data/attrition/cox_data_check_attrition.csv`
+
+### 5.6 Pipeline Script 05: Provenance Audit & Domain-Shift Diagnostics (`pipeline/05_provenance_and_domain_diagnostics.py`)
+- **Objective**: Conduct rigorous provenance audit of 100 flora-labeled molecules across human COX-1, COX-2, XO, and MAO-A, evaluate chemical identity consistency across all 7,317 flora layers, and quantify domain shift between flora and ChEMBL training pools.
+- **Constraints & Compliance**:
+  - ChEMBL 37 opened strictly read-only (`mode=ro`).
+  - Master MPBD SHA-256 integrity verified at start and end: `0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7`.
+  - Zero model training, zero network calls, zero data deletions.
+- **Key Findings**:
+  - **Provenance Review (100 Labeled Flora Layers)**: 32 layers flagged (`review_flag = True` for `natural_product = 0` OR `max_phase >= 1`).
+    - Identified synthetic positive-control drug contamination from source literature into BMPPD: Trolox (antioxidant assay standard), Suprofen (synthetic NSAID control), and Captopril (synthetic ACE inhibitor control).
+    - Pinpointed upstream CID typo in BMPPD for Plant 730 (*Ardisia solanacea*): labeled as `beta-Amyrin` but assigned CID 73171 (*coniferin glucoside derivative*), collapsing into coniferin layer `SFLMUHDGSQZDOW`.
+  - **Identity Consistency (7,317 Layers)**: 1,796 layers have $\ge 2$ distinct names (830 in Group (i) stereo/case/trivial variants; 966 in Group (ii) discordant/different compound names).
+  - **ChEMBL NP Status (3,263 Matched Flora Layers)**: 224 layers have `natural_product = 0` (strictly synthetic in ChEMBL), and 22 of those have `max_phase >= 1` (approved/investigational drugs).
+  - **Domain Shift**:
+    - Labeled flora nearest-neighbour Tanimoto similarities to training pools (median 0.457–0.555) are drastically lower than training pool leave-one-out self-similarity (median 0.745–0.785).
+    - Only 7.7%–12.7% of all 7,317 flora molecules share an analogue with $NN \ge 0.4$ in the ChEMBL training pools.
+    - Natural products represent only 3.8%–7.0% of ChEMBL training pool layers.
+- **Outputs**:
+  - `data/processed/modeling/flora_provenance_review.csv` (100 rows)
+  - `data/quality/provenance_and_domain_report.md`
+
 ---
 
 ## 6. Next Stages in the Thesis Pipeline
