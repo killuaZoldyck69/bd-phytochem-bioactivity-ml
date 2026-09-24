@@ -1,0 +1,1 @@
+{"canonical_smiles": "COC1C(C(C(C(O1)CO)O)O)O", "isomeric_smiles": "CO[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O", "inchi": "InChI=1S/C7H14O6/c1-12-7-6(11)5(10)4(9)3(2-8)13-7/h3-11H,2H2,1H3/t3-,4-,5+,6-,7+/m1/s1", "inchikey": "HOVAGTYPODGVJG-ZFYZTMLRSA-N", "molecular_formula": "C7H14O6", "molecular_weight": "194.18", "pubchem_title": "methyl alpha-D-glucopyranoside"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(C(O1)CC2=C(C=CC3=C2OC(=O)C=C3)OC)C", "isomeric_smiles": "CC1([C@@H](O1)CC2=C(C=CC3=C2OC(=O)C=C3)OC)C", "inchi": "InChI=1S/C15H16O4/c1-15(2)12(19-15)8-10-11(17-3)6-4-9-5-7-13(16)18-14(9)10/h4-7,12H,8H2,1-3H3/t12-/m0/s1", "inchikey": "LSZONYLDFHGRDP-LBPRGKRZSA-N", "molecular_formula": "C15H16O4", "molecular_weight": "260.28", "pubchem_title": "Meranzin"}

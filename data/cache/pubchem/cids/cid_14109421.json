@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC12CCC(=C)C(C1)C3(C2(CCC3)C)C", "isomeric_smiles": "C[C@@]12CCC(=C)[C@@H](C1)[C@]3([C@@]2(CCC3)C)C", "inchi": "InChI=1S/C15H24/c1-11-6-9-13(2)10-12(11)14(3)7-5-8-15(13,14)4/h12H,1,5-10H2,2-4H3/t12-,13-,14+,15-/m1/s1", "inchikey": "RTONMYLSQISFQA-APIJFGDWSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "Beta-Barbatene"}

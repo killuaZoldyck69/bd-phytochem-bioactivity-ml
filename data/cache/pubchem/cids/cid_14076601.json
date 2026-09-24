@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=C2CC(CCC2(CCC1O)C)C(=C)C", "isomeric_smiles": "CC1=C2C[C@@H](CC[C@]2(CC[C@H]1O)C)C(=C)C", "inchi": "InChI=1S/C15H24O/c1-10(2)12-5-7-15(4)8-6-14(16)11(3)13(15)9-12/h12,14,16H,1,5-9H2,2-4H3/t12-,14-,15+/m1/s1", "inchikey": "APWLDLGOYJHNIK-YUELXQCFSA-N", "molecular_formula": "C15H24O", "molecular_weight": "220.35", "pubchem_title": "Cyperol"}

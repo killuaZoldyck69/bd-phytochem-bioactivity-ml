@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(CS)C(=O)N1CCCC1C(=O)O", "isomeric_smiles": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O", "inchi": "InChI=1S/C9H15NO3S/c1-6(5-14)8(11)10-4-2-3-7(10)9(12)13/h6-7,14H,2-5H2,1H3,(H,12,13)/t6-,7+/m1/s1", "inchikey": "FAKRSMQSSFJEIM-RQJHMYQMSA-N", "molecular_formula": "C9H15NO3S", "molecular_weight": "217.29", "pubchem_title": "Captopril"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCCC(=CC(CCC1)C(=C)C)C", "isomeric_smiles": "C/C/1=C\\CC/C(=C/[C@@H](CCC1)C(=C)C)/C", "inchi": "InChI=1S/C15H24/c1-12(2)15-10-6-8-13(3)7-5-9-14(4)11-15/h7,11,15H,1,5-6,8-10H2,2-4H3/b13-7+,14-11+/t15-/m1/s1", "inchikey": "YSOYXLPARMWZFY-GFIAIGKSSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "Isogermacrene"}

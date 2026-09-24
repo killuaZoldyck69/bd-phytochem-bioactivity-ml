@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CC(=O)CC(C1(C=CC(=O)C)O)(C)C", "isomeric_smiles": "CC1=CC(=O)CC([C@]1(/C=C/C(=O)C)O)(C)C", "inchi": "InChI=1S/C13H18O3/c1-9-7-11(15)8-12(3,4)13(9,16)6-5-10(2)14/h5-7,16H,8H2,1-4H3/b6-5+/t13-/m1/s1", "inchikey": "JJRYPZMXNLLZFH-URWSZGRFSA-N", "molecular_formula": "C13H18O3", "molecular_weight": "222.28", "pubchem_title": "Dehydrovomifoliol"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "[B-](F)(F)(F)F.C[N+]1=C2CCCCC2=CC3=C1CCCC3", "isomeric_smiles": "[B-](F)(F)(F)F.C[N+]1=C2CCCCC2=CC3=C1CCCC3", "inchi": "InChI=1S/C14H20N.BF4/c1-15-13-8-4-2-6-11(13)10-12-7-3-5-9-14(12)15;2-1(3,4)5/h10H,2-9H2,1H3;/q+1;-1", "inchikey": "KMFUGJMFIVKKRW-UHFFFAOYSA-N", "molecular_formula": "C14H20BF4N", "molecular_weight": "289.12", "pubchem_title": ""}

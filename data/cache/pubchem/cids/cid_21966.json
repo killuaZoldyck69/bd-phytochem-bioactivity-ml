@@ -1,0 +1,1 @@
+{"canonical_smiles": "C[NH+]1C=NC2=C1C(=O)N(C(=O)N2C)C.[Br-]", "isomeric_smiles": "C[NH+]1C=NC2=C1C(=O)N(C(=O)N2C)C.[Br-]", "inchi": "InChI=1S/C8H10N4O2.BrH/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2;/h4H,1-3H3;1H", "inchikey": "XXSSHQCOBPQFOL-UHFFFAOYSA-N", "molecular_formula": "C8H11BrN4O2", "molecular_weight": "275.10", "pubchem_title": "Caffeine bromide"}

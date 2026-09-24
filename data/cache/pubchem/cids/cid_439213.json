@@ -1,0 +1,1 @@
+{"canonical_smiles": "C(C1C(C(C(C(O1)O)N)O)O)O", "isomeric_smiles": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)N)O)O)O", "inchi": "InChI=1S/C6H13NO5/c7-3-5(10)4(9)2(1-8)12-6(3)11/h2-6,8-11H,1,7H2/t2-,3-,4-,5-,6?/m1/s1", "inchikey": "MSWZFWKMSRAUBD-IVMDWMLBSA-N", "molecular_formula": "C6H13NO5", "molecular_weight": "179.17", "pubchem_title": "D-Glucosamine"}

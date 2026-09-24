@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O", "isomeric_smiles": "C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O", "inchi": "InChI=1S/C15H10O5/c16-9-6-10(17)12-11(7-9)20-15(14(19)13(12)18)8-4-2-1-3-5-8/h1-7,16-17,19H", "inchikey": "VCCRNZQBSJXYJD-UHFFFAOYSA-N", "molecular_formula": "C15H10O5", "molecular_weight": "270.24", "pubchem_title": "Galangin"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(CC(CC2(C1=CC(=O)O2)C)O)C", "isomeric_smiles": "C[C@@]12C[C@H](CC(C1=CC(=O)O2)(C)C)O", "inchi": "InChI=1S/C11H16O3/c1-10(2)5-7(12)6-11(3)8(10)4-9(13)14-11/h4,7,12H,5-6H2,1-3H3/t7-,11+/m0/s1", "inchikey": "XEVQXKKKAVVSMW-WRWORJQWSA-N", "molecular_formula": "C11H16O3", "molecular_weight": "196.24", "pubchem_title": "Loliolide"}

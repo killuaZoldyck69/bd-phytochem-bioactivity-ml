@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(C)C1=CCC(C(C1)C(=C)C)(C)C=C", "isomeric_smiles": "CC(C)C1=CC[C@@]([C@@H](C1)C(=C)C)(C)C=C", "inchi": "InChI=1S/C15H24/c1-7-15(6)9-8-13(11(2)3)10-14(15)12(4)5/h7-8,11,14H,1,4,9-10H2,2-3,5-6H3/t14-,15+/m0/s1", "inchikey": "IXXIEBPQRNRTQY-LSDHHAIUSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "d-Elemene"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC=CS(=O)CC(C(=O)O)N", "isomeric_smiles": "C/C=C/S(=O)C[C@@H](C(=O)O)N", "inchi": "InChI=1S/C6H11NO3S/c1-2-3-11(10)4-5(7)6(8)9/h2-3,5H,4,7H2,1H3,(H,8,9)/b3-2+/t5-,11?/m0/s1", "inchikey": "OKYHUOHBRKWCQJ-FTJYXMLISA-N", "molecular_formula": "C6H11NO3S", "molecular_weight": "177.22", "pubchem_title": "S-((E)-Prop-1-enyl)-L-cysteine S-oxide"}

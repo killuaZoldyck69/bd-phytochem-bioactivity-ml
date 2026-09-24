@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=CCCC1(C2CCC(=C)C1C2)C)C", "isomeric_smiles": "CC(=CCCC1([C@H]2CCC(=C)[C@@H]1C2)C)C", "inchi": "InChI=1S/C15H24/c1-11(2)6-5-9-15(4)13-8-7-12(3)14(15)10-13/h6,13-14H,3,5,7-10H2,1-2,4H3/t13-,14-,15?/m0/s1", "inchikey": "DGZBGCMPRYFWFF-ZYOSVBKOSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "beta-Bergamotene"}

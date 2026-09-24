@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1CCC2C(CCC(=C(C)C)C2=C1)C", "isomeric_smiles": "C[C@H]1CCC2[C@H](CCC(=C(C)C)C2=C1)C", "inchi": "InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h9,11-12,14H,5-8H2,1-4H3/t11-,12-,14?/m0/s1", "inchikey": "MQZUSOMHYYKABS-VHBIQUBJSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "(Z)-Muurola-4(14),5-diene"}

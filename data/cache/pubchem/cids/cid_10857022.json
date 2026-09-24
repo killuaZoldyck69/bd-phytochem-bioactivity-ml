@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCCC2(C13CC(CC2)C(O3)(C)C)C", "isomeric_smiles": "CC1=CCC[C@@]2([C@]13C[C@@H](CC2)C(O3)(C)C)C", "inchi": "InChI=1S/C15H24O/c1-11-6-5-8-14(4)9-7-12-10-15(11,14)16-13(12,2)3/h6,12H,5,7-10H2,1-4H3/t12-,14+,15+/m1/s1", "inchikey": "ZLQADKTVJQXDIG-SNPRPXQTSA-N", "molecular_formula": "C15H24O", "molecular_weight": "220.35", "pubchem_title": "alpha-Agarofuran"}

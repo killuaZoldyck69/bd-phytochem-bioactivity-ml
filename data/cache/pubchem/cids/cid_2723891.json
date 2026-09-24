@@ -1,0 +1,1 @@
+{"canonical_smiles": "C(CC(=O)O)C(C(=O)O)N.Cl", "isomeric_smiles": "C(CC(=O)O)[C@@H](C(=O)O)N.Cl", "inchi": "InChI=1S/C5H9NO4.ClH/c6-3(5(9)10)1-2-4(7)8;/h3H,1-2,6H2,(H,7,8)(H,9,10);1H/t3-;/m0./s1", "inchikey": "RPAJSBKBKSSMLJ-DFWYDOINSA-N", "molecular_formula": "C5H10ClNO4", "molecular_weight": "183.59", "pubchem_title": "Glutamic Acid Hydrochloride"}

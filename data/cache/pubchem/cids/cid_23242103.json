@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(CC23C1CCC2(CCCC3=C)C)C", "isomeric_smiles": "C[C@]12CCCC(=C)[C@]13CC([C@@H]3CC2)(C)C", "inchi": "InChI=1S/C15H24/c1-11-6-5-8-14(4)9-7-12-13(2,3)10-15(11,12)14/h12H,1,5-10H2,2-4H3/t12-,14+,15-/m0/s1", "inchikey": "LTMKWDWWHXRNMO-CFVMTHIKSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "beta-Panasinsene"}

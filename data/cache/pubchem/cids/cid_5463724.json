@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCCC2(C(O2)CC(C=CC1=O)(C)C)C", "isomeric_smiles": "C/C/1=C/CCC2(C(O2)CC(/C=C/C1=O)(C)C)C", "inchi": "InChI=1S/C15H22O2/c1-11-6-5-8-15(4)13(17-15)10-14(2,3)9-7-12(11)16/h6-7,9,13H,5,8,10H2,1-4H3/b9-7+,11-6-", "inchikey": "UXYYOHOTPOQJPD-MHLOZHTBSA-N", "molecular_formula": "C15H22O2", "molecular_weight": "234.33", "pubchem_title": "Zerumbone oxide"}

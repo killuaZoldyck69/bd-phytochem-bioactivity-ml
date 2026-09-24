@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=C)C1CC2C(O2)(C(=O)C1)C", "isomeric_smiles": "CC(=C)[C@@H]1C[C@H]2[C@](O2)(C(=O)C1)C", "inchi": "InChI=1S/C10H14O2/c1-6(2)7-4-8(11)10(3)9(5-7)12-10/h7,9H,1,4-5H2,2-3H3/t7-,9-,10+/m0/s1", "inchikey": "YGMNGQDLUQECTO-UJNFCWOMSA-N", "molecular_formula": "C10H14O2", "molecular_weight": "166.22", "pubchem_title": "Carvone-5,6-oxide, cis-(-)-"}

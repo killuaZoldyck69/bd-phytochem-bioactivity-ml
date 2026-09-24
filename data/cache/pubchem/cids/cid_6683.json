@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3O)O)O", "isomeric_smiles": "C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=C(C=C3O)O)O", "inchi": "InChI=1S/C14H8O5/c15-8-5-9(16)14(19)11-10(8)12(17)6-3-1-2-4-7(6)13(11)18/h1-5,15-16,19H", "inchikey": "BBNQQADTFFCFGB-UHFFFAOYSA-N", "molecular_formula": "C14H8O5", "molecular_weight": "256.21", "pubchem_title": "Purpurin anthraquinone"}

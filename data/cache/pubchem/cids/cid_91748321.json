@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCC2C(C1)C(CCC2=C)C(C)C", "isomeric_smiles": "CC1=CCC2C(C1)[C@@H](CCC2=C)C(C)C", "inchi": "InChI=1S/C15H24/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h5,10,13-15H,4,6-9H2,1-3H3/t13-,14?,15?/m0/s1", "inchikey": "YOCDGWMCBBMMGJ-NFOMZHRRSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "gamma2-Cadinene"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=C2CC(CCC2(CCC1)C)C(C)(C)O", "isomeric_smiles": "CC1=C2C[C@H](CC[C@]2(CCC1)C)C(C)(C)O", "inchi": "InChI=1S/C15H26O/c1-11-6-5-8-15(4)9-7-12(10-13(11)15)14(2,3)16/h12,16H,5-10H2,1-4H3/t12-,15+/m0/s1", "inchikey": "WMOPMQRJLLIEJV-SWLSCSKDSA-N", "molecular_formula": "C15H26O", "molecular_weight": "222.37", "pubchem_title": "7-epi-gamma-Eudesmol"}

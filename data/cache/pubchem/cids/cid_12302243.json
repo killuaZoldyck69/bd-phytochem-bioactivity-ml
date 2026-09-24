@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCC(C2=C1C=CC(=C2)C)C(C)C", "isomeric_smiles": "CC1=CC[C@H](C2=C1C=CC(=C2)C)C(C)C", "inchi": "InChI=1S/C15H20/c1-10(2)13-8-6-12(4)14-7-5-11(3)9-15(13)14/h5-7,9-10,13H,8H2,1-4H3/t13-/m0/s1", "inchikey": "CUUMXRBKJIDIAY-ZDUSSCGKSA-N", "molecular_formula": "C15H20", "molecular_weight": "200.32", "pubchem_title": "alpha-Calacorene"}

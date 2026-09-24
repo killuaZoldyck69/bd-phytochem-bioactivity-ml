@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(C2CCC(C1C2)CO)C", "isomeric_smiles": "CC1([C@@H]2CC[C@@H]([C@H]1C2)CO)C", "inchi": "InChI=1S/C10H18O/c1-10(2)8-4-3-7(6-11)9(10)5-8/h7-9,11H,3-6H2,1-2H3/t7-,8-,9-/m1/s1", "inchikey": "LDWAIHWGMRVEFR-IWSPIJDZSA-N", "molecular_formula": "C10H18O", "molecular_weight": "154.25", "pubchem_title": "(1R,2S,5R)-6,6-Dimethylbicyclo(3.1.1)heptane-2-methanol"}

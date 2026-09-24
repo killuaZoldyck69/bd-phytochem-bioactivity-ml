@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(C)C1CCC(=C2C1=CC(=O)CC2)C(=O)O", "isomeric_smiles": "CC(C)[C@H]1CCC(=C2C1=CC(=O)CC2)C(=O)O", "inchi": "InChI=1S/C14H18O3/c1-8(2)10-5-6-12(14(16)17)11-4-3-9(15)7-13(10)11/h7-8,10H,3-6H2,1-2H3,(H,16,17)/t10-/m1/s1", "inchikey": "REMXGBXOFDECAF-SNVBAGLBSA-N", "molecular_formula": "C14H18O3", "molecular_weight": "234.29", "pubchem_title": "Khusinol E"}

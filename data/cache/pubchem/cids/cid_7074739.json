@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(C)CC1C(=O)N2CCCC2C(=O)N1", "isomeric_smiles": "CC(C)C[C@H]1C(=O)N2CCC[C@H]2C(=O)N1", "inchi": "InChI=1S/C11H18N2O2/c1-7(2)6-8-11(15)13-5-3-4-9(13)10(14)12-8/h7-9H,3-6H2,1-2H3,(H,12,14)/t8-,9-/m0/s1", "inchikey": "SZJNCZMRZAUNQT-IUCAKERBSA-N", "molecular_formula": "C11H18N2O2", "molecular_weight": "210.27", "pubchem_title": "Gancidin W"}

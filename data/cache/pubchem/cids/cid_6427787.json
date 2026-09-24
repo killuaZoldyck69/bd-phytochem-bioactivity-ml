@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(C(CCC(O1)(C)C=C)O)C", "isomeric_smiles": "C[C@]1(CC[C@@H](C(O1)(C)C)O)C=C", "inchi": "InChI=1S/C10H18O2/c1-5-10(4)7-6-8(11)9(2,3)12-10/h5,8,11H,1,6-7H2,2-4H3/t8-,10+/m0/s1", "inchikey": "BCTBAGTXFYWYMW-WCBMZHEXSA-N", "molecular_formula": "C10H18O2", "molecular_weight": "170.25", "pubchem_title": "Linalool oxide III"}

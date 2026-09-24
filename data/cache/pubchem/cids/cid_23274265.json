@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCC(C=CCC2(C(O2)CC1)C)(C)C", "isomeric_smiles": "C/C/1=C/CC(/C=C\\CC2(C(O2)CC1)C)(C)C", "inchi": "InChI=1S/C15H24O/c1-12-6-7-13-15(4,16-13)10-5-9-14(2,3)11-8-12/h5,8-9,13H,6-7,10-11H2,1-4H3/b9-5-,12-8-", "inchikey": "QTGAEXCCAPTGLB-QZFXXANLSA-N", "molecular_formula": "C15H24O", "molecular_weight": "220.35", "pubchem_title": "Humulene epoxide II"}

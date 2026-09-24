@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(CCC(=O)C2C13CCC(C3)C2(C)C)C", "isomeric_smiles": "CC1(CCC(=O)C2[C@]13CC[C@H](C3)C2(C)C)C", "inchi": "InChI=1S/C15H24O/c1-13(2)7-6-11(16)12-14(3,4)10-5-8-15(12,13)9-10/h10,12H,5-9H2,1-4H3/t10-,12?,15-/m1/s1", "inchikey": "VCOCESNMLNDPLX-KCOKAVLFSA-N", "molecular_formula": "C15H24O", "molecular_weight": "220.35", "pubchem_title": "trans-Isolongifolanone"}

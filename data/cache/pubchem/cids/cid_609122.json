@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1(C(O1)C(=O)C2=C(C=C3C(=C2)C=CC(=O)O3)OC)C", "isomeric_smiles": "CC1(C(O1)C(=O)C2=C(C=C3C(=C2)C=CC(=O)O3)OC)C", "inchi": "InChI=1S/C15H14O5/c1-15(2)14(20-15)13(17)9-6-8-4-5-12(16)19-10(8)7-11(9)18-3/h4-7,14H,1-3H3", "inchikey": "VFKJAXDQCDDPCK-UHFFFAOYSA-N", "molecular_formula": "C15H14O5", "molecular_weight": "274.27", "pubchem_title": "Hopeyhopin"}

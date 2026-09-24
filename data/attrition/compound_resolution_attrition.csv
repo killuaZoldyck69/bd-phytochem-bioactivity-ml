@@ -1,8 +1,10 @@
 step,description,row_count,notes
-1_input_rows,Total input plant-compound pairs evaluated,50,"Limit: 50, Stratified: True"
-2_cid_based_input,Rows with valid numeric PubChem CID,25,Direct CID property lookup
-3_name_based_exact,Name lookup returning exactly 1 CID,23,Single exact match auto-accepted
-4_name_based_multiple,Name lookup returning >1 CIDs,1,"Logged for manual review, not auto-guessed"
-5_name_based_no_match,Name lookup returning 0 CIDs (404),1,PubChem has no record for this name
-6_skipped_nonspecific,Non-specific mixture or extract terms skipped,0,Skipped without API call
-7_structures_resolved,Rows successfully assigned a structure,48,Valid SMILES and InChIKey populated
+1_input_rows,Total input plant-compound pairs evaluated,24001,"Sample: None, Seed: 42, Limit: None"
+2_cid_based_input,Rows with valid numeric PubChem CID,17716,Direct CID property lookup
+3_name_based_exact,Name lookup returning exactly 1 CID,4789,Single exact match auto-accepted
+4_name_based_multiple,Name lookup returning >1 CIDs,133,"Logged for manual review, not auto-guessed"
+5_name_based_no_match,Name lookup returning 0 CIDs (404),1047,PubChem has no record for this name
+6_skipped_nonspecific,Non-specific mixture or extract terms skipped,13,Skipped without API call
+7_skipped_encoding_loss,Corrupted upstream character terms skipped,295,Skipped without API call
+8_fetch_error,Transient network errors after retries,8,Should be 0 after retry passes
+9_structures_resolved,Rows successfully assigned a structure,22505,Valid SMILES and InChIKey populated

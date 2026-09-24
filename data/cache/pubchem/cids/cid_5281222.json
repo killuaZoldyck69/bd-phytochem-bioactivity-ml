@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1=CC(=C(C=C1C=CC(=O)C2=C(C=C(C=C2)O)O)O)O", "isomeric_smiles": "C1=CC(=C(C=C1/C=C/C(=O)C2=C(C=C(C=C2)O)O)O)O", "inchi": "InChI=1S/C15H12O5/c16-10-3-4-11(14(19)8-10)12(17)5-1-9-2-6-13(18)15(20)7-9/h1-8,16,18-20H/b5-1+", "inchikey": "AYMYWHCQALZEGT-ORCRQEGFSA-N", "molecular_formula": "C15H12O5", "molecular_weight": "272.25", "pubchem_title": "Butein"}

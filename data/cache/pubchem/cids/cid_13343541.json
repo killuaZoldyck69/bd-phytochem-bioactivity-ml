@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=C)C(CC1=C(C=CC2=C1OC(=O)C=C2)OC)O", "isomeric_smiles": "CC(=C)[C@H](CC1=C(C=CC2=C1OC(=O)C=C2)OC)O", "inchi": "InChI=1S/C15H16O4/c1-9(2)12(16)8-11-13(18-3)6-4-10-5-7-14(17)19-15(10)11/h4-7,12,16H,1,8H2,2-3H3/t12-/m0/s1", "inchikey": "SQSRYWNOKPJENY-LBPRGKRZSA-N", "molecular_formula": "C15H16O4", "molecular_weight": "260.28", "pubchem_title": "Auraptenol"}

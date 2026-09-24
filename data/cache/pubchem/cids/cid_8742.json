@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1C(C(C(C=C1C(=O)O)O)O)O", "isomeric_smiles": "C1[C@H]([C@@H]([C@@H](C=C1C(=O)O)O)O)O", "inchi": "InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)/t4-,5-,6-/m1/s1", "inchikey": "JXOHGGNKMLTUBP-HSUXUTPPSA-N", "molecular_formula": "C7H10O5", "molecular_weight": "174.15", "pubchem_title": "Shikimic Acid"}

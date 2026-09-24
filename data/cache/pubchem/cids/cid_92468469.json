@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(CC(=O)O)C(=O)C1=C(C(=CC=C1)O)O", "isomeric_smiles": "C[C@@H](CC(=O)O)C(=O)C1=C(C(=CC=C1)O)O", "inchi": "InChI=1S/C11H12O5/c1-6(5-9(13)14)10(15)7-3-2-4-8(12)11(7)16/h2-4,6,12,16H,5H2,1H3,(H,13,14)/t6-/m0/s1", "inchikey": "SGNALGPYOOQHOT-LURJTMIESA-N", "molecular_formula": "C11H12O5", "molecular_weight": "224.21", "pubchem_title": "Plumbagic acid"}

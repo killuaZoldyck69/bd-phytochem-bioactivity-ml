@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(CC1=CC(=C(C=C1)O)O)(C(=O)O)N", "isomeric_smiles": "C[C@](CC1=CC(=C(C=C1)O)O)(C(=O)O)N", "inchi": "InChI=1S/C10H13NO4/c1-10(11,9(14)15)5-6-2-3-7(12)8(13)4-6/h2-4,12-13H,5,11H2,1H3,(H,14,15)/t10-/m0/s1", "inchikey": "CJCSPKMFHVPWAR-JTQLQIEISA-N", "molecular_formula": "C10H13NO4", "molecular_weight": "211.21", "pubchem_title": "Methyldopa"}

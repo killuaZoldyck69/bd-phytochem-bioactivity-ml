@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1CCC2C(CC=CC2(O1)C)(C)C", "isomeric_smiles": "C[C@H]1CC[C@H]2[C@@](O1)(C=CCC2(C)C)C", "inchi": "InChI=1S/C13H22O/c1-10-6-7-11-12(2,3)8-5-9-13(11,4)14-10/h5,9-11H,6-8H2,1-4H3/t10-,11+,13-/m0/s1", "inchikey": "IVTQSEFLDHBCDZ-LOWVWBTDSA-N", "molecular_formula": "C13H22O", "molecular_weight": "194.31", "pubchem_title": "Dihydroedulan II"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC=C1CC2CCC(C1(C2(C)C)C)C", "isomeric_smiles": "C/C=C/1\\C[C@H]2CC[C@H]([C@@]1(C2(C)C)C)C", "inchi": "InChI=1S/C14H24/c1-6-11-9-12-8-7-10(2)14(11,5)13(12,3)4/h6,10,12H,7-9H2,1-5H3/b11-6+/t10-,12-,14+/m1/s1", "inchikey": "FMOZOFOCONBPNY-RAYWUTBOSA-N", "molecular_formula": "C14H24", "molecular_weight": "192.34", "pubchem_title": "Cyprotene"}

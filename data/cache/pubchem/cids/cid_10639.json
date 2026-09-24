@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)OC", "isomeric_smiles": "CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)OC", "inchi": "InChI=1S/C16H12O5/c1-7-3-9-13(11(17)4-7)16(20)14-10(15(9)19)5-8(21-2)6-12(14)18/h3-6,17-18H,1-2H3", "inchikey": "FFWOKTFYGVYKIR-UHFFFAOYSA-N", "molecular_formula": "C16H12O5", "molecular_weight": "284.26", "pubchem_title": "Physcion"}

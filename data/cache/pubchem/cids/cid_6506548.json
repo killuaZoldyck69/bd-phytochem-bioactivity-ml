@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CC(=O)C2=C(CC(=CCC1)C)OC=C2C", "isomeric_smiles": "C/C/1=C\\C(=O)C2=C(C/C(=C/CC1)/C)OC=C2C", "inchi": "InChI=1S/C15H18O2/c1-10-5-4-6-11(2)8-14-15(13(16)7-10)12(3)9-17-14/h6-7,9H,4-5,8H2,1-3H3/b10-7+,11-6+", "inchikey": "XVOHELPNOXGRBQ-NXAIOARDSA-N", "molecular_formula": "C15H18O2", "molecular_weight": "230.30", "pubchem_title": "Furanodienone"}

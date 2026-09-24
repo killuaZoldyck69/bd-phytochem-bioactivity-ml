@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1CCC(CC2=C1CCC2C)C(=C)C", "isomeric_smiles": "C[C@H]1CC[C@H](CC2=C1CC[C@@H]2C)C(=C)C", "inchi": "InChI=1S/C15H24/c1-10(2)13-7-5-11(3)14-8-6-12(4)15(14)9-13/h11-13H,1,5-9H2,2-4H3/t11-,12-,13+/m0/s1", "inchikey": "ADIDQIZBYUABQK-RWMBFGLXSA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "alpha-Guaiene"}

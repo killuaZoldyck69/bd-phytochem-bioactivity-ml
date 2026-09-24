@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=O)C(C(COP(=O)(O)O)O)O", "isomeric_smiles": "CC(=O)[C@H]([C@@H](COP(=O)(O)O)O)O", "inchi": "InChI=1S/C5H11O7P/c1-3(6)5(8)4(7)2-12-13(9,10)11/h4-5,7-8H,2H2,1H3,(H2,9,10,11)/t4-,5-/m1/s1", "inchikey": "AJPADPZSRRUGHI-RFZPGFLSSA-N", "molecular_formula": "C5H11O7P", "molecular_weight": "214.11", "pubchem_title": "1-Deoxy-D-xylulose 5-phosphate"}

@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=C1CC2C(=C)CCCC2(CC1=O)C)C", "isomeric_smiles": "CC(=C1C[C@H]2C(=C)CCC[C@@]2(CC1=O)C)C", "inchi": "InChI=1S/C15H22O/c1-10(2)12-8-13-11(3)6-5-7-15(13,4)9-14(12)16/h13H,3,5-9H2,1-2,4H3/t13-,15+/m0/s1", "inchikey": "NKGSEACIYQINQJ-DZGCQCFKSA-N", "molecular_formula": "C15H22O", "molecular_weight": "218.33", "pubchem_title": "Eudesma-4(14),7(11)-dien-8-one"}

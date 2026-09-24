@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1C(C2C(O1)C(CO2)O)O", "isomeric_smiles": "C1[C@H]([C@@H]2[C@H](O1)[C@H](CO2)O)O", "inchi": "InChI=1S/C6H10O4/c7-3-1-9-6-4(8)2-10-5(3)6/h3-8H,1-2H2/t3-,4+,5-,6-/m1/s1", "inchikey": "KLDXJTOLSGUMSJ-JGWLITMVSA-N", "molecular_formula": "C6H10O4", "molecular_weight": "146.14", "pubchem_title": "Isosorbide"}

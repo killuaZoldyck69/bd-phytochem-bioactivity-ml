@@ -1,0 +1,1 @@
+{"canonical_smiles": "C1=NC2=C(N1COCC(=O)O)N=C(NC2=O)N", "isomeric_smiles": "C1=NC2=C(N1COCC(=O)O)N=C(NC2=O)N", "inchi": "InChI=1S/C8H9N5O4/c9-8-11-6-5(7(16)12-8)10-2-13(6)3-17-1-4(14)15/h2H,1,3H2,(H,14,15)(H3,9,11,12,16)", "inchikey": "MICNQLKUSOVNNG-UHFFFAOYSA-N", "molecular_formula": "C8H9N5O4", "molecular_weight": "239.19", "pubchem_title": "9-Carboxymethoxymethylguanine"}

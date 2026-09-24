@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=C)C1CCC(C(C1)C(=C)C)(C)C=C", "isomeric_smiles": "CC(=C)[C@@H]1CC[C@@]([C@@H](C1)C(=C)C)(C)C=C", "inchi": "InChI=1S/C15H24/c1-7-15(6)9-8-13(11(2)3)10-14(15)12(4)5/h7,13-14H,1-2,4,8-10H2,3,5-6H3/t13-,14+,15-/m1/s1", "inchikey": "OPFTUNCRGUEPRZ-QLFBSQMISA-N", "molecular_formula": "C15H24", "molecular_weight": "204.35", "pubchem_title": "Beta-Elemene"}

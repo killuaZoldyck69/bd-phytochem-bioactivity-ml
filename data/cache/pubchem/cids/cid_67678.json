@@ -1,0 +1,1 @@
+{"canonical_smiles": "C(C(C(=O)O)N)SSCC(C(=O)O)N", "isomeric_smiles": "C([C@@H](C(=O)O)N)SSC[C@@H](C(=O)O)N", "inchi": "InChI=1S/C6H12N2O4S2/c7-3(5(9)10)1-13-14-2-4(8)6(11)12/h3-4H,1-2,7-8H2,(H,9,10)(H,11,12)/t3-,4-/m0/s1", "inchikey": "LEVWYRKDKASIDU-IMJSIDKUSA-N", "molecular_formula": "C6H12N2O4S2", "molecular_weight": "240.3", "pubchem_title": "(-)-Cystine"}

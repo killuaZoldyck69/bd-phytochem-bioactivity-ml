@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC12CCCC(=C)C1CC(CC2)C(C)(C)O", "isomeric_smiles": "C[C@]12CCCC(=C)[C@@H]1C[C@@H](CC2)C(C)(C)O", "inchi": "InChI=1S/C15H26O/c1-11-6-5-8-15(4)9-7-12(10-13(11)15)14(2,3)16/h12-13,16H,1,5-10H2,2-4H3/t12-,13+,15-/m1/s1", "inchikey": "BOPIMTNSYWYZOC-VNHYZAJKSA-N", "molecular_formula": "C15H26O", "molecular_weight": "222.37", "pubchem_title": "Beta-Eudesmol"}

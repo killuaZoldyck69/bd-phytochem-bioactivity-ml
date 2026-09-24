@@ -1,0 +1,1 @@
+{"canonical_smiles": "C=C(C(=O)O)OC1C=C(C=CC1O)C(=O)O", "isomeric_smiles": "C=C(C(=O)O)O[C@@H]1C=C(C=C[C@H]1O)C(=O)O", "inchi": "InChI=1S/C10H10O6/c1-5(9(12)13)16-8-4-6(10(14)15)2-3-7(8)11/h2-4,7-8,11H,1H2,(H,12,13)(H,14,15)/t7-,8-/m1/s1", "inchikey": "WTFXTQVDAKGDEY-HTQZYQBOSA-N", "molecular_formula": "C10H10O6", "molecular_weight": "226.18", "pubchem_title": "Chorismic Acid"}

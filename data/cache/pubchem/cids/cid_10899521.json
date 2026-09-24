@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CCC2C(C1C2(C)C)OC(=O)C", "isomeric_smiles": "CC1=CC[C@H]2[C@H]([C@@H]1C2(C)C)OC(=O)C", "inchi": "InChI=1S/C12H18O2/c1-7-5-6-9-11(14-8(2)13)10(7)12(9,3)4/h5,9-11H,6H2,1-4H3/t9-,10+,11+/m0/s1", "inchikey": "UASZOTVHPVEMQR-HBNTYKKESA-N", "molecular_formula": "C12H18O2", "molecular_weight": "194.27", "pubchem_title": "trans-Chrysanthenyl acetate"}

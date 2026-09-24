@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC(=C)C=CCCCC(=CCCC(C)(C=C)O)C", "isomeric_smiles": "CC(=C)/C=C/CCC/C(=C/CCC(C)(C=C)O)/C", "inchi": "InChI=1S/C17H28O/c1-6-17(5,18)14-10-13-16(4)12-9-7-8-11-15(2)3/h6,8,11,13,18H,1-2,7,9-10,12,14H2,3-5H3/b11-8+,16-13+", "inchikey": "XCTSDLUOCRRDLZ-YZLWMTBJSA-N", "molecular_formula": "C17H28O", "molecular_weight": "248.4", "pubchem_title": "Fokienol"}

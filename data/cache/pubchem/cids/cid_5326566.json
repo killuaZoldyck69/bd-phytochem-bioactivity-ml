@@ -1,0 +1,1 @@
+{"canonical_smiles": "CC1=CC2=C(C=C1C)N=C3C(=N2)C(=O)NC(=O)N3", "isomeric_smiles": "CC1=CC2=C(C=C1C)N=C3C(=N2)C(=O)NC(=O)N3", "inchi": "InChI=1S/C12H10N4O2/c1-5-3-7-8(4-6(5)2)14-10-9(13-7)11(17)16-12(18)15-10/h3-4H,1-2H3,(H2,14,15,16,17,18)", "inchikey": "ZJTJUVIJVLLGSP-UHFFFAOYSA-N", "molecular_formula": "C12H10N4O2", "molecular_weight": "242.23", "pubchem_title": "Lumichrome"}
