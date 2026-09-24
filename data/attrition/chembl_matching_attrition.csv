@@ -1,0 +1,11 @@
+step,scope,count,pct,notes
+1_input_unique_molecules,full,7317,100.0,Input connectivity layers
+1_input_unique_molecules,curated,7228,98.78365450321171,Curated drug-like organic subset
+2_matched_chembl_structure,full,3263,44.594779281126144,Shared 14-char connectivity layer
+2_matched_chembl_structure,curated,3207,44.36912008854455,Curated matched to ChEMBL
+3_has_any_activity_record,full,3064,41.87508541752084,At least 1 raw activity record
+3_has_any_activity_record,curated,3010,41.64360819037078,Curated with raw activity
+4_has_usable_activity_record,full,1581,21.60721607216072,"Usable binding/functional (=, nM, IC50/Ki/Kd/EC50)"
+4_has_usable_activity_record,curated,1565,21.6519092418373,Curated with usable activity
+5_has_strict_activity_record,full,1083,14.801148011480114,"Strict single-protein target (conf 8-9, B/F)"
+5_has_strict_activity_record,curated,1072,14.831211953514112,Curated with strict activity

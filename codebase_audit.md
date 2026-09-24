@@ -227,12 +227,75 @@ F:\bmppd-thesis\
 
 ---
 
-## 5. Next Stages in the Thesis Pipeline
+## 5. Stage 7A: Chemical Structure Resolution, Standardization & ChEMBL Bioactivity Feasibility
 
-The data acquisition phase of the thesis (Stages 1 through 6) is complete. The project is prepared to transition to data cleaning, compound identity resolution, and analytical bioactivity screening:
+**Execution Date**: 2026-09-24  
+**Status**: **Stage 7A Completed** (Scripts 01, 02, and 03 fully executed, validated, and reconciled).
+
+### 5.1 Pipeline Script 01: Chemical Structure Resolution (`pipeline/01_resolve_structures.py`)
+- **Objective**: Resolve chemical structures (SMILES, InChI, InChIKey) for all 24,001 raw plant-compound rows via PubChem PUG-REST API.
+- **Cache Architecture**: Complete local JSON disk caching (`data/cache/pubchem/cids/` and `data/cache/pubchem/names/`). Warm rerun yields **100% cache hit rate (0 network calls)** in <3 seconds.
+- **Results**:
+  - `CID-based`: 17,716 rows (73.81%)
+  - `exact_match`: 4,789 rows (19.95%)
+  - `multiple_matches`: 133 rows (0.55%)
+  - `no_match`: 1,055 rows (4.40%)
+  - `skipped_encoding_loss`: 295 rows (1.23%)
+  - `skipped_nonspecific`: 13 rows (0.05%)
+  - `fetch_error`: 0 rows (0.00%)
+- **Outputs**:
+  - `data/processed/compounds/compound_structures_resolved.csv`
+  - `data/quality/no_match_high_frequency.csv`
+  - `data/quality/stage7a_resolution_report.md`
+
+### 5.2 Pipeline Script 02: Chemical Structure Standardization (`pipeline/02_standardize_structures.py`)
+- **Objective**: Standardize chemical structures via RDKit (Largest fragment desalting -> Neutralization/uncharging -> Tautomer canonicalization -> Flat stereochemistry stripping).
+- **Multiple-Match Rule**: Candidate sets evaluated at 14-char connectivity layer after desalting; 131 of 133 candidate sets accepted as flat structures (`stereo_resolved = False`).
+- **Results**:
+  - **Successfully Linked Rows**: **22,614 / 24,001 (94.22%)**
+  - **Dropped / Unresolved Rows**: **1,387 / 24,001 (5.78%)**
+  - **Exact Reconciliation**: `Linked (22,614) + Dropped (1,387) == 24,001` (0 orphan links; assertion passed).
+  - **True Unique Molecule Inventory**: **7,317 unique 14-character connectivity layers** (6,770 stereo-resolved; 547 stereo-unresolved).
+  - **Curated Drug-Like Organic Subset**: **7,228 molecules (98.8%)** (excluding inorganic, metals, mixtures, <5 heavy atoms, >100 heavy atoms).
+  - **Botanical Coverage**: 222 / 222 plants (100.0%) retained at least one standardized molecule.
+- **Outputs**:
+  - `data/processed/compounds/compounds_unique.csv`
+  - `data/processed/compounds/plant_compound_links.csv`
+  - `data/processed/compounds/compounds_dropped.csv`
+  - `data/attrition/structure_standardization_attrition.csv`
+  - `data/quality/stage7a_standardization_report.md`
+
+### 5.3 Pipeline Script 03: ChEMBL Label Feasibility Check (`pipeline/03_chembl_label_coverage.py`)
+- **Objective**: Cross-reference the 7,317 standardized Bangladeshi medicinal plant molecules against the ChEMBL 37 SQLite database in read-only mode to assess ML label feasibility.
+- **Cache Architecture**: Pre-computed 14-character connectivity lookup table cached at `data/cache/chembl/chembl37_connectivity_lookup.csv` (2,897,819 structures loaded in 1.24s).
+- **Results**:
+  - **ChEMBL Structure Match Rate**: **3,263 / 7,317 molecules (44.59%)** match at connectivity level (**3,207 / 7,228 (44.37%)** in curated drug-like subset).
+  - **Natural Product Validation**: 3,039 of matched molecules (93.1%) flagged as `natural_product = 1` in ChEMBL.
+  - **Activity Records Extracted**: 389,846 raw activity records -> **38,352 USABLE binding/functional records** (`=`, `nM`, IC50/Ki/Kd/EC50) -> **11,504 STRICT records** (single-protein target, confidence 8–9, assay type B/F).
+  - **Molecule-Level Label Coverage**:
+    - Any activity record: 3,064 molecules (41.9%)
+    - Usable activity record: 1,581 molecules (21.6%)
+    - Strict activity record: 1,083 molecules (14.8%)
+  - **Top Single Targets**: Carbonic anhydrase 12 (70 molecules), PTP1B (63 molecules), CA2 (62 molecules), CA9 (60 molecules), CA1 (58 molecules), CA7 (55 molecules), AKR1B1 (55 molecules), AChE (54 molecules). Single-target datasets have <200 molecules (high sparsity).
+  - **Global Feasible ML Tasks (>= 1,000 labeled molecules)**:
+    1. Active against ANY single protein target at pChEMBL >= 6 (Strict): **1,083 labeled molecules** (495 active, 588 inactive).
+    2. Any usable activity record exists in ChEMBL: **3,263 labeled molecules** (1,581 active/functional, 1,682 untested/inactive).
+  - **Botanical Coverage**: 215 of 222 medicinal plants (96.8%) have $\ge 1$ molecule with strict/usable bioactivity data.
+- **Outputs**:
+  - `data/processed/compounds/compound_chembl_match.csv`
+  - `data/processed/compounds/compound_bioactivity_raw.csv`
+  - `data/attrition/chembl_matching_attrition.csv`
+  - `data/quality/label_feasibility_report.md`
+
+---
+
+## 6. Next Stages in the Thesis Pipeline
+
+Following completion of Stage 7A, data acquisition and chemical curation are complete. The project is prepared for downstream machine learning modeling and botanical network integration:
 
 | Stage | Focus | Planned Objectives |
 | :--- | :--- | :--- |
-| **Stage 7** | **PubChem CID Resolution & Chemical Normalization** | Query PubChem PUG-REST API for the 6,285 compounds with missing CIDs using standardized chemical names; resolve canonical SMILES, InChIKeys, and molecular structures. |
-| **Stage 8** | **Taxonomic Harmonization & Cross-Database Join** | Integrate POWO (Plants of the World Online) or GBIF to reconcile the 26 MPBD duplicate/synonym groups; join normalized MPBD botanical metadata with normalized BMPPD phytochemical profiles. |
-| **Stage 9** | **Bioactivity, Target Prediction & Network Analysis** | Annotate compounds against ChEMBL/BindingDB; evaluate therapeutic indications reported in MPBD against pharmacological targets of identified bioactive metabolites. |
+| **Stage 7B / 8** | **Taxonomic Harmonization & Cross-Database Join** | Integrate POWO (Plants of the World Online) or GBIF to reconcile the 26 MPBD duplicate/synonym groups; join normalized MPBD botanical metadata with normalized BMPPD phytochemical profiles. |
+| **Stage 9** | **Molecular Representation & Feature Engineering** | Compute Morgan / ECFP fingerprints, RDKit 2D physicochemical descriptors, and graph neural representations for the 7,317 unique molecules. |
+| **Stage 10** | **Machine Learning Bioactivity Modeling** | Train and evaluate benchmark classifiers (Random Forest, XGBoost, GNNs) on feasible target tasks identified in Stage 7A (Global strict bioactivity and high-confidence enzyme targets). |
+
