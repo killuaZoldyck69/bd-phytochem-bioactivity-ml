@@ -1,0 +1,5 @@
+target,target_name,total_frozen_candidates,candidates_with_exact_target_evidence,candidates_with_related_evidence,candidates_with_contradictory_evidence,candidates_with_no_relevant_report_found,candidates_with_identity_uncertainty
+cox1,COX-1 (PTGS1),644,28,6,10,600,45
+cox2,COX-2 (PTGS2),101,5,19,2,75,7
+xo,Xanthine Oxidase (XDH),92,9,34,0,49,17
+maoa,MAO-A (CHRFAM7A/MAOA),330,76,4,49,201,102

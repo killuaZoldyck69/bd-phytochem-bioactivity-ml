@@ -1,0 +1,121 @@
+target,target_name,threshold,min_strict_compounds_k,eligible_plants_count,rank,plant_index,plant_name,strict_domain_count,predicted_active_count,predicted_active_fraction
+cox1,COX-1 (PTGS1),6,1,198,1,332,Passiflora FOETIDA L.,3,3,1.0
+cox1,COX-1 (PTGS1),6,1,198,2,630,Curcuma CAESIA Roxb.,2,2,1.0
+cox1,COX-1 (PTGS1),6,1,198,3,496,Hibiscus SURATTENSIS L.,2,2,1.0
+cox1,COX-1 (PTGS1),6,1,198,4,402,Maranta ARUNDINACEA L.,2,2,1.0
+cox1,COX-1 (PTGS1),6,1,198,5,465,Ixora CUNEIFOLIA Roxb.,1,1,1.0
+cox1,COX-1 (PTGS1),6,1,198,6,240,Sida ACUTA Burm. f.,1,1,1.0
+cox1,COX-1 (PTGS1),6,1,198,7,810,Sida acuta Burm. f.,1,1,1.0
+cox1,COX-1 (PTGS1),6,1,198,8,699,Alpinia CALCARATA Rosc.,1,1,1.0
+cox1,COX-1 (PTGS1),6,1,198,9,213,Streblus ASPER Lour.,1,1,1.0
+cox1,COX-1 (PTGS1),6,1,198,10,730,Ardisia SOLANACEA (Poir.) Roxb.,1,1,1.0
+cox1,COX-1 (PTGS1),6,3,156,1,332,Passiflora FOETIDA L.,3,3,1.0
+cox1,COX-1 (PTGS1),6,3,156,2,74,Carum carvi L.,5,4,0.8
+cox1,COX-1 (PTGS1),6,3,156,3,508,Hedyotis SCANDENS Roxb.,4,3,0.75
+cox1,COX-1 (PTGS1),6,3,156,4,806,Sida rhombifolia L.,4,3,0.75
+cox1,COX-1 (PTGS1),6,3,156,5,1,Piper betle L.,4,3,0.75
+cox1,COX-1 (PTGS1),6,3,156,6,671,Colocasia ESCULENTA (L.) Schott.,11,8,0.7273
+cox1,COX-1 (PTGS1),6,3,156,7,407,Mangifera INDICA L.,30,21,0.7
+cox1,COX-1 (PTGS1),6,3,156,8,462,Jasminum SAMBAC (L.) Ait.,16,11,0.6875
+cox1,COX-1 (PTGS1),6,3,156,9,307,Piper NIGRUM L.,8,5,0.625
+cox1,COX-1 (PTGS1),6,3,156,10,721,Annona RETICULATA L.,8,5,0.625
+cox1,COX-1 (PTGS1),6,5,125,1,74,Carum carvi L.,5,4,0.8
+cox1,COX-1 (PTGS1),6,5,125,2,671,Colocasia ESCULENTA (L.) Schott.,11,8,0.7273
+cox1,COX-1 (PTGS1),6,5,125,3,407,Mangifera INDICA L.,30,21,0.7
+cox1,COX-1 (PTGS1),6,5,125,4,462,Jasminum SAMBAC (L.) Ait.,16,11,0.6875
+cox1,COX-1 (PTGS1),6,5,125,5,307,Piper NIGRUM L.,8,5,0.625
+cox1,COX-1 (PTGS1),6,5,125,6,721,Annona RETICULATA L.,8,5,0.625
+cox1,COX-1 (PTGS1),6,5,125,7,632,Curcuma ANGUSTIFOLIA Roxb.,13,8,0.6154
+cox1,COX-1 (PTGS1),6,5,125,8,299,Plumeria RUBRA L.,19,11,0.5789
+cox1,COX-1 (PTGS1),6,5,125,9,68,Citrus limon (L.) Osbeck,14,8,0.5714
+cox1,COX-1 (PTGS1),6,5,125,10,346,Ocimum tenuiflorum L.,7,4,0.5714
+cox2,COX-2 (PTGS2),6,1,200,1,659,Crassocephalum CREPIDIOIDES (Benth.) Moore,1,1,1.0
+cox2,COX-2 (PTGS2),6,1,200,2,62,Phyllanthus niruri L.,1,1,1.0
+cox2,COX-2 (PTGS2),6,1,200,3,883,Celosia ARGENTEA L.,1,1,1.0
+cox2,COX-2 (PTGS2),6,1,200,4,364,Mussaenda ROXBURGHII Hook. f.,1,1,1.0
+cox2,COX-2 (PTGS2),6,1,200,5,612,Dalbergia STIPULACEA Roxb.,1,1,1.0
+cox2,COX-2 (PTGS2),6,1,200,6,697,Alocasia INDICA (Roxb.) Schott.,4,2,0.5
+cox2,COX-2 (PTGS2),6,1,200,7,630,Curcuma CAESIA Roxb.,2,1,0.5
+cox2,COX-2 (PTGS2),6,1,200,8,240,Sida ACUTA Burm. f.,2,1,0.5
+cox2,COX-2 (PTGS2),6,1,200,9,810,Sida acuta Burm. f.,2,1,0.5
+cox2,COX-2 (PTGS2),6,1,200,10,191,Terminalia CITRINA Flaming.,2,1,0.5
+cox2,COX-2 (PTGS2),6,3,156,1,697,Alocasia INDICA (Roxb.) Schott.,4,2,0.5
+cox2,COX-2 (PTGS2),6,3,156,2,806,Sida rhombifolia L.,3,1,0.3333
+cox2,COX-2 (PTGS2),6,3,156,3,425,Litsea MONOPETALA (Roxb.) Pers.,7,2,0.2857
+cox2,COX-2 (PTGS2),6,3,156,4,192,Terminalia CHEBULA Retz.,37,10,0.2703
+cox2,COX-2 (PTGS2),6,3,156,5,283,Punica GRANATUM L.,15,4,0.2667
+cox2,COX-2 (PTGS2),6,3,156,6,221,Spondias PINNATA (L.f.) Kurz.,4,1,0.25
+cox2,COX-2 (PTGS2),6,3,156,7,316,. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),17,4,0.2353
+cox2,COX-2 (PTGS2),6,3,156,8,38,Pterocarpus SANTALINUS L. f.,9,2,0.2222
+cox2,COX-2 (PTGS2),6,3,156,9,61,Mallotus philippensis (Lam.) Muell.-Arg.,11,2,0.1818
+cox2,COX-2 (PTGS2),6,3,156,10,60,Macaranga peltata (Roxb.)Muell.-Arg.,8,1,0.125
+cox2,COX-2 (PTGS2),6,5,125,1,425,Litsea MONOPETALA (Roxb.) Pers.,7,2,0.2857
+cox2,COX-2 (PTGS2),6,5,125,2,192,Terminalia CHEBULA Retz.,37,10,0.2703
+cox2,COX-2 (PTGS2),6,5,125,3,283,Punica GRANATUM L.,15,4,0.2667
+cox2,COX-2 (PTGS2),6,5,125,4,316,. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),17,4,0.2353
+cox2,COX-2 (PTGS2),6,5,125,5,38,Pterocarpus SANTALINUS L. f.,9,2,0.2222
+cox2,COX-2 (PTGS2),6,5,125,6,61,Mallotus philippensis (Lam.) Muell.-Arg.,11,2,0.1818
+cox2,COX-2 (PTGS2),6,5,125,7,60,Macaranga peltata (Roxb.)Muell.-Arg.,8,1,0.125
+cox2,COX-2 (PTGS2),6,5,125,8,196,Tephrosia PURPUREA (L.) Pers.,8,1,0.125
+cox2,COX-2 (PTGS2),6,5,125,9,77,Strychnos potatorum L. f.,8,1,0.125
+cox2,COX-2 (PTGS2),6,5,125,10,287,Psidium GUAJAVA L.,49,6,0.1224
+xo,Xanthine Oxidase (XDH),6,1,165,1,659,Crassocephalum CREPIDIOIDES (Benth.) Moore,1,1,1.0
+xo,Xanthine Oxidase (XDH),6,1,165,2,38,Pterocarpus SANTALINUS L. f.,4,2,0.5
+xo,Xanthine Oxidase (XDH),6,1,165,3,43,Lagerstroemia speciosa(l.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,1,165,4,449,Lagerstroemia speciosa (L.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,1,165,5,867,Carica PAPAYA L.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,1,165,6,503,Hemidesmus INDICUS (L.) R. Br.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,1,165,7,77,Strychnos potatorum L. f.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,1,165,8,4,Papaver somniferum L.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,1,165,9,683,Cleome VISCOSA L.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,1,165,10,612,Dalbergia STIPULACEA Roxb.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,1,38,Pterocarpus SANTALINUS L. f.,4,2,0.5
+xo,Xanthine Oxidase (XDH),6,3,124,2,43,Lagerstroemia speciosa(l.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,3,124,3,449,Lagerstroemia speciosa (L.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,3,124,4,867,Carica PAPAYA L.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,5,503,Hemidesmus INDICUS (L.) R. Br.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,6,77,Strychnos potatorum L. f.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,7,4,Papaver somniferum L.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,8,683,Cleome VISCOSA L.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,9,612,Dalbergia STIPULACEA Roxb.,3,1,0.3333
+xo,Xanthine Oxidase (XDH),6,3,124,10,356,Nigella SATIVA L,17,5,0.2941
+xo,Xanthine Oxidase (XDH),6,5,95,1,43,Lagerstroemia speciosa(l.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,5,95,2,449,Lagerstroemia speciosa (L.) Pers.,5,2,0.4
+xo,Xanthine Oxidase (XDH),6,5,95,3,867,Carica PAPAYA L.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,5,95,4,503,Hemidesmus INDICUS (L.) R. Br.,6,2,0.3333
+xo,Xanthine Oxidase (XDH),6,5,95,5,356,Nigella SATIVA L,17,5,0.2941
+xo,Xanthine Oxidase (XDH),6,5,95,6,405,Manihot ESCULENTA Crantz.,16,4,0.25
+xo,Xanthine Oxidase (XDH),6,5,95,7,906,Cinnamomum TAMALA Nees,10,2,0.2
+xo,Xanthine Oxidase (XDH),6,5,95,8,203,Tabernaemontana DIVARICATA (L.) R.Br. ex Roem. & Schult.,5,1,0.2
+xo,Xanthine Oxidase (XDH),6,5,95,9,27,Moringa oleifera Lam.,11,2,0.1818
+xo,Xanthine Oxidase (XDH),6,5,95,10,374,Moringa OLEIFERA Lamk.,11,2,0.1818
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,1,293,polygonum PLEBEIUM R. Br.,2,2,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,2,760,Bauhinia MALABARICA Roxb.,2,2,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,3,776,Spermacoce articularis L.f.,1,1,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,4,202,Tacca INTEGRIFOLIA Ker.-Gawl.,1,1,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,5,13,Achyranthes aspera L.,1,1,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,6,104,Achyranthes ASPERA L.,1,1,1.0
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,7,313,Phyllanthus URINARIA L.,5,4,0.8
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,8,35,Clitoria ternatea L.,8,6,0.75
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,9,418,Lygodium FLEXUOSUM Sw.,3,2,0.6667
+maoa,MAO-A (CHRFAM7A/MAOA),6,1,189,10,705,Amaranthus SPINOSUS L.,3,2,0.6667
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,1,313,Phyllanthus URINARIA L.,5,4,0.8
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,2,35,Clitoria ternatea L.,8,6,0.75
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,3,418,Lygodium FLEXUOSUM Sw.,3,2,0.6667
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,4,705,Amaranthus SPINOSUS L.,3,2,0.6667
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,5,603,Derris TRIFOLIATA Lour.,10,6,0.6
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,6,761,Bauhinia PURPUREA L.,5,3,0.6
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,7,34,Saraca asoca (Roxb.) Wild.,7,4,0.5714
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,8,257,Saraca ASOCA (Roxb.) De Wilde.,7,4,0.5714
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,9,683,Cleome VISCOSA L.,4,2,0.5
+maoa,MAO-A (CHRFAM7A/MAOA),6,3,148,10,28,Diospyros malabarica(desr.) Kostel.,4,2,0.5
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,1,313,Phyllanthus URINARIA L.,5,4,0.8
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,2,35,Clitoria ternatea L.,8,6,0.75
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,3,603,Derris TRIFOLIATA Lour.,10,6,0.6
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,4,761,Bauhinia PURPUREA L.,5,3,0.6
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,5,34,Saraca asoca (Roxb.) Wild.,7,4,0.5714
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,6,257,Saraca ASOCA (Roxb.) De Wilde.,7,4,0.5714
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,7,812,Hibiscus schizopetalus (Mast.) Hook. f.,21,9,0.4286
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,8,196,Tephrosia PURPUREA (L.) Pers.,14,6,0.4286
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,9,396,Melochia CORCHORIFOLIA L.,7,3,0.4286
+maoa,MAO-A (CHRFAM7A/MAOA),6,5,123,10,819,Melochia corchorifolia L.,7,3,0.4286

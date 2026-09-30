@@ -1,0 +1,165 @@
+plant_name,plant_index,plant_family,candidate_links_count,unique_molecules_count,cox1_links_count,cox2_links_count,xo_links_count,maoa_links_count,Level_A_count,Level_B_count,contradictory_count,Level_E_count,manual_review_count,stereochemical_uncertainty_count,citation_missing_count,median_predicted_probability,median_nn_similarity,top_candidate_compounds
+Hibiscus SABDARIFFA L.,497,Malvaceae,43,39,26,1,4,12,3,2,2,36,13,13,0,0.465,0.4355,"Salicyclic acid; Benzophenone; Benzoic acid, 4-hydroxy-"
+Citrus reticulata Blanco,70,Rutaceae,31,30,16,8,3,4,1,2,2,26,5,4,0,0.4567,0.4681,Anilinomethane; Methyl salicylate; 7-Methoxy-2-phenyl4H-chromen-4-one
+Citrus maxima (Burm.) Merr.,687,Rutaceae,29,24,12,7,3,7,4,1,3,21,6,4,0,0.4467,0.4737,Diphenylamine; Methyl salicylate; hesperetin
+Azadirachta INDICA A. Juss.,749,Meliaceae,27,25,21,2,0,4,1,0,0,26,3,3,0,0.5333,0.4571,Guanine; Prolylleucine; 2-Phenyl-4-anilino-6[1H]-pyrimidinone
+Camellia sinensis (L.) O. Kuntze.,796,Theaceae,27,21,11,5,1,10,1,1,4,21,12,11,0,0.4567,0.4324,Diphenylamine; Methyl salicylate; Diphenyl ether
+Psidium GUAJAVA L.,287,Myrtaceae,27,25,16,6,0,5,1,0,2,24,27,5,27,0.45,0.4286,Guavin B; Casuarictin; Benzyl salicylate
+Mangifera INDICA L.,407,Anacardiaceae,26,21,26,0,0,0,2,0,0,24,2,2,0,0.5766,0.4181,Benzophenone; benzophenone; Methyl salicylate
+Jasminum SAMBAC (L.) Ait.,462,Oleaceae,25,11,25,0,0,0,3,0,0,22,0,0,0,0.545,0.4167,Benzophenone; Methyl salicylate; Methylsalicylate
+Terminalia ARJUNA (Roxb. ex DC.) Wight & Arn.,195,Combretaceae,24,22,17,3,1,3,2,1,0,21,23,1,23,0.4642,0.4717,Cerasidin; Hesperitin; 1-O-Galloylpedunculagin
+Michelia CHAMPACA L.,389,Magnoliaceae,23,21,13,1,1,8,1,0,3,19,6,5,0,0.48,0.4286,Salicylic acid; 4-Hydroxybenzoic acid; Azulene
+Cassia FISTULA L.,872,Caesalpinaeae,22,18,14,1,1,6,3,2,2,15,3,2,0,0.4992,0.4209,"Rhamnetin; Aniline, N-methyl-; Methyl salicylate"
+Terminalia CHEBULA Retz.,192,Combretaceae,21,18,8,7,2,4,3,1,1,16,5,3,1,0.5382,0.4468,"chebulagic acid; Suprofen; 2,4-Dihydroxybenzoic acid"
+Carica PAPAYA L.,867,Caricaceae,20,19,17,0,2,1,2,0,0,18,2,2,0,0.5242,0.4268,"Benzeneacetic acid; 4-hydroxybenzoic acid; 1,4-benzenedicarboxylic acid"
+Tamarindus INDICA L.,200,Caesalpiniaceae,20,19,18,0,1,1,1,0,0,19,3,1,2,0.4783,0.4268,"Methyl salicylate; Proanthocyanidin; 1,2-Benzenedicarboxylic Acid"
+Cyperus ROTUNDUS L.,619,Cyperaceae,19,18,10,3,2,4,2,0,0,17,0,0,0,0.5233,0.4828,"4-Hydroxybenzoate; Benzoic acid, 2-hydroxy-, methyl ester; (2Z)-4,6-dihydroxy-2-[(3-hydroxy-4-methoxyphenyl)methylidene]-1-benzofuran-3-one"
+Mimusops ELENGI L.,386,Sapotaceae,19,17,7,2,1,9,2,1,1,15,7,6,0,0.4444,0.4328,"1,2-Benzenedicarboxylic acid; kaempferol; Naringenin"
+Desmodium GANGETICUM (L.) DC.,602,Fabeceae,18,15,9,1,1,7,1,1,0,16,3,3,0,0.515,0.46,"Salicylic acid; 10H-Phenothiazine, 1-methoxy-; Kaempferol-7-o-D-glucopyranoside"
+Hibiscus ROSA-SINENSIS L.,498,Malvaceae,16,12,6,0,3,7,2,2,3,9,4,4,0,0.495,0.4564,p-hydroxybenzoic acid; Cyclic acid; Protocatechuic acid
+Syzygium CUMINI (L.) Skeel.,207,Myrtaceae,16,14,8,2,1,5,1,2,1,12,6,2,5,0.515,0.5,ellagitannin; protocatechuic acid; Eugenin
+Cinnamomum TAMALA Nees,906,Lauraceae,15,12,13,0,2,0,0,1,0,14,1,1,0,0.5017,0.4194,Salicylic acid; p-Hydroxybenzoic acid; Protocatechuic acid
+Maesa INDICA Wall.,410,Myrsinaceae,15,15,2,0,4,9,2,2,1,10,6,5,0,0.4667,0.4918,P-hydroxybenzoic acid; Hesperetin; Kaempferol-7-neohesperidoside
+Manihot ESCULENTA Crantz.,405,Euphorbiaceae,15,15,7,1,4,3,1,1,0,13,2,2,0,0.4533,0.4865,salicylic acid; Hydroxybenzoic acid; kaempferol
+Paederia FOETIDA L.,336,Rubiaceae,14,11,7,0,0,7,2,0,3,9,6,6,0,0.4567,0.4365,Methyl salicylate; Kaempferol; 2-Methoxyphenol
+Plumeria RUBRA L.,299,Apocynaceae,14,14,11,0,0,3,2,0,1,11,14,0,14,0.6217,0.4309,Salicylic acid; Phenylacetic acid; Methyl salicylate
+Nigella SATIVA L,356,Ranunculaceae,13,11,5,0,5,3,3,2,0,8,1,1,0,0.4967,0.5926,Salicylic acid; 4-Hydroxybenzoic acid; Protocatechuic acid
+Caesalpinia BONDUC (L.) Roxb.,786,Caesalpiniaceae,12,11,2,2,2,6,2,1,1,8,1,0,0,0.4859,0.5394,"Kaempferol 7,4-dimethyl ether; 4,4?-dihydroxy-2?-methoxy-chalcone; Quercetin 7-(6-tiglylglucoside"
+Citrus limon (L.) Osbeck,68,Rutaceae,12,11,9,3,0,0,0,0,0,12,0,0,0,0.4791,0.4468,Methyl benzoate; O-Cymene; O-cymene
+Moringa OLEIFERA Lamk.,374,Moringaceae,12,12,8,0,2,2,1,1,0,10,2,2,0,0.5283,0.4317,Salicylic acid; p-Hydroxy benzoic acid; Azulene
+Moringa oleifera Lam.,27,Moringaceae,12,12,8,0,2,2,1,1,0,10,2,2,0,0.5283,0.4317,Salicylic acid; p-Hydroxy benzoic acid; Azulene
+Anacardium OCCIDENTALE L.,715,Anacardiaceae,11,11,7,0,1,3,2,0,0,9,0,0,0,0.525,0.4242,salicyclic acid; rhamnetin; Methyl salicylate
+Cannabis SATIVA L.,799,Cannabidaceae,11,11,6,0,2,3,1,2,0,8,1,1,0,0.4983,0.5556,"salicylic acid; 3,4-dihydroxybenzoic acid; naringenin"
+Coriandrum SATIVUM L.,661,Apiaceae,11,11,5,0,1,5,0,0,1,10,3,3,0,0.46,0.5926,4-Hydroxybenzoic acid; Isorhamnetin; Isokaempferide
+Lawsonia INERMIS L.,442,Lythraceae,11,10,8,1,0,2,1,2,0,8,1,1,0,0.4583,0.4478,"Harmine; Diphenyl ether; 3',4'-dimethoxyflavone"
+Mesua ferrea L.,16,Clusiaceae,11,10,2,1,3,5,1,2,1,7,4,3,0,0.44,0.4872,p-Hydroxybenzoic acid; Protocatechuic acid; Naringenin
+Ageratum CONYZOIDES L.,116,Asteraceae,10,9,7,1,0,2,1,0,0,9,0,0,0,0.4692,0.4758,Benzeneacetic acid; Azulene; kaempferol
+Cuminum CYMINUM L.,635,Apiaceae,10,10,8,0,0,2,1,0,0,9,0,0,0,0.5042,0.4778,"Salicylic acid; 3,5-Di-t-butyl-4-hydroxy benzoic acid; Benzene, 1,1'- oxybis[4-phenoxy-"
+Cymbopogon CITRATUS (DC.) Stapf.,624,Poaceae,10,10,7,0,1,2,1,0,0,9,4,1,3,0.4767,0.4222,Dihydroxybenzoic acid; Quercitin; Methyl benzoate
+Gloriosa SUPERBA L.,525,Liliaceae,10,9,6,1,0,3,1,0,1,8,2,2,0,0.4909,0.4415,1-naphthaleneacetic acid; Indole-3-acetic acid; Quercetin
+Leucas ASPERA (Willd.) Link.,435,Lamiaceae,10,10,6,1,1,2,3,1,0,6,0,0,0,0.5033,0.4243,"Methylsalicylate; 1,2-benzenedicarboxylic acid; 6-Methoxyflavone"
+. PHYLLANTHUS EMBLICA L. (Euphorbiaceae),316,Euphorbiaceae,9,9,1,4,1,3,3,1,0,5,9,2,9,0.5267,0.5059,Chebulagic acid; Chebulinic acid; Proanthocyanidin
+Allium SATIVUM L.,124,Liliaceae,9,9,6,1,0,2,1,1,1,6,1,0,0,0.4333,0.4651,Phenylacetic acid; Quercetin; N-Acetylarylamine
+Annona RETICULATA L.,721,Annonaceae,9,7,7,0,0,2,0,0,0,9,0,0,0,0.4783,0.4167,Benzophenone; N-(4-Hydroxyphenyl)acetamide; Liriodenine
+Artocarpus HETEROPHYLLUS Lamk.,739,Urticaceae,9,9,4,0,3,2,0,1,0,8,1,1,0,0.4467,0.4651,"gemichalcone A; 9-Carboxymethoxymethylguanine; 2,3-dihydro-5,7-dihydroxy-2-(2-hydroxy-4-methoxyphenyl)-4H-1-benzopyran-4-one"
+Artocarpus heterophyllus Lam.,5,Moraceae,9,9,4,0,3,2,0,1,0,8,1,1,0,0.4467,0.4651,"gemichalcone A; 9-Carboxymethoxymethylguanine; 2,3-dihydro-5,7-dihydroxy-2-(2-hydroxy-4-methoxyphenyl)-4H-1-benzopyran-4-one"
+Centella ASIATICA (L.) Urban.,897,Apiaceae,9,8,4,1,0,4,1,0,0,8,0,0,0,0.4917,0.4929,kaempferol 7-glucoside; Kaempferol 7-O-glucoside; quercetin
+Grewia asiatica L.,515,Tiliaceae,9,9,0,0,0,9,1,0,0,8,4,4,0,0.4967,0.4915,Rhamnetin; Quercetin-7-O-glucoside; Quercetin-4-O-glucoside
+Hemidesmus INDICUS (L.) R. Br.,503,Asclepiadaceae,9,8,6,0,2,1,2,0,1,6,1,1,0,0.65,0.4194,2-Hydroxy-4-Methoxybenzoic acid; benzophenone; methyl salicylate
+Hibiscus MUTABILIS L.,499,Malvaceae,9,9,1,1,1,6,1,2,0,6,3,3,0,0.4967,0.6458,Salicylic acid; Methysticin; Kaempferol
+Abutilon INDICUM (L.) Sweet,95,Malvaceae,8,8,6,0,1,1,0,0,1,7,1,1,0,0.47,0.4617,"p?hydroxybenzoic acid; 1,2-Benzenedicarboxylic acid; Cathinone"
+Aegle MARMELOS (L.) Corr.,114,Rutaceae,8,8,5,2,0,1,0,0,0,8,2,2,0,0.4667,0.4208,"5,6-dimethoxy-1-indanone; Benzenepropanoic acid, 3,5-bis (1,1-dimethylethyl)-4-hydroxy-, methyl ester; Kaempferol-3-Orutinoside"
+Averrhoa CARAMBOLA L.,748,Averrhoaceae,8,6,6,0,1,1,0,0,0,8,2,2,0,0.5542,0.4246,Salicylic acid; Anisic acid; Phenylacetic acid
+Colocasia ESCULENTA (L.) Schott.,671,Araceae,8,8,8,0,0,0,1,0,0,7,8,1,8,0.5758,0.4268,Benzophenone; Methyl salicylate; Acetophenone
+Curcuma ANGUSTIFOLIA Roxb.,632,Zingiberaceae,8,8,8,0,0,0,0,0,0,8,1,1,0,0.5908,0.4222,o-Cumenol; Methyl benzoate; o-Cymene
+Hibiscus schizopetalus (Mast.) Hook. f.,812,Malvaceae,8,8,1,0,0,7,1,0,0,7,2,2,0,0.4856,0.5834,"Kaempferol; 3',4',7-Trimethylquercetin; Quercetin"
+Holarrhena pubescens Wall.ex G.Don,78,Apocynaceae,8,8,4,1,0,3,1,2,0,5,0,0,0,0.4508,0.5262,Salicylic acid; Biochanin A; Berberine
+Murraya PANICULATA (L.) Jacq.,368,Rutaceae,8,8,5,0,0,3,2,0,2,4,2,0,0,0.4992,0.472,methyl salicylate; kaempferol; quercetin
+Ricinus COMMUNIS L.,272,Euphorbiaceae,8,7,3,1,0,4,1,1,2,4,8,3,8,0.4584,0.44,Corilagin; Indole-3-acetic acid; Quercetin
+Solanum MELONGENA L.,232,Solanaceae,8,8,5,0,1,2,1,1,0,6,8,1,8,0.49,0.4844,"3,4-Dihydroxybenzoic acid; Guaiacol; Quercetin"
+Abelmoschus MOSCHATUS Medik.,92,Malvaceae,7,6,6,0,0,1,1,0,0,6,2,2,0,0.46,0.425,Benzophenone; Methyl salicylate; Phenol
+Calotropis GIGANTEA (L.) R. Br.,793,Asclepiadaceae,7,7,6,1,0,0,0,0,0,7,1,1,0,0.48,0.425,Biphenyl; Azulene; 3-O-ACETYL-6-METHOXY-CYCLOARTENOL
+Punica GRANATUM L.,283,Punicaeae,7,7,2,4,1,0,0,1,0,6,7,0,7,0.49,0.4884,Ellagitannin; Proanthocyanidin; Punicafolin
+Senna occidentalis (L.) Link,874,Caesalpinaeae,7,7,3,0,0,4,1,0,0,6,7,1,7,0.4967,0.4615,"1,4,5-Trihydroxyanthraquinone; Gentisin; Quercetin"
+Tabernaemontana DIVARICATA (L.) R.Br. ex Roem. & Schult.,203,Apocynaceae,7,7,4,0,1,2,1,1,1,4,7,0,7,0.445,0.475,"Salicylic acid; 3,4-Dihydroxybenzoic acid; Kaempferol"
+Tephrosia PURPUREA (L.) Pers.,196,Fabaceae,7,6,0,1,0,6,1,0,0,6,7,0,7,0.4297,0.5,"2-Phenylfuro[2,3-h]chromen-4-one; Quercetin; Flemichapparin C"
+Acacia FARNESIANA (L.) Willd.,97,Mimosaceae,6,6,2,0,2,2,0,2,0,4,1,1,0,0.4891,0.513,"Salicylic acid; kaempferol 7-O-glucoside; 3,4-Dihydroxybenzoic acid"
+Catharanthus roseus (L.) G.Don,878,Apocynaceae,6,6,6,0,0,0,0,0,0,6,1,1,0,0.585,0.4246,"Salicylic Acid; 3,5-Dimethyl-4-Phenylpyridine; 1,2-Benzenedicarboxylic acid"
+Derris TRIFOLIATA Lour.,603,Fabeceae,6,6,0,0,0,6,1,0,0,5,0,0,0,0.5338,0.6416,Rhamnetin; prunetin; Rhamnetin-3-O-neohesperidoside
+Litsea MONOPETALA (Roxb.) Pers.,425,Lauraceae,6,4,0,2,1,3,0,1,1,4,3,2,0,0.4596,0.4982,Chalcone; methylchalcone; Querciturone
+Papaver somniferum L.,4,Papaveraceae,6,6,1,0,1,4,1,0,0,5,6,0,6,0.5283,0.6192,4-Hydroxybenzoic acid; Sanguinarine; Kaempferol
+Abrus PRECATORIUS L.,94,Fabaceae,5,5,5,0,0,0,0,0,0,5,0,0,0,0.5667,0.4259,"Phenol,; Propanoic acid,2-methyl-3-[4-t- butyl]phenyl-; Abrine"
+Calotropis PROCERA (Aiton) Dryand.,794,Asclepiadaceae,5,4,5,0,0,0,0,0,0,5,2,2,0,0.4583,0.425,"1,2-Benzenedicarboxylic acid; Geranylacetone; Neryl acetone"
+Carum carvi L.,74,Apiaceae,5,4,5,0,0,0,0,0,0,5,1,1,0,0.435,0.4828,Methylisoeugenol; 3-Benzyloxyphenol; 4-Methoxybenzaldehyde
+Curcuma ZEDOARIA Rosc.,628,Zingiberaceae,5,5,5,0,0,0,0,0,0,5,0,0,0,0.6067,0.4348,azulene; Phenol; o-cymene
+Glycosmis PENTAPHYLLA (Retz.) A. DC.,523,Rutaceae,5,5,1,0,0,4,1,0,1,3,1,1,0,0.4967,0.6042,Kaempferol; Quercetin; 3'-O-Methylquercetin
+Heliotropium INDICUM L.,505,Boraginaceae,5,4,3,1,0,1,1,0,0,4,1,1,0,0.5013,0.425,Methyl salicylate; Echinatin; Phenol
+Luffa ACUTANGULA (L.) Roxb.,423,Cucurbitaceae,5,5,2,0,1,2,1,0,1,3,2,1,0,0.4967,0.4828,"2,3-dihydroxybenzoic acid; quercetin; kaempferol-3-O-rutinoside"
+Mallotus philippensis (Lam.) Muell.-Arg.,61,Euphorbiaceae,5,5,1,2,0,2,0,0,1,4,1,0,0,0.5133,0.4571,trans-chalcone; kaempferol; 4-Methoxyacetanilide
+Ocimum tenuiflorum L.,346,Lamiaceae,5,4,5,0,0,0,0,0,0,5,2,2,0,0.585,0.4348,Fenol; Methyl isoeugenol; Methylisoeugenol
+Passiflora FOETIDA L.,332,Passifloraceae,5,5,3,0,0,2,2,0,0,3,5,0,5,0.62,0.5641,"Harman; Methyl salicylate; 1,2-Dimethoxybenzene"
+Phyllanthus URINARIA L.,313,Euphorbiaceae,5,5,0,1,0,4,1,1,1,2,5,1,5,0.4867,0.5059,Kaempferol; Corilagin; Quercetin
+Piper NIGRUM L.,307,Piperaceae,5,5,5,0,0,0,0,0,0,5,5,0,5,0.6067,0.4091,Azulene; Guaiacol; O-Cymene
+Bauhinia PURPUREA L.,761,Caesalpinaeae,4,3,0,0,0,4,1,0,2,1,3,3,0,0.4517,0.4178,Quercetin; astragalin; Isoquercitrin
+Curcuma LONGA L.,629,Zingiberaceae,4,4,4,0,0,0,0,0,0,4,0,0,0,0.4192,0.4423,"O-Cymene; Thymol; 1,7-Bis(4-hydroxyphenyl)-3,5- heptanediol"
+Cuscuta REFLEXA Roxb.,626,Cuscutaceae,4,4,0,0,0,4,1,0,1,2,2,2,0,0.4717,0.5745,Kaempferol; Quercetin; Hyperoside
+Dalbergia STIPULACEA Roxb.,612,Fabaceae,4,3,1,1,1,1,1,2,0,1,0,0,0,0.4625,0.5128,"2' ,4' ,4' -trihydroxy chalcone; biochanin A; 2,4-dimethoxyallylbenzene"
+Drynaria QUERCIFOLIA (L.) J. Sm.,579,Drynariaceae,4,4,2,0,1,1,1,1,0,2,0,0,0,0.4708,0.5645,"Benzeneacetic acid; 3,4-Dihydroxy Benzoic Acid; Quercetin"
+Haldina cordifolia (Roxb.) Ridsdale,113,Rubiaceae,4,4,2,0,2,0,0,1,0,3,0,0,0,0.5208,0.5324,p-hydroxybenzoic acid; protocatechuic acid; p-hydroxyphenyl acetic acid
+Lantana CAMARA L.,447,Verbenaceae,4,4,3,0,0,1,0,0,1,3,1,0,0,0.4783,0.4722,Amphetamine; 5-methyl-o-Anisidine; Farnesyl acetone
+Ocimum AMERICANUM L.,349,Lamiaceae,4,4,0,1,0,3,1,1,0,2,0,0,0,0.4125,0.6173,Saponins; Genkwanin; Acacetin
+Pterocarpus SANTALINUS L. f.,38,Fabaceae,4,2,0,2,2,0,2,2,0,0,4,0,4,0.4092,0.5484,Pterostilbene; Isoliquiritigenin
+Saccharum OFFICINARUM L.,265,Poaceae,4,4,4,0,0,0,0,0,0,4,4,0,4,0.53,0.4872,Xanthine; Nicotinic acid; Hypoxanthine
+Saccharum officinarum L.,55,Poaceae,4,4,4,0,0,0,0,0,0,4,4,0,4,0.53,0.4872,Xanthine; Nicotinic acid; Hypoxanthine
+Saraca ASOCA (Roxb.) De Wilde.,257,Fabaceae,4,4,0,0,0,4,1,0,2,1,4,2,4,0.4517,0.4355,Quercetin; Kaempferol 3-O-beta-D-glucoside; Quercetin-3-glucoside
+Saraca asoca (Roxb.) Wild.,34,Caesalpiniaceae,4,4,0,0,0,4,1,0,2,1,4,2,4,0.4517,0.4355,Quercetin; Kaempferol 3-O-beta-D-glucoside; Quercetin-3-glucoside
+Sesamum INDICUM L.,247,Pedaliaceae,4,4,4,0,0,0,0,0,0,4,4,0,4,0.5117,0.4608,Guaiacol; Nicotinic acid; 2-Phenylethanol
+Sesamum indicum L.,49,Pedaliaceae,4,4,4,0,0,0,0,0,0,4,4,0,4,0.5117,0.4608,Guaiacol; Nicotinic acid; 2-Phenylethanol
+Sida rhombifolia L.,806,Malvaceae,4,3,3,1,0,0,0,0,0,4,4,0,4,0.5109,0.4317,"(3S)-3-hydroxy-2,3-dihydro-1H-pyrrolo[2,1-b]quinazolin-9-one; Nicotinic acid; Tryptamine"
+Strychnos potatorum L. f.,77,Loganiaceae,4,4,1,1,1,1,1,0,1,2,4,0,4,0.5967,0.5531,4-Methoxysalicylic acid; Angustine; Quercetin
+Amaranthus SPINOSUS L.,705,Amaranthaceae,3,3,1,0,0,2,1,0,0,2,0,0,0,0.5333,0.6744,Kaempferol; Quercetin; Nicotinic acid
+Cleome VISCOSA L.,683,Capparidaceae,3,3,0,0,1,2,1,1,0,1,1,1,0,0.4967,0.6744,Kaempferide 3-glucuronide; Naringetol; Quercetin
+Clitoria ternatea L.,35,Fabaceae,3,3,0,0,0,3,0,0,0,3,2,2,0,0.465,0.4746,Kaempferol; Nicotiflorin; Afzelin
+Desmos chinensislour.,894,ANNONACEAE,3,3,2,0,0,1,0,0,1,2,1,0,0,0.42,0.4286,"Benzyl Benzoate; Quercitrin; 2',4'-Dihydroxy-3'-(2,6-dihydroxybenzyl)-6'-methoxychalcone"
+Hopea ODORATA Roxb.,491,Dipterocarpaceae,3,3,0,0,0,3,1,0,1,1,1,1,0,0.4967,0.6744,Kaempferol; Quercetin; Quercetin 3-glucoside
+Lagerstroemia speciosa (L.) Pers.,449,Lythraceae,3,3,0,1,2,0,0,1,0,2,1,1,0,0.5517,0.4545,1-hydroxy-2-naphthoic acid; Stachyurin; Protocatechuic acid
+Lagerstroemia speciosa(l.) Pers.,43,Lythraceae,3,3,0,1,2,0,0,1,0,2,1,1,0,0.5517,0.4545,1-hydroxy-2-naphthoic acid; Stachyurin; Protocatechuic acid
+Leea INDICA (Burm. f.) Merr.,439,Leeaceae,3,3,1,0,0,2,0,0,0,3,1,1,0,0.5333,0.4576,Phthalic acid; Kaempferol; Kaempferol 3-O-arabinoside
+Macaranga peltata (Roxb.)Muell.-Arg.,60,Euphorbiaceae,3,3,0,1,0,2,0,1,1,1,1,0,0,0.4867,0.5059,Rhamnetin; Corilagin; Quercetrin
+Nyctanthes ARBOR-TRISTIS L.,354,Oleaceae,3,2,0,0,0,3,0,0,0,3,3,3,0,0.465,0.4058,Nicotiflorin; Astragaline
+Piper betle L.,1,Piperaceae,3,3,3,0,0,0,0,0,0,3,3,0,3,0.4417,0.5294,Nicotinic acid; Isoeugenol; Chavibetol
+Vitex NEGUNDO L.,151,Verbenaceae,3,3,0,0,1,2,1,0,0,2,3,0,3,0.5233,0.6744,4-Hydroxybenzoic acid; Kaempferol; Quercetin
+Albizia PROCERA (Roxb.) Benth.,121,Mimosaceae,2,2,0,0,0,2,0,1,1,0,1,0,0,0.4883,0.5732,biochanin A; Formononetin
+Alocasia INDICA (Roxb.) Schott.,697,Araceae,2,2,0,2,0,0,0,0,0,2,0,0,0,0.4592,0.5742,"1H indole, 5 methyl-2, 3 diphenyl; 1H indole, 3 benzyl -2-phenyl"
+Artocarpus LACUCHA Buch-Ham.,740,Urticaceae,2,2,1,0,0,1,1,1,0,0,0,0,0,0.485,0.618,Galangin; Artocarpin
+Bougainvillea spectabilis Willd,843,Nyctaginaceae,2,2,0,0,0,2,1,0,0,1,0,0,0,0.5125,0.7038,Isorhamnetin; Quercetin
+Chenopodium ALBUM L.,901,Chenopodiaceae,2,2,1,0,0,1,1,0,0,1,0,0,0,0.4475,0.5396,Quercetin; Methyl 3-(4-hydroxy-3-methoxyphenyl)propanoate
+Ferula foetida (Bunge) Regel,75,Apiaceae,2,2,1,0,0,1,0,0,0,2,0,0,0,0.4617,0.4201,Microbin; Ethyl 3-indoleacetate
+Ficus HISPIDA L. f.,545,Moraceae,2,2,2,0,0,0,0,0,0,2,0,0,0,0.52,0.4826,2-Methoxy-Phenol; 2-Methoxy-4-vinylphenol
+Flacourtia JANGOMAS (Lour.) Raeus.,539,Flacourtiaceae,2,2,1,0,1,0,0,0,0,2,0,0,0,0.4259,0.4398,(-) - Epigallocatechin 3-(4-methyl-gallate); 3-Indolecarboxylic acid
+Hedyotis SCANDENS Roxb.,508,Rubiaceae,2,2,2,0,0,0,0,0,0,2,0,0,0,0.5592,0.4205,"1,2-Benzenedicarboxylic acid; 1H- Indole-3-Ethanamine"
+Helminthostachys ZEYLANICA L.,504,Helminthostachyaceae,2,2,1,0,0,1,1,0,0,1,0,0,0,0.5858,0.5546,Phenol; Quercetin
+Hibiscus SURATTENSIS L.,496,Malvaceae,2,2,2,0,0,0,1,0,0,1,0,0,0,0.6275,0.4209,Methyl salicylate; Farnesyl acetone
+Leea AEQUATA L.,441,Leeaceae,2,2,0,0,0,2,0,0,1,1,2,2,0,0.4517,0.4178,astragalin; isoquercitrin
+Lygodium FLEXUOSUM Sw.,418,Lygodiaceae,2,2,0,0,0,2,0,0,0,2,1,1,0,0.495,0.5927,Kaempferol; kaempferol 3-O-beta-D-glucoside
+Melochia CORCHORIFOLIA L.,396,Sterculiaceae,2,2,1,0,0,1,1,0,0,1,0,0,0,0.5209,0.5552,Quercetin; nicotinic acid
+Melochia corchorifolia L.,819,Tiliaceae,2,2,1,0,0,1,1,0,0,1,0,0,0,0.5209,0.5552,Quercetin; nicotinic acid
+Piper LONGUM L.,308,Piperaceae,2,2,2,0,0,0,0,0,0,2,2,0,2,0.5233,0.4415,4'-Methoxyacetophenone; 2-Phenylethanol
+Piper cubeba Vahl,2,Piperaceae,2,2,2,0,0,0,1,0,0,1,2,0,2,0.615,0.4121,Methyl salicylate; Thymol
+Santalum album L.,59,Santalaceae,2,2,2,0,0,0,0,0,0,2,2,0,2,0.4125,0.4487,2-Methoxy-4-methylphenol; 2-Methoxy-4-vinylphenol
+Sida ACUTA Burm. f.,240,Malvaceae,2,1,1,1,0,0,0,0,0,2,2,0,2,0.5534,0.4286,"(3S)-3-hydroxy-2,3-dihydro-1H-pyrrolo[2,1-b]quinazolin-9-one"
+Sida acuta Burm. f.,810,Malvaceae,2,1,1,1,0,0,0,0,0,2,2,0,2,0.5534,0.4286,"(3S)-3-hydroxy-2,3-dihydro-1H-pyrrolo[2,1-b]quinazolin-9-one"
+Spondias PINNATA (L.f.) Kurz.,221,Anacardiaceae,2,2,1,1,0,0,0,0,0,2,2,0,2,0.5358,0.4679,Geraniin; Nicotinic acid
+Urena LOBATA L.,162,Malvaceae,2,2,0,0,0,2,1,0,0,1,2,0,2,0.515,0.7122,Kaempferol; Quercetin
+Zingiber ZERUMBET (L.) Roscoe ex Sm.,128,Zingiberaceae,2,2,1,1,0,0,0,0,0,2,0,0,0,0.4925,0.4488,O-Cymene; Cyclone
+polygonum PLEBEIUM R. Br.,293,Polygonaceae,2,2,0,0,0,2,1,0,0,1,2,1,2,0.4706,0.5469,Quercetin; Guaijaverin
+Abroma AUGUSTA (L.) L.f.,93,Sterculiaceae,1,1,0,0,0,1,1,0,0,0,0,0,0,0.4967,0.6744,Quercetin
+Alpinia CALCARATA Rosc.,699,Zingiberaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.5017,0.4062,Benzyl Benzoate
+Alpinia NIGRA (Gaertn.) Burtt.,702,Zingiberaceae,1,1,0,0,0,1,0,0,0,1,1,1,0,0.4567,0.4355,kaempferol-3-O-glucoside
+Anamirta COCCULUS (L.) W. & A.,717,Menispermaceae,1,1,0,0,0,1,0,0,0,1,1,0,1,0.47,0.4915,Berberine
+Bauhinia MALABARICA Roxb.,760,Caesalpinaeae,1,1,0,0,0,1,0,0,1,0,1,0,0,0.42,0.4355,Quercitrin
+Boerhavia diffusa L.,9,Nyctaginaceae,1,1,0,0,0,1,0,0,0,1,0,0,0,0.435,0.4167,Liriodenine
+Cardiospermum HALICACABUML.,865,Sapindaceae,1,1,0,0,1,0,0,0,0,1,0,0,0,0.4783,0.4179,Proanthocyanidin
+Caryota URENS L.,870,Arecaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.545,0.4359,Nicotinic acid
+Clausena HEPTAPHYLLA (Roxb.) Wight.& Arn.,685,Rutaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.435,0.4828,4-Methoxybenzaldehyde
+Dillenia INDICA L.,596,Dilleniaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.7117,0.4062,Phthalic Acid
+Dillenia indica L.,829,Dilleniaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.7117,0.4062,Phthalic Acid
+Diospyros MALABARICA (Desr.) Kostel,587,Ebenaceae,1,1,1,0,0,0,0,0,0,1,1,1,0,0.585,0.6333,Trans-methyl isoeugenol
+Diospyros malabarica(desr.) Kostel.,28,Ebenaceaea,1,1,1,0,0,0,0,0,0,1,1,1,0,0.585,0.6333,Trans-methyl isoeugenol
+Elephantopus SCABER L.,571,Asteraceae,1,1,0,0,0,1,1,0,0,0,0,0,0,0.4967,0.6744,Quercetin
+Entada rheedii Spreng.,563,Mimosaceae,1,1,0,0,0,1,1,0,0,0,0,0,0,0.4967,0.6744,Quercetin
+Ixora CUNEIFOLIA Roxb.,465,Rubiaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.675,0.4348,Phenol
+Justicia GENDARUSSA Burm.,458,Acanthaceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.39,0.4651,2-Methoxy-4-vinylphenol
+Mikania CORDATA (Burm. f.) Rob,388,Asteraceae,1,1,1,0,0,0,0,0,0,1,0,0,0,0.4333,0.4074,Thymol
+Mussaenda ROXBURGHII Hook. f.,364,Rubiaceae,1,1,0,1,0,0,0,0,0,1,0,0,0,0.3836,0.4643,lupeol palmitate
+Phoenix sylvestris (L.) Roxb.,321,Arecaceae,1,1,1,0,0,0,0,0,0,1,1,0,1,0.545,0.4359,Nicotinic acid
+Phyllanthus niruri L.,62,Euphorbiaceae,1,1,0,1,0,0,0,1,0,0,1,0,1,0.4867,0.5059,Corilagin
+Plumbago INDICA L.,301,Plumbaginaceae,1,1,0,0,0,1,0,0,0,1,1,0,1,0.5333,0.75,Kaempferol
+Plumbago indica L.,14,Plumbaginaceae.,1,1,0,0,0,1,0,0,0,1,1,0,1,0.5333,0.75,Kaempferol
+Rauvolfia SERPENTINA (L.) Benth. ex Kurz.,278,Apocynaceae,1,1,1,0,0,0,0,0,0,1,1,0,1,0.4067,0.4348,Tryptamine
+Senna sophera (L.) Roxb.,875,Caesalpinaeae,1,1,0,0,0,1,1,0,0,0,1,0,1,0.4967,0.6744,Quercetin
+Solanum TORVUM Swartz.,229,Solanceae,1,1,1,0,0,0,0,0,0,1,1,0,1,0.545,0.4359,Nicotinic acid
+Spermacoce articularis L.f.,776,Rubiaceae,1,1,0,0,0,1,0,0,0,1,1,0,1,0.5283,0.7333,Isorhamnetin
+Streblus ASPER Lour.,213,Moraceae,1,1,1,0,0,0,0,0,0,1,1,1,1,0.4583,0.425,Geranylacetone
+Tacca INTEGRIFOLIA Ker.-Gawl.,202,Taccaceae,1,1,0,0,0,1,0,0,0,1,1,1,1,0.4444,0.4194,Guaijaverin
+Terminalia CITRINA Flaming.,191,Combretaceae,1,1,0,1,0,0,0,1,0,0,1,0,1,0.4867,0.5059,Corilagin

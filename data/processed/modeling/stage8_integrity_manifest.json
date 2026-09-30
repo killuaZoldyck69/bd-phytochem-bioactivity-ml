@@ -1,0 +1,87 @@
+{
+  "title": "Stage 8 Evidence-Aware Synthesis Integrity Manifest",
+  "timestamp_utc": "2026-09-30T15:41:50.227965+00:00",
+  "pipeline_version": "Stage8-v1.0-Deterministic",
+  "frozen_candidate_counts": {
+    "candidate_links": 1167,
+    "unique_molecular_skeletons": 319,
+    "unique_stereoisomeric_inchikeys": 354,
+    "medicinal_plants": 164
+  },
+  "upstream_inputs": {
+    "MPBD Master Index": {
+      "path": "data/raw/mpbd/mpbd_plant_index.csv",
+      "sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7"
+    },
+    "Stage 7B Config Frozen": {
+      "path": "data/processed/modeling/stage7b_config_frozen_FULL.json",
+      "sha256": "ED5F00E529F0FE4D7CAE877DC53C88A589F5DF06C9EB6AFBB984DC33D9C81AB4"
+    },
+    "Stage 7D Domain Shift Summary": {
+      "path": "data/processed/modeling/domain_shift_summary.csv",
+      "sha256": "22225B3FEF71A142AB9982DF392062B99E0DD31CD090774B67889F7D57F25854"
+    },
+    "Stage 7E Preliminary Candidates": {
+      "path": "data/processed/modeling/preliminary_candidates.csv",
+      "sha256": "9EAD02090C787E9246AC70150EDC343305602DD694FF651385A6ACED2535C227"
+    },
+    "Stage 7E Plant Level Summary": {
+      "path": "data/processed/modeling/plant_level_summary.csv",
+      "sha256": "BB25EAB81FBDBC24F06F91F66B82BA30EDF63CD71B601470701C3BE013B05060"
+    },
+    "Stage 7F Known Active Validation": {
+      "path": "data/validation/known_plant_active_validation.csv",
+      "sha256": "32E791BF84B81EF2BE52B8BE3B78003E6630F575D36A124AFD0352B9AECBD3C1"
+    },
+    "Stage 7F Known Active Results": {
+      "path": "data/validation/known_plant_active_results.csv",
+      "sha256": "BD200730F0446E0FB89B2060E26573107EB52B021978956440D2E854408CF76B"
+    },
+    "stage7g_candidate_manifest.csv": {
+      "path": "stage7g_candidate_manifest.csv",
+      "sha256": "C87E8D182897D358C44052778E50EEF59EE2E80202FD90FC817B73CAA4728026"
+    },
+    "top_candidate_literature_evidence.csv": {
+      "path": "top_candidate_literature_evidence.csv",
+      "sha256": "51926D277A0D140EB78D07A08C46DB4905AB75C1D50982C9CAA93449075141EC"
+    },
+    "stage7g_literature_sources.csv": {
+      "path": "stage7g_literature_sources.csv",
+      "sha256": "EF4E71BA1335C0C4B4FD338B81EAE10E734228C22AA4394D21E80D353ACDA535"
+    },
+    "stage7g_candidate_evidence_summary.csv": {
+      "path": "stage7g_candidate_evidence_summary.csv",
+      "sha256": "1B2EB77AF59F55EEFADFA8567D89F6C5F59B25867A032F471BADB560BA2605DC"
+    },
+    "stage7g_target_literature_summary.csv": {
+      "path": "stage7g_target_literature_summary.csv",
+      "sha256": "B115E83870049B338C272141204D0CB04C78C1B4F51D46C7B7EF313FCEEA56F7"
+    },
+    "stage7g_search_log.csv": {
+      "path": "stage7g_search_log.csv",
+      "sha256": "E0799F77C8C695EDB2081B7A500FBBD5D3C097D1D2880FD3DE48AC51D9B885D1"
+    },
+    "stage7g_manual_review_queue.csv": {
+      "path": "stage7g_manual_review_queue.csv",
+      "sha256": "ACDEC3D909FB4ED963CAC24CC7ED39C76283DBC42181579157A2A5EA0A817A88"
+    },
+    "stage7g_literature_validation_report.md": {
+      "path": "stage7g_literature_validation_report.md",
+      "sha256": "D440C8149B8B8E5D8F096ABB60CF5D292782A65793DD48D41C4AC8722731DFF5"
+    }
+  },
+  "output_artifacts": {
+    "data/processed/modeling/stage8_integrated_candidate_evidence.csv": "0DE3E1FCDC2D0A200BA237CD8508C7DF945D6CE12B6193AE5C42D273E8552446",
+    "data/processed/modeling/stage8_target_integrated_summary.csv": "4D9C116BD337A18CFF690819681A45C7F19DE050721FEACA43920087CEAFB44D",
+    "data/processed/modeling/stage8_plant_integrated_summary.csv": "313A6B1BD2488104C972B720AFF128D16A65B49574FB1ECC6465149B57CB507F",
+    "data/processed/modeling/stage8_integrated_statistics.csv": "0C467A682E07F7F7AD9EF06C44FB8460EE96E0E68AF7C604A1C12299C30B0143",
+    "docs/stage8_integrated_results_report.md": "2B69E39CDFEC704F29890AC99F5180C04A31219AC14FD628783AD70876DCC000",
+    "figures/stage8_fig1_evidence_distribution_by_target.png": "F8A817E584DB38DDF58B116C737702FFC224870E991CDEE2DF1AD1FEC0CCE46B",
+    "figures/stage8_fig2_probability_by_evidence.png": "EC05BE5845DAB16ED8C8BA919F874BFAA68025F114CE9280EA0A20235072B9DA",
+    "figures/stage8_fig3_nn_similarity_by_evidence.png": "34F6353DB2323B82549A8E79402592C51331567DEF33D784ED835E7E2FCCB01D",
+    "figures/stage8_fig4_plant_candidate_distribution.png": "68E33083BA563A1158BA46A979A6FA27A132064903C841CF64580F46EADFF994",
+    "figures/stage8_fig5_thesis_workflow_diagram.png": "F80A8156D75ED271692144DDA288D3D85EC74B67413C4F71BEA0339046D8D297"
+  },
+  "automated_qa": "PASS",
+  "duplicate_run_reproducibility": "PASS"
+}
