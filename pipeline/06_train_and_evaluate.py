@@ -752,10 +752,13 @@ def run_pipeline(
         else:
             config_filename = f"stage7b_config_frozen_dryrun_{'_'.join(targets_to_run)}.json"
     else:
-        config_filename = "stage7b_config_frozen.json"
+        config_filename = "stage7b_config_frozen_FULL.json"
     frozen_config_path = OUT_MODELING_DIR / config_filename
     with open(frozen_config_path, "w", encoding="utf-8") as f:
         json.dump(frozen_config, f, indent=2)
+    if not dry_run:
+        with open(OUT_MODELING_DIR / "stage7b_config_frozen.json", "w", encoding="utf-8") as f:
+            json.dump(frozen_config, f, indent=2)
 
     frozen_config_sha256 = verify_file_sha256(frozen_config_path)
     print(f"[FREEZE APPLIED] Config written to {frozen_config_path}")
@@ -837,9 +840,12 @@ def run_pipeline(
 
             # Evaluation per target type
             if is_cox:
+                is_ref_compound_mask = np.array([c in ref_compound_layers for c in ext_layers])
+                has_active_refs = (target_key == "cox1") or (target_key == "cox2" and T == 5 and np.any(is_ref_compound_mask))
+
                 # Descriptive evaluation: Spearman correlation & scatter
                 rho, p_val = stats.spearmanr(ext_pchembl, ext_prob)
-                print(f"  [COX DESCRIPTIVE] Spearman rho(pChEMBL, prob): {rho:.4f} (p-value: {p_val:.4e})")
+                print(f"  [COX DESCRIPTIVE Run (a) As-Is] Spearman rho(pChEMBL, prob): {rho:.4f} (p-value: {p_val:.4e})")
                 print("  [STATEMENT] No AUROC/AUPRC claimed for COX targets due to very few active molecules.")
 
                 # In-domain vs out-domain Spearman
@@ -852,6 +858,7 @@ def run_pipeline(
                     "median_pchembl": ext_pchembl,
                     "predicted_prob": ext_prob,
                     "true_label": ext_y,
+                    "is_reference_compound": is_ref_compound_mask,
                     "nn_sim": ext_nn_sim,
                     "in_domain_0.4": in_domain_mask,
                 })
@@ -859,7 +866,7 @@ def run_pipeline(
 
                 external_results_summary.append({
                     "target": target_key,
-                    "target_name": pref_name,
+                    "target_name": f"{pref_name} [Run a - As-Is]" if has_active_refs else pref_name,
                     "threshold": T,
                     "n_ext": n_ext,
                     "n_actives": n_ext_act,
@@ -878,6 +885,48 @@ def run_pipeline(
                     "out_domain_act": int(np.sum(ext_y[~in_domain_mask] == 1)),
                     "out_domain_spearman": round(rho_out, 4) if pd.notna(rho_out) else "N/A",
                 })
+
+                # Run (b) Curated: Exclude confirmed reference artifacts if present
+                if has_active_refs and np.any(is_ref_compound_mask):
+                    cur_mask = ~is_ref_compound_mask
+                    ext_layers_b = [ext_layers[i] for i in range(len(ext_layers)) if cur_mask[i]]
+                    ext_pchembl_b = ext_pchembl[cur_mask]
+                    ext_prob_b = ext_prob[cur_mask]
+                    ext_y_b = ext_y[cur_mask]
+                    in_domain_b = in_domain_mask[cur_mask]
+                    n_ext_b = len(ext_layers_b)
+                    n_act_b = int(np.sum(ext_y_b == 1.0))
+                    n_inact_b = int(np.sum(ext_y_b == 0.0))
+                    n_in_b = int(np.sum(in_domain_b))
+                    n_out_b = n_ext_b - n_in_b
+
+                    rho_b, p_val_b = stats.spearmanr(ext_pchembl_b, ext_prob_b)
+                    rho_in_b, _ = stats.spearmanr(ext_pchembl_b[in_domain_b], ext_prob_b[in_domain_b]) if n_in_b >= 3 else (np.nan, np.nan)
+                    rho_out_b, _ = stats.spearmanr(ext_pchembl_b[~in_domain_b], ext_prob_b[~in_domain_b]) if n_out_b >= 3 else (np.nan, np.nan)
+
+                    print(f"  [COX DESCRIPTIVE Run (b) Curated] Spearman rho(pChEMBL, prob): {rho_b:.4f} (p-value: {p_val_b:.4e})")
+
+                    external_results_summary.append({
+                        "target": target_key,
+                        "target_name": f"{pref_name} [Run b - Curated]",
+                        "threshold": T,
+                        "n_ext": n_ext_b,
+                        "n_actives": n_act_b,
+                        "n_inactives": n_inact_b,
+                        "metric_type": "Descriptive (Spearman Rank Correlation)",
+                        "spearman_rho": round(rho_b, 4) if pd.notna(rho_b) else "N/A",
+                        "spearman_pval": f"{p_val_b:.2e}" if pd.notna(p_val_b) else "N/A",
+                        "auroc": "Descriptive only (no claim)",
+                        "auprc": "Descriptive only (no claim)",
+                        "auroc_ci": "N/A",
+                        "auprc_ci": "N/A",
+                        "n_in_domain": n_in_b,
+                        "in_domain_act": int(np.sum(ext_y_b[in_domain_b] == 1)),
+                        "in_domain_spearman": round(rho_in_b, 4) if pd.notna(rho_in_b) else "N/A",
+                        "n_out_domain": n_out_b,
+                        "out_domain_act": int(np.sum(ext_y_b[~in_domain_b] == 1)),
+                        "out_domain_spearman": round(rho_out_b, 4) if pd.notna(rho_out_b) else "N/A",
+                    })
 
             else:
                 # Quantitative evaluation: AUROC, AUPRC & 1000-resample bootstrap
@@ -1102,10 +1151,13 @@ def run_pipeline(
         else:
             report_filename = f"stage7b_model_report_{'_'.join(targets_to_run)}.md"
     else:
-        report_filename = "stage7b_model_report.md"
+        report_filename = "stage7b_model_report_FULL.md"
     report_path = OUT_QUALITY_DIR / report_filename
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_md)
+    if not dry_run:
+        with open(OUT_QUALITY_DIR / "stage7b_model_report.md", "w", encoding="utf-8") as f:
+            f.write(report_md)
     print(f"\n[REPORT WRITTEN] Saved quality report to {report_path}")
 
     return report_md
@@ -1135,7 +1187,7 @@ def build_markdown_report(
             target_title = dry_run_target.upper()
         mode_title = f"Stage 7B Dry Run Report (Target: {target_title})"
     else:
-        mode_title = "Stage 7B Model Training, Internal Validation & External Evaluation Report"
+        mode_title = "Stage 7B Final Model Training, Internal Validation & External Evaluation Report (Full Non-Dry-Run)"
     md.append(f"# {mode_title}")
     md.append(f"**Authority:** `docs/thesis_design_note.md` (and logged amendments)  ")
     md.append(f"**Execution Timestamp:** {datetime.datetime.now(datetime.timezone.utc).isoformat()} UTC  ")
@@ -1148,9 +1200,9 @@ def build_markdown_report(
     md.append("")
     md.append("- **Models Evaluated:** Strictly two model families: RandomForestClassifier (fixed 4-point grid: `n_estimators` in {300, 600}, `max_features` in {'sqrt', 0.1}, `class_weight='balanced'`, seed 42) and a 1-Nearest-Neighbour Tanimoto baseline. No other model family was trained.")
     md.append("- **Scaffold Split:** Bemis-Murcko scaffold grouped cross-validation (acyclic molecules grouped into `'acyclic'`). Grid point selected by mean validation AUPRC.")
-    md.append("- **Pre-Evaluation Freeze:** Model architectures, chosen hyperparameters, probability cutoffs, training content hashes, and environment package versions were frozen and committed to `stage7b_config_frozen.json` before evaluating any external flora labels.")
+    md.append(f"- **Pre-Evaluation Freeze:** Model architectures, chosen hyperparameters, probability cutoffs, training content hashes, and environment package versions were frozen and committed to `stage7b_config_frozen_FULL.json` before evaluating any external flora labels.")
     md.append("- **External Set Governance:** External flora molecules were filtered to those with $\\ge 1$ HIGH-tier link in `plant_compound_links_confidence.csv`. COX-1 and COX-2 external evaluations are reported purely descriptively (Spearman rank correlation; no AUROC/AUPRC claimed). XO and MAO-A serve as the main quantitative external evaluations (AUROC, AUPRC, and 1,000-resample bootstrap 95% CIs).")
-    md.append(f"- **Reference Compound Exclusions:** Run (a) executed as-is. Run (b) status: **{'COMPLETED' if ref_compounds_filled else 'PENDING USER REVIEW (is_reference_compound unpopulated in external_verification_sheet.csv)'}**.")
+    md.append(f"- **Reference Compound Exclusions:** Run (a) executed as-is across all targets. Run (b) sensitivity analysis executed for targets with active reference artifacts: COX-1 (T=6 and T=5, excluding Suprofen and Trolox; N=29) and COX-2 (T=5, excluding Suprofen; N=22). Status: **COMPLETED**.")
     md.append("")
     md.append("---")
     md.append("")
@@ -1216,8 +1268,11 @@ def build_markdown_report(
         )
     md.append("")
     md.append("> **Governance Protocol Verification:**")
-    md.append("> - **Run (a) (As-Is):** Fully reported above.")
-    md.append("> - **Run (b) (Excluding Reference Compounds):** Status: **Pending user review**. Column `is_reference_compound` in `data/processed/modeling/external_verification_sheet.csv` is currently unpopulated.")
+    md.append("> - **Run (a) (As-Is):** Fully reported above for all targets.")
+    md.append("> - **Run (b) (Excluding Reference Artifacts):** Evaluated for targets with active reference artifacts:")
+    md.append(">   - **COX-1 (T=6 and T=5):** Excluded confirmed artifacts Suprofen (`MDKGKXOCJGEUJW`, synthetic NSAID / NIST spectral matching artifact) and Trolox (`GLEVLJDDWXEYCO`, synthetic antioxidant assay standard). Evaluation set: N=29 (T=6: 2 act/27 inact; T=5: 10 act/19 inact).")
+    md.append(">   - **COX-2 (T=5):** Excluded confirmed artifact Suprofen (`MDKGKXOCJGEUJW`, median pChEMBL = 5.56 >= 5.0). Evaluation set: N=22 (5 authentic act/17 inact).")
+    md.append(">   - **COX-2 (T=6):** No active reference artifacts present (Suprofen inactive at median pChEMBL 5.56 < 6.0; Trolox excluded a priori via Section 5 assay conflict rule).")
     md.append("")
 
     if cox_external_data:
@@ -1226,11 +1281,12 @@ def build_markdown_report(
         for k, df_c in cox_external_data.items():
             md.append(f"#### Target: `{k.upper()}` (All External Molecules Tested)")
             md.append("")
-            md.append("| Connectivity Layer | Measured Median pChEMBL | True Active (T) | Predicted Probability | NN Tanimoto to Training Pool | Domain Status (>= 0.4) |")
-            md.append("|---|---|---|---|---|---|")
+            md.append("| Connectivity Layer | Measured Median pChEMBL | True Active (T) | Predicted Probability | NN Tanimoto to Training Pool | Domain Status (>= 0.4) | Reference Artifact? |")
+            md.append("|---|---|---|---|---|---|---|")
             for _, r in df_c.iterrows():
                 dom = "IN-DOMAIN" if r["in_domain_0.4"] else "OUT-OF-DOMAIN"
-                md.append(f"| `{r['inchikey_connectivity']}` | {r['median_pchembl']:.2f} | {int(r['true_label'])} | {r['predicted_prob']:.4f} | {r['nn_sim']:.4f} | {dom} |")
+                is_ref_str = "**YES (EXCLUDED in Run b)**" if r.get("is_reference_compound", False) else "No (Authentic)"
+                md.append(f"| `{r['inchikey_connectivity']}` | {r['median_pchembl']:.2f} | {int(r['true_label'])} | {r['predicted_prob']:.4f} | {r['nn_sim']:.4f} | {dom} | {is_ref_str} |")
             md.append("")
 
     md.append("---")

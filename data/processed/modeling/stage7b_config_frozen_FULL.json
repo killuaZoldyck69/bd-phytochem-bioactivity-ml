@@ -1,0 +1,146 @@
+{
+  "title": "Stage 7B Frozen Experimental Configuration",
+  "timestamp_utc": "2026-09-30T14:05:36.542903+00:00",
+  "is_dry_run": false,
+  "models": [
+    "RandomForestClassifier",
+    "1-Nearest-Neighbour-Tanimoto"
+  ],
+  "model_family_restriction": "Strictly RandomForest and 1-NN Tanimoto baseline only; no other family permitted.",
+  "rf_grid": [
+    {
+      "n_estimators": 300,
+      "max_features": "sqrt"
+    },
+    {
+      "n_estimators": 300,
+      "max_features": 0.1
+    },
+    {
+      "n_estimators": 600,
+      "max_features": "sqrt"
+    },
+    {
+      "n_estimators": 600,
+      "max_features": 0.1
+    }
+  ],
+  "seeds": {
+    "model_seed": 42,
+    "split_seed": 42
+  },
+  "thresholds": [
+    6,
+    5
+  ],
+  "package_versions": {
+    "python": "3.14.7",
+    "scikit-learn": "1.9.1",
+    "rdkit": "2026.03.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "chosen_hyperparameters": {
+    "cox1": {
+      "T6": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.491,
+        "mean_val_auroc": 0.7219,
+        "mean_val_brier": 0.168,
+        "optimal_prob_cutoff": 0.39,
+        "optimal_val_f1": 0.4928
+      },
+      "T5": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.8134,
+        "mean_val_auroc": 0.7738,
+        "mean_val_brier": 0.1918,
+        "optimal_prob_cutoff": 0.34,
+        "optimal_val_f1": 0.7786
+      }
+    },
+    "cox2": {
+      "T6": {
+        "n_estimators": 300,
+        "max_features": "0.1",
+        "mean_val_auprc": 0.7957,
+        "mean_val_auroc": 0.7739,
+        "mean_val_brier": 0.1934,
+        "optimal_prob_cutoff": 0.36,
+        "optimal_val_f1": 0.7755
+      },
+      "T5": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.941,
+        "mean_val_auroc": 0.7571,
+        "mean_val_brier": 0.1274,
+        "optimal_prob_cutoff": 0.16,
+        "optimal_val_f1": 0.9251
+      }
+    },
+    "xo": {
+      "T6": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.9449,
+        "mean_val_auroc": 0.9155,
+        "mean_val_brier": 0.1232,
+        "optimal_prob_cutoff": 0.4,
+        "optimal_val_f1": 0.8686
+      },
+      "T5": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.9716,
+        "mean_val_auroc": 0.8974,
+        "mean_val_brier": 0.1206,
+        "optimal_prob_cutoff": 0.3,
+        "optimal_val_f1": 0.9049
+      }
+    },
+    "maoa": {
+      "T6": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.6664,
+        "mean_val_auroc": 0.8218,
+        "mean_val_brier": 0.1376,
+        "optimal_prob_cutoff": 0.41,
+        "optimal_val_f1": 0.6203
+      },
+      "T5": {
+        "n_estimators": 600,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.8382,
+        "mean_val_auroc": 0.7899,
+        "mean_val_brier": 0.1846,
+        "optimal_prob_cutoff": 0.38,
+        "optimal_val_f1": 0.7879
+      }
+    }
+  },
+  "training_set_content_hashes": {
+    "cox1": {
+      "T6": "6923d856382f3b048e1959938698d46e9af56795198763cd82961645952aed1b",
+      "T5": "aeef1d79cb7df675a574059dcc56e50a81b6169acac14675c0269ad42ec1c970"
+    },
+    "cox2": {
+      "T6": "769d2b9813e9f3585bc91feb1dd34cc6970e326109b4332311f3704c98516dc8",
+      "T5": "e4b2ca82bf25e4fedd9349fea6cf9aed4513dc70f35403ddb63b5d02642c8717"
+    },
+    "xo": {
+      "T6": "cd5524bdc46ffeb9c7fd41703f3e249539cbaadf81f9f036f12d2fe9922ace3e",
+      "T5": "6cd199f200c4464700f3e441d1939008b95b029eaaab5fed24be59e96dd0d880"
+    },
+    "maoa": {
+      "T6": "745d54d15021f7952c1a01f0f592a7af63132bcb8788804a7ac2f925b059854e",
+      "T5": "339271a2d70904e383a4aca0a88d9a521a8f89df6ddbaa178162f0605c2c35d0"
+    }
+  },
+  "master_mpbd_start_sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7"
+}
