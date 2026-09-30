@@ -1,0 +1,63 @@
+{
+  "title": "Stage 7B Frozen Experimental Configuration",
+  "timestamp_utc": "2026-09-25T17:58:48.914857+00:00",
+  "is_dry_run": true,
+  "models": [
+    "RandomForestClassifier",
+    "1-Nearest-Neighbour-Tanimoto"
+  ],
+  "model_family_restriction": "Strictly RandomForest and 1-NN Tanimoto baseline only; no other family permitted.",
+  "rf_grid": [
+    {
+      "n_estimators": 300,
+      "max_features": "sqrt"
+    },
+    {
+      "n_estimators": 300,
+      "max_features": 0.1
+    },
+    {
+      "n_estimators": 600,
+      "max_features": "sqrt"
+    },
+    {
+      "n_estimators": 600,
+      "max_features": 0.1
+    }
+  ],
+  "seeds": {
+    "model_seed": 42,
+    "split_seed": 42
+  },
+  "thresholds": [
+    6
+  ],
+  "package_versions": {
+    "python": "3.14.7",
+    "scikit-learn": "1.9.1",
+    "rdkit": "2026.03.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "chosen_hyperparameters": {
+    "cox1": {
+      "T6": {
+        "n_estimators": 300,
+        "max_features": "sqrt",
+        "mean_val_auprc": 0.3878,
+        "mean_val_auroc": 0.6592,
+        "mean_val_brier": 0.1786,
+        "optimal_prob_cutoff": 0.34,
+        "optimal_val_f1": 0.4252
+      }
+    }
+  },
+  "training_set_content_hashes": {
+    "cox1": {
+      "T6": "6923d856382f3b048e1959938698d46e9af56795198763cd82961645952aed1b"
+    }
+  },
+  "master_mpbd_start_sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7"
+}
