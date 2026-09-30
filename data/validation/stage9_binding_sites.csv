@@ -1,0 +1,5 @@
+target,canonical_name,upstream_label,pdb_id,chain_id,center_x,center_y,center_z,size_x,size_y,size_z,reference_ligand,reference_ligand_name,binding_site_rationale
+PTGS1,Prostaglandin G/H synthase 1,cox1,1EQG,A,26.828,33.484,200.848,18.0,18.0,18.0,IBP,Ibuprofen,"Cyclooxygenase active site channel complexed with non-selective NSAID ibuprofen adjacent to Arg120, Tyr355, and Ser530."
+PTGS2,Prostaglandin G/H synthase 2,cox2,3NT1,A,-40.699,-51.5,-22.4,18.0,18.0,18.0,NPS,Naproxen,"High-resolution (1.73 A) cyclooxygenase active site pocket complexed with naproxen interacting with Arg120, Tyr355, Val523."
+XDH,Xanthine dehydrogenase/oxidase,xo,3NVY,C,39.063,21.898,20.218,18.0,18.0,18.0,QUE,Quercetin,"Molybdenum-pterin active site cavity complexed with natural flavonoid quercetin interacting with Glu802, Arg880, Phe914."
+MAOA,Monoamine oxidase A,maoa,2Z5X,A,40.582,26.931,-14.54,16.0,16.0,16.0,HRM,Harmine,Substrate/inhibitor cavity of human MAO-A complexed with natural selective alkaloid harmine adjacent to catalytic FAD and Tyr407/Tyr444 aromatic cage.

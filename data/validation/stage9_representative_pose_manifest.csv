@@ -1,0 +1,4 @@
+selection_priority,target,canonical_gene,candidate_id,compound,evidence_status,docking_score_kcal_mol,pdb_id,key_interactions,consistency,selection_rationale
+1,PTGS1,PTGS1,CAND_COX1_0116,Suprofen,LEVEL_A_EXACT_TARGET,-8.328,1EQG,ARG120; ILE523; LEU352; PHE518; SER530; TYR355; TYR385; VAL349,INTERACTION_PATTERN_CONSISTENT,Strongest docking pose among PTGS1 Level A exact-target candidates.
+2,PTGS2,PTGS2,CAND_COX2_0664,Angustine,NO_RELEVANT_REPORT_FOUND,-6.102,3NT1,ALA527; ARG120; LEU352; SER530; TYR355; TYR385; VAL523,INTERACTION_PATTERN_CONSISTENT,Top computational rank unreported candidate demonstrating structural accommodation in PTGS2 active site.
+3,XDH,XDH,CAND_XO_0775,Chrysin,LEVEL_A_EXACT_TARGET,-9.863,3NVY,ARG880; GLU1261; GLU802; LEU873; PHE1009; PHE914; THR1010; VAL1011,INTERACTION_PATTERN_CONSISTENT,Representative favorable pose in XDH molybdenum-pterin active site.

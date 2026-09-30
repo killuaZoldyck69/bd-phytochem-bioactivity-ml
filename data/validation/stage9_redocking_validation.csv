@@ -1,0 +1,5 @@
+target,upstream_target,pdb_id,chain_id,reference_ligand,reference_ligand_name,docking_score_kcal_mol,mode1_heavy_rmsd_angstrom,best_mode_id,best_heavy_rmsd_angstrom,rmsd_threshold_angstrom,validation_status,docking_engine,engine_version,seed
+PTGS1,cox1,1EQG,A,IBP,Ibuprofen,-7.618,0.872,1,0.872,2.0,PASS,AutoDock Vina,v1.2.7,42
+PTGS2,cox2,3NT1,A,NPS,Naproxen,-8.847,0.37,1,0.37,2.0,PASS,AutoDock Vina,v1.2.7,42
+XDH,xo,3NVY,C,QUE,Quercetin,-8.847,1.485,7,0.95,2.0,PASS,AutoDock Vina,v1.2.7,42
+MAOA,maoa,2Z5X,A,HRM,Harmine,-8.709,2.306,6,1.095,2.0,PASS,AutoDock Vina,v1.2.7,42

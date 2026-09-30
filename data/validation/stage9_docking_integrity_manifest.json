@@ -1,0 +1,114 @@
+{
+  "pipeline_stage": "Stage 9 / 7H",
+  "title": "Stage 9 Structure-Based Docking Validation Integrity Manifest",
+  "timestamp_utc": "2026-09-30T16:36:52.817631+00:00",
+  "environment": {
+    "engine": "AutoDock Vina",
+    "engine_version": "AutoDock Vina v1.2.7",
+    "vina_path": "F:\\bmppd-thesis\\.venv\\Scripts\\vina.exe",
+    "rdkit_version": "2026.03.6",
+    "meeko_version": "0.8.0",
+    "python_version": "3.14.7",
+    "os": "win32"
+  },
+  "frozen_upstream_inputs": {
+    "Stage 7E Preliminary Candidates": {
+      "path": "data/processed/modeling/preliminary_candidates.csv",
+      "sha256": "9EAD02090C787E9246AC70150EDC343305602DD694FF651385A6ACED2535C227"
+    },
+    "Stage 7B Config Frozen": {
+      "path": "data/processed/modeling/stage7b_config_frozen_FULL.json",
+      "sha256": "ED5F00E529F0FE4D7CAE877DC53C88A589F5DF06C9EB6AFBB984DC33D9C81AB4"
+    },
+    "MPBD Master Index": {
+      "path": "data/raw/mpbd/mpbd_plant_index.csv",
+      "sha256": "0BCD6BACC545FD8879A43A08321CAF725D896067A21FCE3CEC09BF4BD5BBF4D7"
+    },
+    "Stage 8 Integrated Evidence": {
+      "path": "data/processed/modeling/stage8_integrated_candidate_evidence.csv",
+      "sha256": "0DE3E1FCDC2D0A200BA237CD8508C7DF945D6CE12B6193AE5C42D273E8552446"
+    }
+  },
+  "canonical_targets": {
+    "cox1": "PTGS1",
+    "cox2": "PTGS2",
+    "xo": "XDH",
+    "maoa": "MAOA"
+  },
+  "redocking_validation_status": "PASS",
+  "statistical_summary": {
+    "by_evidence_status": {
+      "CONTRADICTED": {
+        "N": 5,
+        "mean": -5.24,
+        "sd": 5.25,
+        "median": -6.38,
+        "iqr": 2.36,
+        "min": -8.89,
+        "max": 3.9
+      },
+      "LEVEL_A_EXACT_TARGET": {
+        "N": 11,
+        "mean": -8.38,
+        "sd": 1.09,
+        "median": -8.72,
+        "iqr": 0.72,
+        "min": -9.86,
+        "max": -5.93
+      },
+      "LEVEL_B_RELATED_ENDPOINT": {
+        "N": 14,
+        "mean": -7.52,
+        "sd": 1.73,
+        "median": -8.03,
+        "iqr": 1.04,
+        "min": -9.37,
+        "max": -3.34
+      },
+      "NO_RELEVANT_REPORT_FOUND": {
+        "N": 41,
+        "mean": -6.57,
+        "sd": 2.77,
+        "median": -7.21,
+        "iqr": 1.51,
+        "min": -9.17,
+        "max": 5.65
+      }
+    },
+    "by_target": {},
+    "correlations": {
+      "ml_prob_vs_docking": {
+        "spearman_rho": 0.204,
+        "p_value": 0.08746562316831658,
+        "N": 71
+      },
+      "nn_sim_vs_docking": {
+        "spearman_rho": -0.219,
+        "p_value": 0.06696929425579173,
+        "N": 71
+      }
+    },
+    "kruskal_wallis": {
+      "statistic": 12.246,
+      "p_value": 0.00658642251411923,
+      "note": "Non-parametric test of docking score distribution across independent evidence classes"
+    }
+  },
+  "output_artifacts": {
+    "data/validation/stage9_docking_cohort.csv": "67CE3F107D3F130E8D061AB790376BC1F5B1F47BE6E0A65E9B857A1BACF7E272",
+    "data/validation/stage9_redocking_validation.csv": "D76837B4C2602924D53DF300A4187016D54395AD2137B5944D3BC2BF3131FE48",
+    "data/validation/stage9_ligand_qc.csv": "0389195504273ADBC3E637865C485A3009105F619FE82F6C287524CF61FE51B5",
+    "data/validation/stage9_docking_results.csv": "FDF92BE5C1F50290E9B802EA298B630BF297424164B5E4EF7F6D706C95A32ECA",
+    "data/validation/stage9_pose_interactions.csv": "83C0907362906A974D06DBAA98A498205D64F414B5BED2E8AC431EC424366131",
+    "data/validation/stage9_binding_sites.csv": "9F3BE41A26F0EFE5158E20AA494CD8F48A624B12D725EBABC9DA3C5F1057DADF",
+    "data/validation/stage9_representative_pose_manifest.csv": "3BDD5445FC274D4D94BF6ED3EA288A4628C8A14A08AD19A05476CA3658FDC51C",
+    "data/processed/modeling/stage9_docking_config_frozen.json": "AE257E6A053A7B1C407A41976474D37D4D23FDE84F96251A7721C1FFDAE10EFC",
+    "figures/stage9_fig6_docking_score_distribution.png": "7D6F2B78A09A12F32A6560F65A02DA3B34443F8BC57E0C31631734A1FECB2782",
+    "figures/stage9_fig7_ml_probability_vs_docking.png": "4C13E1488245B12DC6C0FB11310B615EADE79AADDAD25EA7E14F9806F7A4665F",
+    "figures/stage9_fig8_nn_similarity_vs_docking.png": "99407BD807BC5779FD7B2CD3D0BEE3C731E565E9B0770A42188E42C3287DD359",
+    "figures/stage9_fig9_representative_docking_poses.png": "D142C187DCCF6E969C2967FC64B2EA75FE6283B3F545FF8A4BC053DFC2A66EF3",
+    "docs/stage9_docking_validation_report.md": "19C5E623129EDE46E9586B3A28C03663A666CB72AC08E2CE3846136277EB516D"
+  },
+  "automated_qa": "PASS",
+  "duplicate_run_reproducibility": "PENDING_VERIFICATION"
+}

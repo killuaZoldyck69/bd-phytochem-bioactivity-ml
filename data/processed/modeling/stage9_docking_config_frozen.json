@@ -1,0 +1,177 @@
+{
+  "pipeline_stage": "Stage 9 / 7H",
+  "title": "Structure-Based Docking Validation Configuration",
+  "created_timestamp_utc": "2026-09-30T16:36:52.779701+00:00",
+  "docking_engine": "AutoDock Vina",
+  "engine_version": "AutoDock Vina v1.2.7",
+  "parameters": {
+    "exhaustiveness": 16,
+    "num_modes": 9,
+    "energy_range": 3,
+    "spacing_angstrom": 0.375,
+    "random_seed": 42
+  },
+  "redocking_validation": {
+    "pose_recovery_threshold_rmsd_angstrom": 2.0,
+    "status": "PASS"
+  },
+  "canonical_targets": {
+    "cox1": {
+      "canonical_gene": "PTGS1",
+      "canonical_name": "Prostaglandin G/H synthase 1",
+      "upstream_label": "cox1",
+      "pdb_id": "1EQG",
+      "organism": "Ovis aries",
+      "resolution": 2.61,
+      "method": "X-ray diffraction",
+      "doi": "10.1038/78994",
+      "chain_id": "A",
+      "reference_ligand": "IBP",
+      "reference_ligand_name": "Ibuprofen",
+      "box_center": [
+        26.828,
+        33.484,
+        200.848
+      ],
+      "box_size": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "binding_site_rationale": "Cyclooxygenase active site channel complexed with non-selective NSAID ibuprofen adjacent to Arg120, Tyr355, and Ser530.",
+      "cofactor_handling": "Preserved catalytic heme (HEM) in peroxidase active site.",
+      "raw_pdb_sha256": "B67DE483F2F470A493DEDEC432B3E3700E03448D0A74047B4F168126316AE1E1",
+      "receptor_pdbqt_sha256": "E1AEFACE0A8BD4348094D932F92ADC901AAD05FD948F867F2C68878CF7E54FE5"
+    },
+    "cox2": {
+      "canonical_gene": "PTGS2",
+      "canonical_name": "Prostaglandin G/H synthase 2",
+      "upstream_label": "cox2",
+      "pdb_id": "3NT1",
+      "organism": "Mus musculus",
+      "resolution": 1.73,
+      "method": "X-ray diffraction",
+      "doi": "10.1074/jbc.M110.162289",
+      "chain_id": "A",
+      "reference_ligand": "NPS",
+      "reference_ligand_name": "Naproxen",
+      "box_center": [
+        -40.699,
+        -51.5,
+        -22.4
+      ],
+      "box_size": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "binding_site_rationale": "High-resolution (1.73 A) cyclooxygenase active site pocket complexed with naproxen interacting with Arg120, Tyr355, Val523.",
+      "cofactor_handling": "Preserved catalytic heme (HEM) at the peroxidase site.",
+      "raw_pdb_sha256": "1D5AF5DEC5E48D0F261F99769C248EF29ABB625A09737109D092D6931FE7CDFB",
+      "receptor_pdbqt_sha256": "338C958FFA8AB688B02B54001AF5A06F914A0905C060393B21D433FC4E0F0FC7"
+    },
+    "xo": {
+      "canonical_gene": "XDH",
+      "canonical_name": "Xanthine dehydrogenase/oxidase",
+      "upstream_label": "xo",
+      "pdb_id": "3NVY",
+      "organism": "Bos taurus",
+      "resolution": 2.0,
+      "method": "X-ray diffraction",
+      "doi": "10.1073/pnas.1006846107",
+      "chain_id": "C",
+      "reference_ligand": "QUE",
+      "reference_ligand_name": "Quercetin",
+      "box_center": [
+        39.063,
+        21.898,
+        20.218
+      ],
+      "box_size": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "binding_site_rationale": "Molybdenum-pterin active site cavity complexed with natural flavonoid quercetin interacting with Glu802, Arg880, Phe914.",
+      "cofactor_handling": "Preserved catalytic Mo-pt / molybdopterin domain active site.",
+      "raw_pdb_sha256": "BD6913B63476D24CBD515BAB8DAF9B61741CB290A1BA615F85D4E3B79FCF8E81",
+      "receptor_pdbqt_sha256": "BEDE1FD31A04A627AB59AF25027AC7369A110F72279DC67F5B2B2280741A8C7B"
+    },
+    "maoa": {
+      "canonical_gene": "MAOA",
+      "canonical_name": "Monoamine oxidase A",
+      "upstream_label": "maoa",
+      "pdb_id": "2Z5X",
+      "organism": "Homo sapiens",
+      "resolution": 2.2,
+      "method": "X-ray diffraction",
+      "doi": "10.1073/pnas.0707113105",
+      "chain_id": "A",
+      "reference_ligand": "HRM",
+      "reference_ligand_name": "Harmine",
+      "box_center": [
+        40.582,
+        26.931,
+        -14.54
+      ],
+      "box_size": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "binding_site_rationale": "Substrate/inhibitor cavity of human MAO-A complexed with natural selective alkaloid harmine adjacent to catalytic FAD and Tyr407/Tyr444 aromatic cage.",
+      "cofactor_handling": "Retained covalently bound FAD cofactor as rigid receptor component essential for active-site architecture.",
+      "raw_pdb_sha256": "B4A693A0019A0FC74C132D8595DE67631A95F9B940BD67A56F03EF287517A8BC",
+      "receptor_pdbqt_sha256": "8DD19556B3535267EB3D9D581B24415EF04C89EEC373652FCB71305F2E02CC29"
+    }
+  },
+  "key_catalytic_residues": {
+    "PTGS1": [
+      "ARG120",
+      "TYR355",
+      "TYR385",
+      "ILE523",
+      "SER530",
+      "LEU352",
+      "VAL349",
+      "PHE518"
+    ],
+    "PTGS2": [
+      "ARG120",
+      "TYR355",
+      "TYR385",
+      "VAL523",
+      "SER530",
+      "ARG513",
+      "LEU352",
+      "ALA527"
+    ],
+    "XDH": [
+      "GLU802",
+      "ARG880",
+      "PHE914",
+      "PHE1009",
+      "THR1010",
+      "VAL1011",
+      "LEU873",
+      "GLU1261"
+    ],
+    "MAOA": [
+      "FAD600",
+      "TYR407",
+      "TYR444",
+      "GLN215",
+      "CYS323",
+      "ILE335",
+      "PHE352",
+      "ILE180"
+    ]
+  },
+  "cohort_selection_rules": {
+    "Group A (Exact-Target)": "Exhaustive unique pairs",
+    "Group B (Related Evidence)": "Exhaustive unique pairs",
+    "Group C (Contradicted)": "Exhaustive unique pairs",
+    "Group D (Unreported)": "Top 12 stereochemically resolved pairs per target by Stage 7E computational rank",
+    "Group E (Triangulation)": "Quercetin-3-glucoside / isoquercitrin cross-stage validation"
+  }
+}
