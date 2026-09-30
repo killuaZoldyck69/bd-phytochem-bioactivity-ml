@@ -12,7 +12,7 @@
 - **Scaffold Split:** Bemis-Murcko scaffold grouped cross-validation (acyclic molecules grouped into `'acyclic'`). Grid point selected by mean validation AUPRC.
 - **Pre-Evaluation Freeze:** Model architectures, chosen hyperparameters, probability cutoffs, training content hashes, and environment package versions were frozen and committed to `stage7b_config_frozen.json` before evaluating any external flora labels.
 - **External Set Governance:** External flora molecules were filtered to those with $\ge 1$ HIGH-tier link in `plant_compound_links_confidence.csv`. COX-1 and COX-2 external evaluations are reported purely descriptively (Spearman rank correlation; no AUROC/AUPRC claimed). XO and MAO-A serve as the main quantitative external evaluations (AUROC, AUPRC, and 1,000-resample bootstrap 95% CIs).
-- **Reference Compound Exclusions:** Run (a) executed as-is. Run (b) status: **PENDING USER REVIEW (is_reference_compound unpopulated in external_verification_sheet.csv)**.
+- **Reference Compound Exclusions:** Run (a) executed as-is (N=31, 4 actives). Run (b) executed excluding reference compounds (N=29, 2 actives: Suprofen and Trolox excluded).
 
 ---
 
@@ -53,13 +53,17 @@
 
 ### Summary of External Sets & Performance
 
-| Target | Threshold | Flora Tested (Act/Inact) | Evaluation Protocol | External AUROC [95% CI] | External AUPRC [95% CI] | Spearman Rank rho (p-value) | In-Domain (NN >= 0.4) N (Act) | In-Domain Perf | Out-of-Domain (NN < 0.4) N (Act) | Out-of-Domain Perf |
+| Target & Run | Threshold | Flora Tested (Act/Inact) | Evaluation Protocol | External AUROC [95% CI] | External AUPRC [95% CI] | Spearman Rank rho (p-value) | In-Domain (NN >= 0.4) N (Act) | In-Domain Perf | Out-of-Domain (NN < 0.4) N (Act) | Out-of-Domain Perf |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **COX-1 (PTGS1)** | T=6 | 31 (4/27) | Descriptive (Spearman Rank Correlation) | Descriptive only (no claim) N/A | Descriptive only (no claim) N/A | -0.0686 (7.14e-01) | 19 (3) | -0.2817 | 12 (1) | 0.2028 |
+| **COX-1 Run (a)** [As-Is] | T=6 | 31 (4/27) | Descriptive (Spearman Rank) | Descriptive only (no claim) N/A | Descriptive only (no claim) N/A | -0.0686 (7.14e-01) | 19 (3) | -0.2817 (p=0.243) | 12 (1) | +0.2028 (p=0.527) |
+| **COX-1 Run (b)** [Excl Ref] | T=6 | 29 (2/27) | Descriptive (Spearman Rank) | Descriptive only (no claim) N/A | Descriptive only (no claim) N/A | -0.1912 (3.20e-01) | 18 (2) | -0.4801 (p=0.044) | 11 (0) | +0.4364 (p=0.180) |
 
-> **Governance Protocol Verification:**
-> - **Run (a) (As-Is):** Fully reported above.
-> - **Run (b) (Excluding Reference Compounds):** Status: **Pending user review**. Column `is_reference_compound` in `data/processed/modeling/external_verification_sheet.csv` is currently unpopulated.
+> **Governance Protocol Verification & Delta Report:**
+> - **Run (a) (As-Is):** Evaluated against all 31 non-conflict flora layers with $\ge 1$ HIGH-tier link.
+> - **Run (b) (Excluding Reference Compounds):** Evaluated excluding 2 pharmacological reference standards (`is_reference_compound = 1` in `data/processed/modeling/external_verification_sheet.csv`):
+>   1. `MDKGKXOCJGEUJW` (Suprofen): Approved NSAID reference control (assay: human whole blood, IC50 = 560 nM, pChEMBL = 6.25).
+>   2. `GLEVLJDDWXEYCO` (Trolox): Synthetic antioxidant reference standard (assay: IC50 = 130 nM, pChEMBL = 6.89).
+> - **Run Delta ($\Delta$):** Spearman $\rho$ worsened from -0.0686 to -0.1912 across all compounds, and in-domain $\rho$ worsened from -0.2817 to -0.4801 ($p=0.0437$) because Suprofen was the only active compound correctly predicted with high probability ($0.8367$). The two remaining true actives are natural polyphenols (Moracin M, prob=0.1467; Pterostilbene, prob=0.0900).
 
 ### COX Targets Detailed Predictions vs Measured Potency
 

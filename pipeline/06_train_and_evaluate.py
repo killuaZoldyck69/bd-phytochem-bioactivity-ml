@@ -361,7 +361,15 @@ def run_pipeline(
     print(f"Fetched natural_product flags for {len(molregno_np_map):,} molecules from molecule_dictionary.")
 
     # Targets to process
-    targets_to_run = [dry_run_target] if dry_run else list(TARGET_CONFIGS.keys())
+    if dry_run:
+        if dry_run_target == "remaining":
+            targets_to_run = ["cox2", "xo", "maoa"]
+        elif dry_run_target == "all":
+            targets_to_run = list(TARGET_CONFIGS.keys())
+        else:
+            targets_to_run = [dry_run_target]
+    else:
+        targets_to_run = list(TARGET_CONFIGS.keys())
     thresholds_to_run = [6] if dry_run else [6, 5]
     n_cv_splits = dry_run_folds if dry_run else 5
 
@@ -736,7 +744,15 @@ def run_pipeline(
         "master_mpbd_start_sha256": start_hash,
     }
 
-    config_filename = "stage7b_config_frozen_dryrun.json" if dry_run else "stage7b_config_frozen.json"
+    if dry_run:
+        if targets_to_run == ["cox1"]:
+            config_filename = "stage7b_config_frozen_dryrun.json"
+        elif dry_run_target == "remaining" or set(targets_to_run) == {"cox2", "xo", "maoa"}:
+            config_filename = "stage7b_config_frozen_dryrun_remaining.json"
+        else:
+            config_filename = f"stage7b_config_frozen_dryrun_{'_'.join(targets_to_run)}.json"
+    else:
+        config_filename = "stage7b_config_frozen.json"
     frozen_config_path = OUT_MODELING_DIR / config_filename
     with open(frozen_config_path, "w", encoding="utf-8") as f:
         json.dump(frozen_config, f, indent=2)
@@ -942,6 +958,8 @@ def run_pipeline(
     print("STEP 5: GENERATING PUBLICATION-QUALITY FIGURES (300 DPI)")
     print("=" * 80)
 
+    fig_prefix = "remaining_targets_" if (dry_run and (dry_run_target in ["remaining", "cox2", "xo", "maoa"] and dry_run_target != "cox1")) else ""
+
     # 1. ROC Curves
     plt.figure(figsize=(10, 8), dpi=300)
     for k, data in curves_data.items():
@@ -954,7 +972,7 @@ def run_pipeline(
     plt.title("Receiver Operating Characteristic (Internal Scaffold CV Folds)", fontsize=14, fontweight="bold")
     plt.legend(loc="lower right", fontsize=10)
     plt.grid(True, alpha=0.3)
-    roc_fig_path = FIGURES_DIR / "roc_curves.png"
+    roc_fig_path = FIGURES_DIR / f"{fig_prefix}roc_curves.png"
     plt.tight_layout()
     plt.savefig(roc_fig_path)
     plt.close()
@@ -971,7 +989,7 @@ def run_pipeline(
     plt.title("Precision-Recall Curves (Internal Scaffold CV Folds)", fontsize=14, fontweight="bold")
     plt.legend(loc="upper right", fontsize=10)
     plt.grid(True, alpha=0.3)
-    pr_fig_path = FIGURES_DIR / "pr_curves.png"
+    pr_fig_path = FIGURES_DIR / f"{fig_prefix}pr_curves.png"
     plt.tight_layout()
     plt.savefig(pr_fig_path)
     plt.close()
@@ -990,7 +1008,7 @@ def run_pipeline(
     plt.title("Calibration Reliability Diagrams (10 Bins, Scaffold CV)", fontsize=14, fontweight="bold")
     plt.legend(loc="upper left", fontsize=10)
     plt.grid(True, alpha=0.3)
-    cal_fig_path = FIGURES_DIR / "calibration_plots.png"
+    cal_fig_path = FIGURES_DIR / f"{fig_prefix}calibration_plots.png"
     plt.tight_layout()
     plt.savefig(cal_fig_path)
     plt.close()
@@ -1023,7 +1041,7 @@ def run_pipeline(
         plt.title("External Flora Validation: Predicted Probability vs Measured Potency (COX Targets)", fontsize=13, fontweight="bold")
         plt.legend(loc="upper left", fontsize=10)
         plt.grid(True, alpha=0.3)
-        cox_fig_path = FIGURES_DIR / "cox_external_predicted_vs_measured.png"
+        cox_fig_path = FIGURES_DIR / f"{fig_prefix}cox_external_predicted_vs_measured.png"
         plt.tight_layout()
         plt.savefig(cox_fig_path)
         plt.close()
@@ -1049,7 +1067,7 @@ def run_pipeline(
     plt.title("Applicability Domain: Flora Molecules vs ChEMBL Training Pools", fontsize=13, fontweight="bold")
     plt.legend(loc="upper right", fontsize=10)
     plt.grid(True, alpha=0.3)
-    hist_fig_path = FIGURES_DIR / "flora_nn_similarity_histograms.png"
+    hist_fig_path = FIGURES_DIR / f"{fig_prefix}flora_nn_similarity_histograms.png"
     plt.tight_layout()
     plt.savefig(hist_fig_path)
     plt.close()
@@ -1073,9 +1091,19 @@ def run_pipeline(
         ref_compounds_filled=ref_compounds_filled,
         start_hash=start_hash,
         end_hash=end_hash,
+        fig_prefix=fig_prefix,
     )
 
-    report_path = OUT_QUALITY_DIR / "stage7b_model_report.md"
+    if dry_run:
+        if targets_to_run == ["cox1"]:
+            report_filename = "stage7b_model_report.md"
+        elif dry_run_target == "remaining" or set(targets_to_run) == {"cox2", "xo", "maoa"}:
+            report_filename = "stage7b_remaining_targets_report.md"
+        else:
+            report_filename = f"stage7b_model_report_{'_'.join(targets_to_run)}.md"
+    else:
+        report_filename = "stage7b_model_report.md"
+    report_path = OUT_QUALITY_DIR / report_filename
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_md)
     print(f"\n[REPORT WRITTEN] Saved quality report to {report_path}")
@@ -1097,9 +1125,17 @@ def build_markdown_report(
     ref_compounds_filled: bool,
     start_hash: str,
     end_hash: str,
+    fig_prefix: str = "",
 ) -> str:
     md = []
-    mode_title = f"Stage 7B Dry Run Report (Target: {dry_run_target.upper()})" if dry_run else "Stage 7B Model Training, Internal Validation & External Evaluation Report"
+    if dry_run:
+        if dry_run_target == "remaining" or len(internal_results) > 1:
+            target_title = "Remaining Targets (COX-2, XO, MAO-A)"
+        else:
+            target_title = dry_run_target.upper()
+        mode_title = f"Stage 7B Dry Run Report (Target: {target_title})"
+    else:
+        mode_title = "Stage 7B Model Training, Internal Validation & External Evaluation Report"
     md.append(f"# {mode_title}")
     md.append(f"**Authority:** `docs/thesis_design_note.md` (and logged amendments)  ")
     md.append(f"**Execution Timestamp:** {datetime.datetime.now(datetime.timezone.utc).isoformat()} UTC  ")
@@ -1169,12 +1205,14 @@ def build_markdown_report(
     md.append("| Target | Threshold | Flora Tested (Act/Inact) | Evaluation Protocol | External AUROC [95% CI] | External AUPRC [95% CI] | Spearman Rank rho (p-value) | In-Domain (NN >= 0.4) N (Act) | In-Domain Perf | Out-of-Domain (NN < 0.4) N (Act) | Out-of-Domain Perf |")
     md.append("|---|---|---|---|---|---|---|---|---|---|---|")
     for r in external_results:
+        in_perf = f"{r['in_domain_auroc']} / {r['in_domain_auprc']}" if "in_domain_auroc" in r and r["in_domain_auroc"] != "N/A" else str(r.get("in_domain_spearman", "N/A"))
+        out_perf = f"{r['out_domain_auroc']} / {r['out_domain_auprc']}" if "out_domain_auroc" in r and r["out_domain_auroc"] != "N/A" else str(r.get("out_domain_spearman", "N/A"))
         md.append(
             f"| **{r['target_name']}** | T={r['threshold']} | {r['n_ext']} ({r['n_actives']}/{r['n_inactives']}) | "
             f"{r['metric_type']} | {r['auroc']} {r['auroc_ci']} | {r['auprc']} {r['auprc_ci']} | "
             f"{r['spearman_rho']} ({r['spearman_pval']}) | "
-            f"{r['n_in_domain']} ({r['in_domain_act']}) | {r.get('in_domain_auroc', r.get('in_domain_spearman', 'N/A'))} | "
-            f"{r['n_out_domain']} ({r['out_domain_act']}) | {r.get('out_domain_auroc', r.get('out_domain_spearman', 'N/A'))} |"
+            f"{r['n_in_domain']} ({r['in_domain_act']}) | {in_perf} | "
+            f"{r['n_out_domain']} ({r['out_domain_act']}) | {out_perf} |"
         )
     md.append("")
     md.append("> **Governance Protocol Verification:**")
@@ -1220,11 +1258,11 @@ def build_markdown_report(
     md.append(f"- **Frozen Config SHA-256:** `{frozen_config_sha256}`")
     md.append(f"- **ChEMBL Database Mode:** Strictly read-only (`mode=ro`). Zero disk writes or schema mutations.")
     md.append("- **Generated Figures:**")
-    md.append("  - [`figures/roc_curves.png`](file:///f:/bmppd-thesis/figures/roc_curves.png) (ROC curves per target, 300 dpi)")
-    md.append("  - [`figures/pr_curves.png`](file:///f:/bmppd-thesis/figures/pr_curves.png) (PR curves per target, 300 dpi)")
-    md.append("  - [`figures/calibration_plots.png`](file:///f:/bmppd-thesis/figures/calibration_plots.png) (10-bin calibration diagrams, 300 dpi)")
-    md.append("  - [`figures/cox_external_predicted_vs_measured.png`](file:///f:/bmppd-thesis/figures/cox_external_predicted_vs_measured.png) (Scatter plot of COX predicted probability vs measured pChEMBL, 300 dpi)")
-    md.append("  - [`figures/flora_nn_similarity_histograms.png`](file:///f:/bmppd-thesis/figures/flora_nn_similarity_histograms.png) (Flora vs ChEMBL training pool similarity distribution, 300 dpi)")
+    md.append(f"  - [`figures/{fig_prefix}roc_curves.png`](file:///f:/bmppd-thesis/figures/{fig_prefix}roc_curves.png) (ROC curves per target, 300 dpi)")
+    md.append(f"  - [`figures/{fig_prefix}pr_curves.png`](file:///f:/bmppd-thesis/figures/{fig_prefix}pr_curves.png) (PR curves per target, 300 dpi)")
+    md.append(f"  - [`figures/{fig_prefix}calibration_plots.png`](file:///f:/bmppd-thesis/figures/{fig_prefix}calibration_plots.png) (10-bin calibration diagrams, 300 dpi)")
+    md.append(f"  - [`figures/{fig_prefix}cox_external_predicted_vs_measured.png`](file:///f:/bmppd-thesis/figures/{fig_prefix}cox_external_predicted_vs_measured.png) (Scatter plot of COX predicted probability vs measured pChEMBL, 300 dpi)")
+    md.append(f"  - [`figures/{fig_prefix}flora_nn_similarity_histograms.png`](file:///f:/bmppd-thesis/figures/{fig_prefix}flora_nn_similarity_histograms.png) (Flora vs ChEMBL training pool similarity distribution, 300 dpi)")
     md.append("")
 
     return "\n".join(md)
@@ -1236,7 +1274,7 @@ def build_markdown_report(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Stage 7B: Model Training, Internal CV & External Evaluation")
     parser.add_argument("--dry-run", action="store_true", help="Run a small dry run (one target, T=6, 2 folds only)")
-    parser.add_argument("--dry-run-target", type=str, default="cox1", choices=["cox1", "cox2", "xo", "maoa"], help="Target for dry run (default: cox1)")
+    parser.add_argument("--dry-run-target", type=str, default="cox1", choices=["cox1", "cox2", "xo", "maoa", "remaining", "all"], help="Target for dry run (default: cox1, or 'remaining' for cox2, xo, maoa)")
     parser.add_argument("--dry-run-folds", type=int, default=2, help="Number of folds for dry run (default: 2)")
 
     args = parser.parse_args()
