@@ -1,0 +1,6 @@
+specification,selection_condition,total_N,n_level_a,n_level_e,median_level_a,median_level_e,mannwhitney_u,mannwhitney_p,rank_biserial_r,kruskal_h,kruskal_p
+1. Post-Cutoff Links (Original Section 4.5),"Filtered to prob >= cutoff, strict domain, HIGH links",1167,118,925,0.6744,0.4359,82260.5,2.4994764469996784e-19,-0.5072927164452588,150.0549760272367,2.563935359614966e-32
+2. Post-Cutoff Unique Structures (Deduplicated),Passed model cutoff on at least one target,319,13,286,0.6304,0.45794999999999997,3161.0,1.9595392403404144e-05,-0.7003765465303926,21.972966854676528,6.608144383391101e-05
+3. Pre-Cutoff Unique Structures (Unconditioned Baseline),Independent of cutoff; mean NN across 4 targets,319,13,286,0.49965,0.40612499999999996,2750.0,0.003490769589339947,-0.47928994082840237,15.414476843885772,0.0014946184557953876
+4. Pre-Cutoff Compound-Target Pairs (All 4 Targets),319 structures evaluated across all 4 targets (68% inactive),1276,52,1144,0.4598,0.4167,36490.5,0.005615482955687377,-0.22681885422270032,21.720282759035705,7.458317981978974e-05
+5. Pre-Cutoff Audited Target Pairs (Prioritized Target),Specific target where candidate was prioritized,340,13,304,0.6304,0.45794999999999997,3376.0,1.5231962046615156e-05,-0.7085020242914979,21.472550163308846,8.39746399325904e-05

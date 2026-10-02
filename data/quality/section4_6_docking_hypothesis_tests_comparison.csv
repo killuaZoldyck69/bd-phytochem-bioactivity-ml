@@ -1,0 +1,8 @@
+test_type,target,N_total,k_groups,n_per_tier,kruskal_h,kruskal_p,epsilon_squared,tier_sample_size_flag,interpretation
+Original Pooled (Raw Scores),ALL_TARGETS (Pooled),71,4,"A=11, B=14, C=5, E=41",12.2459,0.00658642251411923,0.138,Adequate pooled sample size (N=71),"Statistically significant (p=0.0066), but potentially confounded across protein binding pockets"
+Within-Target (PTGS1),PTGS1 (COX-1),19,4,"A=2, B=4, C=1, E=12",1.7789,0.6195269051144534,-0.0814,Level A underpowered (N=2); Contradicted underpowered (N=1),Non-significant (p>0.50)
+Within-Target (PTGS2),PTGS2 (COX-2),15,4,"A=1, B=6, C=1, E=7",2.2393,0.5242518189655745,-0.0692,Level A underpowered (N=1); Contradicted underpowered (N=1),Non-significant (p>0.50)
+Within-Target (XDH),XDH (XO),16,3,"A=3, B=2, C=0, E=11",5.8984,0.05238170651267565,0.2999,Level B underpowered (N=2); Contradicted underpowered (N=0),Marginally non-significant trend (p=0.052)
+Within-Target (MAOA),MAOA (MAO-A),21,4,"A=5, B=2, C=3, E=11",6.9157,0.07463371193250895,0.2303,Level B underpowered (N=2),Marginally non-significant trend (p=0.052)
+Target-Normalized Sensitivity: Z-Score,ALL_TARGETS (Z-Score Standardized),71,4,"A=11, B=14, C=5, E=41",8.9441,0.03004389176943363,0.0887,Adequate pooled sample size (N=71),Statistically significant (p=0.0300). Evidence tier effect survives z-score normalization across targets.
+Target-Normalized Sensitivity: Rank-Normalized,ALL_TARGETS (Within-Target Percentile Rank),71,4,"A=11, B=14, C=5, E=41",10.4653,0.014997819128402572,0.1114,Adequate pooled sample size (N=71),Statistically significant (p=0.0150). Evidence tier effect survives non-parametric rank normalization.

@@ -1,0 +1,9 @@
+Target,ChEMBL_TID,ChEMBL_Target_ID,Threshold,1_MPBD_Initial_Unique,2_Fingerprintable_Scope,ChEMBL_Target_Pool_FullKeys,ChEMBL_Target_Pool_ConnLayers,Raw_Full_InChIKey_Overlap,Raw_Conn_Only_Overlap,Raw_Total_Conn_Overlap,3_Overlap_Training_Full_InChIKey,4_Overlap_Training_Conn_Only,5_Remaining_Truly_Held_Out,Training_Pool_ConnLayers,Training_Pool_Unique_Docs,6_HeldOut_With_Qualifying_Label_All,6_HeldOut_With_Qualifying_Label_HighTier,7_Evidence_Independent_Labels_All,7_Evidence_Shared_Pub_Labels_All,7_Evidence_Independent_Labels_HighTier,7_Evidence_Shared_Pub_Labels_HighTier,Survival_Rate_HighTier_Pct
+COX-1,96,CHEMBL221,T=6,7317,7315,1569,1525,19,13,32,0,0,7315,1458,224,32,31,3,29,3,28,9.68
+COX-1,96,CHEMBL221,T=5,7317,7315,1569,1525,19,13,32,0,0,7315,1457,220,32,31,3,29,3,28,9.68
+COX-2,126,CHEMBL230,T=6,7317,7315,4388,4273,13,12,25,0,0,7315,4122,417,23,23,2,21,2,21,8.7
+COX-2,126,CHEMBL230,T=5,7317,7315,4388,4273,13,12,25,0,0,7315,4206,428,23,23,2,21,2,21,8.7
+XO,149,CHEMBL1929,T=6,7317,7315,654,650,23,7,30,0,0,7315,611,60,27,26,4,23,4,22,15.38
+XO,149,CHEMBL1929,T=5,7317,7315,654,650,23,7,30,0,0,7315,617,60,27,26,4,23,4,22,15.38
+MAO-A,86,CHEMBL1951,T=6,7317,7315,3121,2989,33,10,43,0,0,7315,2914,337,42,41,5,37,4,37,9.76
+MAO-A,86,CHEMBL1951,T=5,7317,7315,3121,2989,33,10,43,0,0,7315,2922,341,42,41,5,37,4,37,9.76
